@@ -1,0 +1,246 @@
+---
+title: "Scientific Research and Methodology: Tutorials"
+subtitle:  "An introduction to quantitative research and statistics in science, engineering and health: Tutorials"
+author: "Peter K. Dunn"
+geometry: margin=27mm
+description: "TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)"
+cover-image: "images/cover-Tutorial.png"
+date: "Last updated: `r  format(Sys.time(), '%B %d, %Y')`"
+bibliography: ["ReferenceList.bib"]
+#biblio-style: plain
+csl: journal-of-applied-animal-science.csl
+link-citations: yes  
+documentclass: krantz
+links-as-notes: true
+site: bookdown::bookdown_site
+colorlinks: yes
+#lot: no
+#lof: no
+fontsize: 11pt
+monofont: "Source Code Pro"
+monofontoptions: "Scale=0.7"
+---
+
+
+```{r echo=FALSE, results='asis'}
+options(knitr.kable.NA = '')
+knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}', '\\usepackage{xcolor}', x, fixed = TRUE)})
+```
+
+# Preface {-}
+
+<!-- TO RENDER -->
+<!-- # render_book("index.Rmd") -->
+<!-- # render_book("index.Rmd", "bookdown::pdf_book") -->
+<!-- # render_book("index.Rmd"); render_book("index.Rmd", "bookdown::pdf_book") -->
+
+<!--  TO PUBLISH ON BOOKDOWN:  -->
+<!-- publish_book(name="SRM-tutorials") -->
+
+
+
+<!-- THIS MIGHT WORK:    -->
+<!-- render_book("index.html", "bookdown::word_document2")      -->
+
+<!-- Then: netlify deploy --build . --prod -->
+
+
+<!-- This seems to work to find non-ASCII characters:  perl -ane '{ if(m/[[:^ascii:]]/) { print  } }' *.Rmd  -->
+<!--   BETTER:  pcregrep --color='auto' -n "[\x80-\xFF]" *.Rmd  -->
+<!-- From the _book directory: netlify deploy --prod -->
+
+
+
+
+<!-- # It seems that figures default to:  -->
+<!-- #     fig.width=7 (inches) and fig.height = 5 (inches) -->
+<!-- #  -->
+
+
+
+This book has been prepared for use with the book 
+`r if (knitr::is_latex_output()) {
+   'Scientific Research and Methodology,'
+} else {
+   '[Scientific Research and Methodology](https://bookdown.org/pkaldunn/Book/),'
+}`
+which is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
+
+This course introduces the whole research process,
+from asking a research question to analysis and reporting of the data.
+The focus, however, is on the analysis of data.
+
+
+
+
+
+## Answers to questions {-}
+
+The answers to most of the **Optional** tutorial questions 
+are given in App.&nbsp;\@ref(OptionalAnswers).
+
+Some answers are implied by working through the online exercises.
+Tutors have answers to almost all questions.
+
+
+
+
+
+
+## Statistical software {-}
+
+Most of this book can be read without relying on any specific statistical software.
+However,
+some parts explicitly mention and refer to [jamovi](https://www.jamovi.org/) 
+[@Software:jamovi]
+and/or
+[SPSS](https://www.ibm.com/products/spss-statistics)
+[@Software:SPSS].
+
+jamovi is *free* and is like (but not exactly the same as) SPSS:
+
+> jamovi is a new '3rd generation' statistical spreadsheet. 
+> designed from the ground up to be easy to use, 
+> jamovi is a compelling alternative 
+> to costly statistical products such as SPSS and SAS.
+>
+> --- From the jamovi homepage (https://www.jamovi.org/)
+
+
+
+
+
+
+
+## Icons used on this book {-}
+
+The icons used in this book have meanings; for example:
+
+```{block2, type="rmdobjectives"}
+These chunks introduce the objectives for the chapters of the book.
+```
+
+
+
+```{block2, type="rmdimportant"}
+These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+```
+
+
+
+```{block2, type="rmdtip"}
+These chunks offer helpful information.
+```
+
+
+
+
+## How this book was made {-}
+
+This book was made using
+**R**
+[@Software:Rsoftware],
+and the **bookdown** package
+[@Software:Rbookdown],
+which is based on [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax,
+using **knitr**
+[@package:knitr].
+Numerous other **R** packages were used too:
+
+* The diagrams were made in base **R**,
+  or using the **diagram** package [@Rpackage:diagram].
+* The **kableExtra** package was used for nicer tables
+  [@package:kableExtra].
+* The map in Sect. \@ref(SamplingParking) (interactive in the online version) is made using the **leaflet** package [@package:leaflet].
+* Some data tables in the online version are displayed using the **DT** package
+  [@package:DT].
+* Some plots use the **plotrix** package
+  [@package:plotrix].
+* The NHANES data is provided by the **NHANES** package
+  [@data:NHANES:Rpackage].
+* Some data are from the **GLMsData** package
+  [@computing:GLMsData:Rpackage].
+* The **viridis** package is used for some colour specifications
+  [@package:viridis] to make colours easier for those with colour-blindess to distinguish colours,
+  and for better greyscale printing.
+* The **webex** package was used to create the interactive web exercises
+  [@package:webex].
+
+All of this software is *free* and open source.
+
+Other resources used include:
+
+* The online quizzes are embedded using [H5P](https://h5p.org) iframes.
+* Icons are from [**iconmonstr**](https://iconmonstr.com/) 
+  and are freely available.
+* The text folding (in the online version) was implemented by adapting advice
+  from [StackOverflow](https://stackoverflow.com/questions/53810294/folding-general-text-in-r-bookdown).
+* The polling in the online book is provided by [Ferendum](https://www.ferendum.com/en/).
+* The cover for the book was made using a free image with [Canva](https://www.canva.com/).
+
+
+
+
+
+<!-- ## Disqus {-} -->
+
+<!-- At the bottom of each page of the **online** version of this book -->
+<!-- is a place where you can comment or ask questions. -->
+<!-- This is managed by -->
+<!-- [Disqus](https://disqus.com/). -->
+
+<!-- We try to keep the discussions on-topic, spam-free and abuse-free. -->
+<!-- The comment section can be a great place for interaction with other students and the book author. -->
+
+<!-- When commenting, -->
+<!-- please adhere to the following guidelines: -->
+
+<!-- * **Be polite**: Don't be rude to anyone, and respect others.  -->
+<!-- * **Don't troll**: Criticism and notification of errors are welcome, but be respectful. -->
+<!-- * **No spam**: Please stay on topic. -->
+
+<!-- If you don’t follow all these guidelines,  -->
+<!-- your comment will be removed, -->
+<!-- and you may be banned from participating in discussions. -->
+
+<!-- If you find any comments violating these guidelines,  -->
+<!-- please 'flag' them so we can delete them. -->
+
+<!-- Please note that: -->
+
+<!-- * All comments are moderated. -->
+<!-- * Links to external sites are not allowed. -->
+<!-- * You do not currently need to be a registered user of Disqus to leave a comment.  -->
+<!--   This may change. -->
+
+
+
+
+
+
+## Learning Outcomes {-}
+
+	
+In this book,
+you will learn to:
+
+
+* Develop quantitative research questions and testable hypotheses.
+* Design quantitative studies to answer simple quantitative research questions.
+* Select and produce appropriate graphical, numerical and statistical analyses.
+* Select, apply and interpret the results of the correct statistical technique to analyse data.
+* Comprehend, apply and communicate in the language of research and statistics.
+* Demonstrate professional integrity in planning, interpreting and reporting the results of quantitative studies.
+
+
+
+
+
+
+
+
+## How to cite this book {-}
+
+Peter K. Dunn (2019). *Scientific Research Methods: Tutorials*.
+https://bookdown.org/pkaldunn/SRM-tutorials/index.html
+

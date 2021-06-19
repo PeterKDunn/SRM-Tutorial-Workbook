@@ -1,0 +1,16 @@
+# Teaching Week 8: tutorial  {#LectureBreakWeek}
+
+```{block2, type="rmdobjectives"}
+Teaching Week 8 is a *break week*.
+  
+There is no new content, and no classes.
+```
+
+
+```{block2, type = "rmdimportant"}
+Please note:
+This applies to SCI110, and probably not to any other course.
+```
+
+
+

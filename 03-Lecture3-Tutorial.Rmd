@@ -1,0 +1,361 @@
+# Teaching Week 3: tutorial {#Lecture3}
+
+
+```{block2, type="rmdobjectives"}
+**Topics** covered in this tutorial:
+
+* Language used in research.
+* Graphical summaries.
+
+```
+
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+
+* [Chapter 11 (Describing data)](https://bookdown.org/pkaldunn/Book/DescribingVars.html).
+* [Chapter 12 (Graphical summaries of data)](https://bookdown.org/pkaldunn/Book/Graphs.html).
+
+
+
+## Understanding histograms {#UnderstandingHistograms}
+
+
+
+<iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+```{block2, type="rmdimportant"}
+**NOTE**: The first bar of the histogram is not necessarily at zero; 
+it is the **shape** of the histogram that is of interest here:
+right skewed, left skewed, symmetric, etc.
+```
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q1.Rmd'}
+```
+
+
+
+
+<!-- 1. The time that students remain in the examination room for a two-hour examination. -->
+<!-- 2. The heights of female students at USC. -->
+<!-- 3. The *starting* salaries of new science graduates employed full-time. -->
+<!-- 4. The volume of drink in 375ml cans of soft drink. -->
+<!-- 5. Sale prices of houses in Caloundra last year. -->
+
+
+<!-- ```{r FourHistogramApplication, echo=FALSE, fig.cap="Four histograms.  What might they represent?", fig.align="center", fig.height=6, fig.width=5} -->
+<!-- ### Makes a grid of four plots, to assign meaning to -->
+
+<!-- set.seed(8765432) -->
+
+<!-- SS <- 5000 -->
+
+<!-- xA <- runif(SS, min=0, max=400) -->
+<!-- xC <- rgamma(SS, 3, 2) -->
+
+<!-- #xBtmp <- rgamma(SS, 3, 2) -->
+<!-- xB <- -abs( rnorm(SS, 0, 10) ) -->
+
+<!-- # xB <- max(xBtmp) - xBtmp -->
+<!-- xD <- rnorm(SS, mean=177, sd=7) # EG Heights of male students at USC -->
+
+
+<!-- par(mfrow=c(2,2)) -->
+<!--    hist(xA, -->
+<!--         main="Graph A", -->
+<!--         xlab="Variable", -->
+<!--         ylab="Frequency", -->
+<!--         col="wheat", -->
+<!--         axes=FALSE) -->
+<!--     #box() -->
+
+<!--    hist(xB, -->
+<!--         main="Graph B", -->
+<!--         xlab="Variable", -->
+<!--         ylab="Frequency", -->
+<!--         col="wheat", -->
+<!--         axes=FALSE) -->
+<!--   #box() -->
+<!--    hist(xC, -->
+<!--         main="Graph C", -->
+<!--         xlab="Variable", -->
+<!--         ylab="Frequency", -->
+<!--         col="wheat", -->
+<!--         axes=FALSE) -->
+<!--   #box() -->
+
+<!--    hist(xD, -->
+<!--         main="Graph D", -->
+<!--         xlab="Variable", -->
+<!--         ylab="Frequency", -->
+<!--         col="wheat", -->
+<!--         axes=FALSE) -->
+<!--   #box() -->
+<!-- ``` -->
+
+
+
+
+
+
+
+## Identifying appropriate graphs {#IdentifyingGraphs1}
+
+In each of the following,
+determine and justify the most appropriate graph 
+for displaying the *relationship* of interest.
+In addition,
+draw a rough example of what the graph may look like.
+
+
+1. Meadowfoam is a plant from which oil can be extracted from its flowers, 
+   so maximising flowering is important.  
+   
+   A study [@data:seddigh:flowers]
+   examined many individual meadowfoam plants 
+   and explored the relationship between
+   the number of flowers each plant produced,
+   and the number of hours of light each plant received.
+   
+   
+<iframe src="https://usc.h5p.com/content/1291014902846391579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+2. Early in the 21st century,
+   moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
+   However,
+   some people thought this was unnecessary,
+   as they believed that exposure to second-hand smoke was minimal.  
+   
+   To study this phenomenon and to inform public policy,
+   a New Zealand observational study [@data:Stafford2010:Alfresco]
+   examined numerous al fresco (open air) restaurants.  
+   
+   They collected two pieces of information from each individual restaurant:
+   the number of smokers present at the restaurant at the time of observation
+   (restaurants with no smokers;
+   restaurants with one smoker;
+   restaurants with two or more smokers),
+   and the concentrations of fine particulate matter (PM)  measured in the restaurant air
+   at the same time.
+   The researchers wish to compare the PM concentrations 
+   across the three groups.
+   
+<iframe src="https://usc.h5p.com/content/1291014905631385249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+   
+   
+3. To understand the usage of hospital emergency departments (EDs) in Ireland,
+   a study [@data:Curran2011.Stroke]
+   examined many individual admissions.  
+   
+   For each admission to the ED,
+   they recorded 
+   if the waiting time was short (within 3 hours) or long (3 hours or longer),
+   and the time of day of the admission
+   (in three divisions: 9am to 5pm; 5pm to midnight; and midnight to 9am).
+
+
+<iframe src="https://usc.h5p.com/content/1291014908484867689/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+4. Stress in children is not as well understood as stress in adults.  
+
+   To examine the issue,
+   a study [@data:Saunders1999:Playfulness]
+   studied many children,
+   and for each child they determined 
+   each child's level of playfulness 
+   (measured using a quantitative scale called the *Test of Playfulness*)
+   and each child's level of 'coping'
+   (measured using a quantitative scale called the *Coping Inventory*).
+
+<iframe src="https://usc.h5p.com/content/1291014912258524999/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+## Interpreting graphs {#InterpretingGraphs}
+
+A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, body length.
+A histogram of the body length of 90 female seals is shown in 
+Fig. \@ref(fig:Bryden1984Fig3b).
+
+1. Describe this histogram in words (average; variation; shape; outliers).
+2. What alternative graphical displays could be used to display these data?
+3. Critique the graph.
+
+
+```{r Bryden1984Fig3b, echo=FALSE, fig.cap="A histogram of the body length of female Weddell seals", fig.align="center", out.width='60%'}
+knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
+```
+
+
+
+
+
+
+
+
+## Critiquing students' graphs {#CritiqueStudentGraphs1}
+
+In this activity,
+you get to critique actual Project submissions,
+so you can critique your own before submission.
+
+1. Critique the graph in 
+	 Fig. \@ref(fig:StudentsGraphsA),
+	 a screenshot from a student Project Report
+	 comparing the average burn time
+	 between two brands of sparklers.
+
+
+```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+knitr::include_graphics("ProjectImages/BareBoxplot.png")
+```
+
+2. Critique the graph in 
+	 Fig. \@ref(fig:StudentsGraphsB),
+	 a screenshot from a student Project Report
+	 comparing the average burn time 
+   of room-temperature and refrigerated candles.
+	 
+
+```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
+knitr::include_graphics("ProjectImages/DodgyBar.png")
+```
+
+
+
+3. Critique the graph in
+	 Fig. \@ref(fig:StudentsGraphsC),
+	 a screenshot from a student Project Report
+	 comparing the 'mean dissolve' time
+	 (they probably meant 'mean *dissolving* time') 
+	 of Panadol in room temperature and cold water.
+	 Identify ways to improve the graph.
+
+
+```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+knitr::include_graphics("ProjectImages/WrongBar.png")
+```
+
+
+
+
+
+## **Optional**: Understanding graphs {#HistogramBars}
+
+*(Answers are available in Sect. \@ref(Lecture3Answers))*
+
+Explain the important differences between a bar chart and a histogram.
+
+
+
+
+
+## **Optional**: Selecting graphics {#SelectingGraphsH5P}
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+}`
+
+<iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q6.Rmd'}
+```
+
+
+
+
+## **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
+
+*(Answers are available in Sect. \@ref(Lecture3Answers))*
+
+A study of the impact of ants on plant communities [@data:Sankovitz2018:nests]
+produced the boxplot in Fig. \@ref(fig:Sankovitz2018),
+showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
+
+
+```{r Sankovitz2018, echo=FALSE, fig.align="center", fig.cap="A graphic from Sankovitz et al. (2018", out.width='70%'}
+include_graphics("ArticleImages/Sankovitz2018.png")
+```
+
+
+1. Identify the type of study: experimental or observational.
+2. Identify the units of observation, and the units of analysis.
+3. Critique this graph.
+4. Do you think that a real difference exists between plant coverage at different locations around the ant nest? What other interesting features can be seen from the graph?
+
+
+
+
+
+## **Optional**: Evaluating graphics {#EvaluateGraphs1}
+
+*(Answers are available in Sect. \@ref(Lecture3Answers))*
+
+An Australian study [@data:Jennings2012:Morphine]
+studied patients in severe pain
+and compared two different treatments to determine which to recommend.
+
+Patients were randomly allocated to receive one of two pain treatments:
+either morphine, or morphine and ketamine.
+
+The pain reduction for each patient was then measured
+(using the 'pain verbal numeric rating scale':
+0 is no pain, and 10 the worst pain imaginable, such as Australia losing the Ashes),
+by taking pain measurements before and after giving the treatment.
+
+The graph in Fig. \@ref(fig:Jennings2012)
+summarises the data.
+   
+```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department", out.width='80%'}
+include_graphics("ArticleImages/Jennings2012-Fig2.png")
+```
+
+1. Identify the type of study: experimental or observational.
+2. Identify the units of observation, and the units of analysis.
+3. Critique this graph.
+4. What do you think the negative numbers on the graph mean?
+5. Do you think that a real difference exists between the two treatments *in the population*? Explain
+
+
+
+
+
+
+## **Optional**: Understanding graphics {#UnderstandGraphsPizza}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+}`
+
+<iframe src="https://usc.h5p.com/content/1290973189768027779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q8.Rmd'}
+```
+
+
+
+
+
+
+## **Optional**: Selecting graphs {#SelectGraph1}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+}`
+
+<iframe src="https://usc.h5p.com/content/1290973176373971849/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q9.Rmd'}
+```
+
+
+
+	
