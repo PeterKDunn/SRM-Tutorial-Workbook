@@ -1,0 +1,7 @@
+
+The following data sets are available for download.
+
+Data sets                  |  Example reference              | SPSS format           |    `csv` format
+:--------------------------+:--------------------------------+-----------------------+-------------------------------:
+Maturation data            | Sect. \@ref(OddsSoftware)       |   |  [Maturation.csv](./Data/Maturation.csv)
+Pizza diameters            | Sect. \@ref(HTOneMean-A)        |   |  [PizzaSize.csv](./Data/PizzaSize.csv)

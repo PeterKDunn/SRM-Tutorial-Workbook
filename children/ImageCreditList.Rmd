@@ -1,0 +1,99 @@
+
+* Image of the softdrinks (Sect. \@ref(FormingRQs)):
+  Photo by 
+  [PhotoMIX Company](https://www.pexels.com/@wdnet?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/beer-bubble-celebration-cocktail-104509/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a man drinking coffee (Sect. \@ref(CreateRQs)):
+  Photo by
+  [nappy](https://www.pexels.com/@nappy?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+  from 
+  [Pexels](https://www.pexels.com/photo/man-sitting-in-front-of-round-table-while-sipping-from-white-ceramic-mug-936019/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of bamboo (Sect. \@ref(Units); Sect. \@ref(StatsMode)):
+  Photo by 
+  [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/bamboo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of arm (Sect. \@ref(LanguageReport)):
+  Photo by
+  [ThisisEngineering](https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/robotic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText")
+
+* Image of chips (Sect. \@ref(StudyFeatures)):
+  Photo by 
+  [Emiliano Vittoriosi](https://unsplash.com/@emilianovittoriosi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/crisps?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of girl heading a soccer ball (Sect. \@ref(TwoWayTables)):
+  Photo by 
+  [Pixabay](https://www.pexels.com/@pixabay)
+  on
+  [Pexels](https://www.pexels.com/photo/action-active-activity-adolescent-264384/)
+
+* Image of jellyfish (Sect. \@ref(UnderstandingBoxplots)):
+  Photo by 
+  [Jeffrey Hamilton](https://unsplash.com/@pistos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/jellyfish?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of matchbox (Sect. \@ref(ConceptsMatches)):
+  Photo by 
+  [John Finkelstein](https://www.pexels.com/@john-finkelstein-680076?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/redheads-matches-handy-pack-1602905/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a pizza (Sect. \@ref(HTOneMean-A); Sect. \@ref(CIPizzas)):
+  Photo by 
+  [Aurélien Lemasson-Théobald](https://unsplash.com/@aurel__lens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/pizza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+
+* Image of a rat (Sect. \@ref(CIRatLifetimes); Sect. \@ref(HT-TwoMeans-A)):
+  Photo by 
+  [Alexas Fotos](https://www.pexels.com/@alexasfotos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/brown-rat-eating-food-2189599/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a girl with thumbs down (Sect. \@ref(OddsSoftware)):
+  Photo by 
+  [Thomas Park](https://unsplash.com/@thomascpark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/silly?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of amputee (Sect. \@ref(TestsPairedImplants); Sect. \@ref(CIImplant)):
+  Photo by 
+  [ShotPot](https://www.pexels.com/@shotpot?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/man-in-red-t-shirt-and-black-shorts-standing-on-treadmill-4046557/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a sub sandwich (Sect. \@ref(MatchRQHypothesis)):
+  Photo by
+  [Raphael Nogueira](https://unsplash.com/@phaelnogueira?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/sub?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  
+* Image of athlete with artificial limb (Sect. \@ref(TestsForORs)):
+  Photo by 
+  [Anna Shvets](https://www.pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+  from 
+  [Pexels](https://www.pexels.com/photo/happy-woman-with-leg-prosthesis-on-stadium-5068676/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a car (Sect. \@ref(InterpretRegressions)):
+  Photo by 
+  [Angga Pratama](https://unsplash.com/@negative1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/toyota?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of concrete cracking (Sect. \@ref(CIConcrete)):
+  Photo by 
+  [Andrew Buchanan](https://unsplash.com/@photoart2018?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on 
+  [Unsplash](https://unsplash.com/s/photos/concrete-crack?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  
+

@@ -1,0 +1,209 @@
+### Part a
+
+Fill in the blanks in this piece of text,
+using words and phrases from Table \@ref(tab:Words1Table).
+   
+
+   
+> * The decision-making process begins with making an assumption about the population _____.
+> * This means we know what to _____ from the sample _____. 
+> * We never know exactly what value of the statistic we will see in the sample, because of _____. 
+> * But we can have some of idea of what values are reasonable to expect.
+> * Then we take the _____ (that is, we make the observations).
+> * Then we _____ what the sample statistic that we observed... to the sample statistic we expected.
+> * If what we observe is inconsistent with what was expected, then the the assumption is _____ true.
+> * However, if what we observe is _____ with what was expected, then the the assumption is _____ true.
+
+
+
+```{r Words1Table, echo=FALSE}
+Words1 <- array( "", dim=c(3, 3))
+
+Words1[1, ] <- c("compare", "probably", "expect")
+Words1[2, ] <- c("unlikely to be", "sample", "parameter")
+Words1[3, ] <- c("sampling variation", "statistic", "consistent")
+
+
+if( knitr::is_latex_output() ) {
+  kable(Words1,
+      format = "latex",
+      align = "c",
+      booktab = TRUE,
+      caption = "Words and phrases to insert") %>%
+  kable_styling(full_width=FALSE)
+}
+```
+
+
+### Part b
+
+Locate the correct boxes in the **decision-making process** to place the words and phrases given in Table&nbsp;\@ref(tab:Words2Table).
+
+
+
+```{r Words2Table, echo=FALSE}
+Words2 <- array( "", dim=c(2, 3))
+
+Words2[1, ] <- c("Observation of sample statistics",
+                 "Expectation: sample statistic",
+                 "Consistent")
+Words2[2, ] <- c("Assumption: population parameter",
+                 "Yes: Suppports assumption",
+                 "No: Suppports assumption")
+
+
+
+if( knitr::is_latex_output() ) {
+  kable(Words2,
+      format = "latex",
+      align = "c", 
+      booktab = TRUE,
+      caption = "Words and phrases to insert into the decision-making process") %>%
+  kable_styling(full_width=FALSE)
+}
+```
+
+
+
+
+```{r DecisionFlowBlanks, echo=FALSE, fig.cap="A way to make decisions for the cards example", fig.align="center", fig.width=6.5, fig.height=3, out.width="85%"}
+
+par( mar=c(0.15, 0.15, 0.15, 0.15))
+openplotmat()
+
+pos <- array(NA, dim=c(6, 2))
+pos[1, ] <- c(0.10, 0.85) # Assumption
+pos[2, ] <- c(0.40, 0.85) # Expectation
+pos[3, ] <- c(0.40, 0.15) # Observation
+pos[4, ] <- c(0.40, 0.50) # Consistency?
+pos[5, ] <- c(0.80, 0.85) # YES
+pos[6, ] <- c(0.80, 0.15) # NO
+
+straightarrow(from=pos[1,], to=pos[2,], 
+            #segment = c(0.4, 0.6),
+            lty=1, 
+            lwd=2)
+straightarrow(from=pos[4,], to=pos[2,], 
+            lcol="black",
+           lty=2,
+            lwd=2)
+straightarrow(from=pos[4,], to=pos[3,], 
+#            curve = 0.8,
+            arr.pos=0.5, # Then cover with box
+           lty=2)
+#straightarrow(from=pos[4,], to=pos[5,], 
+#            lcol=grey(0.4),
+##            curve = -0.8,
+#            arr.pos=0.5, # Then cover with box
+#            #segment = c(0.25, 0.75),
+#            lty=2)
+curvedarrow(from=pos[4,] + c(0, 0.065), to=pos[5,], 
+            curve = 0.35,
+            arr.pos=0.5, # Then cover with box
+            #segment = c(0.25, 0.75),
+            lty=2)
+curvedarrow(from=pos[4,] - c(0, 0.065), to=pos[6,] , 
+            curve = -0.35,
+            arr.pos=0.5, # Then cover with box
+            #segment = c(0.25, 0.75),
+            lty=2)
+#straightarrow(from=pos[4,], to=pos[6,], 
+#            lcol=grey(0.4),
+##            curve = -0.8,
+#            arr.pos=0.5, # Then cover with box
+#            #segment = c(0.25, 0.75),
+#            lty=2)
+
+#points( mean(pos[2:3, 1]), 0.23, pch="\u2714", cex=2, col="grey") # CHECKMARK
+#points( mean(pos[2:3, 1]), 0.8,  pch="\u2718", cex=2, col="grey") # CROSS
+#text( mean(pos[2:3, 1]), 0.29, "If yes", col="grey") # CHECKMARK
+#text( mean(pos[2:3, 1]), 0.73,  "If no", col="grey") # CROSS
+textrect( pos[4, ],
+          radx=0.11,
+          rady=0.1,
+          shadow.size=0,
+          lcol="snow2",
+          box.col="snow2",
+          lab="Decision",
+          col=grey(0)) # CHECKMARK
+textrect( pos[5, ], 
+          radx=0.11,
+          rady=0.1,
+          shadow.size=0,
+          lcol="darkseagreen2",
+          box.col="darkseagreen2",
+          lab="(Conclusion A)", 
+          col=grey(0.5)) # CROSS
+textrect( pos[6, ], 
+          radx=0.11,
+          rady=0.1,
+          shadow.size=0,
+          lcol="darksalmon",
+          box.col="darksalmon",
+          lab="(Conclusion B)", 
+          col=grey(0.5)) # CROSS
+
+textrect( pos[1,], 
+          lab="(Step 1)",
+          radx=0.11,
+          rady=0.1,
+          shadow.size=0,
+          lcol="slategray1",
+          box.col="slategray1",
+           cex=1, 
+          col=grey(0.5))
+textrect( pos[2,], 
+          lab="(Step 2)", 
+          radx=0.11,
+          rady=0.1,
+          shadow.size=0,
+          lcol="slategray2",
+          box.col="slategray2",
+           cex=1, 
+          col=grey(0.5))
+textrect( pos[3,], 
+          box.col="slategray3",
+          lcol="slategray3",
+          shadow.size=0,
+          radx=0.11,
+          rady=0.1,
+          lab="(Step 3)",
+          cex=1, 
+          col=grey(0.5))
+
+```
+
+
+
+
+### Part c
+
+Fill in the blanks in this piece of text,
+using words and phrases from Table \@ref(tab:Words3Table).
+
+> * Suppose I wish to see if a six-sided die is fair.
+> * My _____ would be that the proportion of odd numbers is 0.5. This value is a ______.
+> * The _____ would be "the proportion of odd numbers in the sample".
+> * We would _____ that the value of the statistic would be near 0.5 (but maybe not exactly 0.5).
+> * If I roll the die 100 times and observe **53** odd numbers, this seems _____ with what I would expect if the assumption was true.
+> * If I roll the die 100 times and observe **zero** odd numbers, this seems _____ with what I would expect if the assumption was true.
+
+
+```{r Words3Table, echo=FALSE}
+Words3 <- array( "", dim=c(2, 3))
+
+Words3[1, ] <- c("assumption", "consistent", "inconsistent")
+Words3[2, ] <- c("statistic", "expect", "parameter")
+
+
+if( knitr::is_latex_output() ) {
+  kable(Words3,
+      format = "latex",
+      booktab = TRUE,
+      align = "c",
+      caption = "Words and phrases to insert") %>%
+  kable_styling(full_width=FALSE)
+}
+```
+
+

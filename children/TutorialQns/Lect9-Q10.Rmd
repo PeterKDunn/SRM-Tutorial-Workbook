@@ -1,0 +1,102 @@
+Suppose a researcher 
+wishes to study the mean amount of water used per camper $\mu$ at a campsite in 
+a national park, 
+comparing Spring (S) and Autumn (A):
+
+* $H_0$: $\mu_S  =  \mu_A$ versus 
+* $H_1$: $\mu_S \ne \mu_A$.
+
+A random sample is taken of 
+53 days from Spring and 42 days from Autumn.
+The researcher was checking her assumptions,
+and drew a boxplot using software. 
+   
+1. Suppose the boxplots look like that shown in Fig.&nbsp;\@ref(fig:BoxplotsCampers) Plot&nbsp;A;
+   are the assumptions satisfied?
+2. Suppose the boxplots look like that shown in
+   Fig.&nbsp;\@ref(fig:BoxplotsCampers) Plot&nbsp;B;
+   are the assumptions satisfied?
+3. Suppose the boxplots look like that shown in
+   Fig.&nbsp;\@ref(fig:BoxplotsCampers) Plot&nbsp;C;
+   are the assumptions satisfied?
+4. Suppose the boxplots look like that shown in
+   Fig.&nbsp;\@ref(fig:BoxplotsCampers) Plot&nbsp;D;
+   are the assumptions satisfied?
+
+
+
+
+```{r BoxplotsCampers, echo=FALSE, fig.cap="Four different boxplots; which one would mean that assumptions are satisfied?", fig.width=6, fig.height=6, fig.align="center", out.width="80%"}
+par( mfrow=c(2,2))
+
+set.seed(982368236)
+n1 <- 183
+n2 <- 212
+
+g <- c( rep(1, n1), rep(2, n2) )
+
+
+
+### Part a
+x1 <- rgamma(n = n1, shape=1)
+x2 <- rgamma(n = n2, shape=1.5)
+x <- c( x1, x2)
+
+boxplot(x ~ g,
+        ylim=c(0,4.5),
+        main = "Plot A",
+        xlab="",
+        col=plot.colour,
+        ylab="Water use (L) per person",
+        names=c("Spring", "Autumn"),
+        las=1)
+  
+  
+### Part b
+x1 <- rnorm(n = n1, mean =2, sd = 0.5)
+x2 <- rnorm(n = n2, mean = 1.5, sd = 0.45)
+x <- c( x1, x2)
+
+boxplot(x ~ g,
+        ylim=c(0, 4.5),
+        main = "Plot B",
+        xlab="",
+        col=plot.colour,
+        ylab="Water use (L) per person",
+        names=c("Spring", "Autumn"),
+        las=1)
+
+
+
+### Part c
+x1 <- rnorm(n = n1, mean =2, sd = 0.5)
+x2 <- rgamma(n = n2, shape = 1)
+x <- c( x1, x2)
+
+boxplot(x ~ g,
+        ylim=c(0, 4.5),
+        main = "Plot C",
+        xlab="",
+        col=plot.colour,
+        ylab="Water use (L) per person",
+        names=c("Spring", "Autumn"),
+        las=1)
+
+
+
+### Part d
+x1 <- rgamma(n = n1, shape = 0.6, scale = 2)
+x2 <- rgamma(n = n2, shape = 1, scale=1)
+x <- c( x1, x2)
+
+boxplot(x ~ g,
+        ylim=c(0, 4.5),
+        main = "Plot D",
+        xlab="",
+        col=plot.colour,
+        ylab="Water use (L) per person",
+        names=c("Spring", "Autumn"),
+        las=1)
+```
+
+

@@ -1,0 +1,23 @@
+1. A lecturer wishes to compare the average blood alcohol concentrations in two of her classes.
+   She measures  the blood alcohol concentrations of students in two of her Monday morning classes.  
+
+   What type of study is this?
+	 
+    a. Observational study.
+    b. Experimental study.
+    c. Quasi-experimental study.
+
+  
+2. A lecturer wishes to compare the average blood alcohol concentrations in two of her classes, 
+   to determine if knowing in advance leads to different mean blood alcohol concentrations.  
+
+   She informs one class on a Friday that she will be measuring the blood alcohol concentrations in students on a Monday morning, 
+   but does not tell another of her Friday classes.  
+
+   What type of study is this?
+	 
+    a. Observational study.
+    b. Experimental study.
+    c. Quasi-experimental study.
+  
+  
