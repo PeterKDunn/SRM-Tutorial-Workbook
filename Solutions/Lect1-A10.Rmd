@@ -1,0 +1,9 @@
+**1.** The *population* is: *a.* 2-year-old infants in Cincinnati.
+**2.** The *outcome*: *c.* The average of the indexes of the 2-year neurobehavioural development.
+**3.** The *comparison*: *b.* Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
+**4.** The *intervention*: *d.* There is no intervention.
+**5.** The *unit of observation*: *b.* The children.
+**6.** The *unit of analysis*: *b.* The children.
+
+
+

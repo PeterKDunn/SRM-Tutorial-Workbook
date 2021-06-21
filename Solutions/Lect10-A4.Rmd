@@ -1,0 +1,6 @@
+**1.** Both variables are quantitative: Regression or correlation.
+**2.** Both variables are qualitative: a $\chi^2$ test.
+**3.** A paired $t$-test.
+**4.** Both variables are quantitative: Regression or correlation.
+
+
