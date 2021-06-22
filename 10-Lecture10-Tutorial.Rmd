@@ -646,6 +646,11 @@ include_graphics("ArticleImages/Smith2016-Table4.png")
 ## **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
 
 *(Answers available in Sect. \@ref(Lecture9Answers))*
+	
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 Batteries are expensive,
 so comparing the performance of expensive and cheap batteries is helpful.
@@ -804,7 +809,7 @@ include_graphics("SoftwareImages/ByssOR.png")
 *(Answers available in Sect. \@ref(Lecture9Answers))*
 	
 ```{block2, type = "rmdVideoSolution"}
-This question has a video solution in the online book, so you and hear can see the solution.
+This question has a video solution in the online book, so you can hear and see the solution.
 ```
 
 	
@@ -881,6 +886,10 @@ include_graphics("SoftwareImages/Tanagawa1998SPSSCrossTabs-NoData.png")
 ## **Optional**: Tests for paired samples {#PairedTestRunners}
 
 *(Answers available in Sect. \@ref(Lecture9Answers))*
+
+	```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
 
 
 After a number of runners collapsed near the finish of the Tyneside annual Great North Run,
