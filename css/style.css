@@ -4,7 +4,7 @@ body {
 
 
 
-.rmdcaution, .rmdTutorInfo, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdspss, .rmdthink, .rmdexample, .rmdthinkHTML, .rmdobjectives, .rmdpronunciation, .rmdDrills .rmdVideoSolution {
+.rmdcaution, .rmdTutorInfo, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdspss, .rmdthink, .rmdexample, .rmdthinkHTML, .rmdobjectives, .rmdpronunciation, .rmdDrills, .rmdVideoSolution {
   padding: 15px 15px 15px 64px;
   margin-bottom: 10px;
   margin-top: 10px;
