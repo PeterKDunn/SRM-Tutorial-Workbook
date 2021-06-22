@@ -804,7 +804,7 @@ include_graphics("SoftwareImages/ByssOR.png")
 *(Answers available in Sect. \@ref(Lecture9Answers))*
 	
 ```{block2, type = "rmdVideoSolution"}
-This question has a video solution in theonline book, so you and hear can see the solution.
+This question has a video solution in the online book, so you and hear can see the solution.
 ```
 
 	
