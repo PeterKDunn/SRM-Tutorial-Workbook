@@ -11,18 +11,18 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answers to Lecture \@ref(Lecture1) (Lecture 1): Sect. \@ref(Lecture1Answers).
-* Answers to Lecture \@ref(Lecture2) (Lecture 2): Sect. \@ref(Lecture2Answers).
-* Answers to Lecture \@ref(Lecture3) (Lecture 3): Sect. \@ref(Lecture3Answers).
-* Answers to Lecture \@ref(Lecture4) (Lecture 4): Sect. \@ref(Lecture4Answers).
-* Answers to Lecture \@ref(Lecture5) (Lecture 5): Sect. \@ref(Lecture5Answers).
-* Answers to Lecture \@ref(Lecture6) (Lecture 6): Sect. \@ref(Lecture6Answers).
-* Answers to Lecture \@ref(Lecture7) (Lecture 7): Sect. \@ref(Lecture7Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture1) (Lecture 1): Sect. \@ref(Lecture1Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture2) (Lecture 2): Sect. \@ref(Lecture2Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture3) (Lecture 3): Sect. \@ref(Lecture3Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture4) (Lecture 4): Sect. \@ref(Lecture4Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture5) (Lecture 5): Sect. \@ref(Lecture5Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture6) (Lecture 6): Sect. \@ref(Lecture6Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture7) (Lecture 7): Sect. \@ref(Lecture7Answers).
 * No Optional Exercises in the Break week.
-* Answers to Lecture \@ref(Lecture8) (Lecture 8): Sect. \@ref(Lecture8Answers).
-* Answers to Lecture \@ref(Lecture9) (Lecture 9): Sect. \@ref(Lecture9Answers).
-* Answers to Lecture \@ref(Lecture10) (Lecture 10): Sect. \@ref(Lecture10Answers).
-* Answers to Lecture \@ref(Lecture11) (Lecture 11): Sect. \@ref(Lecture11Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture8) (Lecture 8): Sect. \@ref(Lecture8Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture9) (Lecture 9): Sect. \@ref(Lecture9Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture10) (Lecture 10): Sect. \@ref(Lecture10Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture11) (Lecture 11): Sect. \@ref(Lecture11Answers).
 
 
 
