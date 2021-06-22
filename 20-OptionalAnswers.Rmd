@@ -18,6 +18,7 @@ Some are fully worked, and some are only brief solutions.
 * Answers to Lecture \@ref(Lecture5) (Lecture 5): Sect. \@ref(Lecture5Answers).
 * Answers to Lecture \@ref(Lecture6) (Lecture 6): Sect. \@ref(Lecture6Answers).
 * Answers to Lecture \@ref(Lecture7) (Lecture 7): Sect. \@ref(Lecture7Answers).
+* No Optional Exercises in the Break week.
 * Answers to Lecture \@ref(Lecture8) (Lecture 8): Sect. \@ref(Lecture8Answers).
 * Answers to Lecture \@ref(Lecture9) (Lecture 9): Sect. \@ref(Lecture9Answers).
 * Answers to Lecture \@ref(Lecture10) (Lecture 10): Sect. \@ref(Lecture10Answers).
