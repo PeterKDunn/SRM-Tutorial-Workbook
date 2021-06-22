@@ -802,7 +802,12 @@ include_graphics("SoftwareImages/ByssOR.png")
 ## **Optional**: Tests for ORs {#ORAirways}
 
 *(Answers available in Sect. \@ref(Lecture9Answers))*
+	
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution so you and hear can see the solution.
+```
 
+	
 A study [@data:Tanagawa:AirwayDevices]
 examined the choice
 of airway devices used for nontraumatic, 
