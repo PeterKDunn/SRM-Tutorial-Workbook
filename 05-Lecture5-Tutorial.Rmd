@@ -535,6 +535,11 @@ in these situations.
 
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+	
 The impact of environmental toxins is not well understood.
 A 2012 Australian observational study [@data:Pamphlett:toxins]
 examined the association between the environmental exposure of toxins
