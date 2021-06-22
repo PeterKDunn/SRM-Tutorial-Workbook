@@ -158,6 +158,11 @@ From a study comparing how well sports-playing students can estimate distance co
 
 *(Answers are available in Sect. \@ref(Lecture11Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+
 A study examined the mortality rates within five years of lower-limb amputation,
 and factors that may be associated with mortality [@data:Singh:lowerlimb].
 A summary of the data are shown in Fig. \@ref(fig:LowerLimbMortality).
