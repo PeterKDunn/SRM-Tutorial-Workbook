@@ -4,11 +4,18 @@ body {
 
 
 
-.rmdcaution, .rmdTutorInfo, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdspss, .rmdthink, .rmdexample, .rmdthinkHTML, .rmdobjectives, .rmdpronunciation, .rmdDrills {
+.rmdcaution, .rmdTutorInfo, .rmdimportant, .rmdnote, .rmdtip, .rmdwarning, .rmdspss, .rmdthink, .rmdexample, .rmdthinkHTML, .rmdobjectives, .rmdpronunciation, .rmdDrills .rmdVideoSolution {
   padding: 15px 15px 15px 64px;
   margin-bottom: 10px;
   margin-top: 10px;
   background: #fbfbef 5px center/3em no-repeat;
+}
+
+
+.rmdVideoSolution {
+  background-image: url("../icons/iconmonstr-video-15-240.png");
+  background-position: left top;
+  background-color: rgb(240, 245, 245);
 }
 
 
