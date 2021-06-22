@@ -12,6 +12,7 @@ Some are fully worked, and some are only brief solutions.
 * [Answers and information](#Lecture5AnswersTutor) for Lecture \@ref(Lecture5) Tutorial.
 * [Answers and information](#Lecture6AnswersTutor) for Lecture \@ref(Lecture6) Tutorial.
 * [Answers and information](#Lecture7AnswersTutor) for Lecture \@ref(Lecture7) Tutorial.
+* Break week
 * [Answers and information](#Lecture8AnswersTutor) for Lecture \@ref(Lecture8) Tutorial.
 * [Answers and information](#Lecture9AnswersTutor) for Lecture \@ref(Lecture9) Tutorial
 * [Answers and information](#Lecture10AnswersTutor) for Lecture \@ref(Lecture10) Tutorial.
