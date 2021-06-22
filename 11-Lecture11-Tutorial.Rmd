@@ -419,6 +419,11 @@ Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
 *(Answers are available in Sect. \@ref(Lecture10Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+
 Researchers in New Zealand were interested in:
 
 > ...the behaviour of heather (*Calluna vulgaris*) in Tongariro National Park...: 
