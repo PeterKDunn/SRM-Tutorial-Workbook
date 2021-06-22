@@ -584,6 +584,11 @@ if( knitr::is_html_output() ) {
 ## **Optional**: Tests for one mean {#RoomWidthTest}
 
 *(Answers are available in Sect. \@ref(Lecture8Answers))*
+	
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 Shortly after metric units were introduced to Australia in 1977,
 a lecturer wondered how accurately students could estimate lengths using the 
@@ -674,6 +679,11 @@ include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
 
 *(Answers are available in Sect. \@ref(Lecture8Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+	  
 In 2011, *Eagle Boy's Pizza*
 ran a campaign [@mypapers:Dunn:PizzaSize]
 that claimed that Eagle Boy's pizzas were larger than *Domino's* large pizzas.
@@ -752,6 +762,11 @@ include_graphics("SoftwareImages/PizzaSizeErrorBar.png")
 ## **Optional**: Odds and odds ratio {#OddsGMfood}
 
 *(Answers are available in Sect. \@ref(Lecture8Answers))*
+
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 The use of genetically modified (GM) foods is controversial.
 An Australian study [@data:luo:gm]
