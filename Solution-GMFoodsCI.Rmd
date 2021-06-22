@@ -1,0 +1,10 @@
+
+```{r echo=FALSE}
+video_path  <- "Solutions/"
+video_files <- list.files(video_path,
+                         pattern = "GMFoodsCI.mp4$",
+                         recursive = TRUE,
+                         all.files = FALSE,
+                         full.names = TRUE)
+```
+<video src="`r video_files[1]`" controls width="810" height="1080" align="middle" frameborder="0" title="GM-foods CI Solution" allowfullscreen></video>
