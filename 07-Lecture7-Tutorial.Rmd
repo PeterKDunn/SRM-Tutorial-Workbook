@@ -436,6 +436,11 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 ## **Optional**: CI for one mean {#RoomWidthCI}
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*
+	
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 Shortly after metric units were introduced to Australia in 1977,
 a lecturer wondered how accurately students could estimate lengths using the 
@@ -519,7 +524,12 @@ include_graphics("SoftwareImages/LengthsHallOutput.png")
 
 ## **Optional**: Sample size calculations {#RoomWidthCISampleSize}
 
-*(Answers are available in Sect. \@ref(Lecture7Answers))*
+*(Answers are available in Sect. \@ref(Lecture7Answers))
+
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 Shortly after metric units were introduced to Australia in 1977,
 a lecturer wondered how accurately students could estimate lengths using the 
@@ -653,6 +663,11 @@ if( knitr::is_html_output() ) {
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+	
 After a number of runners collapsed near the finish of the Tyneside annual Great North Run,
 researchers decided to study the role of $\beta$ endorphins as a factor in the collapses.
 ($\beta$ endorphins are a peptide which suppress pain.) 
