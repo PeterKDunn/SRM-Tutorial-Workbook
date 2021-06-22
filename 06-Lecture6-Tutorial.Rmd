@@ -185,6 +185,11 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*
 
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
+
 The Southern Oscillation Index (SOI) is a 
 unitless^[That is, it is not measured in kilograms or seconds etc.  It is just a number; in fact, it is a bit like a $z$-score.]
 climatological measure that is easily computed,
@@ -211,6 +216,11 @@ and is designed to have a mean of 0 and a standard deviation of 10.
 ## **Optional**: Confidence intervals for one proportion {#HM:Maturing}
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*
+
+```{block2, type = "rmdVideoSolution"}
+This question has a video solution in the online book, so you can hear and see the solution.
+```
+
 
 The timing of pubertal maturation can vary, which can have impacts upon behaviour.
 One research project studied 
