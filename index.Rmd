@@ -133,6 +133,12 @@ These chunks offer helpful information.
 ```
 
 
+```{block2, type = "rmdVideoSolution"}
+This icon flags questions tat have *video solutions* in the online book:
+A narrator works through the question, explaining the solution.
+```
+
+
 
 
 ## How this book was made {-}
