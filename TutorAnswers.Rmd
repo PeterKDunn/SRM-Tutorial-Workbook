@@ -755,7 +755,7 @@ kable(NumSum,
 
 
 
-### Answers to Sect. \@ref(CollectData) {.unlisted .unnumbered}
+### Answers to Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 This activity follows on from the ruler-drop planning activity from Week 2
