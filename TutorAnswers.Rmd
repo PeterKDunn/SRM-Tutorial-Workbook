@@ -417,7 +417,7 @@ because there is no C
 (there are not two subsets (that are naturally different, or will be treated differently) being compared,
 as per our definition of a **C**omparison.
 As a result,
-**a Task 2 project like this is not permitted: There is no C!**.
+**a Task 2 project like this is not permitted: There is no C**.
 
 Some points:
 
