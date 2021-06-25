@@ -758,7 +758,11 @@ kable(NumSum,
 ### Answers to Sect. \@ref(CollectData) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-This continues from the study planned in Sect. \@ref(PlanStudy2).  
+This activity follows on from the ruler-drop planning activity from Week 2
+(Sect. \@ref(PlanStudy2)) and the data collection (Sect. \@ref(PlanStudy3):
+Use jamovi and the data file to create the numerical summary.
+
+You can save this info to add to later if you wish.
 
 In this activity,
 have students actually collect the data (quickly),
@@ -788,17 +792,6 @@ jamovi and SPSS like data arranged with one unit of analysis (i.e. person in thi
 
 ```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center" }
 include_graphics("SoftwareImages/RulerDropData.png")
-```
-
-
-### Answers to Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-Following on from the ruler-drop planning activity from Week 2
-(Sect. \@ref(PlanStudy2)) and the data collection (Sect. \@ref(PlanStudy3):
-Use jamovi and the data file to create the numerical summary.
-
-You can save this info to add to later of you wish.
 ```
 
 
