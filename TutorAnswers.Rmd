@@ -379,69 +379,95 @@ Sometimes we need to assume answers or just state that we don't know.
 11. The headline is acccurate, but is certainly **not the complete story** as it implies cause-and-effect.
 
 
+
+
+
 ### Answers to Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
 
-
 ```{block2, type="rmdTutorInfo"}
-The purpose of this question is to get them thinking about 
-Assessment Task 2A,
-and **design issues** in particular.
-There are many correct answers,
-and experiments and observational studies are both possible.
+The purpose of this question is to get students thinking about *study design* for Assessment Task 2A.
+It is **very important*!!
 
 **In online classes**, you may just need to **talk** about the issues, rather than **do** the study.
+
+There are many correct ways to do this activity.
+However, for many reasons, we suggest following the suggestions here in teh end
+(though having students suggest other ideas first is a great idea too).
 
 You could show the Project Proposal form on the overhead screen,
 and get the students to work through it one page at a time.
 
 **Resources**: Rulers.
    
-This week,
-we *plan* a study that we will continue next week (i.e. collect the data).
+We *plan* a study that we will continue next week (i.e., collect the data).
 The whole class will do the same study,
 and contribute data.
    
-**I will compare the reaction time for students: Use each students dominant and non-dominant hand**.
-This is a **descriptive RQ**, so not suitable for their project,
-but we still get to discuss many design features (the main purpose).
-To begin,
-state that we will compare left-hand reaction 'time' to right-hand reaction 'time'.
-This is
-not the best idea,
-as some people and left-handed and some are right-handed.
-Better is to compare dominant and non-dominant hands.
-You can lead a discussion that encourages students to come to this realisation.
-   
-Initially tell them what you want in general terms,
-and tell them to *Go!*
-They'll probably all start measuring without any planning.
-So let them go for one or two minutes,
-then pull them up and start ranting and raving:
-*What about the planning process!?*
-Even observe and then tell the student how different groups were doing things differently to make your point.
-   
-Then have the students discuss each planning component as a class.
-Form a class consensus on how to proceed,
-and **keep a record of what the class decides**.
-You will actually **do** this study in following weeks,
-so also be practical!
-You may like to prepare a Word document with this info (during class time),
-then over the following weeks as we compile more about the study
-(e.g. numerical and graphical summaries)
-add to this Word document. 
+**We will compare the 'average ruler reaction time' for students after using their dominant and non-dominant hands**:
+Beinga  little vague at this stage:
 
-You can use the Proposal *Pro Forma* even. 
-   
-**Be careful**.
-The unit of analysis is the *person*,
-and each person gets two units of observation.
-Remember: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row.
+* **P**opulation: Could be SCI110 students, USC students, ...
+* **O**utcome: The average amount that the dominant hand is faster than the non-dominant hand
+* **C**: None.
+* **I**ntervention: None.
 
-We can measure reaction 'time' by dropping a ruler placed at 0cm
-between the open fingers of a person (a given distance apart),
-and when it is dropped the person catches it.
-Measure the reaction 'distance' by the measurement on the ruler. 
-But other things are possible...
+Seeing that there is no C is important!
+This is a descriptive RQ,
+because there is no C
+(there are not two subsets (that are naturally different, or will be treated differently) being compared,
+as per our definition of a **C**omparison.
+As a result,
+**a Task 2 project like this is not permitted: There is no C!**.
+
+Some points:
+
+* To begin, state that we will compare left-hand reaction 'time' to right-hand reaction 'time'.
+  This is not the best idea, as some people and left-handed and some are right-handed,
+  and it is better is to compare dominant and non-dominant hands.
+  But start like this, and lead a discussion that encourages students to come to this realisation.
+* Initially tell them what you want in very general terms ("we'll measures the reaction time in left and right hands"),
+  and tell them to *Go!*
+  They'll probably all start measuring without any planning.
+  So let them go for one or two minutes,
+  then pull them up and start ranting and raving:
+  "*What about the planning process that we've been learning about!?*"
+  Even observe and then tell the student how different groups were doing things differently to make your point.
+* Then have the students discuss planning as a class.
+  Form a class consensus on how to proceed,
+  and **keep a record of what the class decides**.
+  You will actually **collect** this data, either this week or next weeks (probably more likely),
+  so also be practical!
+* You may like to prepare a Word document with this info (during class time; ask a student to be the scribe),
+  then over the following weeks as we compile more about the study
+  (e.g., numerical and graphical summaries)
+  add to this Word document. 
+* Things to decide upon (some are arbitrary; some will have better answers than others):
+  - How do we decide which hand goes first? 
+  - How will we dine *dominant hand*? (Perhaps easiest: Hand we write with.)
+  - What if someone is ambidexterous? (Use exclusion criteria!)
+  - How will be grab the ruler? Anyway we like, or with index finger and thumb? 
+  - How do we measure the reaction time on the ruler? Top of thumb?
+  - Where will we start the ruler relative to fingers?
+  - When will we release the ruler? After (say) 3 seconds? After a random time?
+  - Will catchers be sitting or standing?
+  - What of the catcher drops their hand while catching? (Maybe arm should rest on a table?)
+  - How far apart should fingers be?
+  - Just one catch per hand, or more? If more, what (sngle) number to rport: the slowest? Fastest? Median? Mean?
+  - What if the catchers fails to catch the ruler: Have another go? Or just bad luck: They miss a measurement?
+  - Can we manage Hawthorne (no), observer effect (ask which hand is dominant *after* collecting data), etc.
+* For example, we may decide to toss a coin to start (Heads: Start with left; Tails: Start with right), then alternate to have three tries each hand.
+  Report the median for each hand. 
+  *After* the toss, ask which hand is dominant.
+
+Notes:
+
+* The unit of analysis is the *person*,
+  and each person gets two units of observation.
+  Remember: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row.
+* If you have time, you can collect the data in class.
+  But this activity often takes me about an hour, so we collect data next week.
+
+**Save the protocol!**
 ```
 
 
@@ -554,6 +580,25 @@ Have students work in groups, and then share their answers.
    * No indication of variation in the data.
    * A boxplot (or dotchart) would be appropriate.
 
+
+
+### Answers to Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+Following on from the ruler-drop planning activity from Week 2
+(Sect. \@ref(PlanStudy2)):
+Use the protocol established then, and have students actually collect data.
+
+I suggest starting jamovi
+(remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
+and showing students how to set up the variables,
+and have them come to the computer and enter their own data.
+
+Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph
+(e.g., histogram of differences).
+
+**Save the data!**
+```
 
 
 
@@ -743,6 +788,17 @@ jamovi and SPSS like data arranged with one unit of analysis (i.e. person in thi
 
 ```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center" }
 include_graphics("SoftwareImages/RulerDropData.png")
+```
+
+
+### Answers to Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+Following on from the ruler-drop planning activity from Week 2
+(Sect. \@ref(PlanStudy2)) and the data collection (Sect. \@ref(PlanStudy3):
+Use jamovi and the data file to create the numerical summary.
+
+You can save this info to add to later of you wish.
 ```
 
 
