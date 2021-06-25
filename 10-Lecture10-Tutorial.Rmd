@@ -453,6 +453,17 @@ knitr::include_graphics( c("SoftwareImages/Singh2016-ChiSq-SPSS.png",
 
 
 
+	
+
+## Hypothesis test for the ruler-drop {#PlanStudy8}
+
+Your tutor *may* decide to do this activity.
+
+      
+      
+	
+	
+
 
 
 ## **Optional**: $P$-values {#PvalueStatement}
