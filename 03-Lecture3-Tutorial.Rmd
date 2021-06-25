@@ -242,6 +242,12 @@ knitr::include_graphics("ProjectImages/WrongBar.png")
 
 
 
+## Collecting data {#PlanStudy3}
+
+Your tutor will have information.
+
+
+
 
 
 ## **Optional**: Understanding graphs {#HistogramBars}
