@@ -433,7 +433,7 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 	
 	
 	
-## CI for the ruler-drop {#PlanStudy8}
+## CI for the ruler-drop {#PlanStudy7}
 
 Your tutor *may* decide to do this activity.
 
