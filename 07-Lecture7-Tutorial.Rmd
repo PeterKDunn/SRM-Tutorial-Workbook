@@ -430,6 +430,13 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 <!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458370&sec_digit=963714428&edit_code=725207259 -->
 
 
+	
+	
+	
+## CI for the ruler-drop {#PlanStudy8}
+
+Your tutor *may* decide to do this activity.
+
 
 
 
