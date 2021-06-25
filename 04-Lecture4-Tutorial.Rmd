@@ -395,11 +395,13 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 
 
 
-## Conducting a research study {#CollectData}
+
+## Numerical summary for ruler-drop data {#PlanStudy3}
 
 Your tutor will have information.
 
-<!-- Documentation tool?? -->
+
+
 
 
 
