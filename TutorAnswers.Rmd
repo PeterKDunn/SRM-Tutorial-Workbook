@@ -386,7 +386,7 @@ Sometimes we need to assume answers or just state that we don't know.
 
 ```{block2, type="rmdTutorInfo"}
 The purpose of this question is to get students thinking about *study design* for Assessment Task 2A.
-It is **very important*!!
+It is **very important**!
 
 **In online classes**, you may just need to **talk** about the issues, rather than **do** the study.
 
