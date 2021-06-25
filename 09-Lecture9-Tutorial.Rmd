@@ -576,13 +576,6 @@ hist( PS$DiameterInches[PS$Store=="EagleBoys"],
 
 
 
-## Hypothesis test for the ruler-drop {#PlanStudy8}
-
-Your tutor *may* decide to do this activity.
-
-      
-      
-
 
 
 
