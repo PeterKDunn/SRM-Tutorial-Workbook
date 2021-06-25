@@ -1184,6 +1184,20 @@ many students will have no idea what's going on.
 15. $n=(2\times 13.03372\div 5)^2 = 27.18$, so need data from at least $28$ amputees.
 
 
+
+
+### Answers to Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+If you wish,
+you can form a CI for the ruler-drop (using jamovi).
+
+In particular, if you get a negative number for one (or both) of the CI limits,
+you can discuss what the negative number means.
+```
+
+
+
 [**Return to index of tutor information.**](#TutorInfo)
 
 
@@ -1660,6 +1674,18 @@ if( knitr::is_html_output() ) {
 }
 
 ```
+
+
+
+
+
+### Answers to Sect. \@ref(PlanStudy8) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+If you wish,
+you can conduct a hypothesis test for the ruler-drop (using jamovi).
+```
+
 
 
 
