@@ -227,13 +227,12 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 
 
 
-3. Critique the graph in
-	 Fig. \@ref(fig:StudentsGraphsC),
-	 a screenshot from a student Project Report
-	 comparing the 'mean dissolve' time
-	 (they probably meant 'mean *dissolving* time') 
-	 of Panadol in room temperature and cold water.
-	 Identify ways to improve the graph.
+3. Critique the graph in Fig. \@ref(fig:StudentsGraphsC),
+   a screenshot from a student Project Report
+   comparing the 'mean dissolve' time
+   (they probably meant 'mean *dissolving* time') 
+   of Panadol in room temperature and cold water.
+   Identify ways to improve the graph.
 
 
 ```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
