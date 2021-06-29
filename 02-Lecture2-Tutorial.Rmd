@@ -23,7 +23,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-1. Consider this (qualitative) RQ: "What factors are preventing the adoption of household solar technologies in Santiago [Chile]?" [@]. For this RQ, what is the *Population*?
+1. Consider this (qualitative) RQ: "What factors are preventing the adoption of household solar technologies in Santiago [Chile]?" [@walters2018factors]. For this RQ, what is the *Population*?
 `r if( knitr::is_html_output() ) {mcq( c(
                       "Households", 
 		      "Households in Chile",
