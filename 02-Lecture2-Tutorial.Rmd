@@ -35,7 +35,7 @@ In this chapter, you will learn and practice the content associated with these c
 		      "the sample  is representative of all solar technologies"
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
-3.  Suppose the researchers mailed surveys to all households in Santiago, and people who wished to returned the survey. What is the *best* description of this sampling method? 
+3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method? 
 `r if( knitr::is_html_output() ) {mcq( c(
                       answer = "Self-selecting", 
                       "Systematic",
@@ -49,6 +49,7 @@ In this chapter, you will learn and practice the content associated with these c
 `r if( knitr::is_html_output() ) {mcq( c(
                       "Systematic", 
                       "Simple random sample",
+		      "Stratified",
                       answer = "Convenience") )}`
 		      
 		      
