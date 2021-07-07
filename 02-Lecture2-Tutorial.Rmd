@@ -23,29 +23,36 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-1. Consider this (qualitative) RQ: "What factors are preventing the adoption of household solar technologies in Santiago [Chile]?" [@walters2018factors]. For this RQ, what is the *Population*?
+Consider this (qualitative) RQ: 
+
+> What factors are preventing the adoption of household solar technologies in Santiago [Chile]? 
+>
+> --- @walters2018factors
+
+
+1. For this RQ, what is the *Population*?  
 `r if( knitr::is_html_output() ) {mcq( c(
                       "Households", 
-		      "Households in Chile",
+		                  "Households in Chile",
                       answer = "Households in Santiago",
                       "Solar technologies") )}`
-2. The study will be *externally valid* if:
+2. The study will be *externally valid* if:  
 `r if( knitr::is_html_output() ) {mcq( c(
                       "the sample is representative of all households in the world",
-		      "the sample  is representative of all solar technologies"
+		                  "the sample is representative of all solar technologies",
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
-3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method? 
+3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {mcq( c(
                       answer = "Self-selecting", 
                       "Systematic",
                       "Convenience") )}`
-4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. What is the *best* description of this sampling method? 
+4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {mcq( c(
                       answer = "Multi-stage", 
                       "Systematic",
                       "Stratified") )}`
-5.  Suppose the researchers stood outside a busy shopping centre, and surveyed every ninth person who entered. What is the *best* description of this sampling method? 
+5.  Suppose the researchers stood outside a busy shopping centre, and surveyed every ninth person who entered. What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {mcq( c(
                       "Systematic", 
                       "Simple random sample",

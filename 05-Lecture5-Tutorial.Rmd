@@ -24,6 +24,52 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
+
+## Quick revision {#QuickRevision-Tutorial5}
+
+A study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency]
+collected the data shown below.
+
+| Sex of patients | Dispatcher suspected stroke | Dispatcher missed stroke
+|----------------:+:---------------------------:+:-------------------------:
+| Male            | 67                          | 43
+| Female          | 97                          | 39
+
+
+1. What *percentage* of *male* patients had their stroke symptoms missed by the dispatcher?  
+`r if( knitr::is_html_output() ) {mcq( c(
+                      answer = "39.1%", 
+		                  "60.9%",
+                      "52.4%",
+                      "33.3%") )}`
+1. What *percentage* of *female* patients had their stroke symptoms missed by the dispatcher?  
+`r if( knitr::is_html_output() ) {mcq( c(
+		                  "71.3%",
+                      "47.6%",
+                      answer = "28.7%", 
+                      "33.3%") )}`
+1. What are the *odds* that a *male* patients had their stroke symptoms missed by the dispatcher?  
+`r if( knitr::is_html_output() ) {mcq( c(
+                      "39.1", 
+		                  answer = "0.618",
+                      "0.907",
+                      "0.50") )}`
+1. What are the *odds* that a *female* patients had their stroke symptoms missed by the dispatcher?  
+`r if( knitr::is_html_output() ) {mcq( c(
+                      answer = "0.402", 
+		                  "2.49",
+                      "1.10",
+                      "1.24") )}`
+1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?  
+`r if( knitr::is_html_output() ) {mcq( c(
+		                  "0.63",
+                      "0.402",
+                      "0.50",
+                      answer = "1.6") )}`
+
+
+
+
 ## Percentages and odds {#PercentagesOdds}
 
 Endotracheal intubation (ETI)
