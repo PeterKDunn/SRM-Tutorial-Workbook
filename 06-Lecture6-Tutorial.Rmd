@@ -21,6 +21,40 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
+## Quick revision {#QuickRevision-Tutorial5}
+
+A new method for evaluating bridges load [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
+For the simulation, 
+they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution,
+with a mean of 13&nsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
+
+The Isuzu F-Series trucks are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
+
+1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes? 
+`r if( knitr::is_html_output() ) {
+   mcq( c("1.77",
+          answer = "-1.77", 
+          "-0.7",
+          "0.7") )}`
+1. What is the $z$-score for the upper limit of 26.0&nbsp;tonnes? 
+`r if( knitr::is_html_output() ) {
+   mcq( c(answer ="10",
+          "-10", 
+	  "-16"
+	  "16") )}`
+1. Based on the model, what percentage of trucks would be expected to have a GVM of *less than* 15&nbsp;tonnes? 
+`r if( knitr::is_html_output() ) {
+   mcq( c("1.54%",
+          "-1.54%",
+          answer ="93.8%",
+          "6.2%"
+) )}`
+
+
+
+
+
+
 ## Normal distributions and IQs {#NormalIQs}
 
 Standard IQs in current use are designed
