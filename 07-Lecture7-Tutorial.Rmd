@@ -19,13 +19,13 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial7}
 
-1. A *confidence interval* is used to find an interval that probably contains the *sample* value. True or false? 
+1. A *confidence interval* is used to find an interval that probably contains the *sample* value. True or false?  
 `r if( knitr::is_html_output() ) {
    torf( FALSE)}`
-1. All *confidence interval* are 95% confidence intervals. True or false?
+1. All *confidence interval* are 95% confidence intervals. True or false?  
 `r if( knitr::is_html_output() ) {
    torf( FALSE)}`
-1. A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. True or false?
+1. A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. True or false?  
 `r if( knitr::is_html_output() ) {
    torf( FALSE)}`
    
