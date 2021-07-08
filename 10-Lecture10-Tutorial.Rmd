@@ -20,6 +20,32 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
+
+
+## Quick revision {#QuickRevision-Tutorial10}
+
+A study compared the arrivals-on-scene for two groups of paramedics [@tuttle2018paramedic]:
+
+* Those with fewer than 15 out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
+* Those paramedics with 15 OHCAs or greater (the *experienced* group, E).
+
+The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
+
+The mean time from scene arrival to starting the first advanced airway procedure was 10.05&nbsp;m for the inexperienced group (IE), and 10.21&nbsp;m for the experienced group (E).
+
+1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. True or false?
+`r if( knitr::is_html_output() ) { torf(TRUE) }`
+1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. True or false?
+`r if( knitr::is_html_output() ) { torf(FALSE) }`
+1. Since the two sample means are different, there is no evidence to support the null hypothesis. True or false?
+`r if( knitr::is_html_output() ) { torf(FALSE) }`
+1. The article quotes the $P$-value as 0.51; this means there is a 51% chance that the null hypothesis is true. True or false?
+`r if( knitr::is_html_output() ) { torf(FALSE) }`
+
+
+
+
+
 ## Hypothesis tests for two means {#HT-TwoMeans-A}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
