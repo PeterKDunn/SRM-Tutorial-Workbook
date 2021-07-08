@@ -28,7 +28,7 @@ For the simulation,
 they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution,
 with a mean of 13&nsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
 
-The Isuzu F-Series trucks are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
+The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
 
 1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes?  
 `r if( knitr::is_html_output() ) {
