@@ -26,12 +26,12 @@ In this chapter, you will learn and practice the content associated with these c
 Researchers studied the impact of a gluten-free diet on dental cavities [@khalaf2020caries].
 
 Some of the summary information regarding the number decayed, missing and filled teeth (DMFT) is shown below.
-
-| Diet         | Sample size | Mean | Standard deviation | Standard error
-+-------------:+:-----------:+:----:+:------------------:+:----------------:
-| Coeliac      |  23         | 8.39 | 4.4                | 0.92
-| Non-coeliac  |  23         | 8.17 | 4.1                | 0.86
-| **Difference** |           | 0.22 |                    | 1.3
+ 
+Diet         | Sample size | Mean | Standard deviation | Standard error
+-------------:+:-----------:+:----:+:------------------:+:----------------:
+Coeliac      |  23         | 8.39 | 4.4                | 0.92
+Non-coeliac  |  23         | 8.17 | 4.1                | 0.86
+**Difference** |           | 0.22 | &nbsp;             | 1.3
 
 A 95% CI is given as for the difference is -2.32 to 2.76.
 
@@ -43,8 +43,8 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
 `r if( knitr::is_html_output() ) {
    mcq( c("Larger for coeliacs", 
           "Smaller for coeliacs",
-          answer = "Between 2.32 higher for non-coeliacs to 2.76 higher for coeliacs." '
-          "Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs." '
+          answer = "Between 2.32 higher for non-coeliacs to 2.76 higher for coeliacs.",
+          "Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs.")
 	  )
 }`
 1. Both samples sizes are less than 25. What does this mean for the statistical validity of the CI?  
@@ -52,6 +52,7 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
    mcq( c("The CI is worthless", 
           answer = "The CI will probably be statistically valid, as both sample sizes are just smaller than 25.",
           "If the sample is a random sample, the CI will be statistically valid." )
+          )
 }`
 
 

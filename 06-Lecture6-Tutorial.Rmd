@@ -26,7 +26,7 @@ In this chapter, you will learn and practice the content associated with these c
 A new method for evaluating bridges load [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
 For the simulation, 
 they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution,
-with a mean of 13&nsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
+with a mean of 13&nbsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
 
 The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
 
@@ -40,7 +40,7 @@ The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM bet
 `r if( knitr::is_html_output() ) {
    mcq( c(answer ="10",
           "-10", 
-	  "-16"
+	  "-16",
 	  "16") )}`
 1. A negative $z$-score means that the mean has a *smaller* value than the standard deviation. True of false?  
 `r if( knitr::is_html_output() ) {torf(FALSE) }`
