@@ -24,7 +24,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial10}
 
-A study compared the arrivals-on-scene for two groups of paramedics [@tuttle2018paramedic]:
+A study compared the arrivals-on-scene time for two groups of paramedics [@tuttle2018paramedic]:
 
 * Those with fewer than 15 out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
 * Those paramedics with 15 OHCAs or greater (the *experienced* group, E).
@@ -37,7 +37,7 @@ The mean time from scene arrival to starting the first advanced airway procedure
 `r if( knitr::is_html_output() ) { torf(TRUE) }`
 1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. True or false?  
 `r if( knitr::is_html_output() ) { torf(FALSE) }`
-1. Since the two sample means are different, there is no evidence to support the null hypothesis. True or false?  
+1. Since the two sample means are different, we reject the null hypothesis. True or false?  
 `r if( knitr::is_html_output() ) { torf(FALSE) }`
 1. The article quotes the $P$-value as 0.51; this means there is a 51% chance that the null hypothesis is true. True or false?  
 `r if( knitr::is_html_output() ) { torf(FALSE) }`

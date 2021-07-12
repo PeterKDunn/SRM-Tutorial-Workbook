@@ -24,7 +24,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial11}
 
-A study of how weeds spread [@khan2018alien] studied various factors that might carry seeds.
+A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
 The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
 
 In autumn, the correlation coefficient was given as $r = 0.931$ 
