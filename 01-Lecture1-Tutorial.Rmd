@@ -29,7 +29,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 Consider this RQ: 
 
-> For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?' 
+> For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
 >
 > --- Based on @data:jaworowska2012:determination.
 
@@ -40,6 +40,7 @@ Consider this RQ:
                       "Interventional") )}`
 1.  What is the *Outcome* in this RQ?  
 `r if( knitr::is_html_output() ) {mcq( c(
+                      "The amount of salt",
         						   answer = "The average amount of salt", 
                       "The average amount of salt in Chinese and Indian take-away meals",
                       "London take-away restaurants") )}`
@@ -52,7 +53,7 @@ Consider this RQ:
 `r if( knitr::is_html_output() ) {mcq( c(
         						   "The restaurants", 
                        "The meals",
-                       answer = "It's hard to know: We need more information about how the data were collected") )}`
+                       answer = "We need more information about how the data were collected") )}`
 1.  What would be the *unit of observation*?  
 `r if( knitr::is_html_output() ) {mcq( c(
         						   "The restaurants", 
