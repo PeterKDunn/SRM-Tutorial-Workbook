@@ -1,5 +1,5 @@
 ---
-title: "Scientific Research and Methodology: Tutorials"
+title: "Science Research Methods: Tutorials"
 subtitle:  "An introduction to quantitative research and statistics in science, engineering and health: Tutorials"
 author: "Peter K. Dunn"
 geometry: margin=27mm
