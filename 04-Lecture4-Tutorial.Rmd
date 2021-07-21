@@ -152,6 +152,14 @@ if( knitr::is_html_output() ) {
                       answer = "Percentages") )}`
 
 
+```{block2, type="fold"}
+1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
+1. Variation is measured using standard deviation or IQR.
+1. The average value (of a quantitative variable) can be described using a mean or a median.
+1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
+
+```
+
 
 
 
