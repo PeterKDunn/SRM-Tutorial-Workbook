@@ -6,7 +6,7 @@
 
 
 
-# Answers to **optional** exercises {#OptionalAnswers}
+# Answers to exercises {#OptionalAnswers}
 
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
@@ -33,6 +33,184 @@ Some are fully worked, and some are only brief solutions.
 
 
 ## Answers to Lecture 1 tutorial {#Lecture1Answers}
+
+
+
+
+### Answer to Sect. \@ref(ResearchProcess) {.unlisted .unnumbered}
+
+The process is:
+
+1. **Ask** the question.
+2. **Design** the study.
+3. **Collect** the data.
+4. **Describe** and **summarize** the data.
+5. **Analyse** the data.
+6. **Report** the results.
+ 
+ 
+ 
+### Answers to Sect. \@ref(FormingRQs) {.unlisted .unnumbered}
+
+1. Either is OK; they are just different. Note the different way a study can be addressed.  
+   But importantly: neither RQ is actually helping answer the issue of the cafe owner!  
+   For example, I  may be able to tell the difference between diet and regular cola...
+   but I may like them both equally (i.e., the test rating is the same).
+2. The cafe owner would *not allocate* drinkers to drink either diet or regular softdrinks,
+   but just find those who were drinking either and ask them to rate the taste.
+   I guess retrospective would be best.
+3. The cafe owner would need to allocate drinkers to either diet or regular.
+   Ideally, the drinkers would not know which they had consumed (really, that's next week's work).
+   Ideally, the drinks would be allocated at random to receive diet or regular (next week too).
+   Ideally a true experiment.
+4. Experimental would be better;
+   fewer things out of the researchers control.  
+   Besides, people buy what they like...
+
+
+### Answers to Sect. \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
+
+You can use the **Glossary** in the textbook!
+
+
+
+### Answers to Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+More directly:
+
+* P: People at an American college.
+* O: The *average* time taken to walk 50m.
+* C: Between the way subjects were using their phone.
+* I: None: an observational study.
+* Explanatory variable: The way that the phone is being used.
+* Response variable: The time taken to walk 50&nbsp;m.
+* Unit of observation: **Individual** subjects.
+* Unit of analysis: **Individual** subjects.
+
+
+
+
+### Answers to Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
+
+1. Should be in terms of averages or means. So perhaps
+   "Among watertanks used in southeast Queensland,
+   are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
+2. *Everyone* dies!  So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
+   Perhaps something like,
+	 "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
+3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?); 
+   "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per 100&nbsp;g or similar.
+   "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
+   Anyway: You can look at the label (unless, of course, you wish to query those values).
+4. Silly: elephants are huge, and joeys are tiny. No-one needs to test this.
+   Also,the RQ talks about "weight" rather than "**mean** weight" too.
+5. Needs to be more specific!
+   Perhaps:
+   "Is the mean reaction time different for males and females?" or similar.
+
+
+
+
+
+### Answers to Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
+
+
+1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
+   All of the options are possibilities.  
+2. "Relaxing":  Many options possible for quantifying this
+   (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
+3. Again, many options are possible, Some options for comparing to Earl Grey tea: 
+   coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
+4. "Between before and after drinking Earl Grey tea" is *not* a comparison
+   because everyone in the population (sample) is treated the same way:
+   There are not two groups in the population being compared.
+5. An example RQ might be:  
+
+   "Among USC students (P),
+   the average heart rate 30 minutes after drinking (O)
+   is different between those who drink a cup of Earl Grey tea 
+   and those who drinking a cup of hot coffee (C)
+   when the drink is provided to them (I)".  
+   
+   I'm not saying this is the best;
+   it is just an example.
+6. Get volunteers; 
+	 place into one of the groups (Earl Grey and coffee); 
+	 give the beverage; measure heart rate after 30 mins.
+   Note that many design issues are not covered until the next lecture,
+   but you can introduce, and encourage, discussion 
+   about some of the ideas if you wish (e.g. blinding).
+7. An example RQ might be:  
+
+   "Among USC students (P),
+   the average heart rate 30 minutes after drinking (O)
+   is different between those who drink a cup of Earl Grey tea 
+   and those who drinking a cup of hot coffee (C)".
+   I'm not saying this is the best;
+   it is just an example.
+8. Based on the above RQ:
+   Find USC students who drink Earl Grey tea, and others who drink coffee,
+   and measure their heart rate 30 minutes after they drink.  
+   
+   It would have a lot of confounding effects to account for.
+9. For my RQ above:
+   The volume of tea or coffee; brand of tea or coffee; how made; when beverage taken; 
+   how long steeped for; how heart rate is measured; student (full-time only?); etc.
+   You don't need to *define* these, but if you have time you can have a go at one or two definitions.
+10. Many options, but for the RQ above: 
+	  Type of beverage; heart rate after 30 mins (or better, the *change* in heart rate).
+    
+    
+    
+    
+
+
+
+### Answers to Sect. \@ref(Units) {.unlisted .unnumbered}
+
+1. The unit of analysis is the *floorboard*: 
+   because one board is compared to another;
+	 because the hardness is a feature of each board, not each test;
+	 because the two measurements on each board are not independent of each other (from the same board).
+2. There are 5 units of analysis.
+3. There are 10 units of observation.
+4. Now, only one unit of analysis.
+5. *Within* boards, the variation is small, apart from Board 1.  
+   *Between* boards it is larger.
+
+
+
+
+
+
+
+### Answers to Sect. \@ref(TypesOfStudies) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+More directly:
+
+1. Observational.
+2. Quasi-experimental. The classes are determined by the *students*, 
+   but the lecturer decides which class gets which treatment.
+
+
+
+### Answers to Sect. \@ref(TerminologyLect1) {.unlisted .unnumbered}
+
+Answers implied by the crossword:
+
+```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
+```
+
+
+
+
+
+
 
 
 ### Answers to Sect. \@ref(TerminologyLead)
@@ -72,6 +250,61 @@ Some are fully worked, and some are only brief solutions.
 
 ## Answers to Lecture 2 tutorial {#Lecture2Answers}
 
+
+
+
+### Answers to Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+
+Answers implied by the crossword:
+
+
+```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
+```
+
+
+### Answers to Sect. \@ref(AssessReport) {.unlisted .unnumbered}
+
+1. **Outcome**: mortality *rate* or similar;
+   **Response variable**: whether or not an *individual* baby survived.
+2. **Comparison**: Between home and hospital births;
+	 **Explanatory variable**: Where the baby is born (this is what *varies*)
+3. Observational (retrospective) study.
+4. Some are up for debate... 
+   The point here is that confounding variables
+	 are (potentially) related to **both** the response and explanatory variables.
+    a. The maximum temperature on the day of giving birth: Neither? Possibly confounding?
+    b. The health of the mother; Confounding (and hence extraneous, according to our definitions).
+    c. The distance to the nearest hospital: Confounding (and hence extraneous, according to our definitions).
+    d. The number of previous births by the mother: Not sure.  Possibly confounding.  I'd have to think more.
+    e. Baby's gender: Probably neither. Related to mortality (male babies have higher infant mortality) but not to the place of birth.
+
+5. Not experimental.
+6. Observational (retrospective) study.
+7. Possible RQ: "Among American mothers' births (P), is the neo-mortality rate (O) the same when giving birth at home
+   compared to giving birth in hospital (C)?"
+8. Cause-and-effect not reasonable (observational study).
+9. Voluntary response.
+   Data volunteered are likely to be more favourable than the data that was not volunteered.
+   Limitations: many. For example, 
+   mothers who have been told to expect a difficult birth would probably opt for an in-hospital birth.
+10. This report doesn't suggest it is safer.
+11. The headline is acccurate, but is certainly **not the complete story** as it implies cause-and-effect.
+
+
+
+
+
+
+
+
+### Answers to Sect. \@ref(StudyFeatures) {.unlisted .unnumbered}
+
+1. Yes: "They were randomly allocated to take palmolein ("B9") or canola ("T4") crisps for the first 3 weeks, 
+   then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks".
+2. It has: "the type of oil was known only by the food scientist..."
+3. "the type of oil was known only by the food scientist..."
+4. Probably.
 
 
 ### Answers to Sect. \@ref(SamplingParking)
@@ -163,6 +396,69 @@ then cars at random.
 ## Answers to Lecture 3 tutorial {#Lecture3Answers}
 
 
+### Answers to Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Volume of drinks in 375ml: **Graph D**. (Students sometimes say Graph A, thinking that most cans have very similar amounts.)
+   Students sometimes say Graph A, because cans have very similar amounts.
+2. Time in exam for **short** or **easy** exam: **Graph C**.
+3. Time in exam for **long** or **hard** exam: **Graph B**.
+4. The heights of females USC students: **Graph D**.
+5. The *starting* salaries: **Graph C**. (Students sometimes say Graph B, thinking that salaries rise over time.)
+
+
+
+
+
+### Answers to Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. For this scenario, the **explanatory** variable is the number of hours of light each plant received.  
+   For this scenario, the **response** variable is the number of flowers each plant received.  
+   The units of **observation** are the individual plants.
+
+2. For this scenario, the **explanatory** variable is the number of smokers at the restaurant.  
+   For this scenario, the **response** variable is the concentration of fine particulate matter.
+
+3. For this scenario, the **response** variable is the waiting time.  
+   For this scenario, the **explanatory** variable is the time of admission.
+
+3. For this scenario, the **explanatory** variable is the "Level of Playfulness".  
+   For this scenario, the **response** variable is the "Level of Coping".
+
+
+
+
+### Answers to Sect. \@ref(InterpretingGraphs) {.unlisted .unnumbered}
+
+1. Female Weddell: about 260--270 cm long, vary from about 200 to 310 cm.
+   Slight negative skewness; possible small outlier at about 170--180 cm.  
+2. Dotchart.  (Too much data for a useful stem-and-leaf plot probably.)
+3. Better with a title; some more labelled tick marks would be better.
+
+
+
+### Answers to Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+
+1. A few issues...
+   * The vertical axis is not labelled.  Presumably burn time in seconds.
+   * The horizontal axis is not labelled.  We have no way of knowing what is happening there.
+
+2. A few issues...
+    * This is not a summary: This shows the burn-time of every individual candle. This makes it hard to compare *means*, which is the RQ.
+   * Why is every bar labelled?  That just adds unnecessary clutter.
+   * Fonts are hard too read (small). 
+   * A boxplot (or dotchart) would be the appropriate graph.
+   * The largest value is over 70 minutes! Do a *quick* project!
+		
+3. A few issues...
+   * Compares just two numbers (means) using lots of ink.  
+   * No indication of variation in the data.
+   * A boxplot (or dotchart) would be appropriate.
+
+
 
 
 ### Answer to Sect. \@ref(HistogramBars)
@@ -240,6 +536,72 @@ A small outlier (near 10.5 inches)
 
 
 ## Answers to Lecture 4 tutorial {#Lecture4Answers}
+
+
+### Answers to Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
+
+1. The smallest jellyfish has a breadth of (approx.) 6mm. A median of 4mm is silly! The median is somewhere between 8 and 10mm
+2. A typical Dangar Island jellyfish has a breadth of about 10mm,
+   but the variation is from about 6 to 16mm.
+   The data are slightly skewed to the right (most jellyfish have smaller breadths, but some have larger breadths), 
+   but the shape is a bit funny 
+   (more data would smooth it out). 
+3. Site A is Dangar Island.  
+
+   Jellyfish at Salamander Bay generally have a larger breadth:
+   The median breadth at Salamander Bay (about 16mm) is greater than almost *all* the jellyfish at Dangar Island.  
+   
+   Jellyfish at Salamander Bay are a little less variable in terms of breadth.
+   The distributions look slightly skewed right at both sites.
+
+
+
+
+
+### Answers to Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+
+
+1. Descriptive RQ.
+2. $\bar{x}=102.62$MPa; $s=5.356$MPa.  
+3. The median is $101.1$MPa.
+   The range is from $97.6$ to $111.2$, or $13.6$MPa.
+4. Report none based on five values!  Too few data points!
+
+
+
+
+
+### Answers to Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Median largest: **Class D**
+2. Median smallest: **Class C**
+3. Standard deviation largest: **Class A**
+4. Standard deviation smallest: **Class D**
+
+
+
+
+### Answers to Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
+
+1. A few issues...
+    * Five decimal places is to the nearest 0.01 of a mm!
+		* The standard deviation of the difference is *not* the difference between the individual standard deviations.
+		* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
+		* Note that there is a sample size of 0 for the difference!
+2. A few issues...
+    * Five decimal places: That's accuracy to 0.00001 of a millimetre per second.  I don't think so...
+		* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
+		* The *differences* between the two brands.
+		
+		
+		
+
+
+
+
+
 
 
 ### Answers to Sect. \@ref(CalculatorBatteries)
