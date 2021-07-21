@@ -32,7 +32,7 @@ In this chapter, you will learn and practice the content associated with these c
    
 
 ```{block2, type="fold"}
-1. A CI is an interval which probably contains the **population* value. We already know the sample value... we don't need an interval for it.
+1. A CI is an interval which probably contains the **population** value. We already know the **sample** value... we don't need an interval for it.
 1. Confidence intervals can be any percentage (though 90%, 95% and 99% CIs are the most common, and 95% easily the most common of all).
 1. A *standard deviation* is a measure of variation in the *data*; a *standard error* is a measure of how much a sample summary value varies from sample to sample.
 
