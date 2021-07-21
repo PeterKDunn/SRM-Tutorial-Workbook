@@ -1,6 +1,6 @@
 ## Tutor information and answers {#TutorInfo .unlisted .unnumbered}
 
-This Appendix contains some thought on teaching in the tutorial.
+This Appendix contains some thoughts on teaching in the tutorial.
 
 * [Introductory information](#IntroInfoTutor) for use in the Lecture \@ref(Lecture1) Tutorial.
 * [Information](#Lecture1AnswersTutor) for Teaching Week \@ref(Lecture1) Tutorial.
