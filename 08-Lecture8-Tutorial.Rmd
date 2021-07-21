@@ -1,4 +1,4 @@
-# Teaching Week 8: tutorial  {#Lecture}
+# Teaching Week 8: tutorial  {#Lecture8}
 
 ```{block2, type="rmdobjectives"}
 Teaching Week 8 is a *break week*.
