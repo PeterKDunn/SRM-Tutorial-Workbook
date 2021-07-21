@@ -44,6 +44,16 @@ The mean time from scene arrival to starting the first advanced airway procedure
 
 
 
+```{block2, type="fold"}
+1. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
+1. The hypothesis is about a population parameter ($\mu$), which is good.  
+   But the actual question is "to see if there was a **difference** in the mean time..." which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
+1. The *sample* means could be different for one of two reasons: (a) the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b) because the *population* means are different.  
+   We don't know *which* one of these reasons is the reason here.
+1. This is not what the $P$-vaule means (see the textbook).
+
+```
+
 
 
 ## Hypothesis tests for two means {#HT-TwoMeans-A}
