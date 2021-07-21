@@ -62,6 +62,16 @@ In autumn, the correlation coefficient was given as $r = 0.931$
           "There is evidence that the mean number of seeds is different than the mean grams of mud") )}`
 		      
 		      
+
+```{block2, type="fold"}
+1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
+1. The $y$-variable is the number of seeds.
+1. $R^2 = (0.931^2) = 0.86676$, or about 86.7%.
+1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
+1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
+1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero).
+
+```
 		      
 		      
 		      
