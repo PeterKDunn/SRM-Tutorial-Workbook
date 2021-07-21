@@ -68,6 +68,15 @@ collected the data shown below.
                       answer = "1.6") )}`
 
 
+```{block2, type="fold"}
+1. $43\div (43 + 67) \times 100 = 39.1%$. 
+1. $39\div (97 + 39) \times 100 = 28.7%$.
+1. $43\div 67 = 0.618$.
+1. $39\div 97 = 0.402$.
+1. $0.618 \div 0.402 = 1.6$.
+
+```
+
 
 
 ## Percentages and odds {#PercentagesOdds}
