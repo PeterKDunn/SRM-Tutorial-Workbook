@@ -1,6 +1,6 @@
 # Thoughts for teaching {#NonOptionalAnswers}
 
-
+Some information for tutors only.
 `r if (knitr::is_html_output()) {
    '[<span style="color: white;">.</span>](#TutorInfo)'
 }`
