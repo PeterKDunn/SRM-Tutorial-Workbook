@@ -1,27 +1,25 @@
 ## Tutor information and answers {#TutorInfo .unlisted .unnumbered}
 
-This Appendix contains answers to *most* (not all) **non-optional** exercises
-(i.e. for **tutors** to have access to).
-Some are fully worked, and some are only brief solutions.
+This Appendix contains some thought on teaching in the tutorial.
 
 * [Introductory information](#IntroInfoTutor) for use in the Lecture \@ref(Lecture1) Tutorial.
-* [Answers and information](#Lecture1AnswersTutor) for Lecture \@ref(Lecture1) Tutorial.
-* [Answers and information](#Lecture2AnswersTutor) for Lecture \@ref(Lecture2) Tutorial.
-* [Answers and information](#Lecture3AnswersTutor) for Lecture \@ref(Lecture3) Tutorial.
-* [Answers and information](#Lecture4AnswersTutor) for Lecture \@ref(Lecture4) Tutorial.
-* [Answers and information](#Lecture5AnswersTutor) for Lecture \@ref(Lecture5) Tutorial.
-* [Answers and information](#Lecture6AnswersTutor) for Lecture \@ref(Lecture6) Tutorial.
-* [Answers and information](#Lecture7AnswersTutor) for Lecture \@ref(Lecture7) Tutorial.
+* [Information](#Lecture1AnswersTutor) for Teaching Week \@ref(Lecture1) Tutorial.
+* [Information](#Lecture2AnswersTutor) for Teaching Week \@ref(Lecture2) Tutorial.
+* [Information](#Lecture3AnswersTutor) for Teaching Week \@ref(Lecture3) Tutorial.
+* [Information](#Lecture4AnswersTutor) for Teaching Week \@ref(Lecture4) Tutorial.
+* [Information](#Lecture5AnswersTutor) for Teaching Week \@ref(Lecture5) Tutorial.
+* [Information](#Lecture6AnswersTutor) for Teaching Week \@ref(Lecture6) Tutorial.
+* [Information](#Lecture7AnswersTutor) for Teaching Week \@ref(Lecture7) Tutorial.
 * Break week
-* [Answers and information](#Lecture8AnswersTutor) for Lecture \@ref(Lecture8) Tutorial.
-* [Answers and information](#Lecture9AnswersTutor) for Lecture \@ref(Lecture9) Tutorial
-* [Answers and information](#Lecture10AnswersTutor) for Lecture \@ref(Lecture10) Tutorial.
-* [Answers and information](#Lecture11AnswersTutor) for Lecture \@ref(Lecture11) Tutorial.
+* [Information](#Lecture8AnswersTutor) for Teaching Week \@ref(Lecture8) Tutorial.
+* [Information](#Lecture9AnswersTutor) for Teaching Week \@ref(Lecture9) Tutorial
+* [Information](#Lecture10AnswersTutor) for Teaching Week \@ref(Lecture10) Tutorial.
+* [Information](#Lecture11AnswersTutor) for Teaching Week \@ref(Lecture11) Tutorial.
 
 
 
 
-## Introductory information for use in the Lecture 1 tutorial {#IntroInfoTutor .unlisted .unnumbered}
+## Introductory information for use in the Teaching Week 1 tutorial {#IntroInfoTutor .unlisted .unnumbered}
 
 As part of the first tutorial, you **may** wish to use some introductory activities
 so students can get to know each other.
