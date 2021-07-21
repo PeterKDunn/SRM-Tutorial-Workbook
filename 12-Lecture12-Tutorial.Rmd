@@ -156,7 +156,7 @@ From a study comparing how well sports-playing students can estimate distance co
 
 ## **Optional**: Deciding which test to use {#WhatTestToUse}
 
-*(Answers are available in Sect. \@ref(Lecture11Answers))*
+*(Answers are available in Sect. \@ref(Lecture12Answers))*
 
 ```{block2, type = "rmdVideoSolution"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -180,7 +180,7 @@ include_graphics("ArticleImages/Singh2016-Table1.png")
 
 ## **Optional**: Reading research articles {#ReadDesks}
 
-*(Answers available in Sect. \@ref(Lecture11Answers))*
+*(Answers available in Sect. \@ref(Lecture12Answers))*
 
 Mastering handwriting is an important skill for children to learn,
 but children with cerebral palsy have a higher prevalence of handwriting problems.
@@ -231,7 +231,7 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 
 ## **Optional**: Reading research articles {#ReadErrors}
 
-*(Answers available in Sect. \@ref(Lecture11Answers))*
+*(Answers available in Sect. \@ref(Lecture12Answers))*
 
 As with all endeavours involving humans, medical procedures can be subject to human error.
 One study set out to
