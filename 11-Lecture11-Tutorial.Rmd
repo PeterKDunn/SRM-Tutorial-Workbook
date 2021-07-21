@@ -1,4 +1,4 @@
-# Teaching Week 11: Tutorial  {#Lecture10}
+# Teaching Week 11: Tutorial  {#Lecture11}
 
 ```{block2, type="rmdobjectives"}
 **Topics** covered in this tutorial:
