@@ -699,6 +699,113 @@ Median: 13.35%.
 
 ## Answers to Lecture 5 tutorial {#Lecture5Answers}
 
+
+### Answers to Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. 70% directly from the table.
+2. $281/(404 - 281) - 2.28$.
+3. For patients treated with ETI, about 278 die for every 100 that survive.
+4. $2.78/2.28 = 1.22$.
+
+
+
+
+
+### Answers to Sect. \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Five variables. ('Participants' would not be summarised, it is technically an *identifier* and not a *variable*, as each person has a unique value).
+2. Age; Height; Weight and quantitaive **continuous**.
+3. Gender (**nominal**; two levels); GMFCS (**ordinal**; three levels)
+4. As follows:
+    * 'Gender': Percentages (or number) F and M
+    * 'Age': Mean/median; standard deviation/IQR
+    * 'Height':  Mean/median; standard deviation/IQR
+    * 'Weight':  Mean/median; standard deviation/IQR
+    * 'GMFCS': Percentages (or numbers) in each group
+5. As follows:
+    * 'Gender': Barchart (not really needed)
+    * 'Age': Histogram/stemplot
+    * 'Height':  Histogram/stemplot
+    * 'Weight':  Histogram/stemplot
+    * 'GMFCS': Barchart/piechart
+6. As follows:
+    * Between Gender and Height: Boxplot
+    * Between Gender and GMFCS: Side-by-side or stacked bar chart.
+
+
+
+ 
+ 
+ 
+
+### Answers to Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
+
+1. $45\div 240=18.75$\% of all college students in the sample have received one concussion,
+   the same for all student types.
+2. Not sure which is best; they do different things. I'd probably prefer (c) (bottom left graph).
+3. Odds (non-athlete receiving 2+ concussions) is $21\div(81-21) = 21\div 60 = 0.35$.
+   Non-athletes are 0.35 times as likely to receive two or more concussions than fewer than two.
+	 Or: For every 100 students with fewer than two concussions, there are 35 with two or more.
+4. Odds (soccer player receiving 2+ concussions) is $13\div(63-13) = 13\div 50 = 0.26$.
+	 Soccer players are 0.26 times more likely to receive two or more concussions than fewer than two concussions.
+5. OR: $0.35 \div 0.26$, or about $1.35$.
+	 The odds of a non-athlete receiving two or more concussions is about 1.35 times the odds
+	 of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
+6. Not given.
+7. Not given.	
+8. The better table is probably row percentages:
+   The percentages of each type of students with given number of concussions.
+
+
+
+
+
+### Answers to Sect. \@ref(Probability2) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. Relative frequency.
+2. Relative frequency.
+3. Subjective.
+4. Relative frequency.
+5. Classical.
+
+
+
+
+
+### Answers to Sect. \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begin with making an assumption about the population **parameter**.  
+This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. But we can have some of idea of what values are reasonable to expect.  
+Then we take the **sample** (that is, we make the observations).  
+Then we **compare** the sample statistic that we observed... to the sample statistic we expected.  
+If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.  
+However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
+
+2. Step 1:  Assumption about population parameter  
+   Step 2: Expectation for sample statistic  
+   Step 3: Observation of sample statistic  
+   Decision: Consistent?  
+   Conclusion A: Yes, supports assumption  
+   Conclusion B: No, doesn't support assumption
+
+### Answers to Sect. \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. Odds **less than** one.
+1. Odds **less than** one.
+1. Odds **greater than** one.
+1. Odds **greater than** one.
+
+
 ### Answers to Sect. \@ref(WorkingWithOdds)
 
 ```{block2, type="answer"}
@@ -819,6 +926,92 @@ g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e)
 ## Answers to Lecture 6 tutorial {#Lecture6Answers}
 
 
+### Answers to Sect. \@ref(NormalIQs) {.unlisted .unnumbered}
+
+Answers embedded.
+Some answers:
+
+1. In order from left to right:
+   70; 85; 100; 115; 130.
+3. 30 points above the mean.
+4. Two standard deviations above the mean.
+5. About 2.5%.
+
+A person with an IQ of 85 has an IQ that is **15** points **below** the mean.  
+This is equivalent to **1** standard deviation(s) **below** the mean IQ.  
+Using the **68**--95--99.7 rule, this means that the proportion of the population with an IQ less than 85 is about **32**%. In addition, the proportion of the population with an IQ **above** 85 is about **68**%.
+
+
+### Answers to Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
+
+1. Answers vary.
+2. Answers vary.
+3. Answers vary.
+4. Answers vary.
+   You probably cannot be very accurate using the 68--95--99.7 rule.
+5. Answers vary.
+6. Two standard deviations from the mean is $2\times 6.7 = 13.4$, so 95% of females aged 18 and over  have a measured height
+   between $161.4 \pm13.4$ approximately, or from $148.0$cm to $174.8$cm.
+7. As follows:
+    * $z=(171-161.4)/6.7 = 1.43$, so the probability is $0.9236$ or about 92%.
+    * So the odds are $92.36/(100-92.36) = 12.1$.
+    * The answer is just $1-0.9236 = 0.0764$ or about 7.6%.
+    * The probability of **over 171cm** is $7.64$%.
+    * So the odds are $7.64/(100-7.64)= 0.084$.
+    *  $z$-scores are $1.28$ and $2.78$, so the answer is $0.9973 - 0.8997 = 0.0976$,
+      or about 9.8%. 
+    * So the odds are $9.8/(100-9.8)=0.11$.
+
+8. Use the Tables: $z=-0.84$; then using unstandardising formula,
+   the height is $x=\mu+(z\times\sigma) = 161.4 + (-0.84\times6.7) = 155.772$,
+   or about 156cm.
+
+ 
+
+### Answers to Sect. \@ref(SEproportions) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+\[
+   \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p}\times(1 - \hat{p})}{n}}
+\]
+
+* $\hat{p}$ is the *sample proportion*.
+* $n$ is the *sample size*.
+* "s.e." stands for "standard error".
+
+### Answers to Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
+
+1. $123/(404-123) = 123/281 = 0.44$.
+2. $\hat{p} = 123/404 = 0.304455$.
+3. The **odds**: The likelihood of surviving is about 0.44 times the probability of dying (ie. it is lower).
+	Or: For every 100 that die, about 44 survive.
+4. No: sampling variation!
+5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1-0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about 0.023.
+6. The values of $\hat{p}$ will have an approximate normal distribution,
+   with a standard deviation equal to standard error ($0.023$) and centred around
+   the true proportion $p$.
+   Since we don't know $p$,
+   we need to centre it around our best guess of $p$,
+   which is $\hat{p}=0.304$. 
+   So something like this:
+7. A 95% CI: $0.304455 \pm (2\times0.022894)$,
+   or $0.30446\pm0.04579$,
+   or $0.26$ to $0.35$.
+8. (Answer not yet provided.)
+9. The number of surviving and non surviving both exceed 5.
+10. Larger, to get a tighter (more precise) CI than the one calculated.
+11. $n = 1/(0.01)^2 = 10\,000$ patients.
+12. No answer given.
+13. Use a stacked or side-by-side barchart, for example.
+    But a chart is not really needed:
+    Just give the information in text.
+14. Odds of *not* surviving in ETI group is $(306/110) = 2.8$,
+    so the OR is $(2.3/2.8) = 0.82$.
+    The odds of a BV patient not surviving are 0.8 times as great as 
+    the odds of an ETI patient not surviving.
+
+
 ### Answers to Sect. \@ref(NormalSOI)
 
 
@@ -881,6 +1074,133 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 ## Answers to Lecture 7 tutorial {#Lecture7Answers}
+
+
+### Answers to Sect. \@ref(ConceptsMatches) {.unlisted .unnumbered}
+
+1. This is just one box (one *observation*), but the claim is about the *population mean*.
+   Some boxes will have more than 45, and some fewer.
+2. Jake is correct in one sense: You can't have 0.9 of a match.
+   But the value is the *mean* number, and that *can* be a decimal.
+	 Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches.... 
+	 is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
+3. Jake is confusing the *sample* and *population* mean.
+   The claim is that the \emph{population} mean is $45$.
+   The sample produced a mean of $44.9$.
+   a *sample* mean and a *population* mean.
+   Why should the mean of two different things be the same?
+   It's like expecting your height and your Mum's height to be the same:
+   they are both heights, but of different things.
+   Why should they be the same?  
+
+   Of course, every sample will produce a different sample mean.
+   This sample may just have an unusually low number of matches.
+4. The manufacturer is lying,
+   or a sample that just happens to have a smaller number of matches: (bad) luck.
+5. A CI gives some indication of the variation implied by the sample.
+6. The standard error for the mean is $0.11\div\sqrt{20} = 0.0246$.
+   So the approximate 95% CI is: $44.9 \pm (2\times 0.0246)$, or $44.9\pm 0.049$, or from $44.85$ to $44.95$.
+7. No. A 95% CI may or may not contain the population mean.
+   Of course, the manufacturer *may* indeed be lying...
+   but we'd need to be cautious about making such a bold claim on just this evidence.
+   Ideally, we would repeat this study a few times or take a larger sample.
+   But it *is* looking suspicious...  
+
+   If we had many, many sets of 20 matches boxes,
+   95% of these sets of 20 would have a mean between 44.85 and 44.95.
+8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+9. $\mu$ is the mean of the population; the true mean if you like.
+   $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
+
+
+      
+      
+### Answers to Sect. \@ref(CIPizzas) {.unlisted .unnumbered}
+
+1. $\mu$ is the population mean diameter size of *all* EB pizzas;
+   $\bar{x}$ is the mean diameter of the pizzas in the sample.
+2. $\bar{x} = 11.486$ inches;
+	 It's not sensible to quote the diameter
+	 to $0.001$ of a cm; what is sensible?  
+
+   We don't know the value of $\mu$, and we never will.
+	 Our best *estimate* is the value of $\bar{x}$.
+3. $s=0.24658$ inches.
+   It's not sensible to quote the diameter
+	 to $0.001$ of a cm though.  
+
+   $\sigma$ is the standard deviation of the population.
+	 We don't know the value of $\sigma$, and we never will.
+4. $\displaystyle\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.24658/\sqrt{125} = 0.02205$.
+5. The first measures the variation in the diameters of individual pizzas;
+	 the second measures the precision of the sample mean when used to estimate the population mean.
+6. Almost certainly not the same.
+   Probably close to $\bar{x}=11.486$ inches.
+   More precisely,
+   probably within three standard errors ($3\times 0.022$) of $\bar{x}$.
+7. Normal; mean $\mu$; std. dev is the standard error of 0.02205.
+8. The approximate 95% CI is
+   $11.486\pm (2\times 0.02205)$ or $11.486\pm0.044$,
+   which is from 11.44 to 11.53 inches.
+9. Based on the sample,
+	a 95% confidence interval for the population mean for the pizza diameter
+	is between $11.44$ and $11.53$ inches.
+10. $n>25$ **or** $n\le 25$ and population has normal distribution.
+11. We do not need to **assume** that $n>25$ because we know that it is.
+			(We do *not* require that the sample or the population has a normal distribution.
+			We require that the *sample means* have an approximate normal distribution,
+			which they will if $n>25$.)
+			So the CI is statistically valid.
+12. Population mean diameter probably not 12 inches based on the CI.
+13. Compute: \[n=\left(\frac{2\times 0.24658}{0.04}\right)^2 = 152.004\] at least, so we would need 153 pizzas.
+
+
+
+
+
+
+
+### Answers to Sect. \@ref(CIImplant) {.unlisted .unnumbered}
+
+1. **Descriptive**:
+   Every subject is treated the same way; we are not comparing two groups that have been treated differently.
+2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+3. Each measurement is measured after and before on the same subject.
+4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+   (Differences in the other direction are also acceptable;
+   it just changes the signs of these differences snd so on.
+   **Importantly,
+   the direction should be stated somewhere.**)
+5. It makes more sense to define directions this way,
+   so that the difference is the *increase* in 2MWT.
+6. $\bar{d} = 24.9$; $s_d=13.03372$
+7. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623$.
+   This is the standard deviation of the sample mean difference,
+   a measurement of how precisely the sample mean difference measures
+   the population mean difference.
+8. Almost impossible.
+   Sample means vary every time we take a sample around the true mean difference,
+   with a normal distribution with standard error $4.12$.
+   Since we don't know $\mu$,
+   the best we can say is that the sample mean will vary about our best guess of the
+   population mean; in other words,
+   the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
+9. Normal; mean $\mu$, std deviation is the standard error of 4.121.
+10. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245$m.
+11. We are 95% confident that the population 2MWT *increases* by a mean amount between $16.7$ and $33.1$m.
+12. Either (or both) of these must be true:
+    (i) the population has a normal distribution,
+    and/or 
+    (ii) the sample size is large enough so that the sample means have a normal distribution,
+    so about larger than 25.
+13. Since $n<25$, we need to assume the population of differences has a normal distribution.
+    A stem-and-leaf plot suggests this is not unreasonable,
+    so the sample means quite possibly have an approx.\ normal distribution:
+14. (Recall we haven't done hypothesis testing in this context yet!)
+    Looks pretty likely that the 2MWT distances are higher after receiving the implant.
+15. $n=(2\times 13.03372\div 5)^2 = 27.18$, so need data from at least $28$ amputees.
+
+
 
 
 ### Answers to Sect. \@ref(RoomWidthCI)
@@ -1018,6 +1338,255 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 ## Answers to Lecture 9 tutorial {#Lecture8Answers}
 
+
+
+### Answers to Sect. \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
+
+1. The two groups are completely different; cannot determine how to pair. Indeed, the sample sizes are different.  
+
+   Each rat, of course, must be in just one group (they measure lifetimes!).  
+
+   It is paired: For each unit of analysis, there are two observations.
+2. The null hypothesis is that there is no difference in the mean lifetimes of the two groups of rats.
+   In symbols (where $\mu$ represents the mean lifetime in the population):  
+   
+   $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
+3. If we took many samples of the same size from the population,
+   the mean differences would vary from sample to sample.
+   The 'standard error of the difference' tells us how much the sample mean will vary from sample to sample.
+   It is is the standard deviation of this variation in sample means.
+4. The variation in the sample means is small:
+   The population means are estimated quite precisely. The means look different.
+5. Either sampling variation, or the diets really are different.
+6. We always use the not-equal variance (Welch's test) row:
+   $t=9.161$; $\text{df}=154.94$; one-tailed $P<0.0005$ (test is one-tailed).
+   The evidence contradicts $H_0$.
+7. The differences are defined as the *Mean restricted-diet lifetime* minus the *Mean Free-eating diet lifetime*;
+   we see this as the (poorly-labelled) "Mean difference" column is positive,
+   and the only way to get this value positive is to subtract them in this order.
+8. Very strong evidence exists in the sample
+   ($t=9.161$ for two independent samples; $\text{df}=154.94$; one-tailed $P<0.0005$) 
+   that the population mean lifetime of
+   rats on a restricted diet (mean lifetime: 968.75 days; std. dev.: 284.6)
+   is greater than rats on a free-eating diet (684.01 days; 134.1)
+   (95% CI for the difference from 223.3 to 346.1 days).
+9. The two samples are independent; the sample means have a normal distribution,
+   so:
+   the population has a normal distribution, and/or $n>30$ or so.
+10. The sample sizes here are quite large so we should be OK, 
+   as the Figure suggests not very severe non-normality.
+11. Rats from the same litter are likely to be similar to each other.
+   The litter would probably be the unit of analysis then, not the individual rat.
+
+
+
+
+### Answers to Sect. \@ref(PValues) {.unlisted .unnumbered}
+
+1. *Less than* 0.05.
+2. Greater than 0.05.
+3. *Less than* 0.003.
+4. Greater than 0.05.
+5. Greater than 0.05.
+6. Very small.
+
+
+
+
+
+### Answers to Sect. \@ref(TestsPairedImplants) {.unlisted .unnumbered}
+
+1. Before and after measurement on same amputee.
+2. $H_0$: $\mu_d=0$, differences defined as 'with' minus 'without'. 
+   $H_1$: $\mu_d>0$ the way I defined differences.  
+
+   We are explicitly seeking to test for an *improvement*, so the test is one-tailed.
+   (Diffs in the other direction are also OK;
+   the signs of the differences and some other subsequent things change.)
+3. The standard error of the mean is the standard deviation of the sample mean diff in plasma concentrations,
+   a measurement of how precisely the sample mean difference estimates the population mean diff.
+4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s=813.034$m; standard error: $4.122$m.
+5. $t=6.041$ and since $t$ is very large, expect $P$ to be very small.
+   (The one-tailed $P$ less than $0.0005$ from Table A.2.)  
+   
+   The differences have just been defined in the opposite directions.
+   (Notice the $P$-values are the same.)
+6. Very strong evidence exists in the sample
+   (paired $t=6.041$; one-tailed $P$ less than $0.0005$)
+   that the population mean 2MWT are higher after receiving the implant
+   compared to without the implant
+   (mean difference: $24.9$m higher after receiving the implant; standard deviation: 13.034m;
+   95% CI from $15.58$ to $34.224$m).
+7. The population of differences has a normal distribution,
+   and/or $n>25$ or so.
+8. Since $n<25$, must assume the population of differences has a normal distribution.
+   The histogram suggests this is not unreasonable.
+
+
+
+### Answers to Sect. \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+*Null* hypotheses:
+
+* At Subway, is the mean length of a 12-inch sub really 12 inches?  
+  $\mu = 12$
+* At Subway, is the mean length of a 12-inch sub different for white and wholemeal subs?  
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
+* At Subway, is the proportion of 12-inch subs that are shorter than 12 inches different
+for white and wholemeal subs?  
+  $p_{\text{white}} = p_{\text{white}}$
+* At Subway, is the mean length of a 12-inch sub longer for white (compared to wholemeal) subs?
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
+
+*Alternative* hypotheses:
+
+* At Subway, is the mean length of a 12-inch sub really 12 inches?  
+  $\mu \ne 12$
+* At Subway, is the mean length of a 12-inch sub different for white and wholemeal subs?  
+  $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$
+* At Subway, is the proportion of 12-inch subs that are shorter than 12 inches different
+for white and wholemeal subs?  
+  $p_{\text{white}} \ne p_{\text{white}}$
+* At Subway, is the mean length of a 12-inch sub longer for white (compared to wholemeal) subs?
+  $\mu_{\text{white}} > \mu_{\text{wholemeal}}$
+
+
+
+### Answers to Sect. \@ref(TestsForORs) {.unlisted .unnumbered}
+
+Some answers embedded.
+
+1. See Table \@ref(tab:ArtLimbMortalityANS).
+2. Using artificial limb: $49/16 = 3.0625$.
+   Not using artificial limb: $21/19 = 1.105263$.
+   The OR is $3.0625/1.105263 = 2.771$;
+   that is, the odds of being alive after five years is almost three times
+   higher for those using an artificial limb compared to those who do not.  
+   
+   See Table \@ref(tab:ArtLimbSummaryANS).
+3. The CI for the OR is from $1.198$ to $6.411$.
+4. Chi-squared: $5.836$; like $z = \sqrt{5.836/1} = 2.42$: large; $P$ about $0.016$.  
+
+   The *sample* provides evidence to suggest that the odds of dying within five years
+   is not the same 
+   between having a wearing an artificial limb and the five-year mortality rate *in the population*
+   ($\text{chi-square}=5.836$; $\text{df}=1$; $P=0.016$; OR: $2.771$ and 95% CI from 1.198 to 6.411).
+
+
+
+```{r echo=FALSE, ArtLimbMortalityANS}
+ArtLimb <- array( dim=c(3, 3) )
+colnames(ArtLimb) <- c("Alive", "Dead", "Total")
+rownames(ArtLimb) <- c("Used art. limb", "Did not use art. limb", "Total")
+
+  ArtLimb[1,3] <- 65
+  ArtLimb[2,3] <- 40
+  ArtLimb[3,1] <- 70
+  ArtLimb[3,2] <- 35
+
+  ArtLimb[1,1] <- 49
+  ArtLimb[2,1] <- 21
+  ArtLimb[1,2] <- 16
+  ArtLimb[2,2] <- 19
+  
+ArtLimb[3,3] <- 105
+   
+if( knitr::is_latex_output() ) {
+   kable(ArtLimb,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption="Five-year mortality for artifical limb users",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  
+  kable(ArtLimb,
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Five-year mortality for artifical limb users",
+      booktabs=TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+
+
+
+
+
+```{r echo=FALSE, ArtLimbSummaryANS}
+ArtLimbSumm <- array( dim=c(3, 3) )
+colnames(ArtLimbSumm) <- c("Percentage alive after 5 years", "Odds alive after 5 years", "Sample size")
+rownames(ArtLimbSumm) <- c("Use artificial limb", "Did not use artifical limb", "Odds ratio")
+
+  ArtLimbSumm[3,1] <- ""
+  ArtLimbSumm[3,3] <- ""
+  
+  ArtLimbSumm[1,3] <- 65
+  ArtLimbSumm[2,3] <- 40
+  
+  ArtLimbSumm[1,1] <- round(49/65*100, 1)
+  ArtLimbSumm[2,1] <- round(21/40*100, 1)
+
+  ArtLimbSumm[1,2] <- round(49/16, 2)
+  ArtLimbSumm[2,2] <- round(21/19, 2)
+
+  ArtLimbSumm[3,2] <- 2.771
+
+  
+ArtLimbSumm[3,3] <- 626
+   
+if( knitr::is_latex_output() ) {
+   kable(ArtLimbSumm,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption="Five-year mortality and use of an artificial limb: Numerical summary",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(ArtLimbSumm,
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Five-year mortality and use of an artificial limb: Numerical summary",
+      booktabs=TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+
+
 ### Answers to Sect. \@ref(RoomWidthTest)
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
@@ -1129,6 +1698,8 @@ if( knitr::is_latex_output() ) {
 
 
 ## Answers to Tutorial 10 tutorial {#Lecture9Answers}
+
+
 
 
 ### Answers for Sect. \@ref(PvalueStatement)
@@ -1357,6 +1928,99 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 ## Answers to Lecture 11 tutorial {#Lecture10Answers}
+
+
+### Answers to Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
+
+1. The correlations:
+
+   **Plot 1**: $0.94$ (correlation **A**);  
+   **Plot 2**: $-0.95$ (correlation **D**);  
+   **Plot 3**: $0.12$ (correlation **B**):  
+   **Plot 6**: $0.75$ (correlation **C**).  
+   
+   Correlation is inappropriate for **Plot 4**) (non-linear) and **Plot 5** (non-linear).
+2. Examples of the direction in **Plot 1**:
+   Any two variables moderately positively correlated,
+   such as  height and weight,
+   distance lived from university and travel time, etc.
+3. Examples of direction in **Plot 2**:
+   Any two variables moderately negatively correlated, such as 
+   hours of weekly exercise and body weight,
+   number of SCI110 tutorial missed and final mark, etc.
+4. These are:  
+   
+   **Plot 1**: $88.4$%;  
+   **Plot 2**: $90.3$%;  
+   **Plot 3**: $1.4$%;  
+   **Plot 6**: $56.3$%.
+5. The answers:
+
+    a. No answer. But a line is fine for **Plot 1**, **Plot 2**, **Plot 3** (but very weak!) and **Plot 6**, 
+       but not for **Plot 4** and **Plot 6**. 
+    b. My **very rough** slope estimates are:  
+       **Plot 1**: $(50-10)/10 \approx 4$;  
+       **Plot 2**: $(20 - 50)/15 \approx -2$;  
+       **Plot 3**: $0$;  
+       **Plot 6**: $(55 - 35)/5 = 4$.
+    c. My **very rough** intercept estimates are:  
+       **Plot 1**: $8$;  
+       **Plot 2**: $40$;  
+       **Plot 3**: $32$;  
+       **Plot 6**: $10$.
+    d. My very rough estimates are:  
+       **Plot 1**; $\hat{y} = 8 + 4x$;  
+	     **Plot 2**: $\hat{y} = 40 -2x$;  
+	     **Plot 3**: $\hat{y} = 32$;  
+	     **Plot 6**: $\hat{y} = 10 + 4x$. 		
+
+
+
+
+
+### Answers to Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
+
+1. Approximately linear, negative, reasonably strong.
+2. Condition, extras (air con, etc.), sedan/hatch, colour, when rego due, new/old tyres, location, etc.
+3. No answer.
+4. Looks to be expensive, as $15,000 would be above the line (at least for the line I'd draw).
+5. Probably $3900.
+6. My guess is about $b_0\approx 17$ or $17,000.
+	This would mean the average price of a 2014 second-hand Corolla
+	can be expected to be about $17,000.  
+7. $b_1 = (1 - 17)/(16-0)\approx -1$. That is,
+   the price reduces by about $1000 each year older the Corolla gets.
+8. Using the above, we have $\hat{y} = 17 - x$ approximately.
+   Guessing the regression line won't, 
+   of course,
+   produce this level of precision, so anything close-ish to this is fine.
+9. $\hat{y} = 16.54 - 0.96x$ (jamovi) or $\hat{y} = 16.536 - 0.963x$ (SPSS),
+	where $y$ is the price in thousands of dollars,
+	and $x$ is the age in years.
+10. $r = -0.929$, and so $R^2 = (-0.929)^2 = 0.863$, or about 86%, 
+    so about 86% of the variation in prices can be explained by age alone.
+    The rest can be explained by the car's condition,
+	 odometer reading, accessories, service history, etc.
+11. jamovi: $\hat{y} = 16.54 - (0.96\times 20) = -2.66$, or -\$2660.  
+    SPSS: $\hat{y} = 16.536 - (0.963\times 20) = -2.72$, or -\$2720.  
+	 This is clearly silly, as we are extrapolating.
+12. jamovi: $\hat{y} = 16.54 - (0.96\times 6) = 10.78$, or \$10,780.  
+    SPSS: $\hat{y} = 16.536 - (0.963\times 6) = 10.76$, or \$10,760.  
+	 So the price seems a bit steep,
+	 unless it is highly specified and in great condition.
+13. Hardly need a test...
+    $H_0$: $\beta_1=0$ vs $H_1$: $\beta_1<0$.
+	 From output, $t=-15.059$, and $P=0.000/2=0.000$:
+	 very strong evidence that older cars fetch lower second-hand prices, on average.
+14. $-0.963\pm(2\times 0.064)$, or $-0.963\pm 0.128$, or from $-1.091$ to $-0.835$.
+15. Looks the same really, just reflected left-to-right.
+    * *Size* of $r$ won't change, sign from negative to positive; i.e. $r=0.93$.
+    * Value of $R^2$ will be the same.
+	 * Slope will be the same except sign will change (in both cases, the values on the horizontal axis are one year apart).
+    * Intercept will change a lot... it is the predicted value of the price if the line is extended to year 0 
+      (which is, of course, meaningless).
+
+     	 
 
 
 ### Answers to Sect. \@ref(IdentifyCorrectAnalysisAgain).
