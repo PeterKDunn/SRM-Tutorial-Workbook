@@ -91,7 +91,7 @@ That covers a lot of good territory really...
 
 
 
-## Answers to Lecture 1 tutorial  {#Lecture1AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 1 tutorial  {#Lecture1AnswersTutor .unlisted .unnumbered}
 
 <!-- Lecture1AnswersTutor -->
 
@@ -192,7 +192,7 @@ Then let the groups share their answers with another group(s).
 
 
 
-## Answers to Lecture 2 tutorial {#Lecture2AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 2 tutorial {#Lecture2AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -314,7 +314,7 @@ Notes:
 
 
 
-## Answers to Lecture 3 tutorial {#Lecture3AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 3 tutorial {#Lecture3AnswersTutor .unlisted .unnumbered}
 
 
 
@@ -367,7 +367,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 [**Return to index of tutor information.**](#TutorInfo)
 
 
-## Answers to Lecture 4 tutorial {#Lecture4AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 4 tutorial {#Lecture4AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -516,21 +516,13 @@ jamovi and SPSS like data arranged with one unit of analysis (i.e. person in thi
 ```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center" }
 include_graphics("SoftwareImages/RulerDropData.png")
 ```
-
-
-
-
-
-
-
  
  
- 
- [**Return to index of tutor information.**](#TutorInfo)
+[**Return to index of tutor information.**](#TutorInfo)
 
  
 
-## Answers to Lecture 5 tutorial {#Lecture5AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 5 tutorial {#Lecture5AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -573,7 +565,7 @@ Answers embedded.
 
 
 
-## Answers to Lecture 6 tutorial {#Lecture6AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 6 tutorial {#Lecture6AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -635,7 +627,7 @@ many students will have no idea what's going on.
 
 
 
-## Answers to Lecture 7 tutorial {#Lecture7AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 7 tutorial {#Lecture7AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -663,14 +655,9 @@ you can discuss what the negative number means.
 
 
 
-## Answers to Lecture 9 tutorial {#Lecture8AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 9 tutorial {#Lecture8AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-
-
 
 
 
@@ -880,7 +867,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## Answers to Lecture 10 tutorial {#Lecture9AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 10 tutorial {#Lecture10AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -915,7 +902,7 @@ you can conduct a hypothesis test for the ruler-drop (using jamovi).
 
 
 
-## Answers to Lecture 11 tutorial {#Lecture10AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 11 tutorial {#Lecture11AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -955,7 +942,7 @@ Regression and correlation are not the same thing!
 
 
 
-## Answers to Lecture 12 tutorial {#Lecture11AnswersTutor .unlisted .unnumbered}
+## Answers to Teaching Week 12 tutorial {#Lecture12AnswersTutor .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
