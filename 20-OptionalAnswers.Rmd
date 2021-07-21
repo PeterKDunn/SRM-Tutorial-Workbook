@@ -11,18 +11,18 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answers to Teaching Week tutorial \@ref(Lecture1) (Lecture 1): Sect. \@ref(Lecture1Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture2) (Lecture 2): Sect. \@ref(Lecture2Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture3) (Lecture 3): Sect. \@ref(Lecture3Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture4) (Lecture 4): Sect. \@ref(Lecture4Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture5) (Lecture 5): Sect. \@ref(Lecture5Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture6) (Lecture 6): Sect. \@ref(Lecture6Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture7) (Lecture 7): Sect. \@ref(Lecture7Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
 * No Optional Exercises in the Break week.
-* Answers to Teaching Week tutorial \@ref(Lecture8) (Lecture 8): Sect. \@ref(Lecture8Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture9) (Lecture 9): Sect. \@ref(Lecture9Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture10) (Lecture 10): Sect. \@ref(Lecture10Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture11) (Lecture 11): Sect. \@ref(Lecture11Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
+* Answers to Teaching Week tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
 
 
 
@@ -32,7 +32,7 @@ Some are fully worked, and some are only brief solutions.
 
 
 
-## Answers to Lecture 1 tutorial {#Lecture1Answers}
+## Answers to Teaching Week 1 tutorial {#Lecture1Answers}
 
 
 
@@ -248,7 +248,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-## Answers to Lecture 2 tutorial {#Lecture2Answers}
+## Answers to Teaching Week 2 tutorial {#Lecture2Answers}
 
 
 
@@ -393,7 +393,7 @@ then cars at random.
 
 
 
-## Answers to Lecture 3 tutorial {#Lecture3Answers}
+## Answers to Teaching Week 3 tutorial {#Lecture3Answers}
 
 
 ### Answers to Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
@@ -535,7 +535,7 @@ A small outlier (near 10.5 inches)
 
 
 
-## Answers to Lecture 4 tutorial {#Lecture4Answers}
+## Answers to Teaching Week 4 tutorial {#Lecture4Answers}
 
 
 ### Answers to Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
@@ -697,7 +697,7 @@ Median: 13.35%.
  
  
 
-## Answers to Lecture 5 tutorial {#Lecture5Answers}
+## Answers to LectTeaching Weekure 5 tutorial {#Lecture5Answers}
 
 
 ### Answers to Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
@@ -923,7 +923,7 @@ g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e)
 
 
 
-## Answers to Lecture 6 tutorial {#Lecture6Answers}
+## Answers to Teaching Week 6 tutorial {#Lecture6Answers}
 
 
 ### Answers to Sect. \@ref(NormalIQs) {.unlisted .unnumbered}
@@ -1073,7 +1073,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-## Answers to Lecture 7 tutorial {#Lecture7Answers}
+## Answers to Teaching Week 7 tutorial {#Lecture7Answers}
 
 
 ### Answers to Sect. \@ref(ConceptsMatches) {.unlisted .unnumbered}
@@ -1336,7 +1336,7 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 
 
-## Answers to Lecture 9 tutorial {#Lecture8Answers}
+## Answers to Teaching Week 9 tutorial {#Lecture8Answers}
 
 
 
@@ -1697,7 +1697,7 @@ if( knitr::is_latex_output() ) {
 
 
 
-## Answers to Tutorial 10 tutorial {#Lecture9Answers}
+## Answers to Teaching Week 10 tutorial {#Lecture9Answers}
 
 
 
@@ -1927,7 +1927,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers to Lecture 11 tutorial {#Lecture10Answers}
+## Answers to Teaching Week 11 tutorial {#Lecture10Answers}
 
 
 ### Answers to Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
@@ -2053,7 +2053,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers to Lecture 12 tutorial {#Lecture11Answers}
+## Answers to Teaching Week 12 tutorial {#Lecture11Answers}
 
 
 ### Answers to Sect. \@ref(WhatTestToUse)
