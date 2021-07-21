@@ -453,7 +453,7 @@ Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 ## **Optional**: Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture10Answers))*'
+   '*(Answers are available in Sect.\\@ref(Lecture11Answers))*'
 }`
 
 
@@ -468,7 +468,7 @@ Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
 ## **Optional**: Reading scatterplots {#ReadScatterplotHeathers}
 
-*(Answers are available in Sect. \@ref(Lecture10Answers))*
+*(Answers are available in Sect. \@ref(Lecture11Answers))*
 
 ```{block2, type = "rmdVideoSolution"}
 This question has a video solution in the online book, so you can hear and see the solution.
