@@ -1269,19 +1269,6 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Answers to Sect. \@ref(CIPairedWaves)
 	
 ```{block2, type="answer"}
@@ -1336,7 +1323,12 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 
 
-## Answers to Teaching Week 9 tutorial {#Lecture8Answers}
+## Answers to Teaching Week 8 tutorial {#Lecture8Answers}
+
+
+
+
+## Answers to Teaching Week 9 tutorial {#Lecture9Answers}
 
 
 
@@ -1697,7 +1689,7 @@ if( knitr::is_latex_output() ) {
 
 
 
-## Answers to Teaching Week 10 tutorial {#Lecture9Answers}
+## Answers to Teaching Week 10 tutorial {#Lecture10Answers}
 
 
 
@@ -1927,7 +1919,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers to Teaching Week 11 tutorial {#Lecture10Answers}
+## Answers to Teaching Week 11 tutorial {#Lecture11Answers}
 
 
 ### Answers to Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
@@ -2053,7 +2045,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers to Teaching Week 12 tutorial {#Lecture11Answers}
+## Answers to Teaching Week 12 tutorial {#Lecture12Answers}
 
 
 ### Answers to Sect. \@ref(WhatTestToUse)
@@ -2114,7 +2106,8 @@ there is evidence that the proportion with diabetes is different and whether or 
 
 
 
+## Answers to Teaching Week 12 tutorial {#Lecture12Answers}
 
-
+Not yet completed.
 
 
