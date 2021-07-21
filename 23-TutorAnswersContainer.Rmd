@@ -1,7 +1,6 @@
-# Answers to **non-optional** exercises {#NonOptionalAnswers}
+# Thoughts for teaching {#NonOptionalAnswers}
 
 
-Tutors will have all answers.
 `r if (knitr::is_html_output()) {
    '[<span style="color: white;">.</span>](#TutorInfo)'
 }`
