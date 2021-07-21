@@ -15,6 +15,7 @@ This Appendix contains some thought on teaching in the tutorial.
 * [Information](#Lecture9AnswersTutor) for Teaching Week \@ref(Lecture9) Tutorial
 * [Information](#Lecture10AnswersTutor) for Teaching Week \@ref(Lecture10) Tutorial.
 * [Information](#Lecture11AnswersTutor) for Teaching Week \@ref(Lecture11) Tutorial.
+* [Information](#Lecture12AnswersTutor) for Teaching Week \@ref(Lecture12) Tutorial.
 
 
 
@@ -946,90 +947,6 @@ Regression and correlation are not the same thing!
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-### Answers to Sect. \@ref(CIConcrete) {.unlisted .unnumbered}
-
-1. Both students are incorrect as they used $s$ rather than $\text{s.e.}(\bar{x})$.
-    * Student A:
-      This is an approximate 68% CI for the values of individual concrete samples, not for the mean,
-      **assuming the individual first-crack strengths have an approximate normal distribution**.
-    * Student B:
-      This is an approximate 95% CI for the values of individual concrete samples, not for the mean,
-      **assuming the individual first-crack strengths are approximately normally distributed**.
-2.  We need to use the *standard error* because the question asks
-      about a sample mean... and standard errors tells us how much the sample means are likely to vary.
-      $12.4\pm(2\times 2.8\div\sqrt{6})$, or $12.4\pm 2.286$ MPa, or from $10.11$ to $14.69$ MPa.
-
-
-
-### Answers to Sect. \@ref(CritiqueReports1) {.unlisted .unnumbered}
-
-* **Research question:** Use *mean* distance.
-  So more directly:  
-  
-> For casual golfers, 
-> is the *mean* distance travelled by a golf ball the same 
-> when hit by a wooden or metal club?
-
-* **Summaries:** 
-  There is no mention of the distance travelled by the ball.
-  It really doesn't make sense to say 'the iron golf club' is 'moderately higher than the wooden golf club'.
-  That sounds like the height of the clubs are different!
-* **Results (1):**
-  Spelling/grammar errors ('verse'; 'differes').
-  Is two decimal places suitable? Certainly no more.
-  The CI is for the difference between the *means* of hitting distances. 
-* **Results (2):**
-  The results just say there is a difference between metal and wooden clubs (of course!);
-  there is no mention of hitting distance.
-
-
-
-
-
-### Answers to Sect. \@ref(CritiqueReports2) {.unlisted .unnumbered}
-
-* **Null hypothesis:** The *mean* heart rates.
-* **Results:** A $\chi^2$ test is inappropriate for comparing means.
-
-
-
-### Answers to Sect. \@ref(CritiqueReports3) {.unlisted .unnumbered}
-
-* **Research question**: Spelling error ('lily pily'); *mean* size.
-  It sounds odd, too, to ask if they 'become' longer.
-  We are just comparing the mean length of leaves of eastern and western sides.
-* **Null hypothesis**: Spelling again; and the hypothesis should be explicitly comparing the *means*:
-  "For weeping lilly pilly trees at USC,
-   it the mean leaf length the same for leaves on the western and eastern sides of the tree?"
-* **Results**: Cannot find the mean of a qualitative variable ('Side of tree');
-  the table should give the mean, standard deviation and standard error
-  for leaves taken from the west side (one row) and the east side (second row),
-  plus information about the *difference*.
-* **Methods**: There are only five units of analysis.
-  Leaves taken from the same tree are likely to share a lot in common:
-  genetics; sunlight, watering regime, soil condition, etc.
-  The students should have used 50 trees.  
-
-  Alternatively, I suppose they could have used one tree (so the RQ was about what happens on one tree only),
-  and compared 50 leaves on either side.
-  While this is kinda OK, I do **not** recommend it.
-
-
-
-
-
-### Answers to Sect. \@ref(CritiqueReports4) {.unlisted .unnumbered}
-
-* **Research question**: Cumbersome wording...; *mean* estimates.
-* **Null hypothesis**: Spelling/grammar errors; *mean* again;	where does 'increased level of perception' come from?
-  We are just comparing estimation distances; perception is much more than just that.
-* **Results**: This doesn't answer the question.
-  This is comparing the estimates from both groups---and yes, there may be a difference.
-  But the RQ was about which group could estimate closer (on average) to the actual true width of the path.
-  We still don't know: The RQ was not answered.
-* **Discussion**: You don't *prove* anything like this...
-  Again, what was tested doesn't help answer the RQ.
-  
   
 [**Return to index of tutor information.**](TutorInfo.html)
   
