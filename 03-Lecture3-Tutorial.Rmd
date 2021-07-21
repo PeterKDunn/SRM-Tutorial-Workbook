@@ -123,6 +123,13 @@ if( knitr::is_html_output() ) {
                       "Boxplot") )}`
 
 
+```{block2, type="fold"}
+1. *Age* is quantitative, so histograms or stem-and-leaf plots are appropriate.
+1. *Gender* is qualitative, so bar charts or pie charts are appropriate.
+1. *Gender* is qualitative, and *REI* is quantitative, so a boxplot is apppropriate.
+1. Both *age* and *REI* are quantitative, so a scatterplot is appropriate.
+
+```
 
 
 
