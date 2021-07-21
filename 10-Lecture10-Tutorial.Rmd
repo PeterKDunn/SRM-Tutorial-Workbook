@@ -504,7 +504,7 @@ Your tutor *may* decide to do this activity.
 
 ## **Optional**: $P$-values {#PvalueStatement}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 An ecologist is studying two different grasses to help combat soil salinity,
 by comparing to a new grass (Grass A) to a native grass (Grass B).
@@ -544,7 +544,7 @@ How would the other statements be interpreted then?
 
 ## **Optional**: Two-way tables {#TablesHepC}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 Applying tattoos carries health risks as the skin is broken during application.
 An American study examined if a relationship existed between
@@ -646,7 +646,7 @@ if( knitr::is_html_output() ) {
 ## **Optional**: Identify the correct analyses {#IdentifyCorrectAnalyses}
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture9Answers))*'
+   '*(Answers are available in Sect.\\@ref(Lecture10Answers))*'
 }`
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q8.Rmd'}
@@ -660,7 +660,7 @@ if( knitr::is_html_output() ) {
 
 ## **Optional**: Comparing two independent means {#TwoMeansHurricanes}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 A study compared the number of deaths
 reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
@@ -692,7 +692,7 @@ include_graphics("ArticleImages/Smith2016-Table4.png")
 
 ## **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 	
 ```{block2, type = "rmdVideoSolution"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -771,7 +771,7 @@ include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTSPSSOutput.png")
 
 ## **Optional**: Tests for ORs {#ORTestsByss}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 A study [@data:higgins:cotton] studied byssinosis
 (a respiratory complaint) among workers in the textile industry.
@@ -853,7 +853,7 @@ include_graphics("SoftwareImages/ByssOR.png")
 
 ## **Optional**: Tests for ORs {#ORAirways}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 	
 ```{block2, type = "rmdVideoSolution"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -932,7 +932,7 @@ include_graphics("SoftwareImages/Tanagawa1998SPSSCrossTabs-NoData.png")
 
 ## **Optional**: Tests for paired samples {#PairedTestRunners}
 
-*(Answers available in Sect. \@ref(Lecture9Answers))*
+*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 	```{block2, type = "rmdVideoSolution"}
 This question has a video solution in the online book, so you can hear and see the solution.
