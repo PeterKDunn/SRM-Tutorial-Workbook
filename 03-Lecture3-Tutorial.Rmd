@@ -56,6 +56,10 @@ OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L,
 -60L))
 ```
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop]
 had $n = 60$ adults undergo a sleep study.
 `r if( knitr::is_html_output() ) {
