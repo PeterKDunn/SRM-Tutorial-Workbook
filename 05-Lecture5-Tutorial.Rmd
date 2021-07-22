@@ -27,6 +27,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial5}
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
 A study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency]
 collected the data shown below.
 
