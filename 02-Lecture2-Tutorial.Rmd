@@ -23,6 +23,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
 Consider this (qualitative) RQ: 
 
 > What factors are preventing the adoption of household solar technologies in Santiago [Chile]? 
