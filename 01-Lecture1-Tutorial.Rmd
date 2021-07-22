@@ -210,23 +210,6 @@ if( knitr::is_html_output() ) {
 
 
 
-
-## Identifying poor RQs {#IdentifyingPoorRQs}
-
-Critique the following research questions,
-outlining how and why they can be improved (if at all).
-
-1. Among domestic watertanks used in southeast Queensland,
-   are lead concentrations in water in concrete tanks higher than in poly tanks?
-2. Are lower-limb amputees more likely to die? 
-3. Is the amount of salt 
-   the same for homebrand as for non-homebrand beans?
-4. Among zoo animals,
-   is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
-5. Is the average reaction time related to gender?
-
-
-
 ## Creating research questions and studies {#CreateRQs}
 
 
@@ -401,6 +384,31 @@ understand some of the words used in this week's lecture.
 ```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
 ```
+
+
+
+
+
+
+## **Optional**: Identifying poor RQs {#IdentifyingPoorRQs}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
+}`
+
+Critique the following research questions,
+outlining how and why they can be improved (if at all).
+
+1. Among domestic watertanks used in southeast Queensland,
+   are lead concentrations in water in concrete tanks higher than in poly tanks?
+2. Are lower-limb amputees more likely to die? 
+3. Is the amount of salt 
+   the same for homebrand as for non-homebrand beans?
+4. Among zoo animals,
+   is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
+5. Is the average reaction time related to gender?
+
+
 
 
 
