@@ -4,7 +4,7 @@ body {
 
 
 
-.rmdTutorInfo, .rmdimportant, .rmdtip, .rmdobjectives, .rmdDrills, .rmdVideoSolution {
+.rmdTutorInfo, .rmdimportant, .rmdtip, .rmdobjectives, .rmdDrills, .rmdVideoSolution, .rmdPreClass {
   padding: 15px 15px 15px 64px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -41,7 +41,10 @@ body {
   background-image: url("../icons/iconmonstr-info-6-240.png");
   background-position: left top;
 }
-
+.rmdPreClass {
+  background-image: url("../icons/iconmonstr-school-26-240.png");
+  background-position: left top;
+}
 
 
 
