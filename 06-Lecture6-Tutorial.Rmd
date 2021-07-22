@@ -23,6 +23,11 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial6}
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
+
 A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
 For the simulation, 
 they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution,
