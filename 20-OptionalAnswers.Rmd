@@ -92,24 +92,6 @@ More directly:
 
 
 
-### Answers to Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
-
-1. Should be in terms of averages or means. So perhaps
-   "Among watertanks used in southeast Queensland,
-   are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
-2. *Everyone* dies!  So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
-   Perhaps something like: "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
-3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?); 
-   "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per 100&nbsp;g or similar.
-   "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
-   Anyway: You can look at the label (unless, of course, you wish to query those values).
-4. Silly: elephants are huge, and joeys are tiny. No-one needs to test this.
-   Also,the RQ talks about "weight" rather than "**mean** weight" too.
-5. Needs to be more specific!
-   Perhaps:
-   "Is the mean reaction time different for males and females?" or similar.
-
-
 
 
 
@@ -206,6 +188,24 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
+
+
+### Answers to Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
+
+1. Should be in terms of averages or means. So perhaps
+   "Among watertanks used in southeast Queensland,
+   are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
+2. *Everyone* dies!  So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
+   Perhaps something like: "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
+3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?); 
+   "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per 100&nbsp;g or similar.
+   "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
+   Anyway: You can look at the label (unless, of course, you wish to query those values).
+4. Silly: elephants are huge, and joeys are tiny. No-one needs to test this.
+   Also,the RQ talks about "weight" rather than "**mean** weight" too.
+5. Needs to be more specific!
+   Perhaps:
+   "Is the mean reaction time different for males and females?" or similar.
 
 
 
