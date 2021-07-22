@@ -362,7 +362,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## Terminology {#TerminologyLect1}
+## **Optional**: Terminology {#TerminologyLect1}
 
 
 Complete the crossword
