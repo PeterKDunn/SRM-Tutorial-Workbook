@@ -23,6 +23,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial9}
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
 Researchers studied the impact of a gluten-free diet on dental cavities [@khalaf2020caries].
 
 Some of the summary information regarding the number decayed, missing and filled teeth (DMFT) is shown below.
