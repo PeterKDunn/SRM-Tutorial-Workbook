@@ -98,8 +98,7 @@ More directly:
    "Among watertanks used in southeast Queensland,
    are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
 2. *Everyone* dies!  So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
-   Perhaps something like,
-	 "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
+   Perhaps something like: "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
 3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?); 
    "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per 100&nbsp;g or similar.
    "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
@@ -115,7 +114,6 @@ More directly:
 
 
 ### Answers to Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
-
 
 1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
    All of the options are possibilities.  
@@ -137,8 +135,8 @@ More directly:
    I'm not saying this is the best;
    it is just an example.
 6. Get volunteers; 
-	 place into one of the groups (Earl Grey and coffee); 
-	 give the beverage; measure heart rate after 30 mins.
+   place into one of the groups (Earl Grey and coffee); 
+   give the beverage; measure heart rate after 30 mins.
    Note that many design issues are not covered until the next lecture,
    but you can introduce, and encourage, discussion 
    about some of the ideas if you wish (e.g. blinding).
@@ -160,7 +158,7 @@ More directly:
    how long steeped for; how heart rate is measured; student (full-time only?); etc.
    You don't need to *define* these, but if you have time you can have a go at one or two definitions.
 10. Many options, but for the RQ above: 
-	  Type of beverage; heart rate after 30 mins (or better, the *change* in heart rate).
+    Type of beverage; heart rate after 30 mins (or better, the *change* in heart rate).
     
     
     
