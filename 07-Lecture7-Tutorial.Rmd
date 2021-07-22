@@ -19,6 +19,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial7}
 
+```{block2, type = "rmdPreClass"}
+We recommend trying these *Quick revision* questions **before** your tutorial.
+```
+
 1. A *confidence interval* is used to find an interval that probably contains the *sample* value. True or false?  
 `r if( knitr::is_html_output() ) {
    torf( FALSE)}`
