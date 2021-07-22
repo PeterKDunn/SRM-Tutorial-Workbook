@@ -76,11 +76,10 @@ The focus, however, is on the analysis of data.
 
 ## Answers to questions {-}
 
-The answers to most of the **Optional** tutorial questions 
+The answers to most of the tutorial questions 
 are given in App.&nbsp;\@ref(OptionalAnswers).
 
 Some answers are implied by working through the online exercises.
-Tutors have answers to almost all questions.
 
 
 
