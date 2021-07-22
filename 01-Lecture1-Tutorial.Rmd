@@ -364,6 +364,9 @@ if( knitr::is_html_output() ) {
 
 ## **Optional**: Terminology {#TerminologyLect1}
 
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
+}`
 
 Complete the crossword
 `r if (knitr::is_latex_output()){
