@@ -399,7 +399,6 @@ then cars at random.
 Answers implied by H5P.
 
 1. Volume of drinks in 375ml: **Graph D**. (Students sometimes say Graph A, thinking that most cans have very similar amounts.)
-   Students sometimes say Graph A, because cans have very similar amounts.
 2. Time in exam for **short** or **easy** exam: **Graph C**.
 3. Time in exam for **long** or **hard** exam: **Graph B**.
 4. The heights of females USC students: **Graph D**.
