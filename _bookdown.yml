@@ -23,7 +23,7 @@ rmd_files: [
 "20-OptionalAnswers.Rmd",
 "21-Appendix.Rmd",
 "22-ImageCredits.Rmd",
-"23-TutorAnswersContainer.Rmd",
+"23-TutorInfoContainer.Rmd",
 "24-References.Rmd"
 ]
 language:
