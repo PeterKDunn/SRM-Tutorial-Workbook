@@ -394,16 +394,18 @@ In this activity,
 you get to critique actual Project submissions,
 so you can critique your own before submission.
 
-1. Critique the numerical summary in 
-	 Fig. \@ref(fig:StudentsNumSumA),
-	 a screenshot from a student Project Report.
-	 (You don't know what 'standard error' means yet, so don't worry about that column.)
-	 Identify ways to improve the numerical summary.
-	 
-	 The RQ is 
-	 '*What is the mean difference between the kicking distance 
-	  using dominant and non-dominant legs?*'
+1. Critique the numerical summary in Fig. \@ref(fig:StudentsNumSumA), a screenshot from a student Project Report.
+   Identify ways to improve the numerical summary.  
+   
+   The RQ is 
+   '*What is the mean difference between the kicking distance 
+    using dominant and non-dominant legs?*'
 
+	
+```{block2, type="rmdimportant"}
+You don't know what 'standard error' means yet, so don't worry about that column.
+```
+	
 
 ```{r StudentsNumSumA, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="70%"}
 knitr::include_graphics("ProjectImages/StudentResults1.png")
@@ -484,7 +486,7 @@ if( knitr::is_html_output() ) {
 
 
 1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
-`r if( knitr::is_html_output() ) {'The type of research study is'}`
+`r if( knitr::is_html_output() ) {'The type of research study is  '}`
 `r if( knitr::is_html_output() ) {mcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
    Justify your answer.
 
