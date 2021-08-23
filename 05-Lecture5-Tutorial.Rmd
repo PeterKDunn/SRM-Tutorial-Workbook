@@ -354,7 +354,7 @@ if( knitr::is_html_output() ) {
 ```
    
 1. Compute the percentage of college students in the *sample* overall that 
-   have received one concussion.
+   have received exactly one concussion.
 2. Many possible graphs exists to display the data; 
    four are shown in Fig. \@ref(fig:SoccerGraph).
    What is the main message from each graph?
