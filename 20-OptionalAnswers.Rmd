@@ -694,7 +694,7 @@ Median: 13.35%.
  
  
 
-## Answers to LectTeaching Weekure 5 tutorial {#Lecture5Answers}
+## Answers to Teaching Week 5 tutorial {#Lecture5Answers}
 
 
 ### Answers to Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
