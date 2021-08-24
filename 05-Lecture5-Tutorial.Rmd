@@ -55,7 +55,7 @@ collected the data shown below.
 1. What are the *odds* that a *male* patients had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {mcq( c(
                       "39.1", 
-		                  answer = "0.618",
+		                  answer = "0.642",
                       "0.907",
                       "0.50") )}`
 1. What are the *odds* that a *female* patients had their stroke symptoms missed by the dispatcher?  
@@ -75,9 +75,9 @@ collected the data shown below.
 ```{block2, type="fold"}
 1. $43\div (43 + 67) \times 100 = 39.1$%. 
 1. $39\div (97 + 39) \times 100 = 28.7$%.
-1. $43\div 67 = 0.618$.
+1. $43\div 67 = 0.642$.
 1. $39\div 97 = 0.402$.
-1. $0.618 \div 0.402 = 1.6$.
+1. $0.642 \div 0.402 = 1.6$.
 
 ```
 
