@@ -152,7 +152,7 @@ if( knitr::is_html_output() ) {
 
 
 1. Among people treated with BVM ('ball valve mask'),
-   compute the *percentage* that died.  
+   compute the *percentage* that died (to the nearest percent).  
 `r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
 
 2. Among the people treated with BVM,
