@@ -78,8 +78,6 @@ and a standard deviation of 15.
 
 `r if (knitr::is_html_output()) {"Use this information to answer the following questions."}`
 
-`r if (knitr::is_html_output()) {"Would you call someone with an IQ of 110 an absolute genius? Explain."}`
-
 <iframe src="https://usc.h5p.com/content/1290968343185265779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
