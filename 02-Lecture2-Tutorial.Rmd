@@ -137,11 +137,12 @@ regarding this information.
 > --- @data:Lo2010:RobotAssistance
 
 
-`r if (knitr::is_html_output()){
-   'For some reason, when the word is **correct**, the software shades the correct word in **red**... which seems odd.'
-}`
 
-<script src="https://www.puzzlefast.com/en/puzzles/2020032904325184E/embed-script?width=650px&height=1300px" type="text/javascript"></script>
+<iframe src="https://usc.h5p.com/content/1291418096383708349/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+<!-- <script src="https://www.puzzlefast.com/en/puzzles/2020032904325184E/embed-script?width=650px&height=1300px" type="text/javascript"></script> -->
 
 <!--     <iframe border="0" src="https://crosswordlabs.com/embed/2020-05-24-264?clue_height=300" height="950" style="flex:1; width:100%; padding:5px 0px 0 5px; border:3px solid black; "></iframe> -->
 <!--     <a target="_blank" style="align-self:center; font-size:12px; color:black; padding-top:10px; text-decoration:none;text-align:center" href="https://crosswordlabs.com">Crossword Puzzle Maker</a> -->
