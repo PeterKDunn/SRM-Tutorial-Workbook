@@ -385,11 +385,11 @@ Complete the crossword
 to help you
 understand some of the words used in this week's lecture.
 
-`r if (knitr::is_html_output()){
-   'For some reason, when the word is **correct**, the software shades the correct word in **red**... which seems odd.'
-}`
 
-<script src="https://www.puzzlefast.com/en/puzzles/2020032202163752N/nsl-script?width=600px&height=900px" type="text/javascript"></script>
+<!-- <script src="https://www.puzzlefast.com/en/puzzles/2020032202163752N/nsl-script?width=600px&height=900px" type="text/javascript"></script> -->
+
+
+<iframe src="https://usc.h5p.com/content/1291418275333983599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 ```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
