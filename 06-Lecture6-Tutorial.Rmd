@@ -254,7 +254,7 @@ and is designed to have a mean of 0 and a standard deviation of 10.
 
 
 
-## **Optional**: Confidence intervals for one proportion {#HM:Maturing}
+## **Optional**: Confidence intervals for one proportion {#HMMaturing}
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*
 
