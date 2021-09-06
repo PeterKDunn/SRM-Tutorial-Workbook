@@ -168,7 +168,7 @@ knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
    
 ## Odds and software output {#OddsSoftware}
 
-*(This question continues Question \@ref(HM:Maturing).)*
+*(This question continues Question \@ref(HMMaturing).)*
 
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
