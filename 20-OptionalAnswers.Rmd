@@ -1093,8 +1093,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
    Of course, every sample will produce a different sample mean.
    This sample may just have an unusually low number of matches.
-4. Either (1) The manufacturer is lying; or
-   (2) the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
+4. Either (1) The manufacturer is lying; or (2) the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
 5. A CI gives some indication of the variation implied by the sample.
 6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
    So the approximate 95% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
