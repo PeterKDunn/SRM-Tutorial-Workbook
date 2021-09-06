@@ -1078,14 +1078,14 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 1. This is just one box (one *observation*), but the claim is about the *population mean*.
    Some boxes will have more than 45, and some fewer.
-2. Jake is correct in one sense: You can't have 0.9 of a match.
-   But the value is the *mean* number, and that *can* be a decimal.
-	 Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches.... 
-	 is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
+2. Jake is correct in one sense: You can't have 0.9 of a match.  
+
+   But the value is the *mean* number, and that *can* be a decimal. 
+   Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches... is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
 3. Jake is confusing the *sample* and *population* mean.
-   The claim is that the \emph{population} mean is $45$.
-   The sample produced a mean of $44.9$.
-   a *sample* mean and a *population* mean.
+   The claim is that the *population* mean is $45$.
+   The sample produced a mean of $44.9$.  
+   
    Why should the mean of two different things be the same?
    It's like expecting your height and your Mum's height to be the same:
    they are both heights, but of different things.
@@ -1093,19 +1093,19 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
    Of course, every sample will produce a different sample mean.
    This sample may just have an unusually low number of matches.
-4. The manufacturer is lying,
-   or a sample that just happens to have a smaller number of matches: (bad) luck.
+4. Either (1) The manufacturer is lying; or
+   (2) the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
 5. A CI gives some indication of the variation implied by the sample.
-6. The standard error for the mean is $0.11\div\sqrt{20} = 0.0246$.
-   So the approximate 95% CI is: $44.9 \pm (2\times 0.0246)$, or $44.9\pm 0.049$, or from $44.85$ to $44.95$.
+6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+   So the approximate 95% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
 7. No. A 95% CI may or may not contain the population mean.
    Of course, the manufacturer *may* indeed be lying...
    but we'd need to be cautious about making such a bold claim on just this evidence.
    Ideally, we would repeat this study a few times or take a larger sample.
    But it *is* looking suspicious...  
 
-   If we had many, many sets of 20 matches boxes,
-   95% of these sets of 20 would have a mean between 44.85 and 44.95.
+   If we had many, many sets of 25 matches boxes,
+   95% of these sets of 25 would have a mean between 44.85 and 44.95.
 8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
 9. $\mu$ is the mean of the population; the true mean if you like.
    $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
