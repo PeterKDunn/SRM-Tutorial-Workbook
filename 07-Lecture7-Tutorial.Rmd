@@ -64,8 +64,8 @@ The boxes contain this statement:
 
 > An average of 45 matches per box.
 
-They purchased a package containing twenty boxes of matches,
-and Jake counted the number of matches in one of the 20 boxes.
+They purchased a carton containing 25 boxes of matches,
+and Jake counted the number of matches in *one* of those 25 boxes.
 There was 44 matches.
 
 'Oh wow.  Just wow.' said Jake.
@@ -78,7 +78,7 @@ There was 44 matches.
    
    Claire found that the mean number of matches per box
    was 44.9 matches,
-   and the standard deviation was $0.11$.  
+   and the standard deviation was $0.124$.  
    
    Jake notes that the mean is 44.9 matches per box, and says: 
    'You can't have 0.9 of a match.  That's dumb.'
