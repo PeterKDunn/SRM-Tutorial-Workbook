@@ -5,7 +5,7 @@ library("leaflet")
 library("webshot")     # screen shot of HTML animations
                        # webshot::install_phantomjs()
 library("GLMsData")    # For some data sets
-library("webex") # For in-line exercises
+library("webexercises") # For in-line exercises
 library("gifski") # Trying for animations: https://bookdown.org/yihui/rmarkdown-cookbook/animation.html
 library("diagram")
 library("viridis")
@@ -15,11 +15,6 @@ library("htmlwidgets")
 # set global chunk options
 options(formatR.arrow=TRUE,
         width=90)
-
-# Textbook colour for plots:
-# blueTransparent <- rgb(0, 0, 1, 
-#                       alpha = 0.2, 
-#                       maxColorValue = 1)
 
 # But change to colour on cover page:
 reddishTransparent <- rgb(179/255, 145/255, 145/255,
