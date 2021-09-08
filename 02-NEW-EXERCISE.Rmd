@@ -3,7 +3,7 @@
 
 A student group was studying this RQ (which is not appropriate for the Project):
 
-> Among Americans, is the median serum cholesterol levels different for smokers and non-smokers?
+> Among Americans, is the median serum cholesterol concentration different for smokers and non-smokers?
 
 The students gave the following information about their study.
 Explain why each of these statements is incorrect.
@@ -12,6 +12,8 @@ Explain why each of these statements is incorrect.
 2. The Outcome is 'the median serum cholesterol levels for smokers and non-smokers'.
 3. The study is not externally valid, as the results may not apply to all people in the world. 
 4. The response variable is *serum cholesterol*.
+5. In this experiment, SOMETHIUNG
+6. The data file will have two columns: One for smokers, and one for non-smokers.
 
 
 
@@ -24,5 +26,8 @@ Explain why each of these statements is incorrect.
    Whether the results apply for the entire world is irrelevant.
 4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
    What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of seru cholesterol".
+5. This is not an experiment, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
+6. In the data file, each row is a unit of analysis and each column is a variable. 
+   So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
 
 
