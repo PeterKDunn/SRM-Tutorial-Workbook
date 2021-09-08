@@ -1,0 +1,28 @@
+
+## Study design {#Design}
+
+A student group was studying this RQ (which is not appropriate for the Project):
+
+> Among Americans, is the median serum cholesterol levels different for smokers and non-smokers?
+
+The students gave the following information about their study.
+Explain why each of these statements is incorrect.
+
+1. The design is observational, as we cannot determine each person's serum cholesterol.
+2. The Outcome is 'the median serum cholesterol levels for smokers and non-smokers'.
+3. The study is not externally valid, as the results may not apply to all people in the world. 
+4. The response variable is *serum cholesterol*.
+
+
+
+### ANSWERS FOR LATER
+
+1. The study is observational, but because the researchers cannot determine the C (whether the person is a smoker or not).
+   The critical element here is C, not O.
+2. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
+3. *External validity* only refers to whether the *sample* represents the given *population*, which is *Americans*.
+   Whether the results apply for the entire world is irrelevant.
+4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
+   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of seru cholesterol".
+
+
