@@ -1,35 +1,38 @@
-#book_filename: bookdown
 output_dir: _book
 new_session: yes
-#book_filename: "SRM_tutorials.Rmd"
-before_chapter_script: ["R/SixSteps.R", "R/setup.R", "R/NormalDistributions.R" ]
-clean: [packages.bib, bookdown.bbl]
-delete_merged_file: true
-#new_session: true
-rmd_files: [
-"index.Rmd",
-"01-Lecture1-Tutorial.Rmd",
-"02-Lecture2-Tutorial.Rmd",
-"03-Lecture3-Tutorial.Rmd",
-"04-Lecture4-Tutorial.Rmd",
-"05-Lecture5-Tutorial.Rmd",
-"06-Lecture6-Tutorial.Rmd",
-"07-Lecture7-Tutorial.Rmd",
-"08-Lecture8-Tutorial.Rmd",
-"09-Lecture9-Tutorial.Rmd",
-"10-Lecture10-Tutorial.Rmd",
-"11-Lecture11-Tutorial.Rmd",
-"12-Lecture12-Tutorial.Rmd",
-"20-OptionalAnswers.Rmd",
-"21-Appendix.Rmd",
-"22-ImageCredits.Rmd",
-"23-TutorInfoContainer.Rmd",
-"24-References.Rmd"
-]
+before_chapter_script:
+- R/SixSteps.R
+- R/setup.R
+- R/NormalDistributions.R
+- R/webex.R
+- scripts/webex.R
+clean:
+- packages.bib
+- bookdown.bbl
+delete_merged_file: yes
+rmd_files:
+- index.Rmd
+- 01-Lecture1-Tutorial.Rmd
+- 02-Lecture2-Tutorial.Rmd
+- 03-Lecture3-Tutorial.Rmd
+- 04-Lecture4-Tutorial.Rmd
+- 05-Lecture5-Tutorial.Rmd
+- 06-Lecture6-Tutorial.Rmd
+- 07-Lecture7-Tutorial.Rmd
+- 08-Lecture8-Tutorial.Rmd
+- 09-Lecture9-Tutorial.Rmd
+- 10-Lecture10-Tutorial.Rmd
+- 11-Lecture11-Tutorial.Rmd
+- 12-Lecture12-Tutorial.Rmd
+- 20-OptionalAnswers.Rmd
+- 21-Appendix.Rmd
+- 22-ImageCredits.Rmd
+- 23-TutorInfoContainer.Rmd
+- 24-References.Rmd
 language:
   label:
-    lem: "Think " 
-    fig: "FIGURE "
-    tab: "TABLE "
+    lem: 'Think '
+    fig: 'FIGURE '
+    tab: 'TABLE '
     ui:
-      edit: "Edit"
+      edit: Edit
