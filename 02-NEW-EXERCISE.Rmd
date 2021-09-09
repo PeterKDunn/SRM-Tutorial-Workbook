@@ -14,6 +14,7 @@ Explain why each of these statements is incorrect.
 4. The response variable is *serum cholesterol*.
 5. In this experiment, SOMETHIUNG
 6. The data file will have two columns: One for smokers, and one for non-smokers.
+7. Confounding var that only connects to one....
 
 
 
@@ -29,5 +30,6 @@ Explain why each of these statements is incorrect.
 5. This is not an experiment, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
 6. In the data file, each row is a unit of analysis and each column is a variable. 
    So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
+7. ihihi
 
 
