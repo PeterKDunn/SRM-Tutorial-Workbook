@@ -74,7 +74,7 @@ There was 44 matches.
 
 1. What is Jake's misunderstanding?
 2. Then, 
-   they counted the number of matches in *each* of the twenty boxes.  
+   they counted the number of matches in *each* of the twenty-five boxes.  
    
    Claire found that the mean number of matches per box
    was 44.9 matches,
