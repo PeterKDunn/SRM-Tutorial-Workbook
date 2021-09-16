@@ -986,7 +986,7 @@ Answers implied by H5P.
 3. The **odds**: The likelihood of surviving is about 0.44 times the probability of dying (ie. it is lower).
 	Or: For every 100 that die, about 44 survive.
 4. No: sampling variation!
-5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1-0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about 0.023.
+5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1-0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about 0.023.  
    A definition can be found in the [Glossary](https://bookdown.org/pkaldunn/Book/Glossary.html). 
    Essentially, each sample is likely to produce a different value for the sample proportion, $\hat{p}$ (the estimate of the population proportion, $p$), 
    and that is what we mean by “sampling variation”.
@@ -1018,8 +1018,8 @@ Answers implied by H5P.
     But rather than a greater sample size (which would still be helpful), probably more important is to consider other relevant issues that have not been discussed so far: Relative costs; ease of use; confounding variables; potential side effects; etc.
 
 
-~                | Survived | Did not survive | **Total**
------------------|----------|-----------------|--------
+**Method**       | Survived | Did not survive | **Total**
+----------------:|---------:|----------------:|----------:
 **BVM**          | 123      | 281             | **404**
 **ETI** then BVM | 110      | 306             | **416**
 
