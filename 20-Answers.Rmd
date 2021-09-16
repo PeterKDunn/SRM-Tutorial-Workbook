@@ -18,7 +18,7 @@ Some are fully worked, and some are only brief solutions.
 * Answers to Teaching Week tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
 * Answers to Teaching Week tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
 * Answers to Teaching Week tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
-* No Optional Exercises in the Break week.
+* No Exercises in the Break week.
 * Answers to Teaching Week tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
 * Answers to Teaching Week tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
 * Answers to Teaching Week tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
