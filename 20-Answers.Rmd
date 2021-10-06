@@ -1689,6 +1689,9 @@ if( knitr::is_latex_output() ) {
 
 ### Answers to Sect. \@ref(PValues) {.unlisted .unnumbered}
 
+Use the [68--95--99.7 rule](https://bookdown.org/pkaldunn/SRM-Textbook/identifying-outliers.html#def:EmpiricalRule)
+to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pvalues.html#ApproxP):
+
 1. *Less than* 0.05.
 2. Greater than 0.05.
 3. *Less than* 0.003.
