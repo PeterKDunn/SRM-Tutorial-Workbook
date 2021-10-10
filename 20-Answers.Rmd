@@ -2127,8 +2127,8 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 1. The correlations:
 
-   **Plot 1**: $0.94$ (correlation **A**);  
-   **Plot 2**: $-0.95$ (correlation **D**);  
+   **Plot 1**: $0.94$ (correlation **D**);  
+   **Plot 2**: $-0.95$ (correlation **A**);  
    **Plot 3**: $0.12$ (correlation **B**):  
    **Plot 6**: $0.75$ (correlation **C**).  
    
