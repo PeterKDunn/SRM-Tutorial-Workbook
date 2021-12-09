@@ -24,7 +24,10 @@ monofontoptions: "Scale=0.7"
 
 ```{r echo=FALSE, results='asis'}
 options(knitr.kable.NA = '')
-knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}', '\\usepackage{xcolor}', x, fixed = TRUE)})
+knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}', 
+                                           '\\usepackage{xcolor}', 
+                                           x, 
+                                           fixed = TRUE)})
 ```
 
 # Preface {-}
@@ -89,12 +92,8 @@ Some answers are implied by working through the online exercises.
 ## Statistical software {-}
 
 Most of this book can be read without relying on any specific statistical software.
-However,
-some parts explicitly mention and refer to [jamovi](https://www.jamovi.org/) 
-[@Software:jamovi]
-and/or
-[SPSS](https://www.ibm.com/products/spss-statistics)
-[@Software:SPSS].
+However, some parts explicitly mention and refer to [jamovi](https://www.jamovi.org/) [@Software:jamovi] and/or
+[SPSS](https://www.ibm.com/products/spss-statistics) [@Software:SPSS].
 
 jamovi is *free* and is like (but not exactly the same as) SPSS:
 
@@ -115,38 +114,36 @@ jamovi is *free* and is like (but not exactly the same as) SPSS:
 
 The icons used in this book have meanings; for example:
 
-```{block2, type="rmdobjectives"}
-These chunks introduce the objectives for the chapters of the book.
-```
+
+
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
+These chunks introduce the objectives for the sections of the book.
+:::
 
 
 
-```{block2, type="rmdimportant"}
-These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
-```
 
-
-
-```{block2, type="rmdtip"}
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 These chunks offer helpful information.
-```
+:::
 
 
-```{block2, type = "rmdVideoSolution"}
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This icon flags questions that have *video solutions* in the online book:
 A narrator works through the question, explaining the solution.
-```
+:::
 
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+:::
 
 
 
 ## How this book was made {-}
 
-This book was made using
-**R**
-[@Software:Rsoftware],
-and the **bookdown** package
-[@Software:Rbookdown],
+This book was made using **R** [@Software:Rsoftware],
+and the **bookdown** package [@Software:Rbookdown],
 which is based on [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax,
 using **knitr**
 [@package:knitr].
@@ -168,7 +165,7 @@ Numerous other **R** packages were used too:
 * The **viridis** package is used for some colour specifications
   [@package:viridis] to make colours easier for those with colour-blindess to distinguish colours,
   and for better greyscale printing.
-* The **webex** package was used to create the interactive web exercises
+* The **webexercises** package was used to create the interactive web exercises
   [@package:webex].
 
 All of this software is *free* and open source.
@@ -176,8 +173,7 @@ All of this software is *free* and open source.
 Other resources used include:
 
 * The online quizzes are embedded using [H5P](https://h5p.org) iframes.
-* Icons are from [**iconmonstr**](https://iconmonstr.com/) 
-  and are freely available.
+* Icons are from [**iconmonstr**](https://iconmonstr.com/) and are freely available.
 * The text folding (in the online version) was implemented by adapting advice
   from [StackOverflow](https://stackoverflow.com/questions/53810294/folding-general-text-in-r-bookdown).
 * The polling in the online book is provided by [Ferendum](https://www.ferendum.com/en/).
@@ -225,7 +221,7 @@ Other resources used include:
 
 ## Learning Outcomes {-}
 
-	
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 In this book,
 you will learn to:
 
@@ -236,7 +232,7 @@ you will learn to:
 * Select, apply and interpret the results of the correct statistical technique to analyse data.
 * Comprehend, apply and communicate in the language of research and statistics.
 * Demonstrate professional integrity in planning, interpreting and reporting the results of quantitative studies.
-
+:::
 
 
 

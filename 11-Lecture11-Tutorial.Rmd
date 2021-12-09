@@ -1,6 +1,6 @@
 # Teaching Week 11: Tutorial  {#Lecture11}
 
-```{block2, type="rmdobjectives"}
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
 * Correlation.
@@ -8,8 +8,7 @@
 * $R^2$.
 * Regression.
 * Tests for regression coefficients.
-
-```
+:::
 
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
@@ -24,9 +23,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial11}
 
-```{block2, type = "rmdPreClass"}
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
-```
+:::
 
 A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
 The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
@@ -35,47 +35,49 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 
 1. In this study, what variable would be the $x$ variable?  
 `r if( knitr::is_html_output() ) {
-   mcq( c("The number of seeds", 
+   webexercises::longmcq( c("The number of seeds", 
           answer = "The grams of mud",
           "The season") )}`
 1. In this study, what variable would be the $y$ variable?  
 `r if( knitr::is_html_output() ) {
-   mcq( c(answer = "The number of seeds", 
+   webexercises::longmcq( c(answer = "The number of seeds", 
           "The grams of mud",
           "The season") )}`
 1. What is the value of $R^2$?  
 `r if( knitr::is_html_output() ) {
-   mcq( c(answer = "86.7%", 
+   webexercises::longmcq( c(answer = "86.7%", 
           "93.1%",
           "96.5%") )}`
 1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?  
 `r if( knitr::is_html_output() ) {
-   mcq( c(answer = "380", 
+   webexercises::longmcq( c(answer = "380", 
           "96422",
           "-104") )}`
 1. In this regression equation, the slope means:
 `r if( knitr::is_html_output() ) {
-   mcq( c("Each seed is associated with 137.4 extra grams of mud on average",
+   webexercises::longmcq( c("Each seed is associated with 137.4 extra grams of mud on average",
           "Each seed is associated with 0.3459 extra grams of mud on average",
 	        "Each 1g of mud is associated with 137.4 extra seeds on average",
           answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )}`
 1. The $P$-value for the regression slope was $0.002$. What does this mean?
 `r if( knitr::is_html_output() ) {
-   mcq( c("The slope is 0.002", 
+   webexercises::longmcq( c("The slope is 0.002", 
           answer = "The slope is unlikely to be non-zero simply by chance",
           "There is evidence that the mean number of seeds is different than the mean grams of mud") )}`
 		      
 		      
 
-```{block2, type="fold"}
+`r webexercises::hide()`
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
 1. The $y$-variable is the number of seeds.
 1. $R^2 = (0.931^2) = 0.86676$, or about 86.7%.
 1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
 1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero).
+`r webexercises::unhide()`
 
-```
+**Progress:** `r webexercises::total_correct()`
+
 		      
 		      
 		      
@@ -89,7 +91,7 @@ The four correlation coefficients $r$ are:
 
 
 ```{r echo=FALSE}
-CorData <- array( dim=c(1, 4) )
+CorData <- array( dim = c(1, 4) )
 #colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
 #rownames(MaturationData) <- c("Males", "Females", "Total")
 
@@ -101,14 +103,15 @@ if( knitr::is_latex_output() ) {
    CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
 
   kable(CorData,
-        format="latex",
+        format = "latex",
         #longtable=FALSE,
-        booktabs=TRUE,
-       escape=FALSE, # For latex to work in \rightarrow
-       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        booktabs = TRUE,
+        escape = FALSE, # For latex to work in \rightarrow
+        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
 #       caption="",
-        align=c("c", "c", "c", "c"))   %>%
-   kable_styling(full_width=FALSE, font_size=10) # %>%
+        align = c("c", "c", "c", "c"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) # %>%
   #row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 }
 
@@ -119,11 +122,11 @@ if( knitr::is_html_output() ) {
    CorData[1, 4] <- "**D**: $r = 0.94$"
 
   kable(CorData,
-        format="html",
-        align=c("c", "c", "c", "c"),
-        longtable=FALSE,
+        format = "html",
+        align = c("c", "c", "c", "c"),
+        longtable = FALSE,
 #       caption="",
-      booktabs=TRUE)
+      booktabs = TRUE)
 }
 
 ```
@@ -151,95 +154,99 @@ a correlation is not suitable.
 set.seed(107695)
 n <- 50
 
-par( mfrow=c(3,2))
+par( mfrow = c(3, 2))
 
-x0 <- seq(6, 16, length=n)
+x0 <- seq(6, 16, 
+          length = n)
 x1 <- x0 - min(x0)
 
 
-y1 <- 12 + 4*x1 + rnorm(length(x1), 0,3.8)
+y1 <- 12 + 4 * x1 + rnorm(length(x1), 0, 3.8)
 plot(y1 ~ x1,
-   xlab=expression(italic(x)),
-   ylab=expression(italic(y)),
-   pch=19,
-   col=plot.colour0,
-   ylim=c(0, 60),
-   main="Plot 1",
-   las=1 )
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 60),
+   main = "Plot 1",
+   las = 1 )
 grid()
 
 
-x2 <- seq(-5, 10,length=n)
-y2 <- 50 - 3*x1 + rnorm(length(x1), 0,3)
+x2 <- seq(-5, 10,
+          length = n)
+y2 <- 50 - 3 * x1 + rnorm(length(x1), 0, 3)
 plot(y2 ~ x2,
-   xlab=expression(italic(x)),
-   ylab=expression(italic(y)),
-   pch=19,
-   col=plot.colour0,
-   ylim=c(10, 60),
-   main="Plot 2",
-   las=1  )
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(10, 60),
+   main = "Plot 2",
+   las = 1  )
 grid()
 
 
 
 x1 <- x0 - min(x0)
-y3 <- 32 + 0.01*x1 + rnorm(length(x1), 0,10)
+y3 <- 32 + 0.01 * x1 + rnorm(length(x1), 0, 10)
 plot(y3 ~ x1,
-   xlab=expression(italic(x)),
-   ylab=expression(italic(y)),
-   pch=19,
-   col=plot.colour0,
-   ylim=c(0, 60),
-   main="Plot 3",
-   las=1  )
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 60),
+   main = "Plot 3",
+   las = 1  )
 grid()
 
 
 
 
-x0 <- seq(0, 10, length=n)
+x0 <- seq(0, 10, length = n)
 mu4 <- -1 + 0.35 * x0
 vr4 <- 0.65
 y4 <- exp( mu4 + rnorm(length(x0), 0, vr4) )
 plot(y4 ~ x0,
-   xlab=expression(italic(x)),
-   ylab=expression(italic(y)),
-   pch=19,
-   col=plot.colour0,
-   ylim=c(0, 35),
-   main="Plot 4",
-   las=1  )
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 35),
+   main = "Plot 4",
+   las = 1  )
 grid()
 
 
 x0 <- seq(0, 1, length=n)
-y5 <- 10 + x0 - 50*(x0-max(x0))^3 + rnorm(length(x0), 0, 3)
+y5 <- 10 + x0 - 50 * (x0 - max(x0))^3 + rnorm(length(x0), 0, 3)
 plot(y5 ~ x0,
-     xlab=expression(italic(x)),
-     ylab=expression(italic(y)),
-     pch=19,
-     col=plot.colour0,
-     ylim=c(0, 70),
-     main="Plot 5",
-     las=1  )
+     xlab = expression(italic(x)),
+     ylab = expression(italic(y)),
+     pch = 19,
+     col = plot.colour0,
+     ylim = c(0, 70),
+     main = "Plot 5",
+     las = 1  )
 grid()
 
 
-x6 <- seq(5, 10, length=n)
-y6 <- 16 + 4*x6 + rnorm(length(x6), 0, 6)
+x6 <- seq(5, 10, length = n)
+y6 <- 16 + 4 * x6 + rnorm(length(x6), 0, 6)
 plot(y6 ~ x6,
-     xlab=expression(italic(x)),
-     ylab=expression(italic(y)),
-     pch=19,
-     col=plot.colour0,
-     axes=FALSE,
-     ylim=c(30, 70),
-     xlim=c(5, 10),
-     main="Plot 6",
-     las=1 )
-axis(side=2, las=1)
-axis(side=1, at=seq(5, 10, by=1))
+     xlab = expression(italic(x)),
+     ylab = expression(italic(y)),
+     pch = 19,
+     col = plot.colour0,
+     axes = FALSE,
+     ylim = c(30, 70),
+     xlim = c(5, 10),
+     main = "Plot 6",
+     las = 1 )
+axis(side = 2, 
+     las = 1)
+axis(side = 1, 
+     at = seq(5, 10, by = 1))
 box()
 
 grid()
@@ -306,20 +313,24 @@ CP$PriceThous <- CP$Price/1000
 
 
 #Year Price Age
-plot( Price/1000~Age, 
-      data=CP,
-      xlab="Age (in years)",
-      ylab="Price (in thousands of dollars)",
-      main="Prices of second-hand Corollas\non gumtree.com.au in 2014",
-      pch=19,
-      col=plot.colour0,
-      las=1,
-      xlim=c(0, 16),
-      ylim=c(0, 20),
-      axes=FALSE
+plot( Price/1000 ~ Age, 
+      data = CP,
+      xlab = "Age (in years)",
+      ylab = "Price (in thousands of dollars)",
+      main = "Prices of second-hand Corollas\non gumtree.com.au in 2014",
+      pch = 19,
+      col = plot.colour0,
+      las = 1,
+      xlim = c(0, 16),
+      ylim = c(0, 20),
+      axes = FALSE
 )
-axis(side=1, at=seq(0, 16, by=2), las=1 )
-axis(side=2, at=seq(0, 20, by=2), las=1 )
+axis(side = 1, 
+     at = seq(0, 16, by = 2), 
+     las = 1 )
+axis(side = 2, 
+     at = seq(0, 20, by = 2), 
+     las = 1 )
 box()
 ```
 
@@ -422,20 +433,24 @@ CP$PriceThous <- CP$Price/1000
 
 #### PRICE vs YEAR
 
-plot( PriceThous~Year, 
-      data=CP,
-      xlab="Year of manufacture",
-      ylab="Price (in thousands of dollars)",
-      main="Prices of second-hand Corollas\non gumtree.com.au in 2014",
-      pch=19,
-      col=plot.colour0,
-      las=1,
-      xlim=c(2001, 2012),
-      ylim=c(0, 20),
-      axes=FALSE
+plot( PriceThous ~ Year, 
+      data = CP,
+      xlab = "Year of manufacture",
+      ylab = "Price (in thousands of dollars)",
+      main = "Prices of second-hand Corollas\non gumtree.com.au in 2014",
+      pch = 19,
+      col = plot.colour0,
+      las = 1,
+      xlim = c(2001, 2012),
+      ylim = c(0, 20),
+      axes = FALSE
 )
-axis(side=1, at=seq(2001, 2012, by=1), las=1 )
-axis(side=2, at=seq(0, 20, by=2), las=1 )
+axis(side = 1, 
+     at = seq(2001, 2012, by = 1), 
+     las = 1 )
+axis(side = 2, 
+     at = seq(0, 20, by = 2), 
+     las = 1 )
 box()
 
 ```
@@ -448,8 +463,8 @@ box()
 
 Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
-1.	Add some points to the scatterplot such that the correlation is approximately $r=0.9$.
-2. Add some more points to the scatterplot such that the correlation is approximately $r=0.2$.
+1. Add some points to the scatterplot such that the correlation is approximately $r = 0.9$.
+2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.2$.
 
 
 
@@ -474,9 +489,9 @@ Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
 *(Answers are available in Sect. \@ref(Lecture11Answers))*
 
-```{block2, type = "rmdVideoSolution"}
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
-```
+:::
 
 
 Researchers in New Zealand were interested in:

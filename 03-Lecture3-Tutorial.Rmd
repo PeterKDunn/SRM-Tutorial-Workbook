@@ -1,16 +1,16 @@
 # Teaching Week 3: tutorial {#Lecture3}
 
 
-```{block2, type="rmdobjectives"}
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
 * Language used in research.
 * Graphical summaries.
-
-```
+:::
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
 
+* [Chapter 10 (Procedures for collecting data)](https://bookdown.org/pkaldunn/Book/CollectingDataProcedures.html).
 * [Chapter 11 (Describing data)](https://bookdown.org/pkaldunn/Book/DescribingVars.html).
 * [Chapter 12 (Graphical summaries of data)](https://bookdown.org/pkaldunn/Book/Graphs.html).
 
@@ -56,9 +56,9 @@ OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L,
 -60L))
 ```
 
-```{block2, type = "rmdPreClass"}
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
-```
+:::
 
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop]
 had $n = 60$ adults undergo a sleep study.
@@ -102,38 +102,39 @@ if( knitr::is_html_output() ) {
 ```
 
 1. What would be the appropriate graph to show the *distribution* of the age of the participants?
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Bar chart", 
 		                  "Scatterplot",
                       answer = "Histogram",
                       "Boxplot") )}`
 1. What would be the appropriate graph to show the *distribution* of the gender of participants?
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Bar chart", 
 		                  "Scatterplot",
                       "Histogram",
                       "Boxplot") )}`
 1. What would be the appropriate graph to show the *relationship* between gender and REI?
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Stacked bar chart", 
 		                  "Scatterplot",
                       "Pie chart",
                       answer = "Boxplot") )}`
 1. What would be the appropriate graph to show the *relationship* between age and REI?
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Stacked bar chart", 
 		                  answer = "Scatterplot",
                       "Pie chart",
                       "Boxplot") )}`
 
 
-```{block2, type="fold"}
+`r webexercises::hide()`
 1. *Age* is quantitative, so histograms or stem-and-leaf plots are appropriate.
 1. *Gender* is qualitative, so bar charts or pie charts are appropriate.
 1. *Gender* is qualitative, and *REI* is quantitative, so a boxplot is apppropriate.
 1. Both *age* and *REI* are quantitative, so a scatterplot is appropriate.
+`r webexercises::unhide()`
 
-```
+**Progress:** `r webexercises::total_correct()`
 
 
 
@@ -146,11 +147,11 @@ if( knitr::is_html_output() ) {
 
 
 
-```{block2, type="rmdimportant"}
+::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 **NOTE**: The first bar of the histogram is not necessarily at zero; 
 it is the **shape** of the histogram that is of interest here:
 right skewed, left skewed, symmetric, etc.
-```
+:::
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q1.Rmd'}

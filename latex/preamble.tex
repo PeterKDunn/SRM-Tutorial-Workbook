@@ -2,6 +2,8 @@
 %%
 \usepackage{booktabs}
 \usepackage{longtable}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tcolorbox} % Provides  \newtcolorbox
 \usepackage[bf,singlelinecheck=off]{caption}
 %\usepackage{animate} %%% SEE: https://stackoverflow.com/questions/30476119/plot-animation-in-knitr-rmarkdown: PDF animations
 \usepackage{times,pifont} % Nice fonts
@@ -121,15 +123,181 @@
   }
   
 
-\newenvironment{rmdVideoSolution}
-  {\definecolor{shadecolor}{RGB}{240, 245, 245}\begin{rmdblock}{iconmonstr-video-15-240}}
-  {\end{rmdblock}}
-\newenvironment{rmdPreClass}
-  {\definecolor{shadecolor}{RGB}{240, 245, 245}\begin{rmdblock}{iconmonstr-school-26-240}}
-  {\end{rmdblock}}
-\newenvironment{rmdDrills}
-  {\definecolor{shadecolor}{RGB}{255, 242, 230}\begin{rmdblock}{iconmonstr-calculator-10-240}}
-  {\end{rmdblock}}
+
+  
+  
+  
+  
+  
+
+\newtcolorbox{objectivescolourbox}{
+  colback=Turquoise,
+  colframe=Cerulean,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+  
+\newtcolorbox{tipcolourbox}{
+  colback=GreenYellow,
+  colframe=SeaGreen,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+  
+\newtcolorbox{videosolutionscolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newtcolorbox{drillcolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+    
+\newtcolorbox{importantcolourbox}{
+  colback=Apricot,
+  colframe=Red,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newtcolorbox{preclasscolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newtcolorbox{blackbox}{
+  colback=gray,
+  colframe=orange,
+  coltext=white,
+  boxsep=5pt,
+  arc=4pt}
+  
+  
+  
+  
+\newenvironment{objectivesBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    } 
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{objectivescolourbox}
+  \item
+  }
+  {
+  \end{objectivescolourbox}
+  \end{itemize}
+  }  
+  
+  
+  
+  \newenvironment{tipBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{tipcolourbox}
+  \item
+  }
+  {
+  \end{tipcolourbox}
+  \end{itemize}
+  }  
+  
+  
+  \newenvironment{videoSolutionBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{videosolutionscolourbox}
+  \item
+  }
+  {
+  \end{videosolutionscolourbox}
+  \end{itemize}
+  }  
+  
+  
+  
+ \newenvironment{drillBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{drillcolourbox}
+  \item
+  }
+  {
+  \end{drillcolourbox}
+  \end{itemize}
+  }  
+  
+  \newenvironment{importantBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{importantcolourbox}
+  \item
+  }
+  {
+  \end{importantcolourbox}
+  \end{itemize}
+  }  
+
+  \newenvironment{preClassBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{preclasscolourbox}
+  \item
+  }
+  {
+  \end{preclasscolourbox}
+  \end{itemize}
+  }  
+  
+  
+  
+  
+  
+  
+  
 \newenvironment{rmdobjectives}
   {\definecolor{shadecolor}{RGB}{230, 249, 255}\begin{rmdblock}{iconmonstr-target-4-240}}
   {\end{rmdblock}}

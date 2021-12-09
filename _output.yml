@@ -2,9 +2,8 @@ bookdown::gitbook:
   default: yes
   css:
   - css/style.css
-  - css/psyteachr.css
-  - columns.css
-  - www/webex.css
+  - css/columns.css
+  - include/webex.css
   includes:
     in_header:
     - html/favicon.html
@@ -14,8 +13,7 @@ bookdown::gitbook:
     - js/examplefold.js
     after_body:
     - html/copyright.html
-    - js/webex.js
-    - www/webex.js
+    - include/webex.js
   split_by: section
   df_print: paged
   config:
@@ -55,13 +53,3 @@ bookdown::pdf_book:
   toc_unnumbered: no
   toc_appendix: yes
   df_print: kable
-#bookdown::bs4_book:
-#  df_print: kable
-#  theme:
-#    primary: '#0d6efd'
-#  lib_dir: libs
-#  split_bib: no
-#  css: include/webex.css
-#  includes:
-#    after_body: include/webex.js
-#  md_extensions: -smart

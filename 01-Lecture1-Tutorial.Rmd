@@ -6,14 +6,13 @@
 
 # Teaching Week 1: tutorial {#Lecture1}
 
-```{block2, type="rmdobjectives"}
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
 *	Types of research studies.
 * Research questions.
 * Language used in research.
-
-```
+:::
 
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
@@ -27,9 +26,9 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-```{block2, type = "rmdPreClass"}
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
-```
+:::
 
 Consider this RQ: 
 
@@ -38,50 +37,52 @@ Consider this RQ:
 > --- Based on @data:jaworowska2012:determination.
 
 1.  What *type* of RQ is this?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Descriptive", 
                       answer = "Relational",
                       "Interventional") )}`
 1.  What is the *Outcome* in this RQ?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "The amount of salt",
         						   answer = "The average amount of salt", 
                       "The average amount of salt in Chinese and Indian take-away meals",
                       "London take-away restaurants") )}`
 1.  What would be the *response variable*?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The average amount of salt", 
                       answer = "The amount of salt in each meal",
                       "The type of London take-away restaurant") )}`
 1.  What would be the *unit of analysis*?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                        "The meals",
                        answer = "We need more information about how the data were collected") )}`
 1.  What would be the *unit of observation*?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                       answer = "The meals",
                       "It's hard to know: We need more information about how the data were collected") )}`
 1. The article states that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery" (p. 518). 
 What *type* of definition is this?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "Operational", 
                       answer = "Conceptual") )}`
 
 
-
-```{block2, type="fold"}
-1. Relational: There is a comparison (between Chinese and Indian meals), but this is **not** an interventional (as the researchers did not determine whether a meal was Chinese or Indian).
-1. The Outcome refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
+`r webexercises::hide()`
+1. **Relational**: There is a comparison (between Chinese and Indian meals), but this is **not** an interventional (as the researchers did not determine whether a meal was Chinese or Indian).
+1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
 1. A variable is measured on an **individual**; in this case, the amount of salt in the individual meals.
-1. The unit of analysis depends on how the data were collected.  
+1. The **unit of analysis** depends on how the data were collected.  
    Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.  
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. We need more information. 
-1. The unit of observation is the meal, as the salt content must be assessed from each individual meal.
+1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
+`r webexercises::unhide()`
 
-```
+**Progress:** `r webexercises::total_correct()`
+
+
 
 
 
@@ -168,35 +169,51 @@ Explain the fundamental differences between the following pairs of often-confuse
 ```{r SimilarTerms, echo=FALSE}
 Terms <- array( dim=c(8, 3))
 
-Terms[1, ] <- c("Hypothesis", "1", "Research question") 
-Terms[2, ] <- c("Relational RQ", "2", "Interventional RQ") 
-Terms[3, ] <- c("Observational study", "3", "Experimental study") 
-Terms[4, ] <- c("Quasi-experiment", "4", "True experiment") 
-Terms[5, ] <- c("Response variable", "5", "Explanatory variable") 
-Terms[6, ] <- c("Response variable", "6", "Outcome") 
-Terms[7, ] <- c("Unit of observation", "7", "Unit of analysis")
-Terms[8, ] <- c("Conceptual definition", "8", "Operational definition")
+Terms[1, ] <- c("Hypothesis", 
+                "1", 
+                "Research question") 
+Terms[2, ] <- c("Relational RQ", 
+                "2", 
+                "Interventional RQ") 
+Terms[3, ] <- c("Observational study", 
+                "3", 
+                "Experimental study") 
+Terms[4, ] <- c("Quasi-experiment", 
+                "4", 
+                "True experiment") 
+Terms[5, ] <- c("Response variable", 
+                "5", 
+                "Explanatory variable") 
+Terms[6, ] <- c("Response variable", 
+                "6", 
+                "Outcome") 
+Terms[7, ] <- c("Unit of observation", 
+                "7", 
+                "Unit of analysis")
+Terms[8, ] <- c("Conceptual definition", 
+                "8", 
+                "Operational definition")
 
 if( knitr::is_latex_output() ) {
   kable(Terms, 
-      booktabs=TRUE,
-      format="latex",
-      caption="Distinguish the similar terms",
+      booktabs = TRUE,
+      format = "latex",
+      caption = "Distinguish the similar terms",
       linesep = c("", "\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", "", ""), 
-      align=c("r", "c", "l")) %>%
-  column_spec(2, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
+      align = c("r", "c", "l")) %>%
+  column_spec(2, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
 }
 
 if( knitr::is_html_output() ) {
   kable(Terms, 
-      booktabs=TRUE,
-      format="html",
-      caption="Distinguish the similar terms",
+      booktabs = TRUE,
+      format = "html",
+      caption = "Distinguish the similar terms",
       linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "", ""), 
-      align=c("r", "c", "l")) %>%
-  column_spec(2, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
+      align = c("r", "c", "l")) %>%
+  column_spec(2, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
 }
 ```
 
@@ -314,31 +331,35 @@ Five floorboards were taken, and two hardness measurements were taken on each bo
 
 
 ```{r JankaBoards, echo=FALSE}
-Janka <- array( dim=c(2, 5))
-colnames(Janka) <- c("Board 1", "Board 2", "Board 3", "Board 4", "Board 5")
+Janka <- array( dim = c(2, 5))
+colnames(Janka) <- c("Board 1", 
+                     "Board 2", 
+                     "Board 3", 
+                     "Board 4", 
+                     "Board 5")
 
 Janka[1, ] <- c(10.5, 8.0, 11.5, 10.3, 10.2)
 Janka[2, ] <- c( 7.5, 8.0, 11.2, 9.9, 9.3)
 
 if( knitr::is_latex_output() ) {
   kable(Janka,
-      format="latex",
-      caption="Two Janka hardness measurements from five different bamboo boards",
-      longtable=FALSE,
-      booktabs=TRUE,
-      align="r") %>%
-  row_spec(0, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
+      format = "latex",
+      caption = "Two Janka hardness measurements from five different bamboo boards",
+      longtable = FALSE,
+      booktabs = TRUE,
+      align = "r") %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
 }
 if( knitr::is_html_output() ) {
   kable(Janka,
-      format="html",
-      caption="Two Janka hardness measurements from five different bamboo boards",
-      longtable=FALSE,
-      booktabs=TRUE,
-      align="r") %>%
-  row_spec(0, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
+      format = "html",
+      caption = "Two Janka hardness measurements from five different bamboo boards",
+      longtable = FALSE,
+      booktabs = TRUE,
+      align = "r") %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
 }
 ```
 

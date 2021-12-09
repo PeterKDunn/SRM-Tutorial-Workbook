@@ -2,187 +2,87 @@
 
 
 
-```{block2, type="rmdobjectives"}
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-* Tabular summaries.
-* Row and column percentages.
-* Two-way tables of counts.
-* Odds and odds ratios.
 * Probability.
-
-```
+* Models.
+* Sampling variation.
+* The normal distribution.:::
+:::
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
 
-* [Chapter 14 (Numerical summaries: qualitative data)](https://bookdown.org/pkaldunn/Book/NumericalQual.html).
 * [Chapter 15 (Making decisions: An introduction)](https://bookdown.org/pkaldunn/Book/MakingDecisions.html).
 * [Chapter 16 (Probability)](https://bookdown.org/pkaldunn/Book/Probability.html).
+* [Chapter 17 (Distributions and models)](https://bookdown.org/pkaldunn/Book/SamplingDistributions.html).
+* [Chapter 18 (Sampling variation)](https://bookdown.org/pkaldunn/Book/SamplingVariation.html).
 
 
 	
 
+ 
+
+## Quick revision {#QuickRevision-Tutorial6}
 
 
-
-## Quick revision {#QuickRevision-Tutorial5}
-
-```{block2, type = "rmdPreClass"}
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
-```
-
-A study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency]
-collected the data shown below.
-
-| Sex of patients | Dispatcher suspected stroke | Dispatcher missed stroke
-|----------------:+:---------------------------:+:-------------------------:
-| Male            | 67                          | 43
-| Female          | 97                          | 39
+:::
 
 
-1. What *percentage* of *male* patients had their stroke symptoms missed by the dispatcher?  
-`r if( knitr::is_html_output() ) {mcq( c(
-                      answer = "39.1%", 
-		                  "60.9%",
-                      "52.4%",
-                      "33.3%") )}`
-1. What *percentage* of *female* patients had their stroke symptoms missed by the dispatcher?  
-`r if( knitr::is_html_output() ) {mcq( c(
-		                  "71.3%",
-                      "47.6%",
-                      answer = "28.7%", 
-                      "33.3%") )}`
-1. What are the *odds* that a *male* patients had their stroke symptoms missed by the dispatcher?  
-`r if( knitr::is_html_output() ) {mcq( c(
-                      "39.1", 
-		                  answer = "0.642",
-                      "0.907",
-                      "0.50") )}`
-1. What are the *odds* that a *female* patients had their stroke symptoms missed by the dispatcher?  
-`r if( knitr::is_html_output() ) {mcq( c(
-                      answer = "0.402", 
-		                  "2.49",
-                      "1.10",
-                      "1.24") )}`
-1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?  
-`r if( knitr::is_html_output() ) {mcq( c(
-		                  "0.63",
-                      "0.402",
-                      "0.50",
-                      answer = "1.6") )}`
+A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
+For the simulation, 
+they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution,
+with a mean of 13&nbsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
 
+The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
 
-```{block2, type="fold"}
-1. $43\div (43 + 67) \times 100 = 39.1$%. 
-1. $39\div (97 + 39) \times 100 = 28.7$%.
-1. $43\div 67 = 0.642$.
-1. $39\div 97 = 0.402$.
-1. $0.642 \div 0.402 = 1.6$.
-
-```
+1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes?  
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c("1.77",
+          answer = "-1.77", 
+          "-0.7",
+          "0.7") )}`
+1. What is the $z$-score for the upper limit of 26.0&nbsp;tonnes?  
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c(answer ="10",
+          "-10", 
+	  "-16",
+	  "16") )}`
+1. A negative $z$-score means that the mean has a *smaller* value than the standard deviation. True of false?  
+`r if( knitr::is_html_output() ) {webexercises::torf(FALSE) }`
+1. A *standard error* measures the size of the difference between the sample proportion and the population proportion. True of false?  
+`r if( knitr::is_html_output() ) {webexercises::torf(FALSE) }`
 
 
 
-## Percentages and odds {#PercentagesOdds}
+`r webexercises::hide()`
+1. $z = (10.7 - 13)\div 1.3 = -1.77$.
+1. $z = (26.0 -13)/1.3 = 10$.
+1. A *negative* $z$-score means that the value is *less than* the mean.
+1. The *standard error* measures how much a sample value is likely to vary from sample to sample.
+`r webexercises::unhide()`
 
-Endotracheal intubation (ETI)
-is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
-
-ETI is widely used for airway management of children in the out-of-hospital setting, 
-but for many years little evidence was available on the effect of using ETI.
-
-Table \@ref(tab:AirwayTable)
-comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation
-on children.
-
-Use the table to answer the questions that follow.
+**Progress:** `r webexercises::total_correct()`
 
 
 
-```{r AirwayTable, echo=FALSE}
-Airways <- array( dim=c(8, 4))
+## Normal distributions and IQs {#NormalIQs}
 
-colnames(Airways) <- c("Number", "%", "Number", "%")
-rownames(Airways) <- c("Normal, no change from baseline",
-                       "No change from baseline",
-                       "Mild disability",
-                       "Moderate disability",
-                       "Severe disability",
-                       "Coma/vegetative",
-                       "Death",
-                       "Total")
+Standard IQs in current use are designed
+so that the IQ scores of the *population* 
+have a normal distribution with a mean of 100,
+and a standard deviation of 15.
 
-Airways[1, ] <- c("39", "(10%)", "33", "(8%)")
-Airways[2, ] <- c("33", "(8%)", "25", "(6%)")
-Airways[3, ] <- c("20", "(5%)", "27", "(6%)")
-Airways[4, ] <- c("6", "(1%)", "7", "(2%)")
-Airways[5, ] <- c("10", "(2%)", "6", "(1%)")
-Airways[6, ] <- c("15", "(4%)", "12", "(3%)")
-Airways[7, ] <- c("281", "(70%)", "306", "(74%)")
-Airways[8, ] <- c("404", "", "416", "")
 
-if( knitr::is_latex_output() ) {
-  kable(Airways,
-      format="latex",
-      align=rep("r", 4),
-      booktabs=TRUE,
-      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-      caption="Airway management data") %>%
-  add_header_above(header=c("  "=1, "BVM group "=2, " ETI group"=2), align="c", bold=TRUE  ) %>%
-  column_spec(1, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  row_spec(8, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(Airways,
-      format="html",
-      align=rep("r", 4),
-      booktabs=TRUE,
-      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-      caption="Airway management data") %>%
-  add_header_above(header=c("  "=1, "BVM group "=2, " ETI group"=2), align="c", bold=TRUE  ) %>%
-  column_spec(1, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  row_spec(8, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
-
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q1.Rmd'}
 ```
 
 
-1. Among people treated with BVM ('ball valve mask'),
-   compute the *percentage* that died (to the nearest percent).  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
+`r if (knitr::is_html_output()) {"Use this information to answer the following questions."}`
 
-2. Among the people treated with BVM,
-   what are the *odds* that
-   someone died?
-   Explain which one of the following calculations is correct,
-   and **explain what the other calculations compute,
-   and hence why they are wrong**.  
-`r if( knitr::is_html_output() ) {mcq(
-    c(answer = "281/(404-281) = 2.28",
-               "(404-281)/404 = 0.304",
-               "281/404 = 0.696",
-               "(281+306) / ( 404+416) = 0.716",
-               "281/306 = 0.918"
-     ))}`
-
-3. Among people treated with ETI,
-   the *odds* that someone died is 2.78.
-   What does this mean?  
-`r if( knitr::is_html_output() ) {mcq(
-  c(         "A patient treated with ETI has a 2.78% chance of dying.",
-             "2.78% of patients treated with ETI in the study died.",
-    answer = "For patients treated with ETI, about 278 die for every 100 that survive.",
-             "For patients treated with ETI, about 278 live for every 100 that die."
-  ))}`
-  
-4. How many times greater is the odds that a person treated with 
-   ETI died compared to the odds that a person treated 
-   with BVM died?  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.01, answer=1.22)}`
+<iframe src="https://usc.h5p.com/content/1290968343185265779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 
@@ -190,316 +90,62 @@ if( knitr::is_html_output() ) {
 
 
 
-## Which summary measures to use {#WhichSummaryToUse}
 
-A study of different orthoses (orthotic devices)
-in children with 
-cerebral palsy [@data:Swinnen2017:orthoses]
-produced the demographic data of the participants.
+## Normal distributions and heights {#NormalHeights}
 
-[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
-is the 
-'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
-which is:
+In the \textit{National Nutrition Survey} (NNS) 
+(conducted with the 1995 *National Health Survey* (NHS)),
+trained nutritionists measured the heights of the respondents [@data:ABS1995:MeasureUp].
 
-> ... a 5 level clinical classification system that describes the gross motor function 
-> of people with cerebral palsy on the basis of self-initiated movement abilities.
->
-> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
+The values quoted are used for modelling purposes,
+and are essentially the population means $\mu$ and standard deviations $\sigma$. 
 
+1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you? _______
+2. Write down your own height: ________
+3. From Fig. \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
+   Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
+   Explain what this means.
 
-`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
-
-
-`r if (knitr::is_html_output()) '<!--'`
-
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
-knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
-```
-`r if (knitr::is_html_output()) '-->'`
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
-```
-
-
-
-
-<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-<!-- 1. What are the variables? How many variables are there? -->
-<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
-<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
-<!-- 1. Explain which *numerical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually. -->
-<!-- 2. Explain which *graphical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually.   -->
-
-<!--  	 (You don't have to *produce* the summaries,  -->
-<!--  	 just explain which would be appropriate. -->
-<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
-<!-- 3. What graphs would you use to display the *relationship* -->
-<!--    between Gender and Height?   -->
-
-<!--  	 What graphs would you use to display the *relationship* -->
-<!--    between Gender and GMFCS? -->
-
-<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
-<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
-<!-- ``` -->
-
-
-
-
-
-
-
-## Two-way tables {#TwoWayTables}
-
-
-
-
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-pixabay-264384.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-
-
-Soccer is a unique in that one aspect is 
-
-> ...the purposeful use of the unprotected head for controlling and advancing the ball...
->
->  --- @data:Gausche200:Endotracheal
-
-Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
-
-A study 
-[@data:Gausche200:Endotracheal]
-was conducted to determine
-
-> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion)
-> was present in collegiate soccer players
->
-> --- @data:Gausche200:Endotracheal, p. 157.
-
-Data were collected from 
-240 college students:
-
-* The student type:
-  One of 'soccer players' (63 students),
-  'non-soccer athletes' (96 students),    
-  or 'non-athletes' (81 students).
-* The number of head concussions:
-  Each student was asked
-  about the number of head concussions they had experienced;
-  'zero' (158 students),
-  'one' (45 students), 
-  or 
-  'two or more'  (37 students) concussions.
-
-Use the study data
-(Table \@ref(tab:SoccerTable))
-to answer the following questions.
-	     
-	     
-```{r SoccerTable, echo=FALSE}
-SoccerTab <- array(dim=c(4, 4))
-rownames(SoccerTab) <- c("Soccer players",
-                         "Non-soccer athletes",
-                         "Non-athletes",
-                         "Total")
-colnames(SoccerTab) <- c("0", "1", "2 or more", "Total")
-
-SoccerTab[1, ] <- c(45, 5, 13, 63)
-SoccerTab[2, ] <- c(68, 25, 3, 96)
-SoccerTab[3, ] <- c(45, 15, 21, 81)
-SoccerTab[4, ] <- c(158, 45, 37, 240)
-
-if( knitr::is_latex_output() ) {
-  kable(SoccerTab,
-      format="latex",
-      booktabs=TRUE,
-      caption="Data on concussions experienced by college students") %>%
-  column_spec(1, bold=TRUE) %>%
-  column_spec(5, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  row_spec(4, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(SoccerTab,
-      format="html",
-      booktabs=TRUE,
-      caption="Data on concussions experienced by college students") %>%
-  column_spec(1, bold=TRUE) %>%
-  column_spec(5, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  row_spec(4, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
+```{r Ht, echo=FALSE, fig.cap="Part of the ABS report on heights of Australians", fig.align="center", out.width='85%'}
+knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 ```
    
-1. Compute the percentage of college students in the *sample* overall that 
-   have received exactly one concussion.
-2. Many possible graphs exists to display the data; 
-   four are shown in Fig. \@ref(fig:SoccerGraph).
-   What is the main message from each graph?
-   Which graph do you think is best?  Why?
-
-```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
-
-SP <- matrix( nrow=3, ncol=3, 
-              data=c(45, 5, 13, 68, 25, 3, 45, 15, 21), 
-              byrow=TRUE,
-              dimnames=list( c("S", "NS", "NA"),
-                             c("0", "1", "2+") )
-              )
-
-SP.pc1 <- prop.table(SP,  margin=1)*100
-SP.pc2 <- prop.table(SP,  margin=2)*100
-
-#cols <- c( grey(0.2),
-#           grey(0.5),
-#           grey(0.8))
-
-cols <- viridis(3, # Three colours
-                alpha=0.5,
-                option = "E") # See  ?viridis: The pallete to use
-
-par( mfrow=c(2,2), 
-     xpd = NA, # A logical value or NA. If FALSE, all plotting is clipped to the plot region, 
-               # if TRUE, all plotting is clipped to the figure region, and 
-               # if NA, all plotting is clipped to the device region. See also clip.
-     mar = c(3, 4, 12, 4) + 0.1 )
-#     mar=c(5.1, 4.1, 4.1, 9.1))
-#par(mar = c(10, 4, 4, 0.5) + 0.1,
-
-barplot(SP,     
-        las=1,
-        ylim=c(0, 160),
-        axes=FALSE,
-        col=cols,
-        ylab="Number of students", 
-        args.legend=list(x="right", title="Student:", xpd=TRUE, inset=c(-0.6, 0) ), 
-        xlab="Number of concussions",
-         main="Student types by occurrence\nof concussions")
-axis(side=2, 
-     at=seq(0, 160, by=40),
-     las=1)
-#axis(side=1)
-# Add the labels meanings
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset=c(0, -0.40),
-       legend = c("Soccer", 
-                  "Athlete", 
-                  "Non-athlete") )
-
-barplot( t(SP.pc1), 
-         las=1, 
-         col=cols,
-         ylab="Percentage of students", 
-         args.legend=list(x="right", title="Concussions:", bg="white", xpd=TRUE, inset=c(-0.7, 0)), 
-         xlab="Student type",
-         main="Occurrence of concussions\nby student type")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset=c(0, -0.40),
-       legend = c("0", 
-                  "1", 
-                  "2+") )
-barplot( t(SP.pc1), 
-         beside=TRUE, 
-         col=cols,
-         las=1, 
-         ylim = c(0, 80),
-         ylab="Percentage of students", 
-         args.legend=list(title="Concussions:", bg="white", x="right", xpd=TRUE, inset=c(-0.7, 0)), 
-         xlab="Student type",
-         main="Occurrence of concussions\nby student type")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset=c(0, -0.40),
-       legend = c("0", 
-                  "1", 
-                  "2+") )
-barplot(SP.pc2, 
-        beside=TRUE, 
-        las=1,         
-        col=cols,
-        ylim=c(0, 60),
-        ylab="Percentage of students", 
-        args.legend=list(title="Student:", bg="white", x="right", xpd=TRUE, inset=c(-0.6, 0)), 
-        xlab="Number of concussions",
-        main="Student types by\noccurrence of concussions")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset=c(0, -0.40),
-       legend = c("Soccer", 
-                  "Athlete", 
-                  "Non-athlete") )
+4. Heights have an approximate normal (bell-shape) distribution, so the 68--95--99.7 rule applies.  
+   &nbsp;  
+   **Using the 68--95--99.7 rule**,
+   *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
+   (Hint: Draw a picture!)
+5. Using [**the normal distribution tables**](#ZTablesOnline),
+   together with the information from **Fig. \@ref(fig:Ht)**,
+   compute the percentage of people of your age and gender that are *shorter* than you.
+6. Using the 68--95--99.7 rule,
+   the middle 95\% of females 18 and over (using the **Fig. \@ref(fig:Ht2)**) 
+   are within what height range?
+	
+```{r Ht2, echo=FALSE, fig.cap="Part of the ABS report on heights of females Australians", fig.align="center", out.width='55%'}
+knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.png")
 ```
 
-3. Among the **non-athletes**, 
-   compute the odds of receiving two or more concussions.
-   Interpret what this means.
-4. Among the **soccer players**, 
-   compute the odds of receiving two or more concussions.
-   (Refer to Table \@ref(tab:SoccerTable).)
-   Interpret what this means.
-5. Compute the odds ratio
-	 comparing the odds of a non-athlete player receiving two or more concussions
-	 to the odds of a soccer player receiving two or more concussions.
-6. Create a table of **column** percentages.
-	 What do these tell you?
-7. Create a table of **row** percentages.
-	 What do these tell you?
-8. Which one of these tables is probably more sensible, and why?
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458368&sec_digit=866310140&embeded_digit=144702422' style='width:100%; height:550px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
+7. For this part,
+   we want to just look at **females over 18**;
+   from **Fig. \@ref(fig:Ht2)**,
+   for this group, the mean is $\mu = 161.4$&nbsp;cm, and 
+   the standard deviation is $\sigma = 6.7$&nbsp;cm.
+   Use this information to answer the following questions.
 
+    - Compute the *percentage* of females 18 and over that are *shorter* than 171&nbsp;cm.
+    - What are the *odds* that a female 18 and over is *shorter* than 171&nbsp;cm?
+    - Compute the *percentage* of females 18 and over that are *taller* than 171&nbsp;cm?
+    - What are the *odds* that a female 18 and over is *taller* than 171&nbsp;cm?
+    - Compute the *percentage* of females  18  and over that are *between* 170 and 180&nbsp;cm?
+    - What are the *odds* that a female  18 and over is *between* than 170 and 180&nbsp;cm?
+	  
+8. For this part,
+   use the data in **Fig. \@ref(fig:Ht2)**.
+   Approximately 20\% of females 18 and over are shorter than what height?
+     
 
 
 
@@ -512,31 +158,31 @@ in these situations.
 (*Note:* You are not asked to *compute* the probability.)
 
 1. The probability that a given USC student lives in Nambour.  
-`r if( knitr::is_html_output() ) {mcq(
+`r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",
                "Subjective approach."
       ))}`
 2. The probability that a given Nambour resident is a USC student.  
-`r if( knitr::is_html_output() ) {mcq(
+`r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",
                "Subjective approach."
       ))}`
 3. The probability that Labor wins the next federal election.  
-`r if( knitr::is_html_output() ) {mcq(
+`r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
                "Relative frequency approach.",
       answer = "Subjective approach."
       ))}`
 4. The probability that you will throw a dart and hit the bullseye.  
-`r if( knitr::is_html_output() ) {mcq(
+`r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",
                "Subjective approach."
       ))}`
 5. The probability that a roulette wheel spins a 33.  
-`r if( knitr::is_html_output() ) {mcq(
+`r if( knitr::is_html_output() ) {longmcq(
     c(answer = "Classical approach.",
                "Relative frequency approach.",
                "Subjective approach."
@@ -559,226 +205,34 @@ in these situations.
 ```
 
 
-## Odds {#Odds1}
 
 
+## **Optional**: Working with normal distributions {#NormalSOI}
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
-```
+*(Answers are available in Sect. \@ref(Lecture6Answers))*
 
-
-<iframe src="https://usc.h5p.com/content/1290968278235165709/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-##  **Optional**: Working with odds {#WorkingWithOdds}
-
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture5Answers))*'
-}`
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q6.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-## **Optional**: Odds ratios {#OddsRatioSMND}
-
-*(Answers are available in Sect. \@ref(Lecture5Answers))*
-
-```{block2, type = "rmdVideoSolution"}
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
-```
-
-	
-The impact of environmental toxins is not well understood.
-A 2012 Australian observational study [@data:Pamphlett:toxins]
-examined the association between the environmental exposure of toxins
-and sporadic motor neuron disease (SMND).
-
-A total of 380 SMND cases were studied, and 377 controls.
-Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had worked with metal.
-	
-1. Construct a two-way table showing the relationship between disease group,
-   and whether not the specific person had worked with metal, in the sample.
-2. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
-	 Interpret what this means.
-3. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
-	 Interpret what this means.
-4. How many times greater is the odds that a person *with* SMND having worked with metal,
-	 compared to the odds that a person *without* SMND having worked with metal?
-	 (This is an *odds ratio*.)
-5. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
-6. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-7. A newspaper report states SMND rates are almost the same between those worked with metal
-	 and those who did not.  
-	 
-	 Do you agree or disagree?
+:::
 
 
+The Southern Oscillation Index (SOI) is a 
+unitless^[That is, it is not measured in kilograms or seconds etc.  It is just a number; in fact, it is a bit like a $z$-score.]
+climatological measure that is easily computed,
+and has been shown to be related to the weather conditions in eastern Australia 
+[@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
 
+The daily SOI has an approximate normal distribution,
+and is designed to have a mean of 0 and a standard deviation of 10.
 
-
-## **Optional**: Percentages { #PercentagesOdour}
-
-*(Answers are available in Sect. \@ref(Lecture5Answers))*
-
-Industries often produce unpleasant odours,
-but the effects on the health of those impacted is not always clear.
-
-Furthermore,
-different communities are impacted in different ways.
-One study [@data:Deane:OdorRefineries]
-researched the RQ:
-
-> In Carson, California,
-> does the odour from nearby petroleum refineries impact residents in different areas differently?
-
-One aim of the study was to determine if the reports of unpleasant odours
-were related to measurements made by a dynamic olfactometer (an 'electronic nose').
-Part of the data collected are shown in 
-Table \@ref(tab:Odour).
-
-```{r Odour, echo=FALSE}
-OdourTab <- array( dim=c(4, 4))
-
-colnames(OdourTab) <- c("Area I", "Area II", "Area III", "Total")
-rownames(OdourTab) <- c("At least once a week", 
-                        "Between once a week and once a month", 
-                        "Less often than once a month", 
-                        "Not at all")
-
-OdourTab[1, ] <- c(48, 48, 16, 112)
-OdourTab[2, ] <- c(23, 21, 10, 54)
-OdourTab[3, ] <- c(14, 14, 20, 48)
-OdourTab[4, ] <- c(12, 12, 53, 77)
-
-if( knitr::is_latex_output() ) {
-  kable(OdourTab,
-      format="latex",
-      booktabs=TRUE,
-      caption="Data on the impact of a local industry") %>%
-  column_spec(1, bold=TRUE) %>%
-  column_spec(5, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(OdourTab,
-      format="html",
-      booktabs=TRUE,
-      caption="Data on the impact of a local industry") %>%
-  column_spec(1, bold=TRUE) %>%
-  column_spec(5, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
-}
-```
-      
-1. Explain whether the study is observational or experimental (true or quasi).
-2. What would be the meaning of *column* percentages for this table?
-3. What would be the meaning of *row* percentages for this table?
-4. Would row or column percentages probably be more sensible to use? Why?
-5. Compute the percentage of residents in the sample overall not detecting the odour at all.
-
-
-
-## **Drills**: Computational exercises {#Chapter5Drills}
-
-*(Answers are available in Sect. \@ref(Lecture5Answers))*
-
-```{block2, type="rmdDrills"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct,
-and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
-
-If you need help, please **ask**.
-```
-
-
-
-1. A study of drivers in [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
-
-   a. What **percentage** of people use their phone while driving?
-   b. What are the **odds** that a person uses their phone while driving?
-   c. What are the **odds** that a WA resident uses their phone while driving?
-   d. What are the **odds** that a NSW resident uses their phone while driving?
-   e. What are is the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
-
-```{r PDTable, echo=FALSE}
-PDTab <- array( dim = c(2, 2))
-
-rownames(PDTab) <- c("NSW", "WA")
-colnames(PDTab) <- c("Uses phone", "Does not use phone")
-
-PDTab[1, ] <- c(381, 295) 
-PDTab[2, ] <- c(345, 326)
-
-PDcap <- "The number of drivers who use their phone while driving"
-
-if( knitr::is_latex_output() ) {
-  kable(PDTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = PDcap) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(PDTab,
-      format = "html",
-      booktab = TRUE,
-      caption = PDcap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-
-
-2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
-   a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-   b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-   c. Compute the **percentage** of cuttings that were *long*.
-   d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-   e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-   f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-   g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
-   
-
-```{r RSTable, echo=FALSE}
-library(GLMsData)
-data(rootstock)
-
-RSTab <- xtabs( Count ~ Length + Condition, data = rootstock)
-
-RScap <- "The relationship between length and condition of plum rootstocks"
-
-if( knitr::is_latex_output() ) {
-  kable(RSTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = RScap) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(RSTab,
-      format = "html",
-      booktab = TRUE,
-      caption = RScap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
+1. Draw a rough, labelled sketch of the theoretical distribution of the SOI values.
+2. What is the probability that the daily SOI exceeds $20$?
+3. What are the *odds* that the daily SOI exceeds 20?
+4. What is the probability that the daily SOI is less than $-25$?
+5. What is the probability that the daily SOI is greater than $-12$?
+6. What is the probability that the daily SOI is between $-10$ and $20$?
+7. The SOI is *less than* what value about 80% of the time?
+8. The SOI is *greater* than what value about 35% of the time?
 
 
 

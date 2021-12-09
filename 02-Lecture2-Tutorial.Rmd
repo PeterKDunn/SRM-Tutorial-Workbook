@@ -1,13 +1,13 @@
 # Teaching Week 2: tutorial {#Lecture2}
 
 
-```{block2, type="rmdobjectives"}
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
 * Design of studies.
 * Language used in research.
+:::
 
-```
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
 
@@ -17,15 +17,15 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 7 (Internal validity and experimental studies)](https://bookdown.org/pkaldunn/Book/DesignExperiment.html).
 * [Chapter 8 (Internal validity and observational studies)](https://bookdown.org/pkaldunn/Book/DesignObservational.html).
 * [Chapter 9 (Identifying study limitations)](https://bookdown.org/pkaldunn/Book/Interpretation.html).
-* [Chapter 10 (Procedures for collecting data)](https://bookdown.org/pkaldunn/Book/CollectingDataProcedures.html).
 
 
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-```{block2, type = "rmdPreClass"}
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
-```
+:::
 
 Consider this (qualitative) RQ: 
 
@@ -35,32 +35,32 @@ Consider this (qualitative) RQ:
 
 
 1. For this RQ, what is the *Population*?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Households", 
 		                  "Households in Chile",
                       answer = "Households in Santiago",
                       "Solar technologies") )}`
 2. The study will be *externally valid* if:  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "the sample is representative of all households in the world",
 		                  "the sample is representative of all solar technologies",
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Self-selecting", 
                       "Systematic",
                       "Convenience") )}`
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. What is the *best* description of this sampling method?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Multi-stage", 
                       "Systematic",
                       "Stratified") )}`
 5.  Suppose the researchers stood outside a busy shopping centre, and surveyed every ninth person who entered. What is the *best* description of this sampling method?  
-`r if( knitr::is_html_output() ) {mcq( c(
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Systematic", 
                       "Simple random sample",
-		      "Stratified",
+		                  "Stratified",
                       answer = "Convenience") )}`
 		      
 		      
@@ -68,17 +68,40 @@ Consider this (qualitative) RQ:
 
 
 
-```{block2, type="fold"}
+`r webexercises::hide()`
 1. The RQ states that only households in Santiago will be studied.
 1. External validity means that the sample represents the intended population (i.e., households in Santiago).
 1. Since people only return the survey if they *want* to, this is self-selecting.
 1. There are multiple stages of *random* selection, so this is multi-stage.
 1. This is convenience sampling, since the researchers will only obtain people who are there at the time the researchers are there (at their *convenience*).  
    Taking every *ninth* person does not make the sample a random (systematic) sample, but I suppose it helps make the sample more representative. 
+`r webexercises::unhide()`
 
-```
+**Progress:** `r webexercises::total_correct()`
 
-		      
+
+
+
+## Study design {#StudyDesign}
+
+A student group was studying this RQ (which is **not** appropriate for the Project):
+
+> Among Australians, is the median serum cholesterol concentration different for smokers and non-smokers?
+
+The students gave the following information about their study.
+Explain **why** each of these statements is **incorrect**.
+
+1. "The design is observational, as we cannot determine each person's serum cholesterol."
+2. "The Outcome is '*the median serum cholesterol levels for smokers and non-smokers*'."
+3. "The study is not externally valid, as the results may not apply to all people in the world."
+4. "The response variable is *serum cholesterol*."
+5. "In this experiment, the population is '*Australians*'."
+6. "The data file will have two columns: One for smokers, and one for non-smokers."
+7. "'*Whether or not the person's owns a cat*' is likely to be a confounding variable."
+8. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
+
+
+
 ## Language {#LanguageReport}
 
 
@@ -231,9 +254,9 @@ Your tutor will have information.
 <!-- Documentation tool?? -->
 
 
-```{block2, type="rmdtip"}
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 This activity is very important for your Project.
-```
+:::
 
 
 ## Study design features {#StudyFeatures}

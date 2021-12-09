@@ -1,11 +1,9 @@
 output_dir: _book
 new_session: yes
 before_chapter_script:
-- R/SixSteps.R
 - R/setup.R
 - R/NormalDistributions.R
 - R/webex.R
-- scripts/webex.R
 clean:
 - packages.bib
 - bookdown.bbl
