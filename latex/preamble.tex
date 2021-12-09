@@ -129,56 +129,13 @@
   
   
   
-
+%%% Objectives boxes
 \newtcolorbox{objectivescolourbox}{
   colback=Turquoise,
   colframe=Cerulean,
   coltext=black,
   boxsep=5pt,
   arc=4pt}
-  
-\newtcolorbox{tipcolourbox}{
-  colback=GreenYellow,
-  colframe=SeaGreen,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-  
-\newtcolorbox{videosolutionscolourbox}{
-  colback=Tan,
-  colframe=Brown,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newtcolorbox{drillcolourbox}{
-  colback=Tan,
-  colframe=Brown,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-    
-\newtcolorbox{importantcolourbox}{
-  colback=Apricot,
-  colframe=Red,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newtcolorbox{preclasscolourbox}{
-  colback=Tan,
-  colframe=Brown,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newtcolorbox{blackbox}{
-  colback=gray,
-  colframe=orange,
-  coltext=white,
-  boxsep=5pt,
-  arc=4pt}
-  
-  
-  
-  
 \newenvironment{objectivesBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
@@ -195,11 +152,19 @@
   {
   \end{objectivescolourbox}
   \end{itemize}
-  }  
+  } 
   
   
+% Tip boxes
+\newtcolorbox{tipcolourbox}{
+  colback=GreenYellow,
+  colframe=SeaGreen,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+
   
-  \newenvironment{tipBox}[1]
+\newenvironment{tipBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -218,7 +183,16 @@
   }  
   
   
-  \newenvironment{videoSolutionBox}[1]
+  
+% VideoSolution box
+\newtcolorbox{videosolutionscolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+
+\newenvironment{videoSolutionBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -236,9 +210,16 @@
   \end{itemize}
   }  
   
+    
   
-  
- \newenvironment{drillBox}[1]
+% Drill box
+\newtcolorbox{drillcolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{drillBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -256,7 +237,15 @@
   \end{itemize}
   }  
   
-  \newenvironment{importantBox}[1]
+  
+% Important Box
+\newtcolorbox{importantcolourbox}{
+  colback=Apricot,
+  colframe=Red,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{importantBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -273,8 +262,16 @@
   \end{importantcolourbox}
   \end{itemize}
   }  
-
-  \newenvironment{preClassBox}[1]
+  
+  
+% PreClass box
+\newtcolorbox{preclasscolourbox}{
+  colback=Tan,
+  colframe=Brown,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{preClassBox}[1]
   {
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -290,7 +287,18 @@
   {
   \end{preclasscolourbox}
   \end{itemize}
-  }  
+  } 
+
+  
+  
+  
+ 
+  
+  
+  
+  
+
+ 
   
   
   
@@ -304,10 +312,6 @@
   {\end{rmdblock}}
 
 
-
-
-
-\newenvironment{darkgraytext}{\color{textcolor}}{\ignorespacesafterend}
 
 
 % Redfine some existing environments
@@ -334,6 +338,7 @@
 %\newenvironment{fold}
 %  {\begin{rmdblock}{iconmonstr-idea-12-240}\vspace{-1em}\begin{darkgraytext}\footnotesize \textbf{Answer:}}
 %  {\end{darkgraytext}\end{rmdblock}}
+\newenvironment{darkgraytext}{\color{textcolor}}{\ignorespacesafterend}
 \newenvironment{fold}
   {\vspace{-6pt}\begin{rmdblockNOIMAGE}\begin{darkgraytext}\scriptsize \textbf{Answer:}}
   {\end{darkgraytext}\end{rmdblockNOIMAGE}}
