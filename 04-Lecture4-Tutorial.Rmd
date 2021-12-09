@@ -242,13 +242,10 @@ collected the data shown below.
 
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "35%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg" width="200px">
+</div>
+
 
 
 
@@ -376,13 +373,10 @@ boxplot(Width ~ Location,
 
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg" width="200px">
+</div>
+
 
 
 Bamboo is a fast-growing, strong grass useful for green building practices.
@@ -1002,13 +996,10 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-pixabay-264384.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
+</div>
+
 
 
 

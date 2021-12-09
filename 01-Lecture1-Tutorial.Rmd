@@ -101,13 +101,10 @@ What *type* of definition is this?
 ## Forming RQs {#FormingRQs}
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-photomix-company-104509.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/pexels-photomix-company-104509.jpg" width="200px">
+</div>
+
 
 
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
