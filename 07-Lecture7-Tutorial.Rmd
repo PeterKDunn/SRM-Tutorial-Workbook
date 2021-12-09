@@ -16,119 +16,6 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
-   
-## Concepts {#ConceptsMatches}
-
-
-
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-
-Claire and Jake were wondering about the mean number of matches in a box.
-The boxes contain this statement:
-
-> An average of 45 matches per box.
-
-They purchased a carton containing 25 boxes of matches,
-and Jake counted the number of matches in *one* of those 25 boxes.
-There was 44 matches.
-
-'Oh wow.  Just wow.' said Jake.
-'They lie.  There's only 44 in this box.'
-
-
-1. What is Jake's misunderstanding?
-2. Then, 
-   they counted the number of matches in *each* of the twenty-five boxes.  
-   
-   Claire found that the mean number of matches per box
-   was 44.9 matches,
-   and the standard deviation was $0.124$.  
-   
-   Jake notes that the mean is 44.9 matches per box, and says: 
-   'You can't have 0.9 of a match.  That's dumb.'
-   How would you respond?
-3. 'Wow!' said Jake.
-   'The claim is 45 matches per box on average, but the mean really is 44.9!
-   They're liars!  Liar, liar, pants on...'  
-   
-   What is Jake's misunderstanding?
-4. What two broad reasons could explain why the sample mean is *not* 45?
-5. 'Come on, Jake,' said Claire.
-   'As if the mean will be *exactly* 45 in a sample every single time.
-   Let's work out the confidence interval.'  
-   
-   Why does Claire think a CI is needed?
-   What will it tell them?
-6. What is an approximate 95% confidence interval for the mean for Claire's sample?
-7. 'Aha---I told you so!  They *are* absolutely lying!
-   Your confidence interval doesn't even include their mean of $45$!' said Jake.
-   'The manufacturer *must* be lying!'  
-   
-   Is Jake correct?  Why or why not?
-   What does the CI *mean*?
-8. In this scenario, what does $\bar{x}$ represent?  What is the *value* of $\bar{x}$?
-9. In this scenario, what does $\mu$ represent?  What is the *value* of $\mu$?
-
-
-
-
-
-## **Optional**: Sample size calculations {#RoomWidthCISampleSize}
-
-*(Answers are available in Sect. \@ref(Lecture7Answers))
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Shortly after metric units were introduced to Australia in 1977,
-a lecturer wondered how accurately students could estimate lengths using the 
-metric measurements [@data:hand:handbook].
-
-The aim of the study was to determine if, 
-on average,
-students could correctly guess the width of the hall (which was 13.1&nbsp;m).
-
-
-The 44 individual students' guesses had a standard deviation of $7.145$.
-Suppose the Professor wanted to try the study again with another groups of students,
-and wanted to estimate the population mean to within 0.5&nbsp;m.
-
-What size sample would Prof. Lewis need?
-	
-
-
-
-
-## **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
-
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture7Answers))*'
-}`
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect7-Q6.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1290972273872030009/embed" width="1088" height="375" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-
 
 
 ## Quick revision {#QuickRevision-Tutorial9}
@@ -275,7 +162,70 @@ knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
 
    
    
+## Concepts {#ConceptsMatches}
+
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+Claire and Jake were wondering about the mean number of matches in a box.
+The boxes contain this statement:
+
+> An average of 45 matches per box.
+
+They purchased a carton containing 25 boxes of matches,
+and Jake counted the number of matches in *one* of those 25 boxes.
+There was 44 matches.
+
+'Oh wow.  Just wow.' said Jake.
+'They lie.  There's only 44 in this box.'
+
+
+1. What is Jake's misunderstanding?
+2. Then, 
+   they counted the number of matches in *each* of the twenty-five boxes.  
    
+   Claire found that the mean number of matches per box
+   was 44.9 matches,
+   and the standard deviation was $0.124$.  
+   
+   Jake notes that the mean is 44.9 matches per box, and says: 
+   'You can't have 0.9 of a match.  That's dumb.'
+   How would you respond?
+3. 'Wow!' said Jake.
+   'The claim is 45 matches per box on average, but the mean really is 44.9!
+   They're liars!  Liar, liar, pants on...'  
+   
+   What is Jake's misunderstanding?
+4. What two broad reasons could explain why the sample mean is *not* 45?
+5. 'Come on, Jake,' said Claire.
+   'As if the mean will be *exactly* 45 in a sample every single time.
+   Let's work out the confidence interval.'  
+   
+   Why does Claire think a CI is needed?
+   What will it tell them?
+6. What is an approximate 95% confidence interval for the mean for Claire's sample?
+7. 'Aha---I told you so!  They *are* absolutely lying!
+   Your confidence interval doesn't even include their mean of $45$!' said Jake.
+   'The manufacturer *must* be lying!'  
+   
+   Is Jake correct?  Why or why not?
+   What does the CI *mean*?
+8. In this scenario, what does $\bar{x}$ represent?  What is the *value* of $\bar{x}$?
+9. In this scenario, what does $\mu$ represent?  What is the *value* of $\mu$?
+
+
+
+
    
    
 ## Odds and software output {#OddsSoftware}
@@ -533,6 +483,59 @@ if( knitr::is_html_output() ) {
 
 
 
+
+
+## **Optional**: Sample size calculations {#RoomWidthCISampleSize}
+
+*(Answers are available in Sect. \@ref(Lecture7Answers))
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+Shortly after metric units were introduced to Australia in 1977,
+a lecturer wondered how accurately students could estimate lengths using the 
+metric measurements [@data:hand:handbook].
+
+The aim of the study was to determine if, 
+on average,
+students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+
+
+The 44 individual students' guesses had a standard deviation of $7.145$.
+Suppose the Professor wanted to try the study again with another groups of students,
+and wanted to estimate the population mean to within 0.5&nbsp;m.
+
+What size sample would Prof. Lewis need?
+	
+
+
+
+
+## **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
+
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture7Answers))*'
+}`
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect7-Q6.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1290972273872030009/embed" width="1088" height="375" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+
+
+
+   
+   
 
 ## **Optional**: CI for differences between means {#PizzaHT}
 

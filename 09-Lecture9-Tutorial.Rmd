@@ -285,115 +285,6 @@ hist( PS$DiameterInches[PS$Store=="EagleBoys"],
 
 
 
-## **Optional**: Tests for one mean {#RoomWidthTest}
-
-*(Answers are available in Sect. \@ref(Lecture9Answers))*
-	
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Shortly after metric units were introduced to Australia in 1977,
-a lecturer wondered how accurately students could estimate lengths using the 
-metric measurements [@data:hand:handbook].
-
-The aim of the study was to determine if, 
-on average,
-students could correctly guess the width of the hall (which was 13.1&nbsp;m).
-
-To answer the RQ,
-a group of $n=44$ students were asked to estimate the width of the lecture hall
-to the nearest metre
-(data provided by Prof. Lewis).
-The data are given in Table \@ref(tab:GuessesHT).  
-   
-The data were entered into software,
-producing the output in
-Fig. \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi),
-and
-Fig. \@ref(fig:LengthsHallOutput1) (SPSS).
-
-
-```{r GuessesHT, echo=FALSE}
-GuessTab <- array( dim=c(3, 15) )
-
-GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
-GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
-GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
-
-if( knitr::is_latex_output() ) {
-  kable(GuessTab,
-      format="latex",
-      caption="Guess of the width of a room 13.1 metres wide",
-      booktabs=TRUE,
-      align="r") %>%
-  kable_styling(full_width=FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(GuessTab,
-      format="html",
-      caption="Guess of the width of a room 13.1 metres wide",
-      booktabs=TRUE,
-      align="r") %>%
-  kable_styling(full_width=FALSE)
-}
-```
-
-1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? Explain the difference in the meaning of the two terms.
-2. Perform a hypothesis test to determine if the mean guess is the actual distance of 13.1&nbsp;m.
-   (The CI was computed in Sect.&nbsp;\@ref(RoomWidthCI).)
-3. Is it reasonable to assume the conditions are satisfied? 
-   The histogram in
-   Fig.&nbsp;\@ref(fig:LengthsHallHistoHT)
-   may (or may not) help.
-4. Do you think students were very good at estimating the width of the hall using metric units?
-
-```{r echo=FALSE}
-GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13, 
-13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 17, 
-17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
-```
-
-```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
-hist( GuessM, 
-      las=1,
-      main="Histogram of guesses",
-      xlab="Guess (in metres)",
-      col=plot.colour)
-```
-
-```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
-include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
-                    "SoftwareImages/LengthsHallOneSampleMetres-jamovi.png") )
-```
-
-
-
-```{r LengthsHallOutput1, echo=FALSE, fig.show="hold", fig.cap="SPSS numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("80%", "80%")}
-include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
-                    "SoftwareImages/LengthsHallOneSampleMetres.png") )
-```
-
-
-
-
-
-
-
-## **Optional**: General ideas {#GeneralIdeas2}
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture9Answers))*'
-}`
-<iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect8-Q6.Rmd'}
-```
-
-
-
 
 ## $P$-values {#PValues}
 
@@ -509,6 +400,116 @@ Your tutor *may* decide to do this activity.
       
 	
 	
+	
+## **Optional**: Tests for one mean {#RoomWidthTest}
+
+*(Answers are available in Sect. \@ref(Lecture9Answers))*
+	
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+Shortly after metric units were introduced to Australia in 1977,
+a lecturer wondered how accurately students could estimate lengths using the 
+metric measurements [@data:hand:handbook].
+
+The aim of the study was to determine if, 
+on average,
+students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+
+To answer the RQ,
+a group of $n=44$ students were asked to estimate the width of the lecture hall
+to the nearest metre
+(data provided by Prof. Lewis).
+The data are given in Table \@ref(tab:GuessesHT).  
+   
+The data were entered into software,
+producing the output in
+Fig. \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi),
+and
+Fig. \@ref(fig:LengthsHallOutput1) (SPSS).
+
+
+```{r GuessesHT, echo=FALSE}
+GuessTab <- array( dim=c(3, 15) )
+
+GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
+GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
+GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
+
+if( knitr::is_latex_output() ) {
+  kable(GuessTab,
+      format="latex",
+      caption="Guess of the width of a room 13.1 metres wide",
+      booktabs=TRUE,
+      align="r") %>%
+  kable_styling(full_width=FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(GuessTab,
+      format="html",
+      caption="Guess of the width of a room 13.1 metres wide",
+      booktabs=TRUE,
+      align="r") %>%
+  kable_styling(full_width=FALSE)
+}
+```
+
+1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? Explain the difference in the meaning of the two terms.
+2. Perform a hypothesis test to determine if the mean guess is the actual distance of 13.1&nbsp;m.
+   (The CI was computed in Sect.&nbsp;\@ref(RoomWidthCI).)
+3. Is it reasonable to assume the conditions are satisfied? 
+   The histogram in
+   Fig.&nbsp;\@ref(fig:LengthsHallHistoHT)
+   may (or may not) help.
+4. Do you think students were very good at estimating the width of the hall using metric units?
+
+```{r echo=FALSE}
+GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13, 
+13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 17, 
+17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
+```
+
+```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
+hist( GuessM, 
+      las=1,
+      main="Histogram of guesses",
+      xlab="Guess (in metres)",
+      col=plot.colour)
+```
+
+```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres-jamovi.png") )
+```
+
+
+
+```{r LengthsHallOutput1, echo=FALSE, fig.show="hold", fig.cap="SPSS numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("80%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres.png") )
+```
+
+
+
+
+
+
+
+## **Optional**: General ideas {#GeneralIdeas2}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture9Answers))*'
+}`
+<iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect8-Q6.Rmd'}
+```
+
+
+
 
 
 
