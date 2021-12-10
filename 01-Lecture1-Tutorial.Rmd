@@ -78,6 +78,7 @@ What *type* of definition is this?
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. We need more information. 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
+1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured.
 `r webexercises::unhide()`
 
 **Progress:** `r webexercises::total_correct()`
@@ -101,13 +102,10 @@ What *type* of definition is this?
 ## Forming RQs {#FormingRQs}
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-photomix-company-104509.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/pexels-photomix-company-104509.jpg" width="200px">
+</div>
+
 
 
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
@@ -161,9 +159,9 @@ the cafe owner decides to conduct a study of his customers.
 
 
 
-## Understanding the terminology {#UnderstandingTerminology1}
+## Terminology {#UnderstandingTerminology1}
 
-Explain the fundamental differences between the following pairs of often-confused terms
+Explain the *fundamental differences* between the following pairs of often-confused terms
 (Table \@ref(tab:SimilarTerms)).
 
 ```{r SimilarTerms, echo=FALSE}
@@ -221,7 +219,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## Understanding the terminology {#UnderstandingTerminology2}
+## Terminology {#UnderstandingTerminology2}
 
 <iframe src="https://usc.h5p.com/content/1291014806925066159/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

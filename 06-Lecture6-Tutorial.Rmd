@@ -51,6 +51,86 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
    
 
 
+
+
+## Standard error for proportions {#SEproportions}
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q3.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1291039013241820579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+
+
+
+## CIs for one proportion {#CIPropBVM}
+
+Endotracheal intubation (ETI)
+is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
+
+ETI is widely used for airway management of children in the out-of-hospital setting, 
+but for many years little evidence was available on the effect of using ETI.
+
+A study
+examined the use of ETI
+for airway management of children in the out-of-hospital 
+setting [@data:Gausche200:Endotracheal].
+
+```{r Gausche2000Abstract, echo=FALSE, fig.cap="Part of the Abstract from Gausche et al. (2000)", fig.align="center", out.width='70%'}
+knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
+```
+
+
+1. For the **BVM sample**,
+   123 out of the 404 patients survived.
+   For those receiving BVM,
+   compute the sample *odds* of a patient who survived.
+2. For the **BVM sample**,
+   123 out of the 404 patients survived.
+   For those receiving BVM,
+   compute an estimate of the population *proportion* of patients who survive.
+3. Explain the difference between the meaning of the two above calculations.
+4. In another sample of 404 patients who received the BVM treatment,
+   would we expect to find *exactly* 123 surviving?
+   Why or why not?
+5. Compute the *standard error*,
+   which indicates the sampling variability in the estimate of $p$.
+   Explain what is meant by the term 'sampling variation' in this context.
+6. Every time a new sample is chosen,
+   the sample will likely yield a different value for $\hat{p}$.
+   Sketch the distribution that shows how much the value of $\hat{p}$ is likely to change
+   from one sample to the next.
+7. Compute an approximate 95% confidence interval for the population proportion based on the sample proportion.
+8. Write a sentence communicating this confidence interval.
+9. Confirm that the conditions necessary for this calculation to be statistically valid are met.
+10. If the researchers wished to estimate the true survival proportion
+    to within give-or-take 0.01 with 95% confidence,
+    would a larger or smaller sample be needed?
+    Explain.
+11. If the researchers wished to estimate the true survival proportion
+    to within give-or-take 0.01 with 95% confidence,
+    estimate the size sample that would be needed.
+12. For the ETI sample,
+    110 out of 416 patients survived.
+    Use this information to construct a two-way table of treatment against survival.
+13. Select a graphical summary that could be used to display the information.
+    Sketch this display.
+14. From this table,
+    compute the odds ratio of a BVM patient *not* surviving compared to an ETI patient *not* surviving.
+    Interpret this value.
+15. What did you learn about using ETI on children?
+    Would you prefer to recommend ETI or BVM on children?
+    What other information would you need to help make your decision?
+   
+   
+   
 ## CIs for one mean {#CIPizzas}
 
 
@@ -409,86 +489,6 @@ Your tutor *may* decide to do this activity.
 
 
 
-
-## Standard error for proportions {#SEproportions}
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q3.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1291039013241820579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-
-
-
-## Confidence intervals for one proportion {#CIPropBVM}
-
-Endotracheal intubation (ETI)
-is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
-
-ETI is widely used for airway management of children in the out-of-hospital setting, 
-but for many years little evidence was available on the effect of using ETI.
-
-A study
-examined the use of ETI
-for airway management of children in the out-of-hospital 
-setting [@data:Gausche200:Endotracheal].
-
-```{r Gausche2000Abstract, echo=FALSE, fig.cap="Part of the Abstract from Gausche et al. (2000)", fig.align="center", out.width='70%'}
-knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
-```
-
-
-1. For the **BVM sample**,
-   123 out of the 404 patients survived.
-   For those receiving BVM,
-   compute the sample *odds* of a patient who survived.
-2. For the **BVM sample**,
-   123 out of the 404 patients survived.
-   For those receiving BVM,
-   compute an estimate of the population *proportion* of patients who survive.
-3. Explain the difference between the meaning of the two above calculations.
-4. In another sample of 404 patients who received the BVM treatment,
-   would we expect to find *exactly* 123 surviving?
-   Why or why not?
-5. Compute the *standard error*,
-   which indicates the sampling variability in the estimate of $p$.
-   Explain what is meant by the term 'sampling variation' in this context.
-6. Every time a new sample is chosen,
-   the sample will likely yield a different value for $\hat{p}$.
-   Sketch the distribution that shows how much the value of $\hat{p}$ is likely to change
-   from one sample to the next.
-7. Compute an approximate 95% confidence interval for the population proportion based on the sample proportion.
-8. Write a sentence communicating this confidence interval.
-9. Confirm that the conditions necessary for this calculation to be statistically valid are met.
-10. If the researchers wished to estimate the true survival proportion
-    to within give-or-take 0.01 with 95% confidence,
-    would a larger or smaller sample be needed?
-    Explain.
-11. If the researchers wished to estimate the true survival proportion
-    to within give-or-take 0.01 with 95% confidence,
-    estimate the size sample that would be needed.
-12. For the ETI sample,
-    110 out of 416 patients survived.
-    Use this information to construct a two-way table of treatment against survival.
-13. Select a graphical summary that could be used to display the information.
-    Sketch this display.
-14. From this table,
-    compute the odds ratio of a BVM patient *not* surviving compared to an ETI patient *not* surviving.
-    Interpret this value.
-15. What did you learn about using ETI on children?
-    Would you prefer to recommend ETI or BVM on children?
-    What other information would you need to help make your decision?
-   
-   
-   
-
 ## **Optional**: CI for one mean {#RoomWidthCI}
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*
@@ -579,7 +579,7 @@ include_graphics("SoftwareImages/LengthsHallOutput.png")
 
 
 
-## **Optional**: Confidence intervals for one proportion {#HMMaturing}
+## **Optional**: CI for one proportion {#HMMaturing}
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*
 

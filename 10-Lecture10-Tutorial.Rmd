@@ -59,7 +59,7 @@ The mean time from scene arrival to starting the first advanced airway procedure
 
 
 
-## Hypothesis tests for two means {#HT-TwoMeans-A}
+## Tests for two means {#HT-TwoMeans-A}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
@@ -442,6 +442,22 @@ knitr::include_graphics( c("SoftwareImages/Singh2016-ChiSq-SPSS.png",
 
 
 
+
+
+## Identify the correct test {#IdentifyCorrectAnalyses}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture10Answers))*'
+}`
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q8.Rmd'}
+```
+
+<iframe src="https://usc.h5p.com/content/1290972415580046319/embed" width="1088" height="511" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
 	
 
 ## **Optional**: Two-way tables {#TablesHepC}
@@ -572,19 +588,6 @@ if( knitr::is_html_output() ) {
    compute the odds ratio of having Hep. C, comparing students with a tattoo to those without a tattoo.
    Carefully explain what this value means.
 
-
-
-
-## **Optional**: Identify the correct analyses {#IdentifyCorrectAnalyses}
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture10Answers))*'
-}`
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q8.Rmd'}
-```
-
-<iframe src="https://usc.h5p.com/content/1290972415580046319/embed" width="1088" height="511" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 

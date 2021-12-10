@@ -143,15 +143,15 @@ if( knitr::is_html_output() ) {
 
 
 
-<iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 **NOTE**: The first bar of the histogram is not necessarily at zero; 
 it is the **shape** of the histogram that is of interest here:
 right skewed, left skewed, symmetric, etc.
 :::
+
+<iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q1.Rmd'}

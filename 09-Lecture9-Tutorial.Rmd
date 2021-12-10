@@ -19,7 +19,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
-## Hypothesis tests for one mean {#HTOneMean-A}
+## Tests for one mean {#HTOneMean-A}
 
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
@@ -392,7 +392,7 @@ knitr::include_graphics("ArticleImages/Guirao2017-Hist.png")
 
 
 
-## Hypothesis test for the ruler-drop {#PlanStudy8}
+## Test for the ruler-drop {#PlanStudy8}
 
 Your tutor *may* decide to do this activity.
 

@@ -33,11 +33,13 @@ knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}',
 # Preface {-}
 
 <!-- TO RENDER -->
+<!-- library(bookdown) -->
 <!-- # render_book("index.Rmd") -->
 <!-- # render_book("index.Rmd", "bookdown::pdf_book") -->
 <!-- # render_book("index.Rmd"); render_book("index.Rmd", "bookdown::pdf_book") -->
 
 <!--  TO PUBLISH ON BOOKDOWN:  -->
+<!-- library(bookdown) -->
 <!-- publish_book(name="SRM-tutorials") -->
 
 

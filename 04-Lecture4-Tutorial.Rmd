@@ -13,7 +13,7 @@
 * Using the **Statistics Mode** of your calculator.
 :::
 
-In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
 
 * [Chapter 13 (Numerical summaries: quantitative data)](https://bookdown.org/pkaldunn/Book/NumericalQuant.html).
 * [Chapter 14 (Numerical summaries: qualitative data)](https://bookdown.org/pkaldunn/Book/NumericalQual.html).
@@ -49,7 +49,7 @@ together with the calculator make and model; for example:
 
 
 
-## Quick revision 1 {#QuickRevision-Tutorial4}
+## Quick revision {#QuickRevision-Tutorial4}
 
 ```{r echo = FALSE}
 OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L, 
@@ -90,14 +90,14 @@ OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L,
 ```
 
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-school-26-240.png}"}
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop]
-had $n = 60$ adults undergo a sleep study.
+had $n = 60$ adults (27 females; 33 males) undergo a sleep study.
 `r if( knitr::is_html_output() ) {
-  'The data are shown in Fig. \\@ref(fig:OSADT).'
+  'The data are shown in Fig. \\@ref(fig:OSADT2).'
 } else
 {
   'Part of the data are shown in Table \\@ref(tab:OSAKable2).'
@@ -136,37 +136,55 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. What would **not** be an appropriate numerical summary for the age of the participants?  
+
+1. What would be an **inappropriate** numerical summary for the age of the participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Median", 
 		                  "Mean",
                       answer = "Odds",
                       "Standard deviation") )}`
-1. What might be an appropriate way to numerically describe the amount of *variation* in the ages of participants?  
+1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Standard deviation", 
 		                  "Median",
                       "Mean",
                       "Odds") )}`
-1. What might be an appropriate way to numerically describe the average REI of participants?  
+1. What might be an **appropriate** way to numerically describe the average REI of participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Standard deviation", 
 		                  answer = "Median",
                       "Odds",
                       "Percentages") )}`
-1. What might be an appropriate way to numerically describe the gender of the participants?  
+1. What might be an **appropriate** way to numerically describe the gender of the participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Standard deviation", 
 		                  "Median",
                       "IQR",
                       answer = "Percentages") )}`
-
+1. In the sample, what **percentage** of individuals are females?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "0.45", 
+		                  answer = "45%",
+                      "0.55",
+                      "55%",
+                      "1.22",
+                      "0.82") )}`
+1. In the sample, what are the **odds** that an individual is female?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "0.45", 
+		                  "45%",
+                      "0.55",
+                      "55%",
+                      "1.22",
+                      answer = "0.82") )}`
 
 `r webexercises::hide()`
 1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
 1. Variation is measured using standard deviation or IQR.
 1. The average value (of a quantitative variable) can be described using a mean or a median.
 1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
+1. $27/60\times 100 = 45$%.
+1. $27/33 = 0.8181...$.
 `r webexercises::unhide()`
 
 **Progress:** `r webexercises::total_correct()`
@@ -177,15 +195,10 @@ if( knitr::is_html_output() ) {
 
 
 
-## Quick revision 2 {#QuickRevision-Tutorial5}
+## Percentages and odds {#PercentOddsStroke}
 
-
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We recommend trying these *Quick revision* questions **before** your tutorial.
-:::
-
-A study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency]
-collected the data shown below.
+In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency],
+the data shown below were collected.
 
 | Sex of patients | Dispatcher suspected stroke | Dispatcher missed stroke
 |----------------:+:---------------------------:+:-------------------------:
@@ -225,16 +238,6 @@ collected the data shown below.
                       answer = "1.6") )}`
 
 
-`r webexercises::hide()`
-1. $43\div (43 + 67) \times 100 = 39.1$%. 
-1. $39\div (97 + 39) \times 100 = 28.7$%.
-1. $43\div 67 = 0.642$.
-1. $39\div 97 = 0.402$.
-1. $0.642 \div 0.402 = 1.6$.
-`r webexercises::unhide()`
-
-**Progress:** `r webexercises::total_correct()`
-
 
 
 
@@ -242,13 +245,10 @@ collected the data shown below.
 
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "35%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/jeffrey-hamilton-JtVyK2Sej2I-unsplash.jpg" width="200px">
+</div>
+
 
 
 
@@ -371,18 +371,84 @@ boxplot(Width ~ Location,
 
 
 
+## Which summary measures to use {#WhichSummaryToUse}
+
+A study of different orthoses (orthotic devices)
+in children with 
+cerebral palsy [@data:Swinnen2017:orthoses]
+produced the demographic data of the participants.
+
+[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
+is the 
+'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
+which is:
+
+> ... a 5 level clinical classification system that describes the gross motor function 
+> of people with cerebral palsy on the basis of self-initiated movement abilities.
+>
+> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
+
+
+`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
+
+
+`r if (knitr::is_html_output()) '<!--'`
+
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
+knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
+```
+`r if (knitr::is_html_output()) '-->'`
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
+```
+
+
+
+
+<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+<!-- 1. What are the variables? How many variables are there? -->
+<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
+<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
+<!-- 1. Explain which *numerical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually. -->
+<!-- 2. Explain which *graphical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually.   -->
+
+<!--  	 (You don't have to *produce* the summaries,  -->
+<!--  	 just explain which would be appropriate. -->
+<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
+<!-- 3. What graphs would you use to display the *relationship* -->
+<!--    between Gender and Height?   -->
+
+<!--  	 What graphs would you use to display the *relationship* -->
+<!--    between Gender and GMFCS? -->
+
+<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
+<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
+<!-- ``` -->
+
+
+
+
+
 ## Using the calculator statistics mode {#StatsMode}
 
 
 
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg" width="200px">
+</div>
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
 
 
 Bamboo is a fast-growing, strong grass useful for green building practices.
@@ -501,514 +567,16 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 
 
 
-## Numerical summary for ruler-drop data {#PlanStudy4}
-
-Your tutor will have information.
-
-
-
-
-
-
-
-
-
-
-
-
-## **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-Batteries are expensive,
-so comparing the performance of expensive and cheap batteries is helpful.
-
-A test on the lifetime of batteries [@data:ALDIBatteryTesting]
-compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
-
-The times (in hours) for nine Energizer Max batteries and 
-nine ALDI brand batteries (Ultracell)
-are shown in Table \@ref(tab:BattTable).
-
-```{r BattTable, echo=FALSE}
-BattTab <- array( "", dim=c(2, 9))
-
-BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
-BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
-
-rownames(BattTab) <- c("Energizer", 
-                       "Ultracell")
-
-if( knitr::is_latex_output() ) {
-  kable(BattTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(BattTab,
-      format = "html",
-      booktab = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
-`r if( knitr::is_html_output() ) {'The type of research study is  '}`
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`  
-   Justify your answer.
-
-2. What are the *units of observation* and *units of analysis*?
-3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
-   a. Compute the mean of the *Energizer* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
-   a. Compute the standard deviation of the *Energizer* batteries (to three decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
-   a. Compute the mean of the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
-   a. Compute the standard deviation of the *Ultracell* batteries (to three decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
-
-4. Explain what these calculations tell you.
-5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
-   a. Compute the median of the *Energizer* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
-   b. Compute the median of the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
-
-6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
-7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
-   Explain.
-8. Decide if outliers exist in the data. Explain.
-	 If so, identify them.
-9. Explain whether the cost of the batteries would also be important information to know. (See below.)
-10. What advice would you give about buying batteries based on these data?
-
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-The cost of the batteries,
-at the time of publication (05 September 2012),
-was: 
-  
-* *Ultracell*: A four-pack cost $2.49 from ALDI online
-* *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*;
-the normal price was $8.01 for the four-pack.
-:::
-
-
-
-
-## **Optional**: Interpreting histograms {#InterpretHistogram}
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-
-To assess various lung diseases,
-many methods are available
-(including using a spirometer and the 6-minute walk test).
-
-The fatigue assessment scale (FAS)
-is one way to measure the fatigue of the patient.
-(A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
-
-The histogram in 
-Fig. \@ref(fig:Baughman2007-HistogramFig2)
-comes from a study [@data:Baughman2007:SixMinuteWalk]
-examining $n=142$ sarcoidosis patients using the FAS.
-
-1. Critique this histogram. Identify ways to improve the histogram.
-2. Describe this histogram in words: what does it tell you?
-3. Draw a rough boxplot that corresponds approximately to the histogram,
-   explaining your reasoning.
-
-
-```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.cap="The histogram of FAS scores for patients", out.width='55%'}
-include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
-```
-
-
-
-
-## **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-Environmentally-friendly buildings are often assumed to
-have a better indoor environmental quality
-(when occupants rate the comfort) than conventional buildings;
-in turn,
-this is assumed to have a positive impact on productivity.
-
-One group of researchers decided to test this assertion.
-Figure \@ref(fig:Paul2008Table1)
-is taken from a study of office temperatures [@data:Paul2008:Comfort]
-in an environmentally-friendly building at Charles Sturt University.
-
-Operative temperatures were measured in three offices
-between 8am to 6pm during four weeks near the end of summer;
-Office A is located on the ground floor,
-while Offices B and C are located on the top floor.
-The building is not air conditioned.
-
-1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
-2. In words, describe the relationship.
-3. Do the offices appear to provide a 'comfortable' temperature?
-
-```{r Paul2008Table1, echo=FALSE, fig.align="center", fig.cap="Table 1 from Paul et al. (2008)", out.width='75%'}
-include_graphics("ArticleImages/Paul2008Table1.png")
-```
-
-
-
-
-
-
-
-
-
-## **Optional**: Selecting the correct graph {#SelectGraphs1}
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture4Answers))*'
-}`
-
-<iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q9.Rmd'}
-```
-
-
-## **Drills**: computational exercises {#Chapter4Drills}
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct,
-and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
-
-If you need help, please **ask**.
-:::
-
-1. The data in Table \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
-
-```{r AISTable, echo=FALSE}
-library(GLMsData)
-data(AIS)
-
-Hts <- subset(AIS$Ht, 
-              AIS$Sex == "F" & AIS$Sport == "Tennis")
-
-AISTab <- array( "", 
-                 dim = c(1, length(Hts)) )
-
-AISTab[1, ] <- Hts
-AIScap <- "The heights (in metres) of females tennis players at the AIS"
-
-if( knitr::is_latex_output() ) {
-  kable(AISTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = AIScap) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(AISTab,
-      format = "html",
-      booktab = TRUE,
-      caption = AIScap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-
-```{r echo=FALSE}
-set.seed(2021)
-library(GLMsData)
-data(polythene)
-
-len <- 8
-PT <- polythene$Polythene
-PT <- PT[ sample( 1:length(PT), len) ]
-```
-
-2. The data in Table \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
-
-```{r PolyTable, echo=FALSE}
-
-PTTab <- array( "", 
-                dim = c(1, length(PT) ) )
-
-PTTab[1, ] <- PT
-PTcap <- "The amount of polythene (in tonnes) used by a sample of UK cosmetic companies"
-
-if( knitr::is_latex_output() ) {
-  kable(PTTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = PTcap) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(PTTab,
-      format = "html",
-      booktab = TRUE,
-      caption = PTcap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-3. The data in Table \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
-
-```{r AISTable2, echo=FALSE}
-library(GLMsData)
-data(AIS)
-
-PBF <- subset(AIS$PBF, 
-              AIS$Sex == "F" & AIS$Sport == "Swim")
-
-AISTab2 <- array( "", 
-                  dim = c(1, length(PBF)) )
-
-AISTab2[1, ] <- PBF
-AIScap2 <- "The percentage body fat of females swimmers players at the AIS"
-
-if( knitr::is_latex_output() ) {
-  kable(AISTab2,
-      format = "latex",
-      booktab = TRUE,
-      caption = AIScap2) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(AISTab2,
-      format = "html",
-      booktab = TRUE,
-      caption = AIScap2) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-
-## Percentages and odds {#PercentagesOdds}
-
-Endotracheal intubation (ETI)
-is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
-
-ETI is widely used for airway management of children in the out-of-hospital setting, 
-but for many years little evidence was available on the effect of using ETI.
-
-Table \@ref(tab:AirwayTable)
-comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation
-on children.
-
-Use the table to answer the questions that follow.
-
-
-
-```{r AirwayTable, echo=FALSE}
-Airways <- array( dim = c(8, 4))
-
-colnames(Airways) <- c("Number", 
-                       "%", 
-                       "Number", 
-                       "%")
-rownames(Airways) <- c("Normal, no change from baseline",
-                       "No change from baseline",
-                       "Mild disability",
-                       "Moderate disability",
-                       "Severe disability",
-                       "Coma/vegetative",
-                       "Death",
-                       "Total")
-
-Airways[1, ] <- c("39", "(10%)", "33", "(8%)")
-Airways[2, ] <- c("33", "(8%)", "25", "(6%)")
-Airways[3, ] <- c("20", "(5%)", "27", "(6%)")
-Airways[4, ] <- c("6", "(1%)", "7", "(2%)")
-Airways[5, ] <- c("10", "(2%)", "6", "(1%)")
-Airways[6, ] <- c("15", "(4%)", "12", "(3%)")
-Airways[7, ] <- c("281", "(70%)", "306", "(74%)")
-Airways[8, ] <- c("404", "", "416", "")
-
-if( knitr::is_latex_output() ) {
-  kable(Airways,
-      format = "latex",
-      align = rep("r", 4),
-      booktabs = TRUE,
-      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-      caption = "Airway management data") %>%
-  add_header_above(header = c("  " = 1, 
-                              "BVM group " = 2, 
-                              " ETI group" = 2), 
-                   align = "c", 
-                   bold = TRUE  ) %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  row_spec(8, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(Airways,
-      format = "html",
-      align = rep("r", 4),
-      booktabs = TRUE,
-      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-      caption = "Airway management data") %>%
-  add_header_above(header = c("  " = 1, 
-                              "BVM group " = 2, 
-                              " ETI group" = 2), 
-                   align = "c", 
-                   bold = TRUE  ) %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  row_spec(8, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-
-```
-
-
-1. Among people treated with BVM ('ball valve mask'),
-   compute the *percentage* that died (to the nearest percent).  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
-
-2. Among the people treated with BVM,
-   what are the *odds* that
-   someone died?
-   Explain which one of the following calculations is correct,
-   and **explain what the other calculations compute,
-   and hence why they are wrong**.  
-`r if( knitr::is_html_output() ) {longmcq(
-    c(answer = "281/(404-281) = 2.28",
-               "(404-281)/404 = 0.304",
-               "281/404 = 0.696",
-               "(281+306) / ( 404+416) = 0.716",
-               "281/306 = 0.918"
-     ))}`
-
-3. Among people treated with ETI,
-   the *odds* that someone died is 2.78.
-   What does this mean?  
-`r if( knitr::is_html_output() ) {longmcq(
-  c(         "A patient treated with ETI has a 2.78% chance of dying.",
-             "2.78% of patients treated with ETI in the study died.",
-    answer = "For patients treated with ETI, about 278 die for every 100 that survive.",
-             "For patients treated with ETI, about 278 live for every 100 that die."
-  ))}`
-  
-4. How many times greater is the odds that a person treated with 
-   ETI died compared to the odds that a person treated 
-   with BVM died?  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol = 0.01, answer = 1.22)}`
-
-
-
-
-
-
-
-## Which summary measures to use {#WhichSummaryToUse}
-
-A study of different orthoses (orthotic devices)
-in children with 
-cerebral palsy [@data:Swinnen2017:orthoses]
-produced the demographic data of the participants.
-
-[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
-is the 
-'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
-which is:
-
-> ... a 5 level clinical classification system that describes the gross motor function 
-> of people with cerebral palsy on the basis of self-initiated movement abilities.
->
-> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
-
-
-`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
-
-
-`r if (knitr::is_html_output()) '<!--'`
-
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
-knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
-```
-`r if (knitr::is_html_output()) '-->'`
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
-```
-
-
-
-
-<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-<!-- 1. What are the variables? How many variables are there? -->
-<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
-<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
-<!-- 1. Explain which *numerical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually. -->
-<!-- 2. Explain which *graphical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually.   -->
-
-<!--  	 (You don't have to *produce* the summaries,  -->
-<!--  	 just explain which would be appropriate. -->
-<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
-<!-- 3. What graphs would you use to display the *relationship* -->
-<!--    between Gender and Height?   -->
-
-<!--  	 What graphs would you use to display the *relationship* -->
-<!--    between Gender and GMFCS? -->
-
-<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
-<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
-<!-- ``` -->
-
-
-
-
-
-
 
 ## Two-way tables {#TwoWayTables}
 
 
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-pixabay-264384.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
+</div>
+
 
 
 
@@ -1259,33 +827,105 @@ legend("top",
 
 
 
-## Odds {#Odds1}
+
+
+## Numerical summary for ruler-drop data {#PlanStudy4}
+
+Your tutor will have information.
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
+
+
+
+
+
+
+
+
+
+## **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
+
+*(Answers are available in Sect. \@ref(Lecture4Answers))*
+
+Batteries are expensive,
+so comparing the performance of expensive and cheap batteries is helpful.
+
+A test on the lifetime of batteries [@data:ALDIBatteryTesting]
+compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
+
+The times (in hours) for nine Energizer Max batteries and 
+nine ALDI brand batteries (Ultracell)
+are shown in Table \@ref(tab:BattTable).
+
+```{r BattTable, echo=FALSE}
+BattTab <- array( "", dim=c(2, 9))
+
+BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
+BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
+
+rownames(BattTab) <- c("Energizer", 
+                       "Ultracell")
+
+if( knitr::is_latex_output() ) {
+  kable(BattTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(BattTab,
+      format = "html",
+      booktab = TRUE,
+      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
 ```
 
 
-<iframe src="https://usc.h5p.com/content/1290968278235165709/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
+`r if( knitr::is_html_output() ) {'The type of research study is  '}`
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`  
+   Justify your answer.
 
+2. What are the *units of observation* and *units of analysis*?
+3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
+   a. Compute the mean of the *Energizer* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
+   a. Compute the standard deviation of the *Energizer* batteries (to three decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
+   a. Compute the mean of the *Ultracell* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
+   a. Compute the standard deviation of the *Ultracell* batteries (to three decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
 
+4. Explain what these calculations tell you.
+5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
+   a. Compute the median of the *Energizer* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
+   b. Compute the median of the *Ultracell* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
 
+6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
+7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
+   Explain.
+8. Decide if outliers exist in the data. Explain.
+	 If so, identify them.
+9. Explain whether the cost of the batteries would also be important information to know. (See below.)
+10. What advice would you give about buying batteries based on these data?
 
-
-##  **Optional**: Working with odds {#WorkingWithOdds}
-
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture5Answers))*'
-}`
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q6.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+The cost of the batteries,
+at the time of publication (05 September 2012),
+was: 
+  
+* *Ultracell*: A four-pack cost $2.49 from ALDI online
+* *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*;
+the normal price was $8.01 for the four-pack.
+:::
 
 
 
@@ -1322,6 +962,241 @@ Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had wor
 	 and those who did not.  
 	 
 	 Do you agree or disagree?
+
+
+
+
+## **Optional**: Percentages and odds {#PercentagesOdds}
+
+Endotracheal intubation (ETI)
+is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
+
+ETI is widely used for airway management of children in the out-of-hospital setting, 
+but for many years little evidence was available on the effect of using ETI.
+
+Table \@ref(tab:AirwayTable)
+comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation
+on children.
+
+Use the table to answer the questions that follow.
+
+
+
+```{r AirwayTable, echo=FALSE}
+Airways <- array( dim = c(8, 4))
+
+colnames(Airways) <- c("Number", 
+                       "%", 
+                       "Number", 
+                       "%")
+rownames(Airways) <- c("Normal, no change from baseline",
+                       "No change from baseline",
+                       "Mild disability",
+                       "Moderate disability",
+                       "Severe disability",
+                       "Coma/vegetative",
+                       "Death",
+                       "Total")
+
+Airways[1, ] <- c("39", "(10%)", "33", "(8%)")
+Airways[2, ] <- c("33", "(8%)", "25", "(6%)")
+Airways[3, ] <- c("20", "(5%)", "27", "(6%)")
+Airways[4, ] <- c("6", "(1%)", "7", "(2%)")
+Airways[5, ] <- c("10", "(2%)", "6", "(1%)")
+Airways[6, ] <- c("15", "(4%)", "12", "(3%)")
+Airways[7, ] <- c("281", "(70%)", "306", "(74%)")
+Airways[8, ] <- c("404", "", "416", "")
+
+if( knitr::is_latex_output() ) {
+  kable(Airways,
+      format = "latex",
+      align = rep("r", 4),
+      booktabs = TRUE,
+      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
+      caption = "Airway management data") %>%
+  add_header_above(header = c("  " = 1, 
+                              "BVM group " = 2, 
+                              " ETI group" = 2), 
+                   align = "c", 
+                   bold = TRUE  ) %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  row_spec(8, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(Airways,
+      format = "html",
+      align = rep("r", 4),
+      booktabs = TRUE,
+      linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
+      caption = "Airway management data") %>%
+  add_header_above(header = c("  " = 1, 
+                              "BVM group " = 2, 
+                              " ETI group" = 2), 
+                   align = "c", 
+                   bold = TRUE  ) %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  row_spec(8, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+
+```
+
+
+1. Among people treated with BVM ('ball valve mask'),
+   compute the *percentage* that died (to the nearest percent).  
+`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
+
+2. Among the people treated with BVM,
+   what are the *odds* that
+   someone died?
+   Explain which one of the following calculations is correct,
+   and **explain what the other calculations compute,
+   and hence why they are wrong**.  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(answer = "281/(404-281) = 2.28",
+               "(404-281)/404 = 0.304",
+               "281/404 = 0.696",
+               "(281+306) / ( 404+416) = 0.716",
+               "281/306 = 0.918"
+     ))}`
+
+3. Among people treated with ETI,
+   the *odds* that someone died is 2.78.
+   What does this mean?  
+`r if( knitr::is_html_output() ) {longmcq(
+  c(         "A patient treated with ETI has a 2.78% chance of dying.",
+             "2.78% of patients treated with ETI in the study died.",
+    answer = "For patients treated with ETI, about 278 die for every 100 that survive.",
+             "For patients treated with ETI, about 278 live for every 100 that die."
+  ))}`
+  
+4. How many times greater is the odds that a person treated with 
+   ETI died compared to the odds that a person treated 
+   with BVM died?  
+`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol = 0.01, answer = 1.22)}`
+
+
+
+
+
+
+
+## **Optional**: Odds {#Odds1}
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1290968278235165709/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+
+
+
+## **Optional**: Interpreting histograms {#InterpretHistogram}
+
+*(Answers are available in Sect. \@ref(Lecture4Answers))*
+
+
+To assess various lung diseases,
+many methods are available
+(including using a spirometer and the 6-minute walk test).
+
+The fatigue assessment scale (FAS)
+is one way to measure the fatigue of the patient.
+(A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
+
+The histogram in 
+Fig. \@ref(fig:Baughman2007-HistogramFig2)
+comes from a study [@data:Baughman2007:SixMinuteWalk]
+examining $n=142$ sarcoidosis patients using the FAS.
+
+1. Critique this histogram. Identify ways to improve the histogram.
+2. Describe this histogram in words: what does it tell you?
+3. Draw a rough boxplot that corresponds approximately to the histogram,
+   explaining your reasoning.
+
+
+```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.cap="The histogram of FAS scores for patients", out.width='55%'}
+include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
+```
+
+
+
+
+## **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
+
+*(Answers are available in Sect. \@ref(Lecture4Answers))*
+
+Environmentally-friendly buildings are often assumed to
+have a better indoor environmental quality
+(when occupants rate the comfort) than conventional buildings;
+in turn,
+this is assumed to have a positive impact on productivity.
+
+One group of researchers decided to test this assertion.
+Figure \@ref(fig:Paul2008Table1)
+is taken from a study of office temperatures [@data:Paul2008:Comfort]
+in an environmentally-friendly building at Charles Sturt University.
+
+Operative temperatures were measured in three offices
+between 8am to 6pm during four weeks near the end of summer;
+Office A is located on the ground floor,
+while Offices B and C are located on the top floor.
+The building is not air conditioned.
+
+1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
+2. In words, describe the relationship.
+3. Do the offices appear to provide a 'comfortable' temperature?
+
+```{r Paul2008Table1, echo=FALSE, fig.align="center", fig.cap="Table 1 from Paul et al. (2008)", out.width='75%'}
+include_graphics("ArticleImages/Paul2008Table1.png")
+```
+
+
+
+
+
+
+
+
+
+## **Optional**: Selecting the correct graph {#SelectGraphs1}
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture4Answers))*'
+}`
+
+<iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q9.Rmd'}
+```
+
+
+
+##  **Optional**: Working with odds {#WorkingWithOdds}
+
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture5Answers))*'
+}`
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q6.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 
@@ -1480,6 +1355,129 @@ if( knitr::is_html_output() ) {
       format = "html",
       booktab = TRUE,
       caption = RScap) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+
+## **Drills**: computational exercises {#Chapter4Drills}
+
+*(Answers are available in Sect. \@ref(Lecture4Answers))*
+
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These **Drill** exercises (repeated practice) give you practice at getting computations correct,
+and using your calculator.
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
+
+If you need help, please **ask**.
+:::
+
+1. The data in Table \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
+   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
+   b. Without using a calculator, find the **median** of these numbers.
+
+```{r AISTable, echo=FALSE}
+library(GLMsData)
+data(AIS)
+
+Hts <- subset(AIS$Ht, 
+              AIS$Sex == "F" & AIS$Sport == "Tennis")
+
+AISTab <- array( "", 
+                 dim = c(1, length(Hts)) )
+
+AISTab[1, ] <- Hts
+AIScap <- "The heights (in metres) of females tennis players at the AIS"
+
+if( knitr::is_latex_output() ) {
+  kable(AISTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = AIScap) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(AISTab,
+      format = "html",
+      booktab = TRUE,
+      caption = AIScap) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+
+
+```{r echo=FALSE}
+set.seed(2021)
+library(GLMsData)
+data(polythene)
+
+len <- 8
+PT <- polythene$Polythene
+PT <- PT[ sample( 1:length(PT), len) ]
+```
+
+2. The data in Table \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
+   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
+   b. Without using a calculator, find the **median** of these numbers.
+
+```{r PolyTable, echo=FALSE}
+
+PTTab <- array( "", 
+                dim = c(1, length(PT) ) )
+
+PTTab[1, ] <- PT
+PTcap <- "The amount of polythene (in tonnes) used by a sample of UK cosmetic companies"
+
+if( knitr::is_latex_output() ) {
+  kable(PTTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = PTcap) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(PTTab,
+      format = "html",
+      booktab = TRUE,
+      caption = PTcap) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+
+3. The data in Table \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
+   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
+   b. Without using a calculator, find the **median** of these numbers.
+
+```{r AISTable2, echo=FALSE}
+library(GLMsData)
+data(AIS)
+
+PBF <- subset(AIS$PBF, 
+              AIS$Sex == "F" & AIS$Sport == "Swim")
+
+AISTab2 <- array( "", 
+                  dim = c(1, length(PBF)) )
+
+AISTab2[1, ] <- PBF
+AIScap2 <- "The percentage body fat of females swimmers players at the AIS"
+
+if( knitr::is_latex_output() ) {
+  kable(AISTab2,
+      format = "latex",
+      booktab = TRUE,
+      caption = AIScap2) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(AISTab2,
+      format = "html",
+      booktab = TRUE,
+      caption = AIScap2) %>%
   kable_styling(full_width = FALSE)
 }
 ```
