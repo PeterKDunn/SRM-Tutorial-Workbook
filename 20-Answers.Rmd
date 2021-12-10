@@ -214,14 +214,14 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 ### Answers to Sect. \@ref(TerminologyLead)
 
 
-
-1. The *population* is: *a.* 2-year-old infants in Cincinnati.
-2. The *outcome*: *c.* The average of the indexes of the 2-year neurobehavioural development.
-3. The *comparison*: *b.* Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
-4. The *intervention*: *d.* There is no intervention.
-5. The *unit of observation*: *b.* The children.
-6. The *unit of analysis*: *b.* The children.
-
+```{block2, type="answer"}
+**1.** The *population* is: *a.* 2-year-old infants in Cincinnati.
+**2.** The *outcome*: *c.* The average of the indexes of the 2-year neurobehavioural development.
+**3.** The *comparison*: *b.* Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
+**4.** The *intervention*: *d.* There is no intervention.
+**5.** The *unit of observation*: *b.* The children.
+**6.** The *unit of analysis*: *b.* The children.
+```
 
 
 
@@ -229,18 +229,18 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 ### Answers to Sect. \@ref(Units2)
 
-
-1. The *units of analysis*:  *a.* The individuals ingots.
-2. The *sample size* for his study: *d.* 80.
-
+```{block2, type="answer"}
+**1.** The *units of analysis*:  *a.* The individuals ingots.
+**2.** The *sample size* for his study: *d.* 80.
+```
 
 
 ### Answers to Sect. \@ref(Units3)
 
-
-1. The units of analysis: The fish tanks.
-2. The type of experiment: True experiment.
-
+```{block2, type="answer"}
+**1.** The units of analysis: The fish tanks.
+**2.** The type of experiment: True experiment.
+```
 
 
 
@@ -248,17 +248,6 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 ## Answers to Teaching Week 2 tutorial {#Lecture2Answers}
 
-
-
-
-### Answers to Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
-
-Answers implied by the crossword:
-
-
-```{r, echo=FALSE, out.width= "70%", fig.align="center"}
-include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
-```
 
 
 
@@ -272,14 +261,25 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
 3. *External validity* only refers to whether the *sample* represents the given *population*, which is *Australians*.
    Whether the results apply for the entire world is irrelevant.
 4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
-   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of seru cholesterol".
-5. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
-6. In the data file, each row is a unit of analysis and each column is a variable. 
-   So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
+   What actually varies from individual to individual--and so is the variable--is "the serum cholesterol concentration", or the "value of serum cholesterol".
+5. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (that is, to be a smoker or non-smoker) by the researchers. 
+6. In the data file, each *row* is a *unit of analysis* (i.e., person) and each *column* is a variable. 
+   So there will be *two variables* but not those listed: 
+   one column will record the smoking status (as, perhaps, Yes/No) and one column will record the serum cholesterol concentration.
 7. A confounding variable has to be related to *both* the response and explanatory variables.
 8. The *observer effect* is about how the *researchers* might respond, *not* the individuals under study.
 
 
+
+
+### Answers to Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+
+Answers implied by the crossword:
+
+
+```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
+```
 
 
 
@@ -331,26 +331,25 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
 ### Answers to Sect. \@ref(SamplingParking)
 
 
-
+```{block2, type="answer"}
 Use a multi-stage sample:
 Select a carpark at random, 
 then a row of cars at random, 
 then cars at random.
-
-
+```
 
 ### Answers to Sect. \@ref(UnderstandTerminologyStudies)
 
-
-1. The 'who' or 'what' which are observed, and for which data are collected: *F. Units of observation*.
-2. A study where the researcher creates differences in the explanatory variable and measures the change in the response variable: *G. Experimental study*.
-3. The result or effects of interest, across the population: *B. Outcome*.
-4. What we 'do' to the individuals in the study: *H. Intervention*.
-5. The question of interest to be answered by the study: *D. Research question*.
-6. The larger group of individuals that are the focus of the study: *E. Population*.
-7. The smallest independent 'who' or 'what' about which generalisations and conclusions are made, and for which information is analysed: *C. Units of analysis*.
-8. A study where the researcher observes difference in the explanatory variable, and notices if these are related to changes in the response:  *A. Observational study*.
-
+```{block2, type="answer"}
+**1.** The 'who' or 'what' which are observed, and for which data are collected: *F. Units of observation*.
+**2.** A study where the researcher creates differences in the explanatory variable and measures the change in the response variable: *G. Experimental study*.
+**3.** The result or effects of interest, across the population: *B. Outcome*.
+**4.** What we 'do' to the individuals in the study: *H. Intervention*.
+**5.** The question of interest to be answered by the study: *D. Research question*.
+**6.** The larger group of individuals that are the focus of the study: *E. Population*.
+**7.** The smallest independent 'who' or 'what' about which generalisations and conclusions are made, and for which information is analysed: *C. Units of analysis*.
+**8.** A study where the researcher observes difference in the explanatory variable, and notices if these are related to changes in the response:  *A. Observational study*.
+```
 
 
 
@@ -358,48 +357,49 @@ then cars at random.
 
 ### Answers to Sect. \@ref(UnderstandFishoil)
 
-
-1. Variables: risk of dying from heart disease (or mortality rate? It's a bit ambiguous) as response; whether they get fish oil and/or Vitamin E as explanatory.
-2. True experimental, as  fish oil and Vitamin E are *given* to subjects, and the groups are determined by the researchers.
-3. Randomization is not mentioned but probably used (a reporting issue); Control used (there is a placebo).
+```{block2, type="answer"}
+**1.** Variables: risk of dying from heart disease (or mortality rate? It's a bit ambiguous) as response; whether they get fish oil and/or Vitamin E as explanatory.
+**2.** True experimental, as  fish oil and Vitamin E are *given* to subjects, and the groups are determined by the researchers.
+**3.** Randomization is not mentioned but probably used (a reporting issue); Control used (there is a placebo).
        Blinding: Not stated. Blocking: None indicated. Study seems well done, so no obvious lurking variables
        (however,
        all subjects did change their diet).
        Group allocated by researchers, so a true experiment.
-4. Since experiment, lurking variables not an issue (if study well done).
-5. Cause-and-effect relationship likely (if experiment well done).
-6. Limitations: Study only looked at people who have had a heart attack, were on heart medication, and looks like all subjects were Italian, and *all* subjects changed to a healthy diet.
-7. Units of observation: The individuals in the study. Units of analysis: The individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
-
+**4.** Since experiment, lurking variables not an issue (if study well done).
+**5.** Cause-and-effect relationship likely (if experiment well done).
+**6.** Limitations: Study only looked at people who have had a heart attack, were on heart medication, and looks like all subjects were Italian, and *all* subjects changed to a healthy diet.
+**7.** Units of observation: The individuals in the study. Units of analysis: The individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
+```
 
 
 
 ### Answer to Sect. \@ref(RandomAllocation)
 
-1. Quite possibly: Confounding!
-2. They could have been... though it would be unlikely.
-
+```{block2, type="answer"}
+**1.** Quite possibly: Confounding!
+**2.** They could have been... though it would be unlikely.
+```
 
 
 
 ### Answer to Sect. \@ref(EvaluatingReportsSugar)
 
-
-1. Type of drink: Explanatory variable; nominal variable; qualitative variable.
-2. Response variable; quantitative variable.
-
+```{block2, type="answer"}
+**1.** Type of drink: Explanatory variable; nominal variable; qualitative variable.
+**2.** Response variable; quantitative variable.
+```
 
 
 ### Answers to Sect. \@ref(DesignTrees)
 
-
-1. The first design (A).
-2. The third design (C).
-3. Depends on the research focus, but the second probably strikes a balance.
+```{block2, type="answer"}
+**1.** The first design (A).
+**2.** The third design (C).
+**3.** Depends on the research focus, but the second probably strikes a balance.
        The key identifying the source of variation that is likely to be the greatest, and allocate relatively more units there because that
        is the source of variation that is more important to quantify. 
-4. Easiest would be the design using the smallest number of forests (Design A), as collecting data within a forest is likely to be more convenient than moving around to many forests.
-
+**4.** Easiest would be the design using the smallest number of forests (Design A), as collecting data within a forest is likely to be more convenient than moving around to many forests.
+```
 
 
 
@@ -483,34 +483,37 @@ Answers implied by H5P.
 
 ### Answer to Sect. \@ref(HistogramBars)
 
-
+```{block2, type="answer"}
 *Histogram*: for quantitative (usually continuous) data;
 *Bar chart*: for qualitative data.
+```
 
 
 
 ### Answer to Sect. \@ref(SelectingGraphsH5P)
 
 
-1. To display the relationship between the age of athletes, and the times taken for each athlete to complete the `beep test': *Scatterplot*
-2. To display the percentage of elderly people in nursing homes that can independently complete
+```{block2, type="answer"}
+
+**1.** To display the relationship between the age of athletes, and the times taken for each athlete to complete the `beep test': *Scatterplot*
+**2.** To display the percentage of elderly people in nursing homes that can independently complete
    a given task, for each of the seven tasks on a given list: *Bar chart* or *Dot chart*
-3. To display the relationship between the type of fertiliser applied to a vegetable crop (either A, B or C)
+**3.** To display the relationship between the type of fertiliser applied to a vegetable crop (either A, B or C)
    and the yield per hectare, measured over numerous plots:
    *Boxplot*
-4. To display the distribution of the hardness measurements taken of 250 samples of bamboo: *Histogram* 
-5. To display the relationship between the age of concrete test cylinders (under 5 years; 5 years and older)
+**4.** To display the distribution of the hardness measurements taken of 250 samples of bamboo: *Histogram* 
+**5.** To display the relationship between the age of concrete test cylinders (under 5 years; 5 years and older)
    and their strength (fit for purpose; or not fit for purpose): *Side-by-side or stacked bar chart*
-
+```
 
 
 
 ### Answers to Sect. \@ref(EvaluateGraphsAnts)
 
-1. Observational; the ant nest would be pre-existing.
-2. Both are 'ant nests'.
-3. Looks good!
-4. Uphill looks different to the other two. Also: the lower dots comprise mostly blue dots (Sourdough Trial), so perhaps a difference between locations too.
+**1.** Observational; the ant nest would be pre-existing.
+**2.** Both are 'ant nests'.
+**3.** Looks good!
+**4.** Uphill looks different to the other two. Also: the lower dots comprise mostly blue dots (Sourdough Trial), so perhaps a difference between locations too.
 
 
 
@@ -519,31 +522,32 @@ Answers implied by H5P.
 ### Answers to Sect. \@ref(EvaluateGraphs1)
 
 
-
-1. True experiment: Treatments given (experiment), and the researchers selected the groups, groups did not previously existed (so *true* experiment).
-2. Observation: Each  patient. Analysis: The patient.
-3. Pretty good.  A label on the horizontal axis would be better, but the caption does contain that information.
-4. Pain is *reduced*.
-5. Yes, probably. We cannot be sure due to randomness...
-
+```{block2, type="answer"}
+**1.** True experiment: Treatments given (experiment), and the researchers selected the groups, groups did not previously existed (so *true* experiment).
+**2.** Observation: Each  patient. Analysis: The patient.
+**3.** Pretty good.  A label on the horizontal axis would be better, but the caption does contain that information.
+**4.** Pain is *reduced*.
+**5.** Yes, probably. We cannot be sure due to randomness...
+```
 
 
 
 ### Answer to Sect. \@ref(UnderstandGraphsPizza)
 
+```{block2, type="answer"}
 **Centre**: About 11.4 inches;
 **Variation**: Most are between 11.0 and 12.3 inches;
 **Shape**: Slightly skewed right (apart from that outlier...);
 A small outlier (near 10.5 inches)
-
+```
 
 
 
 ### Answer to Sect. \@ref(SelectGraph1)
 
-1. Boxplot. 
-2. Scatterplot.
-
+```{block2, type="answer"}
+**1.** Boxplot. **2.** Scatterplot.
+```
 
 
 
@@ -552,19 +556,6 @@ A small outlier (near 10.5 inches)
 
 
 ## Answers to Teaching Week 4 tutorial {#Lecture4Answers}
-
-
-
-
-### Answers to Sect. \@ref(PercentOddsStroke) {.unlisted .unnumbered}
-
-1. $43\div (43 + 67) \times 100 = 39.1$%. 
-1. $39\div (97 + 39) \times 100 = 28.7$%.
-1. $43\div 67 = 0.642$.
-1. $39\div 97 = 0.402$.
-1. $0.642 \div 0.402 = 1.6$.
-
-
 
 
 ### Answers to Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
@@ -582,6 +573,9 @@ A small outlier (near 10.5 inches)
    
    Jellyfish at Salamander Bay are a little less variable in terms of breadth.
    The distributions look slightly skewed right at both sites.
+
+
+
 
 
 ### Answers to Sect. \@ref(StatsMode) {.unlisted .unnumbered}
@@ -623,6 +617,109 @@ Answers implied by H5P.
 		* The *differences* between the two brands.
 		
 		
+		
+
+
+
+
+
+
+
+### Answers to Sect. \@ref(CalculatorBatteries)
+
+```{block2, type="answer"}
+**1.** Observational: The 'treatment' (brand of battery) is not assigned; we simply take measurements from the batteries that exist.
+**2.** Units of observation and units of analysis: The individual batteries.
+**3.** *Energizer*: mean: $7.36$ hours; std dev: $0.289$.
+	      *Ultracell*: mean: $7.41$ hours; std dev: $0.172$.
+	      So Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
+**4.** *Energizer*: median: 7.46 hours.
+	      *Ultracell*: median: 7.48 hours.
+  	    So Ultracell batteries are *slightly* better (last longer) on average.
+**5.** Probably median (outliers?), but mean and median are similar in any case.
+**6.** Values are close.  Certainly no practically importance difference. Energizer batteries take, on average, *less* time to reach 1.0 volts, so are 'worse' in this regard.
+	      They also have a lot more variation. But in practical terms, the difference is minimal.
+	      (Based on means, the difference is 0.05 hrs, or 3 mins in over 7 hrs use!
+	      Based on medians, the difference is 0.02 hours, or 1.2 mins!)
+	      **The *practical* difference is negligible.**
+**7.** Quite possibly, some very low values for both brands.
+**8.** Yes: At the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
+```
+
+
+### Answers to Sect. \@ref(InterpretHistogram)
+
+```{block2, type="answer"}
+FAS here is about 20--25 in general, ranging from 10 to 50 (which are actually the smallest and largest possible scores).
+Here's is a detailed explanation.
+**You are not expected to go to this detail!**
+   The FAS is about 25 on average,
+   ranging from about 10 to 50,
+   slightly skewed right with no outliers.
+   The distribution is unimodal.
+   (The heights of the bars are,
+   as best as I can figure,
+   3; 14; 44; 34; 22; 17; 5; 3.)
+   With $n=142$,
+   the median is observation number 71.5,
+   which is in the 25--30 bar.
+   The quartiles will have about 35 in them,
+   so $Q_1$ will be in the 20--25 bar,
+   and $Q_3$ will be in the 30--35 bar.
+   Histogram is pretty good; 
+   bars really should be touching.
+```
+
+
+### Answers to Sect. \@ref(DrawBoxplot)
+ 
+```{block2, type="answer"}
+The median temperatures similar; a slight increase from Office A to C.
+IQR similar for each office, and range similar for Offices A and C (slightly larger for Office B).
+```
+ 
+ 
+ 
+ 
+### Answers to Sect. \@ref(DrawBoxplot)
+
+```{block2, type="answer"}
+**1.** Not shown.
+**2.** Office a a bit different (cooler) on average.
+**3.** Perhaps Office A. 
+```
+
+
+### Answers to Sect. \@ref(SelectGraphs1)
+
+```{block2, type="answer"}
+**1.** Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
+**2.** Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
+**3.** Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
+**4.** Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars (30 mins of physical activity or not; vigorous physical activity or not).
+```
+ 
+ 
+ 
+### Answers to Sect. \@ref(Chapter4Drills)
+
+```{block2, type="answer"}
+**1.** Mean: 168.5714, or 168.57&nbsp;m. 
+Standard deviation: 6.966279, or 6.97&nbsp;m. (Specifically, it is **not** 6.44952.)
+The median: 169.9&nbsp;m.
+**2.** Mean: 990.0791, or 990.079&nbsp;tonnes.
+Standard deviation: 1588.514579, or 1588.5146&nbsp;tonnes. (Specifically, it is **not** 1485.919327.)
+Median: 180.516&nbsp;tonnes.
+**3.** Mean: 13.88778, or 13.888%.
+Standard deviation: 2.617402, or 2.617%.
+Median: 13.35%.
+```
+
+ 
+ 
+
+## Answers to Teaching Week 5 tutorial {#Lecture5Answers}
+
 
 ### Answers to Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
 
@@ -687,235 +784,6 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(Odds1) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. Odds **less than** one.
-1. Odds **less than** one.
-1. Odds **greater than** one.
-1. Odds **greater than** one.
-
-
-
-
-
-
-
-
-### Answers to Sect. \@ref(CalculatorBatteries)
-
-
-
-1. Observational: The 'treatment' (brand of battery) is not assigned; we simply take measurements from the batteries that exist.
-2. Units of observation and units of analysis: The individual batteries.
-3. *Energizer*: mean: $7.36$ hours; std dev: $0.289$.
-	      *Ultracell*: mean: $7.41$ hours; std dev: $0.172$.
-	      So Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
-4. *Energizer*: median: 7.46 hours.
-	      *Ultracell*: median: 7.48 hours.
-  	    So Ultracell batteries are *slightly* better (last longer) on average.
-5. Probably median (outliers?), but mean and median are similar in any case.
-6. Values are close.  Certainly no practically importance difference. Energizer batteries take, on average, *less* time to reach 1.0 volts, so are 'worse' in this regard.
-	      They also have a lot more variation. But in practical terms, the difference is minimal.
-	      (Based on means, the difference is 0.05 hrs, or 3 mins in over 7 hrs use!
-	      Based on medians, the difference is 0.02 hours, or 1.2 mins!)
-	      **The *practical* difference is negligible.**
-7.* Quite possibly, some very low values for both brands.
-8. Yes: At the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
-
-
-
-### Answers to Sect. \@ref(InterpretHistogram)
-
-
-FAS here is about 20--25 in general, ranging from 10 to 50 (which are actually the smallest and largest possible scores).
-Here's is a detailed explanation.
-**You are not expected to go to this detail!**
-   The FAS is about 25 on average,
-   ranging from about 10 to 50,
-   slightly skewed right with no outliers.
-   The distribution is unimodal.
-   (The heights of the bars are,
-   as best as I can figure,
-   3; 14; 44; 34; 22; 17; 5; 3.)
-   With $n=142$,
-   the median is observation number 71.5,
-   which is in the 25--30 bar.
-   The quartiles will have about 35 in them,
-   so $Q_1$ will be in the 20--25 bar,
-   and $Q_3$ will be in the 30--35 bar.
-   Histogram is pretty good; 
-   bars really should be touching.
-
-
-
-### Answers to Sect. \@ref(DrawBoxplot)
- 
-The median temperatures similar; a slight increase from Office A to C.
-IQR similar for each office, and range similar for Offices A and C (slightly larger for Office B).
-
- 
- 
- 
-### Answers to Sect. \@ref(DrawBoxplot)
-
-1. Not shown.
-2. Office a a bit different (cooler) on average.
-3. Perhaps Office A. 
-
-
-### Answers to Sect. \@ref(SelectGraphs1)
-
-1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
-2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
-3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
-4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars (30 mins of physical activity or not; vigorous physical activity or not).
-
- 
-
-
-### Answers to Sect. \@ref(WorkingWithOdds)
-
-
-1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or 8.3%.
-2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or 0.091.
-3. The odds of a bridge collapsing due to deterioration is 0.091; this means:
-*b. For every 100 bridges that do not collapse due to deterioration, about 9.1 bridges do collapse*.
-4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or 91.7%.
-5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or 11.0.
-6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or 18.9%.
-7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or 0.234.
-8. The odds of an event cannot be larger than one: *FALSE*.
-9. The odds of an event cannot be smaller than one. *FALSE*.
-10. The following statement is true:
-*c. Odds cannot be negative*
-
-
-
-
-### Answers to Sect. \@ref(OddsRatioSMND)
-
-
-```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
-```
-
-
-1. See Table \@ref(tab:SMNDAnswerTable).
-2. $60/320 = 0.1875$. A worker with SMND is 0.1875 times as likely to have worked with metal than not. 
-3. $33/344 = 0.096$.  A worker with SMND is 0.096 times as likely to have worked with metal than not. 
-4.0.1875/0.096 = 1.95$; the odds are about twice as great.
-5. $60 \div 380 = 15.8$%.
-6. $33\div 377 = 8.8$%.
-7. Probably not: big difference seen in a large size sample.
-
-
-```{r echo=FALSE, SMNDAnswerTable}
-SMNDData <- array( dim = c(3, 3) )
-colnames(SMNDData) <- c("Worked with metals", 
-                        "Did not work with metals", 
-                        "Total")
-rownames(SMNDData) <- c("SMND cases", 
-                        "Controls", 
-                        "Total")
-
-SMNDData[1,] <- c(60, 320, 380)
-SMNDData[2,] <- c(33, 344, 377)
-SMNDData[3,] <- c(93, 664, 757)
-
-if( knitr::is_latex_output() ) {
-   kable(SMNDData,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-       # escape=FALSE, # For latex to work in \rightarrow
-       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "SMND cases, and whether they had worked with metals",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-  kable(SMNDData,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "SMND cases, and whether they had worked with metals",
-        booktabs = TRUE) # %>%
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
-
-```
-
-### Answers to Sect. \@ref(PercentagesOdour)
-
-
-1. Observational.
-2. The percentage of residents in each area that detected the smell at the given frequency.
-      So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
-      This means that $49.5$% *of the sample that lived in Area I* detected the odour at least once a week.
-3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area I.
-4. Probably column percentages.
-5. $77\div291 = 26.46\%$.
-
-
-
-### Answer to Sect. \@ref(Chapter5Drills)
-
-
-
-1.
-  a. $(381 + 345)/1347 = 0.53898$, or about 53.9%.
-  b. $(381 + 345)/(295 + 326) = 1.1691$, or about 1.17.
-  c. $345/326 = 1.05828$, or about 1.06.
-  d. $381/295 = 1.29153$, or about 1.29.
-  e. $1.05828 / 1.29153 = 0.81940$, or about 0.819.
-
-2. 
-  a $(240 + 138)/960 = 0.39375$, or 39.4%.
-  b. $(240 + 342)/960 = 0.60625$, or 60.6%.
-  c. $(240 + 240)/960 = 0.5000$, or 50%.
-  d. $(240 + 138)/(240 + 342) = 0.64948$, or about 0.649.
-  e. $240/240 = 1.000$.
-  f. $138/342 = 0.40351$ or about 0.404.
-  g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e).
-
-
-
-
-
-
- 
-### Answers to Sect. \@ref(Chapter4Drills)
-
-
-1. Mean: 168.5714, or 168.57&nbsp;m. 
-Standard deviation: 6.966279, or 6.97&nbsp;m. (Specifically, it is **not** 6.44952.)
-The median: 169.9&nbsp;m.
-2. Mean: 990.0791, or 990.079&nbsp;tonnes.
-Standard deviation: 1588.514579, or 1588.5146&nbsp;tonnes. (Specifically, it is **not** 1485.919327.)
-Median: 180.516&nbsp;tonnes.
-3. Mean: 13.88778, or 13.888%.
-Standard deviation: 2.617402, or 2.617%.
-Median: 13.35%.
-
-
- 
- 
-
-## Answers to Teaching Week 5 tutorial {#Lecture5Answers}
-
-
-
 
 ### Answers to Sect. \@ref(Probability2) {.unlisted .unnumbered}
 
@@ -948,6 +816,130 @@ However, if what we observe is **consistent** with what was expected, then the t
    Decision: Consistent?  
    Conclusion A: Yes, supports assumption  
    Conclusion B: No, doesn't support assumption
+
+### Answers to Sect. \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. Odds **less than** one.
+1. Odds **less than** one.
+1. Odds **greater than** one.
+1. Odds **greater than** one.
+
+
+### Answers to Sect. \@ref(WorkingWithOdds)
+
+```{block2, type="answer"}
+**1.** The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or 8.3%.
+**2.** The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or 0.091.
+**3.** The odds of a bridge collapsing due to deterioration is 0.091; this means:
+*b. For every 100 bridges that do not collapse due to deterioration, about 9.1 bridges do collapse*.
+**4.** The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or 91.7%.
+**5.** The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or 11.0.
+**6.** The percentage of bridge collapses due to collisions is *82* divided by *433*, or 18.9%.
+**7.** The odds of a bridge collapsing due to collisions is *83* divided by *351*, or 0.234.
+**8.** The odds of an event cannot be larger than one: *FALSE*.
+**9.** The odds of an event cannot be smaller than one. *FALSE*.
+**10.** The following statement is true:
+*c. Odds cannot be negative*
+```
+
+
+
+### Answers to Sect. \@ref(OddsRatioSMND)
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
+```
+
+
+```{block2, type="answer"}
+**1.** See Table \@ref(tab:SMNDAnswerTable).
+**2.** $60/320 = 0.1875$. A worker with SMND is 0.1875 times as likely to have worked with metal than not. 
+**3.** $33/344 = 0.096$.  A worker with SMND is 0.096 times as likely to have worked with metal than not. 
+**4.** $0.1875/0.096 = 1.95$; the odds are about twice as great.
+**5.** $60 \div 380 = 15.8$%.
+**6.** $33\div 377 = 8.8$%.
+**7.** Probably not: big difference seen in a large size sample.
+```
+
+```{r echo=FALSE, SMNDAnswerTable}
+SMNDData <- array( dim=c(3, 3) )
+colnames(SMNDData) <- c("Worked with metals", "Did not work with metals", "Total")
+rownames(SMNDData) <- c("SMND cases", "Controls", "Total")
+
+SMNDData[1,] <- c(60, 320, 380)
+SMNDData[2,] <- c(33, 344, 377)
+SMNDData[3,] <- c(93, 664, 757)
+
+if( knitr::is_latex_output() ) {
+   kable(SMNDData,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption="SMND cases, and whether they had worked with metals",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  kable(SMNDData,
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+        caption="SMND cases, and whether they had worked with metals",
+        booktabs=TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+### Answers to Sect. \@ref(PercentagesOdour)
+
+```{block2, type="answer"}
+**1.** Observational.
+**2.** The percentage of residents in each area that detected the smell at the given frequency.
+      So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
+      This means that $49.5$% *of the sample that lived in Area I* detected the odour at least once a week.
+**3.** For example, the percentage of residents who detected an odour at least once a week, who lived in Area I.
+**4.** Probably column percentages.
+**5.** $77\div291 = 26.46\%$.
+```
+
+
+
+
+### Answer to Sect. \@ref(Chapter5Drills)
+
+
+```{block2, type="answer"}
+**1.** 
+a. $(381 + 345)/1347 = 0.53898$, or about 53.9%.
+b. $(381 + 345)/(295 + 326) = 1.1691$, or about 1.17.
+c. $345/326 = 1.05828$, or about 1.06.
+d. $381/295 = 1.29153$, or about 1.29.
+e. $1.05828 / 1.29153 = 0.81940$, or about 0.819.
+
+**2.** 
+a: $(240 + 138)/960 = 0.39375$, or 39.4%.
+b: $(240 + 342)/960 = 0.60625$, or 60.6%.
+c: $(240 + 240)/960 = 0.5000$, or 50%.
+d: $(240 + 138)/(240 + 342) = 0.64948$, or about 0.649.
+e: $240/240 = 1.000$.
+f. $138/342 = 0.40351$ or about 0.404.
+g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e).
+```
+
 
 
 
@@ -1062,15 +1054,15 @@ Answers implied by H5P.
 ```{r, child = if (knitr::is_html_output()) 'Solution-SOI.Rmd'}
 ```
 
-
-2. $z=(20-0)/10 = 2$. The area or probability to the *right* is $0.0228$, or about $2.3$%.
-3. The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100-2.3)$, or about $0.024$.
-4. $z=(-25-0)/10 = -2.5$. The area to the *left* is $0.0062$, or about $0.6$%.
-5. $z=(-12-0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
-6. The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
-7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z=0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
-8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/Book/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
-
+```{block2, type="answer"}
+**2.** $z=(20-0)/10 = 2$. The area or probability to the *right* is $0.0228$, or about $2.3$%.
+**3.** The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100-2.3)$, or about $0.024$.
+**4.** $z=(-25-0)/10 = -2.5$. The area to the *left* is $0.0062$, or about $0.6$%.
+**5.** $z=(-12-0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
+**6.** The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
+**7.** The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z=0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
+**8.** The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/Book/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
+```   
 
 
 ### Answers to Sect. \@ref(HMMaturing)
@@ -1080,36 +1072,36 @@ Answers implied by H5P.
 
 
 
-
-1. Relational.
-2. $\hat{p} = 352/2,864=0.12291$. 
-3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1-0.12291)/2864} = 0.006135$.
-4. An approximate 95\% CI is $0.12291 \pm (2\times0.006135)$, or $0.12291\pm0.01227$,
+```{block2, type="answer"}
+**1.** Relational.
+**2.** $\hat{p} = 352/2,864=0.12291$. 
+**3.** $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1-0.12291)/2864} = 0.006135$.
+**4.** An approximate 95\% CI is $0.12291 \pm (2\times0.006135)$, or $0.12291\pm0.01227$,
        or from $0.111$ to $0.135$.
        Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine;
        percentages or proportions are fine
        (but **the calculations must done with the proportions, not the percentages**).
-5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than 5.
+**5.** We need the number of boys who are late maturers and who are *not* late maturers to both be greater than 5.
        This is true, so the calculations are valid.
-6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
-7. $n = 1/(0.02)^2 = 2500$ boys.
-
+**6.** Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
+**7.** $n = 1/(0.02)^2 = 2500$ boys.
+```
 
 
 ### Answers to Sect. \@ref(Chapter6Drills)
 
-
-1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.084} = 0.2898275$, or about 0.2898.
-2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about 0.04330.
-3. 0.08724964, or about 0.08725.
-4. 0.0534479, or about 0.05345.
+```{block2, type="answer"}
+**1.** $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.084} = 0.2898275$, or about 0.2898.
+**2.** $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about 0.04330.
+**3.** 0.08724964, or about 0.08725.
+**4.** 0.0534479, or about 0.05345.
 
 **Note**: Students commonly forget to take the square root.
 
 **Note**: If you calculator gives an answer something like `1.875 E-03` or similar, 
 it is using **scientific notation**.
 It means $1.875\times 10^{-3}$, or $0.001875$.
-
+```
 
 
 
@@ -1254,18 +1246,18 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-
-1. $\bar{x}=16.02$m.
-2. $s=7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m. The first is a measure of the variation in the original data;
+```{block2, type="answer"}
+**1.** $\bar{x}=16.02$m.
+**2.** $s=7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m. The first is a measure of the variation in the original data;
        the second is a measure of the precision of the sample mean when estimating the population mean.
-3.The CI is from 13.85 to 18.19m.
-4. 95% CI for population mean guess: 13.85 to 18.19m.
-5. The population of differences has a normal distribution, and/or $n>30$ or so.
-6. Since $n>30$, all OK if the histogram isn't severely skewed. Probably OK.
-7. Not really; the CI doesn't contain the true width.
+**3.** The CI is from 13.85 to 18.19m.
+**4.** 95% CI for population mean guess: 13.85 to 18.19m.
+**5.** The population of differences has a normal distribution, and/or $n>30$ or so.
+**6.** Since $n>30$, all OK if the histogram isn't severely skewed. Probably OK.
+**7.** Not really; the CI doesn't contain the true width.
        But was this just due to the metric units... or perhaps students are just very poor at estimating widths in general!
        In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
-
+```
 
 
 
@@ -1276,15 +1268,16 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 ```
 
 
-
+```{block2, type="answer"}
 $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
+```
 
 
 
 
 ### Answers to Sect. \@ref(LanguageOfSStats)
 
-
+```{block2, type="answer"}
 1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete,
    by using a study design called an *experiment*.  
    
@@ -1306,23 +1299,23 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
    Using the standard equipment, the smallest value recorded for legibility was 19, 
    and the largest was 34, so the *range* was 15.
   
-
+```
 
 
 
 
 ### Answers to Sect. \@ref(CIPairedWaves)
 	
-
-1. Because each method is used in each sea state.
-3. $\bar{d}=0.06167$; $s_d = 0.2901$. The mean difference is positive: Method 1 measurements slightly higher (on average) than Method 2.
-4. $\text{s.e.}({\bar{d}})= s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
+```{block2, type="answer"}
+**1.** Because each method is used in each sea state.
+**3.** $\bar{d}=0.06167$; $s_d = 0.2901$. The mean difference is positive: Method 1 measurements slightly higher (on average) than Method 2.
+**4.** $\text{s.e.}({\bar{d}})= s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
 			$\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
-5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
-6. Since $n<30$, we require that the *differences* in the population have a normal distribution.
-7. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal.
-8. Since the CI includes zero, possibly the population mean difference could be zero.
-
+**5.** $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
+**6.** Since $n<30$, we require that the *differences* in the population have a normal distribution.
+**7.** The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal.
+**8.** Since the CI includes zero, possibly the population mean difference could be zero.
+```
 
 
 
@@ -1332,15 +1325,16 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 ```
 
 
-1. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-2. Each plasma $\beta$ measurement is measured after and before on the same runner.
-3. The *direction* of the difference should be clearly stated.
-4. $\bar{d} = 18.736$; $s_d=8.3297$
-5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
+```{block2, type="answer"}
+**1.** $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+**2.** Each plasma $\beta$ measurement is measured after and before on the same runner.
+**3.** The *direction* of the difference should be clearly stated.
+**4.** $\bar{d} = 18.736$; $s_d=8.3297$
+**5.** $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
        This is the standard deviation of the sample mean difference,
        a measurement of how precisely the sample mean difference measures
        the population mean difference.
-6. Almost impossible.
+**6.** Almost impossible.
          The sample means would vary every time we took a sample,
          around the true mean difference
          with a normal distribution having a standard error of about $2.51$.
@@ -1348,17 +1342,17 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
          the best we can say is that the sample mean will vary about our best guess of the
          population mean; in other words,
          the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
-7. $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
-8. We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
-9. Either (or both) of these must be true: the population has a normal distribution,
+**7.** $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
+**8.** We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
+**9.** Either (or both) of these must be true: the population has a normal distribution,
          and/or the sample size is large enough so that the sample means have a normal distribution,
          so about larger than 25.
-10. Since $n<25$, we need to assume the population of differences has a normal distribution.
+**10.** Since $n<25$, we need to assume the population of differences has a normal distribution.
         The stem-and-leaf plot suggests this is not unreasonable,
         so the sample means quite possibly have an approx. normal distribution:
-11.  Looks likely that the plasma $\beta$ concentrations are higher after the race.
-12. $n=(2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
-
+**11.**  Looks likely that the plasma $\beta$ concentrations are higher after the race.
+**12.** $n=(2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
+```
 
 
 
@@ -1423,28 +1417,23 @@ Some answers embedded.
 
 ```{r echo=FALSE, MaturationDataANS}
 MaturationData <- array( dim=c(3, 3) )
-colnames(MaturationData) <- c("Matured late", 
-                              "Did not mature late", 
-                              "Total")
-rownames(MaturationData) <- c("Males",
-                              "Females", 
-                              "Total")
+colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
+rownames(MaturationData) <- c("Males", "Females", "Total")
 
-MaturationData[3,3] <- 2864 + 2664
+MaturationData[3,3] <- 2864+2664
 MaturationData[1,1] <- ""
    
 if( knitr::is_latex_output() ) {
    kable(MaturationData,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "Maturation and gender",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+       caption="Maturation and gender",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
 #   column_spec(column=3, width="5cm") %>%
@@ -1455,20 +1444,20 @@ if( knitr::is_html_output() ) {
   MaturationData[1,3] <- 2864
   MaturationData[2,3] <- 2664
   MaturationData[3,1] <- 352+336 
-  MaturationData[3,2] <- (2864 - 352) + (2664 - 336)
+  MaturationData[3,2] <- (2864-352) + (2664-336)
 
   MaturationData[1,1] <- 352
   MaturationData[2,1] <- 336
-  MaturationData[1,2] <- 2864 - 352
-  MaturationData[2,2] <- 2664 - 336
+  MaturationData[1,2] <- 2864-352
+  MaturationData[2,2] <- 2664-336
   
   kable(MaturationData,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Maturation and gender",
-        booktabs = TRUE) # %>%
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Maturation and gender",
+      booktabs=TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
@@ -1479,28 +1468,23 @@ if( knitr::is_html_output() ) {
 
 
 ```{r echo=FALSE, MaturationSummaryANS}
-MaturationSumm <- array( dim = c(3, 3) )
-colnames(MaturationSumm) <- c("Percentage maturing late", 
-                              "Odds  maturing late", 
-                              "Sample size")
-rownames(MaturationSumm) <- c("Males", 
-                              "Females", 
-                              "Odds ratio")
+MaturationSumm <- array( dim=c(3, 3) )
+colnames(MaturationSumm) <- c("Percentage maturing late", "Odds  maturing late", "Sample size")
+rownames(MaturationSumm) <- c("Males", "Females", "Odds ratio")
 
 MaturationSumm[3,3] <- "626"
    
 if( knitr::is_latex_output() ) {
    kable(MaturationSumm,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "Maturation and gender: Numerical summary",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+       caption="Maturation and gender: Numerical summary",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
 #   column_spec(column=3, width="5cm") %>%
@@ -1508,30 +1492,30 @@ if( knitr::is_latex_output() ) {
 }
 
 if( knitr::is_html_output() ) {
-  MaturationSumm[3, 1] <- ""
-  MaturationSumm[3, 3] <- ""
+  MaturationSumm[3,1] <- ""
+  MaturationSumm[3,3] <- ""
   
-  MaturationSumm[1, 3] <- 2864 
-  MaturationSumm[2, 3] <- 2664 
+  MaturationSumm[1,3] <- 2864 
+  MaturationSumm[2,3] <- 2664 
   
 #  MaturationSumm[3,1] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=47 )
 #  MaturationSumm[3,2] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
 
-  MaturationSumm[1, 1] <- round(352/2864*100, 1)
-  MaturationSumm[2, 1] <- round(336/2664*100, 1)
+  MaturationSumm[1,1] <- round(352/2864*100, 1)
+  MaturationSumm[2,1] <- round(336/2664*100, 1)
 
-  MaturationSumm[1, 2] <- round(352/2512, 4)
-  MaturationSumm[2, 2] <- round(336/2328, 4)
+  MaturationSumm[1,2] <- round(352/2512, 4)
+  MaturationSumm[2,2] <- round(336/2328, 4)
 
-  MaturationSumm[3, 2] <- round( (352/2512)/(336/2328), 5)
+  MaturationSumm[3,2] <- round( (352/2512)/(336/2328), 5)
 
   kable(MaturationSumm,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Maturation and gender: Numerical summary (Enter percentages to one decimal place. Enter odds and odds ratio to three decimal places)",
-        booktabs = TRUE) # %>%
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Maturation and gender: Numerical summary (Enter percentages to one decimal place. Enter odds and odds ratio to three decimal places)",
+      booktabs=TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
@@ -1555,7 +1539,7 @@ if( knitr::is_html_output() ) {
 1. The normal distribution has a mean of 12, and a 
    standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
 1. $t = -23.3$.
-1. $t = (11.486-12)/0.02205 = -23.3$.
+1. $t=(11.486-12)/0.02205 = -23.3$.
 1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
    (Two-tailed $P<0.001$ from the table or from software.)
 1. Very strong evidence exists in the sample
@@ -1578,19 +1562,19 @@ if( knitr::is_html_output() ) {
 ```
 
 
-
-1. $s=7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m.  The first measures variation in the original data;
+```{block2, type="answer"}
+**1.** $s=7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m.  The first measures variation in the original data;
          the second measures precision of the sample mean when estimating the population mean.
-2. The CI is from 13.85 to 18.19m.
-3.  Strong to moderate evidence exists in the sample (one sample $t=2.714$; $\text{df}=43$; two-tailed $P=0.010$)
+**2.** The CI is from 13.85 to 18.19m.
+**3.**  Strong to moderate evidence exists in the sample (one sample $t=2.714$; $\text{df}=43$; two-tailed $P=0.010$)
          that the population mean guess (mean: 16.02m; standard deviation: 7.145m)
          of the students is not 13.1m (95% CI for population mean guess: 13.85 to 18.19m).
-4. The population of differences has a normal distribution, and/or $n>30$ or so.
-5.* Since $n>30$, all OK if the histogram isn't severely skewed. Probably OK.
-6. Not really! But was this just due to using metric units? Perhaps students are just very poor at estimating widths...
+**4.** The population of differences has a normal distribution, and/or $n>30$ or so.
+**5.** Since $n>30$, all OK if the histogram isn't severely skewed. Probably OK.
+**6.** Not really! But was this just due to using metric units? Perhaps students are just very poor at estimating widths...
        In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
 
-
+```
 
 
 
@@ -1600,16 +1584,16 @@ if( knitr::is_html_output() ) {
 ```
 
 
-
-1. Observational.
-2. Relational.
-3. Two completely separate samples are compared.
-4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
-5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.560$ inches, larger for EB.
-6. Since the sample sizes are large (both 125), we *do not require that the populations have normal distributions*.
-7. The sample sizes are large ($n=125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
-8. Probably yes. Amount of topping on the pizza? Which *tastes* better? Whether the samples were randonly selected or not?
-
+```{block2, type="answer"}
+**1.** Observational.
+**2.** Relational.
+**3.** Two completely separate samples are compared.
+**4.** $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
+**5.** The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.560$ inches, larger for EB.
+**6.** Since the sample sizes are large (both 125), we *do not require that the populations have normal distributions*.
+**7.** The sample sizes are large ($n=125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+**8.** Probably yes. Amount of topping on the pizza? Which *tastes* better? Whether the samples were randonly selected or not?
+```
 
 
 
@@ -1619,11 +1603,10 @@ if( knitr::is_html_output() ) {
 
 
 ```{r TermsANSWER, echo=FALSE}
-Terms <- array( "No", 
-                dim = c(6, 2))
+Terms <- array( "No", dim=c(6, 2))
 
 colnames(Terms) <- c("Applies to $\\mu$",
-                     "Applies to $\\bar{x}$")
+              "Applies to $\\bar{x}$")
 
 rownames(Terms) <- c("Has a standard error",
               "Refers to the population",
@@ -1639,15 +1622,15 @@ Terms[c(1,3,5) ,2] <- "YES"
 
 if( knitr::is_latex_output() ) {
   kable(Terms,
-      format = "latex",
-      booktab = TRUE,
-      align = c("r", "r"),
+      format="latex",
+      booktab=TRUE,
+      align=c("r", "r"),
       escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
-      linesep = c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
-      caption = "Which terms apply when? Tick the appropriate places in the table") %>%
-  kable_styling(full_width = FALSE) %>%
-  kable_styling(full_width = FALSE) %>%
-  row_spec(0, bold = TRUE)
+      linesep=c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
+      caption="Which terms apply when? Tick the appropriate places in the table") %>%
+  kable_styling(full_width=FALSE) %>%
+  kable_styling(full_width=FALSE) %>%
+  row_spec(0, bold=TRUE)
 }
 ```
 
@@ -1663,15 +1646,15 @@ if( knitr::is_latex_output() ) {
 
 
 
-
-1. $H_0$: No association between income level and opinion of GM foods in the population;
+```{block2, type="answer"}
+**1.** $H_0$: No association between income level and opinion of GM foods in the population;
        $H_1$:  An association between income level and opinion of GM foods in the population.
-2. Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
-3. Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
-4. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). The odds of HIE being for GM food 1.5 times the odds that a LIE for GM foods.
-5. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
+**2.** Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
+**3.** Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
+**4.** $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). The odds of HIE being for GM food 1.5 times the odds that a LIE for GM foods.
+**5.** From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
        (Loosely, though technically incorrect: the true OR is likely to be between 1.145 and 1.961.) Importantly, this interval does not include 1.
-
+```
 
 
 
@@ -1827,49 +1810,44 @@ Some answers embedded.
 
 ```{r echo=FALSE, ArtLimbMortalityANS}
 ArtLimb <- array( dim=c(3, 3) )
-colnames(ArtLimb) <- c("Alive",
-                       
-                       "Dead", "Total")
-rownames(ArtLimb) <- c("Used art. limb", 
-                       "Did not use art. limb", 
-                       "Total")
+colnames(ArtLimb) <- c("Alive", "Dead", "Total")
+rownames(ArtLimb) <- c("Used art. limb", "Did not use art. limb", "Total")
 
-  ArtLimb[1, 3] <- 65
-  ArtLimb[2, 3] <- 40
-  ArtLimb[3, 1] <- 70
-  ArtLimb[3, 2] <- 35
+  ArtLimb[1,3] <- 65
+  ArtLimb[2,3] <- 40
+  ArtLimb[3,1] <- 70
+  ArtLimb[3,2] <- 35
 
-  ArtLimb[1, 1] <- 49
-  ArtLimb[2, 1] <- 21
-  ArtLimb[1, 2] <- 16
-  ArtLimb[2, 2] <- 19
+  ArtLimb[1,1] <- 49
+  ArtLimb[2,1] <- 21
+  ArtLimb[1,2] <- 16
+  ArtLimb[2,2] <- 19
   
 ArtLimb[3,3] <- 105
    
 if( knitr::is_latex_output() ) {
    kable(ArtLimb,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-        caption = "Five-year mortality for artifical limb users",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+       caption="Five-year mortality for artifical limb users",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 }
 
 if( knitr::is_html_output() ) {
 
   
   kable(ArtLimb,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Five-year mortality for artifical limb users",
-        booktabs = TRUE) # %>%
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Five-year mortality for artifical limb users",
+      booktabs=TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
@@ -1884,43 +1862,38 @@ if( knitr::is_html_output() ) {
 
 
 ```{r echo=FALSE, ArtLimbSummaryANS}
-ArtLimbSumm <- array( dim = c(3, 3) )
-colnames(ArtLimbSumm) <- c("Percentage alive after 5 years", 
-                           "Odds alive after 5 years", 
-                           "Sample size")
-rownames(ArtLimbSumm) <- c("Use artificial limb", 
-                           "Did not use artifical limb", 
-                           "Odds ratio") 
+ArtLimbSumm <- array( dim=c(3, 3) )
+colnames(ArtLimbSumm) <- c("Percentage alive after 5 years", "Odds alive after 5 years", "Sample size")
+rownames(ArtLimbSumm) <- c("Use artificial limb", "Did not use artifical limb", "Odds ratio")
 
-  ArtLimbSumm[3, 1] <- ""
-  ArtLimbSumm[3, 3] <- ""
+  ArtLimbSumm[3,1] <- ""
+  ArtLimbSumm[3,3] <- ""
   
-  ArtLimbSumm[1, 3] <- 65
-  ArtLimbSumm[2, 3] <- 40
+  ArtLimbSumm[1,3] <- 65
+  ArtLimbSumm[2,3] <- 40
   
-  ArtLimbSumm[1, 1] <- round(49 / 65 * 100, 1)
-  ArtLimbSumm[2, 1] <- round(21 / 40 * 100, 1)
+  ArtLimbSumm[1,1] <- round(49/65*100, 1)
+  ArtLimbSumm[2,1] <- round(21/40*100, 1)
 
-  ArtLimbSumm[1, 2] <- round(49 / 16, 2)
-  ArtLimbSumm[2, 2] <- round(21 / 19, 2)
+  ArtLimbSumm[1,2] <- round(49/16, 2)
+  ArtLimbSumm[2,2] <- round(21/19, 2)
 
-  ArtLimbSumm[3, 2] <- 2.771
+  ArtLimbSumm[3,2] <- 2.771
 
   
-  ArtLimbSumm[3, 3] <- 626
+ArtLimbSumm[3,3] <- 626
    
 if( knitr::is_latex_output() ) {
    kable(ArtLimbSumm,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+       caption="Five-year mortality and use of an artificial limb: Numerical summary",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
 #   column_spec(column=3, width="5cm") %>%
@@ -1930,12 +1903,12 @@ if( knitr::is_latex_output() ) {
 if( knitr::is_html_output() ) {
 
   kable(ArtLimbSumm,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary",
-        booktabs = TRUE) # %>%
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Five-year mortality and use of an artificial limb: Numerical summary",
+      booktabs=TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
@@ -1947,16 +1920,16 @@ if( knitr::is_html_output() ) {
 
 ### Answers for Sect. \@ref(PvalueStatement)
 
-
+```{block2, type="answer"}
 The difference in odds is statistically significant, so 
 **either 2. or 4. is consistent with this conclusion**...
 and we cannot tell which.
 The size of the OR is not the issue here: 
 if the sample OR is statistically different from 1, it does not tell us much about the population OR except that it is (most likely) not one.
 
-2. The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. (This likely has a smaller sample size.)
-3. The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
-
+**2.** The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. (This likely has a smaller sample size.)
+**3.** The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
+```
 
 
 
@@ -1964,52 +1937,47 @@ if the sample OR is statistically different from 1, it does not tell us much abo
 
 ### Answers for Sect. \@ref(TablesHepC)
 
-
-1. Incorrect is the one about means.
-2. $113/626 = 18.05\%$.
-4. 18.05% of 47 is 8.48. See Table \@ref(tab:TattHepTabANS).
-5. $25\div 88 = 0.284$.
-6. $22\div 491 = 0.0448$.
-7. The OR is $0.284\div 0.0448 = 6.3$. This OR means that the odds of having Hep. C is 6.3 times greater
+```{block2, type="answer"}
+**1.** Incorrect is the one about means.
+**2.** $113/626 = 18.05\%$.
+**4.** 18.05% of 47 is 8.48. See Table \@ref(tab:TattHepTabANS).
+**5.** $25\div 88 = 0.284$.
+**6.** $22\div 491 = 0.0448$.
+**7.** The OR is $0.284\div 0.0448 = 6.3$. This OR means that the odds of having Hep. C is 6.3 times greater
        for students who have a tattoo, compared to those who do not have a tattoo.
        
-
+```
 
 
 
 
 ```{r echo=FALSE, TattHepTabANS}
 TattHep <- array( dim=c(3, 3) )
-colnames(TattHep) <- c("Had Hep. C", 
-                       "Did not have Hep. C", 
-                       "Total")
-rownames(TattHep) <- c("Had tattoo", 
-                       "Did not have tattoo", 
-                       "Total")
+colnames(TattHep) <- c("Had Hep. C", "Did not have Hep. C", "Total")
+rownames(TattHep) <- c("Had tattoo", "Did not have tattoo", "Total")
 
-  TattHep[1, 3] <- 113
-  TattHep[2, 3] <- 513
-  TattHep[3, 1] <- 47
-  TattHep[3, 2] <- 579
+  TattHep[1,3] <- 113
+  TattHep[2,3] <- 513
+  TattHep[3,1] <- 47
+  TattHep[3,2] <- 579
 
-  TattHep[1, 1] <- 25
-  TattHep[2, 1] <- 22
-  TattHep[1, 2] <- 88
-  TattHep[2, 2] <- 491
+  TattHep[1,1] <- 25
+  TattHep[2,1] <- 22
+  TattHep[1,2] <- 88
+  TattHep[2,2] <- 491
   
-TattHep[3, 3] <- 626
+TattHep[3,3] <- 626
    
 if( knitr::is_latex_output() ) {
    kable(TattHep,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
+        format="latex",
+        longtable=FALSE,
+        booktabs=TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-        caption = "Five-year mortality for artifical limb users",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+       caption="Five-year mortality for artifical limb users",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width=FALSE, font_size=10) %>%
   row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -2020,12 +1988,12 @@ if( knitr::is_latex_output() ) {
 if( knitr::is_html_output() ) {
 
   kable(TattHep,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-       caption = "Five-year mortality for artifical limb users",
-      booktabs = TRUE) # %>%
+        format="html",
+        align=c("r", "r", "r"),
+        escape=FALSE,
+        longtable=FALSE,
+       caption="Five-year mortality for artifical limb users",
+      booktabs=TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
@@ -2039,22 +2007,23 @@ if( knitr::is_html_output() ) {
 
 ### Answers to Sect. \@ref(IdentifyCorrectAnalyses)
 
-
-1. Two-sample $t$-test.
-2. A $\chi^2$ test.
-3. A paired $t$-test.
-4. A two-sample $t$-test.
-5. None of the other options are correct: requires regression or correlation.
-
+```{block2, type="answer"}
+**1.** Two-sample $t$-test.
+**2.** A $\chi^2$ test.
+**3.** A paired $t$-test.
+**4.** A two-sample $t$-test.
+**5.** None of the other options are correct: requires regression or correlation.
+```
 
 
 
 
 ### Answer for Sect. \@ref(TwoMeansHurricanes)
 
-
+```{block2, type="answer"}
 No evidence  of a difference in the mean number fatalities
 between female- and male-named hurricanes.
+```
 
 
 
@@ -2062,13 +2031,13 @@ between female- and male-named hurricanes.
 
 ### Answer to Sect. \@ref(AssumptionsGraphs)
 
-
+```{block2, type="answer"}
 The sample sizes are both much *larger* than 25,
 so neither sample needs to be normally distributed
 for **statistical validity**:
 The *sample means* will have an approximate normal distribution.
 **None of the graphs are needed.**
-
+```
 
 
 
@@ -2080,21 +2049,21 @@ The *sample means* will have an approximate normal distribution.
 ```
 
 
-
-1. $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$,
+```{block2, type="answer"}
+**1.** $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$,
       which can also be expressed in words. Two-tailed.
-2. The precision with which the sample mean battery life estimate the population mean battery life.
-3. Use the second row (though it matters little here): $t=-0.486$; $\text{df}=13.1$ and $P=0.635$.
-4. The sample presents no evidence ($t = -0.486$; $\text{df} = 13.0$ and $P = 0.635$) of a difference in the mean lifetimes 
+**2.** The precision with which the sample mean battery life estimate the population mean battery life.
+**3.** Use the second row (though it matters little here): $t=-0.486$; $\text{df}=13.1$ and $P=0.635$.
+**4.** The sample presents no evidence ($t=-0.486$; $\text{df}=13.0$ and $P=0.635$) of a difference in the mean lifetimes 
       (mean difference: $-0.0544$; s.e.: $0.112$) of the batteries in the population.
       (95% CI for the difference from $-0.30$ to $0.19$mins
       in favour of Ultracell.)
-5. Both population have a normal distribution,
-      and/or $n > 30$ or so.
-6. Since $n < 30$ for both samples, we must assume the populations both have a normal distribution.
+**5.** Both population have a normal distribution,
+      and/or $n>30$ or so.
+**6.** Since $n<30$ for both samples, we must assume the populations both have a normal distribution.
       Stem-and-leaf plots aren't convincing (possible outliers)
       but the samples are too small to know anything for sure.
-
+```
 
 
 
@@ -2102,26 +2071,26 @@ The *sample means* will have an approximate normal distribution.
 
 ### Answers to Sect. \@ref(ORTestsByss)
 
-
-1. The third one. The first is about samples. The  second is about means.
+```{block2, type="answer"}
+**1.** The third one. The first is about samples. The  second is about means.
 $H_0$: $\text{Pop. odds having byss.}_{\text{Smokers}} = \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR}=1$;
 $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR}>1$ for the OR suitably defined.  (One-tailed, from RQ).
-3. Smokers: $\hat{p} = 125/3,189 = 0.0392$; Non-smokers: $\hat{p} = 40/2,230 = 0.0179$.
-4. For smokers: $\text{Odds having byssinosis} = 125/3,064 = 0.0408$.   
+**3.** Smokers: $\hat{p} = 125/3,189 = 0.0392$; Non-smokers: $\hat{p} = 40/2,230 = 0.0179$.
+**4.** For smokers: $\text{Odds having byssinosis} = 125/3,064 = 0.0408$.   
        This means:
 			 smokers are 0.041 times as likely to have byssinosis than not
 			 (or, inverting the ratio, 24.5 times as likely not to have byssinosis than have it).
        For non-smokers: $\text{odds} = 40/2,190 = 0.01826$.
 			 Non-smokers are 0.018 times as likely to have byssinosis than not
 			 (or, inverting the ratio, 54.8 times as likely not to have byssinosis than have it).
-5. The OR is $0.04080/0.01826 = 2.2$, so the odds of a smoker having byssinosis are 2.2 times the odds of a non-smoker having byssinosis. 
-6. OR not one could be due to chance or because of a real difference in the population, due to smoking and/or other reasons.
-7. The sample provides strong evidence 
+**5.** The OR is $0.04080/0.01826 = 2.2$, so the odds of a smoker having byssinosis are 2.2 times the odds of a non-smoker having byssinosis. 
+**6.** OR not one could be due to chance or because of a real difference in the population, due to smoking and/or other reasons.
+**7.** The sample provides strong evidence 
 			 (one-tailed $P<0.001)$; $\text{df}=1$; $\text{chi-square}=20.092$; OR: $2.234$ ($95$% CI: $1.6$ to $3.2$))
 			 that the population proportion of smokers with byssinosis ($\hat{p} = 0.0392$) is greater than
        the population proportion of non-smokers with byssinosis ($\hat{p} = 0.0179$).
-8. Valid, since expected counts all exceed five (which they do: no SPSS warnings given for example).
-
+**8.** Valid, since expected counts all exceed five (which they do: no SPSS warnings given for example).
+```
 
 
 
@@ -2132,13 +2101,13 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-
-1. The null hypothesis is that the proportion (or the odds) of successful attempts is the same using EGTA and LM, in the two populations.
-2. Using symbols, based on using proportions: $H_0$: $p_{\text{EGTA}} =   p_{\text{LM}}$; $H_1$:  $p_{\text{EGTA}} \ne p_{\text{LM}}$ (two-tailed).
-3. The sample presents insufficient evidence ($\text{chi-square}=2.63$; $\text{df}=1$; $P=0.104$) that the success rates between EGTA and LM are different in the population.
-4. Yes: All expected counts are greater than 5 (no SPSS warning messages).
-5. No evidence of a difference, so perhaps consider other issues such as cost, longevity, pain associated with insertion etc.
-
+```{block2, type="answer"}
+**1.** The null hypothesis is that the proportion (or the odds) of successful attempts is the same using EGTA and LM, in the two populations.
+**2.** Using symbols, based on using proportions: $H_0$: $p_{\text{EGTA}} =   p_{\text{LM}}$; $H_1$:  $p_{\text{EGTA}} \ne p_{\text{LM}}$ (two-tailed).
+**3.** The sample presents insufficient evidence ($\text{chi-square}=2.63$; $\text{df}=1$; $P=0.104$) that the success rates between EGTA and LM are different in the population.
+**4.** Yes: All expected counts are greater than 5 (no SPSS warning messages).
+**5.** No evidence of a difference, so perhaps consider other issues such as cost, longevity, pain associated with insertion etc.
+```
 
 
 ### Answers to Sect. \@ref(PairedTestRunners)
@@ -2147,21 +2116,21 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 ```
 
 
-
-1. Before and after measurement on same runner.
-2. $H_0$: $\mu_d=0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d>0$ the way I defined the differences.  
+```{block2, type="answer"}
+**1.** Before and after measurement on same runner.
+**2.** $H_0$: $\mu_d=0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d>0$ the way I defined the differences.  
        We are explicitly seeking to test for an *increase*, so the test is one-tailed.
        (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
-3. Mean increase: $\bar{x} = 18.73$ pmol/litre; Standard deviation: $s=8.3297$ pmol/litre; standard error: $2.511$ pmol/litre.
-4. $t = 7.46$ and $\text{df}=11-1=10$. Since $t$ is very large, expect $P$ to be very small.
+**3.** Mean increase: $\bar{x} = 18.73$ pmol/litre; Standard deviation: $s=8.3297$ pmol/litre; standard error: $2.511$ pmol/litre.
+**4.** $t=7.46$ and $\text{df}=11-1=10$. Since $t$ is very large, expect $P$ to be very small.
        (The one-tailed $P$ less than $0.0005$ from Table A.2.)
-5. Very strong evidence exists in the sample (paired $t=7.46$; $\text{df}=10$; one-tailed $P$ less than $0.0005$)
+**5.** Very strong evidence exists in the sample (paired $t=7.46$; $\text{df}=10$; one-tailed $P$ less than $0.0005$)
        that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race
        (mean difference: $18.73$ pmol/litre higher after the race; std. dev.: 8.33 pmol/litre;
        95% CI from $13.14$ to $24.33$ pmol/litre).
-6. The population of differences has a normal distribution, and/or $n>30$ or so.
-7. Since $n<30$, must assume the population of differences has a normal distribution. The histogram suggests this is not unreasonable.
-
+**6.** The population of differences has a normal distribution, and/or $n>30$ or so.
+**7.** Since $n<30$, must assume the population of differences has a normal distribution. The histogram suggests this is not unreasonable.
+```
 
 
 
@@ -2288,15 +2257,15 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-
-1. 'What is the relationship between stem age and stem diameter in heather in the central north island of NZ?'
-2. Pretty good!  Too many tick marks; horizontal-axis labels would be better horizontal.  
-3. $r = \sqrt{0.431} = 0.6565$, or about $r=0.66$. Positive linear relationship, reasonably strong.
-4. $\hat{y} = (0.311 \times 20) + 1.531 = 7.751$.
-5. Slope of $0.311$: For each extra year of age, the stem diameter increases by about $0.311$&nbsp;mm on average.
+```{block2, type="answer"}
+**1.** 'What is the relationship between stem age and stem diameter in heather in the central north island of NZ?'
+**2.** Pretty good!  Too many tick marks; horizontal-axis labels would be better horizontal.  
+**3.** $r = \sqrt{0.431} = 0.6565$, or about $r=0.66$. Positive linear relationship, reasonably strong.
+**4.** $\hat{y} = (0.311 \times 20) + 1.531 = 7.751$.
+**5.** Slope of $0.311$: For each extra year of age, the stem diameter increases by about $0.311$&nbsp;mm on average.
        Intercept of $1.531$: For stems of zero years of age, the average stem diameter is about $1.531$&nbsp;mm.
        This interpretation is silly. A close look at the graph shows that this is extrapolation anyway: the data only start at about 3 years of age.
-
+```
 
 
 

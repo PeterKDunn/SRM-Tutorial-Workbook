@@ -1,0 +1,37 @@
+
+## Study design {#Design}
+
+A student group was studying this RQ (which is not appropriate for the Project):
+
+> Among Americans, is the median serum cholesterol concentration different for smokers and non-smokers?
+
+The students gave the following information about their study.
+Explain why each of these statements is incorrect.
+
+1. The design is observational, as we cannot determine each person's serum cholesterol.
+2. The Outcome is 'the median serum cholesterol levels for smokers and non-smokers'.
+3. The study is not externally valid, as the results may not apply to all people in the world. 
+4. The response variable is *serum cholesterol*.
+5. In this experiment, SOMETHIUNG
+6. The data file will have two columns: One for smokers, and one for non-smokers.
+7. Confounding var that only connects to one....
+8. The *observer effect* is not relevant, as the participants will know they are invovled in a study.
+
+
+
+### ANSWERS FOR LATER
+
+1. The study is *observational*, but because the researchers cannot determine the C (whether the person is a smoker or not).
+   The critical element here is C, not O.
+2. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
+3. *External validity* only refers to whether the *sample* represents the given *population*, which is *Americans*.
+   Whether the results apply for the entire world is irrelevant.
+4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
+   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of seru cholesterol".
+5. This is not an experiment, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
+6. In the data file, each row is a unit of analysis and each column is a variable. 
+   So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
+7. ihihi
+8. The *observer effect* is about how the *researchers* might respond, *not* theindividuals under study.
+
+
