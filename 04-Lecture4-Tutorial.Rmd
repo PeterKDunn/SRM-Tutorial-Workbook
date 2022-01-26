@@ -241,6 +241,268 @@ the data shown below were collected.
 
 
 
+
+
+## Two-way tables {#TwoWayTables}
+
+
+
+
+<div style="float:right; width: 222x; border: 1px; padding:10px">
+<img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
+</div>
+
+
+
+
+
+
+Soccer is a unique in that one aspect is 
+
+> ...the purposeful use of the unprotected head for controlling and advancing the ball...
+>
+>  --- @data:Gausche200:Endotracheal
+
+Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
+
+A study 
+[@data:Gausche200:Endotracheal]
+was conducted to determine
+
+> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion)
+> was present in collegiate soccer players
+>
+> --- @data:Gausche200:Endotracheal, p. 157.
+
+Data were collected from 
+240 college students:
+
+* The student type:
+  One of 'soccer players' (63 students),
+  'non-soccer athletes' (96 students),    
+  or 'non-athletes' (81 students).
+* The number of head concussions:
+  Each student was asked
+  about the number of head concussions they had experienced;
+  'zero' (158 students),
+  'one' (45 students), 
+  or 
+  'two or more'  (37 students) concussions.
+
+Use the study data
+(Table \@ref(tab:SoccerTable))
+to answer the following questions.
+	     
+	     
+```{r SoccerTable, echo=FALSE}
+SoccerTab <- array(dim=c(4, 4))
+rownames(SoccerTab) <- c("Soccer players",
+                         "Non-soccer athletes",
+                         "Non-athletes",
+                         "Total")
+colnames(SoccerTab) <- c("0", 
+                         "1", 
+                         "2 or more", 
+                         "Total")
+
+SoccerTab[1, ] <- c(45, 5, 13, 63)
+SoccerTab[2, ] <- c(68, 25, 3, 96)
+SoccerTab[3, ] <- c(45, 15, 21, 81)
+SoccerTab[4, ] <- c(158, 45, 37, 240)
+
+if( knitr::is_latex_output() ) {
+  kable(SoccerTab,
+      format = "latex",
+      booktabs = TRUE,
+      caption = "Data on concussions experienced by college students") %>%
+  column_spec(1, bold = TRUE) %>%
+  column_spec(5, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  row_spec(4, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+if( knitr::is_html_output() ) {
+  kable(SoccerTab,
+      format = "html",
+      booktabs = TRUE,
+      caption = "Data on concussions experienced by college students") %>%
+  column_spec(1, bold = TRUE) %>%
+  column_spec(5, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  row_spec(4, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+   
+1. Compute the percentage of college students in the *sample* overall that 
+   have received exactly one concussion.
+2. Many possible graphs exists to display the data; 
+   four are shown in Fig. \@ref(fig:SoccerGraph).
+   What is the main message from each graph?
+   Which graph do you think is best?  Why?
+
+```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
+
+SP <- matrix( nrow = 3, 
+              ncol = 3, 
+              data = c(45, 5, 13, 68, 25, 3, 45, 15, 21), 
+              byrow = TRUE,
+              dimnames = list( c("S", "NS", "NA"),
+                              c("0", "1", "2+") )
+              )
+
+SP.pc1 <- prop.table(SP,  
+                     margin = 1) * 100
+SP.pc2 <- prop.table(SP,  
+                     margin = 2) * 100
+
+#cols <- c( grey(0.2),
+#           grey(0.5),
+#           grey(0.8))
+
+cols <- viridis(3, # Three colours
+                alpha = 0.5,
+                option = "E") # See  ?viridis: The pallete to use
+
+par( mfrow=c(2,2), 
+     xpd = NA, # A logical value or NA. If FALSE, all plotting is clipped to the plot region, 
+               # if TRUE, all plotting is clipped to the figure region, and 
+               # if NA, all plotting is clipped to the device region. See also clip.
+     mar = c(3, 4, 12, 4) + 0.1 )
+#     mar=c(5.1, 4.1, 4.1, 9.1))
+#par(mar = c(10, 4, 4, 0.5) + 0.1,
+
+barplot(SP,     
+        las = 1,
+        ylim = c(0, 160),
+        axes = FALSE,
+        col = cols,
+        ylab = "Number of students", 
+        args.legend=list(x = "right", 
+                         title = "Student:", 
+                         xpd = TRUE, 
+                         inset = c(-0.6, 0) ), 
+        xlab = "Number of concussions",
+        main = "Student types by occurrence\nof concussions")
+axis(side = 2, 
+     at = seq(0, 160, by = 40),
+     las = 1)
+#axis(side=1)
+# Add the labels meanings
+legend("top",
+       fill = cols,
+       bty = "o",
+       box.col = "grey",
+       cex = 1,
+       ncol = 2,
+       #lwd = 2,
+       #horiz=TRUE,
+       inset = c(0, -0.40),
+       legend = c("Soccer", 
+                  "Athlete", 
+                  "Non-athlete") )
+
+barplot( t(SP.pc1), 
+         las = 1, 
+         col = cols,
+         ylab = "Percentage of students", 
+         args.legend = list(x = "right", 
+                            title = "Concussions:", 
+                            bg = "white", 
+                            xpd = TRUE, 
+                            inset = c(-0.7, 0)), 
+         xlab = "Student type",
+         main = "Occurrence of concussions\nby student type")
+legend("top",
+       fill = cols,
+       bty = "o",
+       box.col = "grey",
+       cex = 1,
+       ncol=2,
+       #lwd = 2,
+       #horiz=TRUE,
+       inset = c(0, -0.40),
+       legend = c("0", 
+                  "1", 
+                  "2+") )
+barplot( t(SP.pc1), 
+         beside = TRUE, 
+         col = cols,
+         las = 1, 
+         ylim = c(0, 80),
+         ylab = "Percentage of students", 
+         args.legend = list(title = "Concussions:", 
+                            bg = "white", 
+                            x = "right", 
+                            xpd = TRUE, 
+                            inset = c(-0.7, 0)), 
+         xlab = "Student type",
+         main = "Occurrence of concussions\nby student type")
+legend("top",
+       fill = cols,
+       bty = "o",
+       box.col = "grey",
+       cex = 1,
+       ncol=2,
+       #lwd = 2,
+       #horiz=TRUE,
+       inset = c(0, -0.40),
+       legend = c("0", 
+                  "1", 
+                  "2+") )
+barplot(SP.pc2, 
+        beside = TRUE, 
+        las = 1,         
+        col = cols,
+        ylim = c(0, 60),
+        ylab = "Percentage of students", 
+        args.legend = list(title = "Student:", 
+                           bg = "white",
+                           x = "right",
+                           xpd = TRUE, 
+                           inset = c(-0.6, 0)), 
+        xlab = "Number of concussions",
+        main = "Student types by\noccurrence of concussions")
+legend("top",
+       fill = cols,
+       bty = "o",
+       box.col = "grey",
+       cex = 1,
+       ncol = 2,
+       #lwd = 2,
+       #horiz=TRUE,
+       inset = c(0, -0.40),
+       legend = c("Soccer", 
+                  "Athlete", 
+                  "Non-athlete") )
+```
+
+3. Among the **non-athletes**, 
+   compute the odds of receiving two or more concussions.
+   Interpret what this means.
+4. Among the **soccer players**, 
+   compute the odds of receiving two or more concussions.
+   (Refer to Table \@ref(tab:SoccerTable).)
+   Interpret what this means.
+5. Compute the odds ratio
+	 comparing the odds of a non-athlete player receiving two or more concussions
+	 to the odds of a soccer player receiving two or more concussions.
+6. Create a table of **column** percentages.
+	 What do these tell you?
+7. Create a table of **row** percentages.
+	 What do these tell you?
+8. Which one of these tables is probably more sensible, and why?
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458368&sec_digit=866310140&embeded_digit=144702422' style='width:100%; height:550px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+
 ## Understanding histograms and boxplots {#UnderstandingBoxplots}
 
 
@@ -562,268 +824,6 @@ knitr::include_graphics("ProjectImages/StudentResults1.png")
 ```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="60%"}
 knitr::include_graphics("ProjectImages/StudentResults2.png")
 ```
-
-
-
-
-
-
-## Two-way tables {#TwoWayTables}
-
-
-
-
-<div style="float:right; width: 222x; border: 1px; padding:10px">
-<img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
-</div>
-
-
-
-
-
-
-Soccer is a unique in that one aspect is 
-
-> ...the purposeful use of the unprotected head for controlling and advancing the ball...
->
->  --- @data:Gausche200:Endotracheal
-
-Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
-
-A study 
-[@data:Gausche200:Endotracheal]
-was conducted to determine
-
-> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion)
-> was present in collegiate soccer players
->
-> --- @data:Gausche200:Endotracheal, p. 157.
-
-Data were collected from 
-240 college students:
-
-* The student type:
-  One of 'soccer players' (63 students),
-  'non-soccer athletes' (96 students),    
-  or 'non-athletes' (81 students).
-* The number of head concussions:
-  Each student was asked
-  about the number of head concussions they had experienced;
-  'zero' (158 students),
-  'one' (45 students), 
-  or 
-  'two or more'  (37 students) concussions.
-
-Use the study data
-(Table \@ref(tab:SoccerTable))
-to answer the following questions.
-	     
-	     
-```{r SoccerTable, echo=FALSE}
-SoccerTab <- array(dim=c(4, 4))
-rownames(SoccerTab) <- c("Soccer players",
-                         "Non-soccer athletes",
-                         "Non-athletes",
-                         "Total")
-colnames(SoccerTab) <- c("0", 
-                         "1", 
-                         "2 or more", 
-                         "Total")
-
-SoccerTab[1, ] <- c(45, 5, 13, 63)
-SoccerTab[2, ] <- c(68, 25, 3, 96)
-SoccerTab[3, ] <- c(45, 15, 21, 81)
-SoccerTab[4, ] <- c(158, 45, 37, 240)
-
-if( knitr::is_latex_output() ) {
-  kable(SoccerTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "Data on concussions experienced by college students") %>%
-  column_spec(1, bold = TRUE) %>%
-  column_spec(5, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  row_spec(4, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-if( knitr::is_html_output() ) {
-  kable(SoccerTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "Data on concussions experienced by college students") %>%
-  column_spec(1, bold = TRUE) %>%
-  column_spec(5, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  row_spec(4, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-   
-1. Compute the percentage of college students in the *sample* overall that 
-   have received exactly one concussion.
-2. Many possible graphs exists to display the data; 
-   four are shown in Fig. \@ref(fig:SoccerGraph).
-   What is the main message from each graph?
-   Which graph do you think is best?  Why?
-
-```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
-
-SP <- matrix( nrow = 3, 
-              ncol = 3, 
-              data = c(45, 5, 13, 68, 25, 3, 45, 15, 21), 
-              byrow = TRUE,
-              dimnames = list( c("S", "NS", "NA"),
-                              c("0", "1", "2+") )
-              )
-
-SP.pc1 <- prop.table(SP,  
-                     margin = 1) * 100
-SP.pc2 <- prop.table(SP,  
-                     margin = 2) * 100
-
-#cols <- c( grey(0.2),
-#           grey(0.5),
-#           grey(0.8))
-
-cols <- viridis(3, # Three colours
-                alpha = 0.5,
-                option = "E") # See  ?viridis: The pallete to use
-
-par( mfrow=c(2,2), 
-     xpd = NA, # A logical value or NA. If FALSE, all plotting is clipped to the plot region, 
-               # if TRUE, all plotting is clipped to the figure region, and 
-               # if NA, all plotting is clipped to the device region. See also clip.
-     mar = c(3, 4, 12, 4) + 0.1 )
-#     mar=c(5.1, 4.1, 4.1, 9.1))
-#par(mar = c(10, 4, 4, 0.5) + 0.1,
-
-barplot(SP,     
-        las = 1,
-        ylim = c(0, 160),
-        axes = FALSE,
-        col = cols,
-        ylab = "Number of students", 
-        args.legend=list(x = "right", 
-                         title = "Student:", 
-                         xpd = TRUE, 
-                         inset = c(-0.6, 0) ), 
-        xlab = "Number of concussions",
-        main = "Student types by occurrence\nof concussions")
-axis(side = 2, 
-     at = seq(0, 160, by = 40),
-     las = 1)
-#axis(side=1)
-# Add the labels meanings
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol = 2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset = c(0, -0.40),
-       legend = c("Soccer", 
-                  "Athlete", 
-                  "Non-athlete") )
-
-barplot( t(SP.pc1), 
-         las = 1, 
-         col = cols,
-         ylab = "Percentage of students", 
-         args.legend = list(x = "right", 
-                            title = "Concussions:", 
-                            bg = "white", 
-                            xpd = TRUE, 
-                            inset = c(-0.7, 0)), 
-         xlab = "Student type",
-         main = "Occurrence of concussions\nby student type")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset = c(0, -0.40),
-       legend = c("0", 
-                  "1", 
-                  "2+") )
-barplot( t(SP.pc1), 
-         beside = TRUE, 
-         col = cols,
-         las = 1, 
-         ylim = c(0, 80),
-         ylab = "Percentage of students", 
-         args.legend = list(title = "Concussions:", 
-                            bg = "white", 
-                            x = "right", 
-                            xpd = TRUE, 
-                            inset = c(-0.7, 0)), 
-         xlab = "Student type",
-         main = "Occurrence of concussions\nby student type")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol=2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset = c(0, -0.40),
-       legend = c("0", 
-                  "1", 
-                  "2+") )
-barplot(SP.pc2, 
-        beside = TRUE, 
-        las = 1,         
-        col = cols,
-        ylim = c(0, 60),
-        ylab = "Percentage of students", 
-        args.legend = list(title = "Student:", 
-                           bg = "white",
-                           x = "right",
-                           xpd = TRUE, 
-                           inset = c(-0.6, 0)), 
-        xlab = "Number of concussions",
-        main = "Student types by\noccurrence of concussions")
-legend("top",
-       fill = cols,
-       bty = "o",
-       box.col = "grey",
-       cex = 1,
-       ncol = 2,
-       #lwd = 2,
-       #horiz=TRUE,
-       inset = c(0, -0.40),
-       legend = c("Soccer", 
-                  "Athlete", 
-                  "Non-athlete") )
-```
-
-3. Among the **non-athletes**, 
-   compute the odds of receiving two or more concussions.
-   Interpret what this means.
-4. Among the **soccer players**, 
-   compute the odds of receiving two or more concussions.
-   (Refer to Table \@ref(tab:SoccerTable).)
-   Interpret what this means.
-5. Compute the odds ratio
-	 comparing the odds of a non-athlete player receiving two or more concussions
-	 to the odds of a soccer player receiving two or more concussions.
-6. Create a table of **column** percentages.
-	 What do these tell you?
-7. Create a table of **row** percentages.
-	 What do these tell you?
-8. Which one of these tables is probably more sensible, and why?
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458368&sec_digit=866310140&embeded_digit=144702422' style='width:100%; height:550px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
 
 
 
