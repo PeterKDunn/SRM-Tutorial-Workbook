@@ -69,6 +69,14 @@ What *type* of definition is this?
                       answer = "Conceptual") )}`
 
 
+
+
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
 `r webexercises::hide()`
 1. **Relational**: There is a comparison (between Chinese and Indian meals), but this is **not** an interventional (as the researchers did not determine whether a meal was Chinese or Indian).
 1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
@@ -81,7 +89,6 @@ What *type* of definition is this?
 1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured.
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
 
 

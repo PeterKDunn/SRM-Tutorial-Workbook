@@ -178,6 +178,12 @@ if( knitr::is_html_output() ) {
                       "1.22",
                       answer = "0.82") )}`
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
 `r webexercises::hide()`
 1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
 1. Variation is measured using standard deviation or IQR.
@@ -186,8 +192,6 @@ if( knitr::is_html_output() ) {
 1. $27/60\times 100 = 45$%.
 1. $27/33 = 0.8181...$.
 `r webexercises::unhide()`
-
-**Progress:** `r webexercises::total_correct()`
 
 
 

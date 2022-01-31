@@ -127,6 +127,13 @@ if( knitr::is_html_output() ) {
                       "Boxplot") )}`
 
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
+
 `r webexercises::hide()`
 1. *Age* is quantitative, so histograms or stem-and-leaf plots are appropriate.
 1. *Gender* is qualitative, so bar charts or pie charts are appropriate.
@@ -134,7 +141,6 @@ if( knitr::is_html_output() ) {
 1. Both *age* and *REI* are quantitative, so a scatterplot is appropriate.
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
 
 

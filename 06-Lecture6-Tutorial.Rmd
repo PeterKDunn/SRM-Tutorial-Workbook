@@ -36,7 +36,11 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
    
-   
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
 
 `r webexercises::hide()`
 1. **FALSE**. A CI is an interval which probably contains the **population** value. We already know the **sample** value... we don't need an interval for it.
@@ -44,10 +48,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. **FALSE**. A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
-   
-   
    
 
 

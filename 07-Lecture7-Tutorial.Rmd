@@ -57,6 +57,12 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
 }`
 
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
 `r webexercises::hide()`
 1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
 1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
@@ -64,9 +70,6 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
    So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of 2.32 more DMFT.
 1. The sample sizes are *just* less than 25, so the CI will *probably* be statistically valid (but we'd more certain about this if the sample sizes were 25 or more).
 `r webexercises::unhide()`
-
-**Progress:** `r webexercises::total_correct()`
-
 
 
 

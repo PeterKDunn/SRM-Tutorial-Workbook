@@ -290,7 +290,23 @@
   } 
 
   
-  
+
+
+% Progress Box: Should be blank (i.e. nothing appears) for LaTeX as it is not dynamic
+\AtBeginEnvironment{progressBox}{\begin{comment}}
+\AtEndEnvironment{progressBox}{\end{comment}}
+
+\newtcolorbox{progresscolourbox}{
+  colback = LightYellow,
+  colframe = LightYellow,
+  coltext = black,
+  boxsep = 5pt,
+  arc = 4pt}
+\newenvironment{progressBox}
+  {}
+  {}
+
+
   
  
   

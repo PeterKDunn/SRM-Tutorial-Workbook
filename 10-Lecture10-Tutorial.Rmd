@@ -44,6 +44,11 @@ The mean time from scene arrival to starting the first advanced airway procedure
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
 
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
 
 `r webexercises::hide()`
 1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
@@ -54,7 +59,6 @@ The mean time from scene arrival to starting the first advanced airway procedure
 1. **FALSE**. This is not what the $P$-vaule means (see the textbook).
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
 
 

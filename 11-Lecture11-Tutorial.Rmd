@@ -65,7 +65,13 @@ In autumn, the correlation coefficient was given as $r = 0.931$
           answer = "The slope is unlikely to be non-zero simply by chance",
           "There is evidence that the mean number of seeds is different than the mean grams of mud") )}`
 		      
-		      
+
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
 
 `r webexercises::hide()`
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
@@ -75,8 +81,6 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
 1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero).
 `r webexercises::unhide()`
-
-**Progress:** `r webexercises::total_correct()`
 
 		      
 		      

@@ -55,6 +55,10 @@ The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM bet
 1. True or false: A *standard error* measures the size of the difference between the sample proportion and the population proportion.   
 `r if( knitr::is_html_output() ) {webexercises::torf(FALSE) }`
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
 
 
 `r webexercises::hide()`
@@ -64,7 +68,6 @@ The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM bet
 1. The *standard error* measures how much a sample value is likely to vary from sample to sample.
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
 
 

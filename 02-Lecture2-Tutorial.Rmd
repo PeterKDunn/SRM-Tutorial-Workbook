@@ -65,7 +65,10 @@ Consider this (qualitative) RQ:
 		      
 		      
 
-
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
 
 
 `r webexercises::hide()`
@@ -77,7 +80,6 @@ Consider this (qualitative) RQ:
    Taking every *ninth* person does not make the sample a random (systematic) sample, but I suppose it helps make the sample more representative. 
 `r webexercises::unhide()`
 
-**Progress:** `r webexercises::total_correct()`
 
 
 
