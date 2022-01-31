@@ -23,7 +23,7 @@ In this chapter, you will learn and practice the content associated with these c
 
  
 
-## Quick revision {#QuickRevision-Tutorial6}
+## Quick revision {#QuickRevision-Tutorial5}
 
 
 ::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}

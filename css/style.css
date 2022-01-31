@@ -121,7 +121,9 @@ body {
 .preClass {
   background-image: url("../icons/iconmonstr-home-7-240.png");
 }
-
+.progress {
+  background-image: url("../icons/iconmonstr-arrow-32-240.png");
+}
 
 
 
