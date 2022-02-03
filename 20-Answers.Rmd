@@ -11,18 +11,18 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answers for Teaching Week tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
+* Answer: TW tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
+* Answer: TW tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
+* Answer: TW tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
+* Answer: TW tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
+* Answer: TW tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
+* Answer: TW tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
+* Answer: TW tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
 * No Exercises in the Break week.
-* Answers for Teaching Week tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
-* Answers for Teaching Week tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
+* Answer: TW tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
+* Answer: TW tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
+* Answer: TW tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
+* Answer: TW tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
 
 
 
@@ -32,7 +32,7 @@ Some are fully worked, and some are only brief solutions.
 
 
 
-## Answers for Teaching Week 1 tutorial {#Lecture1Answers}
+## Answer: TW 1 tutorial {#Lecture1Answers}
 
 
 
@@ -246,7 +246,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-## Answers for Teaching Week 2 tutorial {#Lecture2Answers}
+## Answer: TW 2 tutorial {#Lecture2Answers}
 
 
 
@@ -410,7 +410,7 @@ then cars at random.
 
 
 
-## Answers for Teaching Week 3 tutorial {#Lecture3Answers}
+## Answer: TW 3 tutorial {#Lecture3Answers}
 
 
 ### Answers for Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
@@ -547,7 +547,7 @@ A small outlier (near 10.5 inches)
 
 
 
-## Answers for Teaching Week 4 tutorial {#Lecture4Answers}
+## Answer: TW 4 tutorial {#Lecture4Answers}
 
 
 
@@ -917,7 +917,7 @@ Median: 13.35%.
  
  
 
-## Answers for Teaching Week 5 tutorial {#Lecture5Answers}
+## Answer: TW 5 tutorial {#Lecture5Answers}
 
 
 
@@ -1018,7 +1018,7 @@ However, if what we observe is **consistent** with what was expected, then the t
 
 
 
-## Answers for Teaching Week 6 tutorial {#Lecture6Answers}
+## Answer: TW 6 tutorial {#Lecture6Answers}
 
 
 ### Answers for Sect. \@ref(SEproportions) {.unlisted .unnumbered}
@@ -1302,7 +1302,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-## Answers for Teaching Week 7 tutorial {#Lecture7Answers}
+## Answer: TW 7 tutorial {#Lecture7Answers}
 
 
 ### Answers for Sect. \@ref(ConceptsMatches) {.unlisted .unnumbered}
@@ -1600,12 +1600,12 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 
 
-## Answers for Teaching Week 8 tutorial {#Lecture8Answers}
+## Answer: TW 8 tutorial {#Lecture8Answers}
 
 
 
 
-## Answers for Teaching Week 9 tutorial {#Lecture9Answers}
+## Answer: TW 9 tutorial {#Lecture9Answers}
 
 
 ### Answers for Sect. \@ref(HTOneMean-A) {.unlisted .unnumbered}
@@ -1809,7 +1809,7 @@ if the sample OR is statistically different from 1, it does not tell us much abo
 
 
 
-## Answers for Teaching Week 10 tutorial {#Lecture10Answers}
+## Answer: TW 10 tutorial {#Lecture10Answers}
 
 
 ### Answers for Sect. \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
@@ -2211,7 +2211,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers for Teaching Week 11 tutorial {#Lecture11Answers}
+## Answer: TW 11 tutorial {#Lecture11Answers}
 
 
 ### Answers for Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
@@ -2343,7 +2343,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers for Teaching Week 12 tutorial {#Lecture12Answers}
+## Answer: TW 12 tutorial {#Lecture12Answers}
 
 ### Answers for Sect. \@ref(CIConcrete) {.unlisted .unnumbered}
 

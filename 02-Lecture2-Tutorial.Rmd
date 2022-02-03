@@ -341,9 +341,18 @@ m <- leaflet() %>%
    setView(lng=153.064970, lat=-26.716504, zoom=15.5) %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
   addMarkers(lng=153.064970, lat=-26.716504, popup="USC (Sippy Downs Campus)")
-m 
+if (knitr::is_html_output()){
+  m
+}
 ```
 
+
+
+```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+if (knitr::is_latex_output()){
+  knitr::include_graphics("images/USC-Campus.png")
+}
+```
 
 
 
