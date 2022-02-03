@@ -637,76 +637,6 @@ boxplot(Width ~ Location,
 
 
 
-## Which summary measures to use {#WhichSummaryToUse}
-
-A study of different orthoses (orthotic devices)
-in children with 
-cerebral palsy [@data:Swinnen2017:orthoses]
-produced the demographic data of the participants.
-
-[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
-is the 
-'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
-which is:
-
-> ... a 5 level clinical classification system that describes the gross motor function 
-> of people with cerebral palsy on the basis of self-initiated movement abilities.
->
-> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
-
-
-`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
-
-
-`r if (knitr::is_html_output()) '<!--'`
-
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
-knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
-```
-`r if (knitr::is_html_output()) '-->'`
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
-```
-
-
-
-
-<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-<!-- 1. What are the variables? How many variables are there? -->
-<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
-<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
-<!-- 1. Explain which *numerical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually. -->
-<!-- 2. Explain which *graphical* summaries you would use  -->
-<!--  	 to summarise the data collected for *each*  -->
-<!--  	 variable individually.   -->
-
-<!--  	 (You don't have to *produce* the summaries,  -->
-<!--  	 just explain which would be appropriate. -->
-<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
-<!-- 3. What graphs would you use to display the *relationship* -->
-<!--    between Gender and Height?   -->
-
-<!--  	 What graphs would you use to display the *relationship* -->
-<!--    between Gender and GMFCS? -->
-
-<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
-<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
-<!-- ``` -->
-
-
-
-
-
 ## Using the calculator statistics mode {#StatsMode}
 
 
@@ -772,6 +702,76 @@ You are probably pressing the incorrect button to get the standard deviation.
 4. Compute the range of the MOR values.
 5. What specifications would you report about the MOR of bamboo flooring based on these data?
 6. What would be the implication if all five values were from the *same* floorboard?
+
+
+
+
+
+## Which summary measures to use {#WhichSummaryToUse}
+
+A study of different orthoses (orthotic devices)
+in children with 
+cerebral palsy [@data:Swinnen2017:orthoses]
+produced the demographic data of the participants.
+
+[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
+is the 
+'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
+which is:
+
+> ... a 5 level clinical classification system that describes the gross motor function 
+> of people with cerebral palsy on the basis of self-initiated movement abilities.
+>
+> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
+
+
+`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
+
+
+`r if (knitr::is_html_output()) '<!--'`
+
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
+knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
+```
+`r if (knitr::is_html_output()) '-->'`
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
+```
+
+
+
+
+<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+<!-- 1. What are the variables? How many variables are there? -->
+<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
+<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
+<!-- 1. Explain which *numerical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually. -->
+<!-- 2. Explain which *graphical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually.   -->
+
+<!--  	 (You don't have to *produce* the summaries,  -->
+<!--  	 just explain which would be appropriate. -->
+<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
+<!-- 3. What graphs would you use to display the *relationship* -->
+<!--    between Gender and Height?   -->
+
+<!--  	 What graphs would you use to display the *relationship* -->
+<!--    between Gender and GMFCS? -->
+
+<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
+<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
+<!-- ``` -->
 
 
 

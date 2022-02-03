@@ -6,23 +6,23 @@
 
 
 
-# Answers to exercises {#OptionalAnswers}
+# Answers for exercises {#OptionalAnswers}
 
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answers to Teaching Week tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
 * No Exercises in the Break week.
-* Answers to Teaching Week tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
-* Answers to Teaching Week tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
+* Answers for Teaching Week tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
 
 
 
@@ -32,12 +32,12 @@ Some are fully worked, and some are only brief solutions.
 
 
 
-## Answers to Teaching Week 1 tutorial {#Lecture1Answers}
+## Answers for Teaching Week 1 tutorial {#Lecture1Answers}
 
 
 
 
-### Answer to Sect. \@ref(ResearchProcess) {.unlisted .unnumbered}
+### Answer for Sect. \@ref(ResearchProcess) {.unlisted .unnumbered}
 
 The process is:
 
@@ -50,7 +50,7 @@ The process is:
  
  
  
-### Answers to Sect. \@ref(FormingRQs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(FormingRQs) {.unlisted .unnumbered}
 
 1. Either is OK; they are just different. Note the different way a study can be addressed.  
    But importantly: neither RQ is actually helping answer the issue of the cafe owner!  
@@ -68,13 +68,13 @@ The process is:
    Besides, people buy what they like...
 
 
-### Answers to Sect. \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
 
 You can use the **Glossary** in the textbook!
 
 
 
-### Answers to Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -95,7 +95,7 @@ More directly:
 
 
 
-### Answers to Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
    All of the options are possibilities.  
@@ -148,7 +148,7 @@ More directly:
 
 
 
-### Answers to Sect. \@ref(Units) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(Units) {.unlisted .unnumbered}
 
 1. The unit of analysis is the *floorboard*: 
    because one board is compared to another;
@@ -166,7 +166,7 @@ More directly:
 
 
 
-### Answers to Sect. \@ref(TypesOfStudies) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(TypesOfStudies) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -178,7 +178,7 @@ More directly:
 
 
 
-### Answers to Sect. \@ref(TerminologyLect1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(TerminologyLect1) {.unlisted .unnumbered}
 
 Answers implied by the crossword:
 
@@ -190,7 +190,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-### Answers to Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
 
 1. Should be in terms of averages or means. So perhaps
    "Among watertanks used in southeast Queensland,
@@ -211,7 +211,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-### Answers to Sect. \@ref(TerminologyLead)
+### Answers for Sect. \@ref(TerminologyLead) {.unlisted .unnumbered}
 
 
 
@@ -227,7 +227,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-### Answers to Sect. \@ref(Units2)
+### Answers for Sect. \@ref(Units2) {.unlisted .unnumbered}
 
 
 1. The *units of analysis*:  *a.* The individuals ingots.
@@ -235,7 +235,7 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-### Answers to Sect. \@ref(Units3)
+### Answers for Sect. \@ref(Units3) {.unlisted .unnumbered}
 
 
 1. The units of analysis: The fish tanks.
@@ -246,25 +246,12 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 
 
 
-## Answers to Teaching Week 2 tutorial {#Lecture2Answers}
+## Answers for Teaching Week 2 tutorial {#Lecture2Answers}
 
 
 
 
-### Answers to Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
-
-Answers implied by the crossword:
-
-
-```{r, echo=FALSE, out.width= "70%", fig.align="center"}
-include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
-```
-
-
-
-
-
-### Answers to Sect. \@ref(StudyDesign) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(StudyDesign) {.unlisted .unnumbered}
 
 1. The study is *observational*, but because the researchers cannot determine the C (whether the person is a smoker or not).
    The critical element here is C, *not* O.
@@ -282,9 +269,20 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
 
 
 
+### Answers for Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+
+Answers implied by the crossword:
 
 
-### Answers to Sect. \@ref(AssessReport) {.unlisted .unnumbered}
+```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
+```
+
+
+
+
+
+### Answers for Sect. \@ref(AssessReport) {.unlisted .unnumbered}
 
 1. **Outcome**: mortality *rate* or similar;
    **Response variable**: whether or not an *individual* baby survived.
@@ -319,7 +317,7 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
 
 
 
-### Answers to Sect. \@ref(StudyFeatures) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(StudyFeatures) {.unlisted .unnumbered}
 
 1. Yes: "They were randomly allocated to take palmolein ("B9") or canola ("T4") crisps for the first 3 weeks, 
    then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks".
@@ -328,9 +326,8 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
 4. Probably.
 
 
-### Answers to Sect. \@ref(SamplingParking)
 
-
+### Answers for Sect. \@ref(SamplingParking) {.unlisted .unnumbered}
 
 Use a multi-stage sample:
 Select a carpark at random, 
@@ -339,7 +336,7 @@ then cars at random.
 
 
 
-### Answers to Sect. \@ref(UnderstandTerminologyStudies)
+### Answers for Sect. \@ref(UnderstandTerminologyStudies) {.unlisted .unnumbered}
 
 
 1. The 'who' or 'what' which are observed, and for which data are collected: *F. Units of observation*.
@@ -356,8 +353,7 @@ then cars at random.
 
 
 
-### Answers to Sect. \@ref(UnderstandFishoil)
-
+### Answers for Sect. \@ref(UnderstandFishoil) {.unlisted .unnumbered}
 
 1. Variables: risk of dying from heart disease (or mortality rate? It's a bit ambiguous) as response; whether they get fish oil and/or Vitamin E as explanatory.
 2. True experimental, as  fish oil and Vitamin E are *given* to subjects, and the groups are determined by the researchers.
@@ -374,7 +370,7 @@ then cars at random.
 
 
 
-### Answer to Sect. \@ref(RandomAllocation)
+### Answer for Sect. \@ref(RandomAllocation) {.unlisted .unnumbered}
 
 1. Quite possibly: Confounding!
 2. They could have been... though it would be unlikely.
@@ -382,7 +378,7 @@ then cars at random.
 
 
 
-### Answer to Sect. \@ref(EvaluatingReportsSugar)
+### Answer for Sect. \@ref(EvaluatingReportsSugar) {.unlisted .unnumbered}
 
 
 1. Type of drink: Explanatory variable; nominal variable; qualitative variable.
@@ -390,7 +386,7 @@ then cars at random.
 
 
 
-### Answers to Sect. \@ref(DesignTrees)
+### Answers for Sect. \@ref(DesignTrees) {.unlisted .unnumbered}
 
 
 1. The first design (A).
@@ -414,10 +410,10 @@ then cars at random.
 
 
 
-## Answers to Teaching Week 3 tutorial {#Lecture3Answers}
+## Answers for Teaching Week 3 tutorial {#Lecture3Answers}
 
 
-### Answers to Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -431,7 +427,7 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -451,7 +447,7 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(InterpretingGraphs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(InterpretingGraphs) {.unlisted .unnumbered}
 
 1. Female Weddell: about 260--270 cm long, vary from about 200 to 310 cm.
    Slight negative skewness; possible small outlier at about 170--180 cm.  
@@ -460,7 +456,7 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
 
 1. A few issues...
    * The vertical axis is not labelled.  Presumably burn time in seconds.
@@ -481,7 +477,7 @@ Answers implied by H5P.
 
 
 
-### Answer to Sect. \@ref(HistogramBars)
+### Answer for Sect. \@ref(HistogramBars) {.unlisted .unnumbered}
 
 
 *Histogram*: for quantitative (usually continuous) data;
@@ -489,7 +485,7 @@ Answers implied by H5P.
 
 
 
-### Answer to Sect. \@ref(SelectingGraphsH5P)
+### Answer for Sect. \@ref(SelectingGraphsH5P) {.unlisted .unnumbered}
 
 
 1. To display the relationship between the age of athletes, and the times taken for each athlete to complete the `beep test': *Scatterplot*
@@ -505,7 +501,7 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(EvaluateGraphsAnts)
+### Answers for Sect. \@ref(EvaluateGraphsAnts) {.unlisted .unnumbered}
 
 1. Observational; the ant nest would be pre-existing.
 2. Both are 'ant nests'.
@@ -516,7 +512,7 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(EvaluateGraphs1)
+### Answers for Sect. \@ref(EvaluateGraphs1) {.unlisted .unnumbered}
 
 
 
@@ -529,7 +525,7 @@ Answers implied by H5P.
 
 
 
-### Answer to Sect. \@ref(UnderstandGraphsPizza)
+### Answer for Sect. \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
 
 **Centre**: About 11.4 inches;
 **Variation**: Most are between 11.0 and 12.3 inches;
@@ -539,7 +535,7 @@ A small outlier (near 10.5 inches)
 
 
 
-### Answer to Sect. \@ref(SelectGraph1)
+### Answer for Sect. \@ref(SelectGraph1) {.unlisted .unnumbered}
 
 1. Boxplot. 
 2. Scatterplot.
@@ -551,12 +547,12 @@ A small outlier (near 10.5 inches)
 
 
 
-## Answers to Teaching Week 4 tutorial {#Lecture4Answers}
+## Answers for Teaching Week 4 tutorial {#Lecture4Answers}
 
 
 
 
-### Answers to Sect. \@ref(PercentOddsStroke) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(PercentOddsStroke) {.unlisted .unnumbered}
 
 1. $43\div (43 + 67) \times 100 = 39.1$%. 
 1. $39\div (97 + 39) \times 100 = 28.7$%.
@@ -567,7 +563,28 @@ A small outlier (near 10.5 inches)
 
 
 
-### Answers to Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
+
+### Answers for Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
+
+1. $45\div 240=18.75$\% of all college students in the sample have received one concussion,
+   the same for all student types.
+2. Not sure which is best; they do different things. I'd probably prefer (c) (bottom left graph).
+3. Odds (non-athlete receiving 2+ concussions) is $21\div(81-21) = 21\div 60 = 0.35$.
+   Non-athletes are 0.35 times as likely to receive two or more concussions than fewer than two.
+	 Or: For every 100 students with fewer than two concussions, there are 35 with two or more.
+4. Odds (soccer player receiving 2+ concussions) is $13\div(63-13) = 13\div 50 = 0.26$.
+	 Soccer players are 0.26 times more likely to receive two or more concussions than fewer than two concussions.
+5. OR: $0.35 \div 0.26$, or about $1.35$.
+	 The odds of a non-athlete receiving two or more concussions is about 1.35 times the odds
+	 of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
+6. Not given.
+7. Not given.	
+8. The better table is probably row percentages:
+   The percentages of each type of students with given number of concussions.
+
+
+
+### Answers for Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
 
 1. The smallest jellyfish has a breadth of (approx.) 6mm. A median of 4mm is silly! The median is somewhere between 8 and 10mm
 2. A typical Dangar Island jellyfish has a breadth of about 10mm,
@@ -584,7 +601,7 @@ A small outlier (near 10.5 inches)
    The distributions look slightly skewed right at both sites.
 
 
-### Answers to Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(StatsMode) {.unlisted .unnumbered}
 
 
 1. Descriptive RQ.
@@ -598,46 +615,7 @@ A small outlier (near 10.5 inches)
 
 
 
-### Answers to Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. Median largest: **Class D**
-2. Median smallest: **Class C**
-3. Standard deviation largest: **Class A**
-4. Standard deviation smallest: **Class D**
-
-
-
-
-### Answers to Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
-
-1. A few issues...
-    * Five decimal places is to the nearest 0.01 of a mm!
-		* The standard deviation of the difference is *not* the difference between the individual standard deviations.
-		* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
-		* Note that there is a sample size of 0 for the difference!
-2. A few issues...
-    * Five decimal places: That's accuracy to 0.00001 of a millimetre per second.  I don't think so...
-		* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
-		* The *differences* between the two brands.
-		
-		
-
-### Answers to Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. 70% directly from the table.
-2. $281/(404 - 281) - 2.28$.
-3. For patients treated with ETI, about 278 die for every 100 that survive.
-4. $2.78/2.28 = 1.22$.
-
-
-
-
-
-### Answers to Sect. \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -662,48 +640,36 @@ Answers implied by H5P.
 
 
 
- 
- 
- 
 
-### Answers to Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
 
-1. $45\div 240=18.75$\% of all college students in the sample have received one concussion,
-   the same for all student types.
-2. Not sure which is best; they do different things. I'd probably prefer (c) (bottom left graph).
-3. Odds (non-athlete receiving 2+ concussions) is $21\div(81-21) = 21\div 60 = 0.35$.
-   Non-athletes are 0.35 times as likely to receive two or more concussions than fewer than two.
-	 Or: For every 100 students with fewer than two concussions, there are 35 with two or more.
-4. Odds (soccer player receiving 2+ concussions) is $13\div(63-13) = 13\div 50 = 0.26$.
-	 Soccer players are 0.26 times more likely to receive two or more concussions than fewer than two concussions.
-5. OR: $0.35 \div 0.26$, or about $1.35$.
-	 The odds of a non-athlete receiving two or more concussions is about 1.35 times the odds
-	 of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
-6. Not given.
-7. Not given.	
-8. The better table is probably row percentages:
-   The percentages of each type of students with given number of concussions.
+Answers implied by H5P.
+
+1. Median largest: **Class D**
+2. Median smallest: **Class C**
+3. Standard deviation largest: **Class A**
+4. Standard deviation smallest: **Class D**
 
 
 
 
-### Answers to Sect. \@ref(Odds1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
 
-Answers embedded.
+1. A few issues...
+    * Five decimal places is to the nearest 0.01 of a mm!
+		* The standard deviation of the difference is *not* the difference between the individual standard deviations.
+		* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
+		* Note that there is a sample size of 0 for the difference!
+2. A few issues...
+    * Five decimal places: That's accuracy to 0.00001 of a millimetre per second.  I don't think so...
+		* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
+		* The *differences* between the two brands.
+		
+		
 
-1. Odds **less than** one.
-1. Odds **less than** one.
-1. Odds **greater than** one.
-1. Odds **greater than** one.
 
 
-
-
-
-
-
-
-### Answers to Sect. \@ref(CalculatorBatteries)
+### Answers for Sect. \@ref(CalculatorBatteries) {.unlisted .unnumbered}
 
 
 
@@ -726,75 +692,17 @@ Answers embedded.
 
 
 
-### Answers to Sect. \@ref(InterpretHistogram)
-
-
-FAS here is about 20--25 in general, ranging from 10 to 50 (which are actually the smallest and largest possible scores).
-Here's is a detailed explanation.
-**You are not expected to go to this detail!**
-   The FAS is about 25 on average,
-   ranging from about 10 to 50,
-   slightly skewed right with no outliers.
-   The distribution is unimodal.
-   (The heights of the bars are,
-   as best as I can figure,
-   3; 14; 44; 34; 22; 17; 5; 3.)
-   With $n=142$,
-   the median is observation number 71.5,
-   which is in the 25--30 bar.
-   The quartiles will have about 35 in them,
-   so $Q_1$ will be in the 20--25 bar,
-   and $Q_3$ will be in the 30--35 bar.
-   Histogram is pretty good; 
-   bars really should be touching.
-
-
-
-### Answers to Sect. \@ref(DrawBoxplot)
- 
-The median temperatures similar; a slight increase from Office A to C.
-IQR similar for each office, and range similar for Offices A and C (slightly larger for Office B).
-
- 
- 
- 
-### Answers to Sect. \@ref(DrawBoxplot)
-
-1. Not shown.
-2. Office a a bit different (cooler) on average.
-3. Perhaps Office A. 
-
-
-### Answers to Sect. \@ref(SelectGraphs1)
-
-1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
-2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
-3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
-4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars (30 mins of physical activity or not; vigorous physical activity or not).
-
- 
-
-
-### Answers to Sect. \@ref(WorkingWithOdds)
-
-
-1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or 8.3%.
-2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or 0.091.
-3. The odds of a bridge collapsing due to deterioration is 0.091; this means:
-*b. For every 100 bridges that do not collapse due to deterioration, about 9.1 bridges do collapse*.
-4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or 91.7%.
-5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or 11.0.
-6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or 18.9%.
-7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or 0.234.
-8. The odds of an event cannot be larger than one: *FALSE*.
-9. The odds of an event cannot be smaller than one. *FALSE*.
-10. The following statement is true:
-*c. Odds cannot be negative*
+4.0.1875/0.096 = 1.95$; the odds are about twice as great.
+5. $60 \div 380 = 15.8$%.
+6. $33\div 377 = 8.8$%.
+7. Probably not: big difference seen in a large size sample.
 
 
 
 
-### Answers to Sect. \@ref(OddsRatioSMND)
+
+
+### Answers for Sect. \@ref(OddsRatioSMND) {.unlisted .unnumbered}
 
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
@@ -804,10 +712,8 @@ IQR similar for each office, and range similar for Offices A and C (slightly lar
 1. See Table \@ref(tab:SMNDAnswerTable).
 2. $60/320 = 0.1875$. A worker with SMND is 0.1875 times as likely to have worked with metal than not. 
 3. $33/344 = 0.096$.  A worker with SMND is 0.096 times as likely to have worked with metal than not. 
-4.0.1875/0.096 = 1.95$; the odds are about twice as great.
-5. $60 \div 380 = 15.8$%.
-6. $33\div 377 = 8.8$%.
-7. Probably not: big difference seen in a large size sample.
+
+
 
 
 ```{r echo=FALSE, SMNDAnswerTable}
@@ -856,7 +762,108 @@ if( knitr::is_html_output() ) {
 
 ```
 
-### Answers to Sect. \@ref(PercentagesOdour)
+
+
+
+### Answers for Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. 70% directly from the table.
+2. $281/(404 - 281) - 2.28$.
+3. For patients treated with ETI, about 278 die for every 100 that survive.
+4. $2.78/2.28 = 1.22$.
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+### Answers for Sect. \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. Odds **less than** one.
+1. Odds **less than** one.
+1. Odds **greater than** one.
+1. Odds **greater than** one.
+
+
+
+
+
+
+
+### Answers for Sect. \@ref(InterpretHistogram) {.unlisted .unnumbered}
+
+
+FAS here is about 20--25 in general, ranging from 10 to 50 (which are actually the smallest and largest possible scores).
+Here's is a detailed explanation.
+**You are not expected to go to this detail!**
+   The FAS is about 25 on average,
+   ranging from about 10 to 50,
+   slightly skewed right with no outliers.
+   The distribution is unimodal.
+   (The heights of the bars are,
+   as best as I can figure,
+   3; 14; 44; 34; 22; 17; 5; 3.)
+   With $n=142$,
+   the median is observation number 71.5,
+   which is in the 25--30 bar.
+   The quartiles will have about 35 in them,
+   so $Q_1$ will be in the 20--25 bar,
+   and $Q_3$ will be in the 30--35 bar.
+   Histogram is pretty good; 
+   bars really should be touching.
+
+
+
+ 
+### Answers for Sect. \@ref(DrawBoxplot) {.unlisted .unnumbered}
+
+1. Not shown.
+2. The median temperatures similar; a slight increase from Office A to C.
+IQR similar for each office, and range similar for Offices A and C (slightly larger for Office B).  In summary: Office a a bit different (cooler) on average.
+3. Perhaps Office A. 
+
+
+### Answers for Sect. \@ref(SelectGraphs1) {.unlisted .unnumbered}
+
+1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
+2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
+3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
+4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars (30 mins of physical activity or not; vigorous physical activity or not).
+
+ 
+
+
+### Answers for Sect. \@ref(WorkingWithOdds) {.unlisted .unnumbered}
+
+
+1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or 8.3%.
+2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or 0.091.
+3. The odds of a bridge collapsing due to deterioration is 0.091; this means:
+*b. For every 100 bridges that do not collapse due to deterioration, about 9.1 bridges do collapse*.
+4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or 91.7%.
+5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or 11.0.
+6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or 18.9%.
+7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or 0.234.
+8. The odds of an event cannot be larger than one: *FALSE*.
+9. The odds of an event cannot be smaller than one. *FALSE*.
+10. The following statement is true:
+*c. Odds cannot be negative*
+
+
+
+
+
+
+### Answers for Sect. \@ref(PercentagesOdour) {.unlisted .unnumbered}
 
 
 1. Observational.
@@ -869,9 +876,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### Answer to Sect. \@ref(Chapter5Drills)
-
-
+### Answer for Sect. \@ref(Chapter5Drills) {.unlisted .unnumbered}
 
 1.
   a. $(381 + 345)/1347 = 0.53898$, or about 53.9%.
@@ -895,7 +900,7 @@ if( knitr::is_html_output() ) {
 
 
  
-### Answers to Sect. \@ref(Chapter4Drills)
+### Answers for Sect. \@ref(Chapter4Drills) {.unlisted .unnumbered}
 
 
 1. Mean: 168.5714, or 168.57&nbsp;m. 
@@ -912,50 +917,12 @@ Median: 13.35%.
  
  
 
-## Answers to Teaching Week 5 tutorial {#Lecture5Answers}
+## Answers for Teaching Week 5 tutorial {#Lecture5Answers}
 
 
 
 
-### Answers to Sect. \@ref(Probability2) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. Relative frequency.
-2. Relative frequency.
-3. Subjective.
-4. Relative frequency.
-5. Classical.
-
-
-
-
-
-### Answers to Sect. \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. The decision-making process begin with making an assumption about the population **parameter**.  
-This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. But we can have some of idea of what values are reasonable to expect.  
-Then we take the **sample** (that is, we make the observations).  
-Then we **compare** the sample statistic that we observed... to the sample statistic we expected.  
-If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.  
-However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
-
-2. Step 1:  Assumption about population parameter  
-   Step 2: Expectation for sample statistic  
-   Step 3: Observation of sample statistic  
-   Decision: Consistent?  
-   Conclusion A: Yes, supports assumption  
-   Conclusion B: No, doesn't support assumption
-
-
-
-
-## Answers to Teaching Week 6 tutorial {#Lecture6Answers}
-
-
-### Answers to Sect. \@ref(NormalIQs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(NormalIQs) {.unlisted .unnumbered}
 
 Answers embedded.
 Some answers:
@@ -971,7 +938,7 @@ This is equivalent to **1** standard deviation(s) **below** the mean IQ.
 Using the **68**--95--99.7 rule, this means that the proportion of the population with an IQ less than 85 is about **32**%. In addition, the proportion of the population with an IQ **above** 85 is about **68**%.
 
 
-### Answers to Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
 
 1. Answers vary.
 2. Answers vary.
@@ -997,7 +964,64 @@ Using the **68**--95--99.7 rule, this means that the proportion of the populatio
 
  
 
-### Answers to Sect. \@ref(SEproportions) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(Probability2) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. Relative frequency.
+2. Relative frequency.
+3. Subjective.
+4. Relative frequency.
+5. Classical.
+
+
+
+
+
+### Answers for Sect. \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begin with making an assumption about the population **parameter**.  
+This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. But we can have some of idea of what values are reasonable to expect.  
+Then we take the **sample** (that is, we make the observations).  
+Then we **compare** the sample statistic that we observed... to the sample statistic we expected.  
+If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.  
+However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
+
+2. Step 1:  Assumption about population parameter  
+   Step 2: Expectation for sample statistic  
+   Step 3: Observation of sample statistic  
+   Decision: Consistent?  
+   Conclusion A: Yes, supports assumption  
+   Conclusion B: No, doesn't support assumption
+
+
+
+
+### Answers for Sect. \@ref(NormalSOI) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-SOI.Rmd'}
+```
+
+
+2. $z=(20-0)/10 = 2$. The area or probability to the *right* is $0.0228$, or about $2.3$%.
+3. The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100-2.3)$, or about $0.024$.
+4. $z=(-25-0)/10 = -2.5$. The area to the *left* is $0.0062$, or about $0.6$%.
+5. $z=(-12-0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
+6. The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
+7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z=0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
+8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/Book/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
+
+
+
+
+
+## Answers for Teaching Week 6 tutorial {#Lecture6Answers}
+
+
+### Answers for Sect. \@ref(SEproportions) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -1010,7 +1034,7 @@ Answers implied by H5P.
 * "s.e." stands for "standard error".
 
 
-### Answers to Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
 
 1. $123/(404-123) = 123/281 = 0.44$.
 2. $\hat{p} = 123/404 = 0.304455$.
@@ -1056,109 +1080,12 @@ Answers implied by H5P.
 
 
 
-### Answers to Sect. \@ref(NormalSOI)
 
-
-```{r, child = if (knitr::is_html_output()) 'Solution-SOI.Rmd'}
-```
-
-
-2. $z=(20-0)/10 = 2$. The area or probability to the *right* is $0.0228$, or about $2.3$%.
-3. The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100-2.3)$, or about $0.024$.
-4. $z=(-25-0)/10 = -2.5$. The area to the *left* is $0.0062$, or about $0.6$%.
-5. $z=(-12-0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
-6. The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
-7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z=0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
-8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/Book/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
-
-
-
-### Answers to Sect. \@ref(HMMaturing)
-
-```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
-```
-
-
-
-
-1. Relational.
-2. $\hat{p} = 352/2,864=0.12291$. 
-3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1-0.12291)/2864} = 0.006135$.
-4. An approximate 95\% CI is $0.12291 \pm (2\times0.006135)$, or $0.12291\pm0.01227$,
-       or from $0.111$ to $0.135$.
-       Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine;
-       percentages or proportions are fine
-       (but **the calculations must done with the proportions, not the percentages**).
-5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than 5.
-       This is true, so the calculations are valid.
-6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
-7. $n = 1/(0.02)^2 = 2500$ boys.
-
-
-
-### Answers to Sect. \@ref(Chapter6Drills)
-
-
-1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.084} = 0.2898275$, or about 0.2898.
-2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about 0.04330.
-3. 0.08724964, or about 0.08725.
-4. 0.0534479, or about 0.05345.
-
-**Note**: Students commonly forget to take the square root.
-
-**Note**: If you calculator gives an answer something like `1.875 E-03` or similar, 
-it is using **scientific notation**.
-It means $1.875\times 10^{-3}$, or $0.001875$.
-
-
-
-
-
-
-
-
-## Answers to Teaching Week 7 tutorial {#Lecture7Answers}
-
-
-### Answers to Sect. \@ref(ConceptsMatches) {.unlisted .unnumbered}
-
-1. This is just one box (one *observation*), but the claim is about the *population mean*.
-   Some boxes will have more than 45, and some fewer.
-2. Jake is correct in one sense: You can't have 0.9 of a match.  
-
-   But the value is the *mean* number, and that *can* be a decimal. 
-   Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches... is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
-3. Jake is confusing the *sample* and *population* mean.
-   The claim is that the *population* mean is $45$.
-   The sample produced a mean of $44.9$.  
-   
-   Why should the mean of two different things be the same?
-   It's like expecting your height and your Mum's height to be the same:
-   they are both heights, but of different things.
-   Why should they be the same?  
-
-   Of course, every sample will produce a different sample mean.
-   This sample may just have an unusually low number of matches.
-4. Either (1) The manufacturer is lying; or (2) the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
-5. A CI gives some indication of the variation implied by the sample.
-6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
-   So the approximate 95% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
-7. No. A 95% CI may or may not contain the population mean.
-   Of course, the manufacturer *may* indeed be lying...
-   but we'd need to be cautious about making such a bold claim on just this evidence.
-   Ideally, we would repeat this study a few times or take a larger sample.
-   But it *is* looking suspicious...  
-
-   If we had many, many sets of 25 matches boxes,
-   95% of these sets of 25 would have a mean between 44.85 and 44.95.
-8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
-9. $\mu$ is the mean of the population; the true mean if you like.
-   $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
 
 
       
       
-### Answers to Sect. \@ref(CIPizzas) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CIPizzas) {.unlisted .unnumbered}
 
 1. $\mu$ is the population mean diameter size of *all* EB pizzas;
    $\bar{x}$ is the mean diameter of the pizzas in the sample.
@@ -1203,7 +1130,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-### Answers to Sect. \@ref(CIImplant) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CIImplant) {.unlisted .unnumbered}
 
 1. **Descriptive**:
    Every subject is treated the same way; we are not comparing two groups that have been treated differently.
@@ -1241,12 +1168,12 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
     so the sample means quite possibly have an approx.\ normal distribution:
 14. (Recall we haven't done hypothesis testing in this context yet!)
     Looks pretty likely that the 2MWT distances are higher after receiving the implant.
-15. $n=(2\times 13.03372\div 5)^2 = 27.18$, so need data from at least $28$ amputees.
+15. $n = (2\times 13.03372\div 5)^2 = 27.18$, so need data from at least $28$ amputees.
 
 
 
 
-### Answers to Sect. \@ref(RoomWidthCI)
+### Answers for Sect. \@ref(RoomWidthCI) {.unlisted .unnumbered}
 
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidth.Rmd'}
@@ -1270,48 +1197,37 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-### Answers to Sect. \@ref(RoomWidthCISampleSize)
 
-```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthSS.Rmd'}
+
+
+
+
+### Answers for Sect. \@ref(HMMaturing) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
 ```
 
 
 
-$n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
-
-
-
-### Answers to Sect. \@ref(LanguageOfSStats)
-
-
-1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete,
-   by using a study design called an *experiment*.  
-   
-   In batch 1, a *sample* of size 30 was used; 
-  the sample mean number of blows till the first crack appeared in the test cylinders was 98, 
-  and the amount of variation in the number of blows was measured using the *standard* deviation as 54.  
-  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
-
-
-2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010)
-   having cerebral palsy when using specialty school furniture with standard school furniture 
-   (which acted as a *control*).  
-
-   They used a *random* sample of size 30 from children registered at their facility in Canada.  
-
-   The *sample* mean for the difference in legibility was -0.1, and a 95% *confidence* interval 
-   was from $-0.8$ to $0.6$.  
-   
-   Using the standard equipment, the smallest value recorded for legibility was 19, 
-   and the largest was 34, so the *range* was 15.
-  
+1. Relational.
+2. $\hat{p} = 352/2,864=0.12291$. 
+3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1-0.12291)/2864} = 0.006135$.
+4. An approximate 95\% CI is $0.12291 \pm (2\times0.006135)$, or $0.12291\pm0.01227$,
+       or from $0.111$ to $0.135$.
+       Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine;
+       percentages or proportions are fine
+       (but **the calculations must done with the proportions, not the percentages**).
+5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than 5.
+       This is true, so the calculations are valid.
+6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
+7. $n = 1/(0.02)^2 = 2500$ boys.
 
 
 
 
 
-### Answers to Sect. \@ref(CIPairedWaves)
+### Answers for Sect. \@ref(CIPairedWaves) {.unlisted .unnumbered}
 	
 
 1. Because each method is used in each sea state.
@@ -1326,7 +1242,7 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 
 
 
-### Answers to Sect. \@ref(CIPairedRunners)
+### Answers for Sect. \@ref(CIPairedRunners) {.unlisted .unnumbered}
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-RunnerCI.Rmd'}
 ```
@@ -1357,21 +1273,77 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
         The stem-and-leaf plot suggests this is not unreasonable,
         so the sample means quite possibly have an approx. normal distribution:
 11.  Looks likely that the plasma $\beta$ concentrations are higher after the race.
-12. $n=(2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
+12. $n = (2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
 
 
 
 
 
 
-## Answers to Teaching Week 8 tutorial {#Lecture8Answers}
+
+
+### Answers for Sect. \@ref(Chapter6Drills) {.unlisted .unnumbered}
+
+1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.084} = 0.2898275$, or about 0.2898.
+2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about 0.04330.
+3. 0.08724964, or about 0.08725.
+4. 0.0534479, or about 0.05345.
+
+**Note**: Students commonly forget to take the square root.
+
+**Note**: If you calculator gives an answer something like `1.875 E-03` or similar, 
+it is using **scientific notation**.
+It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
 
-## Answers to Teaching Week 9 tutorial {#Lecture9Answers}
 
-### Answers to Sect. \@ref(CIRatLifetimes) {.unlisted .unnumbered}
+
+
+
+## Answers for Teaching Week 7 tutorial {#Lecture7Answers}
+
+
+### Answers for Sect. \@ref(ConceptsMatches) {.unlisted .unnumbered}
+
+1. This is just one box (one *observation*), but the claim is about the *population mean*.
+   Some boxes will have more than 45, and some fewer.
+2. Jake is correct in one sense: You can't have 0.9 of a match.  
+
+   But the value is the *mean* number, and that *can* be a decimal. 
+   Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches... is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
+3. Jake is confusing the *sample* and *population* mean.
+   The claim is that the *population* mean is $45$.
+   The sample produced a mean of $44.9$.  
+   
+   Why should the mean of two different things be the same?
+   It's like expecting your height and your Mum's height to be the same:
+   they are both heights, but of different things.
+   Why should they be the same?  
+
+   Of course, every sample will produce a different sample mean.
+   This sample may just have an unusually low number of matches.
+4. Either (1) The manufacturer is lying; or (2) the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
+5. A CI gives some indication of the variation implied by the sample.
+6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+   So the approximate 95% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
+7. No. A 95% CI may or may not contain the population mean.
+   Of course, the manufacturer *may* indeed be lying...
+   but we'd need to be cautious about making such a bold claim on just this evidence.
+   Ideally, we would repeat this study a few times or take a larger sample.
+   But it *is* looking suspicious...  
+
+   If we had many, many sets of 25 matches boxes,
+   95% of these sets of 25 would have a mean between 44.85 and 44.95.
+8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+9. $\mu$ is the mean of the population; the true mean if you like.
+   $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
+
+
+
+
+### Answers for Sect. \@ref(CIRatLifetimes) {.unlisted .unnumbered}
 
 1. The two groups are completely different.
 1. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
@@ -1405,7 +1377,7 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
    
    
    
-### Answers to Sect. \@ref(OddsSoftware) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(OddsSoftware) {.unlisted .unnumbered}
 
 Some answers embedded.
 
@@ -1540,7 +1512,103 @@ if( knitr::is_html_output() ) {
 ```
 
 
-### Answers to Sect. \@ref(HTOneMean-A) {.unlisted .unnumbered}
+
+
+### Answers for Sect. \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthSS.Rmd'}
+```
+
+
+
+$n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
+
+
+
+
+### Answers for Sect. \@ref(LanguageOfSStats) {.unlisted .unnumbered}
+
+
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete,
+   by using a study design called an *experiment*.  
+   
+   In batch 1, a *sample* of size 30 was used; 
+  the sample mean number of blows till the first crack appeared in the test cylinders was 98, 
+  and the amount of variation in the number of blows was measured using the *standard* deviation as 54.  
+  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
+
+
+2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010)
+   having cerebral palsy when using specialty school furniture with standard school furniture 
+   (which acted as a *control*).  
+
+   They used a *random* sample of size 30 from children registered at their facility in Canada.  
+
+   The *sample* mean for the difference in legibility was -0.1, and a 95% *confidence* interval 
+   was from $-0.8$ to $0.6$.  
+   
+   Using the standard equipment, the smallest value recorded for legibility was 19, 
+   and the largest was 34, so the *range* was 15.
+  
+
+
+
+
+### Answers for Sect. \@ref(PizzaHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
+```
+
+
+
+1. Observational.
+2. Relational.
+3. Two completely separate samples are compared.
+4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
+5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.560$ inches, larger for EB.
+6. Since the sample sizes are large (both 125), we *do not require that the populations have normal distributions*.
+7. The sample sizes are large ($n=125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+8. Probably yes. Amount of topping on the pizza? Which *tastes* better? Whether the samples were randomly selected or not?
+
+
+
+
+
+
+
+
+### Answers for Sect. \@ref(OddsGMfood) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
+```
+
+
+1. $H_0$: No association between income level and opinion of GM foods in the population;
+       $H_1$:  An association between income level and opinion of GM foods in the population.
+2. Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
+3. Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
+4. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). The odds of HIE being for GM food 1.5 times the odds that a LIE for GM foods.
+5. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
+       (Loosely, though technically incorrect: the true OR is likely to be between 1.145 and 1.961.) Importantly, this interval does not include 1.
+
+
+
+
+
+
+
+
+
+
+## Answers for Teaching Week 8 tutorial {#Lecture8Answers}
+
+
+
+
+## Answers for Teaching Week 9 tutorial {#Lecture9Answers}
+
+
+### Answers for Sect. \@ref(HTOneMean-A) {.unlisted .unnumbered}
 
 1. The **parameter** of interest is the *population mean pizza diameter*, say $\mu$.
 1. From the output: $\bar{x} = 11.486$ and $s=0.247$.
@@ -1572,14 +1640,66 @@ if( knitr::is_html_output() ) {
 1. *Very* unlikely!
 
 
-### Answers to Sect. \@ref(RoomWidthTest)
+
+
+
+
+### Answers for Sect. \@ref(PValues) {.unlisted .unnumbered}
+
+Use the [68--95--99.7 rule](https://bookdown.org/pkaldunn/SRM-Textbook/identifying-outliers.html#def:EmpiricalRule)
+to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pvalues.html#ApproxP):
+
+1. *Less than* 0.05.
+2. Greater than 0.05.
+3. *Less than* 0.003.
+4. Greater than 0.05.
+5. Greater than 0.05.
+6. Very small.
+
+
+
+
+
+### Answers for Sect. \@ref(TestsPairedImplants) {.unlisted .unnumbered}
+
+1. Before and after measurement on same amputee.
+2. $H_0$: $\mu_d=0$, differences defined as 'with' minus 'without'. 
+   $H_1$: $\mu_d>0$ the way I defined differences.  
+
+   We are explicitly seeking to test for an *improvement*, so the test is one-tailed.
+   (Diffs in the other direction are also OK;
+   the signs of the differences and some other subsequent things change.)
+3. The standard error of the mean is the standard deviation of the sample mean diff in plasma concentrations,
+   a measurement of how precisely the sample mean difference estimates the population mean diff.
+4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s=813.034$m; standard error: $4.122$m.
+5. $t=6.041$ and since $t$ is very large, expect $P$ to be very small.
+   (The one-tailed $P$ less than $0.0005$ from Table A.2.)  
+   
+   The differences have just been defined in the opposite directions.
+   (Notice the $P$-values are the same.)
+6. Very strong evidence exists in the sample
+   (paired $t=6.041$; one-tailed $P$ less than $0.0005$)
+   that the population mean 2MWT are higher after receiving the implant
+   compared to without the implant
+   (mean difference: $24.9$m higher after receiving the implant; standard deviation: 13.034m;
+   95% CI from $15.58$ to $34.224$m).
+7. The population of differences has a normal distribution,
+   and/or $n>25$ or so.
+8. Since $n<25$, must assume the population of differences has a normal distribution.
+   The histogram suggests this is not unreasonable.
+
+
+
+
+
+### Answers for Sect. \@ref(RoomWidthTest) {.unlisted .unnumbered}
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
 ```
 
 
 
-1. $s=7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m.  The first measures variation in the original data;
+1. $s = 7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m.  The first measures variation in the original data;
          the second measures precision of the sample mean when estimating the population mean.
 2. The CI is from 13.85 to 18.19m.
 3.  Strong to moderate evidence exists in the sample (one sample $t=2.714$; $\text{df}=43$; two-tailed $P=0.010$)
@@ -1594,28 +1714,8 @@ if( knitr::is_html_output() ) {
 
 
 
-### Answers to Sect. \@ref(PizzaHT).
 
-```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
-```
-
-
-
-1. Observational.
-2. Relational.
-3. Two completely separate samples are compared.
-4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
-5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.560$ inches, larger for EB.
-6. Since the sample sizes are large (both 125), we *do not require that the populations have normal distributions*.
-7. The sample sizes are large ($n=125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
-8. Probably yes. Amount of topping on the pizza? Which *tastes* better? Whether the samples were randonly selected or not?
-
-
-
-
-
-
-### Answers to Sect. \@ref(GeneralIdeas2)
+### Answers for Sect. \@ref(GeneralIdeas2) {.unlisted .unnumbered}
 
 
 ```{r TermsANSWER, echo=FALSE}
@@ -1655,38 +1755,64 @@ if( knitr::is_latex_output() ) {
 
 
 
-### Answers to Sect. \@ref(OddsGMfood)
 
-```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
+### Answers for Sect. \@ref(PvalueStatement) {.unlisted .unnumbered}
+
+
+The difference in odds is statistically significant, so 
+**either 2. or 4. is consistent with this conclusion**...
+and we cannot tell which.
+The size of the OR is not the issue here: 
+if the sample OR is statistically different from 1, it does not tell us much about the population OR except that it is (most likely) not one.
+
+2. The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. (This likely has a smaller sample size.)
+3. The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
+
+
+
+
+
+
+### Answers for Sect. \@ref(PairedTestRunners) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerHT.Rmd'}
 ```
 
 
 
-
-
-1. $H_0$: No association between income level and opinion of GM foods in the population;
-       $H_1$:  An association between income level and opinion of GM foods in the population.
-2. Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
-3. Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
-4. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). The odds of HIE being for GM food 1.5 times the odds that a LIE for GM foods.
-5. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
-       (Loosely, though technically incorrect: the true OR is likely to be between 1.145 and 1.961.) Importantly, this interval does not include 1.
-
-
-
-
-
-
-
+1. Before and after measurement on same runner.
+2. $H_0$: $\mu_d=0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d>0$ the way I defined the differences.  
+       We are explicitly seeking to test for an *increase*, so the test is one-tailed.
+       (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
+3. Mean increase: $\bar{x} = 18.73$ pmol/litre; Standard deviation: $s=8.3297$ pmol/litre; standard error: $2.511$ pmol/litre.
+4. $t = 7.46$ and $\text{df}=11-1=10$. Since $t$ is very large, expect $P$ to be very small.
+       (The one-tailed $P$ less than $0.0005$ from Table A.2.)
+5. Very strong evidence exists in the sample (paired $t=7.46$; $\text{df}=10$; one-tailed $P$ less than $0.0005$)
+       that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race
+       (mean difference: $18.73$ pmol/litre higher after the race; std. dev.: 8.33 pmol/litre;
+       95% CI from $13.14$ to $24.33$ pmol/litre).
+6. The population of differences has a normal distribution, and/or $n>30$ or so.
+7. Since $n<30$, must assume the population of differences has a normal distribution. The histogram suggests this is not unreasonable.
 
 
 
 
 
-## Answers to Teaching Week 10 tutorial {#Lecture10Answers}
 
 
-### Answers to Sect. \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
+
+
+
+
+
+
+
+
+
+## Answers for Teaching Week 10 tutorial {#Lecture10Answers}
+
+
+### Answers for Sect. \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
 
 1. The two groups are completely different; cannot determine how to pair. Indeed, the sample sizes are different.  
 
@@ -1725,55 +1851,7 @@ if( knitr::is_latex_output() ) {
    The litter would probably be the unit of analysis then, not the individual rat.
 
 
-
-
-### Answers to Sect. \@ref(PValues) {.unlisted .unnumbered}
-
-Use the [68--95--99.7 rule](https://bookdown.org/pkaldunn/SRM-Textbook/identifying-outliers.html#def:EmpiricalRule)
-to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pvalues.html#ApproxP):
-
-1. *Less than* 0.05.
-2. Greater than 0.05.
-3. *Less than* 0.003.
-4. Greater than 0.05.
-5. Greater than 0.05.
-6. Very small.
-
-
-
-
-
-### Answers to Sect. \@ref(TestsPairedImplants) {.unlisted .unnumbered}
-
-1. Before and after measurement on same amputee.
-2. $H_0$: $\mu_d=0$, differences defined as 'with' minus 'without'. 
-   $H_1$: $\mu_d>0$ the way I defined differences.  
-
-   We are explicitly seeking to test for an *improvement*, so the test is one-tailed.
-   (Diffs in the other direction are also OK;
-   the signs of the differences and some other subsequent things change.)
-3. The standard error of the mean is the standard deviation of the sample mean diff in plasma concentrations,
-   a measurement of how precisely the sample mean difference estimates the population mean diff.
-4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s=813.034$m; standard error: $4.122$m.
-5. $t=6.041$ and since $t$ is very large, expect $P$ to be very small.
-   (The one-tailed $P$ less than $0.0005$ from Table A.2.)  
-   
-   The differences have just been defined in the opposite directions.
-   (Notice the $P$-values are the same.)
-6. Very strong evidence exists in the sample
-   (paired $t=6.041$; one-tailed $P$ less than $0.0005$)
-   that the population mean 2MWT are higher after receiving the implant
-   compared to without the implant
-   (mean difference: $24.9$m higher after receiving the implant; standard deviation: 13.034m;
-   95% CI from $15.58$ to $34.224$m).
-7. The population of differences has a normal distribution,
-   and/or $n>25$ or so.
-8. Since $n<25$, must assume the population of differences has a normal distribution.
-   The histogram suggests this is not unreasonable.
-
-
-
-### Answers to Sect. \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 
@@ -1803,7 +1881,7 @@ for white and wholemeal subs?
 
 
 
-### Answers to Sect. \@ref(TestsForORs) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(TestsForORs) {.unlisted .unnumbered}
 
 Some answers embedded.
 
@@ -1945,24 +2023,23 @@ if( knitr::is_html_output() ) {
 
 
 
-### Answers for Sect. \@ref(PvalueStatement)
 
 
-The difference in odds is statistically significant, so 
-**either 2. or 4. is consistent with this conclusion**...
-and we cannot tell which.
-The size of the OR is not the issue here: 
-if the sample OR is statistically different from 1, it does not tell us much about the population OR except that it is (most likely) not one.
-
-2. The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. (This likely has a smaller sample size.)
-3. The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
+### Answers for Sect. \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
 
 
+1. Two-sample $t$-test.
+2. A $\chi^2$ test.
+3. A paired $t$-test.
+4. A two-sample $t$-test.
+5. None of the other options are correct: requires regression or correlation.
 
 
 
 
-### Answers for Sect. \@ref(TablesHepC)
+
+
+### Answers for Sect. \@ref(TablesHepC) {.unlisted .unnumbered}
 
 
 1. Incorrect is the one about means.
@@ -2037,20 +2114,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### Answers to Sect. \@ref(IdentifyCorrectAnalyses)
-
-
-1. Two-sample $t$-test.
-2. A $\chi^2$ test.
-3. A paired $t$-test.
-4. A two-sample $t$-test.
-5. None of the other options are correct: requires regression or correlation.
-
-
-
-
-
-### Answer for Sect. \@ref(TwoMeansHurricanes)
+### Answer for Sect. \@ref(TwoMeansHurricanes) {.unlisted .unnumbered}
 
 
 No evidence  of a difference in the mean number fatalities
@@ -2060,7 +2124,7 @@ between female- and male-named hurricanes.
 
 
 
-### Answer to Sect. \@ref(AssumptionsGraphs)
+### Answer for Sect. \@ref(AssumptionsGraphs) {.unlisted .unnumbered}
 
 
 The sample sizes are both much *larger* than 25,
@@ -2074,7 +2138,7 @@ The *sample means* will have an approximate normal distribution.
 
 
 
-### Answers for Sect. \@ref(TwoMeansBatteriesHT)
+### Answers for Sect. \@ref(TwoMeansBatteriesHT) {.unlisted .unnumbered}
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-BatteryHT.Rmd'}
 ```
@@ -2100,7 +2164,7 @@ The *sample means* will have an approximate normal distribution.
 
 
 
-### Answers to Sect. \@ref(ORTestsByss)
+### Answers for Sect. \@ref(ORTestsByss) {.unlisted .unnumbered}
 
 
 1. The third one. The first is about samples. The  second is about means.
@@ -2125,7 +2189,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(ORAirways)
+### Answers for Sect. \@ref(ORAirways) {.unlisted .unnumbered}
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-AirwaysHT.Rmd'}
 ```
@@ -2141,43 +2205,16 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(PairedTestRunners)
-
-```{r, child = if (knitr::is_html_output()) 'Solution-RunnerHT.Rmd'}
-```
-
-
-
-1. Before and after measurement on same runner.
-2. $H_0$: $\mu_d=0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d>0$ the way I defined the differences.  
-       We are explicitly seeking to test for an *increase*, so the test is one-tailed.
-       (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
-3. Mean increase: $\bar{x} = 18.73$ pmol/litre; Standard deviation: $s=8.3297$ pmol/litre; standard error: $2.511$ pmol/litre.
-4. $t = 7.46$ and $\text{df}=11-1=10$. Since $t$ is very large, expect $P$ to be very small.
-       (The one-tailed $P$ less than $0.0005$ from Table A.2.)
-5. Very strong evidence exists in the sample (paired $t=7.46$; $\text{df}=10$; one-tailed $P$ less than $0.0005$)
-       that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race
-       (mean difference: $18.73$ pmol/litre higher after the race; std. dev.: 8.33 pmol/litre;
-       95% CI from $13.14$ to $24.33$ pmol/litre).
-6. The population of differences has a normal distribution, and/or $n>30$ or so.
-7. Since $n<30$, must assume the population of differences has a normal distribution. The histogram suggests this is not unreasonable.
 
 
 
 
 
 
+## Answers for Teaching Week 11 tutorial {#Lecture11Answers}
 
 
-
-
-
-
-
-## Answers to Teaching Week 11 tutorial {#Lecture11Answers}
-
-
-### Answers to Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
 
 1. The correlations:
 
@@ -2225,7 +2262,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
 
 1. Approximately linear, negative, reasonably strong.
 2. Condition, extras (air con, etc.), sedan/hatch, colour, when rego due, new/old tyres, location, etc.
@@ -2270,7 +2307,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
      	 
 
 
-### Answers to Sect. \@ref(IdentifyCorrectAnalysisAgain).
+### Answers for Sect. \@ref(IdentifyCorrectAnalysisAgain) {.unlisted .unnumbered}
 
 
 ```{r, child = if (knitr::is_latex_output()) 'Solutions/Lect10-A4.Rmd'}
@@ -2281,7 +2318,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(ReadScatterplotHeathers)
+### Answers for Sect. \@ref(ReadScatterplotHeathers) {.unlisted .unnumbered}
 
 ```{r, child = if (knitr::is_html_output()) 'Solution-Heather.Rmd'}
 ```
@@ -2306,9 +2343,9 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-## Answers to Teaching Week 12 tutorial {#Lecture12Answers}
+## Answers for Teaching Week 12 tutorial {#Lecture12Answers}
 
-### Answers to Sect. \@ref(CIConcrete) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CIConcrete) {.unlisted .unnumbered}
 
 1. Both students are incorrect as they used $s$ rather than $\text{s.e.}(\bar{x})$.
     * Student A:
@@ -2323,7 +2360,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(CritiqueReports1) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueReports1) {.unlisted .unnumbered}
 
 * **Research question:** Use *mean* distance.
   So more directly:  
@@ -2348,14 +2385,14 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(CritiqueReports2) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueReports2) {.unlisted .unnumbered}
 
 * **Null hypothesis:** The *mean* heart rates.
 * **Results:** A $\chi^2$ test is inappropriate for comparing means.
 
 
 
-### Answers to Sect. \@ref(CritiqueReports3) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueReports3) {.unlisted .unnumbered}
 
 * **Research question**: Spelling error ('lily pily'); *mean* size.
   It sounds odd, too, to ask if they 'become' longer.
@@ -2380,7 +2417,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 
 
 
-### Answers to Sect. \@ref(CritiqueReports4) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(CritiqueReports4) {.unlisted .unnumbered}
 
 * **Research question**: Cumbersome wording...; *mean* estimates.
 * **Null hypothesis**: Spelling/grammar errors; *mean* again;	where does 'increased level of perception' come from?
@@ -2395,7 +2432,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
   
   
   
-### Answers to Sect. \@ref(WhatTestToUse)
+### Answers for Sect. \@ref(WhatTestToUse) {.unlisted .unnumbered}
 
 $t$-test: Age as it is the only quantitative variable.  The rest would use a chi-square test.
 Between the 'alive' and 'dead' groups,
@@ -2406,7 +2443,7 @@ there is evidence that the proportion with diabetes is different and whether or 
 
 
 
-### Answers to Sect. \@ref(ReadDesks)
+### Answers for Sect. \@ref(ReadDesks) {.unlisted .unnumbered}
 
 **1.** P: school age children with ambulatory cerebral palsy; O: In this case, the hand-writing legibility;
        C: Between scores made when using standard and specialty furniture; I: The furniture configurations imposed.
@@ -2432,7 +2469,7 @@ there is evidence that the proportion with diabetes is different and whether or 
 
 
 
-### Answer to Sect. \@ref(ReadErrors)
+### Answer for Sect. \@ref(ReadErrors) {.unlisted .unnumbered}
 
 **1.** P: Medical 'teams' working in paediatric resuscitations; O: Number and type of drug errors; C: None; I: None.
 **2.** Descriptive.
