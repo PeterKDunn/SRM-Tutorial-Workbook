@@ -329,7 +329,7 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 ## Critiquing students' graphs {#CritiqueStudentGraphs1}
 
 In this activity,
-you get to critique actual Project submissions,
+you get to critique actual SCI110 Project submissions,
 so you can critique your own before submission.
 
 1. Critique the graph in 
@@ -419,7 +419,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 1. Identify the type of study: experimental or observational.
 2. Identify the units of observation, and the units of analysis.
 3. Critique this graph.
-4. Do you think that a real difference exists between plant coverage at different locations around the ant nest? What other interesting features can be seen from the graph?
+4. Do you think that a real difference exists between median plant coverage at different locations around the ant nest? What other interesting features can be seen from the graph?
 
 
 
@@ -452,7 +452,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 2. Identify the units of observation, and the units of analysis.
 3. Critique this graph.
 4. What do you think the negative numbers on the graph mean?
-5. Do you think that a real difference exists between the two treatments *in the population*? Explain
+5. Do you think that a real difference exists between the nedian for the two treatments *in the population*? Explain
 
 
 

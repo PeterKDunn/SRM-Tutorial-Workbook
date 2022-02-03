@@ -116,6 +116,7 @@ What *type* of definition is this?
 
 
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
+
 As a result,
 the cafe owner decides to conduct a study of his customers.
 
@@ -127,10 +128,10 @@ the cafe owner decides to conduct a study of his customers.
     b. Among my customers, is 
      the *percentage* of customers who prefer diet cola drinks the same as
      the *percentage* of customers who prefer regular cola drinks?
-2. Make some notes about how the cafe owner could answer the question using an **observational study**.
+2. Make some notes about how the cafe owner could answer the question using an **observational study**.  
    What would be the best type of observational study:
    retrospective, prospective, or cross sectional?
-3. Make some notes about how the cafe owner could answer the question using an **experimental study**.
+3. Make some notes about how the cafe owner could answer the question using an **experimental study**.  
    What would be the best type of experimental study:
    true or quasi?
 4. List some **advantages** and **disadvantages** of the experimental and observational studies.  
@@ -280,13 +281,16 @@ Consider the following scenario:
 
 Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
-1. Nim needs to determine a *population* to study. Which of these would be a useful and practical population to use? Or is there a different population that is 'better' to use? Explain your reasoning.
+1. Nim needs to determine a *population* to study.  
+   Which of these would be a useful and practical population to use? Or is there a different population that is 'better' to use?  
+   Explain your reasoning.
     a. All university students.
     b. Female university students about to do an exam.
     c. USC students.
     d. Queensland university students.      	 
 
-2. Identify an *outcome* that Nim can measure to answer the research question. Justify your answer.
+2. Identify an *outcome* that Nim can measure to answer the research question.  
+   Justify your answer.
 3. Which of these *comparisons* do you think Nim should use? Why?
     a. Between drinking Earl Grey tea and coffee.
     b. Between drinking Earl Grey tea and black (ordinary) tea.
@@ -299,7 +303,7 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 6. *Briefly* describe how to set up an *experimental* study for answering your proposed research question.
 7. Construct a well-worded *relational* research question that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
 8. *Briefly* describe how to set up an *observational* study for answering your proposed research question.
-9. List any terms that may need defining.
+9. List any necessary operational and conceptual definitions. (You do not need to *give* the definitions.)
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
 
     
@@ -445,7 +449,7 @@ outlining how and why they can be improved (if at all).
    is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
 5. Is the average reaction time related to gender?
 
-
+What terms might need defining for each RQ?
 
 
 

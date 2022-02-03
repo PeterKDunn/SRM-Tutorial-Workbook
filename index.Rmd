@@ -65,9 +65,15 @@ knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}',
 
 This book has been prepared for use with the book 
 `r if (knitr::is_latex_output()) {
-   'Scientific Research and Methodology,'
+   'Scientific Research and Methodology'
 } else {
-   '[Scientific Research and Methodology](https://bookdown.org/pkaldunn/Book/),'
+   '[Scientific Research and Methodology](https://bookdown.org/pkaldunn/SRM-Textbook/)'
+}`
+(at the
+`r if (knitr::is_latex_output()) {
+   'University of the Sunshine Coast (USC))'
+} else {
+   '[University of the Sunshine Coast (USC))](https://www.usc.edu.au),'
 }`
 which is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
 
@@ -95,9 +101,9 @@ Some answers are implied by working through the online exercises.
 
 Most of this book can be read without relying on any specific statistical software.
 However, some parts explicitly mention and refer to [jamovi](https://www.jamovi.org/) [@Software:jamovi] and/or
-[SPSS](https://www.ibm.com/products/spss-statistics) [@Software:SPSS].
+[SPSS](https://www.ibm.com/products/spss-statistics) [@Software:SPSS] *output*.
 
-jamovi is *free* and is like (but not exactly the same as) SPSS:
+jamovi is *free* and is a little like SPSS:
 
 > jamovi is a new '3rd generation' statistical spreadsheet. 
 > designed from the ground up to be easy to use, 
@@ -149,13 +155,14 @@ and the **bookdown** package [@Software:Rbookdown],
 which is based on [Markdown](https://en.wikipedia.org/wiki/Markdown) syntax,
 using **knitr**
 [@package:knitr].
+
 Numerous other **R** packages were used too:
 
 * The diagrams were made in base **R**,
   or using the **diagram** package [@Rpackage:diagram].
 * The **kableExtra** package was used for nicer tables
   [@package:kableExtra].
-* The map in Sect. \@ref(SamplingParking) (interactive in the online version) is made using the **leaflet** package [@package:leaflet].
+* The map in Sect. \@ref(SamplingParking) (which is interactive in the online version) is made using the **leaflet** package [@package:leaflet].
 * Some data tables in the online version are displayed using the **DT** package
   [@package:DT].
 * Some plots use the **plotrix** package
@@ -168,7 +175,7 @@ Numerous other **R** packages were used too:
   [@package:viridis] to make colours easier for those with colour-blindess to distinguish colours,
   and for better greyscale printing.
 * The **webexercises** package was used to create the interactive web exercises
-  [@package:webex].
+  [@package:webex] (i.e., Quick Revision questions).
 
 All of this software is *free* and open source.
 

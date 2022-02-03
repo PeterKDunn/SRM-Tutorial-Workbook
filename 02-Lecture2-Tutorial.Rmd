@@ -86,11 +86,12 @@ Consider this (qualitative) RQ:
 
 ## Study design {#StudyDesign}
 
-A student group was studying this RQ (which is **not** appropriate for the Project):
+A student group was studying this RQ (which is **not** appropriate for the SCI110 Project):
 
 > Among Australians, is the median serum cholesterol concentration different for smokers and non-smokers?
 
 The students gave the following information about their study.
+
 Explain **why** each of these statements is **incorrect**.
 
 1. "The design is observational, as we cannot determine each person's serum cholesterol."
@@ -277,6 +278,7 @@ include_graphics("Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg")
 A study [@data:Truswell1992:crisps]
 compared the health benefits of crisps ('potato chips')
 when fried in canola oil or palmolein.
+
 The article states (line breaks added):
 
 > Recently canola oil crisps have appeared in the market with the implication that their lower proportion 
@@ -326,7 +328,7 @@ Part of the protocol  for the study is given below:
 
 ## **Optional**: Sampling {#SamplingParking}
 
-Suppose we needed a sample of 80 vehicles parking at USC, 
+Suppose we needed a sample of 80 vehicles parked at USC, 
 and we wish to determine the proportion displaying P plates.
 
 Determine a useful way to find a suitable representative sample.

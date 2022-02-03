@@ -11,18 +11,18 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answer: TW tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
-* Answer: TW tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
-* Answer: TW tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
-* Answer: TW tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
-* Answer: TW tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
-* Answer: TW tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
-* Answer: TW tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
+* Answer: Tutorial \@ref(Lecture1) (Teaching Week 1): Sect. \@ref(Lecture1Answers).
+* Answer: Tutorial \@ref(Lecture2) (Teaching Week 2): Sect. \@ref(Lecture2Answers).
+* Answer: Tutorial \@ref(Lecture3) (Teaching Week 3): Sect. \@ref(Lecture3Answers).
+* Answer: Tutorial \@ref(Lecture4) (Teaching Week 4): Sect. \@ref(Lecture4Answers).
+* Answer: Tutorial \@ref(Lecture5) (Teaching Week 5): Sect. \@ref(Lecture5Answers).
+* Answer: Tutorial \@ref(Lecture6) (Teaching Week 6): Sect. \@ref(Lecture6Answers).
+* Answer: Tutorial \@ref(Lecture7) (Teaching Week 7): Sect. \@ref(Lecture7Answers).
 * No Exercises in the Break week.
-* Answer: TW tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
-* Answer: TW tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
-* Answer: TW tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
-* Answer: TW tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
+* Answer: Tutorial \@ref(Lecture8) (Teaching Week 8): Sect. \@ref(Lecture8Answers).
+* Answer: Tutorial \@ref(Lecture9) (Teaching Week 9): Sect. \@ref(Lecture9Answers).
+* Answer: Tutorial \@ref(Lecture10) (Teaching Week 10): Sect. \@ref(Lecture10Answers).
+* Answer: Tutorial \@ref(Lecture11) (Teaching Week 11): Sect. \@ref(Lecture11Answers).
 
 
 
@@ -207,7 +207,17 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
    Perhaps:
    "Is the mean reaction time different for males and females?" or similar.
 
+Terms that may need defining (there may be others):
 
+1. Conceptual: Domestic; SE Queensland"; poly tanks; concrete tanks.  
+   Operational: How the concentration will be measured.
+2. Conceptual: Lower-limb amputee.
+3. Conceptual: "Amount" of salt; Homebrand; beans (coffee beans? jelly beans; bean-bag beans; kidney beans; baked beans; etc.)  
+   Operational: how is salt "amount" being measured?
+4. Conceptual: adult; juvenile; what type of kangaroos and elephants?  
+   Operational: How to measure weight (especially of elephants!)
+5. Conceptual: Reaction time; gender.
+   Operational: How reaction time will be measured. How gender will be determined.
 
 
 
@@ -249,17 +259,15 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 ## Answer: TW 2 tutorial {#Lecture2Answers}
 
 
-
-
 ### Answers for Sect. \@ref(StudyDesign) {.unlisted .unnumbered}
 
 1. The study is *observational*, but because the researchers cannot determine the C (whether the person is a smoker or not).
    The critical element here is C, *not* O.
 2. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
-3. *External validity* only refers to whether the *sample* represents the given *population*, which is *Australians*.
+3. *External validity* only refers to whether the *sample* represents the given target *population*, which is *Australians*.
    Whether the results apply for the entire world is irrelevant.
 4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
-   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of seru cholesterol".
+   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of serum cholesterol".
 5. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
 6. In the data file, each row is a unit of analysis and each column is a variable. 
    So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
