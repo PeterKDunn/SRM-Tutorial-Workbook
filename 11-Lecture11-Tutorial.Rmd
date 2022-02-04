@@ -11,11 +11,11 @@
 :::
 
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 33 (Relationships between two quantitative variables)](https://bookdown.org/pkaldunn/Book/TwoQuant.html).
-* [Chapter 34 (Correlations)](https://bookdown.org/pkaldunn/Book/Correlation.html).
-* [Chapter 35 (Regression)](https://bookdown.org/pkaldunn/Book/Regression.html).
+* [Chapter 33 (Relationships between two quantitative variables)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 34 (Correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
+* [Chapter 35 (Regression)](https://bookdown.org/pkaldunn/SRM-Textbook/Regression.html).
 
 
 

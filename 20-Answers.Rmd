@@ -1020,7 +1020,7 @@ However, if what we observe is **consistent** with what was expected, then the t
 5. $z=(-12-0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
 6. The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
 7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z=0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
-8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/Book/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
+8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/SRM-Textbook/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
 
 
 
@@ -1050,7 +1050,7 @@ Answers implied by H5P.
 	Or: For every 100 that die, about 44 survive.
 4. No: sampling variation!
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1-0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about 0.023.  
-   A definition can be found in the [Glossary](https://bookdown.org/pkaldunn/Book/Glossary.html). 
+   A definition can be found in the [Glossary](https://bookdown.org/pkaldunn/SRM-Textbook/Glossary.html). 
    Essentially, each sample is likely to produce a different value for the sample proportion, $\hat{p}$ (the estimate of the population proportion, $p$), 
    and that is what we mean by “sampling variation”.
 7. The values of $\hat{p}$ will have an approximate normal distribution,
@@ -1064,7 +1064,7 @@ Answers implied by H5P.
    or $0.30446\pm0.04579$,
    or $0.26$ to $0.35$.
 8. One way of writing communicating: “The population proportion of patients surviving after BVM treatment has a 95% chance of lying between 26% and 35%.”
-   This is not strictly correct, but acceptable and very, very commonly used (as explained in [the textbook](https://bookdown.org/pkaldunn/Book/CIInterpretation.html)).
+   This is not strictly correct, but acceptable and very, very commonly used (as explained in [the textbook](https://bookdown.org/pkaldunn/SRM-Textbook/CIInterpretation.html)).
 
 9. The number of surviving and non surviving both exceed 5.
 10. Larger, to get a tighter (more precise) CI than the one calculated.

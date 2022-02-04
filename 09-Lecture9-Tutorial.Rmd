@@ -8,13 +8,13 @@
 * Tests for paired sample means.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
-* [Chapter 27 (Introducing hypothesis tests)](https://bookdown.org/pkaldunn/Book/HTIntro.html).
-* [Chapter 28 (Hypothesis tests for one mean)](https://bookdown.org/pkaldunn/Book/TestOneMean.html).
-* [Chapter 29 (More about hypothesis testing)](https://bookdown.org/pkaldunn/Book/MoreAboutTests.html).
-* [Chapter 30 (Hypothesis tests for the mean difference)](https://bookdown.org/pkaldunn/Book/TestPairedMeans.html).
+* [Chapter 27 (Introducing hypothesis tests)](https://bookdown.org/pkaldunn/SRM-Textbook/HTIntro.html).
+* [Chapter 28 (Hypothesis tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 29 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 30 (Hypothesis tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
 
 
 

@@ -9,14 +9,14 @@
 :::
 
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 4 (Ethics in research)](https://bookdown.org/pkaldunn/Book/Ethics.html).
-* [Chapter 5 (External validity: Sampling)](https://bookdown.org/pkaldunn/Book/Sampling.html).
-* [Chapter 6 (Overview of internal validity)](https://bookdown.org/pkaldunn/Book/FactorsInfluenceY.html).
-* [Chapter 7 (Internal validity and experimental studies)](https://bookdown.org/pkaldunn/Book/DesignExperiment.html).
-* [Chapter 8 (Internal validity and observational studies)](https://bookdown.org/pkaldunn/Book/DesignObservational.html).
-* [Chapter 9 (Identifying study limitations)](https://bookdown.org/pkaldunn/Book/Interpretation.html).
+* [Chapter 4 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
+* [Chapter 5 (External validity: Sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
+* [Chapter 6 (Overview of internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/FactorsInfluenceY.html).
+* [Chapter 7 (Internal validity and experimental studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignExperiment.html).
+* [Chapter 8 (Internal validity and observational studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignObservational.html).
+* [Chapter 9 (Identifying study limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
 
 
 

@@ -7,11 +7,11 @@
 * Tests for ORs.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 31 (Hypothesis tests for the means of two independent groups)](https://bookdown.org/pkaldunn/Book/TestTwoMeans.html).
-* [Chapter 32 (Hypothesis tests for odds ratios)](https://bookdown.org/pkaldunn/Book/TestsOddsRatio.html).
-* [Chapter 33 (Selecting a hypothesis test)](https://bookdown.org/pkaldunn/Book/SelectTest.html).
+* [Chapter 31 (Hypothesis tests for the means of two independent groups)](https://bookdown.org/pkaldunn/SRM-Textbook/TestTwoMeans.html).
+* [Chapter 32 (Hypothesis tests for odds ratios)](https://bookdown.org/pkaldunn/SRM-Textbook/TestsOddsRatio.html).
+* [Chapter 33 (Selecting a hypothesis test)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html).
 
 
 

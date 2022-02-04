@@ -13,10 +13,10 @@
 * Using the **Statistics Mode** of your calculator.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 13 (Numerical summaries: quantitative data)](https://bookdown.org/pkaldunn/Book/NumericalQuant.html).
-* [Chapter 14 (Numerical summaries: qualitative data)](https://bookdown.org/pkaldunn/Book/NumericalQual.html).
+* [Chapter 13 (Numerical summaries: quantitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/NumericalQuant.html).
+* [Chapter 14 (Numerical summaries: qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/NumericalQual.html).
 
 
 *****

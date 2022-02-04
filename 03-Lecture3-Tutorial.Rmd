@@ -8,11 +8,11 @@
 * Graphical summaries.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/Book/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 10 (Procedures for collecting data)](https://bookdown.org/pkaldunn/Book/CollectingDataProcedures.html).
-* [Chapter 11 (Describing data)](https://bookdown.org/pkaldunn/Book/DescribingVars.html).
-* [Chapter 12 (Graphical summaries of data)](https://bookdown.org/pkaldunn/Book/Graphs.html).
+* [Chapter 10 (Procedures for collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
+* [Chapter 11 (Describing data)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
+* [Chapter 12 (Graphical summaries of data)](https://bookdown.org/pkaldunn/SRM-Textbook/Graphs.html).
 
 
 
