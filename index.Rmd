@@ -251,6 +251,6 @@ you will learn to:
 
 ## How to cite this book {-}
 
-Peter K. Dunn (2019). *Scientific Research Methods: Tutorials*.
+Peter K. Dunn (2022). *Scientific Research Methods: Tutorials*.
 https://bookdown.org/pkaldunn/SRM-tutorials/index.html
 
