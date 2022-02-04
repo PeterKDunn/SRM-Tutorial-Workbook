@@ -1,3 +1,13 @@
+# Thoughts for teaching {#NonOptionalAnswers}
+
+Some information for tutors only.
+`r if (knitr::is_html_output()) {
+   '[<span style="color: white;">.</span>](#TutorInfo)'
+}`
+
+
+
+
 ## Tutor information and answers {#TutorInfo .unlisted .unnumbered}
 
 This Appendix contains some thoughts on teaching in the tutorial.

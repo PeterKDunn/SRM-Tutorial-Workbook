@@ -478,7 +478,7 @@ Answers implied by H5P.
    * The largest value is over 70 minutes! Do a *quick* project!
 		
 3. A few issues...
-   * Compares just two numbers (means) using lots of ink.  
+   * Compares just two numbers (means) using lots of ink.
    * No indication of variation in the data.
    * A boxplot (or dotchart) would be appropriate.
 
@@ -613,7 +613,7 @@ A small outlier (near 10.5 inches)
 
 
 1. Descriptive RQ.
-2. $\bar{x}=102.62$MPa; $s=5.356$MPa.  
+2. $\bar{x}=102.62$MPa; $s=5.356$MPa.
 3. The median is $101.1$MPa.
    The range is from $97.6$ to $111.2$, or $13.6$MPa.
 4. Report none based on five values!  Too few data points! In any case, both the median and the mean have very similar values.
@@ -893,7 +893,7 @@ IQR similar for each office, and range similar for Offices A and C (slightly lar
   d. $381/295 = 1.29153$, or about 1.29.
   e. $1.05828 / 1.29153 = 0.81940$, or about 0.819.
 
-2. 
+2.
   a $(240 + 138)/960 = 0.39375$, or 39.4%.
   b. $(240 + 342)/960 = 0.60625$, or 60.6%.
   c. $(240 + 240)/960 = 0.5000$, or 50%.
@@ -2279,7 +2279,7 @@ $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having 
 5. Probably $3900.
 6. My guess is about $b_0\approx 17$ or $17,000.
 	This would mean the average price of a 2014 second-hand Corolla
-	can be expected to be about $17,000.  
+	can be expected to be about $17,000.
 7. $b_1 = (1 - 17)/(16-0)\approx -1$. That is,
    the price reduces by about $1000 each year older the Corolla gets.
 8. Using the above, we have $\hat{y} = 17 - x$ approximately.
