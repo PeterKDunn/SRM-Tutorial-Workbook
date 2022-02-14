@@ -8,37 +8,38 @@ Some information for tutors only.
 
 
 
-## Tutor information and answers {#TutorInfo .unlisted .unnumbered}
+## Tutor information {#TutorInfo .unlisted .unnumbered}
 
 This Appendix contains some thoughts on teaching in the tutorial.
 
 * [Introductory information](#IntroInfoTutor) for use in the Lecture \@ref(Lecture1) Tutorial.
-* [Information](#Lecture1AnswersTutor) for Teaching Week \@ref(Lecture1) Tutorial.
-* [Information](#Lecture2AnswersTutor) for Teaching Week \@ref(Lecture2) Tutorial.
-* [Information](#Lecture3AnswersTutor) for Teaching Week \@ref(Lecture3) Tutorial.
-* [Information](#Lecture4AnswersTutor) for Teaching Week \@ref(Lecture4) Tutorial.
-* [Information](#Lecture5AnswersTutor) for Teaching Week \@ref(Lecture5) Tutorial.
-* [Information](#Lecture6AnswersTutor) for Teaching Week \@ref(Lecture6) Tutorial.
-* [Information](#Lecture7AnswersTutor) for Teaching Week \@ref(Lecture7) Tutorial.
+* [Information](#Lecture1ThoughtsForTutors) for Teaching Week \@ref(Lecture1) Tutorial.
+* [Information](#Lecture2ThoughtsForTutors) for Teaching Week \@ref(Lecture2) Tutorial.
+* [Information](#Lecture3ThoughtsForTutors) for Teaching Week \@ref(Lecture3) Tutorial.
+* [Information](#Lecture4ThoughtsForTutors) for Teaching Week \@ref(Lecture4) Tutorial.
+* [Information](#Lecture5ThoughtsForTutors) for Teaching Week \@ref(Lecture5) Tutorial.
+* [Information](#Lecture6ThoughtsForTutors) for Teaching Week \@ref(Lecture6) Tutorial.
+* [Information](#Lecture7ThoughtsForTutors) for Teaching Week \@ref(Lecture7) Tutorial.
 * Break week
-* [Information](#Lecture8AnswersTutor) for Teaching Week \@ref(Lecture8) Tutorial.
-* [Information](#Lecture9AnswersTutor) for Teaching Week \@ref(Lecture9) Tutorial
-* [Information](#Lecture10AnswersTutor) for Teaching Week \@ref(Lecture10) Tutorial.
-* [Information](#Lecture11AnswersTutor) for Teaching Week \@ref(Lecture11) Tutorial.
-* [Information](#Lecture12AnswersTutor) for Teaching Week \@ref(Lecture12) Tutorial.
+* [Information](#Lecture8ThoughtsForTutors) for Teaching Week \@ref(Lecture8) Tutorial.
+* [Information](#Lecture9ThoughtsForTutors) for Teaching Week \@ref(Lecture9) Tutorial
+* [Information](#Lecture10ThoughtsForTutors) for Teaching Week \@ref(Lecture10) Tutorial.
+* [Information](#Lecture11ThoughtsForTutors) for Teaching Week \@ref(Lecture11) Tutorial.
+* [Information](#Lecture12ThoughtsForTutors) for Teaching Week \@ref(Lecture12) Tutorial.
 
 
 
 
 ## Introductory information for use in the Teaching Week 1 tutorial {#IntroInfoTutor .unlisted .unnumbered}
 
+
+[**Return to index of tutor information.**](#TutorInfo)
+
 As part of the first tutorial, you **may** wish to use some introductory activities
 so students can get to know each other.
 This is important for helping students to form groups (for their group work assignments).
 
 
-
-[**Return to index of tutor information.**](#TutorInfo)
 
 ### Introduction to course {.unlisted .unnumbered}
 
@@ -102,51 +103,15 @@ That covers a lot of good territory really...
 
 
 
-## Answers to Teaching Week 1 tutorial  {#Lecture1AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 1 tutorial  {#Lecture1ThoughtsForTutors .unlisted .unnumbered}
 
-<!-- Lecture1AnswersTutor -->
+<!-- Lecture1ThoughtsForTutors -->
 
 [**Return to index of tutor information.**](#TutorInfo)
 
 
-### Answers to Sect. \@ref(FormingRQs) {.unlisted .unnumbered}
 
-1. Either is OK; they are just different. Note the different way a study can be addressed.  
-   But importantly: neither RQ is actually helping answer the issue of the cafe owner!
-   For example, I  may be able to tell the difference between diet and regular cola...
-   but I may like them both equally (i.e., the test rating is the same).
-2. The cafe owner would *not allocate* drinkers to drink either diet or regular softdrinks,
-   but just find those who were drinking either and ask them to rate the taste.
-   I guess retrospective would be best.
-3. The cafe owner would need to allocate drinkers to either diet or regular.
-   Ideally, the drinkers would not know which they had consumed (really, that's next week's work).
-   Ideally, the drinks would be allocated at random to receive diet or regular (next week too).
-   Ideally a true experiment.
-4. Experimental would be better;
-   fewer things out of the researchers control.  
-   Besides, people buy what they like...
-
-
-### Answers to Sect. \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
-
-Students can use the **Glossary** in the textbook!
-This is good chance to remind students that a Glossary is there for them to use!
-
-
-
-
-### Answers to Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
-
-You may wish to point out how the researchers only studied *individuals* and not *groups*,
-and discuss this in regard to *units of analysis* and *units of observation*.
-
-
-
-
-
-
-
-### Answers to Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 One way to manage this:
@@ -165,7 +130,7 @@ then have the groups share with other groups.
 The point is that there are many possible options,
 all of which are acceptable,
 and all of which lead to different RQs.
-```
+
 
 1. Note that Jane's actual assertion in the last sentence explicitly refers to "people",
    though the context really is (USC?) students as she asserts earlier.
@@ -176,13 +141,13 @@ and all of which lead to different RQs.
 4. "Between before and after drinking Earl Grey tea" is *not* a comparison
    because everyone in the population (sample) is treated the same way:
    There are not two groups in the population being compared.
-
+```
     
     
 
 
 
-### Answers to Sect. \@ref(Units) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(Units) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 Encourage and promote student discussion and debate about the answers,
@@ -203,18 +168,20 @@ Then let the groups share their answers with another group(s).
 
 
 
-## Answers to Teaching Week 2 tutorial {#Lecture2AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
-### Answers to Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
 
-Answers implied by the crossword:
+```{block2, type="rmdTutorInfo"}
+Remind students that there is a Glossary in the textbook!
+```
 
 
 
-### Answers to Sect. \@ref(AssessReport) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(AssessReport) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 For newspaper articles,
@@ -225,7 +192,7 @@ Sometimes we need to assume answers or just state that we don't know.
 
 
 
-### Answers to Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 The purpose of this question is to get students thinking about *study design* for Assessment Task 2A.
@@ -325,18 +292,18 @@ Notes:
 
 
 
-## Answers to Teaching Week 3 tutorial {#Lecture3AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 3 tutorial {#Lecture3ThoughtsForTutors .unlisted .unnumbered}
 
 
 
-<!-- Lecture3AnswersTutor -->
+<!-- Lecture3ThoughtsForTutors -->
 
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
-### Answers to Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 You can have different groups (two or four) do different parts,
@@ -348,14 +315,14 @@ Promote discussion, don't just give answers.   Ask **why**!
 
 
 
-### Answers to Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 Have students work in groups, and then share their answers.
 ```
 
 
-### Answers to Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 Following on from the ruler-drop planning activity from Week 2
@@ -378,31 +345,30 @@ Then compute the differences (automatically; see me if unsure), and then show th
 [**Return to index of tutor information.**](#TutorInfo)
 
 
-## Answers to Teaching Week 4 tutorial {#Lecture4AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-### Answers to Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
 
-1. The smallest jellyfish has a breadth of (approx.) 6mm. A median of 4mm is silly!  
+```{block2, type="rmdTutorInfo"}
+With 22 observations,
+the median is halfway between the 11th and 12th ordered observations
+(observation number $(22+1)/2=11.5$):
+both be in the second bar, 
+so the median is somewhere between 8 and 10mm
+(we cannot be sure based on the histogram, as information is lost).
+If they understand the histogram,
+they should also see that the smallest breadth is about 6mm,
+so a median of 4mm makes no sense.  
 
-   With 22 observations,
-   the median is halfway between the 11th and 12th ordered observations
-   (observation number $(22+1)/2=11.5$):
-   both be in the second bar, 
-   so the median is somewhere between 8 and 10mm
-   (we cannot be sure based on the histogram, as information is lost).
-   If they understand the histogram,
-   they should also see that the smallest breadth is about 6mm,
-   so a median of 4mm makes no sense.  
-
-   If you have the time: **Ask**  *how* to explain why they are wrong**,
-   and **ask approximately what the median would be**.
-
-
+If you have the time: **Ask**  *how* to explain why they are wrong,
+and **ask approximately what the median would be**.
+```
 
 
-### Answers to Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+
+### Thoughts on Sect. \@ref(StatsMode) {.unlisted .unnumbered}
 
 
 ```{block2, type="rmdTutorInfo"}
@@ -428,20 +394,18 @@ The Course Outline indicates that a calculator is needed.
 Help students as much as you can, 
 but you cannot be expected to know how to work every type of calculator that is out there.
 You can perhaps direct students to work with other students having similar calculators.
-```
+
 
 If students use the wrong standard deviation button,
 they will get $\sigma=4.79$MPa in error.
 **This is one important outcome of this question:
 That students know what button to press *on their calculator* to get the sample standard deviation.**
+```
 
 
 
 
-
-### Answers to Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
-
-Answers implied by H5P.
+### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 You can have groups answer each part separately,
@@ -463,33 +427,36 @@ rownames(NumSum) <- c("Std devs",
                        "Medians",
                        "Means")
 
-NumSum[1, ] <- c("7.04", "5.90", "5.10", "2.84")
-NumSum[2, ] <- c("12.10", "7.96", "5.82", "4.71")
-NumSum[3, ] <- c("27.13", "25.19", "20.07", "45.03")
-NumSum[4, ] <- c("27.15", "25.26", "21.49", "44.95")
+NumSum[1, ] <- c("7.04", 
+                 "5.90", 
+                 "5.10", 
+                 "2.84")
+NumSum[2, ] <- c("12.10", 
+                 "7.96", 
+                 "5.82", 
+                 "4.71")
+NumSum[3, ] <- c("27.13", 
+                 "25.19", 
+                 "20.07", 
+                 "45.03")
+NumSum[4, ] <- c("27.15", 
+                 "25.26", 
+                 "21.49", 
+                 "44.95")
 
 kable(NumSum,
-      align=rep("r", 4),
-      booktabs=TRUE,
-      caption="Some statistics from the graphs") %>%
-  column_spec(1, bold=TRUE) %>%
-  row_spec(0, bold=TRUE) %>%
-  kable_styling(full_width=FALSE)
+      align = rep("r", 4),
+      booktabs = TRUE,
+      caption = "Some statistics from the graphs") %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
 ```
 
-1. The largest median is for **Class D**.
-2. The smallest median is for **Class C**.
-3. Largest standard deviation is for **Class A**: the values are far more diverse.
-4. Smallest standard deviation is for **Class D**:
-   the observations all have very similar values (all are about 22)
-   and none are very far from about 22.
 
 
 
-
-
-
-### Answers to Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 This activity follows on from the ruler-drop planning activity from Week 2
@@ -533,71 +500,11 @@ include_graphics("SoftwareImages/RulerDropData.png")
 
  
 
-## Answers to Teaching Week 5 tutorial {#Lecture5AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-
-
-### Answers to Sect. \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. The decision-making process begin with making an assumption about the population **parameter**.  
-This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. But we can have some of idea of what values are reasonable to expect.  
-Then we take the **sample** (that is, we make the observations).  
-Then we **compare** the sample statistic that we observed... to the sample statistic we expected.  
-If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.  
-However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
-
-2. Step 1:  Assumption about population parameter  
-   Step 2: Expectation for sample statistic  
-   Step 3: Observation of sample statistic  
-   Decision: Consistent?  
-   Conclusion A: Yes, supports assumption  
-   Conclusion B: No, doesn't support assumption
-
-### Answers to Sect. \@ref(Odds1) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. Odds **less than** one.
-1. Odds **less than** one.
-1. Odds **greater than** one.
-1. Odds **greater than** one.
-
-
-[**Return to index of tutor information.**](#TutorInfo)
-
-
-
-
-
-
-
-
-## Answers to Teaching Week 6 tutorial {#Lecture6AnswersTutor .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-### Answers to Sect. \@ref(NormalIQs) {.unlisted .unnumbered}
-
-Answers embedded.
-Some answers:
-
-1. In order from left to right:
-   70; 85; 100; 115; 130.
-3. 30 points above the mean.
-4. Two standard deviations above the mean.
-5. About 2.5%.
-
-A person with an IQ of 85 has an IQ that is **15** points **below** the mean.  
-This is equivalent to **1** standard deviation(s) **below** the mean IQ.  
-Using the **68**--95--99.7 rule, this means that the proportion of the population with an IQ less than 85 is about **32**%. In addition, the proportion of the population with an IQ **above** 85 is about **68**%.
-
-
-### Answers to Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 Encourage drawing diagrams!
@@ -605,22 +512,32 @@ A common error: plugging numbers into calculators wrongly,
 and effectively computing
 $z=x-(\mu/\sigma)$
 rather than $z=(x-\mu)/\sigma$.
-```
+
 Notice that students cannot be very accurate using the 68--95--99.7 rule,
 which is one of the points to be made:
 Only a guess can be made, but using $z$-scores leads to more accurate answers.
+```
 
 
-```{block2, block="rmdTutorInfo"}
+```{block2, type="rmdTutorInfo"}
 **You could have a discussion about rounding:**
 Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 ```
         
+[**Return to index of tutor information.**](TutorInfo.html)
 
- 
 
 
-### Answers to Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
+
+
+
+
+## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 **Students commonly forget the square root.**
@@ -630,24 +547,10 @@ Furthermore,
 many students will have no idea what's going on.
 ```
 
-[**Return to index of tutor information.**](#TutorInfo)
 
 
 
-
-
-
-
-## Answers to Teaching Week 7 tutorial {#Lecture7AnswersTutor .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-
-
-
-### Answers to Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 If you wish,
@@ -658,55 +561,6 @@ you can discuss what the negative number means.
 ```
 
 
-
-[**Return to index of tutor information.**](#TutorInfo)
-
-
-
-
-
-
-## Answers to Teaching Week 9 tutorial {#Lecture8AnswersTutor .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-
-### Answers to Sect. \@ref(HTOneMean-A) {.unlisted .unnumbered}
-
-1. The **parameter** of interest is the *population mean pizza diameter*, say $\mu$.
-1. From the output: $\bar{x} = 11.486$ and $s=0.247$.
-1. Use $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.247/\sqrt{125} = 0.02205479$.
-1. $s$ tells us the variation in diameter from pizza to pizza.
-   $\text{s.e.}(\bar{x})$ tells us how much the sample mean is likely to vary from sample to sample, in sample of size 125.
-1. The hypotheses are:  
-
-   $H_0$: The mean diameter is 12 inches; or $\mu=12$.  
-   $H_1$: The mean diameter is not 12 inches; or $\mu\ne 12$
-1. Two-tailed, because the RQ asks if the diameter is 12 inches, or not.
-1. The normal distribution has a mean of 12, and a 
-   standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
-1. $t = -23.3$.
-1. $t=(11.486-12)/0.02205 = -23.3$.
-1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
-   (Two-tailed $P<0.001$ from the table or from software.)
-1. Very strong evidence exists in the sample
-   ($t=-23.3$; $\text{df}=124$; two-tailed $P$ less than 0.001)
-   that the population mean pizza diameter
-   of pizzas from Eagle Boys' is less than 12 inches
-   (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
-   95% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$)
-   (Note: The CI was computed in the Week~8 tutorial; or use $t=1.98$.)
-1. Since $n$ is much larger than $30$,
-   we do not require that the population has a normal distribution,
-   just that the population is not grossly non-normal;
-   the sample means will still have an approximate normal distribution.
-1. *Very* unlikely!
-
-
-
-
 [**Return to index of tutor information.**](#TutorInfo)
 
 
@@ -715,19 +569,30 @@ you can discuss what the negative number means.
 
 
 
-
-
-
-
-
-## Answers to Teaching Week 10 tutorial {#Lecture10AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
 
 
-### Answers to Sect. \@ref(PValues) {.unlisted .unnumbered}
+
+
+## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+
+
+
+## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 We only need to use the 68--95--99.7 rule.
@@ -739,7 +604,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 
 
-### Answers to Sect. \@ref(PlanStudy8) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy8) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 If you wish,
@@ -747,21 +612,31 @@ you can conduct a hypothesis test for the ruler-drop (using jamovi).
 ```
 
 
-
-
-[**Return to index of tutor information.**](#TutorInfo)
+[**Return to index of tutor information.**](TutorInfo.html)
 
 
 
 
 
-## Answers to Teaching Week 11 tutorial {#Lecture11AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
 
-### Answers to Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
+
+
+
+
+
+
+## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 If you count the dots on the scatterplot, 
@@ -773,15 +648,15 @@ If you have time,
 you can ask students about this,
 and even ask for suggestions to improve this
 (such as jittering).
-```
+
 
 **Note**: Since all the cars in the sample are second-hand,
 technically the results only generalise to second-hand cars,
 so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.
+```
 
 
-
-### Answers to Sect. \@ref(RegressionCorrelation) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 The point is that the same regression line can be associated with a high correlation,
@@ -795,12 +670,8 @@ Regression and correlation are not the same thing!
 
 
 
-## Answers to Teaching Week 12 tutorial {#Lecture12AnswersTutor .unlisted .unnumbered}
+## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-  
-[**Return to index of tutor information.**](TutorInfo.html)
-  
-  
 
