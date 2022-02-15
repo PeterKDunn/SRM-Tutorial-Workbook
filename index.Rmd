@@ -68,16 +68,16 @@ This book has been prepared for use with the book
    'Scientific Research and Methodology'
 } else {
    '[Scientific Research and Methodology](https://bookdown.org/pkaldunn/SRM-Textbook/)'
-}`
-(at the
+}`,
+to be used in the course *Science Research Methods* at the
 `r if (knitr::is_latex_output()) {
-   'University of the Sunshine Coast (USC))'
+   'University of the Sunshine Coast (USC).'
 } else {
-   '[University of the Sunshine Coast (USC))](https://www.usc.edu.au),'
+   '[University of the Sunshine Coast (USC)](https://www.usc.edu.au).'
 }`
-which is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
 
-This course introduces the whole research process,
+This course is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
+It introduces the whole research process,
 from asking a research question to analysis and reporting of the data.
 The focus, however, is on the analysis of data.
 
