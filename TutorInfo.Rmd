@@ -214,7 +214,7 @@ The whole class will do the same study,
 and contribute data.
    
 **We will compare the 'average ruler reaction time' for students after using their dominant and non-dominant hands**:
-Beinga  little vague at this stage:
+Being a  little vague at this stage:
 
 * **P**opulation: Could be SCI110 students, USC students, ...
 * **O**utcome: The average amount that the dominant hand is faster than the non-dominant hand
@@ -226,6 +226,7 @@ This is a descriptive RQ,
 because there is no C
 (there are not two subsets (that are naturally different, or will be treated differently) being compared,
 as per our definition of a **C**omparison.
+
 As a result,
 **a Task 2 project like this is not permitted: There is no C**.
 
@@ -235,7 +236,7 @@ Some points:
   This is not the best idea, as some people and left-handed and some are right-handed,
   and it is better is to compare dominant and non-dominant hands.
   But start like this, and lead a discussion that encourages students to come to this realisation.
-* Initially tell them what you want in very general terms ("we'll measures the reaction time in left and right hands"),
+* Initially tell them what you want in very general terms ("we'll measure the reaction time in left and right hands"),
   and tell them to *Go!*
   They'll probably all start measuring without any planning.
   So let them go for one or two minutes,
@@ -256,14 +257,14 @@ Some points:
   - How will we dine *dominant hand*? (Perhaps easiest: Hand we write with.)
   - What if someone is ambidexterous? (Use exclusion criteria!)
   - How will be grab the ruler? Anyway we like, or with index finger and thumb? 
-  - How do we measure the reaction time on the ruler? Top of thumb?
+  - How do we measure the reaction time on the ruler? What is grabbing finger/thumb is not horizontal exactly? Top of thumb?
   - Where will we start the ruler relative to fingers?
   - When will we release the ruler? After (say) 3 seconds? After a random time?
   - Will catchers be sitting or standing?
   - What of the catcher drops their hand while catching? (Maybe arm should rest on a table?)
   - How far apart should fingers be?
-  - Just one catch per hand, or more? If more, what (sngle) number to rport: the slowest? Fastest? Median? Mean?
-  - What if the catchers fails to catch the ruler: Have another go? Or just bad luck: They miss a measurement?
+  - Just one catch per hand, or more? If more, what (single) number to rport: the slowest? Fastest? Median? Mean?
+  - What if the catchers fails to catch the ruler: Have another go? Or just their bad luck: They miss a measurement?
   - Can we manage Hawthorne (no), observer effect (ask which hand is dominant *after* collecting data), etc.
 * For example, we may decide to toss a coin to start (Heads: Start with left; Tails: Start with right), then alternate to have three tries each hand.
   Report the median for each hand. 
