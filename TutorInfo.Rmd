@@ -46,7 +46,7 @@ This is important for helping students to form groups (for their group work assi
 * **Course introduction**:
   Briefly introduce the course if necessary,
   but remember that I have instructed students to read the Course Outline
-  and the Blackboard information,
+  and the Canvas information,
   and have emailed them lots of information too.
   
 * **Approach**:
@@ -66,8 +66,8 @@ This is important for helping students to form groups (for their group work assi
     (remind them they don't have \$1000 to waste, 
     so take advantage of all that we offer).
   * Then discuss the pre-semester fun survey (see below).
-  * You may even like to open Blackboard and show students where the 
-    Learning Materials, Discussion Board, Check your Progress questions, etc. are located.
+  * You may even like to open Canvas and show students where the 
+    Modules, Discussions, Check your Progress questions, etc. are located.
   * Then do some content questions.
   
   
