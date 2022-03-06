@@ -56,7 +56,7 @@ This is important for helping students to form groups (for their group work assi
   Here is one way to structure this class (you don’t have to use (or like) it):
 
   * Explain why they are doing SCI110.
-  * Group them according to where they live (may be helpful for finding near by group members): 
+  * Group them according to where they live (may be helpful for finding near-by group members): 
     Chat and learn three names.
   * Line up by hours per week they think is needed for this course.
     (USC courses are designed for 10--12 hours per week, including classes, every week; 
