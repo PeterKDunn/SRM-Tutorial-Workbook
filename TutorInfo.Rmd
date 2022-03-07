@@ -12,7 +12,7 @@ Some information for tutors only.
 
 This Appendix contains some thoughts on teaching in the tutorial.
 
-* [Introductory information](#IntroInfoTutor) for use in the Lecture \@ref(Lecture1) Tutorial.
+* [Introductory information](#IntroInfoTutor) for use in the Teaching Week \@ref(Lecture1) Tutorial.
 * [Information](#Lecture1ThoughtsForTutors) for Teaching Week \@ref(Lecture1) Tutorial.
 * [Information](#Lecture2ThoughtsForTutors) for Teaching Week \@ref(Lecture2) Tutorial.
 * [Information](#Lecture3ThoughtsForTutors) for Teaching Week \@ref(Lecture3) Tutorial.
