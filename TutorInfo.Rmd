@@ -20,8 +20,7 @@ This Appendix contains some thoughts on teaching in the tutorial.
 * [Information](#Lecture5ThoughtsForTutors) for Teaching Week \@ref(Lecture5) Tutorial.
 * [Information](#Lecture6ThoughtsForTutors) for Teaching Week \@ref(Lecture6) Tutorial.
 * [Information](#Lecture7ThoughtsForTutors) for Teaching Week \@ref(Lecture7) Tutorial.
-* Break week
-* [Information](#Lecture8ThoughtsForTutors) for Teaching Week \@ref(Lecture8) Tutorial.
+* Break from new material in Teaching Week \@ref(Lecture8).
 * [Information](#Lecture9ThoughtsForTutors) for Teaching Week \@ref(Lecture9) Tutorial
 * [Information](#Lecture10ThoughtsForTutors) for Teaching Week \@ref(Lecture10) Tutorial.
 * [Information](#Lecture11ThoughtsForTutors) for Teaching Week \@ref(Lecture11) Tutorial.

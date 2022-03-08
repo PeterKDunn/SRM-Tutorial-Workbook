@@ -3,7 +3,7 @@
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-home-7-240.png}"}
 Teaching Week 8 is a *break week*.
   
-There is no new content, and no classes.
+There is no new content.
 :::
 
 
