@@ -516,6 +516,9 @@ What size sample would Prof. Lewis need?
 
 ## **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture7Answers))*'
@@ -539,6 +542,10 @@ What size sample would Prof. Lewis need?
    
 
 ## **Optional**: CI for differences between means {#PizzaHT}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers are available in Sect. \@ref(Lecture9Answers))*
 
@@ -606,6 +613,10 @@ include_graphics("SoftwareImages/PizzaSizeErrorBar.png")
 
 
 ## **Optional**: Odds and odds ratio {#OddsGMfood}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers are available in Sect. \@ref(Lecture9Answers))*
 

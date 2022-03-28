@@ -850,6 +850,11 @@ Your tutor will have information.
 
 ## **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
+
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
 Batteries are expensive,
@@ -936,6 +941,10 @@ the normal price was $8.01 for the four-pack.
 
 ## **Optional**: Odds ratios {#OddsRatioSMND}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
@@ -971,6 +980,10 @@ Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had wor
 
 
 ## **Optional**: Percentages and odds {#PercentagesOdds}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 Endotracheal intubation (ETI)
 is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
@@ -1090,6 +1103,9 @@ if( knitr::is_html_output() ) {
 
 ## **Optional**: Odds {#Odds1}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
@@ -1107,6 +1123,10 @@ if( knitr::is_html_output() ) {
 
 
 ## **Optional**: Interpreting histograms {#InterpretHistogram}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
@@ -1138,6 +1158,10 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 
 
 ## **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
@@ -1176,6 +1200,10 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 ## **Optional**: Selecting the correct graph {#SelectGraphs1}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture4Answers))*'
 }`
@@ -1190,6 +1218,9 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 ##  **Optional**: Working with odds {#WorkingWithOdds}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture5Answers))*'
@@ -1207,6 +1238,10 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 ## **Optional**: Percentages { #PercentagesOdour}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 

@@ -155,6 +155,10 @@ From a study comparing how well sports-playing students can estimate distance co
 
 ## **Optional**: Deciding which test to use {#WhatTestToUse}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 *(Answers are available in Sect. \@ref(Lecture12Answers))*
 
 
@@ -179,6 +183,10 @@ include_graphics("ArticleImages/Singh2016-Table1.png")
 
 
 ## **Optional**: Reading research articles {#ReadDesks}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers available in Sect. \@ref(Lecture12Answers))*
 
@@ -230,6 +238,10 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 
 
 ## **Optional**: Reading research articles {#ReadErrors}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 *(Answers available in Sect. \@ref(Lecture12Answers))*
 

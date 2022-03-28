@@ -386,6 +386,10 @@ if( knitr::is_html_output() ) {
 
 ## **Optional**: Identifying different types of studies {#TypesOfStudies}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
 }`
@@ -401,6 +405,10 @@ if( knitr::is_html_output() ) {
 
 
 ## **Optional**: Terminology {#TerminologyLect1}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
@@ -433,6 +441,10 @@ knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
 
 ## **Optional**: Identifying poor RQs {#IdentifyingPoorRQs}
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
 }`
@@ -456,6 +468,13 @@ What terms might need defining for each RQ?
 
 ## **Optional**: Understanding the terminology {#TerminologyLead}
 
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
+
+
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
 }`
@@ -475,6 +494,10 @@ What terms might need defining for each RQ?
 
 <!-- ADAPTED FROM : Oehlert.pdf, p. 8. -->
 
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
+
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
 }`
@@ -492,6 +515,10 @@ What terms might need defining for each RQ?
 
 
 ## **Optional**: Units of analysis, and units of observation {#Units3}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+:::
 
 `r if (knitr::is_latex_output()) {
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
