@@ -50,7 +50,7 @@ The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM bet
           "-10", 
 	  "-16",
 	  "16") )}`
-1. True or false: A negative $z$-score means that the mean has a *smaller* value than the standard deviation. 
+1. True or false: A negative $z$-score means that the mean has a *smaller* value than the standard deviation.  
 `r if( knitr::is_html_output() ) {webexercises::torf(FALSE) }`
 1. True or false: A *standard error* measures the size of the difference between the sample proportion and the population proportion.   
 `r if( knitr::is_html_output() ) {webexercises::torf(FALSE) }`
@@ -158,7 +158,7 @@ For the following,
 indicate *how* you could estimate the probability
 (classical; relative frequency; subjective)
 in these situations.
-(*Note:* You are not asked to *compute* the probability.)
+(**Note:** You are not asked to *compute* the probability.)
 
 1. The probability that a given USC student lives in Nambour.  
 `r if( knitr::is_html_output() ) {longmcq(
