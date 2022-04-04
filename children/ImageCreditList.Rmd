@@ -60,6 +60,11 @@
   from 
   [Pexels](https://www.pexels.com/photo/brown-rat-eating-food-2189599/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
+* Image of ventilation (e.g., Sect. \@ref(CIPropBVM)):
+  Photo by 
+  [Thomas G.](https://pixabay.com/users/tho-ge-113537/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444) 
+  from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444)
+
 * Image of a girl with thumbs down (Sect. \@ref(OddsSoftware)):
   Photo by 
   [Thomas Park](https://unsplash.com/@thomascpark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)

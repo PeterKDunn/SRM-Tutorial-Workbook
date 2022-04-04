@@ -105,6 +105,14 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 4. In another sample of 404 patients who received the BVM treatment,
    would we expect to find *exactly* 123 surviving?
    Why or why not?
+   
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/corona-6278444_1920.jpeg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
 5. Compute the *standard error*,
    which indicates the sampling variability in the estimate of $p$.
    Explain what is meant by the term 'sampling variation' in this context.
