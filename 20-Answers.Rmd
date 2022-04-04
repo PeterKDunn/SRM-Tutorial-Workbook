@@ -1069,16 +1069,15 @@ Answers implied by H5P.
 
 9. The number of surviving and non surviving both exceed 5.
 10. Larger, to get a tighter (more precise) CI than the one calculated.
-11. For a *smaller* (more precise) interval, a *larger* sample wojld be needed.
-12. See table below.
-13. Use a stacked or side-by-side barchart, for example.
+11. See table below.
+12. Use a stacked or side-by-side barchart, for example.
     But a chart is not really needed:
     Just give the information in text.
-14. Odds of *not* surviving in ETI group is $(306/110) = 2.8$,
+13. Odds of *not* surviving in ETI group is $(306/110) = 2.8$,
     so the OR is $(2.3/2.8) = 0.82$.
     The odds of a BV patient not surviving are 0.8 times as great as 
     the odds of an ETI patient not surviving.
-15. A greater sample size would give a more precise estimate.
+14. A greater sample size would give a more precise estimate.
     But rather than a greater sample size (which would still be helpful), probably more important is to consider other relevant issues that have not been discussed so far: Relative costs; ease of use; confounding variables; potential side effects; etc.
 
 

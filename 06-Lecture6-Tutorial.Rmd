@@ -117,20 +117,16 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 9. Confirm that the conditions necessary for this calculation to be statistically valid are met.
 10. If the researchers wished to estimate the true survival proportion
     to within give-or-take 0.01 with 95% confidence,
-    would a larger or smaller sample be needed?
-    Explain.
-11. If the researchers wished to estimate the true survival proportion
-    to within give-or-take 0.01 with 95% confidence,
     would the sample size need to be *larger* or *smaller*?
-12. For the ETI sample,
+11. For the ETI sample,
     110 out of 416 patients survived.
     Use this information to construct a two-way table of treatment against survival.
-13. Select a graphical summary that could be used to display the information.
+12. Select a graphical summary that could be used to display the information.
     Sketch this display.
-14. From this table,
+13. From this table,
     compute the odds ratio of a BVM patient *not* surviving compared to an ETI patient *not* surviving.
     Interpret this value.
-15. What did you learn about using ETI on children?
+14. What did you learn about using ETI on children?
     Would you prefer to recommend ETI or BVM on children?
     What other information would you need to help make your decision?
    
