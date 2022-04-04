@@ -148,6 +148,13 @@ These chunks highlight common mistakes or warnings, about (for example) a partic
 
 
 
+:::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+:::
+
+
+
+
 ## How this book was made {-}
 
 This book was made using **R** [@Software:Rsoftware],

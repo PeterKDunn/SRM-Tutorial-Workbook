@@ -1052,7 +1052,8 @@ Answers implied by H5P.
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1-0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about 0.023.  
    A definition can be found in the [Glossary](https://bookdown.org/pkaldunn/SRM-Textbook/Glossary.html). 
    Essentially, each sample is likely to produce a different value for the sample proportion, $\hat{p}$ (the estimate of the population proportion, $p$), 
-   and that is what we mean by “sampling variation”.
+   and that is what we mean by "sampling variation".
+6. (Not provided.)
 7. The values of $\hat{p}$ will have an approximate normal distribution,
    with a standard deviation equal to standard error ($0.023$) and centred around
    the true proportion $p$.
@@ -1068,7 +1069,7 @@ Answers implied by H5P.
 
 9. The number of surviving and non surviving both exceed 5.
 10. Larger, to get a tighter (more precise) CI than the one calculated.
-11. $n = 1/(0.01)^2 = 10\,000$ patients.
+11. For a *smaller* (more precise) interval, a *larger* sample wojld be needed.
 12. See table below.
 13. Use a stacked or side-by-side barchart, for example.
     But a chart is not really needed:

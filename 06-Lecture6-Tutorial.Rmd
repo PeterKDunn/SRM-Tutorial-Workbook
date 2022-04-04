@@ -121,7 +121,7 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
     Explain.
 11. If the researchers wished to estimate the true survival proportion
     to within give-or-take 0.01 with 95% confidence,
-    estimate the size sample that would be needed.
+    would the sample size need to be *larger* or *smaller*?
 12. For the ETI sample,
     110 out of 416 patients survived.
     Use this information to construct a two-way table of treatment against survival.
