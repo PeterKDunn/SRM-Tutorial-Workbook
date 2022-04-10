@@ -913,7 +913,7 @@ IQR similar for each office, and range similar for Offices A and C (slightly lar
 
 1. Mean: 168.5714, or 168.57&nbsp;m. 
 Standard deviation: 6.966279, or 6.97&nbsp;m. (Specifically, it is **not** 6.44952.)
-The median: 169.9&nbsp;m.
+The median: 167.9&nbsp;m.
 2. Mean: 990.0791, or 990.079&nbsp;tonnes.
 Standard deviation: 1588.514579, or 1588.5146&nbsp;tonnes. (Specifically, it is **not** 1485.919327.)
 Median: 180.516&nbsp;tonnes.
