@@ -36,7 +36,7 @@ Non-coeliac  |  23         | 8.17 | 4.1                | 0.86
 
 A 95% CI is given as for the difference is -2.32 to 2.76.
 
-1. The difference is computed as the the number of DMFT for coeliacs minus non-coeliacs. True or false?  
+1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
 1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
