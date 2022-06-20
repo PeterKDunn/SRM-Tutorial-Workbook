@@ -35,10 +35,13 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. A 95% confidence interval will contain approximately 95% of the observations. True or false?  
-`r if( knitr::is_html_output() ) {
-   webexercises::torf( FALSE)}`
-   
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265022&sec_digit=1542537483&embeded_digit=1153605398' style='width:100%; height:350px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
 ::: {.progressBox .progress}
 `r if (knitr::is_html_output()) {"**Progress:**"}`
 `r webexercises::total_correct()`
@@ -49,7 +52,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. **FALSE**. A CI is an interval which probably contains the **population** value. We already know the **sample** value... we don't need an interval for it.
 1. **FALSE**. Confidence intervals can be any percentage (though 90%, 95% and 99% CIs are the most common, and 95% easily the most common of all).
 1. **FALSE**. A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
-1. **FALSE**. A CI is an interval for a *parameter*, such as a *mean* or *proportion*. It is not an interval in which the data will be contained.
+<!-- 1. **FALSE**. A CI is an interval for a *parameter*, such as a *mean* or *proportion*. It is not an interval in which the data will be contained. -->
 `r webexercises::unhide()`
 
 

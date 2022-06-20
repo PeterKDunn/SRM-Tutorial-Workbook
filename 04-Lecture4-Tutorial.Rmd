@@ -169,14 +169,14 @@ if( knitr::is_html_output() ) {
                       "55%",
                       "1.22",
                       "0.82") )}`
-1. In the sample, what are the **odds** that an individual is female?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "0.45", 
-		                  "45%",
-                      "0.55",
-                      "55%",
-                      "1.22",
-                      answer = "0.82") )}`
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265016&sec_digit=2096733296&embeded_digit=1512827955' style='width:100%; height:450px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>                      
+`r if (knitr::is_latex_output()) '-->'`                      
+                      
+                      
 
 ::: {.progressBox .progress}
 `r if (knitr::is_html_output()) {"**Progress:**"}`
@@ -190,7 +190,7 @@ if( knitr::is_html_output() ) {
 1. The average value (of a quantitative variable) can be described using a mean or a median.
 1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
 1. $27/60\times 100 = 45$%.
-1. $27/33 = 0.8181...$.
+<!-- 1. $27/33 = 0.8181...$. -->
 `r webexercises::unhide()`
 
 

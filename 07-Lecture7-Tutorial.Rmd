@@ -48,13 +48,12 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
           "Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs.")
 	  )
 }`
-1. Both samples sizes are less than 25. What does this mean for the statistical validity of the CI?  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("The CI is worthless", 
-          answer = "The CI will probably be statistically valid, as both sample sizes are just smaller than 25.",
-          "If the sample is a random sample, the CI will be statistically valid." )
-          )
-}`
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265024&sec_digit=1323639114&embeded_digit=1520489507' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
 
 
 ::: {.progressBox .progress}
@@ -68,7 +67,7 @@ A 95% CI is given as for the difference is -2.32 to 2.76.
 1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
 1. The *positive* value of 2.76 means (as we saw in the first Quick Revision question) that coeliacs have a mean of 2.76 more DMFT.  
    So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of 2.32 more DMFT.
-1. The sample sizes are *just* less than 25, so the CI will *probably* be statistically valid (but we'd more certain about this if the sample sizes were 25 or more).
+<!-- 1. The sample sizes are *just* less than 25, so the CI will *probably* be statistically valid (but we'd more certain about this if the sample sizes were 25 or more). -->
 `r webexercises::unhide()`
 
 

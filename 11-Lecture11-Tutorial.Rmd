@@ -59,12 +59,14 @@ In autumn, the correlation coefficient was given as $r = 0.931$
           "Each seed is associated with 0.3459 extra grams of mud on average",
 	        "Each 1g of mud is associated with 137.4 extra seeds on average",
           answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )}`
-1. The $P$-value for the regression slope was $0.002$. What does this mean?
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("The slope is 0.002", 
-          answer = "The slope is unlikely to be non-zero simply by chance",
-          "There is evidence that the mean number of seeds is different than the mean grams of mud") )}`
-		      
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265036&sec_digit=1243418155&embeded_digit=1746246557' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
+
 
 ::: {.progressBox .progress}
 `r if (knitr::is_html_output()) {"**Progress:**"}`
@@ -79,7 +81,7 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 1. $R^2 = (0.931^2) = 0.86676$, or about 86.7%.
 1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
-1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero).
+<!-- 1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero). -->
 `r webexercises::unhide()`
 
 		      

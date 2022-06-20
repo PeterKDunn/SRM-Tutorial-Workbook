@@ -62,13 +62,12 @@ Consider this RQ:
         						   "The restaurants", 
                       answer = "The meals",
                       "It's hard to know: We need more information about how the data were collected") )}`
-1. The article states that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery" (p. 518). 
-What *type* of definition is this?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "Operational", 
-                      answer = "Conceptual") )}`
 
 
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
 
 
 ::: {.progressBox .progress}
@@ -86,7 +85,7 @@ What *type* of definition is this?
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. We need more information. 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
-1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured.
+<!-- 1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured. -->
 `r webexercises::unhide()`
 
 

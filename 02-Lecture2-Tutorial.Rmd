@@ -56,13 +56,12 @@ Consider this (qualitative) RQ:
                       answer = "Multi-stage", 
                       "Systematic",
                       "Stratified") )}`
-5.  Suppose the researchers stood outside a busy shopping centre, and surveyed every ninth person who entered. What is the *best* description of this sampling method?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Systematic", 
-                      "Simple random sample",
-		                  "Stratified",
-                      answer = "Convenience") )}`
-		      
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265008&sec_digit=1374138508&embeded_digit=24312211' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
 		      
 
 ::: {.progressBox .progress}
@@ -76,8 +75,8 @@ Consider this (qualitative) RQ:
 1. External validity means that the sample represents the intended population (i.e., households in Santiago).
 1. Since people only return the survey if they *want* to, this is self-selecting.
 1. There are multiple stages of *random* selection, so this is multi-stage.
-1. This is convenience sampling, since the researchers will only obtain people who are there at the time the researchers are there (at their *convenience*).  
-   Taking every *ninth* person does not make the sample a random (systematic) sample, but I suppose it helps make the sample more representative. 
+<!-- 1. This is convenience sampling, since the researchers will only obtain people who are there at the time the researchers are there (at their *convenience*).   -->
+<!--    Taking every *ninth* person does not make the sample a random (systematic) sample, but I suppose it helps make the sample more representative.  -->
 `r webexercises::unhide()`
 
 
