@@ -37,15 +37,23 @@ Consider this (qualitative) RQ:
 1. For this RQ, what is the *Population*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Households", 
-		                  "Households in Chile",
+		      "Households in Chile",
                       answer = "Households in Santiago",
                       "Solar technologies") )}`
 2. The study will be *externally valid* if:  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "the sample is representative of all households in the world",
-		                  "the sample is representative of all solar technologies",
+		      "the sample is representative of all solar technologies",
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
+		      
+`r if (knitr::is_html_output()) '<!--'`
+* the sample is representative of all households in the world
+* the sample is representative of all solar technologies
+* the sample is representative of all households in Santiago
+* the sample is representative of all households in Chile
+`r if (knitr::is_html_output()) '-->`
+
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Self-selecting", 
@@ -93,7 +101,7 @@ The students gave the following information about their study.
 
 Explain **why** each of these statements is **incorrect**.
 
-1. "The design is observational, as we cannot determine each person's serum cholesterol."
+1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
 2. "The Outcome is '*the median serum cholesterol levels for smokers and non-smokers*'."
 3. "The study is not externally valid, as the results may not apply to all people in the world."
 4. "The response variable is *serum cholesterol*."
@@ -119,7 +127,7 @@ include_graphics("Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg
 Patients who have suffered a stroke often have restricted limb movement,
 and rehabilitation therapies are looking to using robotic means to assist these patients.
 
-Read the description (line breaks added) of one such study as shown below
+Read the description (line breaks added fo clarity) of one such study as shown below
 [@data:Lo2010:RobotAssistance],
 then complete the crossword 
 `r if (knitr::is_latex_output()){
@@ -353,7 +361,7 @@ if (knitr::is_html_output()){
 
 
 
-```{r, echo=FALSE, out.width= "70%", fig.align="center"}
+```{r, echo=FALSE, out.width= "90%", fig.align="center"}
 if (knitr::is_latex_output()){
   knitr::include_graphics("images/USC-Campus.png")
 }
