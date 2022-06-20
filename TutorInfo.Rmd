@@ -200,19 +200,21 @@ It is **very important**!
 **In online classes**, you may just need to **talk** about the issues, rather than **do** the study.
 
 There are many correct ways to do this activity.
-However, for many reasons, we suggest following the suggestions here in teh end
-(though having students suggest other ideas first is a great idea too).
+However, for many reasons, we suggest following the suggestions here in the end (though having students suggest other ideas first is a great idea too).
 
-You could show the Project Proposal form on the overhead screen,
-and get the students to work through it one page at a time.
+You could show the Project Proposal form on the overhead screen, and get the students to work through it one page at a time.
+
+I know it is easier to measure reaction time using an app or website on a smartphone... but **I strongly suggest not doing so**.
+The *purpose* of this activity is **not** getting the reaction times, but to think about planning a study.
+Using the ruler drop as the activity allows a *lot* of opportunites to talk about many of the issues in study design and data collectionm which **is** the purpose of this activty.
+
 
 **Resources**: Rulers.
    
 We *plan* a study that we will continue next week (i.e., collect the data).
-The whole class will do the same study,
-and contribute data.
+The whole class will do the same study, and contribute data.
    
-**We will compare the 'average ruler reaction time' for students after using their dominant and non-dominant hands**:
+**We will compare the 'average ruler reaction time' for students after using their dominant and non-dominant hands**.
 Being a  little vague at this stage:
 
 * **P**opulation: Could be SCI110 students, USC students, ...
@@ -221,36 +223,23 @@ Being a  little vague at this stage:
 * **I**ntervention: None.
 
 Seeing that there is no C is important!
-This is a descriptive RQ,
-because there is no C
-(there are not two subsets (that are naturally different, or will be treated differently) being compared,
-as per our definition of a **C**omparison.
+This is a descriptive RQ, because there is no C (there are not two subsets (that are naturally different, or will be treated differently) being compared, as per our definition of a **C**omparison.
 
-As a result,
-**a Task 2 project like this is not permitted: There is no C**.
+As a result, **a Task 2 project like this is not permitted: There is no C**.
 
 Some points:
 
 * To begin, state that we will compare left-hand reaction 'time' to right-hand reaction 'time'.
-  This is not the best idea, as some people and left-handed and some are right-handed,
-  and it is better is to compare dominant and non-dominant hands.
+  This is not the best idea, as some people and left-handed and some are right-handed, and it is better is to compare dominant and non-dominant hands.
   But start like this, and lead a discussion that encourages students to come to this realisation.
-* Initially tell them what you want in very general terms ("we'll measure the reaction time in left and right hands"),
-  and tell them to *Go!*
+* Initially tell them what you want in very general terms ("we'll measure the reaction time in left and right hands"), and tell them to *Go!*
   They'll probably all start measuring without any planning.
-  So let them go for one or two minutes,
-  then pull them up and start ranting and raving:
-  "*What about the planning process that we've been learning about!?*"
+  So let them go for one or two minutes, then pull them up and start ranting and raving: "*What about the planning process that we've been learning about!?*"
   Even observe and then tell the student how different groups were doing things differently to make your point.
 * Then have the students discuss planning as a class.
-  Form a class consensus on how to proceed,
-  and **keep a record of what the class decides**.
-  You will actually **collect** this data, either this week or next weeks (probably more likely),
-  so also be practical!
-* You may like to prepare a Word document with this info (during class time; ask a student to be the scribe),
-  then over the following weeks as we compile more about the study
-  (e.g., numerical and graphical summaries)
-  add to this Word document. 
+  Form a class consensus on how to proceed, and **keep a record of what the class decides**.
+  You will actually **collect** this data, either this week or next weeks (probably more likely), so also be practical!
+* You may like to prepare a Word document with this info (during class time; ask a student to be the scribe), then over the following weeks as we compile more about the study (e.g., numerical and graphical summaries) add to this Word document. 
 * Things to decide upon (some are arbitrary; some will have better answers than others):
   - How do we decide which hand goes first? 
   - How will we dine *dominant hand*? (Perhaps easiest: Hand we write with.)
@@ -271,8 +260,7 @@ Some points:
 
 Notes:
 
-* The unit of analysis is the *person*,
-  and each person gets two units of observation.
+* The unit of analysis is the *person*, and each person gets two units of observation.
   Remember: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row.
 * If you have time, you can collect the data in class.
   But this activity often takes me about an hour, so we collect data next week.
