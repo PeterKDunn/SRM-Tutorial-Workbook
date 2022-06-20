@@ -9,7 +9,7 @@
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-*	Types of research studies.
+* Types of research studies.
 * Research questions.
 * Language used in research.
 :::
@@ -83,7 +83,7 @@ Consider this RQ:
 1. The **unit of analysis** depends on how the data were collected.  
    Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.  
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
-   Or it may be the individual meals. We need more information. 
+   Or it may be the individual meals. *We need more information.* 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
 <!-- 1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured. -->
 `r webexercises::unhide()`
@@ -116,23 +116,18 @@ Consider this RQ:
 
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
 
-As a result,
-the cafe owner decides to conduct a study of his customers.
+As a result, the cafe owner decides to conduct a study of his customers.
 
 1. Two RQs that the cafe owner is considering are given below.
    Which do you prefer, and why?
     
-    a. Among my customers,
-     is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
-    b. Among my customers, is 
-     the *percentage* of customers who prefer diet cola drinks the same as
-     the *percentage* of customers who prefer regular cola drinks?
+    a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
+    b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
 2. Make some notes about how the cafe owner could answer the question using an **observational study**.  
-   What would be the best type of observational study:
-   retrospective, prospective, or cross sectional?
+        
+   What would be the best type of observational study: retrospective, prospective, or cross sectional?
 3. Make some notes about how the cafe owner could answer the question using an **experimental study**.  
-   What would be the best type of experimental study:
-   true or quasi?
+   What would be the best type of experimental study: true or quasi?
 4. List some **advantages** and **disadvantages** of the experimental and observational studies.  
 
    List some **similarities** and **differences** between the two studies.  
@@ -168,11 +163,10 @@ the cafe owner decides to conduct a study of his customers.
 
 ## Terminology {#UnderstandingTerminology1}
 
-Explain the *fundamental differences* between the following pairs of often-confused terms
-(Table \@ref(tab:SimilarTerms)).
+Explain the *fundamental differences* between the following pairs of often-confused terms (Table \@ref(tab:SimilarTerms)).
 
 ```{r SimilarTerms, echo=FALSE}
-Terms <- array( dim=c(8, 3))
+Terms <- array( dim = c(8, 3))
 
 Terms[1, ] <- c("Hypothesis", 
                 "1", 
@@ -192,12 +186,12 @@ Terms[5, ] <- c("Response variable",
 Terms[6, ] <- c("Response variable", 
                 "6", 
                 "Outcome") 
-Terms[7, ] <- c("Unit of observation", 
+Terms[7, ] <- c("Conceptual definition", 
                 "7", 
-                "Unit of analysis")
-Terms[8, ] <- c("Conceptual definition", 
-                "8", 
                 "Operational definition")
+Terms[8, ] <- c("Unit of observation", 
+                "8", 
+                "Unit of analysis")
 
 if( knitr::is_latex_output() ) {
   kable(Terms, 
@@ -252,10 +246,8 @@ include_graphics("Illustrations/pexels-nappy-936019.jpg")
 
 Consider the following scenario:
 
-> While at Cafe C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated 
-> latte (sometimes called a *Why-Bother*...),
-> Nim sighed, 
-> 'Exams start next week.  I suppose we'll all start feeling stressed soon.'  
+> While at Cafe C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.  
+> I suppose we'll all start feeling stressed soon.'  
 > &nbsp;
 >
 > 'Ah,' Jane said, 'I had better buy more teabags then.'  
@@ -264,9 +256,7 @@ Consider the following scenario:
 > 'Tea bags? Why?'' asked Nim, not unreasonably.  
 > &nbsp;
 >
-> 'Everyone knows that Earl Grey tea relaxes students...'
-> said Jane,
-> looking upwards then closing her eyes dreamily.   
+> 'Everyone knows that Earl Grey tea relaxes students...' said Jane, looking upwards then closing her eyes dreamily.   
 > &nbsp;
 >
 > 'How do you know?' Nim retorted, unintentionally aggressive.  
@@ -326,16 +316,12 @@ include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 
 
 Bamboo is a fast-growing, strong grass often used for green building practices.
-A small research study
-explored the hardness of bamboo when used as flooring material.
+A small research study explored the hardness of bamboo when used as flooring material.
 
-The *Janka hardness*^[The Janka hardness measures the force required to embed an
-11.28mm steel ball into wood to half the diameter of the ball.]
-of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd
-was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+The *Janka hardness*^[The Janka hardness measures the force required to embed an 11.28mm steel ball into wood to half the diameter of the ball.]
+of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 
-Five floorboards were taken, and two hardness measurements were taken on each board 
-(units not given, but probably kilonewtons; Table \@ref(tab:JankaBoards)).
+Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table \@ref(tab:JankaBoards)).
 
 
 ```{r JankaBoards, echo=FALSE}
@@ -419,8 +405,7 @@ Complete the crossword
 } else {
    'below'
 }`
-to help you
-understand some of the words used in this week's lecture.
+to help you understand some of the words used in this week's content.
 
 
 <!-- <script src="https://www.puzzlefast.com/en/puzzles/2020032202163752N/nsl-script?width=600px&height=900px" type="text/javascript"></script> -->
@@ -448,16 +433,12 @@ This question is **optional**; for example, if you need more practice, or you ar
    '*(Answers are available in Sect.\\@ref(Lecture1Answers))*'
 }`
 
-Critique the following research questions,
-outlining how and why they can be improved (if at all).
+Critique the following research questions, outlining how and why they can be improved (if at all).
 
-1. Among domestic watertanks used in southeast Queensland,
-   are lead concentrations in water in concrete tanks higher than in poly tanks?
+1. Among domestic watertanks used in southeast Queensland, are lead concentrations in water in concrete tanks higher than in poly tanks?
 2. Are lower-limb amputees more likely to die? 
-3. Is the amount of salt 
-   the same for homebrand as for non-homebrand beans?
-4. Among zoo animals,
-   is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
+3. Is the amount of salt the same for homebrand as for non-homebrand beans?
+4. Among zoo animals, is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
 5. Is the average reaction time related to gender?
 
 What terms might need defining for each RQ?
