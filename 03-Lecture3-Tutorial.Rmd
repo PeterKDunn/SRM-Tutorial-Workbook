@@ -230,58 +230,37 @@ right skewed, left skewed, symmetric, etc.
 
 ## Identifying appropriate graphs {#IdentifyingGraphs1}
 
-In each of the following,
-determine and justify the most appropriate graph 
-for displaying the *relationship* of interest.
-In addition,
-draw a rough example of what the graph may look like.
+In each of the following cases:
+	
+* Identify the variables;
+* Identify what *type* of variables these are; and
+* Hence determine and justify the most appropriate graph for displaying the *relationship* of interest.
+
+In addition, draw a rough example of what the graph may look like.
 
 
-1. Meadowfoam is a plant from which oil can be extracted from its flowers, 
-   so maximising flowering is important.  
+1. Meadowfoam is a plant from which oil can be extracted from its flowers, so maximising flowering is important.  
    
-   A study [@data:seddigh:flowers]
-   examined many individual meadowfoam plants 
-   and explored the relationship between
-   the number of flowers each plant produced,
-   and the number of hours of light each plant received.
+   A study [@data:seddigh:flowers] examined many individual meadowfoam plants and explored the relationship between the number of flowers each plant produced, and the number of hours of light each plant received.
    
    
 <iframe src="https://usc.h5p.com/content/1291014902846391579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-2. Early in the 21st century,
-   moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
-   However,
-   some people thought this was unnecessary,
-   as they believed that exposure to second-hand smoke was minimal.  
+2. Early in the 21st century, moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
+   However, some people thought this was unnecessary, as they believed that exposure to second-hand smoke was minimal.  
    
-   To study this phenomenon and to inform public policy,
-   a New Zealand observational study [@data:Stafford2010:Alfresco]
-   examined numerous al fresco (open air) restaurants.  
+   To study this phenomenon and to inform public policy, a New Zealand observational study [@data:Stafford2010:Alfresco] examined numerous al fresco (open air) restaurants.  
    
-   They collected two pieces of information from each individual restaurant:
-   the number of smokers present at the restaurant at the time of observation
-   (restaurants with no smokers;
-   restaurants with one smoker;
-   restaurants with two or more smokers),
-   and the concentrations of fine particulate matter (PM)  measured in the restaurant air
-   at the same time.
-   The researchers wish to compare the PM concentrations 
-   across the three groups.
+   They collected two pieces of information from each individual restaurant: the number of smokers present at the restaurant at the time of observation (restaurants with no smokers; restaurants with one smoker; restaurants with two or more smokers), and the concentrations of fine particulate matter (PM)  measured in the restaurant air at the same time.
+   The researchers wish to compare the PM concentrations across the three groups.
    
 <iframe src="https://usc.h5p.com/content/1291014905631385249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
    
    
-3. To understand the usage of hospital emergency departments (EDs) in Ireland,
-   a study [@data:Curran2011.Stroke]
-   examined many individual admissions.  
+3. To understand the usage of hospital emergency departments (EDs) in Ireland, a study [@data:Curran2011.Stroke] examined many individual admissions.  
    
-   For each admission to the ED,
-   they recorded 
-   if the waiting time was short (within 3 hours) or long (3 hours or longer),
-   and the time of day of the admission
-   (in three divisions: 9am to 5pm; 5pm to midnight; and midnight to 9am).
+   For each admission to the ED, they recorded if the waiting time was short (within 3 hours) or long (3 hours or longer), and the time of day of the admission (in three divisions: 9am to 5pm; 5pm to midnight; and midnight to 9am).
 
 
 <iframe src="https://usc.h5p.com/content/1291014908484867689/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -290,14 +269,7 @@ draw a rough example of what the graph may look like.
 
 4. Stress in children is not as well understood as stress in adults.  
 
-   To examine the issue,
-   a study [@data:Saunders1999:Playfulness]
-   studied many children,
-   and for each child they determined 
-   each child's level of playfulness 
-   (measured using a quantitative scale called the *Test of Playfulness*)
-   and each child's level of 'coping'
-   (measured using a quantitative scale called the *Coping Inventory*).
+   To examine the issue, a study [@data:Saunders1999:Playfulness] studied many children, and for each child they determined each child's level of playfulness (measured using a quantitative scale called the *Test of Playfulness*) and each child's level of 'coping' (measured using a quantitative scale called the *Coping Inventory*).
 
 <iframe src="https://usc.h5p.com/content/1291014912258524999/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -306,8 +278,7 @@ draw a rough example of what the graph may look like.
 ## Interpreting graphs {#InterpretingGraphs}
 
 A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, body length.
-A histogram of the body length of 90 female seals is shown in 
-Fig. \@ref(fig:Bryden1984Fig3b).
+A histogram of the body length of 90 female seals is shown in Fig. \@ref(fig:Bryden1984Fig3b).
 
 1. Describe this histogram in words (average; variation; shape; outliers).
 2. What alternative graphical displays could be used to display these data?
@@ -327,26 +298,16 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 ## Critiquing students' graphs {#CritiqueStudentGraphs1}
 
-In this activity,
-you get to critique actual SCI110 Project submissions,
-so you can critique your own before submission.
+In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
 
-1. Critique the graph in 
-	 Fig. \@ref(fig:StudentsGraphsA),
-	 a screenshot from a student Project Report
-	 comparing the average burn time
-	 between two brands of sparklers.
+1. Critique the graph in Fig. \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
 
 
 ```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/BareBoxplot.png")
 ```
 
-2. Critique the graph in 
-	 Fig. \@ref(fig:StudentsGraphsB),
-	 a screenshot from a student Project Report
-	 comparing the average burn time 
-   of room-temperature and refrigerated candles.
+2. Critique the graph in Fig. \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
 	 
 
 ```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
@@ -355,11 +316,7 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 
 
 
-3. Critique the graph in Fig. \@ref(fig:StudentsGraphsC),
-   a screenshot from a student Project Report
-   comparing the 'mean dissolve' time
-   (they probably meant 'mean *dissolving* time') 
-   of Panadol in room temperature and cold water.
+3. Critique the graph in Fig. \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
 
 
@@ -418,9 +375,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
 
-A study of the impact of ants on plant communities [@data:Sankovitz2018:nests]
-produced the boxplot in Fig. \@ref(fig:Sankovitz2018),
-showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
+A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig. \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
 
 
 ```{r Sankovitz2018, echo=FALSE, fig.align="center", fig.cap="A graphic from Sankovitz et al. (2018", out.width='70%'}
@@ -431,7 +386,8 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 1. Identify the type of study: experimental or observational.
 2. Identify the units of observation, and the units of analysis.
 3. Critique this graph.
-4. Do you think that a real difference exists between median plant coverage at different locations around the ant nest? What other interesting features can be seen from the graph?
+4. Do you think that a real difference exists between median plant coverage at different locations around the ant nest?
+   What other interesting features can be seen from the graph?
 
 
 
@@ -445,20 +401,13 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
 
-An Australian study [@data:Jennings2012:Morphine]
-studied patients in severe pain
-and compared two different treatments to determine which to recommend.
+An Australian study [@data:Jennings2012:Morphine] studied patients in severe pain and compared two different treatments to determine which to recommend.
 
-Patients were randomly allocated to receive one of two pain treatments:
-either morphine, or morphine and ketamine.
+Patients were randomly allocated to receive one of two pain treatments: either morphine, or morphine and ketamine.
 
-The pain reduction for each patient was then measured
-(using the 'pain verbal numeric rating scale':
-0 is no pain, and 10 the worst pain imaginable, such as Australia losing the Ashes),
-by taking pain measurements before and after giving the treatment.
+The pain reduction for each patient was then measured (using the 'pain verbal numeric rating scale': 0 is no pain, and 10 the worst pain imaginable, such as Australia losing the Ashes), by taking pain measurements before and after giving the treatment.
 
-The graph in Fig. \@ref(fig:Jennings2012)
-summarises the data.
+The graph in Fig. \@ref(fig:Jennings2012) summarises the data.
    
 ```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department", out.width='80%'}
 include_graphics("ArticleImages/Jennings2012-Fig2.png")
@@ -468,7 +417,8 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 2. Identify the units of observation, and the units of analysis.
 3. Critique this graph.
 4. What do you think the negative numbers on the graph mean?
-5. Do you think that a real difference exists between the nedian for the two treatments *in the population*? Explain
+5. Do you think that a real difference exists between the nedian for the two treatments *in the population*?
+   Explain
 
 
 
