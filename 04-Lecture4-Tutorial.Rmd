@@ -23,11 +23,9 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You may wish search on YouTube for some tutorials on using your calculator's
-**Statistics Mode**.
+You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
 
-Here are some links that may prove 
-useful.
+Here are some links that may prove useful.
 
 * [**TI**-30 XS](https://www.youtube.com/watch?v=I437u8PxV2M)
 * [**TI**-84](https://www.youtube.com/watch?v=gTOVeAf3HA4)
@@ -35,9 +33,7 @@ useful.
 * [**Casio** CG20](https://www.youtube.com/watch?v=O-v00SvwHIE)
 * [**Casio** fx82](https://www.youtube.com/embed/PiJ9B7L7V2A)
 
-In YouTube, I searched for  
-`"statistics" "mean" "standard deviation"`  
-together with the calculator make and model; for example:  
+In YouTube, I searched for `"statistics" "mean" "standard deviation"` together with the calculator make and model; for example:  
 `"statistics" "mean" "standard deviation" Casio fx82`
 :::
 
@@ -201,8 +197,7 @@ if( knitr::is_html_output() ) {
 
 ## Percentages and odds {#PercentOddsStroke}
 
-In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency],
-the data shown below were collected.
+In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data shown below were collected.
 
 | Sex of patients | Dispatcher suspected stroke | Dispatcher missed stroke
 |----------------:+:---------------------------:+:-------------------------:
@@ -250,16 +245,9 @@ the data shown below were collected.
 ## Two-way tables {#TwoWayTables}
 
 
-
-
 <div style="float:right; width: 222x; border: 1px; padding:10px">
 <img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
 </div>
-
-
-
-
-
 
 Soccer is a unique in that one aspect is 
 
@@ -269,33 +257,20 @@ Soccer is a unique in that one aspect is
 
 Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
 
-A study 
-[@data:Gausche200:Endotracheal]
-was conducted to determine
+A study [@data:Gausche200:Endotracheal] was conducted to determine
 
-> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion)
-> was present in collegiate soccer players
+> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion) was present in collegiate soccer players
 >
 > --- @data:Gausche200:Endotracheal, p. 157.
 
-Data were collected from 
-240 college students:
+Data were collected from 240 college students:
 
 * The student type:
-  One of 'soccer players' (63 students),
-  'non-soccer athletes' (96 students),    
-  or 'non-athletes' (81 students).
+  One of 'soccer players' (63 students), 'non-soccer athletes' (96 students), or 'non-athletes' (81 students).
 * The number of head concussions:
-  Each student was asked
-  about the number of head concussions they had experienced;
-  'zero' (158 students),
-  'one' (45 students), 
-  or 
-  'two or more'  (37 students) concussions.
+  Each student was asked about the number of head concussions they had experienced; 'zero' (158 students), 'one' (45 students), or 'two or more'  (37 students) concussions.
 
-Use the study data
-(Table \@ref(tab:SoccerTable))
-to answer the following questions.
+Use the study data (Table \@ref(tab:SoccerTable)) to answer the following questions.
 	     
 	     
 ```{r SoccerTable, echo=FALSE}
@@ -368,7 +343,7 @@ cols <- viridis(3, # Three colours
                 alpha = 0.5,
                 option = "E") # See  ?viridis: The pallete to use
 
-par( mfrow=c(2,2), 
+par( mfrow = c(2,2), 
      xpd = NA, # A logical value or NA. If FALSE, all plotting is clipped to the plot region, 
                # if TRUE, all plotting is clipped to the figure region, and 
                # if NA, all plotting is clipped to the device region. See also clip.
@@ -481,20 +456,16 @@ legend("top",
                   "Non-athlete") )
 ```
 
-3. Among the **non-athletes**, 
-   compute the odds of receiving two or more concussions.
+3. Among the **non-athletes**, compute the odds of receiving two or more concussions.
    Interpret what this means.
-4. Among the **soccer players**, 
-   compute the odds of receiving two or more concussions.
+4. Among the **soccer players**, compute the odds of receiving two or more concussions.
    (Refer to Table \@ref(tab:SoccerTable).)
    Interpret what this means.
-5. Compute the odds ratio
-	 comparing the odds of a non-athlete player receiving two or more concussions
-	 to the odds of a soccer player receiving two or more concussions.
+5. Compute the odds ratio comparing the odds of a non-athlete player receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
 6. Create a table of **column** percentages.
-	 What do these tell you?
+   What do these tell you?
 7. Create a table of **row** percentages.
-	 What do these tell you?
+   What do these tell you?
 8. Which one of these tables is probably more sensible, and why?
 
 
@@ -517,16 +488,9 @@ legend("top",
 
 
 
+An Australian study [@others:lunn:cida] compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine how the jellyfish were different at each site.
 
-
-An Australian study 
-[@others:lunn:cida]
-compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW
-(Dangar Island; Salamander Bay)
-to determine how the jellyfish were different at each site.
-
-A histogram of the breadth of jellyfish at Dangar Island Bay is shown in 
-Fig. \@ref(fig:JellyfishHist).
+A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig. \@ref(fig:JellyfishHist).
 
 ```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island", fig.align="center", fig.width=5}
 
@@ -565,20 +529,17 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 **Student 1** says:  
 
 > The bars in the histogram have heights of 10, 2, 4, 2 and 4.  
-> When these numbers are put in order, they are:
-> 2, 2, 4, 4, 10.  
-> The median breadth is the median of these numbers,
-> so the median breadth is the middle one: 4mm is the median.  
+> When these numbers are put in order, they are: 2, 2, 4, 4, 10.  
+> The median breadth is the median of these numbers, so the median breadth is the middle one: 4mm is the median.  
 
 **Student 2** responds:  
 
 > You have the correct answer, but for the wrong reason!  
 > There are five bars, and the middle bar is the third bar.  
-> Since the third bar has a height of 4, 
-> the median breadth is 4mm.  
+> Since the third bar has a height of 4, the median breadth is 4mm.  
 
-   Who is correct?
-   Explain.
+Who is correct?
+Explain.
 
 
 
@@ -646,12 +607,9 @@ boxplot(Width ~ Location,
 
 
 Bamboo is a fast-growing, strong grass useful for green building practices.
-A small research study
-explored the properties of bamboo when used as flooring material,
-including the bending strength (the Modulus of Rupture, or MOR, in MPa).
+A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).
 
-Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd
-and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 
 The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
 
@@ -684,14 +642,12 @@ if( knitr::is_html_output() ) {
 2. Use your calculator's statistics mode to compute the mean and the standard deviation.
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-Most calculators have **two buttons** that compute the standard deviation:
-one if the data are a sample, and one if the data are a population.
+Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
 
 In practice, data are almost *never* a population.
 
 If you are using your calculator correctly, you should get $\bar{x}=102.62$ and $s=5.356$. 
-If you get $s=4.790157$ for the *standard deviation*, 
-you are using your calculator incorrectly, so please **ask for help**.
+If you get $s=4.790157$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
 :::
 
@@ -707,18 +663,12 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 ## Which summary measures to use {#WhichSummaryToUse}
 
-A study of different orthoses (orthotic devices)
-in children with 
-cerebral palsy [@data:Swinnen2017:orthoses]
-produced the demographic data of the participants.
+A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 
-[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) 
-is the 
-'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', 
-which is:
+[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
+'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', which is:
 
-> ... a 5 level clinical classification system that describes the gross motor function 
-> of people with cerebral palsy on the basis of self-initiated movement abilities.
+> ... a 5 level clinical classification system that describes the gross motor function of people with cerebral palsy on the basis of self-initiated movement abilities.
 >
 > --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
 
@@ -792,16 +742,12 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 
 ## Critiquing students' numerical summaries {#CritiqueStudentSummaries}
 
-In this activity,
-you get to critique actual Project submissions,
-so you can critique your own before submission.
+In this activity, you get to critique actual Project submissions, so you can critique your own *before* submission.
 
 1. Critique the numerical summary in Fig. \@ref(fig:StudentsNumSumA), a screenshot from a student Project Report.
    Identify ways to improve the numerical summary.  
    
-   The RQ is 
-   '*What is the mean difference between the kicking distance 
-    using dominant and non-dominant legs?*'
+   The RQ is '*What is the mean difference between the kicking distance using dominant and non-dominant legs?*'
 
 	
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
@@ -813,14 +759,11 @@ You don't know what 'standard error' means yet, so don't worry about that column
 knitr::include_graphics("ProjectImages/StudentResults1.png")
 ```
 
-2. Critique the numerical summary in 
-	 Fig. \@ref(fig:StudentsNumSumB),
-	 a screenshot from a student Project Report.
-	 (You don't know what 'standard error' means yet, so don't worry about that column.)
-	 Identify ways to improve the numerical summary.
+2. Critique the numerical summary in Fig. \@ref(fig:StudentsNumSumB), a screenshot from a student Project Report.
+   (You don't know what 'standard error' means yet, so don't worry about that column.)
+   Identify ways to improve the numerical summary.
 
-	 The RQ is 
-	 '*What is the difference between the mean burn rates of generic and brand-name sparklers?*'
+   The RQ is '*What is the difference between the mean burn rates of generic and brand-name sparklers?*'
 	 
 
 ```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="60%"}
@@ -855,15 +798,11 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
-Batteries are expensive,
-so comparing the performance of expensive and cheap batteries is helpful.
+Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 
-A test on the lifetime of batteries [@data:ALDIBatteryTesting]
-compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
 
-The times (in hours) for nine Energizer Max batteries and 
-nine ALDI brand batteries (Ultracell)
-are shown in Table \@ref(tab:BattTable).
+The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table \@ref(tab:BattTable).
 
 ```{r BattTable, echo=FALSE}
 BattTab <- array( "", dim=c(2, 9))
@@ -951,28 +890,23 @@ This question has a video solution in the online book, so you can hear and see t
 
 	
 The impact of environmental toxins is not well understood.
-A 2012 Australian observational study [@data:Pamphlett:toxins]
-examined the association between the environmental exposure of toxins
-and sporadic motor neuron disease (SMND).
+A 2012 Australian observational study [@data:Pamphlett:toxins] examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
 
 A total of 380 SMND cases were studied, and 377 controls.
 Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had worked with metal.
 	
-1. Construct a two-way table showing the relationship between disease group,
-   and whether not the specific person had worked with metal, in the sample.
+1. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
 2. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
-	 Interpret what this means.
+   Interpret what this means.
 3. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
-	 Interpret what this means.
-4. How many times greater is the odds that a person *with* SMND having worked with metal,
-	 compared to the odds that a person *without* SMND having worked with metal?
-	 (This is an *odds ratio*.)
+   Interpret what this means.
+4. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
+   (This is an *odds ratio*.)
 5. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
 6. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-7. A newspaper report states SMND rates are almost the same between those worked with metal
-	 and those who did not.  
+7. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.  
 	 
-	 Do you agree or disagree?
+   Do you agree or disagree?
 
 
 
@@ -983,15 +917,11 @@ Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had wor
 This question is **optional**; for example, if you need more practice, or you are studying for the exam.
 :::
 
-Endotracheal intubation (ETI)
-is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
+Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
 
-ETI is widely used for airway management of children in the out-of-hospital setting, 
-but for many years little evidence was available on the effect of using ETI.
+ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
 
-Table \@ref(tab:AirwayTable)
-comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation
-on children.
+Table \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
 
 Use the table to answer the questions that follow.
 
@@ -1060,16 +990,11 @@ if( knitr::is_html_output() ) {
 ```
 
 
-1. Among people treated with BVM ('ball valve mask'),
-   compute the *percentage* that died (to the nearest percent).  
+1. Among people treated with BVM ('ball valve mask'), compute the *percentage* that died (to the nearest percent).  
 `r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
 
-2. Among the people treated with BVM,
-   what are the *odds* that
-   someone died?
-   Explain which one of the following calculations is correct,
-   and **explain what the other calculations compute,
-   and hence why they are wrong**.  
+2. Among the people treated with BVM, what are the *odds* that someone died?
+   Explain which one of the following calculations is correct, and **explain what the other calculations compute, and hence why they are wrong**.  
 `r if( knitr::is_html_output() ) {longmcq(
     c(answer = "281/(404-281) = 2.28",
                "(404-281)/404 = 0.304",
@@ -1078,8 +1003,7 @@ if( knitr::is_html_output() ) {
                "281/306 = 0.918"
      ))}`
 
-3. Among people treated with ETI,
-   the *odds* that someone died is 2.78.
+3. Among people treated with ETI, the *odds* that someone died is 2.78.
    What does this mean?  
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "A patient treated with ETI has a 2.78% chance of dying.",
@@ -1088,9 +1012,7 @@ if( knitr::is_html_output() ) {
              "For patients treated with ETI, about 278 live for every 100 that die."
   ))}`
   
-4. How many times greater is the odds that a person treated with 
-   ETI died compared to the odds that a person treated 
-   with BVM died?  
+4. How many times greater is the odds that a person treated with ETI died compared to the odds that a person treated with BVM died?  
 `r if( knitr::is_html_output() ) {fitb(num=TRUE, tol = 0.01, answer = 1.22)}`
 
 
@@ -1129,23 +1051,16 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
 
-To assess various lung diseases,
-many methods are available
-(including using a spirometer and the 6-minute walk test).
+To assess various lung diseases, many methods are available (including using a spirometer and the 6-minute walk test).
 
-The fatigue assessment scale (FAS)
-is one way to measure the fatigue of the patient.
+The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
 (A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
 
-The histogram in 
-Fig. \@ref(fig:Baughman2007-HistogramFig2)
-comes from a study [@data:Baughman2007:SixMinuteWalk]
-examining $n=142$ sarcoidosis patients using the FAS.
+The histogram in Fig. \@ref(fig:Baughman2007-HistogramFig2) comes from a study [@data:Baughman2007:SixMinuteWalk] examining $n = 142$ sarcoidosis patients using the FAS.
 
 1. Critique this histogram. Identify ways to improve the histogram.
 2. Describe this histogram in words: what does it tell you?
-3. Draw a rough boxplot that corresponds approximately to the histogram,
-   explaining your reasoning.
+3. Draw a rough boxplot that corresponds approximately to the histogram, explaining your reasoning.
 
 
 ```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.cap="The histogram of FAS scores for patients", out.width='55%'}
@@ -1163,22 +1078,13 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
-Environmentally-friendly buildings are often assumed to
-have a better indoor environmental quality
-(when occupants rate the comfort) than conventional buildings;
-in turn,
-this is assumed to have a positive impact on productivity.
+Environmentally-friendly buildings are often assumed to have a better indoor environmental quality (when occupants rate the comfort) than conventional buildings; in turn, this is assumed to have a positive impact on productivity.
 
-One group of researchers decided to test this assertion.
-Figure \@ref(fig:Paul2008Table1)
-is taken from a study of office temperatures [@data:Paul2008:Comfort]
-in an environmentally-friendly building at Charles Sturt University.
+One group of researchers decided to test this assertion. 
+Figure \@ref(fig:Paul2008Table1) is taken from a study of office temperatures [@data:Paul2008:Comfort] in an environmentally-friendly building at Charles Sturt University.
 
-Operative temperatures were measured in three offices
-between 8am to 6pm during four weeks near the end of summer;
-Office A is located on the ground floor,
-while Offices B and C are located on the top floor.
-The building is not air conditioned.
+Operative temperatures were measured in three offices between 8am to 6pm during four weeks near the end of summer; Office A is located on the ground floor, while Offices B and C are located on the top floor.
+The building is not *air* conditioned.
 
 1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
 2. In words, describe the relationship.
@@ -1243,24 +1149,18 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 
-Industries often produce unpleasant odours,
-but the effects on the health of those impacted is not always clear.
+Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
 
-Furthermore,
-different communities are impacted in different ways.
-One study [@data:Deane:OdorRefineries]
-researched the RQ:
+Furthermore, different communities are impacted in different ways.
+One study [@data:Deane:OdorRefineries] researched the RQ:
 
-> In Carson, California,
-> does the odour from nearby petroleum refineries impact residents in different areas differently?
+> In Carson, California, does the odour from nearby petroleum refineries impact residents in different areas differently?
 
-One aim of the study was to determine if the reports of unpleasant odours
-were related to measurements made by a dynamic olfactometer (an 'electronic nose').
-Part of the data collected are shown in 
-Table \@ref(tab:Odour).
+One aim of the study was to determine if the reports of unpleasant odours were related to measurements made by a dynamic olfactometer (an 'electronic nose').
+Part of the data collected are shown in Table \@ref(tab:Odour).
 
 ```{r Odour, echo=FALSE}
-OdourTab <- array( dim=c(4, 4))
+OdourTab <- array( dim = c(4, 4))
 
 colnames(OdourTab) <- c("Area I", 
                         "Area II",
@@ -1311,8 +1211,7 @@ if( knitr::is_html_output() ) {
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct,
-and using your calculator.
+These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
 These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 
 If you need help, please **ask**.
@@ -1403,8 +1302,7 @@ if( knitr::is_html_output() ) {
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct,
-and using your calculator.
+These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
 These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 
 If you need help, please **ask**.
