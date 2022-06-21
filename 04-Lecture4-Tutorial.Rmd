@@ -678,7 +678,7 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 
 `r if (knitr::is_html_output()) '<!--'`
 
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="80%"}
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="85%"}
 knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 ```
 `r if (knitr::is_html_output()) '-->'`

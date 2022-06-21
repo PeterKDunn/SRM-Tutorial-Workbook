@@ -50,6 +50,12 @@ The [Isuzu F-Series trucks](https://isuzu.com.au/) are rated as having a GVM bet
           "-10", 
 	  "-16",
 	  "16") )}`
+1. What does a *negative* $z$-score mean?  
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c("There has been an error",
+          "The mass is larger than average",
+          answer = "The mass is lower than average",
+          "The mass is a negative number, which is impossible") )}`
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265018&sec_digit=355513952&embeded_digit=1285939919' style='width:100%; height:375px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
