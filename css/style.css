@@ -3,20 +3,14 @@ body {
 }
 
 /* My environments */
-.softwareBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #663300;
-  background: #e6f2ff 5px center/3em no-repeat; 
-}
+
 
 
 .objectivesBox {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #4424D6;
+  border: 2px solid #ede9fb;
   background: #ede9fb 5px center/3em no-repeat; 
 }
 
@@ -25,7 +19,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #FC600A;
+  border: 2px solid #ffefe6;
   background: #ffefe6 5px center/3em no-repeat; 
 }
 
@@ -33,7 +27,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #558000;
+  border: 2px solid #f7ffe6;
   background: #f7ffe6 5px center/3em no-repeat; 
 }
 
@@ -49,7 +43,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #00ffff;
+  border: 2px solid #f7ffe6;
   background: #f7ffe6 5px center/3em no-repeat; 
 }
 
@@ -59,7 +53,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ac7339;
+  border: 2px solid #f9f2ec;
   background: #f9f2ec 5px center/3em no-repeat; 
 }
 
@@ -67,7 +61,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ac7339;
+  border: 2px solid #f9f2ec;
   background: #f9f2ec 5px center/3em no-repeat; 
 }
 
@@ -75,7 +69,7 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ac7339;
+  border: 2px solid #f9f2ec;
   background: #f9f2ec 5px center/3em no-repeat; 
 }
 
@@ -91,17 +85,8 @@ body {
 
 
 /* Try new way to do things with _icons_ in callouts */
-.caution {
-  background-image: url("./icons/iconmonstr-warning-8-240.png");
-}
-.software {
-  background-image: url("../icons/iconmonstr-laptop-4-240.png");
-}
 .objectives {
   background-image: url("../icons/iconmonstr-target-4-240.png");
-}
-.pronounce {
-  background-image: url("../icons/iconmonstr-microphone-7-240.png");
 }
 .important {
   background-image: url("../icons/iconmonstr-warning-8-240.png");
@@ -143,48 +128,6 @@ body {
 
 
 
-
-
-
-
-
-
-.rmdTutorInfo, .rmdimportant, .rmdtip, .rmdobjectives, .rmdDrills, .rmdVideoSolution, .rmdPreClass {
-  padding: 15px 15px 15px 64px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  background: #fbfbef 5px center/3em no-repeat;
-}
-
-
-.rmdDrills {
-  background-image: url("../icons/iconmonstr-calculator-10-240.png");
-  background-position: left top;
-  background-color: rgb(255, 242, 230);
-}
-.rmdTutorInfo {
-  background-image: url("../icons/iconmonstr-school-7-240.png");
-  background-position: left top;
-  background-color: rgb(235, 235, 224);
-}
-.rmdobjectives {
-  background-image: url("../icons/iconmonstr-target-4-240.png");
-  background-position: left top;
-  background-color: rgb(230, 249, 255);
-}
-.rmdimportant {
-  background-image: url("../icons/iconmonstr-warning-8-240.png");
-  background-position: left top;
-  background-color: rgb(248, 237, 237);
-}
-.rmdtip {
-  background-image: url("../icons/iconmonstr-info-6-240.png");
-  background-position: left top;
-}
-.rmdPreClass {
-  background-image: url("../icons/iconmonstr-school-26-240.png");
-  background-position: left top;
-}
 
 
 

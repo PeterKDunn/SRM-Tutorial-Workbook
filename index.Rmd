@@ -148,9 +148,17 @@ These chunks highlight common mistakes or warnings, about (for example) a partic
 
 
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+These chunks highlight **optional** questions, that you might like to do in private study.
 :::
 
+
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These chunks highlight drill questions, for practicing some of the mathematical computations.
+:::
+
+:::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+These chunks highlight questions to be completed **before your tutorial**.
+:::
 
 
 
