@@ -90,8 +90,7 @@ OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L,
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
-A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop]
-had $n = 60$ adults (27 females; 33 males) undergo a sleep study.
+A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults (27 females; 33 males) undergo a sleep study.
 `r if( knitr::is_html_output() ) {
   'The data are shown in Fig. \\@ref(fig:OSADT2).'
 } else
@@ -313,12 +312,11 @@ if( knitr::is_html_output() ) {
 }
 ```
    
-1. Compute the percentage of college students in the *sample* overall that 
-   have received exactly one concussion.
-2. Many possible graphs exists to display the data; 
-   four are shown in Fig. \@ref(fig:SoccerGraph).
+1. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
+2. Many possible graphs exists to display the data; four are shown in Fig. \@ref(fig:SoccerGraph).
    What is the main message from each graph?
-   Which graph do you think is best?  Why?
+   Which graph do you think is best?  
+   Why?
 
 ```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
 
