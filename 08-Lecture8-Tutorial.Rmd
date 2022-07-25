@@ -10,7 +10,7 @@ There is no new content.
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Please note:
-This applies to SCI110, and probably not to any other USC course.
+This applies to SCI110, and probably not to any other UniSC course.
 :::
 
 

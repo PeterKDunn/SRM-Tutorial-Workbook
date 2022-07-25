@@ -339,11 +339,11 @@ Part of the protocol  for the study is given below:
 This question is **optional**; for example, if you need more practice, or you are studying for the exam.
 :::
 
-Suppose we needed a sample of 80 vehicles parked at USC, 
+Suppose we needed a sample of 80 vehicles parked at UniSC, 
 and we wish to determine the proportion displaying P plates.
 
 Determine a useful way to find a suitable representative sample.
-The map below of the USC Sippy Downs campus may prove helpful
+The map below of the UniSC Sippy Downs campus may prove helpful
 (where areas labelled P are car parks).
 
 
@@ -353,7 +353,7 @@ The map below of the USC Sippy Downs campus may prove helpful
 m <- leaflet() %>%
    setView(lng=153.064970, lat=-26.716504, zoom=15.5) %>%
   addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=153.064970, lat=-26.716504, popup="USC (Sippy Downs Campus)")
+  addMarkers(lng=153.064970, lat=-26.716504, popup="UniSC (Sippy Downs Campus)")
 if (knitr::is_html_output()){
   m
 }

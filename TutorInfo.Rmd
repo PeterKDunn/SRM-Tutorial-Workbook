@@ -49,7 +49,7 @@ This is important for helping students to form groups (for their group work assi
   and have emailed them lots of information too.
   
 * **Approach**:
-  Most SCI110 students are in their first year at USC, and everything is new!
+  Most SCI110 students are in their first year at UniSC, and everything is new!
   Be gentle, caring, patient, helpful, personable.
 * **Structure**:
   Here is one way to structure this class (you don’t have to use (or like) it):
@@ -58,7 +58,7 @@ This is important for helping students to form groups (for their group work assi
   * Group them according to where they live (may be helpful for finding near-by group members): 
     Chat and learn three names.
   * Line up by hours per week they think is needed for this course.
-    (USC courses are designed for 10--12 hours per week, including classes, every week; 
+    (UniSC courses are designed for 10--12 hours per week, including classes, every week; 
     a lot of work is needed outside class times!)
   * Line up by the average number of hours of paid work they expect to do per week.
   * Line up by what they think the cost of SCI110 is
@@ -79,7 +79,7 @@ Here’s an example, using the percentage of females/males:
 
 * Ask them to guess the percentage of males or females in SCI110 *this* semester. 
   Some will look at their class: is this a good guesstimate? Why or why not?
-* Reveal that about 65% of USC students are female. Does this change their guess?
+* Reveal that about 65% of UniSC students are female. Does this change their guess?
 * Then reveal the survey results. 
   Have students comment on the closeness or otherwise of their guesses.
 * Point out that the survey results are not from the whole class. 
@@ -132,7 +132,7 @@ and all of which lead to different RQs.
 
 
 1. Note that Jane's actual assertion in the last sentence explicitly refers to "people",
-   though the context really is (USC?) students as she asserts earlier.
+   though the context really is (UniSC?) students as she asserts earlier.
    Encourage this discussion!
 2. In some ways, the answer is not important. But clearly stating what you are doing is important!
 3. Again, many options are possible, Some options for comparing to Earl Grey tea: 
@@ -217,7 +217,7 @@ The whole class will do the same study, and contribute data.
 **We will compare the 'average ruler reaction time' for students after using their dominant and non-dominant hands**.
 Being a  little vague at this stage:
 
-* **P**opulation: Could be SCI110 students, USC students, ...
+* **P**opulation: Could be SCI110 students, UniSC students, ...
 * **O**utcome: The average amount that the dominant hand is faster than the non-dominant hand
 * **C**: None.
 * **I**ntervention: None.

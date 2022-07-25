@@ -275,7 +275,7 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
    Explain your reasoning.
     a. All university students.
     b. Female university students about to do an exam.
-    c. USC students.
+    c. UniSC students.
     d. Queensland university students.      	 
 
 2. Identify an *outcome* that Nim can measure to answer the research question.  

@@ -161,19 +161,16 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.pn
 
 ## Probability {#Probability2}
 
-For the following,
-indicate *how* you could estimate the probability
-(classical; relative frequency; subjective)
-in these situations.
+For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
 (**Note:** You are not asked to *compute* the probability.)
 
-1. The probability that a given USC student lives in Nambour.  
+1. The probability that a given UniSC student lives in Nambour.  
 `r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",
                "Subjective approach."
       ))}`
-2. The probability that a given Nambour resident is a USC student.  
+2. The probability that a given Nambour resident is a UniSC student.  
 `r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",

@@ -86,7 +86,7 @@ and suggest better ways of communicating the information.
 From a study comparing resting heart rates between male and female SCI110 students:
 
 * **Null hypothesis**:
-      Among current USC students studying SCI110, male and female resting heart rates are the same.
+      Among current UniSC students studying SCI110, male and female resting heart rates are the same.
 * **Results**:
 			The sample presents evidence ($\chi^2 = 30.0$; two tailed $P = 0.517$) that the
 			mean resting heart rate does not have a significant difference between males and females 
@@ -135,12 +135,12 @@ and suggest better ways of communicating the information.
 From a study comparing how well sports-playing students can estimate distance compared to non-sports-playing students:
 
 * **Research question**:
-		    Among USC Sippy Downs students, 
+		    Among UniSC Sippy Downs students, 
 			  are individuals who regularly play sports have closer estimations to the actual measurement when identifying 
 			  the width of a regular path compared to individuals who don't play sports regularly?
 * **Null hypothesis**:
 		    The Null Hypophysis for our research question is that students 
-			  who play sports regularly at the USC Sippy down campus have an increased level of perception 
+			  who play sports regularly at the UniSC Sippy down campus have an increased level of perception 
 			  when it comes to estimating distances.
 * **Results**:
 		   This sample presents strong evidence in support of the Null Hypothesis that sport status 
