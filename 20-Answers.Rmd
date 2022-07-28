@@ -99,48 +99,28 @@ More directly:
 
 1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
    All of the options are possibilities.  
-2. "Relaxing":  Many options possible for quantifying this
-   (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
-3. Again, many options are possible, Some options for comparing to Earl Grey tea: 
-   coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
-4. "Between before and after drinking Earl Grey tea" is *not* a comparison
-   because everyone in the population (sample) is treated the same way:
-   There are not two groups in the population being compared.
+2. "Relaxing":  Many options possible for quantifying this (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
+3. Again, many options are possible, Some options for comparing to Earl Grey tea: coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
+4. "Between before and after drinking Earl Grey tea" is *not* a comparison because everyone in the population (sample) is treated the same way: There are not two groups in the population being compared.
 5. An example RQ might be:  
 
    "Among UniSC students (P),
-   the average heart rate 30 minutes after drinking (O)
-   is different between those who drink a cup of Earl Grey tea 
-   and those who drinking a cup of hot coffee (C)
-   when the drink is provided to them (I)".  
+   is the average heart rate 30 minutes after drinking (O) different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C)
+   when the drink is provided to them (I)?"
    
-   I'm not saying this is the best;
-   it is just an example.
-6. Get volunteers; 
-   place into one of the groups (Earl Grey and coffee); 
-   give the beverage; measure heart rate after 30 mins.
-   Note that many design issues are not covered until the next lecture,
-   but you can introduce, and encourage, discussion 
-   about some of the ideas if you wish (e.g. blinding).
+   I'm not saying this is the best; it is just an example.
+6. Get volunteers; place into one of the groups (Earl Grey and coffee); give the beverage; measure heart rate after 30 mins.
+   Note that many design issues are not covered until the next lecture.
 7. An example RQ might be:  
 
-   "Among UniSC students (P),
-   the average heart rate 30 minutes after drinking (O)
-   is different between those who drink a cup of Earl Grey tea 
-   and those who drinking a cup of hot coffee (C)".
-   I'm not saying this is the best;
-   it is just an example.
-8. Based on the above RQ:
-   Find UniSC students who drink Earl Grey tea, and others who drink coffee,
-   and measure their heart rate 30 minutes after they drink.  
+   "Among UniSC students (P), is the average heart rate 30 minutes after drinking (O)    is different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C)?"
+   I'm not saying this is the best; it is just an example.
+8. Based on the above RQ: Find UniSC students who drink Earl Grey tea, and others who drink coffee, and measure their heart rate 30 minutes after they drink.  
    
    It would have a lot of confounding effects to account for.
-9. For my RQ above:
-   The volume of tea or coffee; brand of tea or coffee; how made; when beverage taken; 
-   how long steeped for; how heart rate is measured; student (full-time only?); etc.
+9. For my RQ above: The volume of tea or coffee; brand of tea or coffee; how made; when beverage taken; how long steeped for; how heart rate is measured; student (full-time only?); etc.
    You don't need to *define* these, but if you have time you can have a go at one or two definitions.
-10. Many options, but for the RQ above: 
-    Type of beverage; heart rate after 30 mins (or better, the *change* in heart rate).
+10. Many options, but for the RQ above: Type of beverage; heart rate after 30 mins (or better, the *change* in heart rate).
     
     
     
