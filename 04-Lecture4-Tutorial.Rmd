@@ -204,25 +204,25 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
 | Female          | 97                          | 39
 
 
-1. What *percentage* of *male* patients had their stroke symptoms missed by the dispatcher?  
+1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "39.1%", 
 		                  "60.9%",
                       "52.4%",
                       "33.3%") )}`
-1. What *percentage* of *female* patients had their stroke symptoms missed by the dispatcher?  
+1. Of the *female* patients, what *percentage*  had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 		                  "71.3%",
                       "47.6%",
                       answer = "28.7%", 
                       "33.3%") )}`
-1. What are the *odds* that a *male* patients had their stroke symptoms missed by the dispatcher?  
+1. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "39.1", 
 		                  answer = "0.642",
                       "0.907",
                       "0.50") )}`
-1. What are the *odds* that a *female* patients had their stroke symptoms missed by the dispatcher?  
+1. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "0.402", 
 		                  "2.49",
