@@ -86,12 +86,12 @@ if( knitr::is_latex_output() ) {
                             "BMI",
                             "Neck circumference (cm)",
                             "REI"),
-              caption = "Part of the Obstructive sleep apnoea data set") %>%
+              caption = "Part of the obstructive sleep apnoea data set") %>%
     kable_styling(font_size = 10)
 }
 ```
 
-```{r OSADT, echo=FALSE, fig.cap="The Obstructive sleep apnoea data set", fig.align="center"}
+```{r OSADT, echo=FALSE, fig.cap="The obstructive sleep apnoea data set", fig.align="center"}
 if( knitr::is_html_output() ) {
   DT::datatable(useOSA,
               list(scrollX = TRUE, 
