@@ -62,7 +62,7 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 
 
 `r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265036&sec_digit=1243418155&embeded_digit=1746246557' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265036&sec_digit=1243418155&embeded_digit=1746246557' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 

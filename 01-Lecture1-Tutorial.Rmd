@@ -65,7 +65,7 @@ Consider this RQ:
 
 
 `r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 

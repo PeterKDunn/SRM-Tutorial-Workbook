@@ -167,7 +167,7 @@ if( knitr::is_html_output() ) {
 
 
 `r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265016&sec_digit=2096733296&embeded_digit=1512827955' style='width:100%; height:450px; overflow: auto; background: #badaff' frameBorder='0'></iframe><BR>
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265016&sec_digit=2096733296&embeded_digit=1512827955' style='width:100%; height:450px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>                      
 `r if (knitr::is_latex_output()) '-->'`                      
                       
