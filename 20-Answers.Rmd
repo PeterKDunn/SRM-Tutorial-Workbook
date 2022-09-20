@@ -1241,17 +1241,11 @@ Answers implied by H5P.
 3. The *direction* of the difference should be clearly stated.
 4. $\bar{d} = 18.736$; $s_d=8.3297$
 5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
-       This is the standard deviation of the sample mean difference,
-       a measurement of how precisely the sample mean difference measures
-       the population mean difference.
+   This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
 6. Almost impossible.
-         The sample means would vary every time we took a sample,
-         around the true mean difference
-         with a normal distribution having a standard error of about $2.51$.
-         Since we don't know the population mean,
-         the best we can say is that the sample mean will vary about our best guess of the
-         population mean; in other words,
-         the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
+   The sample means would vary every time we took a sample, around the true mean difference with a normal distribution having a standard error of about $2.51$.
+   Since we don't know the population mean, the best we can say is that the sample mean will vary about our best guess of the population mean. 
+   In other words, the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
 7. $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
 8. We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
 9. Either (or both) of these must be true: the population has a normal distribution,
@@ -1651,29 +1645,21 @@ to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pva
 ### Answers for Sect. \@ref(TestsPairedImplants) {.unlisted .unnumbered}
 
 1. Before and after measurement on same amputee.
-2. $H_0$: $\mu_d=0$, differences defined as 'with' minus 'without'. 
-   $H_1$: $\mu_d>0$ the way I defined differences.  
+2. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+   $H_1$: $\mu_d > 0$ the way I defined differences.  
 
-   We are explicitly seeking to test for an *improvement*, so the test is one-tailed.
-   (Diffs in the other direction are also OK;
-   the signs of the differences and some other subsequent things change.)
-3. The standard error of the mean is the standard deviation of the sample mean diff in plasma concentrations,
-   a measurement of how precisely the sample mean difference estimates the population mean diff.
-4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s=813.034$m; standard error: $4.122$m.
-5. $t=6.041$ and since $t$ is very large, expect $P$ to be very small.
+   We are explicitly seeking to test for an *improvement* (i.e., walk longer distances), so the test is one-tailed.
+   (Differences in the other direction are also OK; the signs of the differences and some other subsequent things change.)
+3. The standard error of the mean is the standard deviation of the sample mean increase in walking distance, a measurement of how precisely the sample mean difference estimates the population mean difference.
+4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s = 813.034$m; standard error: $4.122$m.
+5. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
    (The one-tailed $P$ less than $0.0005$ from Table A.2.)  
    
    The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-6. Very strong evidence exists in the sample
-   (paired $t=6.041$; one-tailed $P$ less than $0.0005$)
-   that the population mean 2MWT are higher after receiving the implant
-   compared to without the implant
-   (mean difference: $24.9$m higher after receiving the implant; standard deviation: 13.034m;
-   95% CI from $15.58$ to $34.224$m).
-7. The population of differences has a normal distribution,
-   and/or $n>25$ or so.
-8. Since $n<25$, must assume the population of differences has a normal distribution.
+6. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$m higher after receiving the implant; standard deviation: 13.034m; 95% CI from $15.58$ to $34.224$m).
+7. The population of differences has a normal distribution, and/or $n > 25$ or so.
+8. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
 
 
