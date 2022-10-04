@@ -1797,30 +1797,17 @@ if the sample OR is statistically different from 1, it does not tell us much abo
    In symbols (where $\mu$ represents the mean lifetime in the population):  
    
    $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
-3. If we took many samples of the same size from the population,
-   the mean differences would vary from sample to sample.
+3. If we took many samples of the same size from the population, the mean differences would vary from sample to sample.
    The 'standard error of the difference' tells us how much the sample mean will vary from sample to sample.
    It is is the standard deviation of this variation in sample means.
-4. The variation in the sample means is small:
-   The population means are estimated quite precisely. The means look different.
+4. The variation in the sample means is small: The population means are estimated quite precisely. The means look different.
 5. Either sampling variation, or the diets really are different.
-6. We always use the not-equal variance (Welch's test) row:
-   $t=9.161$; $\text{df}=154.94$; one-tailed $P<0.0005$ (test is one-tailed).
+6. We always use the not-equal variance (Welch's test) row: $t = 9.161$; $\text{df} = 154.94$; one-tailed $P < 0.0005$ (test is one-tailed).
    The evidence contradicts $H_0$.
-7. The differences are defined as the *Mean restricted-diet lifetime* minus the *Mean Free-eating diet lifetime*;
-   we see this as the (poorly-labelled) "Mean difference" column is positive,
-   and the only way to get this value positive is to subtract them in this order.
-8. Very strong evidence exists in the sample
-   ($t=9.161$ for two independent samples; $\text{df}=154.94$; one-tailed $P<0.0005$) 
-   that the population mean lifetime of
-   rats on a restricted diet (mean lifetime: 968.75 days; std. dev.: 284.6)
-   is greater than rats on a free-eating diet (684.01 days; 134.1)
-   (95% CI for the difference from 223.3 to 346.1 days).
-9. The two samples are independent; the sample means have a normal distribution,
-   so:
-   the population has a normal distribution, and/or $n>30$ or so.
-10. The sample sizes here are quite large so we should be OK, 
-   as the Figure suggests not very severe non-normality.
+7. The differences are defined as the *Mean restricted-diet lifetime* minus the *Mean Free-eating diet lifetime*; we see this as the (poorly-labelled) "Mean difference" column is positive, and the only way to get this value positive is to subtract them in this order.
+8. Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: 968.75 days; std. dev.: 284.6) is greater than rats on a free-eating diet (684.01 days; 134.1) (95% CI for the difference from 223.3 to 346.1 days).
+9. The two samples are independent; the sample means have a normal distribution, so: the population has a normal distribution, and/or $n > 25$ or so.
+10. The sample sizes here are quite large so we should be OK, as the Figure suggests not very severe non-normality.
 11. Rats from the same litter are likely to be similar to each other.
    The litter would probably be the unit of analysis then, not the individual rat.
 
