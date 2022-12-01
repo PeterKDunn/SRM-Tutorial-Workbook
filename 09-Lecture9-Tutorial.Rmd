@@ -12,9 +12,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 * [Chapter 27 (Introducing hypothesis tests)](https://bookdown.org/pkaldunn/SRM-Textbook/HTIntro.html).
-* [Chapter 28 (Hypothesis tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 29 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
-* [Chapter 30 (Hypothesis tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
+* [Chapter 28 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 29 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 30 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 31 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
 
 
 
