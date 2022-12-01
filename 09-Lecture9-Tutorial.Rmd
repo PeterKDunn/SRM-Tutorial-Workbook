@@ -425,7 +425,13 @@ Your tutor *may* decide to do this activity.
 
       
       
-	
+
+## Test for one proportions {#HTOneProportionA}
+
+
+
+
+
 	
 	
 ## **Optional**: Tests for one mean {#RoomWidthTest}

@@ -29,10 +29,10 @@ Researchers studied the impact of a gluten-free diet on dental cavities [@khalaf
 
 Some of the summary information regarding the number decayed, missing and filled teeth (DMFT) is shown below.
  
-Diet         | Sample size | Mean | Standard deviation | Standard error
--------------:+:-----------:+:----:+:------------------:+:----------------:
-Coeliac      |  23         | 8.39 | 4.4                | 0.92
-Non-coeliac  |  23         | 8.17 | 4.1                | 0.86
+Diet           | Sample size | Mean | Standard deviation | Standard error
+--------------:+:-----------:+:----:+:------------------:+:----------------:
+Coeliac        |  23         | 8.39 | 4.4                | 0.92
+Non-coeliac    |  23         | 8.17 | 4.1                | 0.86
 **Difference** |           | 0.22 | &nbsp;             | 1.3
 
 A 95% CI is given as for the difference is -2.32 to 2.76.
