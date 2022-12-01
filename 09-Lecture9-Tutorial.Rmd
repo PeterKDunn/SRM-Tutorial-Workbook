@@ -73,15 +73,10 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 `r if (knitr::is_latex_output()) '-->'`
 
 
-In 2011,
-*Eagle Boys' Pizza* ran a campaign that claimed
-that Eagle Boys' pizzas were 
-'Real size 12-inch large pizzas' [@mypapers:Dunn:PizzaSize].
+In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size 12-inch large pizzas' [@mypapers:Dunn:PizzaSize].
 Eagle Boys' made the data from the campaign publicly available.
 
-A summary of the diameters of a sample of 125 of their large pizzas is shown in
-Fig. \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and
-Fig. \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+A summary of the diameters of a sample of 125 of their large pizzas is shown in Fig. \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig. \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
 
 ```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='45%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
@@ -103,8 +98,7 @@ We would like to test the company's claim, and ask the RQ:
 1. Explain the difference in meaning between $s$ and $\text{s.e.}(\bar{x})$ in this context.
 1. Write the hypotheses to test if the mean pizza diameter is 12&nbsp;inches.
 1. Is the alternative hypothesis one- or two-tailed? Why?
-1. Draw the normal that shows how the *sample mean pizza diameter*
-   would vary by chance, *even if* the population mean diameter was 12&nbsp;inches. 
+1. Draw the normal that shows how the *sample mean pizza diameter* would vary by chance, *even if* the population mean diameter was 12&nbsp;inches. 
 1. Compute the $t$-score for testing the hypotheses.
 1. What is the approximate $P$-value using the 68--95--99.7 rule?
 1. Write a conclusion. (The CI was found in the [Lecture 7 tutorial](#CIPizzas).)
@@ -312,13 +306,13 @@ PS <- structure(list(ID = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
 
 
 
-hist( PS$DiameterInches[PS$Store=="EagleBoys"],
-      col=plot.colour,
-      las=1,
-      xlab="Pizza diameter (in inches)",
-      ylab="Number of pizzas",
-      main="Histogram of pizza diameters",
-      xlim=c(10, 12.5))
+hist( PS$DiameterInches[PS$Store == "EagleBoys"],
+      col = plot.colour,
+      las = 1,
+      xlab = "Pizza diameter (in inches)",
+      ylab = "Number of pizzas",
+      main = "Histogram of pizza diameters",
+      xlim = c(10, 12.5))
 ```
 
 
@@ -330,16 +324,14 @@ hist( PS$DiameterInches[PS$Store=="EagleBoys"],
 
 ## $P$-values {#PValues}
 
-In a *two-tailed* $t$-test where $n=49$,
-what is the approximate $P$-value for the test
-if:
+In a *two-tailed* $t$-test where $n = 49$, what is the approximate $P$-value for the test if:
 
-1. $t=-2.14$.
-2. $t=1.90$.
-3. $t=3.15$.
-4. $t=-1.20$.
-5. $t=-1.59$.
-6. $t=6.71$.
+1. $t = -2.14$.
+2. $t = 1.90$.
+3. $t = 3.15$.
+4. $t = -1.20$.
+5. $t = -1.59$.
+6. $t = 6.71$.
 
 (**Hint**: Use the 68--95--99.7 rule.)
 
@@ -367,16 +359,12 @@ include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
 
 (This continues from Sect. \@ref(CIImplant).)
 
-A study [@data:Guirao2017:amputees]
-examined the 2-minute walk times (2MWT) before and after receiving a 
-prosthetic implant.
+A study [@data:Guirao2017:amputees] examined the 2-minute walk times (2MWT) before and after receiving a prosthetic implant.
 The 2MWT measures how far participants can walk in two minutes.
 
 The RQ was:
 
-> For this type of amputee,
-> is the mean 2MWT **improved** (i.e., longer distances walked)
-> after using the implant?
+> For this type of amputee, is the mean 2MWT **improved** (i.e., longer distances walked) after using the implant?
 
 
 1. Explain why these data should be analysed as a paired situation.
@@ -397,9 +385,7 @@ The RQ was:
 
 3. Explain the *meaning* of the standard error of the mean difference in this context.
 4. The data for the ten amputee subjects are shown in Fig. \@ref(fig:Guirao2MWTb).
-	 Write down the mean difference, standard deviation of the difference,
-   and standard error of the mean differences, using
-	 Fig. \@ref(fig:2MWTjamovi) or Fig. \@ref(fig:2MWTSPSS).
+	 Write down the mean difference, standard deviation of the difference, and standard error of the mean differences, using Fig. \@ref(fig:2MWTjamovi) or Fig. \@ref(fig:2MWTSPSS).
 
 
 ```{r Guirao2MWTb, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for 10 patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
@@ -416,11 +402,9 @@ knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
 ```
 
 
-5. Write down the value of the $t$-statistic,
-   then estimate the $P$-value for testing the hypotheses.  
+5. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses.  
    
-   Explain why the $t$-scores from jamovi and SPSS have different signs
-   (in jamovi: negative value; in SPSS: positive value).
+   Explain why the $t$-scores from jamovi and SPSS have different signs (in jamovi: negative value; in SPSS: positive value).
 6. Write a statement that communicates the result of the test.
 7. What conditions must be met for this test to be valid?
 8. Is it reasonable to assume the assumptions are satisfied?
@@ -456,29 +440,18 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 
-Shortly after metric units were introduced to Australia in 1977,
-a lecturer wondered how accurately students could estimate lengths using the 
-metric measurements [@data:hand:handbook].
+Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, 
-on average,
-students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1&nbsp;m).
 
-To answer the RQ,
-a group of $n=44$ students were asked to estimate the width of the lecture hall
-to the nearest metre
-(data provided by Prof. Lewis).
+To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
 The data are given in Table \@ref(tab:GuessesHT).  
    
-The data were entered into software,
-producing the output in
-Fig. \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi),
-and
-Fig. \@ref(fig:LengthsHallOutput1) (SPSS).
+The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig. \@ref(fig:LengthsHallOutput1) (SPSS).
 
 
 ```{r GuessesHT, echo=FALSE}
-GuessTab <- array( dim=c(3, 15) )
+GuessTab <- array( dim = c(3, 15) )
 
 GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
 GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
@@ -486,19 +459,19 @@ GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
 
 if( knitr::is_latex_output() ) {
   kable(GuessTab,
-      format="latex",
-      caption="Guess of the width of a room 13.1 metres wide",
-      booktabs=TRUE,
-      align="r") %>%
-  kable_styling(full_width=FALSE)
+      format = "latex",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE)
 }
 if( knitr::is_html_output() ) {
   kable(GuessTab,
-      format="html",
-      caption="Guess of the width of a room 13.1 metres wide",
-      booktabs=TRUE,
-      align="r") %>%
-  kable_styling(full_width=FALSE)
+      format = "html",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE)
 }
 ```
 
@@ -506,9 +479,7 @@ if( knitr::is_html_output() ) {
 2. Perform a hypothesis test to determine if the mean guess is the actual distance of 13.1&nbsp;m.
    (The CI was computed in Sect.&nbsp;\@ref(RoomWidthCI).)
 3. Is it reasonable to assume the conditions are satisfied? 
-   The histogram in
-   Fig.&nbsp;\@ref(fig:LengthsHallHistoHT)
-   may (or may not) help.
+   The histogram in Fig.&nbsp;\@ref(fig:LengthsHallHistoHT) may (or may not) help.
 4. Do you think students were very good at estimating the width of the hall using metric units?
 
 ```{r echo=FALSE}
@@ -519,10 +490,10 @@ GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13,
 
 ```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
 hist( GuessM, 
-      las=1,
-      main="Histogram of guesses",
-      xlab="Guess (in metres)",
-      col=plot.colour)
+      las = 1,
+      main = "Histogram of guesses",
+      xlab = "Guess (in metres)",
+      col = plot.colour)
 ```
 
 ```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
@@ -571,33 +542,29 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
-An ecologist is studying two different grasses to help combat soil salinity,
-by comparing to a new grass (Grass A) to a native grass (Grass B).
+An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass A) to a native grass (Grass B).
 
-She uses 50 different sites, 
-allocating the two grasses at random to the sites (25 sites for each grass).
+She uses 50 different sites, allocating the two grasses at random to the sites (25 sites for each grass).
 
-After 12 months,
-the ecologist records whether the soil salinity at each site has improved,
-and hence computes the *odds* that each grass will improve the salinity.
+After 12 months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
    
 She finds a statistically significant difference between the odds in the two groups.
 
 Which of these statements is *consistent* with this conclusion?
 
-1. The $\text{OR}=4.1$ and $P=0.36$  
+1. The $\text{OR} = 4.1$ and $P = 0.36$  
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(         "Consistent with conclusion",
       answer = "NOT consistent with conclusion"))}`
-2. The $\text{OR}=4.1$ and $P=0.0001$  
+2. The $\text{OR} = 4.1$ and $P = 0.0001$  
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(answer = "Consistent with conclusion",
                "NOT consistent with conclusion"))}`
-3. The $\text{OR}=0.91$ and $P=0.36$  
+3. The $\text{OR} = 0.91$ and $P = 0.36$  
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(         "Consistent with conclusion",
       answer = "NOT consistent with conclusion"))}`
-4. The $\text{OR}=0.91$ and $P=0.0001$  
+4. The $\text{OR} = 0.91$ and $P = 0.0001$  
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(answer = "Consistent with conclusion",
                "NOT consistent with conclusion"))}`
@@ -620,24 +587,18 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 
-After a number of runners collapsed near the finish of the Tyneside annual Great North Run,
-researchers decided to study the role of $\beta$ endorphins as a factor in the collapses.
+After a number of runners collapsed near the finish of the Tyneside annual Great North Run, researchers decided to study the role of $\beta$ endorphins as a factor in the collapses.
 ($\beta$ endorphins are a peptide which suppress pain.) 
 
-A study [@data:Dale:FunRun]
-examined what happened with plasma $\beta$ endorphins during fun runs:
-does the concentration of plasma $\beta$ endorphins *increase*, on average,
-during fun runs.
+A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: does the concentration of plasma $\beta$ endorphins *increase*, on average, during fun runs.
 
-The researchers recorded the plasma $\beta$ concentrations in fun runners
-(participating in the Tyneside Great North Run).
-Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured
-(in pmol/litre)
-before and after the race (Table \@ref(tab:RunnerTabHT).)
+The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
+Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table \@ref(tab:RunnerTabHT).)
 A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre. 
  
 1. Explain why these data should be analysed as a paired means situation.
-2. Which of the following is the correct null hypothesis for this question? **Why** are the others incorrect?
+2. Which of the following is the correct null hypothesis for this question? 
+   **Why** are the others incorrect?
    Is the test one- or two-tailed?
 
     a. $\mu_{\text{Before}} = \mu_{\text{After}}$
@@ -649,12 +610,7 @@ A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre.
     g. $\mu_{\text{Before}} < 0$
     h. $\mu_{\text{After}} > 0$
 
-3. Write down the mean, standard deviation
-   and standard error,
-   using
-   Fig. \@ref(fig:FunRunjamovi) (jamovi)
-   or
-   Fig. \@ref(fig:FunRunSPSS) (SPSS).
+3. Write down the mean, standard deviation and standard error, using Fig. \@ref(fig:FunRunjamovi) (jamovi) or Fig. \@ref(fig:FunRunSPSS) (SPSS).
 4. Write down the value of the $t$-statistic, then estimate the $P$-value (using the 68--95--99.7 rule).
 5. Write a statement that communicates the result of the test.
 6. What conditions must be met for this test to be valid?

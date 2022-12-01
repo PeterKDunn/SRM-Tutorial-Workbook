@@ -124,12 +124,9 @@ include_graphics("Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg
 `r if (knitr::is_latex_output()) '-->'`
 
 
-Patients who have suffered a stroke often have restricted limb movement,
-and rehabilitation therapies are looking to using robotic means to assist these patients.
+Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are looking to using robotic means to assist these patients.
 
-Read the description (line breaks added fo clarity) of one such study as shown below
-[@data:Lo2010:RobotAssistance],
-then complete the crossword 
+Read the description (line breaks added fo clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
 `r if (knitr::is_latex_output()){
    'in Fig. \\@ref(fig:Crossword-Week2-Terminology)'
 } else {
@@ -137,29 +134,21 @@ then complete the crossword
 }`
 regarding this information.
 
-> In this multicenter, randomized, controlled trial 
-> involving 127 patients with moderate-to-severe upper-limb impairment 6 months or more after a stroke,
-> we randomly assigned 49 patients to receive intensive robot-assisted therapy, 
-> 50 to receive intensive comparison therapy, and 28 to receive usual care.  
+> In this multicenter, randomized, controlled trial involving 127 patients with moderate-to-severe upper-limb impairment 6 months or more after a stroke, we randomly assigned 49 patients to receive intensive robot-assisted therapy, 50 to receive intensive comparison therapy, and 28 to receive usual care.  
 > &nbsp;
 >
 > Therapy consisted of 36 1-hour sessions over a period of 12 weeks. 
-> The primary outcome was a change in motor function, 
-> as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, 
-> at 12 weeks...  
+> The primary outcome was a change in motor function, as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, at 12 weeks...  
 > &nbsp;
 >
-> We recruited veterans from four participating VA medical centers who were 18 years of age or older 
-> and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least 6 months before enrollment.  
+> We recruited veterans from four participating VA medical centers who were 18 years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least 6 months before enrollment.  
 > &nbsp;
 >
-> Such impairment was defined as a score of 7 to 38 on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke,
-> a scale with scores for upper-limb impairment ranging from 0 (no function) to 66 (normal function). 
+> Such impairment was defined as a score of 7 to 38 on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from 0 (no function) to 66 (normal function). 
 > All patients provided written informed consent.  
 > &nbsp;
 >
-> Patients were randomly assigned to receive robot-assisted therapy, 
-> intensive comparison therapy, or usual care...  
+> Patients were randomly assigned to receive robot-assisted therapy, intensive comparison therapy, or usual care...  
 > &nbsp;
 >
 > Trained evaluators who were unaware of study-group assignments assessed patients 6, 12, 24, and 36 weeks after randomization.
@@ -200,10 +189,7 @@ knitr::include_graphics("images/Crossword-Week2-Q1.PNG")
 Home-birthing has many supporters and detractors.
 But how safe is home-birthing really?
 
-Consider the newspaper report shown in
-Fig. \@ref(fig:homebirths),
-based on research examining this issue
-[@data:Murphy1998:homebirth].
+Consider the newspaper report shown in Fig. \@ref(fig:homebirths), based on research examining this issue [@data:Murphy1998:homebirth].
 Answer the questions that follow.
 
 ```{r homebirths, echo=FALSE, fig.cap="From: The Toowoomba Chronicle, 22 February 1999", fig.align="center", out.width="85%"}
@@ -222,24 +208,16 @@ Answer the questions that follow.
 	  d. The number of previous births by the mother.
     e. The gender of the baby.
 
-5. *If the study is experimental*, determine if the principles of 
-	 randomization, control, blinding and double-blinding, and blocking
-	 have been used.
-	 Also,
-	 determine if it is a quasi-experiment or a true experiment.
-6. *If the study is observational*,
-  determine if the study is retrospective, prospective or cross-sectional.
+5. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
+	 Also, determine if it is a quasi-experiment or a true experiment.
+6. *If the study is observational*, determine if the study is retrospective, prospective or cross-sectional.
 7. Suggest the RQ asked at the start of the study by identifying POCI.
 8. Is a cause-and-effect relationship reasonable? Explain.
 9. Read the extract from the original article below [@data:Murphy1998:homebirth]. What is the sampling method? Why are these limitations? What other limitations of the study can you think of?
 
 > There are several limitations to note in this report.
-> The results reported here reflect a sample of nurse--midwifery
-> practices willing to participate in data collection
-> and to permit the resulting scrutiny of their
-> practices. We cannot draw comparisons to non-participating
-> nurse--midwifery practices or to the home birth
-> practices of physician and other midwife providers.
+> The results reported here reflect a sample of nurse--midwifery practices willing to participate in data collection and to permit the resulting scrutiny of their practices. 
+> We cannot draw comparisons to non-participating nurse--midwifery practices or to the home birth practices of physician and other midwife providers.
 >
 > --- @data:Murphy1998:homebirth
 
@@ -282,38 +260,29 @@ include_graphics("Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg")
 `r if (knitr::is_latex_output()) '-->'`
 
 
-A study [@data:Truswell1992:crisps]
-compared the health benefits of crisps ('potato chips')
-when fried in canola oil or palmolein.
+A study [@data:Truswell1992:crisps] compared the health benefits of crisps ('potato chips') when fried in canola oil or palmolein.
 
 The article states (line breaks added):
 
-> Recently canola oil crisps have appeared in the market with the implication that their lower proportion 
-> of saturated fatty acids would have beneficial effects on plasma cholesterol.  
+> Recently canola oil crisps have appeared in the market with the implication that their lower proportion of saturated fatty acids would have beneficial effects on plasma cholesterol.  
 > &nbsp;
 >
-> We decided to examine this experimentally...
-> a major manufacturer agreed to fry batches of potato crisps in canola oil or the conventional palmolein for a human trial. 
+> We decided to examine this experimentally... a major manufacturer agreed to fry batches of potato crisps in canola oil or the conventional palmolein for a human trial. 
 > This provided an opportunity for us to run a double blind crossover trial.  
 >
 > --- @data:Truswell1992:crisps
 
 Part of the protocol  for the study is given below:
 
-> Subjects were asked to eat about a third of the day's crisps at the beginning of each meal and then, 
-> in the rest of their diets, 
-> to eat foods that were low to moderate in fat from a list of such foods...  
+> Subjects were asked to eat about a third of the day's crisps at the beginning of each meal and then, in the rest of their diets, to eat foods that were low to moderate in fat from a list of such foods...  
 > &nbsp;
 >
-> The crisps were supplied in plain bags, 
-> unmarked except for two code characters: 'T4' or 'B9' in 1990 and 'D5' or 'GS' in 1991. 
+> The crisps were supplied in plain bags, unmarked except for two code characters: 'T4' or 'B9' in 1990 and 'D5' or 'GS' in 1991. 
 > Until the end of the experiment, the type of oil was known only by the food scientist who prepared the crisps.  
 > &nbsp;
 >
-> In 1990, 
-> 21 subjects (12 men, 9 women) completed the 5 week experiment. 
-> They were randomly allocated to take palmolein ('B9') or canola ('T4') crisps for the first 3 weeks,
-> then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks. 
+> In 1990, 21 subjects (12 men, 9 women) completed the 5 week experiment. 
+> They were randomly allocated to take palmolein ('B9') or canola ('T4') crisps for the first 3 weeks, then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks. 
 > Thus half the subjects ate (new) canola crisps for 3 weeks and the (usual) palmolein crisps for the next 2 weeks.  
 > &nbsp;
 >
@@ -339,12 +308,10 @@ Part of the protocol  for the study is given below:
 This question is **optional**; for example, if you need more practice, or you are studying for the exam.
 :::
 
-Suppose we needed a sample of 80 vehicles parked at UniSC, 
-and we wish to determine the proportion displaying P plates.
+Suppose we needed a sample of 80 vehicles parked at UniSC, and we wish to determine the proportion displaying P plates.
 
 Determine a useful way to find a suitable representative sample.
-The map below of the UniSC Sippy Downs campus may prove helpful
-(where areas labelled P are car parks).
+The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled P are car parks).
 
 
 ```{r echo=FALSE}
@@ -399,8 +366,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers are available in Sect. \@ref(Lecture2Answers))*
 
 Fish oil has been touted as helpful to the health of the heart.
-A newspaper report of one such study [@data:GISSI1999:Infarction]
-is shown in Fig. \@ref(fig:fishoil).
+A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fig. \@ref(fig:fishoil).
 
 
 ```{r fishoil, echo=FALSE, fig.cap="From The Downs Star, Thursday March 18, 1999", fig.align="center", out.width="80%"}
@@ -412,14 +378,10 @@ Answer these questions:
 
 1. Identify the variables involved.
 2. Explain whether the study is observational or experimental.
-3. *If the study is experimental*, 
-   determine if the principles of 
-   randomization, control, blinding and double-blinding, and blocking
-   have been used.
+3. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
    Also determine if it is a true experiment or a quasi-experiment.  
 
-   *If the study is observational*,
-   determine if the study is retrospective, prospective or cross sectional.
+   *If the study is observational*, determine if the study is retrospective, prospective or cross sectional.
 
 4. Which one of the following, if any, would be a potential **lurking** variable?  Explain.
     - The general health of the subject.
@@ -443,23 +405,18 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect.\@ref(Lecture2Answers))*
 
-For a small pilot study,
-Sam allocated 12 students (6 males and 6 females)
-to one of two groups.
+For a small pilot study, Sam allocated 12 students (6 males and 6 females) to one of two groups.
 
-In the Report associated with the study,
-Sam stated that the 12 students were
+In the Report associated with the study, Sam stated that the 12 students were
 
 > ...randomly allocated to one of two groups (Group A or Group B).
 
 Different interventions were applied to each group.
 
-A reviewer,
-however,
-noted that *all* the subjects in Group A were male,
-and *all* the subjects in Group B were female.
+A reviewer, however, noted that *all* the subjects in Group A were male, and *all* the subjects in Group B were female.
 
-1. Would this be a problem?  Why?
+1. Would this be a problem?  
+   Why?
 2. Do you agree with Sam, that the subjects really were allocated to the groups *at random*?
 	 Explain your answer.
 
@@ -477,9 +434,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 
 Many health experts are concerned about the amount of sugary drinks consumed by children.
-Part of a newspaper report
-about a study into this issue is shown in
-Fig. \@ref(fig:SoftDrinks).
+Part of a newspaper report about a study into this issue is shown in Fig. \@ref(fig:SoftDrinks).
 
 ```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012", fig.align="center", out.width='80%'}
 include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
@@ -530,14 +485,11 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers are available in Sect. \@ref(Lecture2Answers))*
 
-To study the progress of an imported species of beetle,
-a research group is studying the research question:
+To study the progress of an imported species of beetle, a research group is studying the research question:
 
-> Is the mean number of species of beetle found on trees 
-> different between local coniferous and broad leaf forests?
+> Is the mean number of species of beetle found on trees different between local coniferous and broad leaf forests?
 
-Ten possible forests of each type have been found,
-and the research budget allows for 100 trees to be sampled.
+Ten possible forests of each type have been found, and the research budget allows for 100 trees to be sampled.
 Three designs are being considered:
 
 * **A.** Randomly sample 50 trees from one randomly selected coniferous forest, and 50 trees from one randomly selected broad leaf forest.
@@ -547,8 +499,7 @@ Three designs are being considered:
 The researchers wish to know which design they should use.
 
 1. Identify (with justification) which of these designs will be best for estimating the variation *within* a forest.
-2. Identify (with justification) which of these designs will be best for estimating the
-   variation that exists *between* the forest (that is, from one forest to the next).
+2. Identify (with justification) which of these designs will be best for estimating the variation that exists *between* the forest (that is, from one forest to the next).
 3. Which design do you think would be best for answering the RQ? Explain your answer.
 4. Which design do you think would be the easiest design for data collection?
 

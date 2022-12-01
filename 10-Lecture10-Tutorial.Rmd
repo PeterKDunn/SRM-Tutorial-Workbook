@@ -81,12 +81,9 @@ include_graphics("Illustrations/pexels-alexas-fotos-2189599.jpg")
 
 Researchers were interested in the impact of diet on the lifetime of rats:
 
-> For rats, is the mean lifetime *shorter* for rats on a *free-choice* diet compared to 
-> rats on a *healthy, restricted* diet?
+> For rats, is the mean lifetime *shorter* for rats on a *free-choice* diet compared to rats on a *healthy, restricted* diet?
 
-A study [@data:Berger1988:RatsData]
-compared the total lifetime of rats on restricted ($n=106$ rats)
-free-eating diets ($n=89$ rats).
+A study [@data:Berger1988:RatsData] compared the total lifetime of rats on restricted ($n = 106$ rats) free-eating diets ($n = 89$ rats).
 
 1. Explain why these are two *independent* samples, and not *paired*.
 2. Write down the hypotheses being tested. Is this a one- or a two-tailed test? Explain.
@@ -221,51 +218,45 @@ include_graphics("Illustrations/pexels-anna-shvets-5068676.jpg")
 `r if (knitr::is_latex_output()) '-->'`
 
 
-A study examined the mortality rates of lower-limb amputation,
-and factors that may be associated with mortality [@data:Singh:lowerlimb].
+A study examined the mortality rates of lower-limb amputation, and factors that may be associated with mortality [@data:Singh:lowerlimb].
 
-As part of the study,
-the researchers recorded the five-year mortality rate (the number of amputees who died within five years of amputation)
-and whether or not the person used an artificial limb.
+As part of the study, the researchers recorded the five-year mortality rate (the number of amputees who died within five years of amputation) and whether or not the person used an artificial limb.
 
 The RQ was:
 
-> For this type of amputees,
-> is the odds of being alive after five years the same for
-> those who used an artificial limb, and those who did not?
+> For this type of amputees, is the odds of being alive after five years the same for those who used an artificial limb, and those who did not?
 
-A total of 105 subjects were used:
-35 died within five years, and 70 were still alive after five years.
-
-In addition,
-65 subjects used an artificial limb,
-and 40 did not.
+A total of 105 subjects were used: 35 died within five years, and 70 were still alive after five years.
+In addition, 65 subjects used an artificial limb, and 40 did not.
 	
 1. After five years, 49 people using an artificial limb were alive.  
 
-   Construct the $2\times 2$ table (Table \@ref(tab:ArtLimbMortality))
-   displaying the number of people alive or dead after five years (in columns, say)
-   and whether or not they used an artificial limb or not (in rows).
+   Construct the $2\times 2$ table (Table \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
 
 ```{r echo=FALSE, ArtLimbMortality}
-ArtLimb <- array( "", dim=c(3, 3) )
-colnames(ArtLimb) <- c("Alive", "Dead", "Total")
-rownames(ArtLimb) <- c("Used artificial limb", "Did not use artificial limb", "Total")
+ArtLimb <- array( "", dim = c(3, 3) )
+colnames(ArtLimb) <- c("Alive", 
+                       "Dead", 
+                       "Total")
+rownames(ArtLimb) <- c("Used artificial limb", 
+                       "Did not use artificial limb", 
+                       "Total")
 
 ArtLimb[3,3] <- "105"
    
 if( knitr::is_latex_output() ) {
    kable(ArtLimb,
-        format="latex",
-        longtable=FALSE,
-        booktabs=TRUE,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        linesep = "\\addlinespace", # Add a bit of space between all rows. 
-       caption="Five-year mortality for artifical limb users",
-        align="r")   %>%
-   kable_styling(full_width=FALSE, font_size=10) %>%
-  row_spec(0, bold=TRUE)  %>%
-  row_spec(3, bold=TRUE) #%>% # Columns headings in bold
+       caption = "Five-year mortality for artifical limb users",
+        align = "r")   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) %>%
+  row_spec(0, bold = TRUE)  %>%
+  row_spec(3, bold = TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
 #   column_spec(column=3, width="5cm") %>%
@@ -326,15 +317,9 @@ if( knitr::is_html_output() ) {
 
    For a person *not* using an artificial limb, compute the odds of being alive after five years.  
    
-   Then compute the odds ratio,
-   complete Table \@ref(tab:ArtLimbSummary),
-   and carefully explain what the OR means.
-3. Write down the 95% CI for the population OR using the software output
-	 (jamovi: Fig. \@ref(fig:limbsOutputjamovi);
-	 SPSS: Fig. \@ref(fig:limbsOutput)). 
-4. Perform a hypothesis test to compare the odds of being alive after five years for both groups
-   (jamovi: Fig. \@ref(fig:limbsOutputjamovi);
-	 SPSS: Fig. \@ref(fig:limbsOutput)):
+   Then compute the odds ratio, complete Table \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
+3. Write down the 95% CI for the population OR using the software output (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)). 
+4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)):
 
     a. Write the hypotheses.
     b. Write down the value of $\chi^2$.
@@ -477,14 +462,9 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
 Applying tattoos carries health risks as the skin is broken during application.
-An American study examined if a relationship existed between
-having hepatitis C and having tattoos [@data:Haley2001:Tattoos].
+An American study examined if a relationship existed between having hepatitis C and having tattoos [@data:Haley2001:Tattoos].
 
-To study this,
-626 people were interviewed as part of an observational study,
-and asked about two issues:
-Whether they had hepatitis C (47 people) or not (579 people); 
-and if they had a tattoo (113 people), or no tattoos (513 people).
+To study this, 626 people were interviewed as part of an observational study, and asked about two issues: Whether they had hepatitis C (47 people) or not (579 people); and if they had a tattoo (113 people), or no tattoos (513 people).
 
 
 1. Which **one** of these five sets of hypotheses is *not* valid for this situation? Why?
@@ -501,12 +481,9 @@ and if they had a tattoo (113 people), or no tattoos (513 people).
       $H_1$:  The proportion having hepatitis C is *not* the same with or without a tattoo *in the population*.
 
 2. Compute the percentage of people overall in the sample with a tattoo.
-3. Assuming the null hypothesis about the population is true,
-	compute the number of people in the sample *with* hepatitis C that you would *expect* 
-	have a tattoo.
+3. Assuming the null hypothesis about the population is true,	compute the number of people in the sample *with* hepatitis C that you would *expect* have a tattoo.
 	Use the information above to answer the question.
-4. In the sample,
-   25 people had Hep. C *and* a tattoo.
+4. In the sample, 25 people had Hep. C *and* a tattoo.
    Use this information to create the two-way table summarising the data (Table \@ref(tab:TattHepTab)).
 
 ```{r echo=FALSE, TattHepTab}
@@ -590,14 +567,9 @@ if( knitr::is_html_output() ) {
 ```
 
 
-5. In the sample,
-	 what are the odds that someone has Hep. C,
-	 among those with a tattoo?
-6. In the sample,
-   what are the odds that someone has Hep. C,
-	 among those *without* a tattoo?
-7. From the sample information,
-   compute the odds ratio of having Hep. C, comparing students with a tattoo to those without a tattoo.
+5. In the sample, what are the odds that someone has Hep. C, among those with a tattoo?
+6. In the sample, what are the odds that someone has Hep. C, among those *without* a tattoo?
+7. From the sample information, compute the odds ratio of having Hep. C, comparing students with a tattoo to those without a tattoo.
    Carefully explain what this value means.
 
 
@@ -613,11 +585,9 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
-A study compared the number of deaths
-reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
+A study compared the number of deaths reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
 
-One of the tables in the paper is shown in
-Fig. \@ref(fig:Smith2016hurricanes).
+One of the tables in the paper is shown in Fig. \@ref(fig:Smith2016hurricanes).
 Explain in everyday language what this means.
 	
 	
@@ -653,15 +623,11 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 
-Batteries are expensive,
-so comparing the performance of expensive and cheap batteries is helpful.
+Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 
-A test on the lifetime of batteries [@data:ALDIBatteryTesting]
-compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
 
-The times (in hours) for nine Energizer Max batteries and 
-nine ALDI brand batteries (Ultracell)
-are shown in Table \@ref(tab:BattTableHT).
+The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table \@ref(tab:BattTableHT).
 
 ```{r BattTableHT, echo=FALSE}
 BattTab <- array( "", 
@@ -692,23 +658,16 @@ if( knitr::is_html_output() ) {
 
 1. Write the hypotheses for testing the research question of interest. Is the test one- or two-tailed?
 2. Explain the meaning of the standard error of the mean in this context.
-3. The software output for the analysis is shown in
-   Fig. \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi)
-   and
-   Fig. \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
+3. The software output for the analysis is shown in Fig. \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi) and Fig. \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
    Determine the value of the $t$-statistic and the $P$-value for testing the hypotheses.
 4. Write a statement that communicates the result of the test.
 5. What conditions must be met for this test to be valid?
 6. Is it reasonable to assume the assumptions are satisfied? 
 7. What did you learn from this study?  
 
-   At the time of this analysis,
-   a four-pack of the Ultracell Max batteries cost $2.49 from ALDI online, 
-   while a four pack of Energizer Max from Woolworths online cost $5.97 on special 
-   (usually $8.01)^[Data from 05 September 2012.].  
+   At the time of this analysis, a four-pack of the Ultracell Max batteries cost $2.49 from ALDI online, while a four pack of Energizer Max from Woolworths online cost $5.97 on special (usually $8.01)^[Data from 05 September 2012.].  
    
-   On the basis of this information,
-   would you be prepared to try the Ultracell batteries?
+   On the basis of this information, would you be prepared to try the Ultracell batteries?
    Explain your reasoning.
    
 
@@ -733,17 +692,11 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
-A study [@data:higgins:cotton] studied byssinosis
-(a respiratory complaint) among workers in the textile industry.
+A study [@data:higgins:cotton] studied byssinosis (a respiratory complaint) among workers in the textile industry.
 
-The researchers were interested,
-among other things, in exploring the relationship between smoking status and
-the presence of byssinosis.
+The researchers were interested, among other things, in exploring the relationship between smoking status and the presence of byssinosis.
 
-More specifically, they wanted to see if the proportion of smokers with byssinosis
-was *greater* than
-the proportion of non-smokers with byssinosis,
-among all textile workers.
+More specifically, they wanted to see if the proportion of smokers with byssinosis was *greater* than the proportion of non-smokers with byssinosis, among all textile workers.
 
 The researchers used an observational study.
 
@@ -753,34 +706,21 @@ The researchers used an observational study.
     b. The mean number of workers having byssinosis is the same for smokers and non-smokers.
     c. The population odds of having byssinosis is the same in among smokers and non-smokers.
 
-2. Among those randomly selected to appear in the study,
-   165 workers had byssinosis 
-   (40 were non-smokers)
-   and 5254 did not
-   (2190 were non-smokers).  
+2. Among those randomly selected to appear in the study, 165 workers had byssinosis (40 were non-smokers) and 5254 did not (2190 were non-smokers).  
    
-   Construct the two-way table showing the number of workers 
-   with byssinosis among smokers and non-smokers.
-3. Compute the sample *proportion* of workers with byssinosis,
-   among smokers.
-   Then,
-   compute the sample *proportion* of workers with byssinosis, among non-smokers.
+   Construct the two-way table showing the number of workers with byssinosis among smokers and non-smokers.
+3. Compute the sample *proportion* of workers with byssinosis, among smokers.
+   Then, compute the sample *proportion* of workers with byssinosis, among non-smokers.
 4. Compute the odds of having byssinosis, among *smokers*.
    Then compute the odds of having byssinosis, among *non-smokers*.
    What do these odds mean?
 5. Compute the odds ratio comparing smokers to non-smokers.
    What does this odds ratio mean?
-6. A report states that the odds ratio is not one
-   simply due to sampling variation,
-   and not due to smoking.  
+6. A report states that the odds ratio is not one simply due to sampling variation, and not due to smoking.  
    
    Do you agree or disagree?
    Why?
-7. Use the software output in 
-   Fig. \@ref(fig:ByssOutputjamovi) (jamovi) 
-   or
-   Fig. \@ref(fig:ByssOutputSPSS1) and  Fig. \@ref(fig:ByssOutputSPSS2) (SPSS),
-   to test the hypotheses.
+7. Use the software output in Fig. \@ref(fig:ByssOutputjamovi) (jamovi) or Fig. \@ref(fig:ByssOutputSPSS1) and  Fig. \@ref(fig:ByssOutputSPSS2) (SPSS), to test the hypotheses.
    Write a proper conclusion to communicate the results.
 8. Are the results likely to be statistically valid? Explain.
 
@@ -824,14 +764,9 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 	
-A study [@data:Tanagawa:AirwayDevices]
-examined the choice
-of airway devices used for nontraumatic, 
-out-of-hospital cardiac arrest patients,
-to evaluate the success and failure of insertion for various devices.
+A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices used for nontraumatic, out-of-hospital cardiac arrest patients, to evaluate the success and failure of insertion for various devices.
 
-The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab),
-taken from available patient documentation.
+The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
 
 ```{r AirwayTab, echo=FALSE}
 AirwayTab <- array( dim =  c(2, 2))
@@ -864,11 +799,7 @@ if( knitr::is_html_output() ) {
 
 1. Define $p$ as the population proportion of successful attempts at insertion.
    Write the hypotheses to be tested.
-2. Use the software output in 
-   Fig. \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi)
-   or
-   Fig. \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS)
-   to test the hypotheses.
+2. Use the software output in Fig. \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi) or Fig. \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS) to test the hypotheses.
    Write a proper conclusion to communicate the results.
 3. Are the results likely to be statistically valid? Explain.
 4. The study was designed to enable medics to choose the best airway device.  

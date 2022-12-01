@@ -337,7 +337,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-### Thoughts on Sect. \@ref(UnderstandingBoxplots) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(QuickRevision-Tutorial4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 With 22 observations,
@@ -492,6 +492,21 @@ include_graphics("SoftwareImages/RulerDropData.png")
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
+        
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+
+
+
+
+## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
 ### Thoughts on Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
@@ -511,18 +526,19 @@ Only a guess can be made, but using $z$-scores leads to more accurate answers.
 **You could have a discussion about rounding:**
 Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 ```
-        
+
+[**Return to index of tutor information.**](#TutorInfo)
+
+
+
+
+
+
+
+## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors .unlisted .unnumbered}
+
 [**Return to index of tutor information.**](TutorInfo.html)
 
-
-
-
-
-
-
-## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
 
 
 ### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
@@ -548,19 +564,7 @@ In particular, if you get a negative number for one (or both) of the CI limits,
 you can discuss what the negative number means.
 ```
 
-
-[**Return to index of tutor information.**](#TutorInfo)
-
-
-
-
-
-
-
-## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors .unlisted .unnumbered}
-
 [**Return to index of tutor information.**](TutorInfo.html)
-
 
 
 

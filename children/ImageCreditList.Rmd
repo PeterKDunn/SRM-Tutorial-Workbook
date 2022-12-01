@@ -35,7 +35,7 @@
   on
   [Pexels](https://www.pexels.com/photo/action-active-activity-adolescent-264384/)
 
-* Image of jellyfish (Sect. \@ref(UnderstandingBoxplots)):
+* Image of jellyfish (Sect. \@ref(#QuickRevision-Tutorial4)):
   Photo by 
   [Jeffrey Hamilton](https://unsplash.com/@pistos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
   on

@@ -91,8 +91,7 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 
 ## Understanding correlations and regression {#UnderstandCorrelations}
 
-Answer the following questions,
-referring to Fig. \@ref(fig:Guesses).
+Answer the following questions, referring to Fig. \@ref(fig:Guesses).
 The four correlation coefficients $r$ are:
 
 
@@ -137,17 +136,13 @@ if( knitr::is_html_output() ) {
 
 ```
 
-For two plots,
-a correlation is not suitable.
+For two plots, a correlation is not suitable.
 
 1. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
-2. Think of an example of two quantitative variables
-   that might produce a plot with a *direction* similar to **Plot 1**.
-3. Think of an example of two quantitative variables
-   that might produce a plot with a *direction* similar to **Plot 2**.
+2. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
+3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 2**.
 4. Compute the values of $R^2$ for each plot identified in **Part 1** of this question.
-5. On *each* scatterplot in 
-   Fig. \@ref(fig:Guesses)
+5. On *each* scatterplot in Fig. \@ref(fig:Guesses)
    for which a linear relationship is appropriate (there are *four*!):
     a. Draw or estimate the 'best' straight regression line (where appropriate).
     b. From the line in **Part 5a.** above, estimate the **slope** for each line.
@@ -277,17 +272,14 @@ include_graphics("Illustrations/angga-pratama-8xZuFxi0On4-unsplash.jpg")
 
 
 I was wondering about how the age of second-hand cars impact their price.
-On 25 June 2014,
-I searched [Gum Tree](https://www.gumtree.com.au) for 'Toyota Corolla' in the 'Cars, Vans \& Utes' category.
+On 25 June 2014, I searched [Gum Tree](https://www.gumtree.com.au) for 'Toyota Corolla' in the 'Cars, Vans \& Utes' category.
 
 The age and the price of each (second-hand) car was recorded from the first two pages of results that were returned.
 
 I then restricted the data to cars 15 years old or younger.
-(I also removed one 13-year-old Corolla advertised for sale for $390,000,
-assuming this was an error.)
+(I also removed one 13-year-old Corolla advertised for sale for $390,000, assuming this was an error.)
 
-I then produced the scatterplot in
-Fig. \@ref(fig:CorollasPriceAge).
+I then produced the scatterplot in Fig. \@ref(fig:CorollasPriceAge).
 
 
 
@@ -350,10 +342,8 @@ box()
    }`
 4. On the scatterplot, locate a seven-year-old Corolla selling for $15,000.
    Would this be cheap or expensive?
-5. As stated, I removed one observation:
-   a 13-year-old Corolla for sale at $390,000.
-   What do you think the price was meant to be listed as,
-	 by looking at the scatterplot?
+5. As stated, I removed one observation: a 13-year-old Corolla for sale at $390,000.
+   What do you think the price was meant to be listed as, by looking at the scatterplot?
 	 Explain.
 6. *Estimate* the value of $b_0$ (the intercept) from the line you drew.
    What does this mean?
@@ -361,17 +351,10 @@ box()
 7. *Estimate* the value of $b_1$ (the slope) from the line you drew.
    What does this mean?
    Do you think this value is meaningful?
-8. From the line you drew above,
-   write down an *estimate* of the regression equation.
-9. Use the software output 
-   (Fig. \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig. \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi);
-   Fig. \@ref(fig:CorollasPriceAgeCorrelationSPSS) and Fig. \@ref(fig:CorollasPriceAgeRegressionSPSS) (SPSS))
-   relating the price (in thousands of dollars) to age 
-   to write down the regression equation.
-10. Using the software output,
-    write down the value of $r$.
-    Using this value of $r$,
-    compute the value of $R^2$.
+8. From the line you drew above, write down an *estimate* of the regression equation.
+9. Use the software output (Fig. \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig. \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi); Fig. \@ref(fig:CorollasPriceAgeCorrelationSPSS) and Fig. \@ref(fig:CorollasPriceAgeRegressionSPSS) (SPSS)) relating the price (in thousands of dollars) to age to write down the regression equation.
+10. Using the software output, write down the value of $r$.
+    Using this value of $r$, compute the value of $R^2$.
     What does this mean? 
 
 ```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="60%"}
@@ -387,23 +370,13 @@ knitr::include_graphics("SoftwareImages/CorollasSPSS-Correlation.png")
 knitr::include_graphics("SoftwareImages/CorollasSPSS-Regression.png")
 ```
 
-11. Use the regression equation from the software output to estimate the sale price of a Corolla that is 20 years old,
-    and explain your answer.
+11. Use the regression equation from the software output to estimate the sale price of a Corolla that is 20 years old, and explain your answer.
 12. Would a Corolla 6-years-old advertised for sale at $15,000 appear to be good value?
     Estimate the sale price and explain your answer.
-13. Using the software output,
-    perform a suitable hypothesis test
-    to determine if there is evidence that lower prices are associated with older Corollas.
-14. Compute an approximate 95% confidence interval for the population slope
-    (use the software output in 
-    **Fig. \@ref(fig:CorollasPriceAgeRegressionjamovi)** (jamovi)
-    or
-    **Fig. \@ref(fig:CorollasPriceAgeRegressionSPSS)** (SPSS)).
-15. I could have drawn a scatterplot with 
-    Price on the vertical (up-and-down) axis
-    and Year of manufacture on the horizontal (left-to-right) axis
-    (**Fig. \@ref(fig:CorollasPriceYear)**).
-    From this graph:
+13. Using the software output, perform a suitable hypothesis test to determine if there is evidence that lower prices are associated with older Corollas.
+14. Compute an approximate 95% confidence interval for the population slope (use the software output in  **Fig. \@ref(fig:CorollasPriceAgeRegressionjamovi)** (jamovi) or  **Fig. \@ref(fig:CorollasPriceAgeRegressionSPSS)** (SPSS)).
+15. I could have drawn a scatterplot with Price on the vertical (up-and-down) axis and Year of manufacture on the horizontal (left-to-right) axis (**Fig. \@ref(fig:CorollasPriceYear)**).
+    Suppose I made this graph; then:
 
     a. What is the value of the correlation coefficient?
     b. How would the value of $R^2$ change?
@@ -510,18 +483,11 @@ This question has a video solution in the online book, so you can hear and see t
 
 Researchers in New Zealand were interested in:
 
-> ...the behaviour of heather (*Calluna vulgaris*) in Tongariro National Park...: 
-> the potential for herbicidal control; 
-> likely changes in secondary vegetation if biological control is effective; 
-> some aspects of its demography; 
-> and, finally, whether heather acts to facilitate or impede rates of native shrub invasion of red tussock grassland.
+> ...the behaviour of heather (*Calluna vulgaris*) in Tongariro National Park...:  the potential for herbicidal control; likely changes in secondary vegetation if biological control is effective; some aspects of its demography; and, finally, whether heather acts to facilitate or impede rates of native shrub invasion of red tussock grassland.
 >
 > --- @data:Rogers1996:Heather
 
-The graph in Fig. \@ref(fig:Stems)
-comes from this study
-examining heather in the central North Island
-of New Zealand.
+The graph in Fig. \@ref(fig:Stems) comes from this study examining heather in the central North Island of New Zealand.
 
 ```{r Stems, echo=FALSE, fig.cap="Figure 2 (top panel) from Rogers (1996)", fig.align="center", out.width="45%"}
 include_graphics("ArticleImages/Kelly2005-Regression.png")
@@ -530,8 +496,7 @@ include_graphics("ArticleImages/Kelly2005-Regression.png")
 1. Identify a possible research question being answered by the graph.
 2. Critique the graph
 3. Compute the value of $r$, and interpret.
-4. For a stem age of 20 years, 
-   what does the regression model predict as the mean stem diameter?   
+4. For a stem age of 20 years, what does the regression model predict as the mean stem diameter?   
 5. Interpret the meaning of the slope and intercept in the regression equation.
    Comment on these interpretations.
 
