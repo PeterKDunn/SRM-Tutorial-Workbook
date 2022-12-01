@@ -604,6 +604,7 @@ you can conduct a hypothesis test for the ruler-drop (using jamovi).
 ```
 
 
+
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
