@@ -102,7 +102,7 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
    
 `r if (knitr::is_latex_output()) '<!--'`
 ```{r, echo=FALSE, out.width= "50%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/corona-6278444_1920.jpeg")
+include_graphics("Illustrations/corona-6278444_1920.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 

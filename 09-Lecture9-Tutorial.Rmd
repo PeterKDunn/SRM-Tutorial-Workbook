@@ -426,11 +426,13 @@ Your tutor *may* decide to do this activity.
       
       
 
-## Test for one proportions {#HTOneProportionA}
+## Test for one proportion {#HTOneProportionA}
 
+In multiple-choice exam questions, do students ever do *worse* than just guessing?
 
+In the exam for this course one semester, the hardest question was presented to 202 students, of whom 15 selected the correct answer (from five options).
 
-
+Is there evidence that students were doing worse than just guessing for this question?
 
 	
 	
