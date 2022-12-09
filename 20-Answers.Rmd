@@ -34,8 +34,6 @@ Some are fully worked, and some are only brief solutions.
 ## Answer: TW 1 tutorial {#Lecture1Answers}
 
 
-
-
 ### Answer for Sect. \@ref(ResearchProcess) {.unlisted .unnumbered}
 
 The process is:
@@ -54,9 +52,9 @@ The process is:
 1. Either is OK; they are just different. 
    Note the different way a study can be addressed.  
    But importantly: neither RQ is actually helping answer the issue of the cafe owner!  
-   For example, I  may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the test rating is the same).
-2. The cafe owner would *not allocate* drinkers to drink either diet or regular softdrinks, but just find those who were drinking either and ask them to rate the taste.
-   I guess retrospective would be best.
+   For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the test rating is the same).
+2. The cafe owner would *not allocate* drinkers to drink either diet or regular soft drinks, but just find those who were drinking either and ask them to rate the taste.
+   I guess a non-directional study (cross-sectional study) would be best.
 3. The cafe owner would need to allocate drinkers to either diet or regular.
    Ideally, the drinkers would not know which they had consumed (really, that's next week's work).
    Ideally, the drinks would be allocated at random to receive diet or regular (next week too).
@@ -164,13 +162,14 @@ knitr::include_graphics("SolutionImages/Crossword-Lect1-Solution.png")
 ### Answers for Sect. \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
 
 1. Should be in terms of averages or means. 
-   So perhaps "Among watertanks used in southeast Queensland, are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
+   So perhaps "Among water tanks used in south-east Queensland, are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
 2. *Everyone* dies!  So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
    Perhaps something like: "Are lower-limb amputees more likely to die 12 months after amputation compared to upper-limb amputees?" or something. 
 3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?);  "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per 100&nbsp;g or similar.
    "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
    Anyway: You can look at the label (unless, of course, you wish to query those values).
-4. Silly: elephants are huge, and joeys are tiny. No-one needs to test this.
+4. Silly: elephants are huge, and joeys are tiny. 
+   No-one needs to test this.
    Also,the RQ talks about "weight" rather than "**mean** weight" too.
 5. Needs to be more specific!
    Perhaps: "Is the mean reaction time different for males and females?" or similar.
@@ -264,7 +263,7 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
    **Response variable**: whether or not an *individual* baby survived.
 2. **Comparison**: Between home and hospital births;
 	 **Explanatory variable**: Where the baby is born (this is what *varies*)
-3. Observational (retrospective) study.
+3. Observational (cross-sectional/non-directional) study.
 4. Some are up for debate... 
    The point here is that confounding variables
 	 are (potentially) related to **both** the response and explanatory variables.
@@ -275,7 +274,7 @@ include_graphics("./SolutionImages/Crossword-Lect2-Solution.png")
     e. Baby's gender: Probably neither. Related to mortality (male babies have higher infant mortality) but not to the place of birth.
 
 5. Not experimental.
-6. Observational (retrospective) study.
+6. Observational (cross-sectional/non-directional) study.
 7. Possible RQ: "Among American mothers' births (P), is the neo-mortality rate (O) the same when giving birth at home compared to giving birth in hospital (C)?"
 8. Cause-and-effect not reasonable (observational study).
 9. Voluntary response.
@@ -336,7 +335,8 @@ Use a multi-stage sample: Select a carpark at random, then a row of cars at rand
 4. Since experiment, lurking variables not an issue (if study well done).
 5. Cause-and-effect relationship likely (if experiment well done).
 6. Limitations: Study only looked at people who have had a heart attack, were on heart medication, and looks like all subjects were Italian, and *all* subjects changed to a healthy diet.
-7. Units of observation: The individuals in the study. Units of analysis: The individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
+7. Units of observation: The individuals in the study. 
+   Units of analysis: The individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
 
 
 
@@ -526,7 +526,8 @@ A small outlier (near 10.5 inches)
 4. Report none based on five values!  
    Too few data points! 
    In any case, both the median and the mean have very similar values.
-5. If all five measurements came from one board, we would not have a good representation of 'bamboo floorboards' in general.    We would have just *one unit of analysis*.
+5. If all five measurements came from one board, we would not have a good representation of 'bamboo floorboards' in general.    
+   We would have just *one unit of analysis*.
 
 
 
@@ -695,12 +696,12 @@ Answers implied by H5P.
 
 ### Answers for Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
 
-1. $45\div 240=18.75$\% of all college students in the sample have received one concussion, the same for all student types.
+1. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion, the same for all student types.
 2. Not sure which is best; they do different things. I'd probably prefer (c) (bottom left graph).
-3. Odds (non-athlete receiving 2+ concussions) is $21\div(81-21) = 21\div 60 = 0.35$.
+3. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
    Non-athletes are 0.35 times as likely to receive two or more concussions than fewer than two.
 	 Or: For every 100 students with fewer than two concussions, there are 35 with two or more.
-4. Odds (soccer player receiving 2+ concussions) is $13\div(63-13) = 13\div 50 = 0.26$.
+4. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
 	 Soccer players are 0.26 times more likely to receive two or more concussions than fewer than two concussions.
 5. OR: $0.35 \div 0.26$, or about $1.35$.
 	 The odds of a non-athlete receiving two or more concussions is about 1.35 times the odds of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
@@ -833,7 +834,7 @@ Answers embedded.
    This means that $49.5$% *of the sample that lived in Area I* detected the odour at least once a week.
 3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area I.
 4. Probably column percentages.
-5. $77\div291 = 26.46\%$.
+5. $77\div 291 = 26.46\%$.
 
 
 
@@ -944,12 +945,13 @@ However, if what we observe is **consistent** with what was expected, then the t
 
 
 2. $z = (20 - 0)/10 = 2$. The area or probability to the *right* is $0.0228$, or about $2.3$%.
-3. The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100-2.3)$, or about $0.024$.
+3. The probability the SOI exceeds 20: $2.3$%. So odds: $2.3\div(100 - 2.3)$, or about $0.024$.
 4. $z = (-25 - 0)/10 = -2.5$. The area to the *left* is $0.0062$, or about $0.6$%.
 5. $z = (-12 - 0)/10 = -1.2$. The area to the *right* is $0.8849$, or about $88.5$%.
-6. The two $z$-scores: $(-10-0)/10 = -1$ and $(20-0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
+6. The two $z$-scores: $(-10 - 0)/10 = -1$ and $(20 - 0)/10 = 2$. The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
 7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z = 0.84$. This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
-8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/SRM-Textbook/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
+8. The $z$-score is 0.385 from [Table B.3](https://bookdown.org/pkaldunn/SRM-Textbook/ZTablesOnlineBackwards.html), remembering that the area to the *left* would be 0.650 (draw a diagram!). 
+   So, the $z$-score is 0.385, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
 
 
 
@@ -1123,7 +1125,7 @@ Answers implied by H5P.
 1. Relational.
 2. $\hat{p} = 352/2,864 = 0.12291$. 
 3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
-4. An approximate 95\% CI is $0.12291 \pm (2\times0.006135)$, or $0.12291\pm0.01227$, or from $0.111$ to $0.135$.
+4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to $0.135$.
        Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
 5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than 5.
    This is true, so the calculations are valid.
@@ -1168,12 +1170,9 @@ Answers implied by H5P.
    In other words, the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
 7. $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
 8. We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
-9. Either (or both) of these must be true: the population has a normal distribution,
-         and/or the sample size is large enough so that the sample means have a normal distribution,
-         so about larger than 25.
+9. Either (or both) of these must be true: the population has a normal distribution, and/or the sample size is large enough so that the sample means have a normal distribution, so about larger than 25.
 10. Since $n<25$, we need to assume the population of differences has a normal distribution.
-        The stem-and-leaf plot suggests this is not unreasonable,
-        so the sample means quite possibly have an approx. normal distribution:
+    The stem-and-leaf plot suggests this is not unreasonable, so the sample means quite possibly have an approx. normal distribution:
 11.  Looks likely that the plasma $\beta$ concentrations are higher after the race.
 12. $n = (2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
 
@@ -1274,11 +1273,11 @@ Some answers embedded.
 
 1. See Table \@ref(tab:MaturationDataANS).
 1. Use a side-by-side barchart, for example, if necessary.
-1. Odds of boys  maturing late: $352\div(2\,864-352) =  0.1401$.
+1. Odds of boys  maturing late: $352 \div (2\,864 - 352) =  0.1401$.
    Thus boys are 0.1401 times more likely to mature late than not. 
-1. Odds of girls  maturing late: $336\div(2\,328) =  0.1443$.
+1. Odds of girls  maturing late: $336 \div (2\,328) =  0.1443$.
    Thus girls are 0.1443 times more likely to mature late than not. 
-1. Hence, to compare boys to girls: $0.1401\div 0.1443 = 0.971$.
+1. Hence, to compare boys to girls: $0.1401 \div 0.1443 = 0.971$.
 1. The **parameter** of interest is the *population odds ratio* of late maturing, comparing boys to girls.
 1. From software: OR is 0.971, and 95% CI is from 0.828 to 1.139.
 1. See Table \@ref(tab:MaturationSummaryANS).
@@ -1639,13 +1638,13 @@ The size of the OR is not the issue here:  if the sample OR is statistically dif
 
 
 1. Before and after measurement on same runner.
-2. $H_0$: $\mu_d = 0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d>0$ the way I defined the differences.  
+2. $H_0$: $\mu_d = 0$, differences defined as 'after' minus 'before'. $H_1$: $\mu_d > 0$ the way I defined the differences.  
    We are explicitly seeking to test for an *increase*, so the test is one-tailed.
    (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
 3. Mean increase: $\bar{x} = 18.73$ pmol/litre; Standard deviation: $s = 8.3297$ pmol/litre; standard error: $2.511$ pmol/litre.
-4. $t = 7.46$ and $\text{df}=11-1=10$. Since $t$ is very large, expect $P$ to be very small.
+4. $t = 7.46$ and $\text{df} = 11 - 1 = 10$. Since $t$ is very large, expect $P$ to be very small.
    (The one-tailed $P$ less than $0.0005$ from Table A.2.)
-5. Very strong evidence exists in the sample (paired $t=7.46$; $\text{df}=10$; one-tailed $P$ less than $0.0005$) that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race (mean difference: $18.73$ pmol/litre higher after the race; std. dev.: 8.33 pmol/litre; 95% CI from $13.14$ to $24.33$ pmol/litre).
+5. Very strong evidence exists in the sample (paired $t = 7.46$; $\text{df} = 10$; one-tailed $P$ less than $0.0005$) that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race (mean difference: $18.73$ pmol/litre higher after the race; std. dev.: 8.33 pmol/litre; 95% CI from $13.14$ to $24.33$ pmol/litre).
 6. The population of differences has a normal distribution, and/or $n > 30$ or so.
 7. Since $n < 30$, must assume the population of differences has a normal distribution. 
    The histogram suggests this is not unreasonable.
@@ -2072,7 +2071,7 @@ The sample sizes are both much *larger* than 25, so neither sample needs to be n
        **Plot 6**: $10$.
     d. My very rough estimates are:  
        **Plot 1**; $\hat{y} = 8 + 4x$;  
-	     **Plot 2**: $\hat{y} = 40 -2x$;  
+	     **Plot 2**: $\hat{y} = 40 - 2x$;  
 	     **Plot 3**: $\hat{y} = 32$;  
 	     **Plot 6**: $\hat{y} = 10 + 4x$. 		
 
@@ -2089,7 +2088,7 @@ The sample sizes are both much *larger* than 25, so neither sample needs to be n
 5. Probably $3900.
 6. My guess is about $b_0\approx 17$ or $17,000.
 	This would mean the average price of a 2014 second-hand Corolla can be expected to be about $17,000.
-7. $b_1 = (1 - 17)/(16-0)\approx -1$. 
+7. $b_1 = (1 - 17)/(16 - 0)\approx -1$. 
    That is, the price reduces by about $1000 each year older the Corolla gets.
 8. Using the above, we have $\hat{y} = 17 - x$ approximately.
    Guessing the regression line won't, of course, produce this level of precision, so anything close-ish to this is fine.
@@ -2253,9 +2252,9 @@ Between the 'alive' and 'dead' groups, there is evidence that the proportion wit
        The assessors are blinded to the intervention,
        as assessor unaware of furniture configuration,
        so assessor does not influence outcomes (unintentionally).
-**5.** Sample mean: $30.7$; $s=3.3$.
-**6.** Standard errors $\text{s.e.}(\bar{x})=3.3\div\sqrt{30} = 0.60249$; the approximate CI is $30.7\pm(2\times0.60249)$, or $30.7\pm 1.2$; from $29.5$ to $31.9$.
-**7.** The sample provides no evidence (paired $t$: $-0.30$; $\text{df}=29$; two-tailed $P=0.77$) of a population mean difference
+**5.** Sample mean: $30.7$; $s = 3.3$.
+**6.** Standard errors $\text{s.e.}(\bar{x}) = 3.3\div\sqrt{30} = 0.60249$; the approximate CI is $30.7\pm(2\times0.60249)$, or $30.7\pm 1.2$; from $29.5$ to $31.9$.
+**7.** The sample provides no evidence (paired $t$: $-0.30$; $\text{df} = 29$; two-tailed $P = 0.77$) of a population mean difference
          between the handwriting legibility when performed using standard 
          ($30.7$; standard deviation: $3.3$) and speciality furniture configurations ($30.6$; $3.3$; 95% CI for the difference from $-0.8$ to $0.6$).
 **8.** No.
@@ -2267,6 +2266,6 @@ Between the 'alive' and 'dead' groups, there is evidence that the proportion wit
 
 **1.** P: Medical 'teams' working in paediatric resuscitations; O: Number and type of drug errors; C: None; I: None.
 **2.** Descriptive.
-**3.** Prospective observational.
+**3.** Observational; forward direction (cohort study).
 **4.** For example: Study is only a mock (not real) situation, due to ethics. Hawthorne effect: subjects know they are being watched.
 

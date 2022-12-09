@@ -125,7 +125,7 @@ As a result, the cafe owner decides to conduct a study of his customers.
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
 2. Make some notes about how the cafe owner could answer the question using an **observational study**.  
         
-   What would be the best type of observational study: retrospective, prospective, or cross sectional?
+   What would be the best type of observational study: using a forward direction (*cohort study*), a backward direction (case-control study), or non-directional (cross sectional)?
 3. Make some notes about how the cafe owner could answer the question using an **experimental study**.  
    What would be the best type of experimental study: true or quasi?
 4. List some **advantages** and **disadvantages** of the experimental and observational studies.  

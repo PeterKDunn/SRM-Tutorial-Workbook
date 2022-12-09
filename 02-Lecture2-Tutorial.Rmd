@@ -187,9 +187,9 @@ knitr::include_graphics("images/Crossword-Week2-Q1.PNG")
 ## Assessing reports {#AssessReport}
 
 Home-birthing has many supporters and detractors.
-But how safe is home-birthing really?
+But how safe is home-birthing?
 
-Consider the newspaper report shown in Fig. \@ref(fig:homebirths), based on research examining this issue [@data:Murphy1998:homebirth].
+Consider the newspaper report shown in Fig. \@ref(fig:homebirths), based on a research article [@data:Murphy1998:homebirth].
 Answer the questions that follow.
 
 ```{r homebirths, echo=FALSE, fig.cap="From: The Toowoomba Chronicle, 22 February 1999", fig.align="center", out.width="85%"}
@@ -210,7 +210,7 @@ Answer the questions that follow.
 
 5. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
 	 Also, determine if it is a quasi-experiment or a true experiment.
-6. *If the study is observational*, determine if the study is retrospective, prospective or cross-sectional.
+6. *If the study is observational*, determine if the study uses a forward direction (*cohort study*), a backward direction (case-control study), or is non-directional (cross sectional).
 7. Suggest the RQ asked at the start of the study by identifying POCI.
 8. Is a cause-and-effect relationship reasonable? Explain.
 9. Read the extract from the original article below [@data:Murphy1998:homebirth]. What is the sampling method? Why are these limitations? What other limitations of the study can you think of?
@@ -381,7 +381,7 @@ Answer these questions:
 3. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
    Also determine if it is a true experiment or a quasi-experiment.  
 
-   *If the study is observational*, determine if the study is retrospective, prospective or cross sectional.
+   *If the study is observational*, determine if the study uses a forward direction (*cohort study*), a backward direction (case-control study), or is non-directional (cross sectional).
 
 4. Which one of the following, if any, would be a potential **lurking** variable?  Explain.
     - The general health of the subject.
