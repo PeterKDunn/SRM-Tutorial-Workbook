@@ -1,8 +1,6 @@
 A tutor has recorded the marks (out of 50) for all students in her four classes for an assignment.
 All classes have the same number of students.
-
-The corresponding histograms are shown in
-Fig.&nbsp;\@ref(fig:VariationHistograms).
+The corresponding histograms are shown in Fig.&nbsp;\@ref(fig:VariationHistograms).
 
 1. In which class would the median be the *largest*?  Why?
 2. In which class would the median be the *smallest*?  Why?
@@ -23,16 +21,16 @@ rescale <- function(x, lo, hi){
    newdelta <-    hi -    lo
    new <- (x - oldlo) * (newdelta/olddelta) + lo
 
-   return(list(y=new))
+   return(list(y = new))
 }
 
 
 
-par( mfrow=c(2,2), 
-     mar=c(10,4,2,2) + 0.1)
+par( mfrow = c(2, 2), 
+     mar = c(10, 4, 2, 2) + 0.1)
 x1 <- rescale(runif(1000, 10, 20), 15, 40)$y
-x2 <- rescale(rnorm(1000, mean=15, sd=2), 5, 45)$y
-x3 <- rescale(rexp(1000,  rate=20), 16, 48)$y
+x2 <- rescale(rnorm(1000, mean = 15, sd = 2), 5, 45)$y
+x3 <- rescale(rexp(1000,  rate = 20), 16, 48)$y
 x4 <- rescale(runif(1000, 7, 23), 40, 50)$y
 
 ylims <- c(0,
@@ -40,60 +38,63 @@ ylims <- c(0,
 
 h1 <- hist(
    x1,
-   breaks=seq(0,50,by=5),
-   main="Class A (30 students)",
-   xlim=c(0, 50),
-   ylim=ylims,
-   axes=FALSE,
-   col=plot.colour,
-   ylab="No. students",
-   xlab="Marks out of 50"
+   breaks = seq(0, 50, by = 5),
+   main = "Class A (30 students)",
+   xlim = c(0, 50),
+   ylim = ylims,
+   axes = FALSE,
+   col = plot.colour,
+   ylab = "No. students",
+   xlab = "Marks out of 50"
 )
-axis(side=1, lwd=1)
-
+axis(side = 1, 
+     lwd = 1)
 
 
 h2 <- hist(
    x2,
-   breaks=seq(0,50,by=5),
-   main="Class B (30 students)",
-   xlim=c(0, 50),
-   ylim=ylims,
-   axes=FALSE,
-   col=plot.colour,
-   ylab="No. students",
-   xlab="Marks out of 50"
+   breaks = seq(0, 50, by = 5),
+   main = "Class B (30 students)",
+   xlim = c(0, 50),
+   ylim = ylims,
+   axes = FALSE,
+   col = plot.colour,
+   ylab = "No. students",
+   xlab = "Marks out of 50"
 )
-axis(side=1, lwd=1)
+axis(side = 1, 
+     lwd = 1)
 
 
 h3 <- hist(
    x3,
-   breaks=seq(0,50,by=5),
-   main="Class C (30 students)",
-   xlim=c(0, 50),
-   ylim=ylims,
-   axes=FALSE,
-   col=plot.colour,
-   ylab="No. students",
-   xlab="Marks out of 50"
+   breaks = seq(0, 50, by = 5),
+   main = "Class C (30 students)",
+   xlim = c(0, 50),
+   ylim = ylims,
+   axes = FALSE,
+   col = plot.colour,
+   ylab = "No. students",
+   xlab = "Marks out of 50"
 )
-axis(side=1, lwd=1)
+axis(side = 1, 
+     lwd = 1)
 
 
 
 h4 <- hist(
    x4,
-   breaks=seq(0,50,by=5),
-   main="Class D (30 students)",
-   xlim=c(0, 50),
-   ylim=ylims,
-   axes=FALSE,
-   col=plot.colour,
-   ylab="No. students",
-   xlab="Marks out of 50"
+   breaks = seq(0, 50, by = 5),
+   main = "Class D (30 students)",
+   xlim = c(0, 50),
+   ylim = ylims,
+   axes = FALSE,
+   col = plot.colour,
+   ylab = "No. students",
+   xlab = "Marks out of 50"
 )
-axis(side=1, lwd=1)
+axis(side = 1, 
+     lwd = 1)
 
 
 

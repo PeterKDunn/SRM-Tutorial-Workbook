@@ -72,7 +72,6 @@ You can use the **Glossary** in the textbook!
 ### Answers for Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
 
 Answers implied by H5P.
-
 More directly:
 
 * P: People at an American college.
@@ -93,7 +92,7 @@ More directly:
 ### Answers for Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
-   All of the options are possibilities.  
+   All of the options are possibilities.
 2. "Relaxing":  Many options possible for quantifying this (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
 3. Again, many options are possible, Some options for comparing to Earl Grey tea: coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
 4. "Between before and after drinking Earl Grey tea" is *not* a comparison because everyone in the population (sample) is treated the same way: There are not two groups in the population being compared.
@@ -127,7 +126,7 @@ More directly:
 2. There are 5 units of analysis.
 3. There are 10 units of observation.
 4. Now, only one unit of analysis.
-5. *Within* boards, the variation is small, apart from Board 1.  
+5. *Within* boards, the variation is small, apart from Board 1.
    *Between* boards it is larger.
 
 
@@ -139,7 +138,6 @@ More directly:
 ### Answers for Sect. \@ref(TypesOfStudies) {.unlisted .unnumbered}
 
 Answers implied by H5P.
-
 More directly:
 
 1. Observational.
@@ -420,7 +418,7 @@ Answers implied by H5P.
 ### Answers for Sect. \@ref(InterpretingGraphs) {.unlisted .unnumbered}
 
 1. Female Weddell: about 260--270 cm long, vary from about 200 to 310 cm.
-   Slight negative skewness; possible small outlier at about 170--180 cm.  
+   Slight negative skewness; possible small outlier at about 170--180 cm.
 2. Dotchart.  (Too much data for a useful stem-and-leaf plot probably.)
 3. Better with a title; some more labelled tick marks would be better.
 
@@ -1022,13 +1020,11 @@ Answers implied by H5P.
 
 1. $\mu$ is the population mean diameter size of *all* EB pizzas;
    $\bar{x}$ is the mean diameter of the pizzas in the sample.
-2. $\bar{x} = 11.486$ inches; It's not sensible to quote the diameter to $0.001$ of a cm; what is sensible?  
-
+2. $\bar{x} = 11.486$ inches; It's not sensible to quote the diameter to $0.001$ of a cm; what is sensible?
    We don't know the value of $\mu$, and we never will.
 	 Our best *estimate* is the value of $\bar{x}$.
 3. $s = 0.24658$ inches.
-   It's not sensible to quote the diameter to $0.001$ of a cm though.  
-
+   It's not sensible to quote the diameter to $0.001$ of a cm though.
    $\sigma$ is the standard deviation of the population.
 	 We don't know the value of $\sigma$, and we never will.
 4. $\displaystyle\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.24658/\sqrt{125} = 0.02205$.
@@ -1213,7 +1209,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 2. Jake is correct in one sense: You can't have 0.9 of a match.  
 
    But the value is the *mean* number, and that *can* be a decimal. 
-   Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches... is the mean 49, or is it 50? Neither are correct; the mean is 49.5.     
+   Suppose 10 boxes had 49 matches, and 10 boxes had 50 matches... is the mean 49, or is it 50? Neither are correct; the mean is 49.5.
 3. Jake is confusing the *sample* and *population* mean.
    The claim is that the *population* mean is $45$.
    The sample produced a mean of $44.9$.  
@@ -1419,18 +1415,13 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 ### Answers for Sect. \@ref(LanguageOfSStats) {.unlisted .unnumbered}
 
 
-1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.  
-   
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.   
   In batch 1, a *sample* of size 30 was used; the sample mean number of blows till the first crack appeared in the test cylinders was 98, and the amount of variation in the number of blows was measured using the *standard* deviation as 54.  
   Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
 
-
 2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using specialist school furniture with standard school furniture (which acted as a *control*).  
-
    They used a *random* sample of size 30 from children registered at their facility in Canada.  
-
    The *sample* mean for the difference in legibility was -0.1, and a 95% *confidence* interval was from $-0.8$ to $0.6$.  
-   
    Using the standard equipment, the smallest value recorded for legibility was 19, and the largest was 34, so the *range* was 15.
   
 
@@ -1555,11 +1546,13 @@ to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pva
 $H_0$: $p = 0.2$ and $H_1$: $p < 0.2$.
 Here, $n = 202$ and $\hat{p} = 15/202 = 0.074257$, with $p = 1/5 = 0.2$.
 Then,
+
 \[
    \text{s.e.}(\hat{p}) = \sqrt{\frac{0.2 \times 0.8}{202}} = 0.0281439.
 \]
 (Make sure to use $p$ not $\hat{p}$ in the standard error calculation!)
 Then
+
 \[
    z = \frac{0.074257 - 0.2}{0.0281439} = -4.47. 
 \]
@@ -1597,6 +1590,7 @@ There is very strong evidence that students do worse than guessing on this quest
 
 ### Answers for Sect. \@ref(GeneralIdeas2) {.unlisted .unnumbered}
 
+See Table \@ref(tab:TermsANSWER).
 
 ```{r TermsANSWER, echo=FALSE}
 Terms <- array( "No", 

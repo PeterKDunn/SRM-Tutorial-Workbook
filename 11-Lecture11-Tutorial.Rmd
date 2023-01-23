@@ -31,7 +31,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
 The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
 
-In autumn, the correlation coefficient was given as $r = 0.931$ 
+In autumn, the correlation coefficient was given as $r = 0.931$.
 
 1. In this study, what variable would be the $x$ variable?  
 `r if( knitr::is_html_output() ) {
@@ -75,14 +75,15 @@ In autumn, the correlation coefficient was given as $r = 0.931$
 
 
 
+`r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
 1. The $y$-variable is the number of seeds.
 1. $R^2 = (0.931^2) = 0.86676$, or about 86.7%.
 1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
-<!-- 1. The $P$-value is very small, which means that the slope in the *sample* is very unlikely to be non-zero simply by chance alone (remembering we initially assume that the *population* slope is zero). -->
 `r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
 
 		      
 		      
@@ -272,13 +273,17 @@ include_graphics("Illustrations/angga-pratama-8xZuFxi0On4-unsplash.jpg")
 
 
 I was wondering about how the age of second-hand cars impact their price.
-On 25 June 2014, I searched [Gum Tree](https://www.gumtree.com.au) for 'Toyota Corolla' in the 'Cars, Vans \& Utes' category.
-
+On 25 June 2014, I searched
+`r if (knitr::is_latex_output()) {
+   'Gum Tree'
+} else {
+   '[Gum Tree](https://www.gumtree.com.au)'
+}`,
+for `Toyota Corolla` in the 'Cars, Vans \& Utes' category.
 The age and the price of each (second-hand) car was recorded from the first two pages of results that were returned.
 
 I then restricted the data to cars 15 years old or younger.
 (I also removed one 13-year-old Corolla advertised for sale for $390,000, assuming this was an error.)
-
 I then produced the scatterplot in Fig. \@ref(fig:CorollasPriceAge).
 
 
@@ -357,7 +362,7 @@ box()
     Using this value of $r$, compute the value of $R^2$.
     What does this mean? 
 
-```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="60%"}
+```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="57%"}
 knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
 ```
 ```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data", fig.align="center", out.width="60%"}

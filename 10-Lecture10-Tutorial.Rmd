@@ -31,7 +31,6 @@ A study compared the arrivals-on-scene time for two groups of paramedics [@tuttl
 * Those paramedics with 15 OHCAs or greater (the *experienced* group, E).
 
 The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
-
 The mean time from scene arrival to starting the first advanced airway procedure was 10.05&nbsp;m for the inexperienced group (IE), and 10.21&nbsp;m for the experienced group (E).
 
 1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. True or false?  
@@ -53,15 +52,15 @@ The mean time from scene arrival to starting the first advanced airway procedure
 `r webexercises::total_correct()`
 :::
 
-
+`r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
 1. **FALSE**. The hypothesis is about a population parameter ($\mu$), which is good.  
    But the actual question is "to see if there was a **difference** in the mean time..." which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
 1. **FALSE**. The *sample* means could be different for one of two reasons: (a) the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b) because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
-<!-- 1. **FALSE**. This is not what the $P$-vaule means (see the textbook). -->
 `r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -219,7 +218,6 @@ include_graphics("Illustrations/pexels-anna-shvets-5068676.jpg")
 
 
 A study examined the mortality rates of lower-limb amputation, and factors that may be associated with mortality [@data:Singh:lowerlimb].
-
 As part of the study, the researchers recorded the five-year mortality rate (the number of amputees who died within five years of amputation) and whether or not the person used an artificial limb.
 
 The RQ was:
@@ -229,8 +227,7 @@ The RQ was:
 A total of 105 subjects were used: 35 died within five years, and 70 were still alive after five years.
 In addition, 65 subjects used an artificial limb, and 40 did not.
 	
-1. After five years, 49 people using an artificial limb were alive.  
-
+1. After five years, 49 people using an artificial limb were alive.
    Construct the $2\times 2$ table (Table \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
 
 ```{r echo=FALSE, ArtLimbMortality}
@@ -313,10 +310,8 @@ if( knitr::is_html_output() ) {
 
 ```
 
-2. For a person using an artificial limb, compute the odds of being alive after five years.  
-
-   For a person *not* using an artificial limb, compute the odds of being alive after five years.  
-   
+2. For a person using an artificial limb, compute the odds of being alive after five years.
+   For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
 3. Write down the 95% CI for the population OR using the software output (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)). 
 4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)):
@@ -428,7 +423,7 @@ knitr::include_graphics("SoftwareImages/Singh2016-ChiSq-jamovi.png")
 ```
 
 
-```{r echo=FALSE, limbsOutput, fig.show="hold", fig.cap="The SPSS output for the question on lower-limb amputees", fig.align="center", out.width=c("75%", "65%")}
+```{r echo=FALSE, limbsOutput, fig.show="hold", fig.cap="The SPSS output for the question on lower-limb amputees", fig.align="center", out.width=c("75%", "55%")}
 knitr::include_graphics( c("SoftwareImages/Singh2016-ChiSq-SPSS.png",
                            "SoftwareImages/Singh2016-SPSS-CI.png") )
 ```

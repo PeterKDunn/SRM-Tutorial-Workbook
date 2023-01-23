@@ -19,7 +19,6 @@ In this chapter, you will learn and practice the content associated with this ch
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
-
 Here are some links that may prove useful.
 
 * [**TI**-30 XS](https://www.youtube.com/watch?v=I437u8PxV2M)
@@ -90,22 +89,21 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 ```
 
 
-1. Two students are arguing about the median breadth.  
+1. Two students are arguing about the median breadth.
+   Who is correct?
 
 **Student 1** says:  
 
-> The bars in the histogram have heights of 10, 2, 4, 2 and 4.  
+> The bars in the histogram have heights of 10, 2, 4, 2 and 4.
 > When these numbers are put in order, they are: 2, 2, 4, 4, 10.  
 > The median breadth is the median of these numbers, so the median breadth is the middle one: 4mm is the median.  
 
 **Student 2** responds:  
 
-> You have the correct answer, but for the wrong reason!  
+> You have the correct answer, but for the wrong reason!
 > There are five bars, and the middle bar is the third bar.  
 > Since the third bar has a height of 4, the median breadth is 4mm.  
 
-Who is correct?
-Explain.
 
 
 
@@ -121,8 +119,7 @@ Explain.
 
 2. Describe the histogram.
 3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig. \@ref(fig:JellyfishBoxplots).
-	 Which box represents the Dangar Island jellyfish (shown in Fig. \@ref(fig:JellyfishHist))?  
-	 
+	 Which box represents the Dangar Island jellyfish (shown in Fig. \@ref(fig:JellyfishHist))?
    Describe and compare the breadths of the jellyfish.
 
 
@@ -157,6 +154,22 @@ boxplot(Width ~ Location,
 ```
 
 
+::: {.progressBox .progress}
+`r if (knitr::is_html_output()) {"**Progress:**"}`
+`r webexercises::total_correct()`
+:::
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+`r webexercises::hide()`
+1. Discuss in class.
+1. The sample is small, so hard to too certain: *Average* about 10mm; data from about 6 to 16mm; slightly right skewed; no outliers..
+1. Discuss in class.
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
+
 
 
 
@@ -175,7 +188,6 @@ Bamboo is a fast-growing, strong grass useful for green building practices.
 A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).
 
 Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-
 The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
 
 ```{r MORTable, echo=FALSE}
@@ -208,8 +220,7 @@ if( knitr::is_html_output() ) {
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-
-In practice, data are almost *never* a population.
+In practice, data are almost *never* a population.  
 
 If you are using your calculator correctly, you should get $\bar{x} = 102.62$ and $s = 5.356$. 
 If you get $s = 4.790157$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.

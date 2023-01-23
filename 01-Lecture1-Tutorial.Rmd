@@ -40,7 +40,7 @@ Consider this RQ:
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Descriptive", 
                       answer = "Relational",
-                      "Interventional") )}`
+                      "Interventional") )} else {'Descriptive, relational or interventional'}`
 1.  What is the *Outcome* in this RQ?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "The amount of salt",
@@ -69,13 +69,12 @@ Consider this RQ:
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 
-
 ::: {.progressBox .progress}
 `r if (knitr::is_html_output()) {"**Progress:**"}`
 `r webexercises::total_correct()`
 :::
 
-
+`r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. **Relational**: There is a comparison (between Chinese and Indian meals), but this is **not** an interventional (as the researchers did not determine whether a meal was Chinese or Indian).
 1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
@@ -85,9 +84,8 @@ Consider this RQ:
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. *We need more information.* 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
-<!-- 1. **Conceptual**: The definition describes what is meant by a 'takeaway meal', not how some quantity will be measured. -->
 `r webexercises::unhide()`
-
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -115,7 +113,6 @@ Consider this RQ:
 
 
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
-
 As a result, the cafe owner decides to conduct a study of his customers.
 
 1. Two RQs that the cafe owner is considering are given below.
@@ -163,7 +160,7 @@ As a result, the cafe owner decides to conduct a study of his customers.
 
 ## Terminology {#UnderstandingTerminology1}
 
-Explain the *fundamental differences* between the following pairs of often-confused terms (Table \@ref(tab:SimilarTerms)).
+Explain the *fundamental differences* between the following pairs of often-confused terms (Table \@ref(tab:SimilarTerms)), highlighting the important differences.
 
 ```{r SimilarTerms, echo=FALSE}
 Terms <- array( dim = c(8, 3))
@@ -318,9 +315,7 @@ include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 Bamboo is a fast-growing, strong grass often used for green building practices.
 A small research study explored the hardness of bamboo when used as flooring material.
 
-The *Janka hardness*^[The Janka hardness measures the force required to embed an 11.28mm steel ball into wood to half the diameter of the ball.]
-of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-
+The *Janka hardness*^[The force required to embed an 11.28mm steel ball into wood to half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table \@ref(tab:JankaBoards)).
 
 
@@ -357,10 +352,12 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. What is the unit of analysis: The test, the board, each measurement, kilonewtons, or something else? Explain your answer.
+1. What is the unit of analysis: The test, the board, each measurement, kilonewtons, or something else? 
+   Explain your answer.
 2. How many units of analysis are there?
 3. How many units of observation are there?
-4. Suppose the measurements were all taken from 10 *different* places on the *same* board (rather than from five different boards). How many units of analysis are there now? Explain your answer.
+4. Suppose the measurements were all taken from 10 *different* places on the *same* board (rather than from five different boards). 
+   How many units of analysis are there now? Explain your answer.
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
 
 

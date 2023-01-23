@@ -27,8 +27,7 @@ Each scenario will have only *one* correct answer.
   the relationship between the GPA of female students (as A, B, C or D) and 
   the location of their room (central wing; far wing; near wing) 
   in the student accommodation complex 
-  (which was located near a construction site) to study the impact of the construction noise.  
-
+  (which was located near a construction site) to study the impact of the construction noise.   
   What is the appropriate method of analysis?
 
 3. A study 

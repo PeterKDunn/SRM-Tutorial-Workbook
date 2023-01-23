@@ -51,12 +51,13 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
 
+`r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. **FALSE**. Hypothesis testing does not **prove** anything. In loose terms, it quantifies how much evidence there is in the sample to support the alternative hypothesis.
 1. **TRUE**. Hypothesis are always about the *unknown* population parameters.
 1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
-<!-- 1. **TRUE**. This is exactly what the sampling distribution is.  -->
 `r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -79,7 +80,7 @@ Eagle Boys' made the data from the campaign publicly available.
 
 A summary of the diameters of a sample of 125 of their large pizzas is shown in Fig. \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig. \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
 
-```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='45%'}
+```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 ```
 
@@ -432,7 +433,7 @@ In multiple-choice exam questions, do students ever do *worse* than just guessin
 
 In the exam for this course one semester, the hardest question was presented to 202 students, of whom 15 selected the correct answer (from five options).
 
-Is there evidence that students were doing worse than just guessing for this question?
+Is there evidence that students were doing *worse* than just guessing for this question?
 
 	
 	
@@ -552,13 +553,10 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass A) to a native grass (Grass B).
-
 She uses 50 different sites, allocating the two grasses at random to the sites (25 sites for each grass).
 
 After 12 months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
-   
 She finds a statistically significant difference between the odds in the two groups.
-
 Which of these statements is *consistent* with this conclusion?
 
 1. The $\text{OR} = 4.1$ and $P = 0.36$  

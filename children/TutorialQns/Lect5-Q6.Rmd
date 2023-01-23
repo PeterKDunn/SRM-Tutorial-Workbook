@@ -1,5 +1,4 @@
 A study [@data:montalvo2020:retrospective] examined 433 bridge collapses.
-
 Of these 433 bridges, 36 bridges collapsed due to deterioration;
 of these 433 bridges, 82 bridges collapsed due to a collision.
 

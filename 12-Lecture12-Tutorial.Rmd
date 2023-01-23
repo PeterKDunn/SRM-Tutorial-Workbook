@@ -34,7 +34,6 @@ In a study of high strength--high ductile concrete [@data:Ranada2015:Concrete], 
 Under a strain rate of 10&nbsp;s${}^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of 12.4&nbsp;MPa with a **standard deviation** of 2.8&nbsp;MPa.
 
 One student computes the approximate 95% CI for the mean first-crack strength as $12.4\pm 2.8$&nbsp;MPa.
-
 Another student computes the approximate 95% CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from $6.8$ to $18.0$&nbsp;MPa. 
 
 1. *Both* students are incorrect. Explain *why* the students are incorrect, and explain what they actually have calculated instead.

@@ -27,12 +27,7 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
-Consider this (qualitative) RQ: 
-
-> What factors are preventing the adoption of household solar technologies in Santiago [Chile]? 
->
-> --- @walters2018factors
-
+Consider this (qualitative) RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
 
 1. For this RQ, what is the *Population*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -40,7 +35,7 @@ Consider this (qualitative) RQ:
 		      "Households in Chile",
                       answer = "Households in Santiago",
                       "Solar technologies") )}`
-2. The study will be *externally valid* if:  
+2. The study will be *externally valid* if:
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "the sample is representative of all households in the world",
 		      "the sample is representative of all solar technologies",
@@ -71,21 +66,19 @@ Consider this (qualitative) RQ:
 `r if (knitr::is_latex_output()) '-->'`
 
 		      
-
+`r if (knitr::is_latex_output()) '<!--'`
 ::: {.progressBox .progress}
 `r if (knitr::is_html_output()) {"**Progress:**"}`
 `r webexercises::total_correct()`
 :::
-
 
 `r webexercises::hide()`
 1. The RQ states that only households in Santiago will be studied.
 1. External validity means that the sample represents the intended population (i.e., households in Santiago).
 1. Since people only return the survey if they *want* to, this is self-selecting.
 1. There are multiple stages of *random* selection, so this is multi-stage.
-<!-- 1. This is convenience sampling, since the researchers will only obtain people who are there at the time the researchers are there (at their *convenience*).   -->
-<!--    Taking every *ninth* person does not make the sample a random (systematic) sample, but I suppose it helps make the sample more representative.  -->
 `r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -93,12 +86,9 @@ Consider this (qualitative) RQ:
 
 ## Study design {#StudyDesign}
 
-A student group was studying this RQ (which is **not** appropriate for the SCI110 Project):
-
-> Among Australians, is the median serum cholesterol concentration different for smokers and non-smokers?
+A student group was studying this RQ (which is **not** appropriate for the SCI110 Project): 'Among Australians, is the median serum cholesterol concentration different for smokers and non-smokers?'
 
 The students gave the following information about their study.
-
 Explain **why** each of these statements is **incorrect**.
 
 1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
@@ -188,7 +178,6 @@ knitr::include_graphics("images/Crossword-Week2-Q1.PNG")
 
 Home-birthing has many supporters and detractors.
 But how safe is home-birthing?
-
 Consider the newspaper report shown in Fig. \@ref(fig:homebirths), based on a research article [@data:Murphy1998:homebirth].
 Answer the questions that follow.
 
@@ -367,6 +356,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 Fish oil has been touted as helpful to the health of the heart.
 A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fig. \@ref(fig:fishoil).
+Answer the questions that follow.
 
 
 ```{r fishoil, echo=FALSE, fig.cap="From The Downs Star, Thursday March 18, 1999", fig.align="center", out.width="80%"}
@@ -374,7 +364,6 @@ include_graphics("ArticleImages/fishoil2.jpg")
 ```
 
 
-Answer these questions:
 
 1. Identify the variables involved.
 2. Explain whether the study is observational or experimental.
@@ -406,13 +395,11 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers are available in Sect.\@ref(Lecture2Answers))*
 
 For a small pilot study, Sam allocated 12 students (6 males and 6 females) to one of two groups.
-
 In the Report associated with the study, Sam stated that the 12 students were
 
 > ...randomly allocated to one of two groups (Group A or Group B).
 
 Different interventions were applied to each group.
-
 A reviewer, however, noted that *all* the subjects in Group A were male, and *all* the subjects in Group B were female.
 
 1. Would this be a problem?  
@@ -435,17 +422,17 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 Many health experts are concerned about the amount of sugary drinks consumed by children.
 Part of a newspaper report about a study into this issue is shown in Fig. \@ref(fig:SoftDrinks).
-
-```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012", fig.align="center", out.width='80%'}
-include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
-```
-
 Two variables are listed in the extract:
 
 * The type of drink (sweetened with sugar, or with sugarless sweeteners); and
 * Weight gain.
 
 What words could be used to describe these variables?
+
+
+```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012", fig.align="center", out.width='75%'}
+include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
+```
 
 <iframe src="https://usc.h5p.com/content/1291014875599416609/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

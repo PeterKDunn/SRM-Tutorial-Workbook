@@ -150,15 +150,15 @@ if( knitr::is_html_output() ) {
 :::
 
 
+`r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
 1. Variation is measured using standard deviation or IQR.
 1. The average value (of a quantitative variable) can be described using a mean or a median.
 1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
 1. $27/60\times 100 = 45$%.
-<!-- 1. $27/33 = 0.8181...$. -->
 `r webexercises::unhide()`
-
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -279,12 +279,7 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 <img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
 </div>
 
-Soccer is a unique in that one aspect is 
-
-> ...the purposeful use of the unprotected head for controlling and advancing the ball...
->
->  --- @data:Gausche200:Endotracheal
-
+Soccer is a unique in that one aspect is 'the purposeful use of the unprotected head for controlling and advancing the ball' [@data:Gausche200:Endotracheal].
 Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
 
 A study [@data:Gausche200:Endotracheal] was conducted to determine
@@ -346,7 +341,7 @@ if( knitr::is_html_output() ) {
 1. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
 2. Many possible graphs exists to display the data; four are shown in Fig. \@ref(fig:SoccerGraph).
    What is the main message from each graph?
-   Which graph do you think is best?  
+   Which graph do you think is best?
    Why?
 
 ```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
@@ -537,8 +532,7 @@ Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had wor
    (This is an *odds ratio*.)
 5. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
 6. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-7. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.  
-	 
+7. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
 
 
@@ -553,9 +547,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
 
 ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
-
 Table \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
-
 Use the table to answer the questions that follow.
 
 
@@ -702,7 +694,6 @@ This question is **optional**; for example, if you need more practice, or you ar
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
 
 Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
-
 Furthermore, different communities are impacted in different ways.
 One study [@data:Deane:OdorRefineries] researched the RQ:
 
