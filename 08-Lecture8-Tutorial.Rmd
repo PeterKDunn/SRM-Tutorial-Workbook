@@ -589,16 +589,15 @@ An Australian study [@data:luo:gm] decided to study:
 
 To answer this relational RQ, the researcher asked 894 Australians about their income (low or high), and  their attitude to GM foods (for or against).
 
-1. Propose the null and alternative hypotheses about the *population*.
-2. The data collected are given in  Table \@ref(tab:GMfoods).
+1. The data collected are given in  Table \@ref(tab:GMfoods).
    Compute the odds that, among *high*-income earners, someone is in favour of GM foods.
 1. Compute the odds that, among *low*-income earners, someone is in favour of GM foods.   
    Interpret what this means.
-2. The odds of a high-income earner being in favour of GM foods is how many times more than a low-income earner being in favour of GM food?
+1. The odds of a high-income earner being in favour of GM foods is how many times more than a low-income earner being in favour of GM food?
    This value is called the **odds ratio**.
-3. For these data, the output is shown in Fig. \@ref(fig:GMfoodsjamovi) (from jamovi).
+1. For these data, the output is shown in Fig. \@ref(fig:GMfoodsjamovi) (from jamovi).
    Write down the confidence interval for the odds ratio, and interpret what this means.
-4. A politician stated that 'any attempt to suggest that the acceptance of GM foods is related to income are clearly bogus'.
+1. A politician stated that 'any attempt to suggest that the acceptance of GM foods is related to income are clearly bogus'.
    Do you agree or disagree?
 
 
