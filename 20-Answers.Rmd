@@ -1439,9 +1439,9 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 2. Relational.
 3. Two completely separate samples are compared.
 4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
-5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.560$ inches, larger for EB.
+5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.590$ inches, larger for EB.
 6. Since the sample sizes are large (both 125), we *do not require that the populations have normal distributions*.
-7. The sample sizes are large ($n=125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+7. The sample sizes are large ($n = 125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
 8. Probably yes. Amount of topping on the pizza? Which *tastes* better? Whether the samples were randomly selected or not?
 
 
@@ -1456,14 +1456,11 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from 817 students.
 ```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
 ```
 
-
-1. $H_0$: No association between income level and opinion of GM foods in the population;  
-   $H_1$: An association between income level and opinion of GM foods in the population.
-2. Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
-3. Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
-4. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
+1. Odds HIE: $263/151 = 1.742$. HIE is 1.74 times more likely to be for GM foods than against.
+1. Odds LIE: $258\div222 = 1.162$. LIE is 1.16 times more likely to be for GM foods than against.
+1. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
    The odds of HIE being for GM food 1.5 times the odds that a LIE for GM foods.
-5. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
+1. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
    (Loosely, though technically incorrect: the true OR is likely to be between 1.145 and 1.961.) 
    Importantly, this interval does not include 1.
 
