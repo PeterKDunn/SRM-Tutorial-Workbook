@@ -1524,7 +1524,7 @@ to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pva
    We are explicitly seeking to test for an *improvement* (i.e., walk longer distances), so the test is one-tailed.
    (Differences in the other direction are also OK; the signs of the differences and some other subsequent things change.)
 3. The standard error of the mean is the standard deviation of the sample mean increase in walking distance, a measurement of how precisely the sample mean difference estimates the population mean difference.
-4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s = 813.034$m; standard error: $4.122$m.
+4. Mean increase: $\bar{x} = 24.9$m; Standard deviation: $s = 13.034$m; standard error: $4.122$m.
 5. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
    (The one-tailed $P$ less than $0.0005$ from Table A.2.)  
    
