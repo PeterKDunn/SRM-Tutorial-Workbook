@@ -5,6 +5,7 @@
 **Topics** covered in this tutorial:
 
 * Tests for one mean.
+* Tests for one proportion.
 * Tests for paired sample means.
 :::
 
