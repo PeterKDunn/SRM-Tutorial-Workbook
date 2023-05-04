@@ -34,7 +34,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. Hypothesis are always written in terms of population parameters. True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
-1. Alternative hypotheses may be one- or two-tailed, depending on the *data*. True or false?  
+1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
 
@@ -53,7 +53,8 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-1. **FALSE**. Hypothesis testing does not **prove** anything. In loose terms, it quantifies how much evidence there is in the sample to support the alternative hypothesis.
+1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
+   In loose terms, a hypothesis test quantifies how much evidence there is in the *sample* to support the alternative hypothesis about the *population*.
 1. **TRUE**. Hypothesis are always about the *unknown* population parameters.
 1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
 `r webexercises::unhide()`
