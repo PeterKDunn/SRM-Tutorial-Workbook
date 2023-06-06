@@ -431,11 +431,20 @@ Your tutor *may* decide to do this activity.
 
 ## Test for one proportion {#HTOneProportionA}
 
-In multiple-choice exam questions, do students ever do *worse* than just guessing?
+According to
+`r if (knitr::is_html_output()){
+  '[Statistica.com](https://www.statista.com/statistics/431375/individuals-who-wear-contact-lenses-in-selected-european-countries/),'
+} else {
+  'Statistica.com,' 
+}`
+30% of individuals in Sweden wore contact lenses in 2020 (the highest percentages in Europe).
 
-In the exam for this course one semester, the hardest question (and it was *very hard*) was presented to 202 students, of whom 15 selected the correct answer (from five options).
+Suppose a group of 35 Swedish computer programmers includes 12 that wear contact lenses.
+Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
+Conduct a test, then write a conclusion (including a CI).
 
-Is there evidence that students were doing *worse* than just guessing for this question?
+What assumptions are needed for this test to be statistically valid, and externally valid?
+
 
 	
 	
