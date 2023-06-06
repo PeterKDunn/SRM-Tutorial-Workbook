@@ -211,10 +211,16 @@ Use
 to flip **ten** Australian one-dollar coins at random (see Fig. \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
    '(Click *Games* from the top, then *Coin flipper*, then select the options to toss 10 coins, and use an Australian $1 coin.)'}`
-Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete the following table:
+Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete 
+`r if (knitr::is_html_output()){
+   'the following table:'
+} else {
+   'Table \\@ref(tab:CoinDataTable).'
+}`
 
 
-```{r echo=FALSE, CoinData}
+
+```{r CoinDataTable, echo=FALSE }
 
 CoinData <- array( "", 
                    dim = c(11, 2) )
@@ -235,12 +241,13 @@ CoinData[, 1] <- c("0.0 (0 heads)",
 
 
 if( knitr::is_latex_output() ) {
+   CoinData[2, 1] <- "0.1 (1 head) "
    kable(CoinData,
         format = "latex",
         longtable = FALSE,
         booktabs = TRUE,
         # escape = FALSE, # For latex to work in \rightarrow
-        linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        linesep = c( "\\addlinespace\\addlinespace"), # Add a bit of space between all rows. 
         caption = "Tossing coins",
         align = c("r", "r"))   %>%
    kable_styling(full_width = FALSE, 
@@ -253,7 +260,7 @@ if( knitr::is_latex_output() ) {
 }
 
 if( knitr::is_html_output() ) {
-  CoinData[ 1:10, 2] <- webexercises::fitb(num=TRUE, 
+  CoinData[ 1:11, 2] <- webexercises::fitb(num=TRUE, 
                                            tol = 0.001, 
                                            width = 6, 
                                            answer = "")
@@ -273,10 +280,13 @@ if( knitr::is_html_output() ) {
 ```
 
 
-* Use this data to create a histogram.
-  How would you describe the histogram?
-* I did the same thing, but I repeated the process of tossinfg 10 coins 100 times.
-  My histogram is shown in 
+1. Use this data to create a histogram of the proportion of heads.
+   How would you describe the histogram?
+1. I did the same thing, but I repeated the process of tossing 10 coins 100 times.
+   My histogram is shown in Fig. \@ref(fig:HistCoinToss).
+   How would you describe the histogram?
+1. Sketch the theoretical *sampling distribution* of the sampling proportion.
+1. How would this *sampling distribution* change if we looked the proportion of heads in 50 tosses of a coin?
 
 ```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
 knitr::include_graphics("Images/CoinToss.jpg")
@@ -286,14 +296,13 @@ knitr::include_graphics("Images/CoinToss.jpg")
 ```{r HistCoinToss, echo=FALSE, out.width='50%', fig.align="center", fig.cap='The histogram of the proportion of heads in 10 tosses, for 100 repetitions'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, size = 10, prob = 0.5)/10
-hist( ProbHeads,
-      breaks = seq(0, 1,
-                   by = 0.1),
-      las = 1,
-      xlab = "Proportion of heads",
-      ylab = "No. times observed",
-      main = "The proportion of heads in\n10 tosses of a coin",
-      col = plot.colour)
+barplot( table(ProbHeads),
+         space = 0,
+         las = 1,
+         xlab = "Proportion of heads",
+         ylab = "No. times observed",
+         main = "The proportion of heads in\n10 tosses of a coin",
+         col = plot.colour)
 ```
 
 

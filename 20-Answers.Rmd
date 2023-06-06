@@ -913,7 +913,6 @@ Answers embedded.
 
 
 
-
 ### Answers for Sect. \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
 
 Answers implied by H5P.
@@ -931,6 +930,16 @@ However, if what we observe is **consistent** with what was expected, then the t
    Decision: Consistent?  
    Conclusion A: Yes, supports assumption  
    Conclusion B: No, doesn't support assumption
+
+
+
+
+### Answers for Sect. \@ref(RandomCardDraws) {.unlisted .unnumbered}
+
+1. Depends on data.
+1. Looking close to normal, centred around 0.5-ish.
+1. We'd have an approximate normal distribution with mean $\mu_{\hat{p}} = 0.5$ and standard deviation $\text{s.e.}(\hat{p}) = \sqrt{0.5 \times (1 - 0.5)/10} \approx 0.158$.
+1. Still normal; same mean; but standard deviation would be smaller: $\text{s.e.}(\hat{p}) = \sqrt{0.5 \times (1 - 0.5)/50} \approx 0.071$.
 
 
 

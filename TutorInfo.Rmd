@@ -527,6 +527,26 @@ Only a guess can be made, but using $z$-scores leads to more accurate answers.
 Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 ```
 
+
+
+### Thoughts on Sect. \@ref(RandomCardDraws) {.unlisted .unnumbered}
+
+
+```{block2, type="rmdTutorInfo"}
+Since samples are easy to generate, you can have each group/person in class generate a few simulations.
+On the whiteboard, you can tally these, and produce a histogram.
+Obviously, the more sets of 10 you can generate, the better... and the webpage is fast... but don't take *too* long doing so.
+
+
+One purpose is to show students about *sampling variation*: Not every set of 10 tosses produces the same value.
+The main purpose is to demonstrate what we mean by a sampling distribution: the distribution that shows how a sample statistic varies from sample to sample.
+After drawing the histogram from your classes data, you may wish to point out where certain groups' $\hat{p}$ values are located.
+```
+
+
+
+
+
 [**Return to index of tutor information.**](#TutorInfo)
 
 
