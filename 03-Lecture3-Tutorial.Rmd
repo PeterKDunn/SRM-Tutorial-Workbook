@@ -292,21 +292,32 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 ## Understanding RQs and variables {#UnderstandRqVariables}
 
-In @data:heartbear:radziun2023:
+@data:heartbear:radziun2023 compared the mean accuracy with which blind and sighted individuals could count their heartbeats over varying time periods.
+For the study, sighted subjects were blindfolded (p. 3).
+The participants were instructed (p. 4):
 
-* P : ??
-* O : The accuracy of counting heartbeats (measure using Interoceptive Accuracy, which is on a scale of 0 to 1 (perfect)) averaged across their answers to counting heartbeats over 25, 30, 35, 40, 45, and 50 seconds.
-* C: Between blind ($n = 34$) and sighted ($n = 36$) individuals
-* I: Yes or no??
+> Without manually checking, can you silently count each heartbeat you feel in your body from the time you hear 'start' to when you hear 'stop'? 
+> Do not take your pulse or feel on your chest with your hand. 
+> You are only allowed to feel the sensation of your heart beating.
 
+The process was repeated using time intervals of 25, 30, 35, 40, 45, and 50 seconds.
+The time intervals were presented in random order to the subjects (34 blind; 36 sighted), who received no information about the length of the time interval.
 
+Each subject was assigned an accuracy score (from 0 to 1 (perfect accuracy)) based on their results across the various time intervals.
 
-Also:
+1. What are the Outcome and the response variable in this study?
+1. What are the Comparison and the explanatory variable in this study?
+1. Is there an intervention?
+   Explain.
+1. Describe the response variable (e.g., qualitative nominal; quantitative discrete).
+1. Describe the explanatory variable (e.g., qualitative nominal; quantitative discrete).
+1. What graph would be used to display the relationship?
+1. What are the units of analysis?
+1. How many units of analysis are there?
+1. How many units of observation are there for each unit of analysis? 
+1. What type of RQ is this?
+1. What type of study is this?
 
-* $y$: accuracy: quantitative
-* $x$: blind (yes or no): qualitative with two levels
-* Graph: boxplot
-* Units of a and o: People
 
 
 ## Critiquing students' graphs {#CritiqueStudentGraphs1}
