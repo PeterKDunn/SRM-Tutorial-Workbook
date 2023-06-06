@@ -1540,23 +1540,42 @@ to [*approximate* the $P$-values](https://bookdown.org/pkaldunn/SRM-Textbook/Pva
 
 ### Thoughts on Sect. \@ref(HTOneProportionA) {.unlisted .unnumbered}
 
-$H_0$: $p = 0.2$ and $H_1$: $p < 0.2$.
-Here, $n = 202$ and $\hat{p} = 15/202 = 0.074257$, with $p = 1/5 = 0.2$.
+
+
+According to [Statistica.com](https://www.statista.com/statistics/431375/individuals-who-wear-contact-lenses-in-selected-european-countries/), 30% of individuals in Sweden wore contact lenses in 2020 (the highest percentages in Europe).
+
+Suppose a group of 35 Swedish computer programmers includes 12 that wear contact lenses.
+Is there evidence in this sample that a greater proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
+
+What assumptions are needed for this test to be statistically valid, and externally valid?
+
+
+	
+	
+	
+	
+$H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
+Here, $n = 35$ and $\hat{p} = 12/35 = 0.3428571$.
 Then,
 
 \[
-   \text{s.e.}(\hat{p}) = \sqrt{\frac{0.2 \times 0.8}{202}} = 0.0281439.
+   \text{s.e.}(\hat{p}) 
+   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
 \]
-(Make sure to use $p$ not $\hat{p}$ in the standard error calculation!)
-Then
+(make sure to use $p$ not $\hat{p}$ in the standard error calculation!), and so
 
 \[
-   z = \frac{0.074257 - 0.2}{0.0281439} = -4.47. 
+   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
 \]
-This is quite large and negative, and the one-tailed $P$-value is very small ($P < 0.001$).
-There is very strong evidence that students do worse than guessing on this question.
+This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
 
-(The CI: Need to use $\hat{p}$ in the standard error calculation, so $\text{s.e.}(\hat{p}) = 0.018448$ and so the approximate 95% CI is from 0.037 to 0.111.)
+> The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. 95% CI from 0.182 to 0.503$).
+
+For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least 5, which is true (12 and 23 respectively).
+For *external validity*, the sample must be a random sample of Swedish programmers. 
+
+
+(For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
 
 
 
