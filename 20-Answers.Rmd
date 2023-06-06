@@ -423,7 +423,7 @@ Answers implied by H5P.
 3. Better with a title; some more labelled tick marks would be better.
 
 
-## Answers for Sect. \@ref(UnderstandRqVariables) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandRqVariables) {.unlisted .unnumbered}
 
 
 1. O: average accuracy. 
