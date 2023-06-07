@@ -33,7 +33,7 @@ The researchers found a correlation between the number of grams of mud on a vehi
 
 In autumn, the correlation coefficient was given as $r = 0.931$.
 
-1. In this study, what variable would be the $x$ variable?  
+1. In this study, what variable would be the $x$ variable? \tightlist  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("The number of seeds", 
           answer = "The grams of mud",
@@ -282,8 +282,8 @@ On 25 June 2014, I searched
 for `Toyota Corolla` in the 'Cars, Vans \& Utes' category.
 The age and the price of each (second-hand) car was recorded from the first two pages of results that were returned.
 
-I then restricted the data to cars 15 years old or younger.
-(I also removed one 13-year-old Corolla advertised for sale for $390,000, assuming this was an error.)
+I then restricted the data to cars 15 years old or younger
+(and removed one 13-year-old Corolla advertised for sale for $390,000, assuming this was an error).
 I then produced the scatterplot in Fig. \@ref(fig:CorollasPriceAge).
 
 
@@ -375,7 +375,7 @@ knitr::include_graphics("SoftwareImages/CorollasSPSS-Correlation.png")
 knitr::include_graphics("SoftwareImages/CorollasSPSS-Regression.png")
 ```
 
-11. Use the regression equation from the software output to estimate the sale price of a Corolla that is 20 years old, and explain your answer.
+11. Use the regression equation from the software output to estimate the sale price of a Corolla that is 20 years old, and explain your answer. \tightlist
 12. Would a Corolla 6-years-old advertised for sale at $15,000 appear to be good value?
     Estimate the sale price and explain your answer.
 13. Using the software output, perform a suitable hypothesis test to determine if there is evidence that lower prices are associated with older Corollas.
@@ -501,7 +501,7 @@ include_graphics("ArticleImages/Kelly2005-Regression.png")
 1. Identify a possible research question being answered by the graph.
 2. Critique the graph
 3. Compute the value of $r$, and interpret.
-4. For a stem age of 20 years, what does the regression model predict as the mean stem diameter?   
+4. For a stem age of 20 years, what does the regression model predict as the mean stem diameter?
 5. Interpret the meaning of the slope and intercept in the regression equation.
    Comment on these interpretations.
 

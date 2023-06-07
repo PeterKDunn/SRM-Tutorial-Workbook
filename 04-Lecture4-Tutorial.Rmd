@@ -95,13 +95,13 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 **Student 1** says:  
 
 > The bars in the histogram have heights of 10, 2, 4, 2 and 4.
-> When these numbers are put in order, they are: 2, 2, 4, 4, 10.  
+> When these numbers are put in order, they are: 2, 2, 4, 4, 10.
 > The median breadth is the median of these numbers, so the median breadth is the middle one: 4mm is the median.  
 
 **Student 2** responds:  
 
 > You have the correct answer, but for the wrong reason!
-> There are five bars, and the middle bar is the third bar.  
+> There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of 4, the median breadth is 4mm.  
 
 
@@ -202,7 +202,8 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktab = TRUE,
       caption = "The MOR (in MPa) for five bamboo boards") %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(MORTab,
@@ -328,7 +329,8 @@ if( knitr::is_latex_output() ) {
       booktab = TRUE,
       caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
   column_spec(1, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(BattTab,
@@ -344,7 +346,7 @@ if( knitr::is_html_output() ) {
 1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
 `r if( knitr::is_html_output() ) {'The type of research study is  '}`
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`  
-   Justify your answer.
+   Justify your answer. \tightlist
 
 2. What are the *units of observation* and *units of analysis*?
 3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
@@ -395,7 +397,6 @@ This question is **optional**; for example, if you need more practice, or you ar
 
 
 To assess various lung diseases, many methods are available (including using a spirometer and the 6-minute walk test).
-
 The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
 (A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
 
@@ -496,7 +497,8 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktab = TRUE,
       caption = AIScap) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(AISTab,
@@ -537,7 +539,8 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktab = TRUE,
       caption = PTcap) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(PTTab,
@@ -572,7 +575,9 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktab = TRUE,
       caption = AIScap2) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+
 }
 if( knitr::is_html_output() ) {
   kable(AISTab2,

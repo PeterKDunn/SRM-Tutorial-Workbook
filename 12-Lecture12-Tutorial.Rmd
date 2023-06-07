@@ -184,8 +184,10 @@ Part of Table 1 in the paper is shown in Fig. \@ref(fig:Ryan2010Table1).
 include_graphics("ArticleImages/Ryan2010-Table1.png")
 ```
 
-1. Read the extract in Fig. \@ref(fig:Ryan2010Aims). Determine P, O, C and I (where possible) for this study.
-2. Identify the type of study being used. Is this a paired design or not?  Explain.
+1. Read the extract in Fig. \@ref(fig:Ryan2010Aims). \tightlist
+   Determine P, O, C and I (where possible) for this study.
+2. Identify the type of study being used. Is this a paired design or not?  
+   Explain.
 3. Identify the type of statistical technique that was probably used to compute the test information in Fig. \@ref(fig:Ryan2010Table1).
    
 
@@ -195,7 +197,9 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 ```
 
 4. Identify the units of observation and units of analysis.
-5. Does the study use blinding? If so, for what reason?  If not, why not?  
+5. Does the study use blinding? 
+   If so, for what reason?
+   If not, why not?  
 
    What is the implication? What about double blinding?
 6. Determine the sample mean and sample standard deviation for the scores when children use the standard furniture configuration.
@@ -232,8 +236,8 @@ include_graphics("ArticleImages/Kozer2004Figure1.png")
 ```
 
 
-1. Identify the possible research question being answered, identifying (where possible) P, O, C and I.
-2. Identify the type of question is being asked: Descriptive, Relational or Interventional   
+1. Identify the possible RQ being answered, identifying (where possible) P, O, C and I.
+2. Identify the type of question is being asked: Descriptive, Relational or Interventional.
 3. Explain whether the study is observational or experimental (true or quasi).
 4. List the possible limitations can you identify with this study. 
    Then identify the limitations identified by the authors, by reading the extract in Fig. \@ref(fig:Kozer2004Limitations).

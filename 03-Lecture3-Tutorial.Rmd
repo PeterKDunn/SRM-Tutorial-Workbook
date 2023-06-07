@@ -100,7 +100,7 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. What would be the appropriate graph to show the *distribution* of the age of the participants?
+1. What would be the appropriate graph to show the *distribution* of the age of the participants? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Bar chart", 
 		                  "Scatterplot",

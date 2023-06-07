@@ -1,9 +1,7 @@
 
 	
 The use of mobile phones has changed peoples' behaviour.
-
 One study [@data:Barkley2016:Phones] examined how the use of mobile phones impacts walking speed.
-
 Read the following information from the research article:
 
 > The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  

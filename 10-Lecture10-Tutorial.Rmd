@@ -33,7 +33,7 @@ A study compared the arrivals-on-scene time for two groups of paramedics [@tuttl
 The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
 The mean time from scene arrival to starting the first advanced airway procedure was 10.05&nbsp;m for the inexperienced group (IE), and 10.21&nbsp;m for the experienced group (E).
 
-1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. True or false?  
+1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. True or false? \tightlist  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
 1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
@@ -639,7 +639,9 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktabs = TRUE,
       caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
-  column_spec(1, bold = TRUE)
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(font_size = 10)
+
 }
 if( knitr::is_html_output() ) {
   kable(BattTab,
@@ -651,7 +653,7 @@ if( knitr::is_html_output() ) {
 ```
 
 
-1. Write the hypotheses for testing the research question of interest. Is the test one- or two-tailed?
+1. Write the hypotheses for testing the research question of interest. Is the test one- or two-tailed? \tightlist
 2. Explain the meaning of the standard error of the mean in this context.
 3. The software output for the analysis is shown in Fig. \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi) and Fig. \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
    Determine the value of the $t$-statistic and the $P$-value for testing the hypotheses.
@@ -695,7 +697,7 @@ More specifically, they wanted to see if the proportion of smokers with byssinos
 
 The researchers used an observational study.
 
-1. Which one of these is correct as a null hypothesis? Why are the others incorrect?
+1. Which one of these is correct as a null hypothesis? Why are the others incorrect? \tightlist
 
     a. The odds of having byssinosis is the same in the sample of smokers and the sample of non-smokers.
     b. The mean number of workers having byssinosis is the same for smokers and non-smokers.
@@ -779,7 +781,8 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       caption = "Data from the airways study") %>%
   row_spec(0, bold = TRUE) %>%
-  column_spec(1, bold = TRUE)
+  column_spec(1, bold = TRUE) %>%
+    kable_styling(font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(AirwayTab,

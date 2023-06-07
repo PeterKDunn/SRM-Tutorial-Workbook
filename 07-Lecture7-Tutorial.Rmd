@@ -27,7 +27,8 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
-1. A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. True or false?  
+1. A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist 
+   True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
 1. All *confidence interval* are 95% confidence intervals. True or false?  
@@ -36,7 +37,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-
+   
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265022&sec_digit=1542537483&embeded_digit=1153605398' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
@@ -83,7 +84,6 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 ## CIs for one proportion {#CIPropBVM}
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
-
 ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
 
 A study examined the use of ETI for airway management of children in the out-of-hospital setting [@data:Gausche200:Endotracheal].
@@ -157,7 +157,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 
 
 
-1. What do $\mu$ and $\bar{x}$ represent in this context?
+1. What do $\mu$ and $\bar{x}$ represent in this context? \tightlist 
 2. Write down the *values* of $\mu$ and $\bar{x}$.
 3. Write down the *values* of $\sigma$ and $s$.
 4. Compute the value of the standard error of the mean.
@@ -177,7 +177,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
     - The sample has a normal distribution.
 
    
-```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.width=6}
+```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.width=6, fig.height = 4}
 PS <- structure(list(ID = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 
 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 
@@ -499,7 +499,9 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       booktabs = TRUE,
       caption = "Guess of the width of a room 13.1 metres wide",
-      align = "r")
+      align = "r") %>%  
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(GuessTab,
@@ -652,7 +654,8 @@ if( knitr::is_latex_output() ) {
       align = c("r", "r", "r"),
       caption = "The bending stress using two different mooring methods") %>%
   row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(WaveTab,
@@ -671,8 +674,9 @@ if( knitr::is_html_output() ) {
 1. Explain *why* these data should be analysed as mean differences.
 2. Compute the sample differences (most have been done for you).
 3. Using the statistics mode on your calculator, compute the sample mean and the sample standard deviation of these differences.
-4. Compute the standard error of the mean difference. What does this value mean?
-5. Compute an approximate 95% confidence interval for the population mean difference in two methods.
+4. Compute the standard error of the mean difference. 
+   What does this value mean?
+5. Compute an approximate 95% CI for the population mean difference in two methods.
 6. What conditions must be met for this CI to be statistically valid?
 7. Is it reasonable to assume the CI is statistically valid?  Draw a stem-and-leaf plot to check.
 8. Do you think the mooring types are really different? Explain.
@@ -720,7 +724,8 @@ if( knitr::is_latex_output() ) {
       linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
       caption = "Plasma-beta concentration for runners, before and after the race") %>%
   row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(RunnerTab,

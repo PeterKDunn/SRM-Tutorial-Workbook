@@ -186,7 +186,7 @@ Answer the questions that follow.
 ```
 
 
-1. Identify the outcome and response variable.
+1. Identify the outcome and response variable. \tightlist
 2. Identify the comparison and explanatory variable.
 3. *Explain* whether the study is observational or experimental.
 4. Which of the following are likely to be extraneous variables, or confounding variables, or neither? **Explain.**

@@ -1,6 +1,5 @@
 \mainmatter
 
-# (PART) Tutorials {-}
 
 
 
@@ -30,13 +29,11 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
-Consider this RQ: 
+Consider this RQ (based on @data:jaworowska2012:determination): 
 
 > For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
->
-> --- Based on @data:jaworowska2012:determination.
 
-1.  What *type* of RQ is this?  
+1.  What *type* of RQ is this? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Descriptive", 
                       answer = "Relational",
@@ -120,13 +117,12 @@ As a result, the cafe owner decides to conduct a study of his customers.
     
     a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
-2. Make some notes about how the cafe owner could answer the question using an **observational study**.  
+2. Make notes about how the cafe owner could answer the question using an **observational study**.  
         
    What would be the best type of observational study: using a forward direction (*cohort study*), a backward direction (case-control study), or non-directional (cross sectional)?
-3. Make some notes about how the cafe owner could answer the question using an **experimental study**.  
+3. Make notes about how the cafe owner could answer the question using an **experimental study**.  
    What would be the best type of experimental study: true or quasi?
 4. List some **advantages** and **disadvantages** of the experimental and observational studies.  
-
    List some **similarities** and **differences** between the two studies.  
    
    Which do you think would be the better study?
@@ -198,7 +194,8 @@ if( knitr::is_latex_output() ) {
       linesep = c("", "\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", "", ""), 
       align = c("r", "c", "l")) %>%
   column_spec(2, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 
 if( knitr::is_html_output() ) {
@@ -338,7 +335,8 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       align = "r") %>%
   row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(Janka,

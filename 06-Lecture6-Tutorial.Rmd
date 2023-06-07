@@ -41,7 +41,7 @@ The
 }`
 are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
 
-1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes?  
+1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes? \tightlist  
 `r if( knitr::is_html_output() ) {
    webexercises::mcq( c("1.77",
           answer = "-1.77", 
@@ -150,7 +150,7 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.pn
 For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
 (**Note:** You are not asked to *compute* the probability.)
 
-1. The probability that a given UniSC student lives in Nambour.  
+1. The probability that a given UniSC student lives in Nambour.\tightlist  
 `r if( knitr::is_html_output() ) {longmcq(
     c(         "Classical approach.",
       answer = "Relative frequency approach.",

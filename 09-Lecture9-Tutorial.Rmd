@@ -28,7 +28,7 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
-1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis.
+1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
  True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
@@ -81,6 +81,10 @@ In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas
 Eagle Boys' made the data from the campaign publicly available.
 
 A summary of the diameters of a sample of 125 of their large pizzas is shown in Fig. \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig. \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+We would like to test the company's claim, and ask the RQ:
+
+> For Eagle Boys' pizzas, is mean diameter actually 12 inches, or not?
+
 
 ```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
@@ -91,9 +95,6 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 ```
 
-We would like to test the company's claim, and ask the RQ:
-
-> For Eagle Boys' pizzas, is mean diameter actually 12 inches, or not?
 
 
 1. What is the **parameter** of interest?
@@ -365,13 +366,12 @@ include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
 
 A study [@data:Guirao2017:amputees] examined the 2-minute walk times (2MWT) before and after receiving a prosthetic implant.
 The 2MWT measures how far participants can walk in two minutes.
-
 The RQ was:
 
 > For this type of amputee, is the mean 2MWT **improved** (i.e., longer distances walked) after using the implant?
 
 
-1. Explain why these data should be analysed as a paired situation.
+1. Explain why these data should be analysed as a paired situation. \tightlist
 2. Which of the following is the correct null hypothesis for this question?
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
@@ -484,7 +484,8 @@ if( knitr::is_latex_output() ) {
       caption = "Guess of the width of a room 13.1 metres wide",
       booktabs = TRUE,
       align = "r") %>%
-  kable_styling(full_width = FALSE)
+  kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 if( knitr::is_html_output() ) {
   kable(GuessTab,
@@ -570,7 +571,7 @@ After 12 months, the ecologist records whether the soil salinity at each site ha
 She finds a statistically significant difference between the odds in the two groups.
 Which of these statements is *consistent* with this conclusion?
 
-1. The $\text{OR} = 4.1$ and $P = 0.36$  
+1. The $\text{OR} = 4.1$ and $P = 0.36$ \tightlist 
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(         "Consistent with conclusion",
       answer = "NOT consistent with conclusion"))}`
@@ -614,7 +615,7 @@ The researchers recorded the plasma $\beta$ concentrations in fun runners (parti
 Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table \@ref(tab:RunnerTabHT).)
 A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre. 
  
-1. Explain why these data should be analysed as a paired means situation.
+1. Explain why these data should be analysed as a paired means situation. \tightlist
 2. Which of the following is the correct null hypothesis for this question? 
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
@@ -655,7 +656,9 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       linesep = c("","","\\addlinespace", "", "", "", "\\addlinespace", "", "", ""),
       caption = "Plasma-beta concentration for runners, before and after the race") %>%
-  row_spec(0, bold = TRUE)
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(font_size = 10)
+
 }
 if( knitr::is_html_output() ) {
   kable(RunnerTab,
