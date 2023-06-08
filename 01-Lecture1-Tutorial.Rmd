@@ -88,6 +88,48 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 
+
+
+::: {.webex-check .webex-box}
+
+Consider this RQ (based on @data:jaworowska2012:determination): 
+
+> For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
+
+1.  What *type* of RQ is this? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						  "Descriptive", 
+                      answer = "Relational",
+                      "Interventional") )} else {'Descriptive, relational or interventional'}`
+1.  What is the *Outcome* in this RQ?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "The amount of salt",
+        						   answer = "The average amount of salt", 
+                      "The average amount of salt in Chinese and Indian take-away meals",
+                      "London take-away restaurants") )}`
+1.  What would be the *response variable*?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						   "The average amount of salt", 
+                      answer = "The amount of salt in each meal",
+                      "The type of London take-away restaurant") )}`
+1.  What would be the *unit of analysis*?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						   "The restaurants", 
+                       "The meals",
+                       answer = "We need more information about how the data were collected") )}`
+1.  What would be the *unit of observation*?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						   "The restaurants", 
+                      answer = "The meals",
+                      "It's hard to know: We need more information about how the data were collected") )}`
+
+
+:::
+
+
+
+
+
 ## Research process {#ResearchProcess}
 
 <iframe src="https://usc.h5p.com/content/1291014841891101839/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
