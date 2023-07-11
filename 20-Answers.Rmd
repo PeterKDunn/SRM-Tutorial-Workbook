@@ -1631,6 +1631,14 @@ if( knitr::is_latex_output() ) {
   kable_styling(font_size = 10) %>%
   row_spec(0, bold = TRUE)
 }
+if( knitr::is_html_output() ) {
+  kable(Terms,
+      format = "html",
+      booktab = TRUE,
+      align = c("r", "r"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      caption = "Which terms apply when? Tick the appropriate places in the table") 
+}
 ```
 
 

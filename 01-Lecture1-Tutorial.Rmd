@@ -29,6 +29,7 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
+::: {.webex-check .webex-box}
 Consider this RQ (based on @data:jaworowska2012:determination): 
 
 > For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
@@ -44,32 +45,25 @@ Consider this RQ (based on @data:jaworowska2012:determination):
         						   answer = "The average amount of salt", 
                       "The average amount of salt in Chinese and Indian take-away meals",
                       "London take-away restaurants") )}`
-1.  What would be the *response variable*?  
+1.  What is the *response variable*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The average amount of salt", 
                       answer = "The amount of salt in each meal",
                       "The type of London take-away restaurant") )}`
-1.  What would be the *unit of analysis*?  
+1.  What is the *unit of analysis*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                        "The meals",
                        answer = "We need more information about how the data were collected") )}`
-1.  What would be the *unit of observation*?  
+1.  What is the *unit of observation*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                       answer = "The meals",
                       "It's hard to know: We need more information about how the data were collected") )}`
 
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-::: {.progressBox .progress}
-`r if (knitr::is_html_output()) {"**Progress:**"}`
-`r webexercises::total_correct()`
 :::
+
+
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
@@ -87,44 +81,17 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
-::: {.webex-check .webex-box}
-
-Consider this RQ (based on @data:jaworowska2012:determination): 
-
-> For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
-
-1.  What *type* of RQ is this? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						  "Descriptive", 
-                      answer = "Relational",
-                      "Interventional") )} else {'Descriptive, relational or interventional'}`
-1.  What is the *Outcome* in this RQ?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "The amount of salt",
-        						   answer = "The average amount of salt", 
-                      "The average amount of salt in Chinese and Indian take-away meals",
-                      "London take-away restaurants") )}`
-1.  What would be the *response variable*?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "The average amount of salt", 
-                      answer = "The amount of salt in each meal",
-                      "The type of London take-away restaurant") )}`
-1.  What would be the *unit of analysis*?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "The restaurants", 
-                       "The meals",
-                       answer = "We need more information about how the data were collected") )}`
-1.  What would be the *unit of observation*?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "The restaurants", 
-                      answer = "The meals",
-                      "It's hard to know: We need more information about how the data were collected") )}`
 
 
-:::
+
+
 
 
 

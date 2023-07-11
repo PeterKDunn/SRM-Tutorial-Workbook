@@ -196,7 +196,7 @@ include_graphics("ArticleImages/Ryan2010-Table1.png")
 include_graphics("ArticleImages/Ryan2010-Aims.png")
 ```
 
-4. Identify the units of observation and units of analysis.
+4. Identify the units of observation and units of analysis.\tightlist
 5. Does the study use blinding? 
    If so, for what reason?
    If not, why not?  

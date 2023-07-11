@@ -28,6 +28,7 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
+::: {.webex-check .webex-box}
 1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
  True or false?  
 `r if( knitr::is_html_output() ) {
@@ -38,18 +39,9 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265028&sec_digit=1250147724&embeded_digit=1845584897' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-   
-::: {.progressBox .progress}
-`r if (knitr::is_html_output()) {"**Progress:**"}`
-`r webexercises::total_correct()`
 :::
+
+
 
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -61,6 +53,13 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265028&sec_digit=1250147724&embeded_digit=1845584897' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
 
 
 
