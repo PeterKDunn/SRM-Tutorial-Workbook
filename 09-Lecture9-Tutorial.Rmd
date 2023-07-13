@@ -436,7 +436,7 @@ According to
 } else {
   'Statistica.com,' 
 }`
-30% of individuals in Sweden wore contact lenses in 2020 (the highest percentages in Europe).
+30% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
 
 Suppose a group of 35 Swedish computer programmers includes 12 that wear contact lenses.
 Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
