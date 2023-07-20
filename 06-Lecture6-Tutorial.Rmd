@@ -199,7 +199,7 @@ For the following, indicate *how* you could estimate the probability (classical;
 
 
 
-## Random cards draws {#RandomCardDraws}
+## Random coin tosses {#RandomCardDraws}
 
 Use 
 `r if (knitr::is_html_output()){
@@ -210,8 +210,8 @@ Use
 to flip **ten** Australian one-dollar coins at random (see Fig. \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
    '(Click *Games* from the top, then *Coin flipper*, then select the options to toss 10 coins, and use an Australian $1 coin.)'}`
-   
-   
+
+
 ```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
 knitr::include_graphics("Images/CoinToss.jpg")
 ```
@@ -234,7 +234,7 @@ CoinData <- array( "",
 colnames(CoinData) <- c("Proportion of heads in 10 tosses",
                         "How many times observed")
 CoinData[, 1] <- c("0.0 (0 heads)", 
-                        "0.1 (1 head)", 
+                        "0.1 (1 head) ", 
                         "0.2 (2 heads)", 
                         "0.3 (3 heads)",
                         "0.4 (4 heads)",
@@ -270,7 +270,7 @@ if( knitr::is_html_output() ) {
   CoinData[ 1:11, 2] <- webexercises::fitb(num=TRUE, 
                                            tol = 0.001, 
                                            width = 6, 
-                                           answer = "")
+                                           answer = seq(0, 500))
 
   kable(CoinData,
         format = "html",
