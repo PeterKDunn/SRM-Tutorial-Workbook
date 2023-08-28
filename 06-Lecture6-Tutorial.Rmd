@@ -289,7 +289,7 @@ if( knitr::is_html_output() ) {
 
 1. Use this data to create a histogram of the proportion of heads.
    How would you describe the histogram?
-1. I did the same thing, but I repeated the process of tossing 10 coins 100 times.
+1. I did the same thing, but I repeated the process of tossing 10 coins 400 times.
    My histogram is shown in Fig. \@ref(fig:HistCoinToss).
    How would you describe the histogram?
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
