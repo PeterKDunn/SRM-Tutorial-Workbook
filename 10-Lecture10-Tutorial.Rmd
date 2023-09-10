@@ -25,6 +25,7 @@ In this chapter, you will learn and practice the content associated with these c
 We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
+::: {.webex-check .webex-box}
 A study compared the arrivals-on-scene time for two groups of paramedics [@tuttle2018paramedic]:
 
 * Those with fewer than 15 out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
@@ -33,24 +34,15 @@ A study compared the arrivals-on-scene time for two groups of paramedics [@tuttl
 The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
 The mean time from scene arrival to starting the first advanced airway procedure was 10.05&nbsp;m for the inexperienced group (IE), and 10.21&nbsp;m for the experienced group (E).
 
-1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. True or false? \tightlist  
+1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$.\tightlist True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
 1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
 1. Since the two sample means are different, we reject the null hypothesis. True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265033&sec_digit=346354668&embeded_digit=151504436' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-
-::: {.progressBox .progress}
-`r if (knitr::is_html_output()) {"**Progress:**"}`
-`r webexercises::total_correct()`
 :::
+
+
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
@@ -60,6 +52,14 @@ The mean time from scene arrival to starting the first advanced airway procedure
 1. **FALSE**. The *sample* means could be different for one of two reasons: (a) the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b) because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
 `r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265033&sec_digit=346354668&embeded_digit=151504436' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 
 
