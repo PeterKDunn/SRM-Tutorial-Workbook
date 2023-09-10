@@ -40,7 +40,7 @@ An *exact* 95% CI is given as for the difference is -2.32 to 2.76.
 1. Using the 68--95--99.7 rule gives a slightly different CI.
   Why?
 `r if( knitr::is_html_output() ) { 
-  webexercises::longmc( c(
+  webexercises::longmcq( c(
   "The researchers made a calculation error",
   answer = "The researchers calculated an exact 95% CI (not an approximate 95% CI)",
   "The statistical validity conditions are not met")) }`
@@ -61,6 +61,8 @@ An *exact* 95% CI is given as for the difference is -2.32 to 2.76.
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
+1. The researchers used an exact 95%CI, which gives very similar answers to using an approximate 95% CI.
+   (The 68--95--99.7 rule gives approximate multipliers only.)
 1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
 1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
 1. The *positive* value of 2.76 means (as we saw in the first Quick Revision question) that coeliacs have a mean of 2.76 more DMFT.  
