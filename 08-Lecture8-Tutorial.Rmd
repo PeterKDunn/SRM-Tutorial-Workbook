@@ -160,7 +160,7 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 A study [@data:Berger1988:RatsData] compared the lifetime of rats on a healthy, restricted diet (106 rats) and on a free-eating diet (89 rats).
 The data set is large, so we only show an extract of the data  (Fig. \@ref(fig:RatLifetimesDatajamovi-SPSS)).
 
-1. Explain why this study compares two *independent* samples.
+1. Explain why this study compares two *independent* groups.
 2. What is the **parameter** of interest?
 3. Use the numerical summary (Fig. \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig. \@ref(fig:Berger1988SummaryCI) (SPSS)) and the output from the analysis (Fig. \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig. \@ref(fig:RatLifetimesOutputCI) (SPSS)) to write down the appropriate 95% CI, to estimate the *difference* between the population means.
 

@@ -84,7 +84,7 @@ The focus, however, is on the analysis of data.
 
 ## Answers to questions {-}
 
-The answers to most of the tutorial questions are given in App.&nbsp;\@ref(OptionalAnswers).
+The answers to most of the tutorial questions are given in App.\ \@ref(OptionalAnswers).
 In the online version, some answers are implied by working through the online exercises.
 
 
@@ -135,7 +135,6 @@ A narrator works through the question, explaining the solution.
 :::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
 :::
-
 
 
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
@@ -235,6 +234,6 @@ In this book, you will learn to:
 
 ## How to cite this book {-}
 
-Peter K. Dunn (2022). *Scientific Research Methods: Tutorials*.
+Peter K. Dunn (2023). *Scientific Research Methods: Tutorials*.
 https://bookdown.org/pkaldunn/SRM-tutorials/index.html
 
