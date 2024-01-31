@@ -31,13 +31,14 @@ include_graphics("Illustrations/andrew-buchanan-FJB1ZevpPfk-unsplash.jpg")
 
 In a study of high strength--high ductile concrete [@data:Ranada2015:Concrete], the researchers measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
 
-Under a strain rate of 10&nbsp;s${}^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of 12.4&nbsp;MPa with a **standard deviation** of 2.8&nbsp;MPa.
+Under a strain rate of $10$\ s${}^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of $12.4$\ MPa with a **standard deviation** of $2.8$\ MPa.
 
-One student computes the approximate 95% CI for the mean first-crack strength as $12.4\pm 2.8$&nbsp;MPa.
-Another student computes the approximate 95% CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from $6.8$ to $18.0$&nbsp;MPa. 
+One student computes the approximate $95$% CI for the mean first-crack strength as $12.4\pm 2.8$\ MPa.
+Another student computes the approximate $95$% CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from $6.8$ to $18.0$\ MPa. 
 
-1. *Both* students are incorrect. Explain *why* the students are incorrect, and explain what they actually have calculated instead.
-2. Compute the correct (approximate) 95% CI.
+1. *Both* students are incorrect. 
+   Explain *why* the students are incorrect, and explain what they actually have calculated instead.
+2. Compute the correct (approximate) $95$% CI.
 
 
 
@@ -59,9 +60,9 @@ From a study comparing the mean distance an iron golf club and a wooden golf clu
 * **Summaries**:
 		  The paired means are different with the iron golf club being moderately higher than the wooden club
 * **Results (1)**:
-		  The 95\% CI for the difference in distance in metres (wooden verse iron) differes from 34.74 -- 43.25 further for shots with the Iron
+		  The $95$% CI for the difference in distance in metres (wooden verse iron) differes from $34.74$ -- $43.25$ further for shots with the Iron
 * **Results (2)**:
-	    Very strong evidence exists in the paired sample (paired $t=18.406$; $n = 50$; two tailed; $P = 0.000$) of a population mean difference between the wooden and iron golf clubs...
+	    Very strong evidence exists in the paired sample (paired $t = 18.406$; $n = 50$; two tailed; $P = 0.000$) of a population mean difference between the wooden and iron golf clubs...
 
 
 
@@ -79,7 +80,7 @@ From a study comparing resting heart rates between male and female SCI110 studen
 * **Results**:
 			The sample presents evidence ($\chi^2 = 30.0$; two tailed $P = 0.517$) that the
 			mean resting heart rate does not have a significant difference between males and females 
-			(males mean: 72.6&nbsp;bpm; females mean 77.2&nbsp;bpm).
+			(males mean: $72.6$\ bpm; females mean: $77.2$\ bpm).
 
 
 
@@ -98,10 +99,10 @@ From a study comparing the size of lilly pilly leaves on different sides of the 
 		  Among Weeping Lily Pily trees located at the University of the Sunshine Coast, do leaves that grow on the sunrise (east) side become longer than those growing on the sunset (west) side of the tree?
 * **Null hypothesis**:
 		  The leaves on the east and west sides of Weeping Lily Pily trees are same, therefore no relationship exists between the sunset (east) and sunrise (west) side of the tree and leaf length.
-* **Results**: The table of results in Fig. \@ref(fig:BreeTable).
+* **Results**: The table of results in Fig.\ \@ref(fig:BreeTable).
 * **Methods**:
-			   Chose the 5 trees at the university that receive both easterly and westerly sunlight conditions
-			   The 4th leaf on the branch will be chosen 5 times on each side of the tree
+			   Chose the $5$\ trees at the university that receive both easterly and westerly sunlight conditions
+			   The $4$th leaf on the branch will be chosen $5$ times on each side of the tree
 
 
 ```{r BreeTable, echo=FALSE, fig.cap="A table from a student project", fig.align="center", out.width="70%"}
@@ -126,10 +127,10 @@ From a study comparing how well sports-playing students can estimate distance co
 * **Null hypothesis**:
 		    The Null Hypophysis for our research question is that students who play sports regularly at the UniSC Sippy down campus have an increased level of perception when it comes to estimating distances.
 * **Results**:
-		   This sample presents strong evidence in support of the Null Hypothesis that sport status has an affect on distance estimation (regular played sport: mean 176.36 and non regular played sport: mean 172.34).
+		   This sample presents strong evidence in support of the Null Hypothesis that sport status has an affect on distance estimation (regular played sport: mean $176.36$ and non regular played sport: mean $172.34$).
 
 * **Discussion**:
-		    From our original research question we have concluded that it supports the Null Hypothesis as it has a large P-value (0.36: one-tailed). Therefore we have proven that playing sports regularly has an effect on the accuracy of distance estimation.
+		    From our original research question we have concluded that it supports the Null Hypothesis as it has a large P-value ($0.36$: one-tailed). Therefore we have proven that playing sports regularly has an effect on the accuracy of distance estimation.
 
 
 
@@ -176,21 +177,21 @@ Mastering handwriting is an important skill for children to learn, but children 
 
 One study [@data:Ryan:CerebralPalsy] examined the effect of handwriting legibility of children with cerebral palsy using two different types of configuration of the school desks ('standard' or 'speciality').
 
-Each of the 30 students (aged 6 to 8 years old) used both desks.
+Each of the $30$ students (aged $6$ to $8$ years old) used both desks.
 Legibility (and other aspects of handwriting) was assessed using the quantitative Minnesota Handwriting Assessment (MHA) scale.
 
-Part of Table 1 in the paper is shown in Fig. \@ref(fig:Ryan2010Table1).
+Part of Table\ 1 in the paper is shown in Fig.\ \@ref(fig:Ryan2010Table1).
 
 
 ```{r Ryan2010Table1, echo=FALSE, fig.cap="Part of Table 1 in Ryan et al., 2010", fig.align="center", out.width="80%"}
 include_graphics("ArticleImages/Ryan2010-Table1.png")
 ```
 
-1. Read the extract in Fig. \@ref(fig:Ryan2010Aims). \tightlist
+1. Read the extract in Fig.\ \@ref(fig:Ryan2010Aims). \tightlist
    Determine P, O, C and I (where possible) for this study.
 2. Identify the type of study being used. Is this a paired design or not?  
    Explain.
-3. Identify the type of statistical technique that was probably used to compute the test information in Fig. \@ref(fig:Ryan2010Table1).
+3. Identify the type of statistical technique that was probably used to compute the test information in Fig.\ \@ref(fig:Ryan2010Table1).
    
 
 
@@ -203,9 +204,10 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
    If so, for what reason?
    If not, why not?  
 
-   What is the implication? What about double blinding?
+   What is the implication? 
+   What about double blinding?
 6. Determine the sample mean and sample standard deviation for the scores when children use the standard furniture configuration.
-7. Compute an approximate 95% CI for the population mean legibility score when children use the standard furniture configuration.
+7. Compute an approximate $95$% CI for the population mean legibility score when children use the standard furniture configuration.
 8. Write down a statement communicating the results of the test comparing the two furniture configurations.
 9. Based on this study, do you think the speciality desk improves handwriting legibility?
 

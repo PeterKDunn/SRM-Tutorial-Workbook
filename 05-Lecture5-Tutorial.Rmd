@@ -65,12 +65,12 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
 ::: {.webex-check .webex-box}
-A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults (27 females; 33 males) undergo a sleep study.
+A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults ($27$ females; $33$ males) undergo a sleep study.
 `r if( knitr::is_html_output() ) {
-  'The data are shown in Fig. \\@ref(fig:OSADT2).'
+  'The data are shown in Fig.\\ \\@ref(fig:OSADT2).'
 } else
 {
-  'Part of the data are shown in Table \\@ref(tab:OSAKable2).'
+  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable2).'
 }
 `
 
@@ -290,14 +290,14 @@ A study [@data:Gausche200:Endotracheal] was conducted to determine
 >
 > --- @data:Gausche200:Endotracheal, p. 157.
 
-Data were collected from 240 college students:
+Data were collected from $240$ college students:
 
 * The student type:
-  One of 'soccer players' (63 students), 'non-soccer athletes' (96 students), or 'non-athletes' (81 students).
+  One of 'soccer players' ($63$ students), 'non-soccer athletes' ($96$ students), or 'non-athletes' ($81$ students).
 * The number of head concussions:
-  Each student was asked about the number of head concussions they had experienced; 'zero' (158 students), 'one' (45 students), or 'two or more'  (37 students) concussions.
+  Each student was asked about the number of head concussions they had experienced; 'zero' ($158$ students), 'one' ($45$ students), or 'two or more'  ($37$ students) concussions.
 
-Use the study data (Table \@ref(tab:SoccerTable)) to answer the following questions.
+Use the study data (Table\ \@ref(tab:SoccerTable)) to answer the following questions.
 	     
 	     
 ```{r SoccerTable, echo=FALSE}
@@ -342,7 +342,7 @@ if( knitr::is_html_output() ) {
 ```
    
 1. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
-2. Many possible graphs exists to display the data; four are shown in Fig. \@ref(fig:SoccerGraph).
+2. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
@@ -486,7 +486,7 @@ legend("top",
 3. Among the **non-athletes**, compute the odds of receiving two or more concussions.
    Interpret what this means.
 4. Among the **soccer players**, compute the odds of receiving two or more concussions.
-   (Refer to Table \@ref(tab:SoccerTable).)
+   (Refer to Table\ \@ref(tab:SoccerTable).)
    Interpret what this means.
 5. Compute the odds ratio comparing the odds of a non-athlete player receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
 6. Create a table of **column** percentages.
@@ -523,8 +523,8 @@ This question has a video solution in the online book, so you can hear and see t
 The impact of environmental toxins is not well understood.
 A 2012 Australian observational study [@data:Pamphlett:toxins] examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
 
-A total of 380 SMND cases were studied, and 377 controls.
-Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had worked with metal.
+A total of $380$ SMND cases were studied, and $377$ controls.
+Of the $380$ SMND cases, $60$ had worked with metal; of the $377$ controls, $33$ had worked with metal.
 	
 1. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
 2. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
@@ -550,7 +550,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
 
 ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
-Table \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
+Table\ \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
 Use the table to answer the questions that follow.
 
 
@@ -632,7 +632,7 @@ if( knitr::is_html_output() ) {
                "281/306 = 0.918"
      ))}`
 
-3. Among people treated with ETI, the *odds* that someone died is 2.78.
+3. Among people treated with ETI, the *odds* that someone died is $2.78$.
    What does this mean?  
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "A patient treated with ETI has a 2.78% chance of dying.",

@@ -28,17 +28,20 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 ::: {.webex-check .webex-box}
 A study compared the arrivals-on-scene time for two groups of paramedics [@tuttle2018paramedic]:
 
-* Those with fewer than 15 out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
+* Those with fewer than $15$ out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
 * Those paramedics with 15 OHCAs or greater (the *experienced* group, E).
 
 The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
-The mean time from scene arrival to starting the first advanced airway procedure was 10.05&nbsp;m for the inexperienced group (IE), and 10.21&nbsp;m for the experienced group (E).
+The mean time from scene arrival to starting the first advanced airway procedure was $10.05$\ m for the inexperienced group (IE), and $10.21$\ m for the experienced group (E).
 
-1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$.\tightlist True or false?  
+1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. \tightlist 
+   True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. True or false?  
+1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. 
+   True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. Since the two sample means are different, we reject the null hypothesis. True or false?  
+1. Since the two sample means are different, we reject the null hypothesis. 
+   True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
 :::
 
@@ -49,7 +52,7 @@ The mean time from scene arrival to starting the first advanced airway procedure
 1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
 1. **FALSE**. The hypothesis is about a population parameter ($\mu$), which is good.  
    But the actual question is "to see if there was a **difference** in the mean time..." which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
-1. **FALSE**. The *sample* means could be different for one of two reasons: (a) the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b) because the *population* means are different.  
+1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
@@ -85,13 +88,15 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 A study [@data:Berger1988:RatsData] compared the total lifetime of rats on restricted ($n = 106$ rats) free-eating diets ($n = 89$ rats).
 
 1. Explain why these are two *independent* samples, and not *paired*.
-2. Write down the hypotheses being tested. Is this a one- or a two-tailed test? Explain.
+2. Write down the hypotheses being tested. 
+   Is this a one- or a two-tailed test? Explain.
 3. Explain what the 'standard error of the difference' would mean here.
-4. What does the error bar chart in Fig. \@ref(fig:SPSSOutputErrorBar) tell us?
+4. What does the error bar chart in Fig.\ \@ref(fig:SPSSOutputErrorBar) tell us?
 5. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
-6. Write down the $t$-score and the appropriate $P$-value, using the output in Fig. \@ref(fig:Berger1988SummaryHTjamovi1) (jamovi) or Fig. \@ref(fig:RatLifetimesOutputHT) (SPSS).
+6. Write down the $t$-score and the appropriate $P$-value, using the output in Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1) (jamovi) or Fig.\ \@ref(fig:RatLifetimesOutputHT) (SPSS).
 7. Calculate the $t$-score (using the standard error as given in the output), and show it is the same value as given in the output.
-8. How are the differences defined? What do these *mean*?
+8. How are the differences defined? 
+   What do these *mean*?
 
 ```{r SPSSOutputErrorBar, echo=FALSE, fig.cap="Error bar chart for the rat lifetime example", fig.align="center", out.width="50%"}
 knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
@@ -108,8 +113,9 @@ knitr::include_graphics("SoftwareImages/RatLivesOutput.png")
 
 8. Make a conclusion, in context.
 9. What conditions are necessary for the test to be statistically valid?
-10. Is it reasonable to assume these conditions are satisfied?  (You may, or may not, need to refer to Fig. \@ref(fig:SPSSOutputBoxplotsCI).)
-11. What if all these rats only came from only 20 litters?
+10. Is it reasonable to assume these conditions are satisfied?  
+    (You may, or may not, need to refer to Fig. \@ref(fig:SPSSOutputBoxplotsCI).)
+11. What if all these rats only came from only $20$ litters?
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458373&sec_digit=1517251076&embeded_digit=7616543' style='width:100%; height:500px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
@@ -224,10 +230,10 @@ The RQ was:
 
 > For this type of amputees, is the odds of being alive after five years the same for those who used an artificial limb, and those who did not?
 
-A total of 105 subjects were used: 35 died within five years, and 70 were still alive after five years.
-In addition, 65 subjects used an artificial limb, and 40 did not.
+A total of 105 subjects were used: $35$ died within five years, and $70$ were still alive after five years.
+In addition, $65$ subjects used an artificial limb, and $40$ did not.
 	
-1. After five years, 49 people using an artificial limb were alive.
+1. After five years, $49$ people using an artificial limb were alive.
    Construct the $2\times 2$ table (Table \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
 
 ```{r echo=FALSE, ArtLimbMortality}
@@ -312,14 +318,14 @@ if( knitr::is_html_output() ) {
 
 2. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
-   Then compute the odds ratio, complete Table \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
-3. Write down the 95% CI for the population OR using the software output (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)). 
-4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (jamovi: Fig. \@ref(fig:limbsOutputjamovi); SPSS: Fig. \@ref(fig:limbsOutput)):
+   Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
+3. Write down the 95% CI for the population OR using the software output (jamovi: Fig.\ \@ref(fig:limbsOutputjamovi); SPSS: Fig.\ \@ref(fig:limbsOutput)). 
+4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (jamovi: Fig.\ \@ref(fig:limbsOutputjamovi); SPSS: Fig.\ \@ref(fig:limbsOutput)):
 
     a. Write the hypotheses.
     b. Write down the value of $\chi^2$.
     c. What $z$-score is this approximately equivalent to?
-    d. What is the approximate $P$-value using the 68--95--99.7 rule?
+    d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
     e. What is the exact $P$-value as reported by software?
     f. Write a conclusion.
 
@@ -457,29 +463,29 @@ This question is **optional**; e.g., if you need more practice, or you are study
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
 Applying tattoos carries health risks as the skin is broken during application.
-An American study examined if a relationship existed between having hepatitis C and having tattoos [@data:Haley2001:Tattoos].
+An American study examined if a relationship existed between having hepatitis\ C and having tattoos [@data:Haley2001:Tattoos].
 
-To study this, 626 people were interviewed as part of an observational study, and asked about two issues: Whether they had hepatitis C (47 people) or not (579 people); and if they had a tattoo (113 people), or no tattoos (513 people).
+To study this, $626$ people were interviewed as part of an observational study, and asked about two issues: Whether they had hepatitis\ C ($47$ people) or not ($579$ people); and if they had a tattoo ($113$ people), or no tattoos ($513$ people).
 
 
 1. Which **one** of these five sets of hypotheses is *not* valid for this situation? Why?
 
-    a. $H_0$: No association between having hepatitis C and having a tattoo *in the population*;  
-      $H_1$:  An association between having hepatitis C and having a tattoo *in the population*.
-    b. $H_0$: The odds of having hepatitis C is the same with or without a tattoo *in the population*;  
-      $H_1$:  The odds of having hepatitis C is *not* the same with or without a tattoo *in the population*.
-    c. $H_0$: The mean number of people having hepatitis C is the same for those with and without a tattoo *in the population*;  
-      $H_1$:  The mean number of people having hepatitis C is *not* the same for those with and without a tattoo *in the population*.
-    d. $H_0$: The odds ratio of having hepatitis C, comparing those with or without a tattoo, is one *in the population*;  
-      $H_1$:  The odds ratio of having hepatitis C, comparing those with or without a tattoo, is *not* one *in the population*.
-    e. $H_0$: The proportion having hepatitis C is the same with or without a tattoo *in the population*;  
-      $H_1$:  The proportion having hepatitis C is *not* the same with or without a tattoo *in the population*.
+    a. $H_0$: No association between having hepatitis\ C and having a tattoo *in the population*;  
+      $H_1$:  An association between having hepatitis\ C and having a tattoo *in the population*.
+    b. $H_0$: The odds of having hepatitis\ C is the same with or without a tattoo *in the population*;  
+      $H_1$:  The odds of having hepatitis\ C is *not* the same with or without a tattoo *in the population*.
+    c. $H_0$: The mean number of people having hepatitis\ C is the same for those with and without a tattoo *in the population*;  
+      $H_1$:  The mean number of people having hepatitis\ C is *not* the same for those with and without a tattoo *in the population*.
+    d. $H_0$: The odds ratio of having hepatitis\ C, comparing those with or without a tattoo, is one *in the population*;  
+      $H_1$:  The odds ratio of having hepatitis\ C, comparing those with or without a tattoo, is *not* one *in the population*.
+    e. $H_0$: The proportion having hepatitis\ C is the same with or without a tattoo *in the population*;  
+      $H_1$:  The proportion having hepatitis\ C is *not* the same with or without a tattoo *in the population*.
 
 2. Compute the percentage of people overall in the sample with a tattoo.
-3. Assuming the null hypothesis about the population is true,	compute the number of people in the sample *with* hepatitis C that you would *expect* have a tattoo.
+3. Assuming the null hypothesis about the population is true,	compute the number of people in the sample *with* hepatitis\ C that you would *expect* have a tattoo.
 	Use the information above to answer the question.
-4. In the sample, 25 people had Hep. C *and* a tattoo.
-   Use this information to create the two-way table summarising the data (Table \@ref(tab:TattHepTab)).
+4. In the sample, $25$ people had Hep.\ C *and* a tattoo.
+   Use this information to create the two-way table summarising the data (Table\ \@ref(tab:TattHepTab)).
 
 ```{r echo=FALSE, TattHepTab}
 TattHep <- array( "", 
@@ -562,9 +568,9 @@ if( knitr::is_html_output() ) {
 ```
 
 
-5. In the sample, what are the odds that someone has Hep. C, among those with a tattoo?
-6. In the sample, what are the odds that someone has Hep. C, among those *without* a tattoo?
-7. From the sample information, compute the odds ratio of having Hep. C, comparing students with a tattoo to those without a tattoo.
+5. In the sample, what are the odds that someone has Hep.\ C, among those with a tattoo?
+6. In the sample, what are the odds that someone has Hep.\ C, among those *without* a tattoo?
+7. From the sample information, compute the odds ratio of having Hep.\ C, comparing students with a tattoo to those without a tattoo.
    Carefully explain what this value means.
 
 
@@ -581,8 +587,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
 A study compared the number of deaths reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
-
-One of the tables in the paper is shown in Fig. \@ref(fig:Smith2016hurricanes).
+One of the tables in the paper is shown in Fig.\ \@ref(fig:Smith2016hurricanes).
 Explain in everyday language what this means.
 	
 	
@@ -625,9 +630,9 @@ This question has a video solution in the online book, so you can hear and see t
 
 Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$\ volt batteries to reduce their voltage to $1.0$\ volts under standard testing conditions.
 
-The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table \@ref(tab:BattTableHT).
+The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTableHT).
 
 ```{r BattTableHT, echo=FALSE}
 BattTab <- array( "", 
@@ -643,7 +648,7 @@ if( knitr::is_latex_output() ) {
   kable(BattTab,
       format = "latex",
       booktabs = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(font_size = 10)
 
@@ -652,15 +657,16 @@ if( knitr::is_html_output() ) {
   kable(BattTab,
       format = "html",
       booktabs = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
   column_spec(1, bold = TRUE)
 }
 ```
 
 
-1. Write the hypotheses for testing the research question of interest. Is the test one- or two-tailed? \tightlist
+1. Write the hypotheses for testing the research question of interest. 
+   Is the test one- or two-tailed? \tightlist
 2. Explain the meaning of the standard error of the mean in this context.
-3. The software output for the analysis is shown in Fig. \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi) and Fig. \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
+3. The software output for the analysis is shown in Fig.\ \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi) and Fig.\ \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
    Determine the value of the $t$-statistic and the $P$-value for testing the hypotheses.
 4. Write a statement that communicates the result of the test.
 5. What conditions must be met for this test to be valid?
@@ -696,7 +702,6 @@ This question is **optional**; e.g., if you need more practice, or you are study
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
 A study [@data:higgins:cotton] studied byssinosis (a respiratory complaint) among workers in the textile industry.
-
 The researchers were interested, among other things, in exploring the relationship between smoking status and the presence of byssinosis.
 
 More specifically, they wanted to see if the proportion of smokers with byssinosis was *greater* than the proportion of non-smokers with byssinosis, among all textile workers.
@@ -709,7 +714,7 @@ The researchers used an observational study.
     b. The mean number of workers having byssinosis is the same for smokers and non-smokers.
     c. The population odds of having byssinosis is the same in among smokers and non-smokers.
 
-2. Among those randomly selected to appear in the study, 165 workers had byssinosis (40 were non-smokers) and 5254 did not (2190 were non-smokers).  
+2. Among those randomly selected to appear in the study, $165$ workers had byssinosis ($40$ were non-smokers) and $5254$ did not ($2190$ were non-smokers).  
    
    Construct the two-way table showing the number of workers with byssinosis among smokers and non-smokers.
 3. Compute the sample *proportion* of workers with byssinosis, among smokers.
@@ -720,10 +725,9 @@ The researchers used an observational study.
 5. Compute the odds ratio comparing smokers to non-smokers.
    What does this odds ratio mean?
 6. A report states that the odds ratio is not one simply due to sampling variation, and not due to smoking.  
-   
    Do you agree or disagree?
    Why?
-7. Use the software output in Fig. \@ref(fig:ByssOutputjamovi) (jamovi) or Fig. \@ref(fig:ByssOutputSPSS1) and  Fig. \@ref(fig:ByssOutputSPSS2) (SPSS), to test the hypotheses.
+7. Use the software output in Fig.\ \@ref(fig:ByssOutputjamovi) (jamovi) or Fig.\ \@ref(fig:ByssOutputSPSS1) and  Fig.\ \@ref(fig:ByssOutputSPSS2) (SPSS), to test the hypotheses.
    Write a proper conclusion to communicate the results.
 8. Are the results likely to be statistically valid? Explain.
 
@@ -804,7 +808,7 @@ if( knitr::is_html_output() ) {
 
 1. Define $p$ as the population proportion of successful attempts at insertion.
    Write the hypotheses to be tested.
-2. Use the software output in Fig. \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi) or Fig. \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS) to test the hypotheses.
+2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi) or Fig.\ \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS) to test the hypotheses.
    Write a proper conclusion to communicate the results.
 3. Are the results likely to be statistically valid? Explain.
 4. The study was designed to enable medics to choose the best airway device.  

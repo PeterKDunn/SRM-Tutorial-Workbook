@@ -42,9 +42,13 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-1. **FALSE**. A CI is an interval which probably contains the **population** value. We already know the **sample** value... we don't need an interval for it.
-1. **FALSE**. Confidence intervals can be any percentage (though 90%, 95% and 99% CIs are the most common, and 95% easily the most common of all).
-1. **FALSE**. A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
+1. **FALSE**. 
+   A CI is an interval which probably contains the **population** value. 
+   We already know the **sample** value... we don't need an interval for it.
+1. **FALSE**. 
+   Confidence intervals can be any percentage (though $90$%, $95$% and $99$% CIs are the most common, and $95$% easily the most common of all).
+1. **FALSE**.
+   A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
@@ -91,12 +95,12 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 ```
 
 
-1. For the **BVM sample**, 123 out of the 404 patients survived.
+1. For the **BVM sample**, $123$ out of the $404$ patients survived.
    For those receiving BVM, compute the sample *odds* of a patient who survived.
-2. For the **BVM sample**, 123 out of the 404 patients survived.
+2. For the **BVM sample**, $123$ out of the $404$ patients survived.
    For those receiving BVM, compute an estimate of the population *proportion* of patients who survive.
 3. Explain the difference between the meaning of the two above calculations.
-4. In another sample of 404 patients who received the BVM treatment, would we expect to find *exactly* 123 surviving?
+4. In another sample of $404$ patients who received the BVM treatment, would we expect to find *exactly* $123$ surviving?
    Why or why not?
    
 `r if (knitr::is_latex_output()) '<!--'`
@@ -110,11 +114,11 @@ include_graphics("Illustrations/corona-6278444_1920.jpg")
    Explain what is meant by the term 'sampling variation' in this context.
 6. Every time a new sample is chosen, the sample will likely yield a different value for $\hat{p}$.
    Sketch the distribution that shows how much the value of $\hat{p}$ is likely to change from one sample to the next.
-7. Compute an approximate 95% confidence interval for the population proportion based on the sample proportion.
+7. Compute an approximate $95$% confidence interval for the population proportion based on the sample proportion.
 8. Write a sentence communicating this confidence interval.
 9. Confirm that the conditions necessary for this calculation to be statistically valid are met.
-10. If the researchers wished to estimate the true survival proportion to within give-or-take 0.01 with 95% confidence, would the sample size need to be *larger* or *smaller*?
-11. For the ETI sample, 110 out of 416 patients survived.
+10. If the researchers wished to estimate the true survival proportion to within give-or-take $0.01$ with $95$% confidence, would the sample size need to be *larger* or *smaller*?
+11. For the ETI sample, $110$ out of $416$ patients survived.
     Use this information to construct a two-way table of treatment against survival.
 12. Select a graphical summary that could be used to display the information.
     Sketch this display.
@@ -139,10 +143,10 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 
 
 
-In 2011, *Eagle Boy's Pizza* ran a campaign that claimed (among many other claims) that Eagle Boy's pizzas were  'Real size 12-inch large pizzas' in an effort to out-market *Domino's Pizza*.
+In 2011, *Eagle Boy's Pizza* ran a campaign that claimed (among many other claims) that Eagle Boy's pizzas were  'Real size $12$-inch large pizzas' in an effort to out-market *Domino's Pizza*.
 
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
-A summary of the diameters of a sample of 125 of Eagle Boys' large pizzas is shown in Fig. \@ref(fig:PizzaCIjamovi) (jamovi) and Fig. \@ref(fig:PizzaCISPSS) (SPSS).
+A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi) (jamovi) and Fig.\ \@ref(fig:PizzaCISPSS) (SPSS).
 
 ```{r PizzaCIjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", fig.align="center", out.width='45%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
@@ -164,12 +168,12 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
    Why or why not?
 7. Draw a picture of the approximate sampling distribution for $\bar{x}$.
 8. Compute an approximate 95% confidence interval for the mean pizza diameter.
-9. Write a statement that communicates your 95% CI for the mean pizza diameter.
+9. Write a statement that communicates your $95$% CI for the mean pizza diameter.
 10. What are the **statistical** validity conditions?
 11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
-    Is it necessary to use Fig. \@ref(fig:PizzaHistoCI)? Explain.
+    Is it necessary to use Fig.\ \@ref(fig:PizzaHistoCI)? Explain.
     
-    - The sample size is greater than about 25.
+    - The sample size is greater than about $25$.
     - The population has a normal distribution.
     - The population standard deviation is known.
     - The sample has a normal distribution.
@@ -384,9 +388,9 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
       xlim = c(10, 12.5))
 ```
 
-12. If we wanted to estimate the population mean diameter to within 1&nbsp;mm (or $0.04$&nbsp;inches) with 95% confidence, what size sample would we need?  
+12. If we wanted to estimate the population mean diameter to within $1$\ mm (or $0.04$\ inches) with $95$% confidence, what size sample would we need?  
     What is a reasonable level of accuracy with which we could measure the diameter of a pizza?
-13. Do you think that, on average, the pizzas do have a mean diameter of 12&nbsp;inches in the population, as Eagle Boy's claim?
+13. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
     Explain.
     
 `r if (knitr::is_latex_output()) '<!--'`
@@ -412,16 +416,16 @@ include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-A study [@data:Guirao2017:amputees] examined the difference between 2-minute walk times (2MWT) for 10 patients before *and* after receiving a prosthetic implant.
+A study [@data:Guirao2017:amputees] examined the difference between 2-minute walk times (2MWT) for $10$ patients before *and* after receiving a prosthetic implant.
 (The 2MWT measures how far participants can walk in two minutes.)
 
-The 2MWT for ten amputees *with* and *without* an implant are shown in Fig. \@ref(fig:Guirao2MWT).
+The 2MWT for ten amputees *with* and *without* an implant are shown in Fig.\ \@ref(fig:Guirao2MWT).
 	
-```{r Guirao2MWT, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for 10 patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
+```{r Guirao2MWT, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
 knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 ```
 
-1. What type of RQ is implied: Descriptive, relational, or interventional?
+1. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
 2. What do $\mu_d$ and $\bar{d}$ represent in this context?
 3. Explain why these data should be analysed as *paired* data.
 4. Compute the *changes* in 2MWT for each patient.
@@ -432,12 +436,12 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 8. If another sample of ten subjects were studied, would the same sample mean difference $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
 9. Draw the approximate sampling distribution of $\bar{d}$.
-10. Compute an approximate 95% confidence interval for the population mean difference in 2MWT.
-11. Construct a one-sentence statement that communicates a 95% CI for the population change in 2MWT.
+10. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
+11. Construct a one-sentence statement that communicates a $95$% CI for the population change in 2MWT.
 12. What conditions must be met for this CI to be statistically valid?
 13. Is it reasonable to assume the CI is statistically valid? 
     Construct a stem-and-leaf plot to help.
-14. Suppose the researchers wished to estimate the change in 2MWT to within $5$m, with 95% confidence.
+14. Suppose the researchers wished to estimate the change in 2MWT to within $5$m, with $95$% confidence.
     What size sample would be necessary?
 15. Do you think the population 2MWT changes because of the prosthetic, on average?
     Explain and discuss.
@@ -476,11 +480,11 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$ m).
 
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
-The data are given in Table \@ref(tab:Guesses).  
+The data are given in Table\ \@ref(tab:Guesses).  
    
 The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi) and Fig. \@ref(fig:LengthsHallOutput) (SPSS).
 
@@ -511,12 +515,15 @@ if( knitr::is_html_output() ) {
 ```
 
 1. What is the value of $\bar{x}$?
-2. What are the values of $s$ and $\text{s.e.}(\bar{x})$? Explain the difference in the meaning of the two terms.
-3. Write down the 95% CI for the population estimate (see Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi) or Fig. \@ref(fig:LengthsHallOutput) (SPSS)).
+2. What are the values of $s$ and $\text{s.e.}(\bar{x})$? 
+   Explain the difference in the meaning of the two terms.
+3. Write down the $95$% CI for the population estimate (see Fig.\
+\@ref(fig:LengthsHallOutputjamovi1) (jamovi) or Fig.\ \@ref(fig:LengthsHallOutput) (SPSS)).
 4. What conditions must be met for this test to be statistically valid?
 5. Is it reasonable to assume the statistical validity conditions are satisfied? 
-   The histogram in Fig. \@ref(fig:LengthsHallHisto1) may help.
-6. Do you think students were very good at estimating the width of the hall using metric units? Explain.
+   The histogram in Fig.\ \@ref(fig:LengthsHallHisto1) may help.
+6. Do you think students were very good at estimating the width of the hall using metric units? 
+   Explain.
    
    
 ```{r echo=FALSE}
@@ -568,18 +575,19 @@ One research project studied
 Sample data were collected from 
 
 > ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
-> Data were collected on 5,735 adolescents' physical and psychological status...
+> Data were collected on $5,735$ adolescents' physical and psychological status...
 
 
-1. What type of research question is being answered: Descriptive, relational or interventional? Explain.
-2. For the 2864 males in the sample, 352 were classified as maturing late.
+1. What type of research question is being answered: descriptive, relational, repeated-measures of correlational? 
+   Explain.
+2. For the $2,864$ males in the sample, $352$ were classified as maturing late.
    Compute the sample estimate of the *population* proportion of males who mature late.
 3. Compute the precision of this estimate (that is, the *standard error*).
-4. Compute an approximate 95% confidence interval for the population proportion of boys that mature late based on the sample proportion.
+4. Compute an approximate $95$% confidence interval for the population proportion of boys that mature late based on the sample proportion.
 5. Confirm that the conditions necessary for this calculation to be statistically valid are met.
-6. If the researchers wished to estimate the true proportion of boys that mature late to within give-or-take 0.02 with 95% confidence, would a larger or smaller sample be needed?
+6. If the researchers wished to estimate the true proportion of boys that mature late to within give-or-take $0.02$ with $95$% confidence, would a larger or smaller sample be needed?
    Explain.
-7. If the researchers wished to estimate the proportion of boys maturing late within give-or-take 0.02 with 95% confidence, what size sample would be needed?
+7. If the researchers wished to estimate the proportion of boys maturing late within give-or-take $0.02$ with $95$% confidence, what size sample would be needed?
    
 
 
@@ -595,7 +603,7 @@ Wave power has been considered as a [source of energy since 1890](http://www.out
 
 To understand one method of harnessing this energy, one study [@data:hand:handbook] examined the bending stress (in Newton--metres) in part of a device used to generate electricity from wave power.
 
-Two different mooring types were compared (Table \@ref(tab:mooringCI)) in 18 different sea states.
+Two different mooring types were compared (Table\ \@ref(tab:mooringCI)) in $18$ different sea states.
 
 
 ```{r echo=FALSE}
@@ -674,7 +682,7 @@ if( knitr::is_html_output() ) {
 3. Using the statistics mode on your calculator, compute the sample mean and the sample standard deviation of these differences.
 4. Compute the standard error of the mean difference. 
    What does this value mean?
-5. Compute an approximate 95% CI for the population mean difference in two methods.
+5. Compute an approximate $95$% CI for the population mean difference in two methods.
 6. What conditions must be met for this CI to be statistically valid?
 7. Is it reasonable to assume the CI is statistically valid?  Draw a stem-and-leaf plot to check.
 8. Do you think the mooring types are really different? Explain.
@@ -703,7 +711,7 @@ After a number of runners collapsed near the finish of the Tyneside annual Great
 A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: how much do the concentrations change, on average?
 
 The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
-Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table \@ref(tab:RunnerTab).)
+Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table\ \@ref(tab:RunnerTab).)
 
 ```{r RunnerTab, echo=FALSE}
 RunnerTab <- array( dim = c(11, 3))
@@ -748,14 +756,14 @@ The 'usual' value for $\beta$ endorphines is usually less than about 11&nbsp;pmo
    Explain what this means in this context.
 6. If another sample of eleven runners were studied, would the same sample mean difference be computed?
    How much variation would be expected in the sample means found from different samples?
-7. Compute an approximate 95% confidence interval for the population mean difference in plasma $\beta$ concentrations.
-8. Construct a one-sentence statement that communicates a 95% CI for the population difference in plasma $\beta$ concentrations.
+7. Compute an approximate $95$% confidence interval for the population mean difference in plasma $\beta$ concentrations.
+8. Construct a one-sentence statement that communicates a $95$% CI for the population difference in plasma $\beta$ concentrations.
 9. What conditions must be met for this CI to be statistically valid?
 10. Is it reasonable to assume the CI is statistically valid? 
     Construct a stem-and-leaf plot to help.
 11. Do you think the population plasma $\beta$ concentration changes during the race, on average?
     Explain.
-12. Suppose the researchers wished to estimate the change in plasma $\beta$ endorphin concentrations to within $2.5$&nbsp;pmol/litre, with 95% confidence.
+12. Suppose the researchers wished to estimate the change in plasma $\beta$ endorphin concentrations to within $2.5$\ pmol/litre, with $95$% confidence.
     What size sample would be necessary?
 
 

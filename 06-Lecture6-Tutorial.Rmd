@@ -31,7 +31,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 
 ::: {.webex-check .webex-box}
 A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
-For the simulation, they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution, with a mean of 13&nbsp;tonnes and a standard deviation of 1.3&nbsp;tonnes.
+For the simulation, they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution, with a mean of $13$\ tonnes and a standard deviation of $1.3$\ tonnes.
 
 The 
 `r if (knitr::is_latex_output()) {
@@ -39,15 +39,15 @@ The
 } else {
    '[Isuzu F-Series trucks](https://isuzu.com.au/)'
 }`
-are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configuration). 
+are rated as having a GVM between $10.7$ and $26.0$ tonnes (depending on the configuration). 
 
-1. What is the $z$-score for the lower limit of 10.7&nbsp;tonnes? \tightlist
+1. What is the $z$-score for the lower limit of $10.7$\ tonnes? \tightlist
 `r if( knitr::is_html_output() ) {
    webexercises::mcq( c("1.77",
           answer = "-1.77", 
           "-0.7",
           "0.7") )}`
-1. What is the $z$-score for the upper limit of 26.0&nbsp;tonnes?
+1. What is the $z$-score for the upper limit of $26.0$\ tonnes?
 `r if( knitr::is_html_output() ) {
    webexercises::mcq( c(answer ="10",
           "-10", 
@@ -82,7 +82,7 @@ are rated as having a GVM between 10.7 and 26.0 tonnes (depending on the configu
 
 ## Normal distributions and IQs {#NormalIQs}
 
-Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of 100, and a standard deviation of 15.
+Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of $100$, and a standard deviation of $15$.
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q1.Rmd'}
@@ -108,7 +108,7 @@ The values quoted are used for modelling purposes, and are essentially the popul
 
 1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you? _______
 2. Write down your own height: ________
-3. From Fig. \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
+3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
    Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
    Explain what this means.
 
@@ -116,11 +116,11 @@ The values quoted are used for modelling purposes, and are essentially the popul
 knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 ```
    
-4. Heights have an approximate normal (bell-shape) distribution, so the 68--95--99.7 rule applies.  
-   **Using the 68--95--99.7 rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
+4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
+   **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
    (Hint: Draw a picture!)
-5. Using [**the normal distribution tables**](#ZTablesOnline), together with the information from **Fig. \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
-6. Using the 68--95--99.7 rule, the middle 95\% of females 18 and over (using the **Fig. \@ref(fig:Ht2)**) are within what height range?
+5. Using [**the normal distribution tables**](#ZTablesOnline), together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
+6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of females $18$ and over (using the **Fig.\ \@ref(fig:Ht2)**) are within what height range?
 	
 ```{r Ht2, echo=FALSE, fig.cap="Part of the ABS report on heights of females Australians", fig.align="center", out.width='55%'}
 knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.png")
@@ -128,18 +128,18 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.pn
 
 
 
-7. For this part, we want to just look at **females over 18**; from **Fig. \@ref(fig:Ht2)**, for this group, the mean is $\mu = 161.4$&nbsp;cm, and the standard deviation is $\sigma = 6.7$&nbsp;cm.
+7. For this part, we want to just look at **females over $18$**; from **Fig.\ \@ref(fig:Ht2)**, for this group, the mean is $\mu = 161.4$\ cm, and the standard deviation is $\sigma = 6.7$\ cm.
    Use this information to answer the following questions.
 
-    a. Compute the *percentage* of females 18 and over that are *shorter* than 171&nbsp;cm.
-    b. What are the *odds* that a female 18 and over is *shorter* than 171&nbsp;cm?
-    c. Compute the *percentage* of females 18 and over that are *taller* than 171&nbsp;cm?
-    d. What are the *odds* that a female 18 and over is *taller* than 171&nbsp;cm?
-    e. Compute the *percentage* of females  18  and over that are *between* 170 and 180&nbsp;cm?
-    f. What are the *odds* that a female  18 and over is *between* than 170 and 180&nbsp;cm?
+    a. Compute the *percentage* of females $18$ and over that are *shorter* than $171$\ cm.
+    b. What are the *odds* that a female $18$ and over is *shorter* than $171$\ cm?
+    c. Compute the *percentage* of females $18$ and over that are *taller* than $171$\ cm?
+    d. What are the *odds* that a female $18$ and over is *taller* than $171$\ cm?
+    e. Compute the *percentage* of females $18$ and over that are *between* 170 and $180$\ cm?
+    f. What are the *odds* that a female $18$ and over is *between* than $170$ and $180$\ cm?
 	  
-8. For this part, use the data in **Fig. \@ref(fig:Ht2)**.
-   Approximately 20\% of females 18 and over are shorter than what height?
+8. For this part, use the data in **Fig.\ \@ref(fig:Ht2)**.
+   Approximately $20$% of females $18$ and over are shorter than what height?
      
 
 
@@ -173,7 +173,7 @@ For the following, indicate *how* you could estimate the probability (classical;
       answer = "Relative frequency approach.",
                "Subjective approach."
       ))}`
-5. The probability that a roulette wheel spins a 33.  
+5. The probability that a roulette wheel spins a $33$.  
 `r if( knitr::is_html_output() ) {longmcq(
     c(answer = "Classical approach.",
                "Relative frequency approach.",
@@ -207,9 +207,9 @@ Use
 } else {
    'the website https://www.random.org/coins/'
 }`
-to flip **ten** Australian one-dollar coins at random (see Fig. \@ref(fig:CoinTosser)).
+to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
-   '(Click *Games* from the top, then *Coin flipper*, then select the options to toss 10 coins, and use an Australian $1 coin.)'}`
+   '(Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$ coins, and use an Australian $1 coin.)'}`
 
 
 ```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
@@ -289,11 +289,11 @@ if( knitr::is_html_output() ) {
 
 1. Use this data to create a histogram of the proportion of heads.
    How would you describe the histogram?
-1. I did the same thing, but I repeated the process of tossing 10 coins 400 times.
-   My histogram is shown in Fig. \@ref(fig:HistCoinToss).
+1. I did the same thing, but I repeated the process of tossing $10$ coins $400$ times.
+   My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
    How would you describe the histogram?
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
-1. How would this *sampling distribution* change if we looked the proportion of heads in 50 tosses of a coin?
+1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
 
 
 ```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $100$ repetitions'}
@@ -322,13 +322,14 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 
-The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured in kilograms or seconds etc.  It is just a number; in fact, it is a bit like a $z$-score.] climatological measure that is easily computed, and has been shown to be related to the weather conditions in eastern Australia  [@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
+The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured in kilograms or seconds etc.  
+It is just a number; in fact, it is a bit like a $z$-score.] climatological measure that is easily computed, and has been shown to be related to the weather conditions in eastern Australia  [@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
 
-The daily SOI has an approximate normal distribution, and is designed to have a mean of 0 and a standard deviation of 10.
+The daily SOI has an approximate normal distribution, and is designed to have a mean of $0$ and a standard deviation of $10$.
 
 1. Draw a rough, labelled sketch of the theoretical distribution of the SOI values.
 2. What is the probability that the daily SOI exceeds $20$?
-3. What are the *odds* that the daily SOI exceeds 20?
+3. What are the *odds* that the daily SOI exceeds $20$?
 4. What is the probability that the daily SOI is less than $-25$?
 5. What is the probability that the daily SOI is greater than $-12$?
 6. What is the probability that the daily SOI is between $-10$ and $20$?

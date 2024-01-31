@@ -52,7 +52,7 @@ In YouTube, I searched for `"statistics" "mean" "standard deviation"` together w
 ::: {.webex-check .webex-box}
 An Australian study [@others:lunn:cida] compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine how the jellyfish were different at each site.
 
-A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig. \@ref(fig:JellyfishHist).
+A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
 ```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island", fig.align="center", fig.width=5}
 
@@ -89,17 +89,17 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 1. Two students are arguing about the median breadth.
    Who is correct?
 
-**Student 1** says:  
+**Student\ 1** says:  
 
-> The bars in the histogram have heights of 10, 2, 4, 2 and 4.
-> When these numbers are put in order, they are: 2, 2, 4, 4, 10.
-> The median breadth is the median of these numbers, so the median breadth is the middle one: 4mm is the median.  
+> The bars in the histogram have heights of $10$, $2$, $4$, $2$ and $4$.
+> When these numbers are put in order, they are: $2$, $2$, $4$, $4$, $10$.
+> The median breadth is the median of these numbers, so the median breadth is the middle one: $4$\ mm is the median. 
 
-**Student 2** responds:  
+**Student\ 2** responds:  
 
 > You have the correct answer, but for the wrong reason!
 > There are five bars, and the middle bar is the third bar.
-> Since the third bar has a height of 4, the median breadth is 4mm.  
+> Since the third bar has a height of $4$, the median breadth is $4$\ mm.  
 
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -113,9 +113,9 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 
 2. Describe the histogram.
-3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig. \@ref(fig:JellyfishBoxplots).
+3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig.\ \@ref(fig:JellyfishBoxplots).
    Describe and compare the breadths of the jellyfish.
-4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig. \@ref(fig:JellyfishHist))?
+4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
 `r if( knitr::is_html_output() ) {webexercises::mcq( c(
         						  answer = "The Site A box", 
                       "The Site B box") )}`
@@ -156,7 +156,7 @@ boxplot(Width ~ Location,
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. Discuss in class.
-1. The sample is small, so hard to too certain: *Average* about 10mm; data from about 6 to 16mm; slightly right skewed; no outliers..
+1. The sample is small, so hard to too certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers..
 1. Discuss in class.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
@@ -251,7 +251,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 In this activity, you get to critique actual Project submissions, so you can critique your own *before* submission.
 
-1. Critique the numerical summary in Fig. \@ref(fig:StudentsNumSumA), a screenshot from a student Project Report.
+1. Critique the numerical summary in Fig.\ \@ref(fig:StudentsNumSumA), a screenshot from a student Project Report.
    Identify ways to improve the numerical summary.  
    
    The RQ is '*What is the mean difference between the kicking distance using dominant and non-dominant legs?*'
@@ -266,7 +266,7 @@ You don't know what 'standard error' means yet, so don't worry about that column
 knitr::include_graphics("ProjectImages/StudentResults1.png")
 ```
 
-2. Critique the numerical summary in Fig. \@ref(fig:StudentsNumSumB), a screenshot from a student Project Report.
+2. Critique the numerical summary in Fig.\ \@ref(fig:StudentsNumSumB), a screenshot from a student Project Report.
    (You don't know what 'standard error' means yet, so don't worry about that column.)
    Identify ways to improve the numerical summary.
 
@@ -302,9 +302,9 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of 1.5 volt batteries to reduce their voltage to 1.0 volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$ volt batteries to reduce their voltage to $1.0$ volts under standard testing conditions.
 
-The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table \@ref(tab:BattTable).
+The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTable).
 
 ```{r BattTable, echo=FALSE}
 BattTab <- array( "", dim = c(2, 9))
@@ -363,7 +363,8 @@ if( knitr::is_html_output() ) {
    Explain.
 8. Decide if outliers exist in the data. Explain.
 	 If so, identify them.
-9. Explain whether the cost of the batteries would also be important information to know. (See below.)
+9. Explain whether the cost of the batteries would also be important information to know. 
+   (See below.)
 10. What advice would you give about buying batteries based on these data?
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -392,7 +393,7 @@ To assess various lung diseases, many methods are available (including using a s
 The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
 (A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
 
-The histogram in Fig. \@ref(fig:Baughman2007-HistogramFig2) comes from a study [@data:Baughman2007:SixMinuteWalk] examining $n = 142$ sarcoidosis patients using the FAS.
+The histogram in Fig.\ \@ref(fig:Baughman2007-HistogramFig2) comes from a study [@data:Baughman2007:SixMinuteWalk] examining $n = 142$ sarcoidosis patients using the FAS.
 
 1. Critique this histogram. Identify ways to improve the histogram.
 2. Describe this histogram in words: what does it tell you?
@@ -417,9 +418,9 @@ This question is **optional**; e.g., if you need more practice, or you are study
 Environmentally-friendly buildings are often assumed to have a better indoor environmental quality (when occupants rate the comfort) than conventional buildings; in turn, this is assumed to have a positive impact on productivity.
 
 One group of researchers decided to test this assertion. 
-Figure \@ref(fig:Paul2008Table1) is taken from a study of office temperatures [@data:Paul2008:Comfort] in an environmentally-friendly building at Charles Sturt University.
+Figure\ \@ref(fig:Paul2008Table1) is taken from a study of office temperatures [@data:Paul2008:Comfort] in an environmentally-friendly building at Charles Sturt University.
 
-Operative temperatures were measured in three offices between 8am to 6pm during four weeks near the end of summer; Office A is located on the ground floor, while Offices B and C are located on the top floor.
+Operative temperatures were measured in three offices between 8am to 6pm during four weeks near the end of summer; Office\ A is located on the ground floor, while Offices B and C are located on the top floor.
 The building is not *air* conditioned.
 
 1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
@@ -467,7 +468,7 @@ These drill questions are more about practising the underlying *mathematics* rat
 If you need help, please **ask**.
 :::
 
-1. The data in Table \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
+1. The data in Table\ \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
    b. Without using a calculator, find the **median** of these numbers.
 
@@ -514,7 +515,7 @@ PT <- polythene$Polythene
 PT <- PT[ sample( 1:length(PT), len) ]
 ```
 
-2. The data in Table \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
+2. The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
    b. Without using a calculator, find the **median** of these numbers.
 
@@ -545,7 +546,7 @@ if( knitr::is_html_output() ) {
 
 
 
-3. The data in Table \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
+3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
    b. Without using a calculator, find the **median** of these numbers.
 

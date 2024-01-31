@@ -35,20 +35,22 @@ Coeliac            |  23             | 8.39     | 4.4                    | 0.92
 Non-coeliac        |  23             | 8.17     | 4.1                    | 0.86
 **Difference**     |                 | 0.22     | &nbsp;                 | 1.3
 
-An *exact* 95% CI is given as for the difference is $-2.32$ to $2.76$.
+An *exact* $95$% CI is given as for the difference is $-2.32$ to $2.76$.
 
-1. Using the 68--95--99.7 rule gives a slightly different CI.
+1. Using the $68$--$95$--$99.7$ rule gives a slightly different CI.
   Why?
 `r if( knitr::is_html_output() ) { 
   webexercises::longmcq( c(
   "The researchers made a calculation error.",
-  answer = "The researchers calculated an exact 95% CI (not an approximate 95% CI).",
+  answer = "The researchers calculated an exact $95$% CI (not an approximate $95$% CI).",
   "The statistical validity conditions are not met.")) }`
-1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. True or false? \tightlist 
+1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. 
+   True or false? \tightlist 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. True or false?  
+1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
+   True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. We are 95% confidence that the difference between the population means is:   
+1. We are $95$% confidence that the difference between the population means is:   
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("Larger for coeliacs", 
           "Smaller for coeliacs",
@@ -61,12 +63,12 @@ An *exact* 95% CI is given as for the difference is $-2.32$ to $2.76$.
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-1. The researchers used an exact 95%CI, which gives very similar answers to using an approximate 95% CI.
-   (The 68--95--99.7 rule gives approximate multipliers only.)
+1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$% CI.
+   (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
 1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
 1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
-1. The *positive* value of 2.76 means (as we saw in the first Quick Revision question) that coeliacs have a mean of 2.76 more DMFT.  
-   So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of 2.32 more DMFT.
+1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of 2.76 more DMFT.  
+   So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
@@ -97,43 +99,46 @@ include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
 Claire and Jake were wondering about the mean number of matches in a box.
 The boxes contain this statement:
 
-> An average of 45 matches per box.
+> An average of $45$ matches per box.
 
-They purchased a carton containing 25 boxes of matches, and Jake counted the number of matches in *one* of those 25 boxes.
-There was 44 matches.
+They purchased a carton containing $25$ boxes of matches, and Jake counted the number of matches in *one* of those $25$ boxes.
+There was $44$ matches.
 
 'Oh wow.  Just wow.' said Jake.
-'They lie.  There's only 44 in this box.'
+'They lie.  There's only $44$ in this box.'
 
 
 1. What is Jake's misunderstanding? \tightlist
 2. Then, they counted the number of matches in *each* of the twenty-five boxes.  
    
-   Claire found that the mean number of matches per box was 44.9 matches, and the standard deviation was $0.124$.  
+   Claire found that the mean number of matches per box was $44.9$ matches, and the standard deviation was $0.124$.  
    
-   Jake notes that the mean is 44.9 matches per box, and says: 'You can't have 0.9 of a match.  That's dumb.'
+   Jake notes that the mean is $44.9$ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
    How would you respond?
 3. 'Wow!' said Jake.
-   'The claim is 45 matches per box on average, but the mean really is 44.9!
+   'The claim is $45$ matches per box on average, but the mean really is $44.9$!
    They're liars!  Liar, liar, pants on...'  
    
    What is Jake's misunderstanding?
-4. What two broad reasons could explain why the sample mean is *not* 45?
+4. What two broad reasons could explain why the sample mean is *not* $45$?
 5. 'Come on, Jake,' said Claire.
-   'As if the mean will be *exactly* 45 in a sample every single time.
+   'As if the mean will be *exactly* $45$ in a sample every single time.
    Let's work out the confidence interval.'  
    
    Why does Claire think a CI is needed?
    What will it tell them?
-6. What is an approximate 95% confidence interval for the mean for Claire's sample?
+6. What is an approximate $95$% confidence interval for the mean for Claire's sample?
 7. 'Aha---I told you so!  They *are* absolutely lying!
    Your confidence interval doesn't even include their mean of $45$!' said Jake.
    'The manufacturer *must* be lying!'  
    
-   Is Jake correct?  Why or why not?
+   Is Jake correct?  
+   Why or why not?
    What does the CI *mean*?
-8. In this scenario, what does $\bar{x}$ represent?  What is the *value* of $\bar{x}$?
-9. In this scenario, what does $\mu$ represent?  What is the *value* of $\mu$?
+8. In this scenario, what does $\bar{x}$ represent?  
+   What is the *value* of $\bar{x}$?
+9. In this scenario, what does $\mu$ represent?  
+   What is the *value* of $\mu$?
 
 
 
@@ -157,12 +162,12 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 
 > For rats, is the mean lifetime *shorter* for rats on a *free-choice* diet compared to rats on a *healthy, restricted* diet?
 
-A study [@data:Berger1988:RatsData] compared the lifetime of rats on a healthy, restricted diet (106 rats) and on a free-eating diet (89 rats).
-The data set is large, so we only show an extract of the data  (Fig. \@ref(fig:RatLifetimesDatajamovi-SPSS)).
+A study [@data:Berger1988:RatsData] compared the lifetime of rats on a healthy, restricted diet ($106$ rats) and on a free-eating diet ($89$ rats).
+The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:RatLifetimesDatajamovi-SPSS)).
 
 1. Explain why this study compares two *independent* groups.
 2. What is the **parameter** of interest?
-3. Use the numerical summary (Fig. \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig. \@ref(fig:Berger1988SummaryCI) (SPSS)) and the output from the analysis (Fig. \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig. \@ref(fig:RatLifetimesOutputCI) (SPSS)) to write down the appropriate 95% CI, to estimate the *difference* between the population means.
+3. Use the numerical summary (Fig.\ \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig.\ \@ref(fig:Berger1988SummaryCI) (SPSS)) and the output from the analysis (Fig.\ \@ref(fig:Berger1988SummaryCIjamovi) (jamovi); Fig.\ \@ref(fig:RatLifetimesOutputCI) (SPSS)) to write down the appropriate $95$% CI, to estimate the *difference* between the population means.
 
 
 ```{r RatLifetimesDatajamovi-SPSS, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example: jamovi (left panel) and SPSS (right panel)", fig.align="center", out.width='32%'}
@@ -179,9 +184,9 @@ knitr::include_graphics("SoftwareImages/RatLivesData.png")
 
     a. The sample mean lifetime is between $223.34$ and $346.13$ days.
     b. The population mean difference in lifetimes is between $223.34$ and $346.13$ days.
-    c. We are 95% sure that the sample mean difference in lifetimes is between $223.34$ and $346.13$ days.
-    d. We are 95% sure that the difference between the population mean lifetimes is between $223.34$ and $346.13$ days.
-    e. If we repeated everything many times, 95% of the CIs constructed would contain the difference between the population mean.
+    c. We are $95$% sure that the sample mean difference in lifetimes is between $223.34$ and $346.13$ days.
+    d. We are $95$% sure that the difference between the population mean lifetimes is between $223.34$ and $346.13$ days.
+    e. If we repeated everything many times, $95$% of the CIs constructed would contain the difference between the population mean.
 
 
 
@@ -207,8 +212,8 @@ knitr::include_graphics("SoftwareImages/RatLivesOutput.png")
    Write an improved statement communicating the CI.
 6. What conditions must be met for this CI to be statistically valid?
    Is it reasonable to assume the CI is statistically valid?
-   (You may, or may not, need to refer to Fig. \@ref(fig:SPSSOutputBoxplotsCI).)
-7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig. \@ref(fig:SPSSOutputBoxplotsCI).
+   (You may, or may not, need to refer to Fig.\ \@ref(fig:SPSSOutputBoxplotsCI).)
+7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig.\ \@ref(fig:SPSSOutputBoxplotsCI).
 
 
 ```{r SPSSOutputBoxplotsCI, echo=FALSE, fig.show="hold", fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime example", fig.align="center", out.width=c("40%", "10%", "40%")}
@@ -252,7 +257,7 @@ The researchers asked the RQ;
 > For US children, is the odds of a boy maturing late the *same* as the odds of a girl maturing late?
 
 
-Part of the data are shown entered into jamovi and SPSS (Fig. \@ref(fig:MaturationData-jamova-SPSS))
+Part of the data are shown entered into jamovi and SPSS (Fig.\ \@ref(fig:MaturationData-jamova-SPSS))
 
 
 ```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi (left) and SPSS (right)", fig.align="center", out.width='33%'}
@@ -265,9 +270,9 @@ knitr::include_graphics( c("SoftwareImages/BoysMatureData-jamovi.png",
 
 
 
-1. For the 2,864 males in the sample, 352 were classified as maturing late.  
-   For the girls, 336 of the 2,664 matured late.
-   Use this information to construct a two-way table of sex against maturation time (Table \@ref(tab:MaturationData)).
+1. For the $2,864$ males in the sample, $352$ were classified as maturing late.  
+   For the girls, $336$ of the $2,664$ matured late.
+   Use this information to construct a two-way table of sex against maturation time (Table\ \@ref(tab:MaturationData)).
    
 ```{r echo=FALSE, MaturationData}
 MaturationData <- array( "", dim = c(3, 3) )
@@ -355,7 +360,7 @@ if( knitr::is_html_output() ) {
 4. Among the girls, compute the *odds* of maturing late.
    Interpret this value.
 5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
-   Interpret this value, using the software output (Fig. \@ref(fig:BoysMaturejamovi); Fig. \@ref(fig:BoysMatureSPSS)).
+   Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi); Fig.\ \@ref(fig:BoysMatureSPSS)).
   
 ```{r BoysMaturejamovi, echo=FALSE, fig.cap="The jamovi output from the maturation study", fig.align="center", out.width="50%"}
 knitr::include_graphics( "SoftwareImages/BoysMatureOdds-jamovi.png")
@@ -365,9 +370,12 @@ knitr::include_graphics( "SoftwareImages/BoysMatureOdds.png")
 ```
 
 6. What is the **parameter** of interest?
-7. Write down the OR and the 95% CI for the OR from the jamovi or SPSS output. What does it mean?
-8. Compile the numerical summary table for these data (Table \@ref(tab:MaturationSummary)).
-9. Are boys generally more likely to mature later than girls?  `r if (knitr::is_html_output()) '**Vote below.**'`  Justify your answer.
+7. Write down the OR and the $95$% CI for the OR from the jamovi or SPSS output. 
+   What does it mean?
+8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
+9. Are boys generally more likely to mature later than girls? 
+   `r if (knitr::is_html_output()) '**Vote below.**'`  
+   Justify your answer.
 
 
 
@@ -475,11 +483,11 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
 
 
-The 44 individual students' guesses had a standard deviation of $7.145$.
-Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within 0.5&nbsp;m.
+The $44$ individual students' guesses had a standard deviation of $7.145$.
+Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5$\ m.
 
 What size sample would Prof. Lewis need?
 	
@@ -532,7 +540,8 @@ Eagle Boy's made the data behind the campaign publicly available.
 
 Each sample contained similar pizzas types (the three toppings were: supreme, Hawaiian, meat-lovers; the three base types were deep, thin, mid).
 
-Some output from a sample of 125 of Eagle Boys' and Domino's large pizzas is shown in Fig. \@ref(fig:PizzaSizeComparejamovi) (jamovi)  and Fig. \@ref(fig:PizzaSizeCompare) (SPSS).
+Some output from a sample of $125$ of Eagle Boys' and Domino's large pizzas is shown in Fig.\
+\@ref(fig:PizzaSizeComparejamovi) (jamovi)  and Fig.\ \@ref(fig:PizzaSizeCompare) (SPSS).
 
 ```{r PizzaSizeComparejamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boy's and Domino's large pizzas, from jamovi", fig.align="center", out.width="98%"}
 include_graphics("SoftwareImages/PizzaSizeCompare-jamovi.png")
@@ -544,7 +553,7 @@ include_graphics("SoftwareImages/PizzaSizeCompare.png")
 
 1. Explain whether the study is observational or experimental (true or quasi). \tightlist
 2. Identify the type of research question is being answered:
-   Descriptive, relational or interventional. 
+   descriptive, relational, repreated-measures or correlational?
    Explain.
 3. Two students are arguing about this study.
    One claims that the study compares *two independent samples*, because the pizzas have come from two different companies completely.
@@ -554,10 +563,10 @@ include_graphics("SoftwareImages/PizzaSizeCompare.png")
    Why?
 4. Write down the CI to estimate the difference in population means.
 5. Write a statement communicating the confidence interval.
-6. What does the right panel of Fig. \@ref(fig:PizzaSizeBoxplots) communicate?
+6. What does the right panel of Fig.\ \@ref(fig:PizzaSizeBoxplots) communicate?
 7. What condition must hold for the CI to be statistically valid?
 8. Is it reasonable to assume these conditions are satisfied? 
-   (You may need to refer Fig. \@ref(fig:PizzaSizeBoxplots).)
+   (You may need to refer Fig.\ \@ref(fig:PizzaSizeBoxplots).)
 9. *Eagle Boy's* claimed that their pizzas are 'larger' than Domino's pizzas.
    Do you agree or disagree?  
    Why?
@@ -593,13 +602,13 @@ An Australian study [@data:luo:gm] decided to study:
 
 To answer this relational RQ, the researcher asked 894 Australians about their income (low or high), and  their attitude to GM foods (for or against).
 
-1. The data collected are given in  Table \@ref(tab:GMfoods).
+1. The data collected are given in  Table\ \@ref(tab:GMfoods).
    Compute the odds that, among *high*-income earners, someone is in favour of GM foods.
 1. Compute the odds that, among *low*-income earners, someone is in favour of GM foods.   
    Interpret what this means.
 1. The odds of a high-income earner being in favour of GM foods is how many times more than a low-income earner being in favour of GM food?
    This value is called the **odds ratio**.
-1. For these data, the output is shown in Fig. \@ref(fig:GMfoodsjamovi) (from jamovi).
+1. For these data, the output is shown in Fig.\ \@ref(fig:GMfoodsjamovi) (from jamovi).
    Write down the confidence interval for the odds ratio, and interpret what this means.
 1. A politician stated that 'any attempt to suggest that the acceptance of GM foods is related to income are clearly bogus'.
    Do you agree or disagree?

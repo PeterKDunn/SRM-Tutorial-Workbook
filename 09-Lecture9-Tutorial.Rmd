@@ -29,13 +29,15 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 
 ::: {.webex-check .webex-box}
 1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
- True or false?  
+   True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. Hypothesis are always written in terms of population parameters. True or false?  
+1. Hypothesis are always written in terms of population parameters. 
+   True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
-1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. True or false?  
+1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
+   True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
 :::
@@ -75,13 +77,13 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 `r if (knitr::is_latex_output()) '-->'`
 
 
-In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size 12-inch large pizzas' [@mypapers:Dunn:PizzaSize].
+In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size $12$-inch large pizzas' [@mypapers:Dunn:PizzaSize].
 Eagle Boys' made the data from the campaign publicly available.
 
-A summary of the diameters of a sample of 125 of their large pizzas is shown in Fig. \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig. \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+A summary of the diameters of a sample of $125$ of their large pizzas is shown in Fig.\ \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig.\ \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
 We would like to test the company's claim, and ask the RQ:
 
-> For Eagle Boys' pizzas, is mean diameter actually 12 inches, or not?
+> For Eagle Boys' pizzas, is mean diameter actually $12$ inches, or not?
 
 
 ```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
@@ -99,15 +101,17 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 1. Write down the values of $\bar{x}$ and $s$.
 1. Determine the value of the standard error of the mean.
 1. Explain the difference in meaning between $s$ and $\text{s.e.}(\bar{x})$ in this context.
-1. Write the hypotheses to test if the mean pizza diameter is 12&nbsp;inches.
+1. Write the hypotheses to test if the mean pizza diameter is $12$\ inches.
 1. Is the alternative hypothesis one- or two-tailed? Why?
 1. Draw the normal distribution that shows how the *sample mean pizza diameter* would vary by chance, *even if* the population mean diameter was 12&nbsp;inches. 
 1. Compute the $t$-score for testing the hypotheses.
-1. What is the approximate $P$-value using the 68--95--99.7 rule?
-1. Write a conclusion. (The CI was found in the [Teaching Week 7 tutorial](#CIPizzas).)
+1. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
+1. Write a conclusion. 
+   (The CI was found in the [Teaching Week\ 7 tutorial](#CIPizzas).)
 1. Is it reasonable to assume the *statistical* validity conditions are satisfied? 
    (Fig. \@ref(fig:PizzaHistoHT) may, or may not, help.)
-1. Do you think that the pizzas do have a mean diameter of 12&nbsp;inches in the population, as Eagle Boys' claim? Explain.
+1. Do you think that the pizzas do have a mean diameter of 12&nbsp;inches in the population, as Eagle Boys' claim?
+   Explain.
 
 ```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.align="center", fig.width=6}
 PS <- structure(list(ID = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 
@@ -336,7 +340,7 @@ In a *two-tailed* $t$-test where $n = 49$, what is the approximate $P$-value for
 5. $t = -1.59$.
 6. $t = 6.71$.
 
-(**Hint**: Use the 68--95--99.7 rule.)
+(**Hint**: Use the $68$--$95$--$99.7$ rule.)
 
 How would your answers change if these $t$-scores came from a *one-tailed* test?
 
@@ -360,9 +364,9 @@ include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-(This continues from Sect. \@ref(CIImplant).)
+(This continues from Sect.\ \@ref(CIImplant).)
 
-A study [@data:Guirao2017:amputees] examined the 2-minute walk times (2MWT) before and after receiving a prosthetic implant.
+A study [@data:Guirao2017:amputees] examined the $2$-minute walk times (2MWT) before and after receiving a prosthetic implant.
 The 2MWT measures how far participants can walk in two minutes.
 The RQ was:
 
@@ -386,11 +390,11 @@ The RQ was:
     - $\mu_{\text{With implant}} > 0$
 
 3. Explain the *meaning* of the standard error of the mean difference in this context.
-4. The data for the ten amputee subjects are shown in Fig. \@ref(fig:Guirao2MWTb).
-	 Write down the mean difference, standard deviation of the difference, and standard error of the mean differences, using Fig. \@ref(fig:2MWTjamovi) or Fig. \@ref(fig:2MWTSPSS).
+4. The data for the ten amputee subjects are shown in Fig.\ \@ref(fig:Guirao2MWTb).
+	 Write down the mean difference, standard deviation of the difference, and standard error of the mean differences, using Fig.\ \@ref(fig:2MWTjamovi) or Fig.\ \@ref(fig:2MWTSPSS).
 
 
-```{r Guirao2MWTb, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for 10 patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
+```{r Guirao2MWTb, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
 knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 ```
 
@@ -410,7 +414,7 @@ knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
 6. Write a statement that communicates the result of the test.
 7. What conditions must be met for this test to be valid?
 8. Is it reasonable to assume the assumptions are satisfied?
-   Use the histogram of the data  in Fig. \@ref(fig:2MWTHisto) to help.
+   Use the histogram of the data  in Fig.\ \@ref(fig:2MWTHisto) to help.
 
 ```{r 2MWTHisto, echo=FALSE, fig.cap="Histogram of differences for the increases in 2MWT with implant", fig.align="center", out.width="40%"}
 knitr::include_graphics("ArticleImages/Guirao2017-Hist.png")
@@ -435,9 +439,9 @@ According to
 } else {
   'Statistica.com,' 
 }`
-30% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
+$30$% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
 
-Suppose a group of 35 Swedish computer programmers includes 12 that wear contact lenses.
+Suppose a group of 35 Swedish computer programmers includes $12$ that wear contact lenses.
 Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
 Conduct a test, then write a conclusion (including a CI).
 
@@ -461,12 +465,12 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1\ m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
 The data are given in Table \@ref(tab:GuessesHT).  
    
-The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig. \@ref(fig:LengthsHallOutput1) (SPSS).
+The data were entered into software, producing the output in Fig.\ \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig.\ \@ref(fig:LengthsHallOutput1) (SPSS).
 
 
 ```{r GuessesHT, echo=FALSE}
@@ -495,11 +499,12 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? Explain the difference in the meaning of the two terms.
-2. Perform a hypothesis test to determine if the mean guess is the actual distance of 13.1&nbsp;m.
-   (The CI was computed in Sect.&nbsp;\@ref(RoomWidthCI).)
+1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? 
+   Explain the difference in the meaning of the two terms.
+2. Perform a hypothesis test to determine if the mean guess is the actual distance of $13.1$\ m.
+   (The CI was computed in Sect.\ \@ref(RoomWidthCI).)
 3. Is it reasonable to assume the conditions are satisfied? 
-   The histogram in Fig.&nbsp;\@ref(fig:LengthsHallHistoHT) may (or may not) help.
+   The histogram in Fig.\ \@ref(fig:LengthsHallHistoHT) may (or may not) help.
 4. Do you think students were very good at estimating the width of the hall using metric units?
 
 ```{r echo=FALSE}
@@ -562,10 +567,10 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 
-An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass A) to a native grass (Grass B).
-She uses 50 different sites, allocating the two grasses at random to the sites (25 sites for each grass).
+An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
+She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
 
-After 12 months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+After $12$ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
 She finds a statistically significant difference between the odds in the two groups.
 Which of these statements is *consistent* with this conclusion?
 
@@ -610,7 +615,7 @@ After a number of runners collapsed near the finish of the Tyneside annual Great
 A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: does the concentration of plasma $\beta$ endorphins *increase*, on average, during fun runs.
 
 The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
-Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table \@ref(tab:RunnerTabHT).)
+Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table\ \@ref(tab:RunnerTabHT).)
 A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre. 
  
 1. Explain why these data should be analysed as a paired means situation. \tightlist
@@ -627,12 +632,12 @@ A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre.
     g. $\mu_{\text{Before}} < 0$
     h. $\mu_{\text{After}} > 0$
 
-3. Write down the mean, standard deviation and standard error, using Fig. \@ref(fig:FunRunjamovi) (jamovi) or Fig. \@ref(fig:FunRunSPSS) (SPSS).
-4. Write down the value of the $t$-statistic, then estimate the $P$-value (using the 68--95--99.7 rule).
+3. Write down the mean, standard deviation and standard error, using Fig.\ \@ref(fig:FunRunjamovi) (jamovi) or Fig.\ \@ref(fig:FunRunSPSS) (SPSS).
+4. Write down the value of the $t$-statistic, then estimate the $P$-value (using the $68$--$95$--$99.7$ rule).
 5. Write a statement that communicates the result of the test.
 6. What conditions must be met for this test to be valid?
 7. Is it reasonable to assume the assumptions are satisfied? 
-   Use the histogram of the data  in Fig. \@ref(fig:FunRunSPSSHisto) to help, if necessary.
+   Use the histogram of the data  in Fig.\ \@ref(fig:FunRunSPSSHisto) to help, if necessary.
 
 
 

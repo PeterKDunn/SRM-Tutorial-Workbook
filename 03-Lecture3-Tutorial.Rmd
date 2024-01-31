@@ -63,10 +63,10 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 ::: {.webex-check .webex-box}
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults undergo a sleep study.
 `r if( knitr::is_html_output() ) {
-  'The data are shown in Fig. \\@ref(fig:OSADT).'
+  'The data are shown in Fig.\\ \\@ref(fig:OSADT).'
 } else
 {
-  'Part of the data are shown in Table \\@ref(tab:OSAKable).'
+  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
 }
 `
 
@@ -244,7 +244,7 @@ In addition, draw a rough example of what the graph may look like.
 <iframe src="https://usc.h5p.com/content/1291014902846391579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-2. Early in the 21st century, moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
+2. Early in the $21$st century, moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
    However, some people thought this was unnecessary, as they believed that exposure to second-hand smoke was minimal.  
    
    To study this phenomenon and to inform public policy, a New Zealand observational study [@data:Stafford2010:Alfresco] examined numerous al fresco (open air) restaurants.  
@@ -257,7 +257,7 @@ In addition, draw a rough example of what the graph may look like.
    
 3. To understand the usage of hospital emergency departments (EDs) in Ireland, a study [@data:Curran2011.Stroke] examined many individual admissions.  
    
-   For each admission to the ED, they recorded if the waiting time was short (within 3 hours) or long (3 hours or longer), and the time of day of the admission (in three divisions: 9am to 5pm; 5pm to midnight; and midnight to 9am).
+   For each admission to the ED, they recorded if the waiting time was short (within $3$\ hours) or long ($3$ hours or longer), and the time of day of the admission (in three divisions: $9$am to $5$pm; $5$pm to midnight; and midnight to $9$am).
 
 
 <iframe src="https://usc.h5p.com/content/1291014908484867689/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -275,7 +275,7 @@ In addition, draw a rough example of what the graph may look like.
 ## Interpreting graphs {#InterpretingGraphs}
 
 A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, body length.
-A histogram of the body length of 90 female seals is shown in Fig. \@ref(fig:Bryden1984Fig3b).
+A histogram of the body length of $90$ female seals is shown in Fig.\ \@ref(fig:Bryden1984Fig3b).
 
 1. Describe this histogram in words (average; variation; shape; outliers).
 2. What alternative graphical displays could be used to display these data?
@@ -293,17 +293,17 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 ## Understanding RQs and variables {#UnderstandRqVariables}
 
 @data:heartbear:radziun2023 compared the mean accuracy with which blind and sighted individuals could count their heartbeats over varying time periods.
-For the study, sighted subjects were blindfolded (p. 3).
-The participants were instructed (p. 4):
+For the study, sighted subjects were blindfolded (p.\ 3).
+The participants were instructed (p.\ 4):
 
 > Without manually checking, can you silently count each heartbeat you feel in your body from the time you hear 'start' to when you hear 'stop'? 
 > Do not take your pulse or feel on your chest with your hand. 
 > You are only allowed to feel the sensation of your heart beating.
 
-The process was repeated using time intervals of 25, 30, 35, 40, 45, and 50 seconds.
-The time intervals were presented in random order to the subjects (34 blind; 36 sighted), who received no information about the length of the time interval.
+The process was repeated using time intervals of $25$, $30$, $35$, $40$, $45$, and $50$ seconds.
+The time intervals were presented in random order to the subjects ($34$ blind; $36$ sighted), who received no information about the length of the time interval.
 
-Each subject was assigned an accuracy score (from 0 to 1 (perfect accuracy)) based on their results across the various time intervals.
+Each subject was assigned an accuracy score (from $0$ to $1$ (perfect accuracy)) based on their results across the various time intervals.
 
 1. What are the Outcome and the response variable in this study?
 1. What are the Comparison and the explanatory variable in this study?
@@ -324,14 +324,14 @@ Each subject was assigned an accuracy score (from 0 to 1 (perfect accuracy)) bas
 
 In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
 
-1. Critique the graph in Fig. \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
+1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
 
 
 ```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/BareBoxplot.png")
 ```
 
-2. Critique the graph in Fig. \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
+2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
 	 
 
 ```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
@@ -340,7 +340,7 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 
 
 
-3. Critique the graph in Fig. \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
+3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
 
 
@@ -379,7 +379,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 :::
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+   '*(Answers are available in Sect.\\ \\@ref(Lecture3Answers))*'
 }`
 
 <iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -399,7 +399,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
 
-A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig. \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
+A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig.\ \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
 
 
 ```{r Sankovitz2018, echo=FALSE, fig.align="center", fig.cap="A graphic from Sankovitz et al. (2018", out.width='70%'}
@@ -429,9 +429,9 @@ An Australian study [@data:Jennings2012:Morphine] studied patients in severe pai
 
 Patients were randomly allocated to receive one of two pain treatments: either morphine, or morphine and ketamine.
 
-The pain reduction for each patient was then measured (using the 'pain verbal numeric rating scale': 0 is no pain, and 10 the worst pain imaginable, such as Australia losing the Ashes), by taking pain measurements before and after giving the treatment.
+The pain reduction for each patient was then measured (using the 'pain verbal numeric rating scale': $0$ is no pain, and $10$ the worst pain imaginable, such as Australia losing the Ashes), by taking pain measurements before and after giving the treatment.
 
-The graph in Fig. \@ref(fig:Jennings2012) summarises the data.
+The graph in Fig.\ \@ref(fig:Jennings2012) summarises the data.
    
 ```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department", out.width='80%'}
 include_graphics("ArticleImages/Jennings2012-Fig2.png")
