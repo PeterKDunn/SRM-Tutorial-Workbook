@@ -1,35 +1,21 @@
 
-In the following scenarios, 
-determine and justify the most appropriate graph. 
+In the following scenarios, determine and justify the most appropriate graph. 
 
  1. Birds are often given leg bands to enable scientists to study their movements and behaviours. 
     However, the use of leg-bands can sometimes cause injuries to the birds.   
 
-    A study [@data:splittgerger:leginjuries] examined many birds, 
- 	  and for each recorded whether or not the bird was injured, 
- 	  and whether the bird wore an upper or lower leg band. 
+    A study [@data:splittgerger:leginjuries] examined many birds, and for each recorded whether or not the bird was injured, and whether the bird wore an upper or lower leg band. 
 
- 2. The length of time that patients stay in rehabilitation units impacts the total cost of care, 
-    so reducing the time of stay is important.   
+ 2. The length of time that patients stay in rehabilitation units impacts the total cost of care, so reducing the time of stay is important.   
 
-    A study examined the relationship between the length-of-stay (in days)
- 	  in therapy for many patients, 
- 	  for patients on either standard or intensive therapy [@data:Slade2002:therapy]. 
+    A study examined the relationship between the length-of-stay (in days) in therapy for many patients, for patients on either standard or intensive therapy [@data:Slade2002:therapy]. 
 
- 3. Increasing intake of whole grains and legumes has been linked to reductions in coronary heart disease, strokes and some cancers, 
-    but only a small proportion of Australians meet the recommended daily intake of whole grains [@data:Flight2006:Cerealgrains].   
+ 3. Increasing intake of whole grains and legumes has been linked to reductions in coronary heart disease, strokes and some cancers,     but only a small proportion of Australians meet the recommended daily intake of whole grains [@data:Flight2006:Cerealgrains].   
 
-    One study looked (literally) at the relationship 
- 	  between defecation frequency (motions/48 hours) 
- 	  and the amount of wholemeal wheat consumed, in grams [@data:Bird2008:wholegrain]. 
+    One study looked (literally) at the relationship between defecation frequency (motions/$48$ hours) and the amount of wholemeal wheat consumed, in grams [@data:Bird2008:wholegrain]. 
 
  4. Many initiatives have been developed to increase physical activity in school children.
-    One group of researchers developed a toolkit to
- 	  'promote fidelity to health promotion interventions in afterschool programs'.   
+    One group of researchers developed a toolkit to 'promote fidelity to health promotion interventions in afterschool programs'.   
 
-    As part of the study, 
- 	  the researchers explored the relationship 
- 	  recorded the number of schools that included 30 minutes of daily physical activity or not, 
-    and whether or not the school offers vigorous physical activity
- 	  three times per week [@data:Wiecha2012]. 
+    As part of the study, the researchers explored the relationship recorded the number of schools that included $30$ minutes of daily physical activity or not, and whether or not the school offers vigorous physical activity three times per week [@data:Wiecha2012]. 
 

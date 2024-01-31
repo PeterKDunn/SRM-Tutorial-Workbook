@@ -2,7 +2,7 @@
 	
 The use of mobile phones has changed peoples' behaviour.
 One study [@data:Barkley2016:Phones] examined how the use of mobile phones impacts walking speed.
-Read the following information from the research article:
+Read the following information from the research article (p.\ 2, 3):
 
 > The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
 > &nbsp;
@@ -11,25 +11,20 @@ Read the following information from the research article:
 > &nbsp;
 >
 > We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone.
-> &nbsp;
->
-> --- @data:Barkley2016:Phones, p. 2
+
 
 > This allowed for the naturalistic observations to be made by research personnel without the knowledge of the subjects walking below who remained anonymous throughout the entirety of the study. 
 > The walkway was straight, had limited ingress and egress, and was simple to navigate.  
 > &nbsp;
 >
 > All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
-> The starting and end points to the 50 m walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
+> The starting and end points to the $50$\ m walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
 > &nbsp;
 > 
-> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the 50&nbsp;m walkway.  
+> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.  
 > &nbsp;
 >
-> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the 50&nbsp;m walkway. 
-> &nbsp;
->
-> --- @data:Barkley2016:Phones, p. 3
+> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
 
 
 Then, answer the questions that follow.
@@ -44,8 +39,8 @@ Then, answer the questions that follow.
 
 2. Which one of these is most likely the *outcome* in the study?
     a. The way subjects were using their phone.
-    b. The time taken to walk 50m.
-    c. The **average** time taken to walk 50m.
+    b. The time taken to walk $50$\ m.
+    c. The **average** time taken to walk $50$\ m.
     d. The differences between the times taken.
 		
 3. Which one of these is most likely the *comparison* in the study?
@@ -63,14 +58,14 @@ Then, answer the questions that follow.
 5. What is the *explanatory variable*?
     a. The phone.
     b. The way that the phone is being used.
-	  c. The average time to walk 50m.
+	  c. The average time to walk $50$\ m.
     d. The walking speed.
 				
 6. What is the *response variable*?
     a. The differences between the times taken.
     b. The way subjects were using the phone.
-    c. The **average** time to walk 50m.
-    d. The time taken to walk 50m.
+    c. The **average** time to walk $50$\ m.
+    d. The time taken to walk $50$\ m.
 
 7. Which one of these is most likely the *unit of observation* in the study?
     a. The phone.

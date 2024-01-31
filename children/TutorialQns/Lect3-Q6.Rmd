@@ -9,8 +9,8 @@ Identify the appropriate **graph** to use.
 3. To display the relationship between:
    - the type of fertiliser applied to a vegetable crop (either A, B or C), and
    - the yield per hectare, measured over numerous plots.
-4. To display the distribution of the hardness measurements taken of 250 samples of bamboo. 
+4. To display the distribution of the hardness measurements taken of $250$ samples of bamboo. 
 5. To display the relationship between:
-   - the age of concrete test cylinders (under 5 years; 5 years and older), and
+   - the age of concrete test cylinders (under $5$ years; $5$ years and older), and
    - their strength (fit for purpose; or not fit for purpose).
    

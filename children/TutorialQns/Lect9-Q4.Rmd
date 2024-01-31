@@ -1,17 +1,13 @@
-In Table&nbsp;\@ref(tab:SubwayHyp),
-match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).
+In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).
 
-Then,
-match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).
-
-
-
+Then, match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).
 
 
 ```{r SubwayHyp, echo=FALSE}
-Terms <- array( "", dim=c(11, 2))
+Terms <- array( "", dim = c(11, 2))
 
-colnames(Terms) <- c("Research question", "Hypothesis")
+colnames(Terms) <- c("Research question", 
+                     "Hypothesis")
 
 Terms[, 1] <- 
   c("1. At Subway, is the mean length of a 12-inch sub really 12 inches?",
@@ -40,16 +36,16 @@ Terms[, 2] <-
 
 if( knitr::is_latex_output() ) {
   kable(Terms,
-      format="latex",
-      booktab=TRUE,
-      align=c("l", "l"),
+      format = "latex",
+      booktab = TRUE,
+      align = c("l", "l"),
       escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
-      linesep="\\addlinespace",
-      caption="Match RQs with the null (and then the alternative) hypotheses") %>%
-  kable_styling(full_width=FALSE) %>%
-  row_spec(0, bold=TRUE) %>%
-  column_spec(1, width="0.68\\\\textwidth") %>%
-  column_spec(2, width="0.3\\\\textwidth")
+      linesep = "\\addlinespace",
+      caption = "Match RQs with the null (and then the alternative) hypotheses") %>%
+  kable_styling(full_width = FALSE) %>%
+  row_spec(0, bold = TRUE) %>%
+  column_spec(1, width = "0.68\\\\textwidth") %>%
+  column_spec(2, width = "0.3\\\\textwidth")
 }
 ```
 

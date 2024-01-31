@@ -88,7 +88,8 @@ if( knitr::is_latex_output() ) {
                             "Neck circumference (cm)",
                             "REI"),
               caption = "Part of the obstructive sleep apnoea data set") %>%
-    kable_styling(font_size = 10)
+    kable_styling(font_size = 10) %>%
+    row_spec(0, bold = TRUE) 
 }
 ```
 

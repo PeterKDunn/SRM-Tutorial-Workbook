@@ -1,6 +1,6 @@
 Organise the steps of the research process (Fig. \@ref(fig:SixStepsToOrder)) into the usual order in which they are used.
 
-```{r, SixStepsToOrder, echo=FALSE, fig.cap="", fig.align="center", fig.width=5, out.width="95%", fig.cap="The six basic steps in research: What is the usual order in which they are usually used?"}
+```{r, SixStepsToOrder, echo=FALSE, message=FALSE, warning=FALSE, fig.align="center", fig.width=5, out.width="95%", fig.cap="The six basic steps in research: What is the usual order in which they are usually used?"}
 source("./SixSteps.R") 
 SixSteps(seed=79100, Arrows=FALSE)
 ```

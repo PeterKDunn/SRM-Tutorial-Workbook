@@ -208,8 +208,10 @@ if( knitr::is_html_output() ) {
 
 
 
-1. Identify the type of RQ being answered: descriptive, relational, or interventional. Justify your answer.
+1. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
+   Justify your answer.
 2. Use your calculator's statistics mode to compute the mean and the standard deviation.
+
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.

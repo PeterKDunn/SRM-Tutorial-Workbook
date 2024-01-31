@@ -1,11 +1,15 @@
-A tutor has recorded the marks (out of 50) for all students in her four classes for an assignment.
+A tutor has recorded the marks (out of $50$) for all students in her four classes for an assignment.
 All classes have the same number of students.
-The corresponding histograms are shown in Fig.&nbsp;\@ref(fig:VariationHistograms).
+The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
-1. In which class would the median be the *largest*?  Why?
-2. In which class would the median be the *smallest*?  Why?
-3. In which class would the standard deviation be the *largest*?  Why?
-4. In which class would the standard deviation be the *smallest*?  Why?
+1. In which class would the median be the *largest*?
+   Why?
+2. In which class would the median be the *smallest*?
+   Why?
+3. In which class would the standard deviation be the *largest*?
+   Why?
+4. In which class would the standard deviation be the *smallest*?
+   Why?
 
 
 

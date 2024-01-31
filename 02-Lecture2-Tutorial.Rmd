@@ -123,27 +123,27 @@ Read the description (line breaks added for clarity) of one such study as shown 
 }`
 regarding this information.
 
-> In this multicenter, randomized, controlled trial involving 127 patients with moderate-to-severe upper-limb impairment 6 months or more after a stroke, we randomly assigned 49 patients to receive intensive robot-assisted therapy, 50 to receive intensive comparison therapy, and 28 to receive usual care.  
+> In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$ months or more after a stroke, we randomly assigned $49$ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$ to receive usual care.  
 > &nbsp;
 >
-> Therapy consisted of 36 1-hour sessions over a period of 12 weeks. 
+> Therapy consisted of $36$ $1$-hour sessions over a period of $12$ weeks. 
 > The primary outcome was a change in motor function, as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, at 12 weeks...  
 > &nbsp;
 >
-> We recruited veterans from four participating VA medical centers who were 18 years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least 6 months before enrollment.  
+> We recruited veterans from four participating VA medical centers who were $18$ years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least $6$ months before enrollment.  
 > &nbsp;
 >
-> Such impairment was defined as a score of 7 to 38 on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from 0 (no function) to 66 (normal function). 
+> Such impairment was defined as a score of $7$ to $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from $0$ (no function) to $66$ (normal function). 
 > All patients provided written informed consent.  
 > &nbsp;
 >
 > Patients were randomly assigned to receive robot-assisted therapy, intensive comparison therapy, or usual care...  
 > &nbsp;
 >
-> Trained evaluators who were unaware of study-group assignments assessed patients 6, 12, 24, and 36 weeks after randomization.
+> Trained evaluators who were unaware of study-group assignments assessed patients $6$, $12$, $24$, and $36$ weeks after randomization.
 > &nbsp;
 >
-> The primary outcome was a change in the Fugl-Meyer score at 12 weeks, as compared with the baseline value...
+> The primary outcome was a change in the Fugl-Meyer score at $12$ weeks, as compared with the baseline value...
 >
 > --- @data:Lo2010:RobotAssistance
 
@@ -177,7 +177,7 @@ knitr::include_graphics("images/Crossword-Week2-Q1.PNG")
 
 Home-birthing has many supporters and detractors.
 But how safe is home-birthing?
-Consider the newspaper report shown in Fig. \@ref(fig:homebirths), based on a research article [@data:Murphy1998:homebirth].
+Consider the newspaper report shown in Fig.\ \@ref(fig:homebirths), based on a research article [@data:Murphy1998:homebirth].
 Answer the questions that follow.
 
 ```{r homebirths, echo=FALSE, fig.cap="From: The Toowoomba Chronicle, 22 February 1999", fig.align="center", out.width="85%"}
@@ -210,7 +210,8 @@ Answer the questions that follow.
 > --- @data:Murphy1998:homebirth
 
 
-10. Based on this report, do you or do you not agree that (in general) a home birth is safer than a hospital birth? Explain.
+10. Based on this report, do you or do you not agree that (in general) a home birth is safer than a hospital birth? 
+    Explain.
 11. Is the article headline consistent with the study conclusions?
 
 
@@ -268,14 +269,14 @@ Part of the protocol  for the study is given below:
 > Until the end of the experiment, the type of oil was known only by the food scientist who prepared the crisps.  
 > &nbsp;
 >
-> In 1990, 21 subjects (12 men, 9 women) completed the 5 week experiment. 
-> They were randomly allocated to take palmolein ('B9') or canola ('T4') crisps for the first 3 weeks, then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks. 
-> Thus half the subjects ate (new) canola crisps for 3 weeks and the (usual) palmolein crisps for the next 2 weeks.  
+> In 1990, $21$ subjects ($12$ men, $9$ women) completed the $5$\ week experiment. 
+> They were randomly allocated to take palmolein ('B9') or canola ('T4') crisps for the first $3$ weeks, then (without a washout period) changed over to the other type, canola or palmolein for another $2$ weeks. 
+> Thus half the subjects ate (new) canola crisps for $3$ weeks and the (usual) palmolein crisps for the next $2$ weeks.  
 > &nbsp;
 >
-> The other half of the subjects ate palmolein crisps for 3 weeks and canola crisps for the next 2 weeks. 
-> The first week of the 3 weeks served as an adjustment period. 
-> Fasting venous bloods were taken once at the start (usual diet), then for the last 3 mornings of both the first and second experimental periods. 
+> The other half of the subjects ate palmolein crisps for $3$ weeks and canola crisps for the next $2$ weeks. 
+> The first week of the $3$ weeks served as an adjustment period. 
+> Fasting venous bloods were taken once at the start (usual diet), then for the last $3$ mornings of both the first and second experimental periods. 
 >
 > --- @data:Truswell1992:crisps
 
@@ -295,10 +296,10 @@ Part of the protocol  for the study is given below:
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
-Suppose we needed a sample of 80 vehicles parked at UniSC, and we wish to determine the proportion displaying P plates.
+Suppose we needed a sample of $80$ vehicles parked at UniSC, and we wish to determine the proportion displaying P-plates.
 
 Determine a useful way to find a suitable representative sample.
-The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled P are car parks).
+The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** are car parks).
 
 
 ```{r echo=FALSE}
@@ -353,7 +354,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 *(Answers are available in Sect. \@ref(Lecture2Answers))*
 
 Fish oil has been touted as helpful to the health of the heart.
-A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fig. \@ref(fig:fishoil).
+A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fig.\ \@ref(fig:fishoil).
 Answer the questions that follow.
 
 
@@ -392,13 +393,13 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 *(Answers are available in Sect.\@ref(Lecture2Answers))*
 
-For a small pilot study, Sam allocated 12 students (6 males and 6 females) to one of two groups.
-In the Report associated with the study, Sam stated that the 12 students were
+For a small pilot study, Sam allocated $12$ students ($6$ males and $6$ females) to one of two groups.
+In the Report associated with the study, Sam stated that the $12$ students were
 
-> ...randomly allocated to one of two groups (Group A or Group B).
+> ...randomly allocated to one of two groups (Group\ A or Group\ B).
 
 Different interventions were applied to each group.
-A reviewer, however, noted that *all* the subjects in Group A were male, and *all* the subjects in Group B were female.
+A reviewer, however, noted that *all* the subjects in Group\ A were male, and *all* the subjects in Group\ B were female.
 
 1. Would this be a problem?
    Why?
@@ -419,7 +420,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 Many health experts are concerned about the amount of sugary drinks consumed by children.
-Part of a newspaper report about a study into this issue is shown in Fig. \@ref(fig:SoftDrinks).
+Part of a newspaper report about a study into this issue is shown in Fig.\ \@ref(fig:SoftDrinks).
 Two variables are listed in the extract:
 
 * The type of drink (sweetened with sugar, or with sugarless sweeteners); and
@@ -474,12 +475,12 @@ To study the progress of an imported species of beetle, a research group is stud
 
 > Is the mean number of species of beetle found on trees different between local coniferous and broad leaf forests?
 
-Ten possible forests of each type have been found, and the research budget allows for 100 trees to be sampled.
+Ten possible forests of each type have been found, and the research budget allows for $100$ trees to be sampled.
 Three designs are being considered:
 
-* **A.** Randomly sample 50 trees from one randomly selected coniferous forest, and 50 trees from one randomly selected broad leaf forest.
-* **B.** Randomly sample 5 trees from ten randomly sampled coniferous forests, and 5 trees from ten randomly selected broad leaf forests.
-* **C.** Randomly sample 10 trees from five randomly sampled coniferous forests, and 10 trees from five randomly selected broad leaf 
+* **A.** Randomly sample $50$ trees from one randomly selected coniferous forest, and $50$ trees from one randomly selected broad leaf forest.
+* **B.** Randomly sample $5$ trees from ten randomly sampled coniferous forests, and $5$ trees from ten randomly selected broad leaf forests.
+* **C.** Randomly sample $10$ trees from five randomly sampled coniferous forests, and $10$ trees from five randomly selected broad leaf 
 
 The researchers wish to know which design they should use.
 

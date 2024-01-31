@@ -1,17 +1,9 @@
-Exposure to lead has adverse health impacts
-as lead is toxic to the heart, bones, kidneys and other organs and tissues.
-Cincinnati, Ohio (in the USA)
-has a history of paediatric lead poisoning
-from paint, dust and soil.
-One study [@data:dietrich:leadexposure]
-examined the impact of lead exposure on infants in this area.
+Exposure to lead has adverse health impacts as lead is toxic to the heart, bones, kidneys and other organs and tissues.
+Cincinnati, Ohio (in the USA) has a history of paediatric lead poisoning from paint, dust and soil.
+One study [@data:dietrich:leadexposure] examined the impact of lead exposure on infants in this area.
 
-Read the 
-Abstract of the research article below
-and select the best answer from the choices that follow.
-Then,
-discuss your answers with the class,
-and explain the reason for your choices.
+Read the *Abstract* of the research article below and select the best answer from the choices that follow.
+Then, discuss your answers with the class, and explain the reason for your choices.
 **Make sure you explain why the other options are incorrect.**
 	
 > The primary purpose of this paper is to report on the relationship between prenatal/postnatal 
@@ -28,8 +20,8 @@ and explain the reason for your choices.
 
 1. Which one of these is most likely the *population* under study?
 
-    a. 2-year-old infants in Cincinnati.
-    b. The number of 2-year-old infants in Cincinnati.
+    a. $2$-year-old infants in Cincinnati.
+    b. The number of $2$-year-old infants in Cincinnati.
     c. People living in Cincinnati.
     d. Those who participated in the study.
 
@@ -37,33 +29,33 @@ and explain the reason for your choices.
 
     a. The average amount of prenatal lead exposure.
     b. The relationship between lead exposure and development status.
-    c. The average of the indexes of the 2-year neurobehavioural development.
+    c. The average of the indexes of the $2$-year neurobehavioural development.
     d. The amount of postnatal lead exposure.
 
 3. Which one of these is most likely the *comparison* in the study?
 
     a. Between prenatal and postnatal lead exposure.
     b. Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
-    c. Between 2-year-olds and other children.
-    d. Between 2-year-olds in Cincinnati and elsewhere.
+    c. Between $2$-year-olds and other children.
+    d. Between $2$-year-olds in Cincinnati and elsewhere.
 
 4. Which one of these is most likely the *intervention* in the study?
 
     a. The lead exposure.
-    b. Indexes of 2-year neurobehavioral development.
+    b. Indexes of $2$-year neurobehavioral development.
     c. The medication given to the children.
     d. There is no intervention.
 
 5. Which one of these is most likely the *unit of observation* in the study?
 
-    a. The index of the 2-year neurobehavioral development.
+    a. The index of the $2$-year neurobehavioral development.
     b. The children.
     c. The symptoms of the children.
     d. The dose of lead.
 
 6. Which one of these is most likely the *unit of analysis* in the study?
 
-    a. The index of the 2-year neurobehavioral development.
+    a. The index of the $2$-year neurobehavioral development.
     b. The children.
     c. The symptoms of the children.
     d. The dose of lead.

@@ -1,12 +1,8 @@
 Consider the following events:
 
-1. The odds of selecting a USC student at random, and they are over 85 years old.
-2. The odds of selecting a USC student at random, and they commute from Brisbane to Sippy Downs.
-3. The odds of selecting a USC student at random, and they have a mobile phone.
-4. The odds of selecting a USC student at random, and they are female. (**Note**: About two-thirds of USC students are female.)
+1. The odds of selecting a UniSC student at random, and they are over $85$ years old.
+2. The odds of selecting a UniSC student at random, and they commute from Brisbane to Sippy Downs.
+3. The odds of selecting a UniSC student at random, and they have a mobile phone.
+4. The odds of selecting a UniSC student at random, and they are female. (**Note**: About two-thirds of UniSC students are female.)
 
-What would be the odds of each of these events:
-*less than* one;
-*greater than* one;
-or
-*about* one?
+What would be the odds of each of these events: *less than* one; *greater than* one; or *about* one?

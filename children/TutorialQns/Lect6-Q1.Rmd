@@ -1,8 +1,9 @@
 
 1. Draw a labelled picture of the normal distribution of the IQ scores in the *population*.
-2. For a person with an IQ of 130, how many IQ points are they from the mean?
-3. For a person with an IQ of 130, how many *standard deviations* is their IQ from the mean?
-4. Draw a labelled picture of the normal distribution of the IQ scores, showing the proportion of the population with IQ scores of 85 and greater.
-5. For a person with an IQ of 85, how many IQ points are they from the mean?
-6. For a person with an IQ of 85, how many *standard deviations* is their IQ from the mean?
-7. Approximately, what proportion of the population has an IQ greater than 85? (Use the 68--95--99.7 rule.)
+2. For a person with an IQ of $130$, how many IQ points are they from the mean?
+3. For a person with an IQ of $130$, how many *standard deviations* is their IQ from the mean?
+4. Draw a labelled picture of the normal distribution of the IQ scores, showing the proportion of the population with IQ scores of $85$ and greater.
+5. For a person with an IQ of $85$, how many IQ points are they from the mean?
+6. For a person with an IQ of $85$, how many *standard deviations* is their IQ from the mean?
+7. Approximately, what proportion of the population has an IQ greater than $85$? 
+   (Use the $68$--$95$--$99.7$ rule.)

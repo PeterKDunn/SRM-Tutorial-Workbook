@@ -1,5 +1,4 @@
-The formula for the **standard error for the sample proportion** is:
-
+The formula for the **standard error for the sample proportion** is:  
 \[
   \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
 \]

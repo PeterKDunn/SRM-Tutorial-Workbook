@@ -162,7 +162,7 @@ As a result, the cafe owner decides to conduct a study of his customers.
 
 ## Terminology {#UnderstandingTerminology1}
 
-Explain the *fundamental differences* between the following pairs of often-confused terms (Table \@ref(tab:SimilarTerms)), highlighting the important differences.
+Explain the *fundamental differences* between the following pairs of often-confused terms (Table\ \@ref(tab:SimilarTerms)), highlighting the important differences.
 
 ```{r SimilarTerms, echo=FALSE}
 Terms <- array( dim = c(8, 3))
@@ -244,7 +244,7 @@ include_graphics("Illustrations/pexels-nappy-936019.jpg")
 
 Consider the following scenario:
 
-> While at Cafe C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.
+> While at Cafe\ C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.
 > I suppose we'll all start feeling stressed soon.'  
 > &nbsp;
 >
@@ -315,7 +315,7 @@ include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 Bamboo is a fast-growing, strong grass often used for green building practices.
 A small research study explored the hardness of bamboo when used as flooring material.
 
-The *Janka hardness*^[The force required to embed an 11.28mm steel ball into wood to half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table \@ref(tab:JankaBoards)).
 
 
@@ -357,8 +357,9 @@ if( knitr::is_html_output() ) {
    Explain your answer.
 2. How many units of analysis are there?
 3. How many units of observation are there?
-4. Suppose the measurements were all taken from 10 *different* places on the *same* board (rather than from five different boards). 
-   How many units of analysis are there now? Explain your answer.
+4. Suppose the measurements were all taken from $10$ *different* places on the *same* board (rather than from five different boards).
+   How many units of analysis are there now?
+   Explain your answer.
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
 
 
