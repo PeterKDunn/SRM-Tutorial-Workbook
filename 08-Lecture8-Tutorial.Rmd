@@ -11,9 +11,9 @@
    
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 24 (Confidence intervals for two independent means)](https://bookdown.org/pkaldunn/SRM-Textbook/CITwoMeans.html).
-* [Chapter 25 (Confidence intervals for odds ratios)](https://bookdown.org/pkaldunn/SRM-Textbook/OddsRatiosCI.html).
-* [Chapter 26 (Estimating sample sizes)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
+* [Chapter 28 (Confidence intervals for two independent means)](https://bookdown.org/pkaldunn/SRM-Textbook/CITwoMeans.html).
+* [Chapter 29 (Confidence intervals for odds ratios)](https://bookdown.org/pkaldunn/SRM-Textbook/OddsRatiosCI.html).
+* [Chapter 30 (Estimating sample sizes)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
 
 
 
@@ -490,7 +490,7 @@ What size sample would Prof. Lewis need?
 ## **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -517,7 +517,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: CI for differences between means {#PizzaHT}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture9Answers))*
@@ -546,10 +546,8 @@ include_graphics("SoftwareImages/PizzaSizeCompare.png")
 2. Identify the type of research question is being answered:
    Descriptive, relational or interventional. 
    Explain.
-3. Two students are arguing about this study.  
-
-   One claims that the study compares *two independent samples*, because the pizzas have come from two different companies completely.  
-
+3. Two students are arguing about this study.
+   One claims that the study compares *two independent samples*, because the pizzas have come from two different companies completely.
    The other student argues that the study has *paired samples*, because each store has the same types of pizzas in the sample (e.g.\ both have supreme, Hawaiian and meat-lovers pizzas).  
 	 
    With whom do you agree?
@@ -578,7 +576,7 @@ include_graphics("SoftwareImages/PizzaSizeErrorBar.png")
 ## **Optional**: Odds and odds ratio {#OddsGMfood}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture9Answers))*

@@ -12,10 +12,10 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 15 (Making decisions: An introduction)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
-* [Chapter 16 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
-* [Chapter 17 (Distributions and models)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
-* [Chapter 18 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
+* [Chapter 19 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
+* [Chapter 20 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
+* [Chapter 21 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
+* [Chapter 22 (Distributions and models)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
 
 
 	
@@ -296,7 +296,7 @@ if( knitr::is_html_output() ) {
 1. How would this *sampling distribution* change if we looked the proportion of heads in 50 tosses of a coin?
 
 
-```{r HistCoinToss, echo=FALSE, out.width='50%', fig.align="center", fig.cap='The histogram of the proportion of heads in 10 tosses, for 100 repetitions'}
+```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $100$ repetitions'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, size = 10, prob = 0.5)/10
 barplot( table(ProbHeads),
@@ -312,7 +312,7 @@ barplot( table(ProbHeads),
 ## **Optional**: Working with normal distributions {#NormalSOI}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*

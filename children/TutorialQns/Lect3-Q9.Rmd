@@ -1,28 +1,17 @@
 What graph would be appropriate in these situations?
 
 1. The health of the Brisbane River is a concern to many residents and scientists.
-   An Australian study [@data:Goonetilleke2009:PortOfBrisbane]
-   compared nine different and diverse sites in the Brisbane River
-   near the Port of Brisbane.  
+   An Australian study [@data:Goonetilleke2009:PortOfBrisbane] compared nine different and diverse sites in the Brisbane River near the Port of Brisbane.
       
-   At each site,
-   they obtain numerous measurements of
-   the total nitrogen concentration (in mg/L).  
+   At each site, they obtain numerous measurements of the total nitrogen concentration (in mg/L).  
       
-   The researchers wished to study the relationship between the sites
-   and the nitrogen concentration measurements.
+   The researchers wished to study the relationship between the sites and the nitrogen concentration measurements.
 
-2. In studies of childhood obesity,
-   studies have found that children who eat breakfast cereal were leaner 
+2. In studies of childhood obesity, studies have found that children who eat breakfast cereal were leaner 
    than those who do not eat breakfast cereal.
-   A study [@data:Frantzen2013:Cereal]
-   examined a large number of children from low-income families to explore 
-   the effect of ready-to-eat breakfast cereals in these children.  
+   A study [@data:Frantzen2013:Cereal] examined a large number of children from low-income families to explore the effect of ready-to-eat breakfast cereals in these children.  
       
-   For each child,
-   the researchers recorded the body mass index (BMI) percentile for each child,
-   and the number of days that each child ate ready-to-eat-breakfast-cereal 
-   (RTEC; the numbers of days out of the nine days studied).  
+   For each child, the researchers recorded the body mass index (BMI) percentile for each child, and the number of days that each child ate ready-to-eat-breakfast-cereal. (RTEC; the numbers of days out of the nine days studied.)
       
    The researchers wished to examine the relationship between the BMI and RTEC for the children.
 

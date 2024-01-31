@@ -13,10 +13,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 * [Chapter 4 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
 * [Chapter 5 (External validity: Sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
-* [Chapter 6 (Overview of internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/FactorsInfluenceY.html).
+* [Chapter 6 (Overview of study design)](https://bookdown.org/pkaldunn/SRM-Textbook/FactorsInfluenceY.html).
 * [Chapter 7 (Internal validity and experimental studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignExperiment.html).
 * [Chapter 8 (Internal validity and observational studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignObservational.html).
-* [Chapter 9 (Identifying study limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
+* [Chapter 9 (Study design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
 
 
 
@@ -30,7 +30,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 ::: {.webex-check .webex-box}
 Consider this (qualitative) RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
 
-1. For this RQ, what is the *Population*?  
+1. For this RQ, what is the *Population*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Households", 
 		      "Households in Chile",
@@ -115,7 +115,7 @@ include_graphics("Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg
 
 Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are looking to using robotic means to assist these patients.
 
-Read the description (line breaks added fo clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
+Read the description (line breaks added for clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
 `r if (knitr::is_latex_output()){
    'in Fig. \\@ref(fig:Crossword-Week2-Terminology)'
 } else {
@@ -249,7 +249,6 @@ include_graphics("Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg")
 
 
 A study [@data:Truswell1992:crisps] compared the health benefits of crisps ('potato chips') when fried in canola oil or palmolein.
-
 The article states (line breaks added):
 
 > Recently canola oil crisps have appeared in the market with the implication that their lower proportion of saturated fatty acids would have beneficial effects on plasma cholesterol.  
@@ -293,7 +292,7 @@ Part of the protocol  for the study is given below:
 ## **Optional**: Sampling {#SamplingParking}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 Suppose we needed a sample of 80 vehicles parked at UniSC, and we wish to determine the proportion displaying P plates.
@@ -330,7 +329,7 @@ if (knitr::is_latex_output()){
 ## **Optional**: Understanding terminology {#UnderstandTerminologyStudies}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -348,7 +347,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Understanding studies {#UnderstandFishoil}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture2Answers))*
@@ -388,7 +387,7 @@ include_graphics("ArticleImages/fishoil2.jpg")
 ## **Optional**: Random allocation {#RandomAllocation}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect.\@ref(Lecture2Answers))*
@@ -401,7 +400,7 @@ In the Report associated with the study, Sam stated that the 12 students were
 Different interventions were applied to each group.
 A reviewer, however, noted that *all* the subjects in Group A were male, and *all* the subjects in Group B were female.
 
-1. Would this be a problem?  
+1. Would this be a problem?
    Why?
 2. Do you agree with Sam, that the subjects really were allocated to the groups *at random*?
 	 Explain your answer.
@@ -413,7 +412,7 @@ A reviewer, however, noted that *all* the subjects in Group A were male, and *al
 ## **Optional**: Evaluating reports {#EvaluatingReportsSugar}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect.\@ref(Lecture2Answers))*
@@ -466,7 +465,7 @@ include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
 <!-- BASED ON Ruxton and Colegrave p. 128 -->
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture2Answers))*

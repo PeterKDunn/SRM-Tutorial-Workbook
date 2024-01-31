@@ -11,11 +11,11 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 19 (Introducing confidence intervals)](https://bookdown.org/pkaldunn/SRM-Textbook/CIIntro.html).
-* [Chapter 20 (Confidence intervals for one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
-* [Chapter 21 (More about forming CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
-* [Chapter 22 (Confidence intervals for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
-* [Chapter 23 (Confidence intervals for mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/PairedCI.html).
+* [Chapter 23 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/CIIntro.html).
+* [Chapter 24 (Confidence intervals for one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
+* [Chapter 25 (Confidence intervals for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
+* [Chapter 26 (More about forming CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
+* [Chapter 27 (Confidence intervals for mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/PairedCI.html).
 
 
 
@@ -464,7 +464,7 @@ Your tutor *may* decide to do this activity.
 ## **Optional**: CI for one mean {#RoomWidthCI}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*
@@ -548,7 +548,7 @@ include_graphics("SoftwareImages/LengthsHallOutput.png")
 ## **Optional**: CI for one proportion {#HMMaturing}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture6Answers))*
@@ -586,7 +586,7 @@ Sample data were collected from
 ## **Optional**: CI for mean differences (paired data) {#CIPairedWaves}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*
@@ -687,7 +687,7 @@ if( knitr::is_html_output() ) {
 ## **Optional**: CI for mean differences (paired data) {#CIPairedRunners}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture7Answers))*

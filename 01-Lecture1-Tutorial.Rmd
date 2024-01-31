@@ -38,7 +38,12 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Descriptive", 
                       answer = "Relational",
-                      "Interventional") )} else {'Descriptive, relational or interventional'}`
+                      "Repeated-measures",
+                      "Correlational") )} else {'Descriptive, relational, repeated-measures or correlational?'}`
+1.  Is an *intervention* present?
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						  "Yes", 
+                      answer = "No"))}`
 1.  What is the *Outcome* in this RQ?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "The amount of salt",
@@ -59,7 +64,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                       answer = "The meals",
-                      "It's hard to know: We need more information about how the data were collected") )}`
+                      "It's hard to know: we need more information about how the data were collected") )}`
 
 :::
 
@@ -67,7 +72,8 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-1. **Relational**: There is a comparison (between Chinese and Indian meals), but this is **not** an interventional (as the researchers did not determine whether a meal was Chinese or Indian).
+1. **Relational**: there is a comparison (between Chinese and Indian meals).
+1. **No**: the researchers did not determine whether a meal was Chinese or Indian.
 1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
 1. A variable is measured on an **individual**; in this case, the amount of salt in the individual meals.
 1. The **unit of analysis** depends on how the data were collected.  
@@ -90,22 +96,13 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 
-
-
-
-
-
-
-
 ## Research process {#ResearchProcess}
 
 <iframe src="https://usc.h5p.com/content/1291014841891101839/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q1.Rmd'}
+```{r, child = if (knitr::is_latex_output())  './children/TutorialQns/Lect1-Q1.Rmd'}
 ```
-
-
 
 
 
@@ -175,7 +172,7 @@ Terms[1, ] <- c("Hypothesis",
                 "Research question") 
 Terms[2, ] <- c("Relational RQ", 
                 "2", 
-                "Interventional RQ") 
+                "Repeated-measures RQ") 
 Terms[3, ] <- c("Observational study", 
                 "3", 
                 "Experimental study") 
@@ -245,11 +242,9 @@ include_graphics("Illustrations/pexels-nappy-936019.jpg")
 `r if (knitr::is_latex_output()) '-->'`
 
 
-
-
 Consider the following scenario:
 
-> While at Cafe C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.  
+> While at Cafe C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.
 > I suppose we'll all start feeling stressed soon.'  
 > &nbsp;
 >
@@ -273,7 +268,7 @@ Consider the following scenario:
 
 Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
-1. Nim needs to determine a *population* to study.  
+1. Nim needs to determine a *population* to study.
    Which of these would be a useful and practical population to use? Or is there a different population that is 'better' to use?  
    Explain your reasoning.
     a. All university students.
@@ -289,11 +284,10 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
     c. Between drinking Earl Grey tea and water.
     d. Between exam time and other times of the semester.
     e. Between students and non-students.
-4. Explain why 'Between before and after drinking Earl Grey tea' is *not* a comparison.
-5. Construct a well-worded *interventional* research question that Nim can ask to assess Jane's assertion,
-   clearly identifying P, O, C and I.
+4. Explain why 'Between before and after drinking Earl Grey tea' is *not* a *between-individuals* comparison.
+5. Construct a well-worded *relational* research question *with* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
 6. *Briefly* describe how to set up an *experimental* study for answering your proposed research question.
-7. Construct a well-worded *relational* research question that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
+7. Construct a well-worded *relational* research question *without* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
 8. *Briefly* describe how to set up an *observational* study for answering your proposed research question.
 9. List any necessary operational and conceptual definitions. (You do not need to *give* the definitions.)
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
@@ -376,7 +370,7 @@ if( knitr::is_html_output() ) {
 ## **Optional**: Identifying different types of studies {#TypesOfStudies}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -396,7 +390,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Terminology {#TerminologyLect1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -430,7 +424,7 @@ knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
 ## **Optional**: Identifying poor RQs {#IdentifyingPoorRQs}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -454,7 +448,7 @@ What terms might need defining for each RQ?
 
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 
@@ -479,7 +473,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 <!-- ADAPTED FROM : Oehlert.pdf, p. 8. -->
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -501,7 +495,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Units of analysis, and units of observation {#Units3}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {

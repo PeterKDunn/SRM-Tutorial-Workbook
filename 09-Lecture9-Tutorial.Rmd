@@ -12,11 +12,10 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
-* [Chapter 27 (Introducing hypothesis tests)](https://bookdown.org/pkaldunn/SRM-Textbook/HTIntro.html).
-* [Chapter 28 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 29 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 30 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
-* [Chapter 31 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
+* [Chapter 32 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 33 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 34 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 35 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
 
 
 
@@ -450,7 +449,7 @@ What assumptions are needed for this test to be statistically valid, and externa
 ## **Optional**: Tests for one mean {#RoomWidthTest}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture9Answers))*
@@ -462,7 +461,7 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1&nbsp;m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was 13.1\ m).
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
 The data are given in Table \@ref(tab:GuessesHT).  
@@ -538,7 +537,7 @@ include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
 ## **Optional**: General ideas {#GeneralIdeas2}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -558,7 +557,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: $P$-values {#PvalueStatement}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
@@ -595,7 +594,7 @@ How would the other statements be interpreted then?
 ## **Optional**: Tests for paired samples {#PairedTestRunners}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*

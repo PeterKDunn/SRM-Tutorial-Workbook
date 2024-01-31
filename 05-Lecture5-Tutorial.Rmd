@@ -12,7 +12,10 @@
 
 In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 14 (Numerical summaries: qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/NumericalQual.html).
+* [Chapter 15 (Quantitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/WithinQuantData.html).
+* [Chapter 16 (Two quantitative variables: Summaries for correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (Qualitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
+* [Chapter 18 (More about summarising data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 
 
@@ -507,7 +510,7 @@ legend("top",
 ## **Optional**: Odds ratios {#OddsRatioSMND}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture5Answers))*
@@ -541,7 +544,7 @@ Of the 380 SMND cases, 60 had worked with metal; of the 377 controls, 33 had wor
 ## **Optional**: Percentages and odds {#PercentagesOdds}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
@@ -650,7 +653,7 @@ if( knitr::is_html_output() ) {
 ## **Optional**: Odds {#Odds1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 
@@ -668,7 +671,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ##  **Optional**: Working with odds {#WorkingWithOdds}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -689,7 +692,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Percentages { #PercentagesOdour}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture5Answers))*

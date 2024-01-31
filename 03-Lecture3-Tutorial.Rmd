@@ -11,8 +11,8 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 10 (Procedures for collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
-* [Chapter 11 (Describing data)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
-* [Chapter 12 (Graphical summaries of data)](https://bookdown.org/pkaldunn/SRM-Textbook/Graphs.html).
+* [Chapter 11 (Classifying data)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
+* [Chapter 12 (Summarising quantitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQuantData.html).
 
 
 
@@ -81,6 +81,7 @@ if( knitr::is_latex_output() ) {
                format = "latex",
                longtable = FALSE,
                booktabs = TRUE,
+               align = "c",
                col.names = c("Age",
                             "Gender",
                             "BMI",
@@ -360,7 +361,7 @@ Your tutor will have information.
 ## **Optional**: Understanding graphs {#HistogramBars}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
@@ -374,7 +375,7 @@ Explain the important differences between a bar chart and a histogram.
 ## **Optional**: Selecting graphics {#SelectingGraphsH5P}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -393,7 +394,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
@@ -419,7 +420,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 ## **Optional**: Evaluating graphics {#EvaluateGraphs1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture3Answers))*
@@ -451,7 +452,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 ## **Optional**: Understanding graphics {#UnderstandGraphsPizza}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {
@@ -473,7 +474,7 @@ This question is **optional**; for example, if you need more practice, or you ar
 ## **Optional**: Selecting graphs {#SelectGraph1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 `r if (knitr::is_latex_output()) {

@@ -9,8 +9,8 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 38 (Reading research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
-* [Chapter 39 (Writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
+* [Chapter 40 (Writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
+* [Chapter 41 (Reading and critiquing research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
 
 
 
@@ -136,8 +136,9 @@ From a study comparing how well sports-playing students can estimate distance co
 
 ## **Optional**: Deciding which test to use {#WhatTestToUse}
 
+
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers are available in Sect. \@ref(Lecture12Answers))*
@@ -164,8 +165,9 @@ include_graphics("ArticleImages/Singh2016-Table1.png")
 
 ## **Optional**: Reading research articles {#ReadDesks}
 
+
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers available in Sect. \@ref(Lecture12Answers))*
@@ -197,7 +199,7 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 ```
 
 4. Identify the units of observation and units of analysis.\tightlist
-5. Does the study use blinding? 
+5. Does the study use blinding?
    If so, for what reason?
    If not, why not?  
 
@@ -214,8 +216,9 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 
 ## **Optional**: Reading research articles {#ReadErrors}
 
+
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; for example, if you need more practice, or you are studying for the exam.
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
 *(Answers available in Sect. \@ref(Lecture12Answers))*
@@ -237,7 +240,7 @@ include_graphics("ArticleImages/Kozer2004Figure1.png")
 
 
 1. Identify the possible RQ being answered, identifying (where possible) P, O, C and I.
-2. Identify the type of question is being asked: Descriptive, Relational or Interventional.
+2. Identify the type of question is being asked: descriptive, relational, repeated-measures or correlational.
 3. Explain whether the study is observational or experimental (true or quasi).
 4. List the possible limitations can you identify with this study. 
    Then identify the limitations identified by the authors, by reading the extract in Fig. \@ref(fig:Kozer2004Limitations).
