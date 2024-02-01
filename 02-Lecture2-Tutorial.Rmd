@@ -163,7 +163,7 @@ regarding this information.
 
 
 ```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='90%', eval=is_latex_output()}
-knitr::include_graphics("images/Crossword-Week2-Q1.PNG")
+knitr::include_graphics("images/Crossword-Week2-Trial.PNG")
 ```
 
 

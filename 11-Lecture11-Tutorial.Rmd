@@ -284,21 +284,10 @@ I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
 
 ```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$)", fig.align="center", fig.width=6}
 
-CP <- structure(list(Year = c(2005L, 2011L, 1988L, 2005L, 2006L, 2004L, 
-1999L, 1988L, 2003L, 2009L, 2011L, 2012L, 1999L, 2007L, 2004L, 
-2003L, 2001L, 2012L, 2002L, 2001L, 2001L, 2001L, 1994L, 1995L, 
-2002L, 2007L, 2010L, 2002L, 2007L, 2006L, 1994L, 2002L, 2006L, 
-2001L, 2001L, 2001L, 1994L, 1995L, 2002L, 2007L, 2010L, 2002L, 
-2007L, 2010L, 2001L), Price = c(6800L, 14500L, 600L, 5800L, 9500L, 
-7000L, 1999L, 4000L, 4990L, 9995L, 17000L, 15990L, 2790L, 8350L, 
-6998L, 7999L, 4500L, 13700L, 6800L, 3450L, 4750L, 4499L, 550L, 
-3400L, 5999L, 8980L, 12200L, 3250L, 6999L, 9500L, 3900L, 6300L, 
-7000L, 3450L, 4750L, 4499L, 550L, 3400L, 5999L, 8980L, 12200L, 
-3250L, 6999L, 15250L, 390000L), Age = c(9L, 3L, 26L, 9L, 8L, 
-10L, 15L, 26L, 11L, 5L, 3L, 2L, 15L, 7L, 10L, 11L, 13L, 2L, 12L, 
-13L, 13L, 13L, 20L, 19L, 12L, 7L, 4L, 12L, 7L, 8L, 20L, 12L, 
-8L, 13L, 13L, 13L, 20L, 19L, 12L, 7L, 4L, 12L, 7L, 4L, 13L)), class = "data.frame", row.names = c(NA, 
--45L))
+data(Corollas)
+
+CP <- Corollas
+
 
 CP <- rbind(CP, c(2008, 13000, 6) )  ### Add as it looks better
 
@@ -384,21 +373,10 @@ knitr::include_graphics("SoftwareImages/CorollasSPSS-Regression.png")
 
 
 ```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$)", fig.align="center", fig.width=6}
-CP <- structure(list(Year = c(2005L, 2011L, 1988L, 2005L, 2006L, 2004L, 
-1999L, 1988L, 2003L, 2009L, 2011L, 2012L, 1999L, 2007L, 2004L, 
-2003L, 2001L, 2012L, 2002L, 2001L, 2001L, 2001L, 1994L, 1995L, 
-2002L, 2007L, 2010L, 2002L, 2007L, 2006L, 1994L, 2002L, 2006L, 
-2001L, 2001L, 2001L, 1994L, 1995L, 2002L, 2007L, 2010L, 2002L, 
-2007L, 2010L, 2001L), Price = c(6800L, 14500L, 600L, 5800L, 9500L, 
-7000L, 1999L, 4000L, 4990L, 9995L, 17000L, 15990L, 2790L, 8350L, 
-6998L, 7999L, 4500L, 13700L, 6800L, 3450L, 4750L, 4499L, 550L, 
-3400L, 5999L, 8980L, 12200L, 3250L, 6999L, 9500L, 3900L, 6300L, 
-7000L, 3450L, 4750L, 4499L, 550L, 3400L, 5999L, 8980L, 12200L, 
-3250L, 6999L, 15250L, 390000L), Age = c(9L, 3L, 26L, 9L, 8L, 
-10L, 15L, 26L, 11L, 5L, 3L, 2L, 15L, 7L, 10L, 11L, 13L, 2L, 12L, 
-13L, 13L, 13L, 20L, 19L, 12L, 7L, 4L, 12L, 7L, 8L, 20L, 12L, 
-8L, 13L, 13L, 13L, 20L, 19L, 12L, 7L, 4L, 12L, 7L, 4L, 13L)), class = "data.frame", row.names = c(NA, 
--45L))
+data(Corollas)
+
+CP <- Corollas
+
 
 CP <- rbind(CP, c(2008, 13000, 6) )  ### Add as it looks better
 
