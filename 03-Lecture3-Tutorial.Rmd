@@ -64,8 +64,7 @@ We recommend trying these *Quick revision* questions **before** your tutorial.
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults undergo a sleep study.
 `r if( knitr::is_html_output() ) {
   'The data are shown in Fig.\\ \\@ref(fig:OSADT).'
-} else
-{
+} else {
   'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
 }
 `
