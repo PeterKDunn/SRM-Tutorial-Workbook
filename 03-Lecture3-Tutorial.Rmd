@@ -17,7 +17,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 11 (Classifying data)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
 * [Chapter 12 (Summarising quantitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQuantData.html).
 
-*****
+
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -78,7 +78,7 @@ if( knitr::is_latex_output() ) {
                             "BMI",
                             "Neck circumference (cm)",
                             "REI"),
-              caption = "Part of the obstructive sleep apnoea data set") %>%
+              caption = "Part of the obstructive sleep apnoea data set ($n = 60$)") %>%
     kable_styling(font_size = 10) %>%
     row_spec(0, bold = TRUE) 
 }
@@ -137,55 +137,51 @@ if( knitr::is_html_output() ) {
 
 ## Using the calculator statistics mode {#StatsMode}
 
+```{r echo=FALSE}
+set.seed(2021)
+library(GLMsData)
+data(polythene)
 
+len <- 8
+PT <- polythene$Polythene
+PT <- PT[ sample( 1:length(PT), len) ]
+```
 
-<div style="float:right; width: 222x; border: 1px; padding:10px">
-<img src="Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg" width="200px">
-</div>
+2. The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
+   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
+   b. Without using a calculator, find the **median** of these numbers.
 
+```{r PolyTable, echo=FALSE}
 
+PTTab <- array( "", 
+                dim = c(1, length(PT) ) )
 
-Bamboo is a fast-growing, strong grass useful for green building practices.
-A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).
-
-Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
-
-```{r MORTable, echo=FALSE}
-MORTab <- array( "", 
-                 dim = c(1, 5))
-
-MORTab[1, ] <- c(99.2, 111.2, 97.6, 101.1, 104.0)
-
+PTTab[1, ] <- PT
+PTcap <- "The amount of polythene (in tonnes) used by a sample of UK cosmetic companies"
 
 if( knitr::is_latex_output() ) {
-  kable(MORTab,
+  kable(PTTab,
       format = "latex",
       booktab = TRUE,
-      caption = "The MOR (in MPa) for five bamboo boards") %>%
+      caption = PTcap) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(MORTab,
+  kable(PTTab,
       format = "html",
       booktab = TRUE,
-      caption = "The MOR (in MPa) for five bamboo boards") %>%
+      caption = PTcap) %>%
   kable_styling(full_width = FALSE)
 }
 ```
 
 
 
-1. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
-   Justify your answer.
-2. Use your calculator's statistics mode to compute the mean and the standard deviation.
-
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-In practice, data are almost *never* a population.  
-
+In practice, data are almost *never* a population.
 If you are using your calculator correctly, you should get $\bar{x} = 102.62$ and $s = 5.356$. 
 If you get $s = 4.790157$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
@@ -357,7 +353,7 @@ if( knitr::is_latex_output() ) {
   kable(BattTab,
       format = "latex",
       booktab = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours") %>%
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -375,7 +371,7 @@ if( knitr::is_html_output() ) {
 
 1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
 `r if( knitr::is_html_output() ) {'The type of research study is  '}`
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
    Justify your answer. \tightlist
 
 2. What are the *units of observation* and *units of analysis*?
@@ -474,14 +470,14 @@ This question is **optional**; e.g., if you need more practice, or you are study
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
 These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
-
 If you need help, please **ask**.
 :::
 
 1. The data in Table\ \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
-
+   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
+   b. Without using a calculator, find the **median** of the data.
+   c. Compute the IQR for the data.
+   
 ```{r AISTable, echo=FALSE}
 library(GLMsData)
 data(AIS)
@@ -514,52 +510,46 @@ if( knitr::is_html_output() ) {
 
 
 
+2. Bamboo is a fast-growing, strong grass useful for green building practices.
+   A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).  
+   Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+   The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
 
-```{r echo=FALSE}
-set.seed(2021)
-library(GLMsData)
-data(polythene)
+```{r MORTable, echo=FALSE}
+MORTab <- array( "", 
+                 dim = c(1, 5))
 
-len <- 8
-PT <- polythene$Polythene
-PT <- PT[ sample( 1:length(PT), len) ]
-```
+MORTab[1, ] <- c(99.2, 111.2, 97.6, 101.1, 104.0)
 
-2. The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
-
-```{r PolyTable, echo=FALSE}
-
-PTTab <- array( "", 
-                dim = c(1, length(PT) ) )
-
-PTTab[1, ] <- PT
-PTcap <- "The amount of polythene (in tonnes) used by a sample of UK cosmetic companies"
 
 if( knitr::is_latex_output() ) {
-  kable(PTTab,
+  kable(MORTab,
       format = "latex",
       booktab = TRUE,
-      caption = PTcap) %>%
+      caption = "The MOR (in MPa) for five bamboo boards") %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(PTTab,
+  kable(MORTab,
       format = "html",
       booktab = TRUE,
-      caption = PTcap) %>%
+      caption = "The MOR (in MPa) for five bamboo boards") %>%
   kable_styling(full_width = FALSE)
 }
 ```
 
 
 
+   a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
+   Justify your answer.
+   b. Use your calculator's statistics mode to compute the mean and the standard deviation.
+
+
 3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
-   b. Without using a calculator, find the **median** of these numbers.
-
+   b. Without using a calculator, find the **median** of the data.
+   c. Compute the IQR.
 ```{r AISTable2, echo=FALSE}
 library(GLMsData)
 data(AIS)
