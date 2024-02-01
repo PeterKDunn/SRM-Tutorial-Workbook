@@ -6,6 +6,7 @@ library("leaflet")
 library("webshot")     # screen shot of HTML animations
                        # webshot::install_phantomjs()
 library("GLMsData")    # For some data sets
+library("SRMData")
 library("diagram")
 library("viridis")
 library("DT")          # For displaying tables
