@@ -13,18 +13,18 @@ Some information for tutors only.
 This Appendix contains some thoughts on teaching in the tutorial.
 
 * [Introductory information](#IntroInfoTutor) for use in the Teaching Week \@ref(Lecture1) Tutorial.
-* [Information](#Lecture1ThoughtsForTutors) for Teaching Week \@ref(Lecture1) Tutorial.
-* [Information](#Lecture2ThoughtsForTutors) for Teaching Week \@ref(Lecture2) Tutorial.
-* [Information](#Lecture3ThoughtsForTutors) for Teaching Week \@ref(Lecture3) Tutorial.
-* [Information](#Lecture4ThoughtsForTutors) for Teaching Week \@ref(Lecture4) Tutorial.
-* [Information](#Lecture5ThoughtsForTutors) for Teaching Week \@ref(Lecture5) Tutorial.
-* [Information](#Lecture6ThoughtsForTutors) for Teaching Week \@ref(Lecture6) Tutorial.
-* [Information](#Lecture7ThoughtsForTutors) for Teaching Week \@ref(Lecture7) Tutorial.
-* [Information](#Lecture8ThoughtsForTutors) for Teaching Week \@ref(Lecture8) Tutorial.
-* [Information](#Lecture9ThoughtsForTutors) for Teaching Week \@ref(Lecture9) Tutorial
-* [Information](#Lecture10ThoughtsForTutors) for Teaching Week \@ref(Lecture10) Tutorial.
-* [Information](#Lecture11ThoughtsForTutors) for Teaching Week \@ref(Lecture11) Tutorial.
-* [Information](#Lecture12ThoughtsForTutors) for Teaching Week \@ref(Lecture12) Tutorial.
+* [Information](#Lecture1ThoughtsForTutors) for Teaching Week\ \@ref(Lecture1) Tutorial.
+* [Information](#Lecture2ThoughtsForTutors) for Teaching Week\ \@ref(Lecture2) Tutorial.
+* [Information](#Lecture3ThoughtsForTutors) for Teaching Week\ \@ref(Lecture3) Tutorial.
+* [Information](#Lecture4ThoughtsForTutors) for Teaching Week\ \@ref(Lecture4) Tutorial.
+* [Information](#Lecture5ThoughtsForTutors) for Teaching Week\ \@ref(Lecture5) Tutorial.
+* [Information](#Lecture6ThoughtsForTutors) for Teaching Week\ \@ref(Lecture6) Tutorial.
+* [Information](#Lecture7ThoughtsForTutors) for Teaching Week\ \@ref(Lecture7) Tutorial.
+* [Information](#Lecture8ThoughtsForTutors) for Teaching Week\ \@ref(Lecture8) Tutorial.
+* [Information](#Lecture9ThoughtsForTutors) for Teaching Week\ \@ref(Lecture9) Tutorial
+* [Information](#Lecture10ThoughtsForTutors) for Teaching Week\ \@ref(Lecture10) Tutorial.
+* [Information](#Lecture11ThoughtsForTutors) for Teaching Week\ \@ref(Lecture11) Tutorial.
+* [Information](#Lecture12ThoughtsForTutors) for Teaching Week\ \@ref(Lecture12) Tutorial.
 
 
 
@@ -43,10 +43,7 @@ This is important for helping students to form groups (for their group work assi
 ### Introduction to course {.unlisted .unnumbered}
 
 * **Course introduction**:
-  Briefly introduce the course if necessary,
-  but remember that I have instructed students to read the Course Outline
-  and the Canvas information,
-  and have emailed them lots of information too.
+  Briefly introduce the course if necessary, but remember that I have instructed students to read the Course Outline and the Canvas information, and have emailed them lots of information too.
   
 * **Approach**:
   Most SCI110 students are in their first year at UniSC, and everything is new!
@@ -58,15 +55,11 @@ This is important for helping students to form groups (for their group work assi
   * Group them according to where they live (may be helpful for finding near-by group members): 
     Chat and learn three names.
   * Line up by hours per week they think is needed for this course.
-    (UniSC courses are designed for 10--12 hours per week, including classes, every week; 
-    a lot of work is needed outside class times!)
+    (UniSC courses are designed for $10$--$12$ hours per week, including classes, every week; a lot of work is needed outside class times!)
   * Line up by the average number of hours of paid work they expect to do per week.
-  * Line up by what they think the cost of SCI110 is
-    (remind them they don't have \$1000 to waste, 
-    so take advantage of all that we offer).
+  * Line up by what they think the cost of SCI110 is (remind them they don't have \$1000 to waste, so take advantage of all that we offer).
   * Then discuss the pre-semester fun survey (see below).
-  * You may even like to open Canvas and show students where the 
-    Modules, Discussions, Check your Progress questions, etc. are located.
+  * You may even like to open Canvas and show students where the Modules, Discussions, Check your Progress questions, etc. are located.
   * Then do some content questions.
   
   
@@ -78,14 +71,16 @@ We can use it to open some discussions.
 Here’s an example, using the percentage of females/males:
 
 * Ask them to guess the percentage of males or females in SCI110 *this* semester. 
-  Some will look at their class: is this a good guesstimate? Why or why not?
-* Reveal that about 65% of UniSC students are female. Does this change their guess?
+  Some will look at their class: is this a good guesstimate? 
+  Why or why not?
+* Reveal that about $65$% of UniSC students are female. 
+  Does this change their guess?
 * Then reveal the survey results. 
   Have students comment on the closeness or otherwise of their guesses.
 * Point out that the survey results are not from the whole class. 
   How close do they think the survey percentages are to the true percentage? 
-  Within 1%? 5% 10% of the true value? 
-  How many would we need in our sample to get a percentage to within 1% of the true percentage?
+  Within $1$%? $5$% $10$% of the true value? 
+  How many would we need in our sample to get a percentage to within $1$% of the true percentage?
   What if (say) males were less likely to answer the survey than females?
   Does the voluntary aspect cause you to doubt the accuracy and precision of the answers?
 * How could you ensure that the sample results were as close as possible to the true answers?
@@ -113,32 +108,25 @@ That covers a lot of good territory really...
 ### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-One way to manage this:
-Arrange students into groups, 
-and have each group discuss Parts 1, 2 and 3 separately.
+One way to manage this: arrange students into groups, and have each group discuss Parts\ 1, 2 and 3 separately.
 Then have each group share their answer with the class and discuss.
 	
-Or: Have one person from each of Group 1, 2 and 3 form new groups
-(all containing someone from each group) to discuss the parts.
+Or: have one person from each of Group\ 1, 2 and 3 form new groups (all containing someone from each group) to discuss the parts.
 	
-The last two parts of this question can be done by groups separately,
-then have the groups share with other groups.
-
+The last two parts of this question can be done by groups separately, then have the groups share with other groups.
 
 *Encourage and promote student discussion and debate about the answers.*
-The point is that there are many possible options,
-all of which are acceptable,
-and all of which lead to different RQs.
+The point is that there are many possible options, all of which are acceptable, and all of which lead to different RQs.
 
 
-1. Note that Jane's actual assertion in the last sentence explicitly refers to "people",
-   though the context really is (UniSC?) students as she asserts earlier.
+1. Note that Jane's actual assertion in the last sentence explicitly refers to "people", though the context really is (UniSC?) students as she asserts earlier.
    Encourage this discussion!
-2. In some ways, the answer is not important. But clearly stating what you are doing is important!
-3. Again, many options are possible, Some options for comparing to Earl Grey tea: 
+2. In some ways, the answer is not important. 
+   But clearly stating what you are doing is important!
+3. Again, many options are possible.
+   Some options for comparing to Earl Grey tea: 
    coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
-4. "Between before and after drinking Earl Grey tea" is *not* a comparison
-   because everyone in the population (sample) is treated the same way:
+4. "Between before and after drinking Earl Grey tea" is a *within-individuals* comparison, *not a between-individuals comparison* because everyone in the population (sample) is treated the same way.
    There are not two groups in the population being compared.
 ```
     
@@ -149,8 +137,7 @@ and all of which lead to different RQs.
 ### Thoughts on Sect. \@ref(Units) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-Encourage and promote student discussion and debate about the answers,
-within and then between groups.
+Encourage and promote student discussion and debate about the answers, within and then between groups.
 Then let the groups share their answers with another group(s).
 ```
 
@@ -175,7 +162,7 @@ Then let the groups share their answers with another group(s).
 ### Thoughts on Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-Remind students that there is a Glossary in the textbook!
+Remind students that there is a *Glossary* in the textbook!
 ```
 
 
@@ -183,9 +170,7 @@ Remind students that there is a Glossary in the textbook!
 ### Thoughts on Sect. \@ref(AssessReport) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-For newspaper articles,
-remember that the *reporting* may not be very good,
-even though the research itself may be good.
+For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
 Sometimes we need to assume answers or just state that we don't know.
 ```
 
@@ -194,7 +179,7 @@ Sometimes we need to assume answers or just state that we don't know.
 ### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-The purpose of this question is to get students thinking about *study design* for Assessment Task 2A.
+The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
 
 **In online classes**, you may just need to **talk** about the issues, rather than **do** the study.
@@ -202,7 +187,7 @@ It is **very important**!
 There are many correct ways to do this activity.
 However, for many reasons, we suggest following the suggestions here in the end (though having students suggest other ideas first is a great idea too).
 
-You could show the Project Proposal form on the overhead screen, and get the students to work through it one page at a time.
+You could show the *Project Proposal* form on the overhead screen, and get the students to work through it one page at a time.
 
 I know it is easier to measure reaction time using an app or website on a smartphone... but **I strongly suggest not doing so**.
 The *purpose* of this activity is **not** getting the reaction times, but to think about planning a study.
@@ -223,9 +208,9 @@ Being a  little vague at this stage:
 * **I**ntervention: None.
 
 Seeing that there is no C is important!
-This is a descriptive RQ, because there is no C (there are not two subsets (that are naturally different, or will be treated differently) being compared, as per our definition of a **C**omparison.
+This is a relational RQ, with a within-individuals comparison (there are not two subsets being compared).
 
-As a result, **a Task 2 project like this is not permitted: There is no C**.
+As a result, **a Task\ 2 project like this is not permitted.
 
 Some points:
 
@@ -242,19 +227,28 @@ Some points:
 * You may like to prepare a Word document with this info (during class time; ask a student to be the scribe), then over the following weeks as we compile more about the study (e.g., numerical and graphical summaries) add to this Word document. 
 * Things to decide upon (some are arbitrary; some will have better answers than others):
   - How do we decide which hand goes first? 
-  - How will we dine *dominant hand*? (Perhaps easiest: Hand we write with.)
-  - What if someone is ambidexterous? (Use exclusion criteria!)
-  - How will be grab the ruler? Anyway we like, or with index finger and thumb? 
-  - How do we measure the reaction time on the ruler? What is grabbing finger/thumb is not horizontal exactly? Top of thumb?
+  - How will we dine *dominant hand*? 
+    (Perhaps easiest: hand we write with.)
+  - What if someone is ambidexterous, or only has one arm? 
+    (Use exclusion criteria!)
+  - How will be grab the ruler? 
+    Anyway we like, or with index finger and thumb? 
+  - How do we measure the reaction time on the ruler? 
+    What is grabbing finger/thumb is not horizontal exactly? 
+    Top of thumb?
   - Where will we start the ruler relative to fingers?
-  - When will we release the ruler? After (say) 3 seconds? After a random time?
+  - When will we release the ruler? 
+    After (say) $3$ seconds? 
+    After a random time?
   - Will catchers be sitting or standing?
-  - What of the catcher drops their hand while catching? (Maybe arm should rest on a table?)
+  - What of the catcher drops their hand while catching?
+    (Maybe arm should rest on a table?)
   - How far apart should fingers be?
-  - Just one catch per hand, or more? If more, what (single) number to rport: the slowest? Fastest? Median? Mean?
-  - What if the catchers fails to catch the ruler: Have another go? Or just their bad luck: They miss a measurement?
+  - Just one catch per hand, or more? 
+    If more, what (single) number to report: the slowest? fastest? median? mean?
+  - What if the catchers fails to catch the ruler: have another go? or just their bad luck, and they miss a measurement?
   - Can we manage Hawthorne (no), observer effect (ask which hand is dominant *after* collecting data), etc.
-* For example, we may decide to toss a coin to start (Heads: Start with left; Tails: Start with right), then alternate to have three tries each hand.
+* For example, we may decide to toss a coin to start (Heads: start with left; Tails: start with right), then alternate to have three tries each hand.
   Report the median for each hand. 
   *After* the toss, ask which hand is dominant.
 
@@ -297,7 +291,8 @@ Notes:
 You can have different groups (two or four) do different parts,
 and then explain their answers to other groups.  
 
-Promote discussion, don't just give answers.   Ask **why**!
+Promote discussion, don't just give answers.   
+Ask **why**!
 ```
 
 
@@ -313,17 +308,13 @@ Have students work in groups, and then share their answers.
 ### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-Following on from the ruler-drop planning activity from Week 2
-(Sect. \@ref(PlanStudy2)):
-Use the protocol established then, and have students actually collect data.
+Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
 
-I suggest starting jamovi
-(remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
-and showing students how to set up the variables,
-and have them come to the computer and enter their own data.
+I suggest starting jamovi.
+(Remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
+Show students how to set up the variables, and have them come to the computer and enter their own data.
 
-Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph
-(e.g., histogram of differences).
+Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences).
 
 **Save the data!**
 ```
@@ -340,18 +331,10 @@ Then compute the differences (automatically; see me if unsure), and then show th
 ### Thoughts on Sect. \@ref(QuickRevision-Tutorial4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-With 22 observations,
-the median is halfway between the 11th and 12th ordered observations
-(observation number $(22+1)/2=11.5$):
-both be in the second bar, 
-so the median is somewhere between 8 and 10mm
-(we cannot be sure based on the histogram, as information is lost).
-If they understand the histogram,
-they should also see that the smallest breadth is about 6mm,
-so a median of 4mm makes no sense.  
+With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
+If they understand the histogram, they should also see that the smallest breadth is about $6$\ mm, so a median of $4$\ mm makes no sense.  
 
-If you have the time: **Ask**  *how* to explain why they are wrong,
-and **ask approximately what the median would be**.
+If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.
 ```
 
 
@@ -362,32 +345,24 @@ and **ask approximately what the median would be**.
 ```{block2, type="rmdTutorInfo"}
 At present, exams are online.  
 
-This means that the need for studemts to use a calculator is diminished;
-they can use whatever they want (e.g., spreadhseet) I guess. 
+This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadhseet) I guess. 
 We have no way of knowing.  
 
-For that reason, 
-you may wish to reconsider how this is taught.
+For that reason, you may wish to reconsider how this is taught.
 ```
 
 
 
 ```{block2, type="rmdTutorInfo"}
-You may like to suggest that students search on YouTube for some tutorials on using their calculator's
-**Statistics Mode**.
+You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
 
-Students need to know how to use their calculator's statistics mode,
-including for the exam.
 The Course Outline indicates that a calculator is needed.
-Help students as much as you can, 
-but you cannot be expected to know how to work every type of calculator that is out there.
+Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
 You can perhaps direct students to work with other students having similar calculators.
 
 
-If students use the wrong standard deviation button,
-they will get $\sigma=4.79$MPa in error.
-**This is one important outcome of this question:
-That students know what button to press *on their calculator* to get the sample standard deviation.**
+If students use the wrong standard deviation button, they will get $\sigma = 4.79$\ MPa in error.
+**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
 ```
 
 
@@ -396,18 +371,15 @@ That students know what button to press *on their calculator* to get the sample 
 ### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-You can have groups answer each part separately,
-then share their explanations with the class.
-
+You can have groups answer each part separately, then share their explanations with the class.
 You may wish to quiz the students about means and IQRs too.
 
-For your info only (note the means and medians are very similar),
-see Table \@ref(tab:NumericalSummary).
+For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummary).
 ```
 
 
 ```{r NumericalSummary, echo=FALSE}
-NumSum <- array( dim=c(4, 4))
+NumSum <- array( dim = c(4, 4))
 
 colnames(NumSum) <- c("A", "B", "C", "D")
 rownames(NumSum) <- c("Std devs",
@@ -447,19 +419,14 @@ kable(NumSum,
 ### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-This activity follows on from the ruler-drop planning activity from Week 2
-(Sect. \@ref(PlanStudy2)) and the data collection (Sect. \@ref(PlanStudy3):
+This activity follows on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)) and the data collection (Sect.\ \@ref(PlanStudy3).
 Use jamovi and the data file to create the numerical summary.
 
 You can save this info to add to later if you wish.
 
-In this activity,
-have students actually collect the data (quickly),
-according to the plan prepared in Sect. \@ref(PlanStudy2),
-at least as best as you can.
+In this activity, have students actually collect the data (quickly), according to the plan prepared in Sect.\ \@ref(PlanStudy2), at least as best as you can.
 
-The data themselves aren't actually that important:
-it is more about *using* the data to show how to 
+The data themselves aren't actually that important: it is more about *using* the data to show how to 
 
 * enter the data into software;
 * draw graphs; and
@@ -467,15 +434,10 @@ it is more about *using* the data to show how to
 
 They are **not** meant to become experts in the software, but it useful for them to see.
 
-I suggest having students enter their data into jamovi (Fig. \@ref(fig:RulerDrop-jamovi)),
-and then you show them how to do some basic stuff.
+I suggest having students enter their data into jamovi (Fig.\ \@ref(fig:RulerDrop-jamovi)), and then you show them how to do some basic stuff.
 
-If you have collect data from each person left and right hand
-(to study the average difference between left and right hand reaction, for instance),
-remember that the unit of analysis is the *person*,
-and each person gets two units of observation: 
-jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row.
- (Fig. \@ref(fig:RulerDrop-jamovi)).
+If you have collect data from each person left and right hand (to study the average difference between left and right hand reaction, for instance), remember that the unit of analysis is the *person*, and each person gets two units of observation: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row
+ (Fig.\ \@ref(fig:RulerDrop-jamovi)).
 ```
 
 
@@ -511,19 +473,14 @@ include_graphics("SoftwareImages/RulerDropData.png")
 
 ```{block2, type="rmdTutorInfo"}
 Encourage drawing diagrams!
-A common error: plugging numbers into calculators wrongly,
-and effectively computing
-$z=x-(\mu/\sigma)$
-rather than $z=(x-\mu)/\sigma$.
+A common error: plugging numbers into calculators wrongly, and effectively computing $z = x - (\mu/\sigma)$ rather than $z = (x - \mu)/\sigma$.
 
-Notice that students cannot be very accurate using the 68--95--99.7 rule,
-which is one of the points to be made:
-Only a guess can be made, but using $z$-scores leads to more accurate answers.
+Notice that students cannot be very accurate using the $68$--$95$--$99.7$ rule, which is one of the points to be made: only a guess can be made, but using $z$-scores leads to more accurate answers.
 ```
 
 
 ```{block2, type="rmdTutorInfo"}
-**You could have a discussion about rounding:**
+**You could have a discussion about rounding.**
 Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 ```
 
@@ -535,10 +492,9 @@ Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 ```{block2, type="rmdTutorInfo"}
 Since samples are easy to generate, you can have each group/person in class generate a few simulations.
 On the whiteboard, you can tally these, and produce a histogram.
-Obviously, the more sets of 10 you can generate, the better... and the webpage is fast... but don't take *too* long doing so.
+Obviously, the more sets of $10$ you can generate, the better... and the webpage is fast... but don't take *too* long doing so.
 
-
-One purpose is to show students about *sampling variation*: Not every set of 10 tosses produces the same value.
+One purpose is to show students about *sampling variation*: not every set of $10$ tosses produces the same value.
 The main purpose is to demonstrate what we mean by a sampling distribution: the distribution that shows how a sample statistic varies from sample to sample.
 After drawing the histogram from your classes data, you may wish to point out where certain groups' $\hat{p}$ values are located.
 ```
@@ -565,10 +521,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 ```{block2, type="rmdTutorInfo"}
 **Students commonly forget the square root.**
-Furthermore, 
-**the calculators may use scientific notation** to display the results from some calculations
-(e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators);
-many students will have no idea what's going on.
+Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.
 ```
 
 
@@ -577,11 +530,9 @@ many students will have no idea what's going on.
 ### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-If you wish,
-you can form a CI for the ruler-drop (using jamovi).
+If you wish, you can form a CI for the ruler-drop (using jamovi).
 
-In particular, if you get a negative number for one (or both) of the CI limits,
-you can discuss what the negative number means.
+In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.
 ```
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -607,7 +558,7 @@ you can discuss what the negative number means.
 ### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-We only need to use the 68--95--99.7 rule.
+We only need to use the $68$--$95$--$99.7$ rule.
 The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 ```
 
@@ -619,8 +570,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 ### Thoughts on Sect. \@ref(PlanStudy8) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-If you wish,
-you can conduct a hypothesis test for the ruler-drop (using jamovi).
+If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
 ```
 
 
@@ -652,28 +602,20 @@ you can conduct a hypothesis test for the ruler-drop (using jamovi).
 ### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-If you count the dots on the scatterplot, 
-you won't find $n=38$ dots, because of overplotting.
-For example,
-there are two Corolla's from 2006 selling for $9500.
+If you count the dots on the scatterplot, you won't find $n = 38$ dots, because of *overplotting*.
+For example, there are two Corolla's from 2006 selling for $9500.
 
-If you have time,
-you can ask students about this,
-and even ask for suggestions to improve this
-(such as jittering).
+If you have time, you can ask students about this, and even ask for suggestions to improve this (such as jittering).
 
 
-**Note**: Since all the cars in the sample are second-hand,
-technically the results only generalise to second-hand cars,
-so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.
+**Note**: since all the cars in the sample are second-hand, technically the results only generalise to second-hand cars, so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.
 ```
 
 
 ### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-The point is that the same regression line can be associated with a high correlation,
-or a poor correlation.  
+The point is that the same regression line can be associated with a high correlation, or a poor correlation.  
 Regression and correlation are not the same thing!
 ```
 
