@@ -24,7 +24,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 ::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We recommend trying these *Quick revision* questions **before** your tutorial.
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
 :::
 
 ::: {.webex-check .webex-box}
