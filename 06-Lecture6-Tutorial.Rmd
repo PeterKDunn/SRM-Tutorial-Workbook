@@ -309,13 +309,16 @@ barplot( table(ProbHeads),
 ```
 
 
-## **Optional**: Working with normal distributions {#NormalSOI}
+## **Optional questions** {#OptionalTW6}
+
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture6Answers).)
 :::
 
-*(Answers are available in Sect. \@ref(Lecture6Answers))*
+
+### **Optional**: Working with normal distributions {#NormalSOI}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

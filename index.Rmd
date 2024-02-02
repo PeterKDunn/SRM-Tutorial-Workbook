@@ -107,6 +107,11 @@ However, some parts explicitly mention and refer to
 jamovi is *free* and is a little like SPSS.
 
 
+## Data sets {-}
+
+Many of the data sets used in this book are available in the **R** package `SRMData`, and are listed and available in the companion [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/AppendixDataSets.html).
+
+
 
 ## Chunks used in this book {-}
 
@@ -234,6 +239,6 @@ In this book, you will learn to:
 
 ## How to cite this book {-}
 
-Peter K. Dunn (2023). *Scientific Research Methods: Tutorials*.
+Peter K. Dunn (2024). *Scientific Research Methods: Tutorials*.
 https://bookdown.org/pkaldunn/SRM-tutorials/index.html
 

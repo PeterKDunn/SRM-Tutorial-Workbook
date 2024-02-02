@@ -23,12 +23,11 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
-## Quick revision {#QuickRevision-Tutorial4}
+## Quick revision {#QuickRevision-Tutorial4TRY}
 
 
 ::: {.webex-check .webex-box}
-An Australian study [@others:lunn:cida] compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine how the jellyfish were different at each site.
-
+An Australian study [@others:lunn:cida] compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
 ```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island", fig.align="center", fig.width=5, fig.height = 3.25, out.width = '50%'}
@@ -123,96 +122,6 @@ boxplot(Width ~ Location,
 
 
 
-## Quick revision {#QuickRevision-Tutorial3}
-
-```{r echo = FALSE}
-data(OSA)
-```
-
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
-:::
-
-::: {.webex-check .webex-box}
-A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults undergo a sleep study.
-`r if( knitr::is_html_output() ) {
-  'The data are shown in Fig.\\ \\@ref(fig:OSADT).'
-} else {
-  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
-}
-`
-
-```{r OSAKable, echo=FALSE}
-useOSA <- OSA[, c(2:6)]
-useOSA$Gender <- factor(useOSA$Gender, 
-                        levels = 1:2, 
-                        labels = c("Male", "Female"))
-    
-if( knitr::is_latex_output() ) {
-  knitr::kable( head(useOSA, 10),
-               format = "latex",
-               longtable = FALSE,
-               booktabs = TRUE,
-               align = "c",
-               col.names = c("Age",
-                            "Gender",
-                            "BMI",
-                            "Neck circumference (cm)",
-                            "REI"),
-              caption = "Part of the obstructive sleep apnoea data set") %>%
-    kable_styling(font_size = 10) %>%
-    row_spec(0, bold = TRUE) 
-}
-```
-
-```{r OSADT, echo=FALSE, fig.cap="The obstructive sleep apnoea data set", fig.align="center"}
-if( knitr::is_html_output() ) {
-  DT::datatable(useOSA,
-              list(scrollX = TRUE, 
-                   scrollY = TRUE, 
-                   ordering = FALSE),
-              caption = "The Obstructive sleep apnoea data set")
-}
-```
-
-1. What would be the appropriate graph to show the *distribution* of the age of the participants? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Bar chart", 
-		                  "Scatterplot",
-                      answer = "Histogram",
-                      "Boxplot") )}`
-1. What would be the appropriate graph to show the *distribution* of the gender of participants?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      answer = "Bar chart", 
-		                  "Scatterplot",
-                      "Histogram",
-                      "Boxplot") )}`
-1. What would be the appropriate graph to show the *relationship* between gender and REI?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Stacked bar chart", 
-		                  "Scatterplot",
-                      "Pie chart",
-                      answer = "Boxplot") )}`
-:::
-
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-1. *Age* is quantitative, so histograms or stem-and-leaf plots are appropriate.
-1. *Gender* is qualitative, so bar charts or pie charts are appropriate.
-1. *Gender* is qualitative, and *REI* is quantitative, so a boxplot is appropriate.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265011&sec_digit=289849171&embeded_digit=674287922' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-
 
 ## Critiquing students' numerical summaries {#CritiqueStudentSummaries}
 
@@ -251,6 +160,214 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 
 
 
+
+## Understanding correlations  {#UnderstandCorrelations}
+
+Answer the following questions, referring to Fig.\ \@ref(fig:GuessesCorr).
+The four correlation coefficients $r$ are:
+
+
+
+
+```{r echo=FALSE}
+CorData <- array( dim = c(1, 4) )
+#colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
+#rownames(MaturationData) <- c("Males", "Females", "Total")
+
+
+if( knitr::is_latex_output() ) {
+   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
+   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
+   CorData[1, 3] <- "\\textbf{C}: $r = -0.75$"
+   CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
+
+  kable(CorData,
+        format = "latex",
+        #longtable=FALSE,
+        booktabs = TRUE,
+        escape = FALSE, # For latex to work in \rightarrow
+        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+#       caption="",
+        align = c("c", "c", "c", "c"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) # %>%
+  #row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+   CorData[1, 1] <- "**A**: $r = -0.95$"
+   CorData[1, 2] <- "**B**: $r = 0.12$"
+   CorData[1, 3] <- "**C**: $r = 0.75$"
+   CorData[1, 4] <- "**D**: $r = 0.94$"
+
+  kable(CorData,
+        format = "html",
+        align = c("c", "c", "c", "c"),
+        longtable = FALSE,
+#       caption="",
+      booktabs = TRUE)
+}
+
+```
+
+```{r echo=FALSE}
+CorData <- array( dim = c(1, 4) )
+#colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
+#rownames(MaturationData) <- c("Males", "Females", "Total")
+
+
+if( knitr::is_latex_output() ) {
+   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
+   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
+   CorData[1, 3] <- "\\textbf{C}: $r = -0.75$"
+   CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
+
+  kable(CorData,
+        format = "latex",
+        #longtable=FALSE,
+        booktabs = TRUE,
+        escape = FALSE, # For latex to work in \rightarrow
+        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+#       caption="",
+        align = c("c", "c", "c", "c"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) # %>%
+  #row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+   CorData[1, 1] <- "**A**: $r = -0.95$"
+   CorData[1, 2] <- "**B**: $r = 0.12$"
+   CorData[1, 3] <- "**C**: $r = 0.75$"
+   CorData[1, 4] <- "**D**: $r = 0.94$"
+
+  kable(CorData,
+        format = "html",
+        align = c("c", "c", "c", "c"),
+        longtable = FALSE,
+#       caption="",
+      booktabs = TRUE)
+}
+
+```
+
+For two plots, a correlation is not suitable.
+
+1. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
+2. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
+3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 2**.
+4. Compute the values of $R^2$ for each plot identified in **Part\ 1** of this question.
+
+
+
+```{r GuessesCorr, echo=FALSE, fig.cap="Six different scatterplots", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
+set.seed(107695)
+n <- 50
+
+par( mfrow = c(3, 2))
+
+x0 <- seq(6, 16, 
+          length = n)
+x1 <- x0 - min(x0)
+
+
+y1 <- 12 + 4 * x1 + rnorm(length(x1), 0, 3.8)
+plot(y1 ~ x1,
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 60),
+   main = "Plot 1",
+   las = 1 )
+grid()
+
+
+x2 <- seq(-5, 10,
+          length = n)
+y2 <- 50 - 3 * x1 + rnorm(length(x1), 0, 3)
+plot(y2 ~ x2,
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(10, 60),
+   main = "Plot 2",
+   las = 1  )
+grid()
+
+
+
+x1 <- x0 - min(x0)
+y3 <- 32 + 0.01 * x1 + rnorm(length(x1), 0, 10)
+plot(y3 ~ x1,
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 60),
+   main = "Plot 3",
+   las = 1  )
+grid()
+
+
+
+
+x0 <- seq(0, 10, length = n)
+mu4 <- -1 + 0.35 * x0
+vr4 <- 0.65
+y4 <- exp( mu4 + rnorm(length(x0), 0, vr4) )
+plot(y4 ~ x0,
+   xlab = expression(italic(x)),
+   ylab = expression(italic(y)),
+   pch = 19,
+   col = plot.colour0,
+   ylim = c(0, 35),
+   main = "Plot 4",
+   las = 1  )
+grid()
+
+
+x0 <- seq(0, 1, length=n)
+y5 <- 10 + x0 - 50 * (x0 - max(x0))^3 + rnorm(length(x0), 0, 3)
+plot(y5 ~ x0,
+     xlab = expression(italic(x)),
+     ylab = expression(italic(y)),
+     pch = 19,
+     col = plot.colour0,
+     ylim = c(0, 70),
+     main = "Plot 5",
+     las = 1  )
+grid()
+
+
+x6 <- seq(5, 10, length = n)
+y6 <- 16 + 4 * x6 + rnorm(length(x6), 0, 6)
+plot(y6 ~ x6,
+     xlab = expression(italic(x)),
+     ylab = expression(italic(y)),
+     pch = 19,
+     col = plot.colour0,
+     axes = FALSE,
+     ylim = c(30, 70),
+     xlim = c(5, 10),
+     main = "Plot 6",
+     las = 1 )
+axis(side = 2, 
+     las = 1)
+axis(side = 1, 
+     at = seq(5, 10, by = 1))
+box()
+
+grid()
+```
+
+
+
+
+
+
+
 ## Numerical summary for ruler-drop data {#PlanStudy4}
 
 Your tutor will have information.
@@ -263,13 +380,12 @@ Your tutor will have information.
 ## Which summary measures to use {#WhichSummaryToUse}
 
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
-
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
-'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', which is:
+'Gross Motor Function Classification System', which is:
 
 > ... a 5 level clinical classification system that describes the gross motor function of people with cerebral palsy on the basis of self-initiated movement abilities.
 >
-> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
+> --- Wikipedia
 
 
 `r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
@@ -298,7 +414,17 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 
 
 
-## Understanding RQs and variables {#UnderstandRqVariables}
+
+## **Optional questions** {#OptionalTW5}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture5Answers).)
+:::
+
+
+
+### **Optional**: Understanding RQs and variables {#UnderstandRqVariables}
 
 @data:heartbear:radziun2023 compared the mean accuracy with which blind and sighted individuals could count their heartbeats over varying time periods.
 For the study, sighted subjects were blindfolded (p.\ 3).
@@ -330,14 +456,7 @@ The study, therefore, compared the average accuracy scores blind people to sight
 
 
 
-
-## **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
+### **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
 
 Environmentally-friendly buildings are often assumed to have a better indoor environmental quality (when occupants rate the comfort) than conventional buildings; in turn, this is assumed to have a positive impact on productivity.
 
@@ -359,15 +478,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 
-## **Optional**: Selecting the correct graph {#SelectGraphs1}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture4Answers))*'
-}`
+### **Optional**: Selecting the correct graph {#SelectGraphs1}
 
 <iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -454,15 +565,7 @@ knitr::include_graphics("ProjectImages/WrongBar.png")
 
 
 
-## **Optional**: Selecting graphics {#SelectingGraphsH5P}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\ \\@ref(Lecture3Answers))*'
-}`
+### **Optional**: Selecting graphics {#SelectingGraphsH5P}
 
 <iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -473,13 +576,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture3Answers))*
+### **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
 
 A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig.\ \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
 
@@ -499,13 +596,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 
 
 
-## **Optional**: Evaluating graphics {#EvaluateGraphs1}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture3Answers))*
+### **Optional**: Evaluating graphics {#EvaluateGraphs1}
 
 An Australian study [@data:Jennings2012:Morphine] studied patients in severe pain and compared two different treatments to determine which to recommend.
 
@@ -531,15 +622,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 
 
 
-## **Optional**: Selecting graphs {#SelectGraph1}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
-}`
+### **Optional**: Selecting graphs {#SelectGraph1}
 
 <iframe src="https://usc.h5p.com/content/1290973176373971849/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

@@ -1,3 +1,7 @@
+```{=latex}
+\begin{footnotesize}
+```
+<!-- This is CLOSED in the file latex/after_body.tex -->
 
 `r if (knitr::is_html_output()) '# References {-}'`
 `r if (knitr::is_latex_output()) '# References {-}'`

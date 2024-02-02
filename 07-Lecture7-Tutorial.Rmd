@@ -465,14 +465,43 @@ Your tutor *may* decide to do this activity.
 
 
 
-## **Optional**: CI for one mean {#RoomWidthCI}
+## **Drills**: Computational exercises {#Chapter6Drills}
 
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+*(Answers are available in Sect. \@ref(Lecture6Answers))*
+
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
+
+If you need help, please **ask**.
 :::
 
-*(Answers are available in Sect. \@ref(Lecture7Answers))*
-	
+The *standard error* for a sample proportion is calculated as 
+
+\[
+   \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
+\]
+The standard error quantifies how much the sample proportion is likely to vary from sample to sample.
+
+Compute the standard error in these situations:
+
+1. When $n = 25$ and $\hat{p} = 0.70$.
+1. When $n = 100$ and $\hat{p} = 0.25$.
+1. When $n = 32$ and $\hat{p} = 0.42$.
+1. When $n = 53$ and $\hat{p} = 0.814$.
+
+
+
+## **Optional questions** {#OptionalTW7}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture7Answers).)
+:::
+
+
+### **Optional**: CI for one mean {#RoomWidthCI}
+
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
 :::
@@ -552,13 +581,7 @@ include_graphics("SoftwareImages/LengthsHallOutput.png")
 
 
 
-## **Optional**: CI for one proportion {#HMMaturing}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture6Answers))*
+### **Optional**: CI for one proportion {#HMMaturing}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -591,14 +614,8 @@ Sample data were collected from
    
 
 
-## **Optional**: CI for mean differences (paired data) {#CIPairedWaves}
+### **Optional**: CI for mean differences (paired data) {#CIPairedWaves}
 
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture7Answers))*
-	
 Wave power has been considered as a [source of energy since 1890](http://www.outsidelands.org/wave-tidal3.php), but the engineering necessary to successfully and practically harness this energy is complex. 
 
 To understand one method of harnessing this energy, one study [@data:hand:handbook] examined the bending stress (in Newton--metres) in part of a device used to generate electricity from wave power.
@@ -692,13 +709,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## **Optional**: CI for mean differences (paired data) {#CIPairedRunners}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture7Answers))*
+### **Optional**: CI for mean differences (paired data) {#CIPairedRunners}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -769,29 +780,4 @@ The 'usual' value for $\beta$ endorphines is usually less than about 11&nbsp;pmo
 
 
 
-
-## **Drills**: Computational exercises {#Chapter6Drills}
-
-*(Answers are available in Sect. \@ref(Lecture6Answers))*
-
-::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
-
-If you need help, please **ask**.
-:::
-
-The *standard error* for a sample proportion is calculated as 
-
-\[
-   \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
-\]
-The standard error quantifies how much the sample proportion is likely to vary from sample to sample.
-
-Compute the standard error in these situations:
-
-1. When $n = 25$ and $\hat{p} = 0.70$.
-1. When $n = 100$ and $\hat{p} = 0.25$.
-1. When $n = 32$ and $\hat{p} = 0.42$.
-1. When $n = 53$ and $\hat{p} = 0.814$.
 

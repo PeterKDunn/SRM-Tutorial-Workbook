@@ -256,14 +256,17 @@ What assumptions are needed for this test to be statistically valid, and externa
 
 	
 	
-## **Optional**: Tests for one mean {#RoomWidthTest}
+## **Optional questions** {#OptionalTW9}
+
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture9Answers).)
 :::
 
-*(Answers are available in Sect. \@ref(Lecture9Answers))*
-	
+
+### **Optional**: Tests for one mean {#RoomWidthTest}
+
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
 :::
@@ -345,15 +348,9 @@ include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
 
 
 
-## **Optional**: General ideas {#GeneralIdeas2}
+### **Optional**: General ideas {#GeneralIdeas2}
 
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
 
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture9Answers))*'
-}`
 <iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
@@ -365,13 +362,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: $P$-values {#PvalueStatement}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
+### **Optional**: $P$-values {#PvalueStatement}
 
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
@@ -402,13 +393,8 @@ How would the other statements be interpreted then?
 
 
 
-## **Optional**: Tests for paired samples {#PairedTestRunners}
+### **Optional**: Tests for paired samples {#PairedTestRunners}
 
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

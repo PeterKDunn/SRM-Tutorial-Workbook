@@ -24,20 +24,21 @@ Some are fully worked, and some are only brief solutions.
 * Answer: Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
 
 
+```{=latex}
+\begin{footnotesize}
+```
 
 ## Answer: TW 1 tutorial {#Lecture1Answers}
 
 
 ### Answer for Sect. \@ref(ResearchProcess) {.unlisted .unnumbered}
 
-The process is:
-
-1. **Ask** the question.
-2. **Design** the study.
-3. **Collect** the data.
-4. **Describe** and **summarize** the data.
-5. **Analyse** the data.
-6. **Report** the results.
+**Ask** the question.
+**Design** the study.
+**Collect** the data.
+**Classify** and **summarize** the data.
+**Analyse** the data.
+**Report** the results.
  
  
  
@@ -59,23 +60,24 @@ The process is:
 
 ### Answers for Sect. \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
 
-You can use the **Glossary** in the textbook!
+You can use the **Glossary** in the textbook.
 
 
 
 ### Answers for Sect. \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
 
 Answers implied by H5P.
-More directly:
 
-* P: People at an American college.
-* O: The *average* time taken to walk $50$\ m.
-* C: Between the way subjects were using their phone.
-* I: None: an observational study.
-* Explanatory variable: The way that the phone is being used.
-* Response variable: The time taken to walk $50$\ m.
-* Unit of observation: **Individual** subjects.
-* Unit of analysis: **Individual** subjects.
+**P**: People at an American college.
+**O**: The *average* time taken to walk $50$\ m.
+**C**: Between the way subjects were using their phone.
+**I**: None: an observational study.
+
+**Explanatory variable**: The way that the phone is being used.
+**Response variable**: The time taken to walk $50$\ m.
+
+**Unit of observation**: *Individual* subjects.
+**Unit of analysis**: *Individual* subjects.
 
 
 
@@ -132,11 +134,8 @@ More directly:
 ### Answers for Sect. \@ref(TypesOfStudies) {.unlisted .unnumbered}
 
 Answers implied by H5P.
-More directly:
-
-1. Observational.
-2. Quasi-experimental. 
-   The classes are determined by the *students*, but the lecturer decides which class gets which treatment.
+Observational.
+Quasi-experimental (the classes are determined by the *students*, but the lecturer decides which class gets which treatment).
 
 
 
@@ -197,16 +196,15 @@ Terms that may need defining (there may be others):
 ### Answers for Sect. \@ref(Units2) {.unlisted .unnumbered}
 
 
-1. The *units of analysis*:  *a.* The individuals ingots.
-2. The *sample size* for his study: *d.* $80$.
+*Units of analysis*:  **a.** The individuals ingots.
+*Sample size*: **d.** $80$.
 
 
 
 ### Answers for Sect. \@ref(Units3) {.unlisted .unnumbered}
 
-
-1. The units of analysis: the fish tanks.
-2. The type of experiment: true experiment.
+Units of analysis: the fish tanks.
+The type of experiment: true experiment.
 
 
 
@@ -331,8 +329,8 @@ Use a multi-stage sample: Select a carpark at random, then a row of cars at rand
 
 ### Answer for Sect. \@ref(RandomAllocation) {.unlisted .unnumbered}
 
-1. Quite possibly: confounding!
-2. They could have been... though it would be unlikely.
+Quite possibly: confounding!
+They could have been chosen randomly... though it would be unlikely.
 
 
 
@@ -340,8 +338,8 @@ Use a multi-stage sample: Select a carpark at random, then a row of cars at rand
 ### Answer for Sect. \@ref(EvaluatingReportsSugar) {.unlisted .unnumbered}
 
 
-1. Type of drink: explanatory variable; nominal variable; qualitative variable.
-2. Response variable; quantitative variable.
+*Type of drink*: explanatory variable; nominal variable; qualitative variable.
+Response variable; quantitative variable.
 
 
 
@@ -363,12 +361,34 @@ Use a multi-stage sample: Select a carpark at random, then a row of cars at rand
 
 
 
-
-
-
-
-
 ## Answer: TW 3 tutorial {#Lecture3Answers}
+
+
+
+### Answers for Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+
+1. Mean: $990.0791$, or $990.079$\ tonnes.
+   Standard deviation: $1588.514579$, or $1588.5146$\ tonnes. 
+   (Specifically, **not** $1485.919327$.)
+2. Median: $180.516$\ tonnes.
+3. Splitting the data into two parts of four observations each:
+   $Q_1$ is half-way between $8.0001$ and $29.4$ tonnes: $Q_1 = 18.7005$.
+   $Q_3$ is half-way between $676.2$ and $4298.7$ tonnes: $Q_1 = 2532.95$.
+   The IQR is $2532.95 - 18.7005 = 2514.249$, or about $2500$ tonnes.
+   
+   
+
+
+
+
+### Answers for Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+Median largest: **Class\ D**.
+Median smallest: **Class\ C**.
+Standard deviation largest: **Class\ A**.
+Standard deviation smallest: **Class\ D**.
+
 
 
 ### Answers for Sect. \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
@@ -387,32 +407,342 @@ Answers implied by H5P.
 
 
 
-### Answers for Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. For this scenario, the **explanatory** variable is the number of hours of light each plant received.  
-   For this scenario, the **response** variable is the number of flowers each plant received.  
-   The units of **observation** are the individual plants.
-
-2. For this scenario, the **explanatory** variable is the number of smokers at the restaurant.  
-   For this scenario, the **response** variable is the concentration of fine particulate matter.
-
-3. For this scenario, the **response** variable is the waiting time.  
-   For this scenario, the **explanatory** variable is the time of admission.
-
-3. For this scenario, the **explanatory** variable is the "Level of Playfulness".  
-   For this scenario, the **response** variable is the "Level of Coping".
-
-
-
-
 ### Answers for Sect. \@ref(InterpretingGraphs) {.unlisted .unnumbered}
 
 1. Female Weddell: about $260$--$270$\ cm long, vary from about $200$ to $310$\ cm.
    Slight negative skewness; possible small outlier at about $170$--$180$\ cm.
 2. Dotchart.  (Too much data for a useful stem-and-leaf plot probably.)
 3. Better with a title; some more labelled tick marks would be better.
+
+
+
+
+ 
+### Answers for Sect. \@ref(Chapter4Drills) {.unlisted .unnumbered}
+
+
+1. Mean: $168.5714$, or $168.57$\ m. 
+   Standard deviation: $6.966279$, or $6.97$\ m. 
+   (Specifically, **not** $6.44952$.)
+   The median: $167.9$\ m.
+2. $\bar{x} = 102.62$\ MPa; $s = 5.356$\ MPa.
+   The median is $101.1$\ MPa.
+3. Mean: $13.88778$, or $13.888$%.
+   Standard deviation: $2.617402$, or $2.617$%.
+   Median: $13.35$%.
+
+
+ 
+
+### Answers for Sect. \@ref(CalculatorBatteries) {.unlisted .unnumbered}
+
+1. Observational: the 'treatment' (brand of battery) is not assigned; we simply take measurements from the batteries that exist.
+2. Units of observation and units of analysis: The individual batteries.
+3. *Energizer*: mean: $7.36$ hours; std dev: $0.289$ hours.
+   *Ultracell*: mean: $7.41$ hours; std dev: $0.172$ hours.
+	 So Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
+4. *Energizer*: median: $7.46$ hours.
+	 *Ultracell*: median: $7.48$ hours.
+   So Ultracell batteries are *slightly* better (last longer) on average.
+5. Probably median (outliers?), but mean and median are similar in any case.
+6. Values are close.  
+   Certainly no practically importance difference. 
+   Energizer batteries take, on average, *less* time to reach $1.0$ volts, so are 'worse' in this regard.
+	 They also have a lot more variation. But in practical terms, the difference is minimal.
+	 (Based on means, the difference is $0.05$\ hrs, or $3$\ mins in over $7$\ hrs use!
+	 Based on medians, the difference is $0.02$\ hrs, or $1.2$\ mins!)
+	 **The *practical* difference is negligible.**
+7. Quite possibly, some very low values for both brands.
+8. Yes: at the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
+
+
+
+### Answers for Sect. \@ref(InterpretHistogram) {.unlisted .unnumbered}
+
+
+FAS here is about $20$--$25$ in general, ranging from $10$ to $50$ (which are actually the smallest and largest possible scores).
+
+Here's is a detailed explanation.
+**You are not expected to go to this detail!**
+The FAS is about $25$ on average, ranging from about $10$ to $50$, slightly skewed right with no outliers.
+The distribution is unimodal.
+(The heights of the bars are, as best as I can figure, $3$; $14$; $44$; $34$; $22$; $17$; $5$; $3$.)
+With $n = 142$, the median is observation number $71.5$, which is in the $25$--$30$ bar.
+The quartiles will have about $35$ in them, so $Q_1$ will be in the $20$--$25$ bar, and $Q_3$ will be in the $30$--$35$ bar.
+Histogram is pretty good; bars really should be touching.
+
+
+
+ 
+
+### Answer for Sect. \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
+
+**Centre**: About $11$.4 inches;
+**Variation**: Most are between $11.0$ and $12.3$ inches;
+**Shape**: Slightly skewed right (apart from that outlier...);
+A small outlier (near $10.5$ inches)
+
+
+
+
+
+
+
+
+
+
+## Answer: TW 4 tutorial {#Lecture4Answers}
+
+
+
+
+### Answers for Sect. \@ref(PercentOddsStroke) {.unlisted .unnumbered}
+
+1. $43\div (43 + 67) \times 100 = 39.1$%. 
+1. $39\div (97 + 39) \times 100 = 28.7$%.
+1. $43\div 67 = 0.642$.
+1. $39\div 97 = 0.402$.
+1. $0.642 \div 0.402 = 1.6$.
+
+
+
+
+
+### Answers for Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
+
+1. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion, the same for all student types.
+2. Not sure which is best; they do different things.
+   I'd probably prefer (c) (bottom left graph).
+3. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
+   Non-athletes are $0.35$ times as likely to receive two or more concussions than fewer than two.
+	 Or: For every $100$ students with fewer than two concussions, there are $35$ with two or more.
+4. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
+	 Soccer players are $0.26$ times more likely to receive two or more concussions than fewer than two concussions.
+5. OR: $0.35 \div 0.26$, or about $1.35$.
+	 The odds of a non-athlete receiving two or more concussions is about $1.35$ times the odds of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
+6. Not given.
+7. Not given.
+8. The better table is probably row percentages: the percentages of each type of students with given number of concussions.
+
+
+
+
+### Answers for Sect. \@ref(WorkingWithOdds) {.unlisted .unnumbered}
+
+
+1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or $8.3$%.
+2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or $0.091$.
+3. The odds of a bridge collapsing due to deterioration is $0.091$; this means: *b. For every $100$ bridges that do not collapse due to deterioration, about $9.1$ bridges do collapse*.
+4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or $91.7$%.
+5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or $11.0$.
+6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or $18.9$%.
+7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or $0.234$.
+8. The odds of an event cannot be larger than one: *FALSE*.
+9. The odds of an event cannot be smaller than one. *FALSE*.
+10. The following statement is true: *c. Odds cannot be negative*
+
+
+
+
+
+
+
+### Answer for Sect. \@ref(Chapter5Drills) {.unlisted .unnumbered}
+
+1.
+  a. $(381 + 345)/1347 = 0.53898$, or about $53.9$%.
+  b. $(381 + 345)/(295 + 326) = 1.1691$, or about $1.17$.
+  c. $345/326 = 1.05828$, or about $1.06$.
+  d. $381/295 = 1.29153$, or about $1.29$.
+  e. $1.05828 / 1.29153 = 0.81940$, or about $0.819$.
+
+2.
+  a $(240 + 138)/960 = 0.39375$, or $39.4$%.
+  b. $(240 + 342)/960 = 0.60625$, or $60.6$%.
+  c. $(240 + 240)/960 = 0.5000$, or $50$%.
+  d. $(240 + 138)/(240 + 342) = 0.64948$, or about $0.649$.
+  e. $240/240 = 1.000$.
+  f. $138/342 = 0.40351$ or about $0.404$.
+  g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e).
+
+
+
+
+
+### Answers for Sect. \@ref(OddsRatioSMND) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
+```
+
+1. Backwards.
+1. See Table\ \@ref(tab:SMNDAnswerTable).
+2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
+3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
+
+
+
+
+```{r echo=FALSE, SMNDAnswerTable}
+SMNDData <- array( dim = c(3, 3) )
+colnames(SMNDData) <- c("Worked with metals", 
+                        "Did not work with metals", 
+                        "Total")
+rownames(SMNDData) <- c("SMND cases", 
+                        "Controls", 
+                        "Total")
+
+SMNDData[1,] <- c(60, 320, 380)
+SMNDData[2,] <- c(33, 344, 377)
+SMNDData[3,] <- c(93, 664, 757)
+
+if( knitr::is_latex_output() ) {
+   kable(SMNDData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption = "SMND cases, and whether they had worked with metals",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  kable(SMNDData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "SMND cases, and whether they had worked with metals",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+
+
+
+
+### Answers for Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. $70$%, as given directly from the table.
+2. $281/(404 - 281) - 2.28$.
+3. For patients treated with ETI, about $278$ die for every $100$ that survive.
+4. $2.78/2.28 = 1.22$.
+
+
+
+
+### Answers for Sect. \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+Odds **less than** one.
+Odds **less than** one.
+Odds **greater than** one.
+Odds **greater than** one.
+
+
+
+
+
+
+### Answers for Sect. \@ref(PercentagesOdour) {.unlisted .unnumbered}
+
+
+1. Observational.
+2. The percentage of residents in each area that detected the smell at the given frequency.
+   So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
+   This means that $49.5$% *of the sample that lived in Area\ I* detected the odour at least once a week.
+3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area\ I.
+4. Probably column percentages.
+5. $77\div 291 = 26.46\%$.
+
+
+
+ 
+ 
+
+
+
+ 
+
+## Answer: TW 5 tutorial {#Lecture5Answers}
+
+
+
+
+### Answers for Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
+
+1. A few issues...
+  * Five decimal places is to the nearest $0.01$ of a mm!
+	* The standard deviation of the difference is *not* the difference between the individual standard deviations.
+	* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
+	* Note that there is a sample size of $0$ for the difference!
+2. A few issues...
+  * Five decimal places: That's accuracy to $0.00001$ of a millimetre per second.
+    I don't think so...
+	* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
+	* The *differences* between the two brands.
+		
+		
+
+### Answers for Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
+
+
+
+1. **Plot\ 1**: $0.94$ (correlation\ **D**);
+   **Plot\ 2**: $-0.95$ (correlation\ **A**); 
+   **Plot\ 3**: $0.12$ (correlation\ **B**);
+   **Plot\ 6**: $0.75$ (correlation\ **C**).  
+   Correlation is inappropriate for Plot 4 (non-linear) and Plot 5 (non-linear).
+2. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
+3.   Examples of direction in **Plot\ 2**: any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
+4. **Plot\ 1**: $88.4$%;
+   **Plot\ 2**: $90.3$%;
+   **Plot\ 3**: $1.4$%; 
+   **Plot\ 6**: $56.3$%.
+ 
+
+
+
+
+### Answers for Sect. \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Five variables. ('Participants' would not be summarised, it is technically an *identifier* and *not* a *variable*, as each person has a unique value).
+2. Age; Height; Weight and quantitaive **continuous**.
+3. Gender (**nominal**; two levels); GMFCS (**ordinal**; three levels)
+4. As follows:
+    * 'Gender': Percentages (or number) F and M
+    * 'Age': Mean/median; standard deviation/IQR
+    * 'Height':  Mean/median; standard deviation/IQR
+    * 'Weight':  Mean/median; standard deviation/IQR
+    * 'GMFCS': Percentages (or numbers) in each group
+5. As follows:
+    * 'Gender': Barchart (not really needed)
+    * 'Age': Histogram/stemplot
+    * 'Height':  Histogram/stemplot
+    * 'Weight':  Histogram/stemplot
+    * 'GMFCS': Barchart/piechart
+6. As follows:
+    * Between Gender and Height: Boxplot
+    * Between Gender and GMFCS: Side-by-side or stacked bar chart.
+
 
 
 ### Answers for Sect. \@ref(UnderstandRqVariables) {.unlisted .unnumbered}
@@ -422,7 +752,7 @@ Answers implied by H5P.
 1. O: average accuracy. 
    Response variable: the 'accuracy' for each individual.
 1. C: Between blind and sighted individuals.
-   Explanatory vhriable: Wwether the individual is blind, or not.
+   Explanatory variable: Whether the individual is blind, or not.
 1. No intervention: the C (whether someone is blind or not) cannot be manipulated by the researchers.
 1. Quantitative continuous.
 1. Qualitative nominal.
@@ -433,36 +763,56 @@ Answers implied by H5P.
 
 
 
+
+
+
+### Answers for Sect. \@ref(DrawBoxplot) {.unlisted .unnumbered}
+
+1. Not shown.
+2. The median temperatures similar; a slight increase from Office\ A to\ C.
+IQR similar for each office, and range similar for Offices A and C (slightly larger for Office\ B).
+   In summary: Office\ A a bit different (cooler) on average.
+3. Perhaps Office\ A. 
+
+
+
+
+
+### Answers for Sect. \@ref(SelectGraphs1) {.unlisted .unnumbered}
+
+1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
+2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
+3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
+4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars ($30$\ mins of physical activity or not; vigorous physical 
+
+
+
+
 ### Answers for Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
 
-1. A few issues...
-   * The vertical axis is not labelled.
-     Presumably burn time in seconds.
-   * The horizontal axis is not labelled.
-     We have no way of knowing what is happening there.
-
-2. A few issues...
-    * This is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ).
-   * Why is every bar labelled?  
-     That just adds unnecessary clutter.
-   * Fonts are hard too read (small). 
-   * A boxplot (or dotchart) would be the appropriate graph.
-   * The largest value is over $70$\ mins! 
-     Do a *quick* project!
+1. A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
+2. A few issues: this is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
+  In addition: the largest value is over $70$\ mins! Do a *quick* project!
 		
-3. A few issues...
-   * Compares just two numbers (means) using lots of ink.
-   * No indication of variation in the data.
-   * A boxplot (or dotchart) would be appropriate.
+3. A few issues: Compares just two numbers (means) using lots of ink; no indication of *variation* in the data; a boxplot (or dotchart) would be appropriate.
 
 
 
 
-### Answer for Sect. \@ref(HistogramBars) {.unlisted .unnumbered}
+
+### Answers for Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. **Explanatory** variable is the number of hours of light each plant received; **response** variable is the number of flowers each plant received.
+   The units of **observation** are the individual plants.
+2. **Explanatory** variable is the number of smokers at the restaurant; **response** variable is the concentration of fine particulate matter.
+3. **Response** variable is the waiting time; **explanatory** variable is the time of admission.
+4. **Explanatory** variable is the "Level of Playfulness"; **response** variable is the "Level of Coping".
 
 
-*Histogram*: for quantitative (usually continuous) data;
-*Bar chart*: for qualitative data.
+
+
 
 
 
@@ -506,373 +856,13 @@ Answers implied by H5P.
 
 
 
-### Answer for Sect. \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
-
-**Centre**: About $11$.4 inches;
-**Variation**: Most are between $11.0$ and $12.3$ inches;
-**Shape**: Slightly skewed right (apart from that outlier...);
-A small outlier (near $10.5$ inches)
-
-
-
-
 ### Answer for Sect. \@ref(SelectGraph1) {.unlisted .unnumbered}
 
-1. Boxplot. 
-2. Scatterplot.
-
-
-
-
-
-
-
-
-## Answer: TW 4 tutorial {#Lecture4Answers}
-
-
-### Answers for Sect. \@ref(StatsMode) {.unlisted .unnumbered}
-
-
-1. Descriptive RQ.
-2. $\bar{x} = 102.62$\ MPa; $s = 5.356$\ MPa.
-3. The median is $101.1$\ MPa.
-   The range is from $97.6$ to $111.2$, or $13.6$\ MPa.
-4. Report none based on five values!  
-   Too few data points! 
-   In any case, both the median and the mean have very similar values.
-5. If all five measurements came from one board, we would not have a good representation of 'bamboo floorboards' in general.    
-   We would have just *one unit of analysis*.
-
-
-
-
-
-
-### Answers for Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. Median largest: **Class\ D**.
-2. Median smallest: **Class\ C**.
-3. Standard deviation largest: **Class\ A**.
-4. Standard deviation smallest: **Class\ D**.
-
-
-
-
-### Answers for Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
-
-1. A few issues...
-    * Five decimal places is to the nearest $0.01$ of a mm!
-		* The standard deviation of the difference is *not* the difference between the individual standard deviations.
-		* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
-		* Note that there is a sample size of $0$ for the difference!
-2. A few issues...
-    * Five decimal places: That's accuracy to $0.00001$ of a millimetre per second.
-      I don't think so...
-		* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
-		* The *differences* between the two brands.
-		
-		
-
-
-
-### Answers for Sect. \@ref(CalculatorBatteries) {.unlisted .unnumbered}
-
-
-
-1. Observational: the 'treatment' (brand of battery) is not assigned; we simply take measurements from the batteries that exist.
-2. Units of observation and units of analysis: The individual batteries.
-3. *Energizer*: mean: $7.36$ hours; std dev: $0.289$ hours.
-   *Ultracell*: mean: $7.41$ hours; std dev: $0.172$ hours.
-	 So Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
-4. *Energizer*: median: $7.46$ hours.
-	 *Ultracell*: median: $7.48$ hours.
-   So Ultracell batteries are *slightly* better (last longer) on average.
-5. Probably median (outliers?), but mean and median are similar in any case.
-6. Values are close.  
-   Certainly no practically importance difference. 
-   Energizer batteries take, on average, *less* time to reach $1.0$ volts, so are 'worse' in this regard.
-	 They also have a lot more variation. But in practical terms, the difference is minimal.
-	 (Based on means, the difference is $0.05$\ hrs, or $3$\ mins in over $7$\ hrs use!
-	 Based on medians, the difference is $0.02$\ hrs, or $1.2$\ mins!)
-	 **The *practical* difference is negligible.**
-7.* Quite possibly, some very low values for both brands.
-8. Yes: at the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
-
-
-
-
-
-
-### Answers for Sect. \@ref(InterpretHistogram) {.unlisted .unnumbered}
-
-
-FAS here is about $20$--$25$ in general, ranging from $10$ to $50$ (which are actually the smallest and largest possible scores).
-
-Here's is a detailed explanation.
-**You are not expected to go to this detail!**
-The FAS is about $25$ on average, ranging from about $10$ to $50$, slightly skewed right with no outliers.
-The distribution is unimodal.
-(The heights of the bars are, as best as I can figure, $3$; $14$; $44$; $34$; $22$; $17$; $5$; $3$.)
-With $n = 142$, the median is observation number $71.5$, which is in the $25$--$30$ bar.
-The quartiles will have about $35$ in them, so $Q_1$ will be in the $20$--$25$ bar, and $Q_3$ will be in the $30$--$35$ bar.
-Histogram is pretty good; bars really should be touching.
+Boxplot; scatterplot.
 
 
 
  
-### Answers for Sect. \@ref(DrawBoxplot) {.unlisted .unnumbered}
-
-1. Not shown.
-2. The median temperatures similar; a slight increase from Office\ A to\ C.
-IQR similar for each office, and range similar for Offices A and C (slightly larger for Office\ B).
-   In summary: Office\ A a bit different (cooler) on average.
-3. Perhaps Office\ A. 
-
-
-### Answers for Sect. \@ref(SelectGraphs1) {.unlisted .unnumbered}
-
-1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
-2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
-3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
-4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars ($30$\ mins of physical activity or not; vigorous physical activity or not).
-
- 
-
-
-
-
-
- 
-### Answers for Sect. \@ref(Chapter4Drills) {.unlisted .unnumbered}
-
-
-1. Mean: $168.5714$, or $168.57$\ m. 
-   Standard deviation: $6.966279$, or $6.97$\ m. 
-   (Specifically, **not** $6.44952$.)
-   The median: $167.9$\ m.
-2. Mean: $990.0791$, or $990.079$\ tonnes.
-   Standard deviation: $1588.514579$, or $1588.5146$\ tonnes. 
-   (Specifically, **not** $1485.919327$.)
-   Median: $180.516$\ tonnes.
-3. Mean: $13.88778$, or $13.888$%.
-   Standard deviation: $2.617402$, or $2.617$%.
-   Median: $13.35$%.
-
-
- 
- 
-
-## Answer: TW 5 tutorial {#Lecture5Answers}
-
-
-
-### Answers for Sect. \@ref(PercentOddsStroke) {.unlisted .unnumbered}
-
-1. $43\div (43 + 67) \times 100 = 39.1$%. 
-1. $39\div (97 + 39) \times 100 = 28.7$%.
-1. $43\div 67 = 0.642$.
-1. $39\div 97 = 0.402$.
-1. $0.642 \div 0.402 = 1.6$.
-
-
-
-
-### Answers for Sect. \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. Five variables. ('Participants' would not be summarised, it is technically an *identifier* and *not* a *variable*, as each person has a unique value).
-2. Age; Height; Weight and quantitaive **continuous**.
-3. Gender (**nominal**; two levels); GMFCS (**ordinal**; three levels)
-4. As follows:
-    * 'Gender': Percentages (or number) F and M
-    * 'Age': Mean/median; standard deviation/IQR
-    * 'Height':  Mean/median; standard deviation/IQR
-    * 'Weight':  Mean/median; standard deviation/IQR
-    * 'GMFCS': Percentages (or numbers) in each group
-5. As follows:
-    * 'Gender': Barchart (not really needed)
-    * 'Age': Histogram/stemplot
-    * 'Height':  Histogram/stemplot
-    * 'Weight':  Histogram/stemplot
-    * 'GMFCS': Barchart/piechart
-6. As follows:
-    * Between Gender and Height: Boxplot
-    * Between Gender and GMFCS: Side-by-side or stacked bar chart.
-
-
-
-
-
-### Answers for Sect. \@ref(TwoWayTables) {.unlisted .unnumbered}
-
-1. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion, the same for all student types.
-2. Not sure which is best; they do different things.
-   I'd probably prefer (c) (bottom left graph).
-3. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
-   Non-athletes are $0.35$ times as likely to receive two or more concussions than fewer than two.
-	 Or: For every $100$ students with fewer than two concussions, there are $35$ with two or more.
-4. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
-	 Soccer players are $0.26$ times more likely to receive two or more concussions than fewer than two concussions.
-5. OR: $0.35 \div 0.26$, or about $1.35$.
-	 The odds of a non-athlete receiving two or more concussions is about $1.35$ times the odds of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
-6. Not given.
-7. Not given.
-8. The better table is probably row percentages: the percentages of each type of students with given number of concussions.
-
-
-
-
-### Answers for Sect. \@ref(OddsRatioSMND) {.unlisted .unnumbered}
-
-
-```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
-```
-
-
-1. See Table\ \@ref(tab:SMNDAnswerTable).
-2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
-3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
-
-
-
-
-```{r echo=FALSE, SMNDAnswerTable}
-SMNDData <- array( dim = c(3, 3) )
-colnames(SMNDData) <- c("Worked with metals", 
-                        "Did not work with metals", 
-                        "Total")
-rownames(SMNDData) <- c("SMND cases", 
-                        "Controls", 
-                        "Total")
-
-SMNDData[1,] <- c(60, 320, 380)
-SMNDData[2,] <- c(33, 344, 377)
-SMNDData[3,] <- c(93, 664, 757)
-
-if( knitr::is_latex_output() ) {
-   kable(SMNDData,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-       # escape=FALSE, # For latex to work in \rightarrow
-       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "SMND cases, and whether they had worked with metals",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-  kable(SMNDData,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "SMND cases, and whether they had worked with metals",
-        booktabs = TRUE) # %>%
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
-
-```
-
-
-
-
-### Answers for Sect. \@ref(PercentagesOdds) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. $70$%, as given directly from the table.
-2. $281/(404 - 281) - 2.28$.
-3. For patients treated with ETI, about $278$ die for every $100$ that survive.
-4. $2.78/2.28 = 1.22$.
-
-
-
-
- 
- 
- 
-
-
-
-
-### Answers for Sect. \@ref(Odds1) {.unlisted .unnumbered}
-
-Answers embedded.
-
-1. Odds **less than** one.
-1. Odds **less than** one.
-1. Odds **greater than** one.
-1. Odds **greater than** one.
-
-
-
-
-### Answers for Sect. \@ref(WorkingWithOdds) {.unlisted .unnumbered}
-
-
-1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or $8.3$%.
-2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or $0.091$.
-3. The odds of a bridge collapsing due to deterioration is $0.091$; this means: *b. For every $100$ bridges that do not collapse due to deterioration, about $9.1$ bridges do collapse*.
-4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or $91.7$%.
-5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or $11.0$.
-6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or $18.9$%.
-7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or $0.234$.
-8. The odds of an event cannot be larger than one: *FALSE*.
-9. The odds of an event cannot be smaller than one. *FALSE*.
-10. The following statement is true: *c. Odds cannot be negative*
-
-
-
-
-
-
-### Answers for Sect. \@ref(PercentagesOdour) {.unlisted .unnumbered}
-
-
-1. Observational.
-2. The percentage of residents in each area that detected the smell at the given frequency.
-   So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
-   This means that $49.5$% *of the sample that lived in Area\ I* detected the odour at least once a week.
-3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area\ I.
-4. Probably column percentages.
-5. $77\div 291 = 26.46\%$.
-
-
-
-### Answer for Sect. \@ref(Chapter5Drills) {.unlisted .unnumbered}
-
-1.
-  a. $(381 + 345)/1347 = 0.53898$, or about $53.9$%.
-  b. $(381 + 345)/(295 + 326) = 1.1691$, or about $1.17$.
-  c. $345/326 = 1.05828$, or about $1.06$.
-  d. $381/295 = 1.29153$, or about $1.29$.
-  e. $1.05828 / 1.29153 = 0.81940$, or about $0.819$.
-
-2.
-  a $(240 + 138)/960 = 0.39375$, or $39.4$%.
-  b. $(240 + 342)/960 = 0.60625$, or $60.6$%.
-  c. $(240 + 240)/960 = 0.5000$, or $50$%.
-  d. $(240 + 138)/(240 + 342) = 0.64948$, or about $0.649$.
-  e. $240/240 = 1.000$.
-  f. $138/342 = 0.40351$ or about $0.404$.
-  g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e).
-
-
-
-
 
 ## Answer: TW 6 tutorial {#Lecture6Answers}
 
@@ -920,11 +910,11 @@ In addition, the proportion of the population with an IQ **above** $85$ is about
 
 Answers embedded.
 
-1. Relative frequency.
-2. Relative frequency.
-3. Subjective.
-4. Relative frequency.
-5. Classical.
+Relative frequency.
+Relative frequency.
+Subjective.
+Relative frequency.
+Classical.
 
 
 
@@ -941,12 +931,12 @@ Answers implied by H5P.
    If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
    However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
 
-2. Step\ 1:  Assumption about population parameter  
-   Step\ 2: Expectation for sample statistic  
-   Step\ 3: Observation of sample statistic  
-   Decision: Consistent?  
-   Conclusion\ A: Yes, supports assumption  
-   Conclusion\ B: No, doesn't support assumption
+2. Step\ 1:  Assumption about population parameter.
+   Step\ 2: Expectation for sample statistic.
+   Step\ 3: Observation of sample statistic.
+   Decision: Consistent?
+   Conclusion\ A: Yes, supports assumption.
+   Conclusion\ B: No, doesn't support assumption.
 
 
 
@@ -1326,7 +1316,7 @@ if( knitr::is_latex_output() ) {
        caption = "Maturation and gender",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+                 font_size = 8) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -1389,7 +1379,7 @@ if( knitr::is_latex_output() ) {
        caption = "Maturation and gender: Numerical summary",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+                 font_size = 8) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -1522,12 +1512,11 @@ $n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$ students.
 
 Use the $68$--$95$--$99.7$ rule to *approximate* the $P$-values:
 
-1. *Less than* $0.05$.
-2. Greater than $0.05$.
-3. *Less than* $0.003$.
-4. Greater than $0.05$.
-5. Greater than $0.05$.
-6. Very small.
+*Less than* $0.05$; Greater than $0.05$;
+*Less than* $0.003$;
+Greater than $0.05$;
+Greater than $0.05$;
+Very small.
 
 
 
@@ -1638,7 +1627,7 @@ if( knitr::is_latex_output() ) {
       linesep = c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
       caption = "Which terms apply when? Tick the appropriate places in the table") %>%
   kable_styling(full_width = FALSE) %>%
-  kable_styling(font_size = 10) %>%
+  kable_styling(font_size = 8) %>%
   row_spec(0, bold = TRUE)
 }
 if( knitr::is_html_output() ) {
@@ -1807,7 +1796,7 @@ if( knitr::is_latex_output() ) {
         caption = "Five-year mortality for artifical limb users",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+                 font_size = 8) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 }
 
@@ -1870,7 +1859,7 @@ if( knitr::is_latex_output() ) {
         caption = "Five-year mortality and use of an artificial limb: Numerical summary",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+                 font_size = 8) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -1900,12 +1889,11 @@ if( knitr::is_html_output() ) {
 
 ### Answers for Sect. \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
 
-
-1. Two-sample $t$-test.
-2. A $\chi^2$ test.
-3. A paired $t$-test.
-4. A two-sample $t$-test.
-5. None of the other options are correct: requires regression or correlation.
+**1.** Two-sample $t$-test.
+**2.** A $\chi^2$ test.
+**3.** A paired $t$-test.
+**4.** A two-sample $t$-test.
+**5.** None of the other options are correct: requires regression or correlation.
 
 
 
@@ -1915,13 +1903,13 @@ if( knitr::is_html_output() ) {
 ### Answers for Sect. \@ref(TablesHepC) {.unlisted .unnumbered}
 
 
-1. Incorrect is the one about means.
-2. $113/626 = 18.05\%$.
-4. $18.05$% of $47$ is $8.48$. 
+**1.** Incorrect is the one about means.
+**2.** $113/626 = 18.05\%$.
+**4.** $18.05$% of $47$ is $8.48$. 
    See Table\ \@ref(tab:TattHepTabANS).
-5. $25\div 88 = 0.284$.
-6. $22\div 491 = 0.0448$.
-7. The OR is $0.284\div 0.0448 = 6.3$. 
+**5.** $25\div 88 = 0.284$.
+**6.** $22\div 491 = 0.0448$.
+**7.** The OR is $0.284\div 0.0448 = 6.3$. 
    This OR means that the odds of having Hep.\ C is $6.3$ times greater for students who have a tattoo, compared to those who do not have a tattoo.
        
 
@@ -1960,7 +1948,7 @@ if( knitr::is_latex_output() ) {
         caption = "Five-year mortality for artifical limb users",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
+                 font_size = 8) %>%
   row_spec(0, bold=TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -2074,29 +2062,19 @@ The sample sizes are both much *larger* than $25$, so neither sample needs to be
 ## Answer: TW 11 tutorial {#Lecture11Answers}
 
 
-### Answers for Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
+### Answers for Sect. \@ref(UnderstandCorrelationsRegressions) {.unlisted .unnumbered}
 
-1. **Plot\ 1**: $0.94$ (correlation\ **D**);  **Plot\ 2**: $-0.95$ (correlation\ **A**);\tightlist  
-   **Plot\ 3**: $0.12$ (correlation\ **B**):  **Plot\ 6**: $0.75$ (correlation\ **C**).  
-   
-   Correlation is inappropriate for **Plot\ 4** (non-linear) and **Plot\ 5** (non-linear).
-2. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as  height and weight, distance lived from university and travel time, etc.
-3. Examples of direction in **Plot\ 2**:
-   Any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
-4. **Plot\ 1**: $88.4$%;  **Plot\ 2**: $90.3$%;  
-   **Plot\ 3**: $1.4$%;  **Plot\ 6**: $56.3$%.
-5. The answers:
-
-    a. No answer. But a line is fine for **Plots\ 1, 2, 6** and **3** (but very weak!),  but not for **Plots\\ 4 and 6**. 
-    b. My **very rough** slope estimates are:  
-       **Plot\ 1**: $(50-10)/10 \approx 4$; **Plot\ 2**: $(20 - 50)/15 \approx -2$;  
-       **Plot\ 3**: $0$;  **Plot\ 6**: $(55 - 35)/5 = 4$.
-    c. My **very rough** intercept estimates are:  
-       **Plot\ 1**: $8$; **Plot\ 2**: $40$;  
-       **Plot\ 3**: $32$; **Plot\ 6**: $10$.
-    d. My very rough estimates are:  
-       **Plot\ 1**; $\hat{y} = 8 + 4x$; **Plot\ 2**: $\hat{y} = 40 - 2x$;  
-	     **Plot\ 3**: $\hat{y} = 32$;  **Plot\ 6**: $\hat{y} = 10 + 4x$. 		
+1. No answer. 
+   But a line is fine for **Plots\ 1, 2, 6** and **3** (but very weak!),  but not for **Plots\ 4 and\ 5**. 
+2. My **very rough** slope estimates are:  
+   **Plot\ 1**: $(50-10)/10 \approx 4$; **Plot\ 2**: $(20 - 50)/15 \approx -2$;
+   **Plot\ 3**: $0$;  **Plot\ 6**: $(55 - 35)/5 = 4$.
+3. My **very rough** intercept estimates are:
+   **Plot\ 1**: $8$; **Plot\ 2**: $40$;
+   **Plot\ 3**: $32$; **Plot\ 6**: $10$.
+4. My very rough estimates are:
+   **Plot\ 1**; $\hat{y} = 8 + 4x$; **Plot\ 2**: $\hat{y} = 40 - 2x$;å
+	 **Plot\ 3**: $\hat{y} = 32$;  **Plot\ 6**: $\hat{y} = 10 + 4x$. 		
 
 
 
@@ -2212,8 +2190,8 @@ The sample sizes are both much *larger* than $25$, so neither sample needs to be
 
 ### Answers for Sect. \@ref(CritiqueReports2) {.unlisted .unnumbered}
 
-* **Null hypothesis:** The *mean* heart rates.
-* **Results:** A $\chi^2$ test is inappropriate for comparing means.
+**Null hypothesis:** The *mean* heart rates.
+**Results:** A $\chi^2$ test is inappropriate for comparing means.
 
 
 
@@ -2296,3 +2274,6 @@ Between the 'alive' and 'dead' groups, there is evidence that the proportion wit
        Hawthorne effect: subjects know they are being watched.
 
 
+```{=latex}
+\end{footnotesize}
+```

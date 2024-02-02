@@ -84,65 +84,14 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 		      
 		      
 
-## Understanding correlations and regression {#UnderstandCorrelations}
+## Understanding correlations and regression {#UnderstandCorrelationsRegressions}
 
-Answer the following questions, referring to Fig.\ \@ref(fig:Guesses).
-The four correlation coefficients $r$ are:
+On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationship is appropriate (there are *four*!):
 
-
-```{r echo=FALSE}
-CorData <- array( dim = c(1, 4) )
-#colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
-#rownames(MaturationData) <- c("Males", "Females", "Total")
-
-
-if( knitr::is_latex_output() ) {
-   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
-   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
-   CorData[1, 3] <- "\\textbf{C}: $r = -0.75$"
-   CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
-
-  kable(CorData,
-        format = "latex",
-        #longtable=FALSE,
-        booktabs = TRUE,
-        escape = FALSE, # For latex to work in \rightarrow
-        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-#       caption="",
-        align = c("c", "c", "c", "c"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) # %>%
-  #row_spec(0, bold=TRUE) #%>% # Columns headings in bold
-}
-
-if( knitr::is_html_output() ) {
-   CorData[1, 1] <- "**A**: $r = -0.95$"
-   CorData[1, 2] <- "**B**: $r = 0.12$"
-   CorData[1, 3] <- "**C**: $r = 0.75$"
-   CorData[1, 4] <- "**D**: $r = 0.94$"
-
-  kable(CorData,
-        format = "html",
-        align = c("c", "c", "c", "c"),
-        longtable = FALSE,
-#       caption="",
-      booktabs = TRUE)
-}
-
-```
-
-For two plots, a correlation is not suitable.
-
-1. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
-2. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
-3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 2**.
-4. Compute the values of $R^2$ for each plot identified in **Part\ 1** of this question.
-5. On *each* scatterplot in Fig.\ \@ref(fig:Guesses)
-   for which a linear relationship is appropriate (there are *four*!):
-    a. Draw or estimate the 'best' straight regression line (where appropriate).
-    b. From the line in **Part\ 5a.** above, estimate the **slope** for each line.
-    c. From the line in **Part\ 5a.** above, estimate the **intercept** for each line.
-    d. Then write down an estimate of the regression line equation.
+1. Draw or estimate the 'best' straight regression line (where appropriate).
+2. From the line in **Part\ 1.** above, estimate the **slope** for each line.
+3. From the line in **Part\ 1.** above, estimate the **intercept** for each line.
+4. Then write down an estimate of the regression line equation.
 
 
 
@@ -425,16 +374,16 @@ Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
 
 
-## **Optional**: Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
+## **Optional questions** {#OptionalTW11}
 
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture11Answers).)
 :::
 
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture11Answers))*'
-}`
+
+### **Optional**: Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect10-Q4.Rmd'}
@@ -446,14 +395,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Reading scatterplots {#ReadScatterplotHeathers}
-
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture11Answers))*
+### **Optional**: Reading scatterplots {#ReadScatterplotHeathers}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

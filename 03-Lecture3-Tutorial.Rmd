@@ -147,9 +147,11 @@ PT <- polythene$Polythene
 PT <- PT[ sample( 1:length(PT), len) ]
 ```
 
-2. The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
-   a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-   b. Without using a calculator, find the **median** of these numbers.
+The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
+
+1. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
+2. Without using a calculator, find the **median** of the data.
+3. Without using a calculator, find the **IQR** of the data.
 
 ```{r PolyTable, echo=FALSE}
 
@@ -182,24 +184,10 @@ if( knitr::is_html_output() ) {
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.
-If you are using your calculator correctly, you should get $\bar{x} = 102.62$ and $s = 5.356$. 
+If you are using your calculator correctly, you should get $\bar{x} = 102.62$ and $s = 5.356$.
 If you get $s = 4.790157$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
 :::
-
-
-3. Compute the median MOR of the flooring. 
-   (Most calculators cannot compute the median; you will need to do this by hand.)
-4. Compute the range of the MOR values.
-5. What specifications would you report about the MOR of bamboo flooring based on these data?
-6. What would be the implication if all five values were from the *same* floorboard?
-
-
-
-
-
-
-
 
 
 ## Understanding centre and variation {#UnderstandingVariation}
@@ -216,11 +204,6 @@ You are probably pressing the incorrect button to get the standard deviation.
 ## Understanding histograms {#UnderstandingHistograms}
 
 
-
-::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
-:::
-
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
@@ -230,6 +213,11 @@ You are probably pressing the incorrect button to get the standard deviation.
 ```
 
 
+
+
+::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
+:::
 
 
 <!-- 1. The time that students remain in the examination room for a two-hour examination. -->
@@ -326,141 +314,6 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 
 
-## **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$ volt batteries to reduce their voltage to $1.0$ volts under standard testing conditions.
-
-The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTable).
-
-```{r BattTable, echo=FALSE}
-BattTab <- array( "", dim = c(2, 9))
-
-BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
-BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
-
-rownames(BattTab) <- c("Energizer", 
-                       "Ultracell")
-
-if( knitr::is_latex_output() ) {
-  kable(BattTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(BattTab,
-      format = "html",
-      booktab = TRUE,
-      caption = "The times taken for batteries to go from 1.5 volts to 1.0 volts, in hours)") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
-`r if( knitr::is_html_output() ) {'The type of research study is  '}`
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
-   Justify your answer. \tightlist
-
-2. What are the *units of observation* and *units of analysis*?
-3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
-   a. Compute the mean of the *Energizer* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
-   a. Compute the standard deviation of the *Energizer* batteries (to three decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
-   a. Compute the mean of the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
-   a. Compute the standard deviation of the *Ultracell* batteries (to three decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
-
-4. Explain what these calculations tell you.
-5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
-   a. Compute the median of the *Energizer* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
-   b. Compute the median of the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
-
-6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
-7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
-   Explain.
-8. Decide if outliers exist in the data. Explain.
-	 If so, identify them.
-9. Explain whether the cost of the batteries would also be important information to know. 
-   (See below.)
-10. What advice would you give about buying batteries based on these data?
-
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-The cost of the batteries, at the time of publication (05 September 2012), was: 
-  
-* *Ultracell*: A four-pack cost $2.49 from ALDI online
-* *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*; the normal price was $8.01 for the four-pack.
-:::
-
-
-
-
-
-
-
-## **Optional**: Interpreting histograms {#InterpretHistogram}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
-
-
-To assess various lung diseases, many methods are available (including using a spirometer and the 6-minute walk test).
-The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
-(A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
-
-The histogram in Fig.\ \@ref(fig:Baughman2007-HistogramFig2) comes from a study [@data:Baughman2007:SixMinuteWalk] examining $n = 142$ sarcoidosis patients using the FAS.
-
-1. Critique this histogram. Identify ways to improve the histogram.
-2. Describe this histogram in words: what does it tell you?
-3. Draw a rough boxplot that corresponds approximately to the histogram, explaining your reasoning.
-
-
-```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.width=5, fig.cap="The histogram of FAS scores for patients", out.width='45%'}
-include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
-```
-
-
-
-
-
-## **Optional**: Understanding graphics {#UnderstandGraphsPizza}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-`r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
-}`
-
-<iframe src="https://usc.h5p.com/content/1290973189768027779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q8.Rmd'}
-```
-
-
-
 
 
 ## **Drills**: computational exercises {#Chapter4Drills}
@@ -514,6 +367,9 @@ if( knitr::is_html_output() ) {
    A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).  
    Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
    The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
+   a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
+   Justify your answer.
+   b. Use your calculator's statistics mode to compute the mean and the standard deviation.
 
 ```{r MORTable, echo=FALSE}
 MORTab <- array( "", 
@@ -539,11 +395,6 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-
-
-   a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
-   Justify your answer.
-   b. Use your calculator's statistics mode to compute the mean and the standard deviation.
 
 
 3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
@@ -583,3 +434,131 @@ if( knitr::is_html_output() ) {
 
 
 	
+	
+## **Optional questions** {#OptionalTW3}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture3Answers).)
+:::
+
+
+### **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
+
+Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$ volt batteries to reduce their voltage to $1.0$ volts under standard testing conditions.
+
+The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTable).
+
+```{r BattTable, echo=FALSE}
+BattTab <- array( "", dim = c(2, 9))
+
+BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
+BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
+
+rownames(BattTab) <- c("Energizer", 
+                       "Ultracell")
+
+if( knitr::is_latex_output() ) {
+  kable(BattTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours") %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(BattTab,
+      format = "html",
+      booktab = TRUE,
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
+  column_spec(1, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
+`r if( knitr::is_html_output() ) {'The type of research study is  '}`
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
+   Justify your answer. \tightlist
+
+2. What are the *units of observation* and *units of analysis*?
+3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
+   a. Compute the mean of the *Energizer* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
+   a. Compute the standard deviation of the *Energizer* batteries (to three decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
+   a. Compute the mean of the *Ultracell* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
+   a. Compute the standard deviation of the *Ultracell* batteries (to three decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
+
+4. Explain what these calculations tell you.
+5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
+   a. Compute the median of the *Energizer* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
+   b. Compute the median of the *Ultracell* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
+
+6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
+7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
+   Explain.
+8. Decide if outliers exist in the data. Explain.
+	 If so, identify them.
+9. Explain whether the cost of the batteries would also be important information to know. 
+   (See below.)
+10. What advice would you give about buying batteries based on these data?
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+The cost of the batteries, at the time of publication (05 September 2012), was: 
+  
+* *Ultracell*: A four-pack cost $2.49 from ALDI online
+* *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*; the normal price was $8.01 for the four-pack.
+:::
+
+
+
+
+
+
+
+### **Optional**: Interpreting histograms {#InterpretHistogram}
+
+To assess various lung diseases, many methods are available (including using a spirometer and the 6-minute walk test).
+The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
+(A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
+
+The histogram in Fig.\ \@ref(fig:Baughman2007-HistogramFig2) comes from a study [@data:Baughman2007:SixMinuteWalk] examining $n = 142$ sarcoidosis patients using the FAS.
+
+1. Critique this histogram. Identify ways to improve the histogram.
+2. Describe this histogram in words: what does it tell you?
+3. Draw a rough boxplot that corresponds approximately to the histogram, explaining your reasoning.
+
+
+```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.width=5, fig.cap="The histogram of FAS scores for patients", out.width='45%'}
+include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
+```
+
+
+
+
+
+### **Optional**: Understanding graphics {#UnderstandGraphsPizza}
+
+
+
+<iframe src="https://usc.h5p.com/content/1290973189768027779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q8.Rmd'}
+```
+
+
+
+
+
+

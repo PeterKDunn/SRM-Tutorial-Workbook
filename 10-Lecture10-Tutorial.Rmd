@@ -454,13 +454,15 @@ knitr::include_graphics( c("SoftwareImages/Singh2016-ChiSq-SPSS.png",
 
 	
 
-## **Optional**: Two-way tables {#TablesHepC}
+## **Optional questions** {#OptionalTW10}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture10Answers).)
 :::
 
-*(Answers available in Sect. \@ref(Lecture10Answers))*
+
+### **Optional**: Two-way tables {#TablesHepC}
 
 Applying tattoos carries health risks as the skin is broken during application.
 An American study examined if a relationship existed between having hepatitis\ C and having tattoos [@data:Haley2001:Tattoos].
@@ -578,13 +580,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## **Optional**: Comparing two independent means {#TwoMeansHurricanes}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
+### **Optional**: Comparing two independent means {#TwoMeansHurricanes}
 
 A study compared the number of deaths reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
 One of the tables in the paper is shown in Fig.\ \@ref(fig:Smith2016hurricanes).
@@ -600,12 +596,7 @@ include_graphics("ArticleImages/Smith2016-Table4.png")
 
 
 
-## **Optional**: Assumptions {#AssumptionsGraphs}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
+### **Optional**: Assumptions {#AssumptionsGraphs}
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q10.Rmd'}
 ```
@@ -614,7 +605,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
+### **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 	
@@ -692,14 +683,8 @@ include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTSPSSOutput.png")
 
 
 
-## **Optional**: Tests for ORs {#ORTestsByss}
+### **Optional**: Tests for ORs {#ORTestsByss}
 
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
 
 A study [@data:higgins:cotton] studied byssinosis (a respiratory complaint) among workers in the textile industry.
 The researchers were interested, among other things, in exploring the relationship between smoking status and the presence of byssinosis.
@@ -758,15 +743,8 @@ include_graphics("SoftwareImages/ByssOR.png")
 
 
 
-## **Optional**: Tests for ORs {#ORAirways}
+### **Optional**: Tests for ORs {#ORAirways}
 
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
-	
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
 :::
