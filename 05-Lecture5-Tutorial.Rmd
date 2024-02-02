@@ -156,6 +156,35 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 
 
 
+## Critiquing students' graphs {#CritiqueStudentGraphs1}
+
+In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
+
+1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
+
+
+```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+knitr::include_graphics("ProjectImages/BareBoxplot.png")
+```
+
+2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
+	 
+
+```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
+knitr::include_graphics("ProjectImages/DodgyBar.png")
+```
+
+
+
+3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
+   Identify ways to improve the graph.
+
+
+```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+knitr::include_graphics("ProjectImages/WrongBar.png")
+```
+
+
 
 
 
@@ -488,7 +517,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 
-## Identifying appropriate graphs {#IdentifyingGraphs1}
+### **Optional**: Identifying appropriate graphs {#IdentifyingGraphs1}
 
 In each of the following cases:
 	
@@ -533,35 +562,6 @@ In addition, draw a rough example of what the graph may look like.
 
 <iframe src="https://usc.h5p.com/content/1291014912258524999/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
-
-
-## Critiquing students' graphs {#CritiqueStudentGraphs1}
-
-In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
-
-1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
-
-
-```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
-knitr::include_graphics("ProjectImages/BareBoxplot.png")
-```
-
-2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
-	 
-
-```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
-knitr::include_graphics("ProjectImages/DodgyBar.png")
-```
-
-
-
-3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
-   Identify ways to improve the graph.
-
-
-```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
-knitr::include_graphics("ProjectImages/WrongBar.png")
-```
 
 
 

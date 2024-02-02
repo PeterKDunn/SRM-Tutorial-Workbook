@@ -687,22 +687,33 @@ Odds **greater than** one.
 
 ### Answers for Sect. \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
 
-1. A few issues...
-  * Five decimal places is to the nearest $0.01$ of a mm!
-	* The standard deviation of the difference is *not* the difference between the individual standard deviations.
-	* A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
-	* Note that there is a sample size of $0$ for the difference!
-2. A few issues...
-  * Five decimal places: That's accuracy to $0.00001$ of a millimetre per second.
-    I don't think so...
-	* There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
-	* The *differences* between the two brands.
+1. A few issues:
+   Five decimal places is to the nearest $0.01$ of a mm!
+	 The standard deviation of the difference is *not* the difference between the individual standard deviations.
+	 A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
+	 Note that there is a sample size of $0$ for the difference!
+2. A few issues:
+   Five decimal places: That's accuracy to $0.00001$ of a millimetre per second (I don't think so...).
+	 There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
+	 The *differences* between the two brands.
 		
 		
+
+
+### Answers for Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+
+1. A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
+2. A few issues: this is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
+  In addition: the largest value is over $70$\ mins! Do a *quick* project!
+		
+3. A few issues: Compares just two numbers (means) using lots of ink; no indication of *variation* in the data; a boxplot (or dotchart) would be appropriate.
+
+
+
+
+
 
 ### Answers for Sect. \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
-
-
 
 1. **Plot\ 1**: $0.94$ (correlation\ **D**);
    **Plot\ 2**: $-0.95$ (correlation\ **A**); 
@@ -788,17 +799,6 @@ IQR similar for each office, and range similar for Offices A and C (slightly lar
 
 
 
-### Answers for Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
-
-1. A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
-2. A few issues: this is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
-  In addition: the largest value is over $70$\ mins! Do a *quick* project!
-		
-3. A few issues: Compares just two numbers (means) using lots of ink; no indication of *variation* in the data; a boxplot (or dotchart) would be appropriate.
-
-
-
-
 
 ### Answers for Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
 
@@ -873,10 +873,10 @@ Boxplot; scatterplot.
 Answers embedded.
 Some answers:
 
-1. In order from left to right: $70$; $85$; $100$; $115$; $130$.
-3. $30$ points above the mean.
-4. Two standard deviations above the mean.
-5. About $2.5$%.
+**1.** In order from left to right: $70$; $85$; $100$; $115$; $130$.
+**3.** $30$ points above the mean.
+**4.** Two standard deviations above the mean.
+**5.** About $2.5$%.
 
 A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
 Using the **68**--$95$--$99.7$ rule, the proportion of the population with an IQ less than $85$ is about **32**%. 
