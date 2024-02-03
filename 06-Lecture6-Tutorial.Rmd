@@ -325,8 +325,7 @@ This question has a video solution in the online book, so you can hear and see t
 :::
 
 
-The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured in kilograms or seconds etc.  
-It is just a number; in fact, it is a bit like a $z$-score.] climatological measure that is easily computed, and has been shown to be related to the weather conditions in eastern Australia  [@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
+The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured in kilograms or seconds etc.It is just a number; in fact, it is a bit like a $z$-score.] climatological measure that is easily computed, and has been shown to be related to the weather conditions in eastern Australia  [@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
 
 The daily SOI has an approximate normal distribution, and is designed to have a mean of $0$ and a standard deviation of $10$.
 

@@ -132,12 +132,12 @@ There was $44$ matches.
    Your confidence interval doesn't even include their mean of $45$!' said Jake.
    'The manufacturer *must* be lying!'  
    
-   Is Jake correct?  
+   Is Jake correct?
    Why or why not?
    What does the CI *mean*?
-8. In this scenario, what does $\bar{x}$ represent?  
+8. In this scenario, what does $\bar{x}$ represent?
    What is the *value* of $\bar{x}$?
-9. In this scenario, what does $\mu$ represent?  
+9. In this scenario, what does $\mu$ represent?
    What is the *value* of $\mu$?
 
 
@@ -242,7 +242,6 @@ include_graphics("Illustrations/thomas-park-qnFFfsrxzIk-unsplash.jpg")
 
 
 The timing of pubertal maturation can vary, which can have impacts upon behaviour.
-
 A large study [@data:duncan:maturity] studied 'the relationships between maturational timing and body image, school behavior, and deviance.'
 
 Sample data were collected from 

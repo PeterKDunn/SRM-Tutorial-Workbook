@@ -330,9 +330,10 @@ If you need help, please **ask**.
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR for the data.
-   
+
+
+
 ```{r AISTable, echo=FALSE}
-library(GLMsData)
 data(AIS)
 
 Hts <- subset(AIS$Ht, 
@@ -401,6 +402,9 @@ if( knitr::is_html_output() ) {
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR.
+   
+
+
 ```{r AISTable2, echo=FALSE}
 library(GLMsData)
 data(AIS)
