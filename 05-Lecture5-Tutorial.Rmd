@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Teaching Week 5: tutorial {#Lecture5}
 
 
@@ -6,18 +11,18 @@
 
 * Graphical summaries for *between*-individuals comparisons for **quantitative** data.
 * Numerical summaries for *between*-individuals comparisons for **quantitative** data.
-* Graphical summaries for correlational studies.
-* Numerical summaries for correlational studies.
 * Graphical summaries for *within*-individuals comparisons for **quantitative** data.
 * Numerical summaries for *within*-individuals comparisons for **quantitative** data.
+* Graphical summaries for correlational studies.
+* Numerical summaries for correlational studies.
 :::
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 15 (Quantitative data: Summaries for changes within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
-* [Chapter 16 (Quantitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/WithinQuantData.html).
-* [Chapter 17 (Two quantitative variables: Summaries for correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
-* [Chapter 18 (More about summarising data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+* [Chapter 15 (Relationships: quantitative data comparisons within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
+* [Chapter 16 (Relationships: quantitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
+* [Chapter 17 (Relationships: quantitative data correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 18 (More about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 
 
