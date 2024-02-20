@@ -210,7 +210,7 @@ Being a  little vague at this stage:
 Seeing that there is no C is important!
 This is a relational RQ, with a within-individuals comparison (there are not two subsets being compared).
 
-As a result, **a Task\ 2 project like this is not permitted.
+As a result, **a Task\ 2 project like this is not permitted**.
 
 Some points:
 

@@ -40,6 +40,10 @@ Consider this RQ (based on @data:jaworowska2012:determination):
                       answer = "Relational",
                       "Repeated-measures",
                       "Correlational") )} else {'Descriptive, relational, repeated-measures or correlational?'}`
+1.  What *type* of RQ is this? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						  "Estimation", 
+                      answer = "Decision-making") )} else {'Estimation or decision-making?'}`
 1.  Is an *intervention* present?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Yes", 
@@ -278,13 +282,14 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
 2. Identify an *outcome* that Nim can measure to answer the research question.  
    Justify your answer.
-3. Which of these *comparisons* do you think Nim should use? Why?
+3. Which of these *comparisons* do you think Nim should use? 
+   Why?
     a. Between drinking Earl Grey tea and coffee.
     b. Between drinking Earl Grey tea and black (ordinary) tea.
     c. Between drinking Earl Grey tea and water.
     d. Between exam time and other times of the semester.
     e. Between students and non-students.
-4. Explain why 'Between before and after drinking Earl Grey tea' is *not* a *between-individuals* comparison.
+4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
 5. Construct a well-worded *relational* research question *with* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
 6. *Briefly* describe how to set up an *experimental* study for answering your proposed research question.
 7. Construct a well-worded *relational* research question *without* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.

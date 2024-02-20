@@ -19,7 +19,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
-
+`r if( knitr::is_latex_output() ){'<!--'}`
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
 Here are some links that may prove useful.
@@ -33,6 +33,19 @@ Here are some links that may prove useful.
 In YouTube, I searched for `"statistics" "mean" "standard deviation"` together with the calculator make and model; for example:  
 `"statistics" "mean" "standard deviation" Casio fx82`
 :::
+`r if( knitr::is_latex_output() ){'-->'}`
+
+
+`r if( knitr::is_html_output() ){'<!--'}`
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
+For example, try:
+
+`"statistics" "mean" "standard deviation" Casio fx82`
+:::
+`r if( knitr::is_html_output() ){'-->'}`
+
+
 
 `r if( knitr::is_html_output() ){'For example, see the embedded video below for help in using the Casio fx82:'}`
 
@@ -184,11 +197,12 @@ if( knitr::is_html_output() ) {
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.
-If you are using your calculator correctly, you should get $\bar{x} = 102.62$ and $s = 5.356$.
-If you get $s = 4.790157$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
+If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
+If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
 :::
 
+   
 
 ## Understanding centre and variation {#UnderstandingVariation}
 

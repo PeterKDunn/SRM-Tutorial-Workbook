@@ -244,46 +244,6 @@ if( knitr::is_html_output() ) {
 
 ```
 
-```{r echo=FALSE}
-CorData <- array( dim = c(1, 4) )
-#colnames(MaturationData) <- c("Matured late", "Did not mature late", "Total")
-#rownames(MaturationData) <- c("Males", "Females", "Total")
-
-
-if( knitr::is_latex_output() ) {
-   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
-   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
-   CorData[1, 3] <- "\\textbf{C}: $r = -0.75$"
-   CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
-
-  kable(CorData,
-        format = "latex",
-        #longtable=FALSE,
-        booktabs = TRUE,
-        escape = FALSE, # For latex to work in \rightarrow
-        #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-#       caption="",
-        align = c("c", "c", "c", "c"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) # %>%
-  #row_spec(0, bold=TRUE) #%>% # Columns headings in bold
-}
-
-if( knitr::is_html_output() ) {
-   CorData[1, 1] <- "**A**: $r = -0.95$"
-   CorData[1, 2] <- "**B**: $r = 0.12$"
-   CorData[1, 3] <- "**C**: $r = 0.75$"
-   CorData[1, 4] <- "**D**: $r = 0.94$"
-
-  kable(CorData,
-        format = "html",
-        align = c("c", "c", "c", "c"),
-        longtable = FALSE,
-#       caption="",
-      booktabs = TRUE)
-}
-
-```
 
 For two plots, a correlation is not suitable.
 
@@ -415,11 +375,7 @@ Your tutor will have information.
 
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
-'Gross Motor Function Classification System', which is:
-
-> ... a 5 level clinical classification system that describes the gross motor function of people with cerebral palsy on the basis of self-initiated movement abilities.
->
-> --- Wikipedia
+'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
 
 
 `r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
