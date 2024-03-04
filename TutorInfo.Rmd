@@ -227,7 +227,7 @@ Some points:
 * You may like to prepare a Word document with this info (during class time; ask a student to be the scribe), then over the following weeks as we compile more about the study (e.g., numerical and graphical summaries) add to this Word document. 
 * Things to decide upon (some are arbitrary; some will have better answers than others):
   - How do we decide which hand goes first? 
-  - How will we dine *dominant hand*? 
+  - How will we determine the *dominant hand*? 
     (Perhaps easiest: hand we write with.)
   - What if someone is ambidexterous, or only has one arm? 
     (Use exclusion criteria!)
