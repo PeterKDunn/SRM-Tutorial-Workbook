@@ -374,8 +374,8 @@ Response variable; quantitative variable.
 2. Median: $180.5$\ tonnes.
 3. Splitting the data into two parts of four observations each:
    $Q_1$ is half-way between $8.0001$ and $29.4$ tonnes: $Q_1 = 18.7005$.
-   $Q_3$ is half-way between $676.2$ and $4298.7$ tonnes: $Q_1 = 2532.95$.
-   The IQR is $2532.95 - 18.7005 = 2514.249$, or about $2500$ tonnes.
+   $Q_3$ is half-way between $676.2$ and $2547.3$ tonnes: $Q_1 = 1611.75$.
+   The IQR is $1611.75 - 18.7005 = 1593.05$, or about $1593$ tonnes.
    
    
 
