@@ -553,7 +553,6 @@ The histogram in Fig.\ \@ref(fig:Baughman2007-HistogramFig2) comes from a study 
 
 1. Critique this histogram. Identify ways to improve the histogram.
 2. Describe this histogram in words: what does it tell you?
-3. Draw a rough boxplot that corresponds approximately to the histogram, explaining your reasoning.
 
 
 ```{r Baughman2007-HistogramFig2, echo=FALSE, fig.align="center", fig.width=5, fig.cap="The histogram of FAS scores for patients", out.width='45%'}
