@@ -11,6 +11,7 @@ bibliography: ["ReferenceList.bib"]
 csl: journal-of-applied-animal-science.csl
 link-citations: yes  
 documentclass: krantz
+classoption: krantz2
 links-as-notes: true
 site: bookdown::bookdown_site
 colorlinks: yes
