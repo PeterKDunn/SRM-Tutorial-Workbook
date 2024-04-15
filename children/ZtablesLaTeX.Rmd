@@ -145,7 +145,7 @@ text(-2.5, max(zy)/2,
 The table gives the probability (area) that a $z$-score is \textbf{less} than the $z$-score looked up.
 For example: 
 Look up $z = -1.87$; the area \textit{less than} $z=-1.87$ is about 0.0307,
-or about 3.07\%.
+or about $3.07$\%.
 \end{small}
 
 ```{r echo=FALSE}
