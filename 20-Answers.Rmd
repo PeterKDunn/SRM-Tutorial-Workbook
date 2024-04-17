@@ -1063,8 +1063,8 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 
 ### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
 
-1. **Descriptive**:
-   Every subject is treated the same; we're not comparing two groups that have been treated differently.
+1. **Repeated-measures**:
+   Every subject has two TWMT recorded.
 2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
 3. Each measurement is measured after and before on the same subject.
 4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
