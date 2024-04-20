@@ -210,7 +210,7 @@ Being a  little vague at this stage:
 Seeing that there is no C is important!
 This is a relational RQ, with a within-individuals comparison (there are not two subsets being compared).
 
-As a result, **a Task\ 2 project like this is not permitted.
+As a result, **a Task\ 2 project like this is not permitted**.
 
 Some points:
 
@@ -227,7 +227,7 @@ Some points:
 * You may like to prepare a Word document with this info (during class time; ask a student to be the scribe), then over the following weeks as we compile more about the study (e.g., numerical and graphical summaries) add to this Word document. 
 * Things to decide upon (some are arbitrary; some will have better answers than others):
   - How do we decide which hand goes first? 
-  - How will we dine *dominant hand*? 
+  - How will we determine the *dominant hand*? 
     (Perhaps easiest: hand we write with.)
   - What if someone is ambidexterous, or only has one arm? 
     (Use exclusion criteria!)
@@ -281,64 +281,6 @@ Notes:
 <!-- Lecture3ThoughtsForTutors -->
 
 
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-### Thoughts on Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-You can have different groups (two or four) do different parts,
-and then explain their answers to other groups.  
-
-Promote discussion, don't just give answers.   
-Ask **why**!
-```
-
-
-
-
-### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-Have students work in groups, and then share their answers.
-```
-
-
-### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
-
-I suggest starting jamovi.
-(Remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
-Show students how to set up the variables, and have them come to the computer and enter their own data.
-
-Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences).
-
-**Save the data!**
-```
-
-
-
-[**Return to index of tutor information.**](#TutorInfo)
-
-
-## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-### Thoughts on Sect. \@ref(QuickRevision-Tutorial4) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
-If they understand the histogram, they should also see that the smallest breadth is about $6$\ mm, so a median of $4$\ mm makes no sense.  
-
-If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.
-```
-
-
-
 ### Thoughts on Sect. \@ref(StatsMode) {.unlisted .unnumbered}
 
 
@@ -349,20 +291,6 @@ This means that the need for students to use a calculator is diminished; they ca
 We have no way of knowing.  
 
 For that reason, you may wish to reconsider how this is taught.
-```
-
-
-
-```{block2, type="rmdTutorInfo"}
-You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
-
-The Course Outline indicates that a calculator is needed.
-Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
-You can perhaps direct students to work with other students having similar calculators.
-
-
-If students use the wrong standard deviation button, they will get $\sigma = 4.79$\ MPa in error.
-**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
 ```
 
 
@@ -416,6 +344,82 @@ kable(NumSum,
 
 
 
+
+
+
+
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
+
+I suggest starting jamovi.
+(Remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
+Show students how to set up the variables, and have them come to the computer and enter their own data.
+
+Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences).
+
+**Save the data!**
+```
+
+
+
+[**Return to index of tutor information.**](#TutorInfo)
+
+
+## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+### Thoughts on Sect. \@ref(QuickRevision-Tutorial4) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
+If they understand the histogram, they should also see that the smallest breadth is about $6$\ mm, so a median of $4$\ mm makes no sense.  
+
+If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.
+```
+
+
+
+```{block2, type="rmdTutorInfo"}
+You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
+
+The Course Outline indicates that a calculator is needed.
+Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
+You can perhaps direct students to work with other students having similar calculators.
+
+
+If students use the wrong standard deviation button, they will get $\sigma = 4.79$\ MPa in error.
+**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
+```
+
+[**Return to index of tutor information.**](#TutorInfo)
+
+ 
+
+## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
+
+[**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+
+### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+Have students work in groups, and then share their answers.
+```
+
+
+
+
+
 ### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
@@ -446,15 +450,20 @@ include_graphics("SoftwareImages/RulerDropData.png")
 ```
  
  
-[**Return to index of tutor information.**](#TutorInfo)
 
- 
+### Thoughts on Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
 
-## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
+```{block2, type="rmdTutorInfo"}
+You can have different groups (two or four) do different parts,
+and then explain their answers to other groups.  
 
-[**Return to index of tutor information.**](TutorInfo.html)
+Promote discussion, don't just give answers.
+Ask **why**!
+```
 
-        
+
+
+
 [**Return to index of tutor information.**](TutorInfo.html)
 
 

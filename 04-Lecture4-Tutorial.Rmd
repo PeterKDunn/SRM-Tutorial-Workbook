@@ -13,7 +13,7 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 13 (Summarising qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQualData.html).
-* [Chapter 14 (Qualitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
+* [Chapter 14 (Relationships: qualitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
 
 
 ## Quick revision {#QuickRevision-Tutorial4}
@@ -182,8 +182,8 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
 | Female              | 97                              | 39
 
 
-1. Sketch a side-by-side or stacked bar chart to display the data.
-1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher? \tightlist  
+1. Sketch a side-by-side or stacked bar chart to display the data. \tightlist
+1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "39.1%", 
 		                  "60.9%",

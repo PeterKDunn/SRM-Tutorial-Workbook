@@ -13,7 +13,7 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 38 (Correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
+* [Chapter 38 (Correlation)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
 * [Chapter 39 (Regression)](https://bookdown.org/pkaldunn/SRM-Textbook/Regression.html).
 
 
@@ -369,7 +369,7 @@ box()
 Draw the graph of $\hat{y} = 5 + 2x$ for values of $x$ between $0$ and $10$.
 
 1. Add some points to the scatterplot such that the correlation is approximately $r = 0.9$.
-2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.2$.
+2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.7$.
 
 
 

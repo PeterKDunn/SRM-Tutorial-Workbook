@@ -4,7 +4,6 @@
 
 This Appendix contains tables that may be useful:
 
-* Random numbers (Appendix \@ref(AppendixRandomNumbers)).
 * $z$-tables: Find the area associated with a normal distribution *given* the $z$-score
 `r if (knitr::is_html_output()){
    '(Appendix \\@ref(ZTablesOnline)).'
@@ -15,6 +14,40 @@ This Appendix contains tables that may be useful:
 '* $z$-tables: Find the $z$-score when an area under a normal distribution is known
   (Appendix \\@ref(ZTablesOnlineBackwards)).'
 }`
+* Random numbers (Appendix \@ref(AppendixRandomNumbers)).
+
+
+
+
+
+
+<!-- Appendix B: Table -->
+<!-- Forward tables -->
+```{r, child = if (knitr::is_html_output()) './children/ZtablesHTML.Rmd'}
+```
+
+
+```{r, child = if (knitr::is_html_output()) './children/InstructionsZtablesHTML.Rmd'}
+```
+
+
+
+
+
+<!-- Backwards tables -->
+
+```{r, child = if (knitr::is_html_output()) './children/ZtablesHTMLBackwards.Rmd'}
+```
+
+```{r, child = if (knitr::is_html_output()) './children/InstructionsZtablesHTMLBackwards.Rmd'}
+```
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/ZtablesLaTeX.Rmd'}
+```
+
+
 
 
 
@@ -58,39 +91,6 @@ if( knitr::is_html_output() ) {
       booktabs=TRUE) %>%
     row_spec(0, bold=TRUE) 
 }
-```
-
-
-
-
-
-
-
-
-<!-- Appendix B: Table -->
-<!-- Forward tables -->
-```{r, child = if (knitr::is_html_output()) './children/ZtablesHTML.Rmd'}
-```
-
-
-```{r, child = if (knitr::is_html_output()) './children/InstructionsZtablesHTML.Rmd'}
-```
-
-
-
-
-
-<!-- Backwards tables -->
-
-```{r, child = if (knitr::is_html_output()) './children/ZtablesHTMLBackwards.Rmd'}
-```
-
-```{r, child = if (knitr::is_html_output()) './children/InstructionsZtablesHTMLBackwards.Rmd'}
-```
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/ZtablesLaTeX.Rmd'}
 ```
 
 
