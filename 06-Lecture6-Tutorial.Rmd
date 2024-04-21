@@ -23,7 +23,7 @@ You will need to access the normal distribution tables for this tutorial.
 
 These Tables can be found in the textbook appendices, and in this document in
 `r if (knitr::is_html_output()){
-   'Appendix \\@ref(ZTablesOnline).'
+   'Appendices \\@ref(ZTablesOnline)\\ and \\@ref(ZTablesOnlineBackwards)).'
 } else {
    'Appendices \\@ref(ZTablesNEG), \\@ref(ZTablesPOS) and \\@ref(ZTablesOnlineBackwards)).'
 }`
