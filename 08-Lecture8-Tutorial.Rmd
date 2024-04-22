@@ -183,10 +183,10 @@ knitr::include_graphics("SoftwareImages/RatLivesData.png")
    **Why** are the other statements incorrect?
 
     a. The sample mean lifetime is between $223.34$ and $346.13$ days.
-    b. The population mean difference in lifetimes is between $223.34$ and $346.13$ days.
-    c. We are $95$% sure that the sample mean difference in lifetimes is between $223.34$ and $346.13$ days.
+    b. The difference between the population mean lifetimes is between $223.34$ and $346.13$ days.
+    c. We are $95$% sure that the difference between the sample mean lifetimes is between $223.34$ and $346.13$ days.
     d. We are $95$% sure that the difference between the population mean lifetimes is between $223.34$ and $346.13$ days.
-    e. If we repeated everything many times, $95$% of the CIs constructed would contain the difference between the population mean.
+    e. If we repeated everything many times, $95$% of the CIs constructed would contain the difference between the population means.
 
 
 
@@ -269,8 +269,8 @@ knitr::include_graphics( c("SoftwareImages/BoysMatureData-jamovi.png",
 
 
 
-1. For the $2,864$ males in the sample, $352$ were classified as maturing late.  
-   For the girls, $336$ of the $2,664$ matured late.
+1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.  
+   For the girls, $336$ of the $2\,664$ matured late.
    Use this information to construct a two-way table of sex against maturation time (Table\ \@ref(tab:MaturationData)).
    
 ```{r echo=FALSE, MaturationData}
