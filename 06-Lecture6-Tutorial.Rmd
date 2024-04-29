@@ -18,7 +18,16 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 22 (Distributions and models)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
 
 
-	
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You will need to access the normal distribution tables for this tutorial.
+
+These Tables can be found in the textbook appendices, and in this document in
+`r if (knitr::is_html_output()){
+   'Appendices \\@ref(ZTablesOnline)\\ and \\@ref(ZTablesOnlineBackwards)).'
+} else {
+   'Appendices \\@ref(ZTablesNEG), \\@ref(ZTablesPOS) and \\@ref(ZTablesOnlineBackwards)).'
+}`
+:::
 
  
 
