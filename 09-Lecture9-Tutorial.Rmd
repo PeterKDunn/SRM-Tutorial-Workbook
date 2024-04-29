@@ -137,7 +137,7 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
 
 ## $P$-values {#PValues}
 
-In a *two-tailed* $t$-test where $n = 49$, what is the approximate $P$-value for the test if:
+Assuming the tests are statistically valid, what is the approximate $P$-value for a *two*-tailed $t$-test if:
 
 1. $t = -2.14$.
 2. $t = 1.90$.
