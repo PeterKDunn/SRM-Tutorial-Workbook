@@ -306,7 +306,6 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 ## Identifying units of analysis and units of observation {#Units}
 
 
-
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
 `r if (knitr::is_latex_output()) '<!--'`
@@ -314,7 +313,6 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
-
 
 
 Bamboo is a fast-growing, strong grass often used for green building practices.

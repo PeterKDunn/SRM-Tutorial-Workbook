@@ -159,7 +159,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 6. If someone else takes a sample of $125$ Eagle Boy's pizzas, will the sample mean be $11.486$ inches again (as it is in this sample)?
    Why or why not?
 7. Draw a picture of the approximate sampling distribution for $\bar{x}$.
-8. Compute an approximate 95% confidence interval for the mean pizza diameter.
+8. Compute an approximate $95$% confidence interval for the mean pizza diameter.
 9. Write a statement that communicates your $95$% CI for the mean pizza diameter.
 10. What are the **statistical** validity conditions?
 11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
@@ -590,12 +590,12 @@ One research project studied
 Sample data were collected from 
 
 > ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
-> Data were collected on $5,735$ adolescents' physical and psychological status...
+> Data were collected on $5\ 735$ adolescents' physical and psychological status...
 
 
 1. What type of research question is being answered: descriptive, relational, repeated-measures of correlational? 
    Explain.
-2. For the $2,864$ males in the sample, $352$ were classified as maturing late.
+2. For the $2\ 864$ males in the sample, $352$ were classified as maturing late.
    Compute the sample estimate of the *population* proportion of males who mature late.
 3. Compute the precision of this estimate (that is, the *standard error*).
 4. Compute an approximate $95$% confidence interval for the population proportion of boys that mature late based on the sample proportion.

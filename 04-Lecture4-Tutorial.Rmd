@@ -213,7 +213,7 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
                       "0.402",
                       "0.50",
                       answer = "1.6") )}`
-1. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary))
+1. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
 
 
 
@@ -313,10 +313,10 @@ if( knitr::is_html_output() ) {
 <img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
 </div>
 
-Soccer is a unique in that one aspect is 'the purposeful use of the unprotected head for controlling and advancing the ball' [@data:Gausche200:Endotracheal].
+Soccer is a unique in that one aspect is 'the purposeful use of the unprotected head for controlling and advancing the ball' [@kirkendall2001heading].
 Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
 
-A study [@data:Gausche200:Endotracheal] was conducted to determine (p.\ 157)
+A study [@kirkendall2001heading] was conducted to determine (p.\ 157)
 
 > ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion) was present in collegiate soccer players
 

@@ -1053,7 +1053,6 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 			We require that the *sample means* have an approximate normal distribution, which they will if $n > 25$.)
 			So the CI is statistically valid.
 12. Population mean diameter probably not $12$ inches based on the CI.
-13. Compute: $n = \left( (2\times 0.24658)/0.04 \right)^2 = 152.004$ at least, so we would need $153$ pizzas.
 
 
 
@@ -1131,7 +1130,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 
 
 1. Relational.
-2. $\hat{p} = 352/2,864 = 0.12291$. 
+2. $\hat{p} = 352/2\ 864 = 0.12291$. 
 3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
 4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to $0.135$.
        Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
