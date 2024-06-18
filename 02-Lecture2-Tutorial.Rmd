@@ -10,13 +10,12 @@
 
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
-
+0
 * [Chapter 4 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
 * [Chapter 5 (External validity: Sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
 * [Chapter 6 (Overview of study design)](https://bookdown.org/pkaldunn/SRM-Textbook/FactorsInfluenceY.html).
-* [Chapter 7 (Internal validity and experimental studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignExperiment.html).
-* [Chapter 8 (Internal validity and observational studies)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignObservational.html).
-* [Chapter 9 (Study design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
+* [Chapter 7 (Internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignInternal.html).
+* [Chapter 8 (Study design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
 
 
 

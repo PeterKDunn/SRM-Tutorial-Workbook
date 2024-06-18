@@ -13,8 +13,8 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 38 (Correlation)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
-* [Chapter 39 (Regression)](https://bookdown.org/pkaldunn/SRM-Textbook/Regression.html).
+* [Chapter 37 (Correlation)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
+* [Chapter 38 (Regression)](https://bookdown.org/pkaldunn/SRM-Textbook/Regression.html).
 
 
 

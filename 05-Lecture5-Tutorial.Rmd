@@ -19,10 +19,10 @@ output:
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 15 (Relationships: quantitative data comparisons within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
-* [Chapter 16 (Relationships: quantitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
-* [Chapter 17 (Relationships: quantitative data correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
-* [Chapter 18 (More about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+* [Chapter 14 (Relationships: quantitative data comparisons within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
+* [Chapter 15 (Relationships: quantitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
+* [Chapter 16 (Relationships: quantitative data correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (More about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 
 

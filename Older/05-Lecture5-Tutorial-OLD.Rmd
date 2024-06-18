@@ -1,22 +1,25 @@
-# Teaching Week 4: tutorial  {#Lecture4}
+# Teaching Week 5: tutorial {#Lecture5}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-* Graphical summaries for **qualitative** data.
-* Numerical summaries for **qualitative** data (e.g., odds).
-* Graphical summaries for comparing **qualitative** data.
-* Numerical summaries for comparing **qualitative** data (e.g., odds ratios).
+* Tabular summaries.
+* Row and column percentages.
+* Two-way tables of counts.
+* Odds and odds ratios.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 12 (Summarising qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQualData.html).
-* [Chapter 13 (Relationships: qualitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
+* [Chapter 15 (Quantitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/WithinQuantData.html).
+* [Chapter 16 (Two quantitative variables: Summaries for correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (Qualitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
+* [Chapter 18 (More about summarising data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 
-## Quick revision {#QuickRevision-Tutorial4}
+
+## Quick revision {#QuickRevision-Tutorial5}
 
 ```{r echo = FALSE}
 OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L, 
@@ -64,14 +67,14 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 ::: {.webex-check .webex-box}
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults ($27$ females; $33$ males) undergo a sleep study.
 `r if( knitr::is_html_output() ) {
-  'The data are shown in Fig.\\ \\@ref(fig:OSADT3).'
+  'The data are shown in Fig.\\ \\@ref(fig:OSADT2).'
 } else
 {
-  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable3).'
+  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable2).'
 }
 `
 
-```{r OSAKable3, echo=FALSE}
+```{r OSAKable2, echo=FALSE}
 useOSA <- OSA[, c(2:6)]
 useOSA$Gender <- factor(useOSA$Gender, 
                         levels = 1:2, 
@@ -83,7 +86,6 @@ if( knitr::is_latex_output() ) {
                format = "latex",
                longtable = FALSE,
                booktabs = TRUE,
-               align = "c", 
                col.names = c("Age",
                             "Gender",
                             "BMI",
@@ -95,7 +97,7 @@ if( knitr::is_latex_output() ) {
 }
 ```
 
-```{r OSADT3, echo=FALSE, fig.cap="The Obstructive sleep apnoea data set", fig.align="center"}
+```{r OSADT2, echo=FALSE, fig.cap="The Obstructive sleep apnoea data set", fig.align="center"}
 if( knitr::is_html_output() ) {
   DT::datatable(useOSA,
               list(scrollX = TRUE, 
@@ -130,7 +132,7 @@ if( knitr::is_html_output() ) {
 		                  "Median",
                       "IQR",
                       answer = "Percentages") )}`
-1. In the sample of $n = 60$, what **percentage** of individuals are females?  
+1. In the sample, what **percentage** of individuals are females?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "0.45", 
 		                  answer = "45%",
@@ -138,14 +140,7 @@ if( knitr::is_html_output() ) {
                       "55%",
                       "1.22",
                       "0.82") )}`
-1. In the sample of $n = 60$, what are the **odds** that an individual is female?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "0.45", 
-		                  "45%",
-                      "0.55",
-                      "55%",
-                      "1.22",
-                      answer = "0.82") )}`:::
+:::
 
 
 
@@ -156,7 +151,6 @@ if( knitr::is_html_output() ) {
 1. The average value (of a quantitative variable) can be described using a mean or a median.
 1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
 1. $27/60\times 100 = 45$%.
-1. $27/33 = 0.8181$.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
@@ -177,13 +171,12 @@ if( knitr::is_html_output() ) {
 In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data shown below were collected.
 
 | **Sex of patients** | **Dispatcher suspected stroke** | **Dispatcher missed stroke**
-|:-------------------:+:-------------------------------:+:-------------------------:
-| Male                | 67                              | 43
+|--------------------:+:-------------------------------:+:-------------------------:
+| Male.               | 67                              | 43
 | Female              | 97                              | 39
 
 
-1. Sketch a side-by-side or stacked bar chart to display the data. \tightlist
-1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher?  
+1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher? \tightlist  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "39.1%", 
 		                  "60.9%",
@@ -213,95 +206,71 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
                       "0.402",
                       "0.50",
                       answer = "1.6") )}`
-1. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
 
 
 
-```{r echo=FALSE, StrokeSymptomsSummary}
-StrokeSumm <- array( "", 
-                      dim = c(3, 3) )
-colnames(StrokeSumm) <- c("symptoms missed", 
-                           "symptoms missed", 
-                           "size")
-rownames(StrokeSumm) <- c("Males",
-                           "Females", 
-                           "Odds ratio")
-
-if( knitr::is_latex_output() ) {
-
-   kable(StrokeSumm,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-        # escape=FALSE, # For latex to work in \rightarrow
-        linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Summary table: emergency dispatchers and missing stroke symptoms",
-        align = "c")   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-    add_header_above( c(" " = 1,
-                        "Percentage" = 1,
-                        "Odds" = 1,
-                        "Sample" = 1),
-                       bold = TRUE,
-                       line = FALSE) %>%
-  row_spec(3, italic = TRUE) %>%
-  row_spec(0, bold = TRUE) # Columns headings in bold
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-  StrokeSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.2, 
-                                          width = 6, 
-                                          answer = round(43 / (43 + 67) * 100) )
-  StrokeSumm[2, 1] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.2, 
-                                          width = 6,
-                                          answer = round(39 / (39 + 97) * 100) )
-  
-  StrokeSumm[1, 2] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.02, 
-                                          width = 6,
-                                          answer = round(43 / 67 , 2) )
-  StrokeSumm[2, 2] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.02, 
-                                          width = 6, 
-                                          answer = round( 39 / 97, 2) )
-
-  StrokeSumm[1, 3] <- webexercises::fitb(num = TRUE, 
-                                          tol = NULL, 
-                                          width = 6, 
-                                          answer = 43 + 67 )
-  StrokeSumm[2, 3] <- webexercises::fitb(num = TRUE, 
-                                          tol = NULL, 
-                                          width = 6, 
-                                          answer = 97 + 39 )
 
 
-  kable(StrokeSumm,
-        format = "html",
-        align = "c",
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Summary table: emergency dispatchers and missing stroke symptoms",
-        booktabs = TRUE)  %>%
-    add_header_above( c(" " = 1,
-                        "Percentage" = 1,
-                        "Odds" = 1,
-                        "Sample" = 1),
-                       bold = TRUE,
-                       line = FALSE) %>%
-    row_spec(3, italic = TRUE)
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
 
+## Which summary measures to use {#WhichSummaryToUse}
+
+A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
+
+[GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
+'[Gross Motor Function Classification System](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)', which is:
+
+> ... a 5 level clinical classification system that describes the gross motor function of people with cerebral palsy on the basis of self-initiated movement abilities.
+>
+> --- [Wikipedia](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System)
+
+
+`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
+
+
+`r if (knitr::is_html_output()) '<!--'`
+
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="85%"}
+knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 ```
+`r if (knitr::is_html_output()) '-->'`
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
+```
+
+
+
+
+<iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+
+<!-- 1. What are the variables? How many variables are there? -->
+<!-- 1. Which variables are **quant**itative? Which are discrete and which are continuous? -->
+<!-- 1. Which are **qual**itative? Which are nominal and which are ordinal? -->
+<!-- 1. Explain which *numerical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually. -->
+<!-- 2. Explain which *graphical* summaries you would use  -->
+<!--  	 to summarise the data collected for *each*  -->
+<!--  	 variable individually.   -->
+
+<!--  	 (You don't have to *produce* the summaries,  -->
+<!--  	 just explain which would be appropriate. -->
+<!--  	 GMFCS is the 'Gross Motor Classification System', an ordinal classification system.) -->
+<!-- 3. What graphs would you use to display the *relationship* -->
+<!--    between Gender and Height?   -->
+
+<!--  	 What graphs would you use to display the *relationship* -->
+<!--    between Gender and GMFCS? -->
+
+<!-- ```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)",  fig.align="center", out.width="90%"} -->
+<!-- knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png") -->
+<!-- ``` -->
 
 
 
@@ -313,17 +282,19 @@ if( knitr::is_html_output() ) {
 <img src="Illustrations/pexels-pixabay-264384.jpg" width="200px">
 </div>
 
-Soccer is a unique in that one aspect is 'the purposeful use of the unprotected head for controlling and advancing the ball' [@kirkendall2001heading].
+Soccer is a unique in that one aspect is 'the purposeful use of the unprotected head for controlling and advancing the ball' [@data:Gausche200:Endotracheal].
 Some researchers suspect that repeatedly 'heading' the ball may impair brain function. 
 
-A study [@kirkendall2001heading] was conducted to determine (p.\ 157)
+A study [@data:Gausche200:Endotracheal] was conducted to determine
 
 > ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion) was present in collegiate soccer players
+>
+> --- @data:Gausche200:Endotracheal, p. 157.
 
-Data were collected from $240$ college students for two variables:
+Data were collected from $240$ college students:
 
 * The student type:
-  One of 'soccer player' ($63$ students), 'non-soccer athlete' ($96$ students), or 'non-athlete' ($81$ students).
+  One of 'soccer players' ($63$ students), 'non-soccer athletes' ($96$ students), or 'non-athletes' ($81$ students).
 * The number of head concussions:
   Each student was asked about the number of head concussions they had experienced; 'zero' ($158$ students), 'one' ($45$ students), or 'two or more'  ($37$ students) concussions.
 
@@ -371,24 +342,11 @@ if( knitr::is_html_output() ) {
 }
 ```
    
-1. Classify the two variables.
-2. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
-3. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
+1. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
+2. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
-4. Among the **non-athletes**, compute the odds of receiving two or more concussions.
-   Interpret what this means.
-5. Among the **soccer players**, compute the odds of receiving two or more concussions.
-   Interpret what this means.
-6. Compute the odds ratio comparing the odds of a non-athlete player receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
-7. Create a table of **column** percentages.
-   What do these tell you?
-8. Create a table of **row** percentages.
-   What do these tell you?
-9. Which one of these tables is probably more sensible, and why?
-
-
 
 ```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete", fig.height=8.5, fig.width=6.5, out.width="85%", fig.align="center"}
 
@@ -526,8 +484,17 @@ legend("top",
                   "Non-athlete") )
 ```
 
-
-
+3. Among the **non-athletes**, compute the odds of receiving two or more concussions.
+   Interpret what this means.
+4. Among the **soccer players**, compute the odds of receiving two or more concussions.
+   (Refer to Table\ \@ref(tab:SoccerTable).)
+   Interpret what this means.
+5. Compute the odds ratio comparing the odds of a non-athlete player receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
+6. Create a table of **column** percentages.
+   What do these tell you?
+7. Create a table of **row** percentages.
+   What do these tell you?
+8. Which one of these tables is probably more sensible, and why?
 
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -538,135 +505,16 @@ legend("top",
 
 
 
-## Working with odds {#WorkingWithOdds}
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q6.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
-
-## **Drills**: Computational exercises {#Chapter5Drills}
-
-*(Answers are available in Sect. \@ref(Lecture5Answers))*
-
-::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
-
-If you need help, please **ask**.
-:::
-
-
-
-1. A study of drivers in [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
-
-   a. What **percentage** of people use their phone while driving?
-   b. What are the **odds** that a person uses their phone while driving?
-   c. What are the **odds** that a WA resident uses their phone while driving?
-   d. What are the **odds** that a NSW resident uses their phone while driving?
-   e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
-
-```{r PDTable, echo=FALSE}
-PDTab <- array( dim = c(2, 2))
-
-rownames(PDTab) <- c("NSW", 
-                     "WA")
-colnames(PDTab) <- c("Uses phone", 
-                     "Does not use phone")
-
-PDTab[1, ] <- c(381, 295) 
-PDTab[2, ] <- c(345, 326)
-
-PDcap <- "The number of drivers who use their phone while driving"
-
-if( knitr::is_latex_output() ) {
-  kable(PDTab,
-      format = "latex",
-      booktab = TRUE,
-      align = "c",
-      caption = PDcap) %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%  
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(PDTab,
-      format = "html",
-      booktab = TRUE,
-      align = "c",
-      caption = PDcap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-
-
-2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
-   a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-   b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-   c. Compute the **percentage** of cuttings that were *long*.
-   d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-   e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-   f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-   g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
-   
-
-```{r RSTable, echo=FALSE}
-library(GLMsData)
-data(rootstock)
-
-RSTab <- xtabs( Count ~ Length + Condition, 
-                data = rootstock)
-
-RScap <- "The relationship between length and condition of plum rootstocks"
-
-if( knitr::is_latex_output() ) {
-  kable(RSTab,
-      format = "latex",
-      booktab = TRUE,
-      caption = RScap) %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%  
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(RSTab,
-      format = "html",
-      booktab = TRUE,
-      caption = RScap) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-
-
-
-
-
-## **Optional questions** {#OptionalTW4}
-
+## **Optional**: Odds ratios {#OddsRatioSMND}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture4Answers).)
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
-
-### **Optional**: Odds ratios {#OddsRatioSMND}
+*(Answers are available in Sect. \@ref(Lecture5Answers))*
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -677,26 +525,28 @@ The impact of environmental toxins is not well understood.
 A 2012 Australian observational study [@data:Pamphlett:toxins] examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
 
 A total of $380$ SMND cases were studied, and $377$ controls.
-Of the $380$ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
-
-1. What is the *direction* of this study?	
-2. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
-3. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
+Of the $380$ SMND cases, $60$ had worked with metal; of the $377$ controls, $33$ had worked with metal.
+	
+1. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
+2. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
    Interpret what this means.
-4. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
+3. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
    Interpret what this means.
-5. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
+4. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
    (This is an *odds ratio*.)
-6. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
-7. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-8. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
+5. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
+6. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
+7. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
-9. Sketch a bar chart to display the data.
 
 
 
-### **Optional**: Percentages and odds {#PercentagesOdds}
 
+## **Optional**: Percentages and odds {#PercentagesOdds}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+:::
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
 
@@ -782,13 +632,6 @@ if( knitr::is_html_output() ) {
                "(281+306) / ( 404+416) = 0.716",
                "281/306 = 0.918"
      ))}`
-`r if( knitr::is_html_output() ) {"<!--"}`
-     * $281/(404 - 281) = 2.28$
-     * $(404 - 281)/404 = 0.304$
-     * $281/404 = 0.696$
-     * $(281 + 306) / ( 404 + 416) = 0.716$
-     * $281/306 = 0.918$
-`r if( knitr::is_html_output() ) {"-->"}`
 
 3. Among people treated with ETI, the *odds* that someone died is $2.78$.
    What does this mean?  
@@ -808,7 +651,11 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: Odds {#Odds1}
+## **Optional**: Odds {#Odds1}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+:::
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
@@ -822,7 +669,34 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: Percentages { #PercentagesOdour}
+##  **Optional**: Working with odds {#WorkingWithOdds}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+:::
+
+`r if (knitr::is_latex_output()) {
+   '*(Answers are available in Sect.\\@ref(Lecture5Answers))*'
+}`
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q6.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+
+## **Optional**: Percentages { #PercentagesOdour}
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
+:::
+
+*(Answers are available in Sect. \@ref(Lecture5Answers))*
 
 Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
 Furthermore, different communities are impacted in different ways.
@@ -880,4 +754,99 @@ if( knitr::is_html_output() ) {
 5. Compute the percentage of residents in the sample overall not detecting the odour at all.
 
 
+
+## **Drills**: Computational exercises {#Chapter5Drills}
+
+*(Answers are available in Sect. \@ref(Lecture5Answers))*
+
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
+
+If you need help, please **ask**.
+:::
+
+
+
+1. A study of drivers in [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
+
+   a. What **percentage** of people use their phone while driving?
+   b. What are the **odds** that a person uses their phone while driving?
+   c. What are the **odds** that a WA resident uses their phone while driving?
+   d. What are the **odds** that a NSW resident uses their phone while driving?
+   e. What are is the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
+
+```{r PDTable, echo=FALSE}
+PDTab <- array( dim = c(2, 2))
+
+rownames(PDTab) <- c("NSW", 
+                     "WA")
+colnames(PDTab) <- c("Uses phone", 
+                     "Does not use phone")
+
+PDTab[1, ] <- c(381, 295) 
+PDTab[2, ] <- c(345, 326)
+
+PDcap <- "The number of drivers who use their phone while driving"
+
+if( knitr::is_latex_output() ) {
+  kable(PDTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = PDcap) %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%  
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(PDTab,
+      format = "html",
+      booktab = TRUE,
+      caption = PDcap) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+
+
+
+2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
+   a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
+   b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
+   c. Compute the **percentage** of cuttings that were *long*.
+   d. Compute the **odds** that a cuttings was *alive* at the end of the study.
+   e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
+   f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
+   g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
+   
+
+```{r RSTable, echo=FALSE}
+library(GLMsData)
+data(rootstock)
+
+RSTab <- xtabs( Count ~ Length + Condition, 
+                data = rootstock)
+
+RScap <- "The relationship between length and condition of plum rootstocks"
+
+if( knitr::is_latex_output() ) {
+  kable(RSTab,
+      format = "latex",
+      booktab = TRUE,
+      caption = RScap) %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%  
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(RSTab,
+      format = "html",
+      booktab = TRUE,
+      caption = RScap) %>%
+  kable_styling(full_width = FALSE)
+}
+```
 

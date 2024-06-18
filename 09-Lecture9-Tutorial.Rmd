@@ -12,10 +12,10 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
-* [Chapter 32 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 33 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 34 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
-* [Chapter 35 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
+* [Chapter 31 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 32 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 33 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 34 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
 
 
 
