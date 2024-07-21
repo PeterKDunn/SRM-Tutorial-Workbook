@@ -44,6 +44,7 @@ This is important for helping students to form groups (for their group work assi
 
 * **Course introduction**:
   Briefly introduce the course if necessary, but remember that I have instructed students to read the Course Outline and the Canvas information, and have emailed them lots of information too.
+  * You may even like to open Canvas and show students where the Modules, Discussions, Check your Progress questions, etc. are located.
   
 * **Approach**:
   Most SCI110 students are in their first year at UniSC, and everything is new!
@@ -52,14 +53,14 @@ This is important for helping students to form groups (for their group work assi
   Here is one way to structure this class (you don’t have to use (or like) it):
 
   * Explain why they are doing SCI110.
-  * Group them according to where they live (may be helpful for finding near-by group members): 
-    Chat and learn three names.
-  * Line up by hours per week they think is needed for this course.
-    (UniSC courses are designed for $10$--$12$ hours per week, including classes, every week; a lot of work is needed outside class times!)
+  * Group them according to where they live: north-ish, west-ish, etc. (may be helpful for finding near-by group members).
+    Then let them chat for a few minutes.
   * Line up by the average number of hours of paid work they expect to do per week.
-  * Line up by what they think the cost of SCI110 is (remind them they don't have \$1000 to waste, so take advantage of all that we offer).
+    Again, lhen let them chat for a few minutes.
+    Remind them that UniSC courses are designed for $8$--$10$ hours per week, including classes, every week; a lot of work is needed outside class times!
+  * Ask them what they think the cost of SCI110 is (last I saw, $1\ 118 for domestic students; much higher for international (harder to pin down, but like $3\ 500).
+    Remind them they don't have \$1000 to waste, so take advantage of all that we offer.
   * Then discuss the pre-semester fun survey (see below).
-  * You may even like to open Canvas and show students where the Modules, Discussions, Check your Progress questions, etc. are located.
   * Then do some content questions.
   
   
@@ -71,18 +72,20 @@ We can use it to open some discussions.
 Here’s an example, using the percentage of females/males:
 
 * Ask them to guess the percentage of males or females in SCI110 *this* semester. 
-  Some will look at their class: is this a good guesstimate? 
-  Why or why not?
+  * Some will look at their class: is this a good guesstimate? 
+  * Why or why not?
 * Reveal that about $65$% of UniSC students are female. 
-  Does this change their guess?
-* Then reveal the survey results. 
-  Have students comment on the closeness or otherwise of their guesses.
-* Point out that the survey results are not from the whole class. 
-  How close do they think the survey percentages are to the true percentage? 
-  Within $1$%? $5$% $10$% of the true value? 
-  How many would we need in our sample to get a percentage to within $1$% of the true percentage?
-  What if (say) males were less likely to answer the survey than females?
-  Does the voluntary aspect cause you to doubt the accuracy and precision of the answers?
+  * Does this change their guess?
+* Then reveal the survey results for the last $10$ years or so.
+  * Have students comment on the closeness or otherwise of their guesses.
+* Then reveal the survey results for the current semester.
+  * Have students comment on the closeness or otherwise of their guesses.
+* Point out that the survey results are not from everyone enrolled in SCI110 this semester. 
+  * How close do they think the survey percentages are to the true percentage? 
+  * Within $1$%? $5$% $10$% of the true value? 
+  * How many would we need in our sample to get a percentage to within $1$% of the true percentage?
+  * What if (say) males were less likely to answer the survey than females?
+  * Does the voluntary aspect cause you to doubt the accuracy and precision of the answers?
 * How could you ensure that the sample results were as close as possible to the true answers?
 
 That covers a lot of good territory really...
