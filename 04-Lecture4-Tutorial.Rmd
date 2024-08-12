@@ -280,6 +280,10 @@ if( knitr::is_html_output() ) {
                                           tol = NULL, 
                                           width = 6, 
                                           answer = 97 + 39 )
+  StrokeSumm[3, 2] <- webexercises::fitb(num = TRUE, 
+                                          tol = 0.05, 
+                                          width = 6, 
+                                          answer = 0.64/0.4 )
 
 
   kable(StrokeSumm,
@@ -287,7 +291,7 @@ if( knitr::is_html_output() ) {
         align = "c",
         escape = FALSE,
         longtable = FALSE,
-        caption = "Summary table: emergency dispatchers and missing stroke symptoms",
+        caption = "Summary table: emergency dispatchers and missing stroke symptoms. Enter PERCENTAGES as WHOLE NUMBERS. Enter ODDS to TWO decimal places.",
         booktabs = TRUE)  %>%
     add_header_above( c(" " = 1,
                         "Percentage" = 1,
