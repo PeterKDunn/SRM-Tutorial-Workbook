@@ -15,7 +15,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
 * [Chapter 29 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
 * [Chapter 20 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
-* [Chapter 21 (Distributions and models)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
+* [Chapter 21 (Models and normal distributions)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -101,10 +101,6 @@ Standard IQs in current use are designed so that the IQ scores of the *populatio
 `r if (knitr::is_html_output()) {"Use this information to answer the following questions."}`
 
 <iframe src="https://usc.h5p.com/content/1290968343185265779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
 
 
 

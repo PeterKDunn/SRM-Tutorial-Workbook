@@ -212,8 +212,8 @@ CorData <- array( dim = c(1, 4) )
 if( knitr::is_latex_output() ) {
    CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
    CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
-   CorData[1, 3] <- "\\textbf{C}: $r = -0.75$"
-   CorData[1, 4] <- "\\textbf{D}: $r = -0.94$"
+   CorData[1, 3] <- "\\textbf{C}: $r = 0.75$"
+   CorData[1, 4] <- "\\textbf{D}: $r = 0.94$"
 
   kable(CorData,
         format = "latex",

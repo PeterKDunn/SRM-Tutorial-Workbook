@@ -324,7 +324,7 @@ if( knitr::is_html_output() ) {
 
     a. Write the hypotheses.
     b. Write down the value of $\chi^2$.
-    c. What $z$-score is this approximately equivalent to?
+    c. What $z$-score is this equivalent to?
     d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
     e. What is the exact $P$-value as reported by software?
     f. Write a conclusion.
