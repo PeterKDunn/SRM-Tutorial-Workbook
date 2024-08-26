@@ -12,7 +12,7 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 27 (Confidence intervals for two independent means)](https://bookdown.org/pkaldunn/SRM-Textbook/CITwoMeans.html).
-* [Chapter 28 (Confidence intervals for odds ratios)](https://bookdown.org/pkaldunn/SRM-Textbook/OddsRatiosCI.html).
+* [Chapter 28 (Confidence intervals for comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/OddsRatiosCI.html).
 * [Chapter 29 (Estimating sample sizes)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
 
 

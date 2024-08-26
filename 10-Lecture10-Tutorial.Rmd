@@ -10,7 +10,7 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 34 (Tests for the means of two independent groups)](https://bookdown.org/pkaldunn/SRM-Textbook/TestTwoMeans.html).
-* [Chapter 35 (Tests for odds ratios)](https://bookdown.org/pkaldunn/SRM-Textbook/TestsOddsRatio.html).
+* [Chapter 35 (Tests for comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/TestsOddsRatio.html).
 * [Chapter 36 (Selecting a hypothesis test)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html).
 
 
