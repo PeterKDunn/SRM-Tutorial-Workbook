@@ -1067,7 +1067,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
 3. Each measurement is measured after and before on the same subject.
 4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
-   (Differences in the other direction are also acceptable; it just changes the signs of these differences snd so on.
+   (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
    **Importantly, the direction should be stated somewhere.**)
 5. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
 6. $\bar{d} = 24.9$; $s_d=13.03372$.
@@ -1087,7 +1087,6 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
     A stem plot suggests this is not unreasonable, so the sample means possibly have an approx.\ normal distribution.
 14. (Recall we haven't done hypothesis testing in this context yet!)
     Looks pretty likely that the 2MWT distances are higher after receiving the implant.
-15. $n = (2\times 13.03372\div 5)^2 = 27.18$, so need data from at least $28$ amputees.
 
 
 

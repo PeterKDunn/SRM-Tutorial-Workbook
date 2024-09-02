@@ -380,9 +380,7 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
       xlim = c(10, 12.5))
 ```
 
-12. If we wanted to estimate the population mean diameter to within $1$\ mm (or $0.04$\ inches) with $95$% confidence, what size sample would we need?  
-    What is a reasonable level of accuracy with which we could measure the diameter of a pizza?
-13. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
+12. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
     Explain.
     
 `r if (knitr::is_latex_output()) '<!--'`
@@ -433,9 +431,7 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 12. What conditions must be met for this CI to be statistically valid?
 13. Is it reasonable to assume the CI is statistically valid? 
     Construct a stem-and-leaf plot to help.
-14. Suppose the researchers wished to estimate the change in 2MWT to within $5$m, with $95$% confidence.
-    What size sample would be necessary?
-15. Do you think the population 2MWT changes because of the prosthetic, on average?
+14. Do you think the population 2MWT changes because of the prosthetic, on average?
     Explain and discuss.
     
 `r if (knitr::is_latex_output()) '<!--'`
