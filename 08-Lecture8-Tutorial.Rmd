@@ -32,7 +32,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 
 ::: {.webex-check .webex-box}
 Researchers studied the impact of a gluten-free diet on dental cavities [@khalaf2020caries].
-Some of the summary information regarding the number decayed, missing and filled teeth (DMFT) is shown below.
+Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
  
 **Diet**           | **Sample size** | **Mean** | **Standard deviation** | **Standard error**
 ------------------:+:---------------:+:--------:+:----------------------:+:----------------:
