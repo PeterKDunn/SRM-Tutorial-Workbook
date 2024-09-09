@@ -177,7 +177,7 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 
 ```{r RatLifetimesDatajamovi-SPSS, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example: jamovi (left panel) and SPSS (right panel)", fig.align="center", out.width='32%'}
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
-knitr::include_graphics("images/SPACER.png")'
+knitr::include_graphics("images/SPACER.png")
 knitr::include_graphics("SoftwareImages/RatLivesData.png")
 ```
 
@@ -223,7 +223,7 @@ knitr::include_graphics("SoftwareImages/RatLivesOutput.png")
 
 ```{r SPSSOutputBoxplotsCI, echo=FALSE, fig.show="hold", fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime example", fig.align="center", out.width=c("40%", "10%", "40%")}
 knitr::include_graphics("SoftwareImages/RatLivesBoxplot.png")
-knitr::include_graphics("images/SPACER.png")'
+knitr::include_graphics("images/SPACER.png")
 knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
 ```
    
