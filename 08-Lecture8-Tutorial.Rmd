@@ -55,7 +55,7 @@ An *exact* $95$% CI is given as for the difference is $-2.32$ to $2.76$.
 1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
    True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. We are $95$% confidence that the difference between the population means is:   
+1. We are $95$% confident that the difference between the population means is:   
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("Larger for coeliacs", 
           "Smaller for coeliacs",
@@ -152,7 +152,7 @@ There was $44$ matches.
 
 
 
-## CIs for difference between two independent samples {#CIRatLifetimes}
+## CIs for difference between two sample means {#CIRatLifetimes}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
@@ -177,7 +177,7 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 
 ```{r RatLifetimesDatajamovi-SPSS, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example: jamovi (left panel) and SPSS (right panel)", fig.align="center", out.width='32%'}
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
-knitr::include_graphics("Images/Spacer.png")
+knitr::include_graphics("images/SPACER.png")'
 knitr::include_graphics("SoftwareImages/RatLivesData.png")
 ```
 
@@ -223,7 +223,7 @@ knitr::include_graphics("SoftwareImages/RatLivesOutput.png")
 
 ```{r SPSSOutputBoxplotsCI, echo=FALSE, fig.show="hold", fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime example", fig.align="center", out.width=c("40%", "10%", "40%")}
 knitr::include_graphics("SoftwareImages/RatLivesBoxplot.png")
-knitr::include_graphics( "Images/spacer.png" )
+knitr::include_graphics("images/SPACER.png")'
 knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
 ```
    
@@ -266,7 +266,7 @@ Part of the data are shown entered into jamovi and SPSS (Fig.\ \@ref(fig:Maturat
 
 ```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi (left) and SPSS (right)", fig.align="center", out.width='33%'}
 knitr::include_graphics( c("SoftwareImages/BoysMatureData-jamovi.png",
-                           "Images/Spacer.png",
+                           "images/SPACER.png",
                            "SoftwareImages/BoysMatureData-SPSS.png") )
 ```
 
@@ -577,7 +577,7 @@ include_graphics("SoftwareImages/PizzaSizeCompare.png")
 
 ```{r PizzaSizeBoxplots, echo=FALSE, fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the pizza size data", fig.show="hold", fig.align="center", out.width=c("40%", "8%", "40%")}
 include_graphics("SoftwareImages/PizzaSizeBoxplot.png")
-include_graphics("Images/Spacer.png")
+include_graphics("images/SPACER.png")
 include_graphics("SoftwareImages/PizzaSizeErrorBar.png")
 ```
 
