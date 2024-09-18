@@ -14,6 +14,9 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 36 (Selecting a hypothesis test)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html).
 
 
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+Something from this week's content **will** be needed for your Task 2B.
+:::
 
 
 

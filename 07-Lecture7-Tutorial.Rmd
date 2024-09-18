@@ -11,7 +11,7 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 22 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/CIIntro.html).
+* [Chapter 22 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
 * [Chapter 23 (Confidence intervals for one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
 * [Chapter 24 (Confidence intervals for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
 * [Chapter 25 (More about forming CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
