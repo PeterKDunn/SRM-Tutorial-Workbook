@@ -40,7 +40,7 @@ The mean time from scene arrival to starting the first advanced airway procedure
 1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. \tightlist 
    True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. The *alternative* hypothesis is $H_0$: $\mu_{IE} < \mu_{IE}$. 
+1. The *alternative* hypothesis is $H_0$: $\mu_{E} < \mu_{IE}$. 
    True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
 1. Since the two sample means are different, we reject the null hypothesis. 
