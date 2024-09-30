@@ -1730,7 +1730,7 @@ Answers implied by H5P.
 * Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
   $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
 * Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
-  $p_{\text{white}} = p_{\text{white}}$
+  $p_{\text{white}} = p_{\text{wholemeal}}$
 * Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
   $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
 
@@ -1741,7 +1741,7 @@ Answers implied by H5P.
 * Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
   $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$
 * Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?  
-  $p_{\text{white}} \ne p_{\text{white}}$
+  $p_{\text{white}} \ne p_{\text{wholemeal}}$
 * Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
   $\mu_{\text{white}} > \mu_{\text{wholemeal}}$
 
