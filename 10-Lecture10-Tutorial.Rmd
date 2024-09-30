@@ -406,6 +406,7 @@ if( knitr::is_html_output() ) {
                                           width = 6, 
                                           answer = 2.771 )
 
+
   kable(ArtLimbSumm,
         format = "html",
         align = c("r", "r", "r"),
