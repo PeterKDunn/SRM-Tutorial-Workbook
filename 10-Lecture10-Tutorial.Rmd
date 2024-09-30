@@ -401,6 +401,10 @@ if( knitr::is_html_output() ) {
                                           width = 6, 
                                           answer = round(21 / 19, 2) )
 
+  ArtLimbSumm[3, 1] <- webexercises::fitb(num = TRUE, 
+                                          tol = 0.005, 
+                                          width = 6, 
+                                          answer = 22.9 )
   ArtLimbSumm[3, 2] <- webexercises::fitb(num = TRUE, 
                                           tol = 0.005, 
                                           width = 6, 
