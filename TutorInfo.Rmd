@@ -111,16 +111,15 @@ That covers a lot of good territory really...
 ### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-One way to manage this: arrange students into groups, and have each group discuss Parts\ 1, 2 and 3 separately.
+One way to manage this: arrange students into groups, and have each group discuss Parts\ 1, 2 and\ 3 separately.
 Then have each group share their answer with the class and discuss.
 	
-Or: have one person from each of Group\ 1, 2 and 3 form new groups (all containing someone from each group) to discuss the parts.
+Or: have one person from each of Group\ 1, 2 and\ 3 form new groups (all containing someone from each group) to discuss the parts.
 	
 The last two parts of this question can be done by groups separately, then have the groups share with other groups.
 
 *Encourage and promote student discussion and debate about the answers.*
 The point is that there are many possible options, all of which are acceptable, and all of which lead to different RQs.
-
 
 1. Note that Jane's actual assertion in the last sentence explicitly refers to "people", though the context really is (UniSC?) students as she asserts earlier.
    Encourage this discussion!
@@ -131,6 +130,7 @@ The point is that there are many possible options, all of which are acceptable, 
    coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
 4. "Between before and after drinking Earl Grey tea" is a *within-individuals* comparison, *not a between-individuals comparison* because everyone in the population (sample) is treated the same way.
    There are not two groups in the population being compared.
+
 ```
     
     

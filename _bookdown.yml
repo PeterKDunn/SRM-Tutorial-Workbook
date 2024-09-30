@@ -7,7 +7,7 @@ before_chapter_script:
 clean:
 - packages.bib
 - bookdown.bbl
-delete_merged_file: yes
+delete_merged_file: no
 rmd_files:
 - index.Rmd
 - 01-Lecture1-Tutorial.Rmd
