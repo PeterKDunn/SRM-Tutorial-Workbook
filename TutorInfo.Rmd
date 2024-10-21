@@ -62,8 +62,16 @@ This is important for helping students to form groups (for their group work assi
     Remind them they don't have \$1000 to waste, so take advantage of all that we offer.
   * Then discuss the pre-semester fun survey (see below).
   * Then do some content questions.
-  
-  
+
+Another activity that *may* be useful:
+
+* Put up a list of all the expectations the students could have of themself (on time, prepared, when they don't know an answer, they'll find it for them next week, lesson plans to cover all content, giving students chances to respond etc)
+* Break the class into groups, and have students write down what you should expect from them. 
+
+Hopefully, the students start regulating that charter within their lessons...
+
+
+
 ### Fun survey {#FunSurvey .unlisted .unnumbered}
 
 Before the start of the semester, students were sent a link to a short, mainly fun, online survey. 
