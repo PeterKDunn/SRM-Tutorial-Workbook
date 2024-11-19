@@ -1,11 +1,16 @@
-## TO RENDER 
+# History
+
+- Change to 12-week teaching over 2024/2025
+
+
+# TO RENDER 
 
 library(bookdown) 
 # render_book("index.Rmd") 
 # render_book("index.Rmd", "bookdown::pdf_book") 
 # render_book("index.Rmd"); render_book("index.Rmd", "bookdown::pdf_book") 
 
-## TO PUBLISH ON BOOKDOWN:  
+# TO PUBLISH ON BOOKDOWN:  
 
 library(bookdown) 
 bookdown::publish_book(name="SRM-tutorials") 
@@ -15,7 +20,7 @@ bookdown::publish_book(name="SRM-tutorials")
 # THIS MIGHT WORK:    
 render_book("index.html", "bookdown::word_document2")      
 
-### Then: netlify deploy --build . --prod 
+## Then: netlify deploy --build . --prod 
 From the _book directory: 
 netlify deploy --prod 
 
