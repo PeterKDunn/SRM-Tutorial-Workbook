@@ -1828,7 +1828,7 @@ colnames(ArtLimbSumm) <- c("Percentage alive after 5 years",
                            "Sample size")
 rownames(ArtLimbSumm) <- c("Use artificial limb", 
                            "Did not use artifical limb", 
-                           "Odds ratio") 
+                           " ") 
 
   ArtLimbSumm[3, 1] <- ""
   ArtLimbSumm[3, 3] <- ""
@@ -1842,7 +1842,8 @@ rownames(ArtLimbSumm) <- c("Use artificial limb",
   ArtLimbSumm[1, 2] <- round(49 / 16, 2)
   ArtLimbSumm[2, 2] <- round(21 / 19, 2)
 
-  ArtLimbSumm[3, 2] <- 2.771
+  ArtLimbSumm[3, 1] <-  paste("Diff in percentages:", 22.9)
+  ArtLimbSumm[3, 2] <-  paste("OR:",2.771)
 
   
   ArtLimbSumm[3, 3] <- 626

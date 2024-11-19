@@ -341,7 +341,7 @@ colnames(ArtLimbSumm) <- c("after 5 years",
                            "size") # Rest of table headers added using  add_header_above
 rownames(ArtLimbSumm) <- c("Use artificial limb",
                            "Did not use artifical limb", 
-                           "Odds ratio")
+                           " ")
 
 ArtLimbSumm[3, 3] <- "626"
    
@@ -401,14 +401,16 @@ if( knitr::is_html_output() ) {
                                           width = 6, 
                                           answer = round(21 / 19, 2) )
 
-  ArtLimbSumm[3, 1] <- webexercises::fitb(num = TRUE, 
+  ArtLimbSumm[3, 1] <- paste("Diff in percentages:",
+                             webexercises::fitb(num = TRUE, 
                                           tol = 0.005, 
                                           width = 6, 
-                                          answer = 22.9 )
-  ArtLimbSumm[3, 2] <- webexercises::fitb(num = TRUE, 
+                                          answer = 22.9 ) )
+  ArtLimbSumm[3, 2] <- paste("OR: ",
+                             webexercises::fitb(num = TRUE, 
                                           tol = 0.005, 
                                           width = 6, 
-                                          answer = 2.771 )
+                                          answer = 2.771 ) )
 
 
   kable(ArtLimbSumm,
