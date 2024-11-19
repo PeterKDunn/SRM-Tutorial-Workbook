@@ -2272,7 +2272,7 @@ abline(a = 5,
   It sounds odd, too, to ask if they 'become' longer.
   We are just comparing the mean length of leaves of eastern and western sides.
 * **Null hypothesis**: Spelling again; and the hypothesis should be explicitly comparing the *means*:
-  "For weeping lilly pilly trees at UniSC, it the mean leaf length the same for leaves on the western and eastern sides of the tree?"
+  "For weeping lilly pilly trees at UniSC, is the mean leaf length the same for leaves on the western and eastern sides of the tree?"
 * **Results**: Cannot find the mean of a qualitative variable ('Side of tree'); the table should give the mean, standard deviation and standard error for leaves taken from the west side (one row) and the east side (second row), plus information about the *difference*.
 * **Methods**: There are only five units of analysis.
   Leaves taken from the same tree are likely to share a lot in common: genetics; sunlight, watering regime, soil condition, etc.
