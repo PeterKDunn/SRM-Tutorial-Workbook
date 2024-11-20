@@ -1,0 +1,347 @@
+# Teaching Week 6: tutorial {#Lecture6}
+
+
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
+**Topics** covered in this tutorial:
+
+* Probability.
+* Models.
+* Sampling variation.
+* The normal distribution.
+:::
+
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+
+* [Chapter 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
+* [Chapter 29 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
+* [Chapter 20 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
+* [Chapter 21 (Models and normal distributions)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
+
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You will need to access the normal distribution tables for this tutorial.
+
+These Tables can be found in the textbook appendices, and in this document in
+`r if (knitr::is_html_output()){
+   'Appendices \\@ref(ZTablesOnline)\\ and \\@ref(ZTablesOnlineBackwards)).'
+} else {
+   'Appendices \\@ref(ZTablesNEG), \\@ref(ZTablesPOS) and \\@ref(ZTablesOnlineBackwards)).'
+}`
+:::
+
+ 
+
+## Quick revision {#QuickRevision-Tutorial6}
+
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+:::
+
+::: {.webex-check .webex-box}
+A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
+For the simulation, they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution, with a mean of $13$\ tonnes and a standard deviation of $1.3$\ tonnes.
+
+The 
+`r if (knitr::is_latex_output()) {
+   'Isuzu F-Series trucks'
+} else {
+   '[Isuzu F-Series trucks](https://isuzu.com.au/)'
+}`
+are rated as having a GVM between $10.7$ and $26.0$ tonnes (depending on the configuration). 
+
+1. What is the $z$-score for the lower limit of $10.7$\ tonnes? \tightlist
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c("1.77",
+          answer = "-1.77", 
+          "-0.7",
+          "0.7") )}`
+1. What is the $z$-score for the upper limit of $26.0$\ tonnes?
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c(answer ="10",
+          "-10", 
+	  "-16",
+	  "16") )}`
+1. What does a *negative* $z$-score mean?  
+`r if( knitr::is_html_output() ) {
+   webexercises::mcq( c("There has been an error",
+          "The mass is larger than average",
+          answer = "The mass is lower than average",
+          "The mass is a negative number, which is impossible") )}`
+:::
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+`r webexercises::hide()`
+1. $z = (10.7 - 13)\div 1.3 = -1.77$.
+1. $z = (26.0 -13)/1.3 = 10$.
+1. A *negative* $z$-score means that the value is *less than* the **mean**.
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265018&sec_digit=355513952&embeded_digit=1285939919' style='width:100%; height:375px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+## Normal distributions and IQs {#NormalIQs}
+
+Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of $100$, and a standard deviation of $15$.
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q1.Rmd'}
+```
+
+
+`r if (knitr::is_html_output()) {"Use this information to answer the following questions."}`
+
+<iframe src="https://usc.h5p.com/content/1290968343185265779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+## Normal distributions and heights {#NormalHeights}
+
+In the \textit{National Nutrition Survey} (NNS) (conducted with the 1995 *National Health Survey* (NHS)), trained nutritionists measured the heights of the respondents [@data:ABS1995:MeasureUp].
+
+The values quoted are used for modelling purposes, and are essentially the population means $\mu$ and standard deviations $\sigma$. 
+
+1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you? _______
+2. Write down your own height: ________
+3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
+   Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
+   Explain what this means.
+
+```{r Ht, echo=FALSE, fig.cap="Part of the ABS report on heights of Australians", fig.align="center", out.width='85%'}
+knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
+```
+   
+4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
+   **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
+   (Hint: Draw a picture!)
+5. Using [**the normal distribution tables**](#ZTablesOnline), together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
+6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of females $18$ and over (using the **Fig.\ \@ref(fig:Ht2)**) are within what height range?
+	
+```{r Ht2, echo=FALSE, fig.cap="Part of the ABS report on heights of females Australians", fig.align="center", out.width='55%'}
+knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.png")
+```
+
+
+
+7. For this part, we want to just look at **females over $18$**; from **Fig.\ \@ref(fig:Ht2)**, for this group, the mean is $\mu = 161.4$\ cm, and the standard deviation is $\sigma = 6.7$\ cm.
+   Use this information to answer the following questions.
+
+    a. Compute the *percentage* of females $18$ and over that are *shorter* than $171$\ cm.
+    b. What are the *odds* that a female $18$ and over is *shorter* than $171$\ cm?
+    c. Compute the *percentage* of females $18$ and over that are *taller* than $171$\ cm?
+    d. What are the *odds* that a female $18$ and over is *taller* than $171$\ cm?
+    e. Compute the *percentage* of females $18$ and over that are *between* 170 and $180$\ cm?
+    f. What are the *odds* that a female $18$ and over is *between* than $170$ and $180$\ cm?
+	  
+8. For this part, use the data in **Fig.\ \@ref(fig:Ht2)**.
+   Approximately $20$% of females $18$ and over are shorter than what height?
+     
+
+
+
+## Probability {#Probability2}
+
+For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
+(**Note:** You are not asked to *compute* the probability.)
+
+1. The probability that a given UniSC student lives in Nambour.\tightlist  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(         "Classical approach.",
+      answer = "Relative frequency approach.",
+               "Subjective approach."
+      ))}`
+2. The probability that a given Nambour resident is a UniSC student.  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(         "Classical approach.",
+      answer = "Relative frequency approach.",
+               "Subjective approach."
+      ))}`
+3. The probability that Labor wins the next federal election.  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(         "Classical approach.",
+               "Relative frequency approach.",
+      answer = "Subjective approach."
+      ))}`
+4. The probability that you will throw a dart and hit the bullseye.  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(         "Classical approach.",
+      answer = "Relative frequency approach.",
+               "Subjective approach."
+      ))}`
+5. The probability that a roulette wheel spins a $33$.  
+`r if( knitr::is_html_output() ) {longmcq(
+    c(answer = "Classical approach.",
+               "Relative frequency approach.",
+               "Subjective approach."
+      ))}`
+6. Explain the difference between the meaning of the **first two** statements.
+
+
+
+
+
+## The decision-making process {#DecisionMakingProcess}
+
+
+<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q4.Rmd'}
+```
+
+
+
+
+## Random coin tosses {#RandomCardDraws}
+
+Use 
+`r if (knitr::is_html_output()){
+   '[this website at RANDOM.org](https://www.random.org/coins/?num=10&cur=60-aud.1dollar) (at the bottom of the page, keep pressing *Flip again* to repeat)'
+} else {
+   'the website https://www.random.org/coins/'
+}`
+to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinTosser)).
+`r if (knitr::is_latex_output()){
+   '(Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$ coins, and use an Australian $1 coin.)'}`
+
+
+```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
+knitr::include_graphics("Images/CoinToss.jpg")
+```
+
+
+
+Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete 
+`r if (knitr::is_html_output()){
+   'the following table:'
+} else {
+   'Table \\@ref(tab:CoinDataTable).'
+}`
+
+
+
+```{r CoinDataTable, echo=FALSE }
+
+CoinData <- array( "", 
+                   dim = c(11, 2) )
+colnames(CoinData) <- c("Proportion of heads in 10 tosses",
+                        "How many times observed")
+CoinData[, 1] <- c("0.0 (0 heads)", 
+                        "0.1 (1 head) ", 
+                        "0.2 (2 heads)", 
+                        "0.3 (3 heads)",
+                        "0.4 (4 heads)",
+                        "0.5 (5 heads)", 
+                        "0.6 (6 heads)",
+                        "0.7 (7 heads)", 
+                        "0.8 (8 heads)",
+                        "0.9 (9 heads)", 
+                        "1.0 (10 heads)"
+)
+
+
+if( knitr::is_latex_output() ) {
+   CoinData[2, 1] <- "0.1 (1 head) "
+   kable(CoinData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        # escape = FALSE, # For latex to work in \rightarrow
+        linesep = c( "\\addlinespace\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Tossing coins",
+        align = c("r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  CoinData[ 1:11, 2] <- webexercises::fitb(num=TRUE, 
+                                           tol = 0.001, 
+                                           width = 6, 
+                                           answer = seq(0, 500))
+
+  kable(CoinData,
+        format = "html",
+        align = c("r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+       caption = "Tossing coins",
+      booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+1. Use this data to create a histogram of the proportion of heads.
+   How would you describe the histogram?
+1. I did the same thing, but I repeated the process of tossing $10$ coins $400$ times.
+   My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
+   How would you describe the histogram?
+1. Sketch the theoretical *sampling distribution* of the sampling proportion.
+1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
+
+
+```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $100$ repetitions'}
+set.seed(8412739)
+ProbHeads <- rbinom(400, size = 10, prob = 0.5)/10
+barplot( table(ProbHeads),
+         space = 0,
+         las = 1,
+         xlab = "Proportion of heads",
+         ylab = "No. times observed",
+         main = "The proportion of heads in\n10 tosses of a coin",
+         col = plot.colour)
+```
+
+
+## **Optional questions** {#OptionalTW6}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers are available in Sect.\ \@ref(Lecture6Answers).)
+:::
+
+
+### **Optional**: Working with normal distributions {#NormalSOI}
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured in kilograms or seconds etc.It is just a number; in fact, it is a bit like a $z$-score.] climatological measure that is easily computed, and has been shown to be related to the weather conditions in eastern Australia  [@climate:stone:1992; @mypapers:Dunn:bootstrap:2001].
+
+The daily SOI has an approximate normal distribution, and is designed to have a mean of $0$ and a standard deviation of $10$.
+
+1. Draw a rough, labelled sketch of the theoretical distribution of the SOI values.
+2. What is the probability that the daily SOI exceeds $20$?
+3. What are the *odds* that the daily SOI exceeds $20$?
+4. What is the probability that the daily SOI is less than $-25$?
+5. What is the probability that the daily SOI is greater than $-12$?
+6. What is the probability that the daily SOI is between $-10$ and $20$?
+7. The SOI is *less than* what value about 80% of the time?
+8. The SOI is *greater* than what value about 35% of the time?
+
+
+
