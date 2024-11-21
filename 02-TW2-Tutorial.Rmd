@@ -14,7 +14,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 5 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
 * [Chapter 6 (External validity: sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
 * [Chapter 7 (Internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignInternal.html).
-* [Chapter 8 (Study design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
+* [Chapter 8 (Research design: limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
 
 
 
@@ -41,10 +41,10 @@ Consider this (qualitative) RQ: 'What factors are preventing the adoption of hou
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
 `r if (knitr::is_html_output()) '<!--'`
-  * the sample is representative of all households in the world
-  * the sample is representative of all solar technologies
-  * the sample is representative of all households in Santiago
-  * the sample is representative of all households in Chile
+   * the sample is representative of all households in the world
+   * the sample is representative of all solar technologies
+   * the sample is representative of all households in Santiago
+   * the sample is representative of all households in Chile
 `r if (knitr::is_html_output()) '-->'`
 
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method?  
@@ -88,14 +88,15 @@ A student group was studying this RQ (which is **not** appropriate for the SCI11
 The students gave the following information about their study.
 Explain **why** each of these statements is **incorrect**.
 
+1. Explain why, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
 1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
-2. "The Outcome is '*the average serum cholesterol concentration for smokers and non-smokers*'."
-3. "The study is not externally valid, as the results may not apply to all people in the world."
-4. "The response variable is *serum cholesterol*."
-5. "In this experiment, the population is '*Australians*'."
-6. "The data file will have two columns: one for smokers, and one for non-smokers."
-7. "'*Whether or not the person owns a cat*' is likely to be a confounding variable."
-8. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
+1. "The Outcome is '*the average serum cholesterol concentration for smokers and non-smokers*'."
+1. "The study is not externally valid, as the results may not apply to all people in the world."
+1. "The response variable is *serum cholesterol*."
+1. "In this experiment, the population is '*Australians*'."
+1. "The data file will have two columns: one for smokers, and one for non-smokers."
+1. "'*Whether or not the person owns a cat*' is likely to be a confounding variable."
+1. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
 
 
 
@@ -295,7 +296,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 ### **Optional**: Sampling {#SamplingParking}
 
-Suppose we needed a sample of $80$ vehicles parked at UniSC, and we wish to determine the proportion displaying P-plates.
+Suppose we needed a sample of $80$ vehicles parked at UniSC (Sippy Downs campus), and we wish to determine the proportion displaying P-plates.
 
 Determine a useful way to find a suitable representative sample.
 The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** are car parks).
@@ -332,7 +333,7 @@ if (knitr::is_latex_output()){
 <iframe src="https://usc.h5p.com/content/1290971648565695759/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect2-Q5.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/02-TerminologyDefinitions.Rmd'}
 ```
 
 
@@ -356,12 +357,11 @@ include_graphics("ArticleImages/fishoil2.jpg")
    Also determine if it is a true experiment or a quasi-experiment.  
 
    *If the study is observational*, determine if the study uses a forward direction (*cohort study*), a backward direction (case-control study), or is non-directional (cross sectional).
-
-4. Which one of the following, if any, would be a potential **lurking** variable?  Explain.
+4. Which one of the following, if any, would be a potential **lurking** variable?  
+   Explain.
     - The general health of the subject.
     - The average amount of water consumed each day by the subjects.
     - Gender.
-
 5. Is a cause-and-effect relationship reasonable? Explain.
 6. What are the limitations of the study?
 7. Identify the units of observation, and the units of analysis.

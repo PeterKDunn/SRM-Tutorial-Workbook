@@ -1,0 +1,29 @@
+Match the following **definitions** with the words below:
+
+1. The 'who' or 'what' which are observed, and for which data are collected:
+2. A study where the researcher creates differences in the explanatory variable and measures the change in the response variable:
+3. The result or effects of interest, across the population:
+4. What we 'do' to the individuals in an experiment:
+5. The question of interest to be answered by the study:
+6. The larger group of individuals that are the focus of the study:
+7. The smallest independent 'who' or 'what' about which generalisations and conclusions are made, and for which information is analysed:
+8. A study where the researcher observes difference in the explanatory variable, and notices if these are related to changes in the response: 
+
+
+Here are the **words**:
+
+
+\begin{minipage}[t]{0.3\textwidth}
+A. Observational study\\
+B. Outcome\\
+C. Units of analysis\\
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+D. Research question\\
+E. Population\\
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth}
+F. Unit of observation\\
+G. Experimental study\\
+H. Intervention\\
+\end{minipage}

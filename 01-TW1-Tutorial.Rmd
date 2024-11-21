@@ -106,7 +106,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 <iframe src="https://usc.h5p.com/content/1291014841891101839/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output())  './children/TutorialQns/Lect1-Q1.Rmd'}
+```{r, child = if (knitr::is_latex_output())  './children/TutorialQns/01-ResearchSteps.Rmd'}
 ```
 
 
@@ -151,13 +151,6 @@ As a result, the cafe owner decides to conduct a study of his customers.
 <!-- <input type="button" onload="checkEdits()" value="Save my answers" onclick="saveEdits()"/> -->
 
 <!-- <div id="update"> (NOTE: Click the button above to save your answer)</div> -->
-
-
-
-
-
-
-
 
 
 
@@ -230,7 +223,7 @@ if( knitr::is_html_output() ) {
 <iframe src="https://usc.h5p.com/content/1291014806925066159/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q4.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-Terminology-Phones.Rmd'}
 ```
 
 
@@ -387,7 +380,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q8.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-IdentifyStudyTypes.Rmd'}
 ```
 
 
@@ -442,7 +435,7 @@ What terms might need defining for each RQ?
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q10.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-TerminologyLead.Rmd'}
 ```
 
 
@@ -456,7 +449,7 @@ What terms might need defining for each RQ?
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q11.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-UnitsIngots.Rmd'}
 ```
 
 
@@ -467,7 +460,7 @@ What terms might need defining for each RQ?
 <iframe src="https://usc.h5p.com/content/1290971662517623069/embed" width="1088" height="480" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect1-Q12.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-UnitsFish.Rmd'}
 ```
 
 

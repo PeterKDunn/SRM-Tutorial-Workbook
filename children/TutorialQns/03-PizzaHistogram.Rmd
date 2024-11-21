@@ -1,0 +1,25 @@
+In 2011, *Eagle Boys' Pizza* ran a campaign that claimed (among other claims) that Eagle Boys' pizzas were "Real size $12$-inch large pizzas" in an effort to out-market *Domino's Pizza*.
+
+Eagle Boys' made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
+A graphical summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaHist).
+
+
+Describe the histogram using centre, variation, shape and other features.
+What do you learn from the graph?
+
+
+```{r PizzaHist, echo=FALSE, fig.cap="A histogram of the diameter of Eagle Boys' 12-inch pizzas", fig.width = 4.5, fig.height = 3, fig.align="center", out.width='50%'}
+PS <- read.csv("../../Data/PizzaSize.csv")
+
+hist(PS$DiameterInches[PS$Store == "EagleBoys"],
+     breaks = seq(10, 12.5, 
+                  by = 0.5/4),
+     xlab = "Diameter (in inches)",
+     ylab = "Frequency",
+     main = "Histogram of pizza diameters\nfor Eagle Boys' pizzas",
+     xlim = c(10, 12.5),
+     ylim = c(0, 30),
+     col = plot.colour, 
+     las = 1)
+```
+

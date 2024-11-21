@@ -1,0 +1,14 @@
+
+To understand fish growth and movement, and hence help with fish restoration, fish are sometimes marked with a fluorescent marker.
+
+Different markers can be used, and one research study [@data:Carty2013:Trout] examined the use of TM200 treatment for rainbow trout, to determine its effect on fluorescence marks on the vertebrae of the fish.
+
+In the description of the experimental design, the authors' study design required them to:
+
+
+> ... allocate $180$ fish from the reference population to nine tanks ($6$ treated tanks and $3$ control tanks; $20$ fish/tank) and to assign a treatment condition (TM200 treated versus nontreated control) to each tank...
+>
+> --- @data:Carty2013:Trout, p. 35
+
+1. Identify the *units of analysis* in this experiment.
+2. Identify, with justification, the *type* of experiment.

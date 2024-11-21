@@ -13,11 +13,14 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 9 (Procedures for collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
-* [Chapter 10 (Classifying data)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
+* [Chapter 9 (Collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
+* [Chapter 10 (Classifying data and variables)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
 * [Chapter 11 (Summarising quantitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQuantData.html).
 
 
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You should bring your calculator to tutorials from this week onwards.
+:::
 
 `r if( knitr::is_latex_output() ){'<!--'}`
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -53,7 +56,7 @@ For example, try:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PiJ9B7L7V2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-\pagebreak
+
 
 ## Quick revision {#QuickRevision-Tutorial3}
 
@@ -73,6 +76,27 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
   'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
 }
 `
+
+1. How would you *classify* the variable `Age`? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "Quantitative: discrete", 
+		                  answer = "Quantitative: continuous",
+                      "Qualitative: nominal",
+                      "Qualitative: ordinal") )}`
+1. How would you *classify* the variable `Gender`? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "Quantitative: discrete", 
+		                  "Quantitative: continuous",
+                      answer = "Qualitative: nominal",
+                      "Qualitative: ordinal") )}`
+1. How would you *classify* the variable `BMI`? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "Quantitative: discrete", 
+		                  answer = "Quantitative: continuous",
+                      "Qualitative: nominal",
+                      "Qualitative: ordinal") )}`
+:::
+
 
 ```{r OSAKable, echo=FALSE}
 useOSA <- OSA[, c(2:6)]
@@ -107,25 +131,6 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. How would you *classify* the variable `Age`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  answer = "Quantitative: continuous",
-                      "Qualitative: nominal",
-                      "Qualitative: ordinal") )}`
-1. How would you *classify* the variable `Gender`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  "Quantitative: continuous",
-                      answer = "Qualitative: nominal",
-                      "Qualitative: ordinal") )}`
-1. How would you *classify* the variable `BMI`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  answer = "Quantitative: continuous",
-                      "Qualitative: nominal",
-                      "Qualitative: ordinal") )}`
-:::
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
@@ -137,14 +142,6 @@ if( knitr::is_html_output() ) {
 :::
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
-
-
-
-<!-- `r if (knitr::is_latex_output()) '<!--'` -->
-<!-- <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265011&sec_digit=289849171&embeded_digit=674287922' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR> -->
-<!-- <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A> -->
-<!-- `r if (knitr::is_latex_output()) '-->'` -->
-
 
 
 
@@ -160,7 +157,7 @@ PT <- polythene$Polythene
 PT <- PT[ sample( 1:length(PT), len) ]
 ```
 
-The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by `r len` UK cosmetic companies [@gilchrist2000regression].
+The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by eight UK cosmetic companies [@gilchrist2000regression].
 
 1. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
 2. Without using a calculator, find the **median** of the data.
@@ -196,7 +193,8 @@ if( knitr::is_html_output() ) {
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-In practice, data are almost *never* a population.
+In practice, data are almost *never* a population.  
+
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
 If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
@@ -209,7 +207,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 <iframe src="https://usc.h5p.com/content/1290996647109217689/embed" width="1088" height="909" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q3.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-CentreVariation.Rmd'}
 ```
 
 
@@ -223,7 +221,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q1.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-HistogramWhereUsed.Rmd'}
 ```
 
 
@@ -324,19 +322,14 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 
 
-
-
-
-
-
-
 ## **Drills**: computational exercises {#Chapter4Drills}
 
 *(Answers are available in Sect. \@ref(Lecture4Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.  
+
 If you need help, please **ask**.
 :::
 
@@ -571,7 +564,7 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q8.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-PizzaHistogram.Rmd'}
 ```
 
 

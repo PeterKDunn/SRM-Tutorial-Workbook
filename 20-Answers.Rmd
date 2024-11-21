@@ -216,18 +216,19 @@ The type of experiment: true experiment.
 
 ### Answers for Sect.\ \@ref(StudyDesign) {.unlisted .unnumbered}
 
+1. Read the *Guidelines* carefully to find out!
 1. The study is *observational*, but because the researchers cannot determine the C (whether the person is a smoker or not).
    The critical element here is C, *not* O.
-2. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
-3. *External validity* only refers to whether the *sample* represents the given target *population*, which is *Australians*.
+1. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
+1. *External validity* only refers to whether the *sample* represents the given target *population*, which is *Australians*.
    Whether the results apply for the entire world is irrelevant.
-4. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
+1. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
    What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of serum cholesterol".
-5. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
-6. In the data file, each row is a unit of analysis and each column is a variable. 
+1. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
+1. In the data file, each row is a unit of analysis and each column is a variable. 
    So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
-7. A confounding variable has to be related to *both* the response and explanatory variables.
-8. The *observer effect* is about how the *researchers* might respond, *not* the individuals under study.
+1. A confounding variable has to be related to *both* the response and explanatory variables.
+1. The *observer effect* is about how the *researchers* might respond, *not* the individuals under study.
 
 
 
