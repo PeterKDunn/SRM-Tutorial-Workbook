@@ -193,7 +193,7 @@ if( knitr::is_html_output() ) {
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-In practice, data are almost *never* a population.  
+In practice, data are almost *never* a population.  \\ 
 
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
 If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
@@ -305,7 +305,7 @@ Your tutor will have information.
 ## Interpreting graphs {#InterpretingGraphs}
 
 A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, body length.
-A histogram of the body length of $90$ female seals is shown in Fig.\ \@ref(fig:Bryden1984Fig3b).
+A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig:Bryden1984Fig3b).
 
 1. Describe this histogram in words (average; variation; shape; outliers).
 2. What alternative graphical displays could be used to display these data?
@@ -332,6 +332,7 @@ These drill questions are more about practising the underlying *mathematics* rat
 
 If you need help, please **ask**.
 :::
+
 
 1. The data in Table\ \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
@@ -458,7 +459,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 ### **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
 
 Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$ volt batteries to reduce their voltage to $1.0$ volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$\ volt batteries to reduce their voltage to $1.0$\ volts under standard testing conditions.
 
 The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTable).
 
@@ -524,7 +525,7 @@ if( knitr::is_html_output() ) {
 10. What advice would you give about buying batteries based on these data?
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-The cost of the batteries, at the time of publication (05 September 2012), was: 
+The cost of the batteries, at the time of publication (05 September, 2012), was: 
   
 * *Ultracell*: A four-pack cost $2.49 from ALDI online
 * *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*; the normal price was $8.01 for the four-pack.
@@ -538,7 +539,7 @@ The cost of the batteries, at the time of publication (05 September 2012), was:
 
 ### **Optional**: Interpreting histograms {#InterpretHistogram}
 
-To assess various lung diseases, many methods are available (including using a spirometer and the 6-minute walk test).
+To assess various lung diseases, many methods are available (including using a spirometer and the $6$-minute walk test).
 The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
 (A high FAS value means more fatigue [@data:Michielsen2003:FAS].)
 

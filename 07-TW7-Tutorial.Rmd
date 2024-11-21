@@ -4,19 +4,17 @@
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-* CIs for one proportion.
+* Confidence intervals for one proportion.
 * Confidence intervals for one mean.
 * Confidence intervals for mean differences (paired means).
 :::
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 22 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
-* [Chapter 23 (Confidence intervals for one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
-* [Chapter 24 (Confidence intervals for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
-* [Chapter 25 (More about forming CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
-* [Chapter 26 (Confidence intervals for mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/PairedCI.html).
-
+* [Chapter\ 21 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
+* [Chapter\ 22 (Confidence intervals: one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
+* [Chapter\ 23 (Confidence intervals: one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
+* [Chapter\ 24 (More details about CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
 
 
 
@@ -65,21 +63,76 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 
 
 
+## Concepts {#ConceptsMatches}
 
-## Standard error for proportions {#SEproportions}
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect6-Q3.Rmd'}
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+Claire and Jake were wondering about the mean number of matches in a box.
+The boxes contain this statement:
+
+> An average of $45$ matches per box.
+
+They purchased a carton containing $25$\ boxes of matches, and Jake counted the number of matches in *one* of those $25$\ boxes.
+There was $44$\ matches.
+
+'Oh wow.  Just wow.' said Jake.
+'They lie.  There's only $44$\ matches in this box.'
+
+
+1. What is Jake's misunderstanding? \tightlist
+2. Then, they counted the number of matches in *each* of the twenty-five boxes.  
+   
+   Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
+   
+   Jake notes that the mean is $44.9$\ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
+   How would you respond?
+3. 'Wow!' said Jake.
+   'The claim is $45$\ matches per box on average, but the mean really is $44.9$!
+   They're liars!  Liar, liar, pants on...'  
+   
+   What is Jake's misunderstanding?
+4. What two broad reasons could explain why the sample mean is *not* $45$?
+5. 'Come on, Jake,' said Claire.
+   'As if the mean will be *exactly* $45$ in a sample every single time.
+   Let's work out the confidence interval.'  
+   
+   Why does Claire think a CI is needed?
+   What will it tell them?
+6. What is an approximate $95$% confidence interval for the mean for Claire's sample?
+7. 'Aha---I told you so!  They *are* absolutely lying!
+   Your confidence interval doesn't even include their mean of $45$!' said Jake.
+   'The manufacturer *must* be lying!'  
+   
+   Is Jake correct?
+   Why or why not?
+   What does the CI *mean*?
+8. In this scenario, what does\ $\bar{x}$ represent?
+   What is the *value* of\ $\bar{x}$?
+9. In this scenario, what does\ $\mu$ represent?
+   What is the *value* of\ $\mu$?
+
+
+
+
+## Standard error for a proportion {#SEproportions}
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/07-StdErrorProportion.Rmd'}
 ```
 
 
 <iframe src="https://usc.h5p.com/content/1291039013241820579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
-
 
 
 
@@ -95,22 +148,22 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 ```
 
 
-1. For the **BVM sample**, $123$ out of the $404$ patients survived.
+1. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute the sample *odds* of a patient who survived.
-2. For the **BVM sample**, $123$ out of the $404$ patients survived.
+2. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute an estimate of the population *proportion* of patients who survive.
 3. Explain the difference between the meaning of the two above calculations.
-4. In another sample of $404$ patients who received the BVM treatment, would we expect to find *exactly* $123$ surviving?
+4. In another sample of $404$\ patients who received the BVM treatment, would we expect to find *exactly* $123$ surviving?
    Why or why not?
-5. Compute the *standard error*, which indicates the sampling variability in the estimate of $p$.
+5. Compute the *standard error*, which indicates the sampling variability in the estimate of\ $p$.
    Explain what is meant by the term 'sampling variation' in this context.
-6. Every time a new sample is chosen, the sample will likely yield a different value for $\hat{p}$.
-   Sketch the distribution that shows how much the value of $\hat{p}$ is likely to change from one sample to the next.
+6. Every time a new sample is chosen, the sample will likely yield a different value for\ $\hat{p}$.
+   Sketch the distribution that shows how much the value of\ $\hat{p}$ is likely to change from one sample to the next.
 7. Compute an approximate $95$% confidence interval for the population proportion based on the sample proportion.
 8. Write a sentence communicating this confidence interval.
 9. Confirm that the conditions necessary for this calculation to be statistically valid are met.
 10. If the researchers wished to estimate the true survival proportion to within give-or-take $0.01$ with $95$% confidence, would the sample size need to be *larger* or *smaller*?
-11. For the ETI sample, $110$ out of $416$ patients survived.
+11. For the ETI sample, $110$ out of $416$\ patients survived.
     Use this information to construct a two-way table of treatment against survival.
 12. Select a graphical summary that could be used to display the information.
     Sketch this display.
@@ -151,21 +204,21 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 
 
 
-1. What do $\mu$ and $\bar{x}$ represent in this context? \tightlist 
-2. Write down the *values* of $\mu$ and $\bar{x}$.
-3. Write down the *values* of $\sigma$ and $s$.
+1. What do\ $\mu$ and\ $\bar{x}$ represent in this context? \tightlist 
+2. Write down the *values* of\ $\mu$ and\ $\bar{x}$.
+3. Write down the *values* of\ $\sigma$ and\ $s$.
 4. Compute the value of the standard error of the mean.
 5. Explain the difference in *meaning* between $s$ and $\text{s.e.}(\bar{x})$ here.
-6. If someone else takes a sample of $125$ Eagle Boy's pizzas, will the sample mean be $11.486$ inches again (as it is in this sample)?
+6. If someone else takes a sample of $125$\ Eagle Boy's pizzas, will the sample mean be $11.486$\ inches again (as it is in this sample)?
    Why or why not?
-7. Draw a picture of the approximate sampling distribution for $\bar{x}$.
+7. Draw a picture of the approximate sampling distribution for\ $\bar{x}$.
 8. Compute an approximate $95$% confidence interval for the mean pizza diameter.
-9. Write a statement that communicates your $95$% CI for the mean pizza diameter.
+9. Write a statement that communicates your $95$%\ CI for the mean pizza diameter.
 10. What are the **statistical** validity conditions?
 11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
     Is it necessary to use Fig.\ \@ref(fig:PizzaHistoCI)? Explain.
     
-    - The sample size is greater than about $25$.
+    - The sample size is greater than about\ $25$.
     - The population has a normal distribution.
     - The population standard deviation is known.
     - The sample has a normal distribution.
@@ -395,62 +448,6 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
 
 
 
-## CIs for mean differences (paired data) {#CIImplant}
-
-
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "35%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
-
-A study [@data:Guirao2017:amputees] examined the difference between 2-minute walk times (2MWT) for $10$ patients before *and* after receiving a prosthetic implant.
-(The 2MWT measures how far participants can walk in two minutes.)
-
-The 2MWT for ten amputees *with* and *without* an implant are shown in Fig.\ \@ref(fig:Guirao2MWT).
-	
-```{r Guirao2MWT, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
-knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
-```
-
-1. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
-2. What do $\mu_d$ and $\bar{d}$ represent in this context?
-3. Explain why these data should be analysed as *paired* data.
-4. Compute the *changes* in 2MWT for each patient.
-5. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
-6. Using the statistics mode on your calculator, compute the sample mean difference $\bar{d}$ and the sample standard deviation of the differences $s_d$.
-7. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
-   Explain what this tells us in this context.
-8. If another sample of ten subjects were studied, would the same sample mean difference $\bar{d}$ be computed?
-   How much variation would be expected in the sample mean differences found from different samples?
-9. Draw the approximate sampling distribution of $\bar{d}$.
-10. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
-11. Construct a one-sentence statement that communicates a $95$% CI for the population change in 2MWT.
-12. What conditions must be met for this CI to be statistically valid?
-13. Is it reasonable to assume the CI is statistically valid? 
-    Construct a stem-and-leaf plot to help.
-14. Do you think the population 2MWT changes because of the prosthetic, on average?
-    Explain and discuss.
-    
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458370&sec_digit=963714428&embeded_digit=2120791150' style='width:100%; height:500px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-    
-<!-- Admin link: -->
-<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458370&sec_digit=963714428&edit_code=725207259 -->
-
-
-	
-	
-	
-## CI for the ruler-drop {#PlanStudy7}
-
-Your tutor *may* decide to do this activity.
-
-
 
 
 ## **Drills**: Computational exercises {#Chapter6Drills}
@@ -464,11 +461,10 @@ These drill questions are more about practising the underlying *mathematics* rat
 If you need help, please **ask**.
 :::
 
-The *standard error* for a sample proportion is calculated as 
-
-\[
+The *standard error* for a sample proportion is calculated as
+$$
    \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
-\]
+$$
 The standard error quantifies how much the sample proportion is likely to vary from sample to sample.
 
 Compute the standard error in these situations:
@@ -488,6 +484,19 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
+### **Optional**: General ideas {#GeneralIdeas2}
+
+
+<iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/07-WhichTermsWhen.Rmd'}
+```
+
+
+
+
+
 ### **Optional**: CI for one mean {#RoomWidthCI}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
@@ -497,13 +506,13 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$ m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
 
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
 The data are given in Table\ \@ref(tab:Guesses).  
    
-The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi) and Fig. \@ref(fig:LengthsHallOutput) (SPSS).
+The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi) and Fig.\ \@ref(fig:LengthsHallOutput) (SPSS).
 
 
 ```{r Guesses, echo=FALSE}
@@ -532,9 +541,9 @@ if( knitr::is_html_output() ) {
 ```
 
 1. What is the value of $\bar{x}$?
-2. What are the values of $s$ and $\text{s.e.}(\bar{x})$? 
+2. What are the values of\ $s$ and $\text{s.e.}(\bar{x})$? 
    Explain the difference in the meaning of the two terms.
-3. Write down the $95$% CI for the population estimate (see Fig.\
+3. Write down the $95$%\ CI for the population estimate (see Fig.\
 \@ref(fig:LengthsHallOutputjamovi1) (jamovi) or Fig.\ \@ref(fig:LengthsHallOutput) (SPSS)).
 4. What conditions must be met for this test to be statistically valid?
 5. Is it reasonable to assume the statistical validity conditions are satisfied? 
@@ -598,174 +607,8 @@ Sample data were collected from
 5. Confirm that the conditions necessary for this calculation to be statistically valid are met.
 6. If the researchers wished to estimate the true proportion of boys that mature late to within give-or-take $0.02$ with $95$% confidence, would a larger or smaller sample be needed?
    Explain.
-7. If the researchers wished to estimate the proportion of boys maturing late within give-or-take $0.02$ with $95$% confidence, what size sample would be needed?
+7. If the researchers wished to estimate the proportion of boys maturing late within give-or-take\ $0.02$ with $95$% confidence, what size sample would be needed?
    
-
-
-### **Optional**: CI for mean differences (paired data) {#CIPairedWaves}
-
-Wave power has been considered as a [source of energy since 1890](http://www.outsidelands.org/wave-tidal3.php), but the engineering necessary to successfully and practically harness this energy is complex. 
-
-To understand one method of harnessing this energy, one study [@data:hand:handbook] examined the bending stress (in Newton--metres) in part of a device used to generate electricity from wave power.
-
-Two different mooring types were compared (Table\ \@ref(tab:mooringCI)) in $18$ different sea states.
-
-
-```{r echo=FALSE}
-inTableWebex <- function(x){
-  # Fixes the output of  webex  when used in a table.
-  # It appear to replace the leading and trailing <  and  >
-  # with the html codes:  &lt;  and  &gt;
-  # This function restores them to  <  and  >
- x <- sub("&lt;", "<", x)
- x <- sub("&gt;", ">", x)
- x
-}
-```
-
-```{r mooringCI, echo=FALSE}
-WaveTab <- array( dim = c(18, 3) )
-
-WaveTab[, 1] <- c(2.23,  2.55,  7.99,  4.09,  9.62,  1.59,  8.98,  0.82, 10.83,  1.54, 10.75,  5.79,  5.91,  5.79,  5.50,  9.96,  1.92,  7.38)
-WaveTab[, 2] <- c(1.82,  2.42,  8.26,  3.46,  9.77,  1.40,  8.88,  0.87, 11.20,  1.33, 10.32,  5.87,  6.44,  5.87,  5.30,  9.82,  1.69,  7.41)
-
-WaveTab[, 3] <- round(WaveTab[, 1] - WaveTab[, 2], 2)
-
-
-colnames(WaveTab) <- c("Method 1",
-                       "Method 2",
-                       "Differences")
-  
-if( knitr::is_html_output() ) {
-  WaveTab[15, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[15, 3]))
-  WaveTab[16, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[16, 3]))
-  WaveTab[17, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[17, 3]))
-  WaveTab[18, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[18, 3]))
-} else {
-  WaveTab[c(15:18), 3 ] <- "\\_\\_\\_\\_"
-}
-
-if( knitr::is_latex_output() ) {
-  kable(WaveTab,
-      format = "latex",
-      booktabs = TRUE,
-      escape = FALSE,
-      align = c("r", "r", "r"),
-      caption = "The bending stress using two different mooring methods") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(WaveTab,
-      format = "html",
-      booktabs = TRUE,
-      escape = FALSE,
-      align = c("r", "r", "r"),
-      caption = "The bending stress using two different mooring methods") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-	
-1. Explain *why* these data should be analysed as mean differences.
-2. Compute the sample differences (most have been done for you).
-3. Using the statistics mode on your calculator, compute the sample mean and the sample standard deviation of these differences.
-4. Compute the standard error of the mean difference. 
-   What does this value mean?
-5. Compute an approximate $95$% CI for the population mean difference in two methods.
-6. What conditions must be met for this CI to be statistically valid?
-7. Is it reasonable to assume the CI is statistically valid?  Draw a stem-and-leaf plot to check.
-8. Do you think the mooring types are really different? Explain.
-		
-
-
-
-
-
-### **Optional**: CI for mean differences (paired data) {#CIPairedRunners}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-	
-After a number of runners collapsed near the finish of the Tyneside annual Great North Run, researchers decided to study the role of $\beta$ endorphins as a factor in the collapses.
-($\beta$ endorphins are a peptide which suppress pain.) 
-
-A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: how much do the concentrations change, on average?
-
-The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
-Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table\ \@ref(tab:RunnerTab).)
-
-```{r RunnerTab, echo=FALSE}
-RunnerTab <- array( dim = c(11, 3))
-
-RunnerTab[, 1] <- c( 4.3,  4.6,  5.2,  5.2,  6.6,  7.2,  8.4,  9.0, 10.4, 14.0, 17.8)
-RunnerTab[, 2] <- c(29.6, 25.1, 15.5, 29.6, 24.1, 37.8, 20.1, 21.9, 14.2, 34.6, 46.2)
-RunnerTab[, 3] <- RunnerTab[, 2] - RunnerTab[, 1]
-
-colnames(RunnerTab) <- c("Before race", 
-                         "After race",
-                         "Difference")
-if( knitr::is_latex_output() ) {
-  kable(RunnerTab,
-      format = "latex",
-      booktabs = TRUE,
-      linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(RunnerTab,
-      format = "html",
-      booktabs = TRUE,
-      linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-The 'usual' value for $\beta$ endorphines is usually less than about 11&nbsp;pmol/litre. 
-      
-1. What do $\mu_d$ and $\bar{d}$ represent in this context?
-2. Explain why these data should be analysed as mean differences.
-3. Compute the changes in plasma $\beta$ endorphin concentration during the run (i.e. the 'differences').
-   (Although it doesn't really matter, why does it probably makes more sense to compute the *after* values minus the *before* values?)
-4. Using the statistics mode on your calculator, compute the sample mean difference $\bar{d}$ and the sample standard deviation of the differences.
-5. Compute the standard error of the mean difference. 
-   Explain what this means in this context.
-6. If another sample of eleven runners were studied, would the same sample mean difference be computed?
-   How much variation would be expected in the sample means found from different samples?
-7. Compute an approximate $95$% confidence interval for the population mean difference in plasma $\beta$ concentrations.
-8. Construct a one-sentence statement that communicates a $95$% CI for the population difference in plasma $\beta$ concentrations.
-9. What conditions must be met for this CI to be statistically valid?
-10. Is it reasonable to assume the CI is statistically valid? 
-    Construct a stem-and-leaf plot to help.
-11. Do you think the population plasma $\beta$ concentration changes during the race, on average?
-    Explain.
-12. Suppose the researchers wished to estimate the change in plasma $\beta$ endorphin concentrations to within $2.5$\ pmol/litre, with $95$% confidence.
-    What size sample would be necessary?
-
-
 
 
 

@@ -119,7 +119,6 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 </div>
 
 
-
 A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
 As a result, the cafe owner decides to conduct a study of his customers.
 
@@ -267,7 +266,8 @@ Consider the following scenario:
 Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
 1. Nim needs to determine a *population* to study.
-   Which of these would be a useful and practical population to use? Or is there a different population that is 'better' to use?  
+   Which of these would be a useful and practical population to use? 
+   Or is there a different population that is 'better' to use?  
    Explain your reasoning.
     a. All university students.
     b. Female university students about to do an exam.
@@ -291,10 +291,6 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 9. List any necessary operational and conceptual definitions. (You do not need to *give* the definitions.)
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
 
-    
-    
-    
-    
 
 
 ## Identifying units of analysis and units of observation {#Units}
@@ -313,7 +309,7 @@ Bamboo is a fast-growing, strong grass often used for green building practices.
 A small research study explored the hardness of bamboo when used as flooring material.
 
 The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table \@ref(tab:JankaBoards)).
+Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
 ```{r JankaBoards, echo=FALSE}
@@ -354,14 +350,10 @@ if( knitr::is_html_output() ) {
    Explain your answer.
 2. How many units of analysis are there?
 3. How many units of observation are there?
-4. Suppose the measurements were all taken from $10$ *different* places on the *same* board (rather than from five different boards).
+4. Suppose the measurements were all taken from $10$\ *different* places on the *same* board (rather than from five different boards).
    How many units of analysis are there now?
    Explain your answer.
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
-
-
-
-
 
 
 
@@ -406,8 +398,6 @@ to help you understand some of the words used in this week's content.
 ```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
 ```
-
-
 
 
 

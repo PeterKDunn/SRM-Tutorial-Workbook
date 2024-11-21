@@ -3,205 +3,267 @@
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-* Tests for independent sample means.
 * Tests for ORs.
+* Estimating sample sizes for finding CIs.
 :::
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 34 (Tests for the means of two independent groups)](https://bookdown.org/pkaldunn/SRM-Textbook/TestTwoMeans.html).
-* [Chapter 35 (Tests for comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/TestsOddsRatio.html).
-* [Chapter 36 (Selecting a hypothesis test)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html).
+* Chapter\ 31 (CIs and tests: comparing two odds or proportions)
+* Chapter\ 32 (Finding sample sizes for CIs)
+* Chapter\ 34 (Selecting an analysis)
+
+Take careful note of which chapters are covered in this tutorial!
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-Something from this week's content **will** be needed for your Task 2B.
+Something from this week's content may be needed for your Task\ 2B.
 :::
 
 
 
+   
+## CI for odds ratios {#OddsSoftware}
 
-## Quick revision {#QuickRevision-Tutorial10}
+*(This question continues Question \@ref(HMMaturing).)*
 
-
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
-:::
-
-::: {.webex-check .webex-box}
-A study compared the arrivals-on-scene time for two groups of paramedics [@tuttle2018paramedic]:
-
-* Those with fewer than $15$ out-of-hospital cardiac arrest (OHCA) resuscitations in the past five years (the *inexperienced* group, IE), and 
-* Those paramedics with 15 OHCAs or greater (the *experienced* group, E).
-
-The researchers wanted to see if there was a *difference* in the mean time from scene arrival to starting the first advanced airway procedure for the two groups.
-The mean time from scene arrival to starting the first advanced airway procedure was $10.05$\ m for the inexperienced group (IE), and $10.21$\ m for the experienced group (E).
-
-1. The *null* hypothesis is $H_0$: $\mu_{IE} = \mu_{E}$. \tightlist 
-   True or false?  
-`r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. The *alternative* hypothesis is $H_0$: $\mu_{E} < \mu_{IE}$. 
-   True or false?  
-`r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. Since the two sample means are different, we reject the null hypothesis. 
-   True or false?  
-`r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-:::
-
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
-1. **FALSE**. The hypothesis is about a population parameter ($\mu$), which is good.  
-   But the actual question is "to see if there was a **difference** in the mean time..." which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
-1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
-   We don't know *which* one of these reasons is the reason here.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265033&sec_digit=346354668&embeded_digit=151504436' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-
-
-
-
-## Tests for two means {#HT-TwoMeans-A}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
 `r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "35%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/pexels-alexas-fotos-2189599.jpg")
+```{r, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/thomas-park-qnFFfsrxzIk-unsplash.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-(This continues from Sect. \@ref(CIRatLifetimes).)
 
-Researchers were interested in the impact of diet on the lifetime of rats:
 
-> For rats, is the mean lifetime *shorter* for rats on a *free-choice* diet compared to rats on a *healthy, restricted* diet?
+The timing of pubertal maturation can vary, which can have impacts upon behaviour.
+A large study [@data:duncan:maturity] studied 'the relationships between maturational timing and body image, school behavior, and deviance.'
 
-A study [@data:Berger1988:RatsData] compared the total lifetime of rats on restricted ($n = 106$ rats) free-eating diets ($n = 89$ rats).
+Sample data were collected from 
 
-1. Explain why these are two *independent* samples, and not *paired*.
-2. Write down the hypotheses being tested. 
-   Is this a one- or a two-tailed test? Explain.
-3. Explain what the 'standard error of the difference' would mean here.
-4. What does the error bar chart in Fig.\ \@ref(fig:SPSSOutputErrorBar) tell us?
-5. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
-6. Write down the $t$-score and the appropriate $P$-value, using the output in Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1) (jamovi) or Fig.\ \@ref(fig:RatLifetimesOutputHT) (SPSS).
-7. Calculate the $t$-score (using the standard error as given in the output), and show it is the same value as given in the output.
-8. How are the differences defined? 
-   What do these *mean*?
+> ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
+> Data were collected on... adolescents' physical and psychological status...
+>
+> --- @data:duncan:maturity
 
-```{r SPSSOutputErrorBar, echo=FALSE, fig.cap="Error bar chart for the rat lifetime example", fig.align="center", out.width="50%"}
-knitr::include_graphics( "SoftwareImages/RatLivesErrorBar.png" )
+The researchers asked the RQ;
+
+> For US children, is the odds of a boy maturing late the *same* as the odds of a girl maturing late?
+
+
+Part of the data are shown entered into jamovi and SPSS (Fig.\ \@ref(fig:MaturationData-jamova-SPSS))
+
+
+```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi (left) and SPSS (right)", fig.align="center", out.width='33%'}
+knitr::include_graphics( c("SoftwareImages/BoysMatureData-jamovi.png",
+                           "images/SPACER.png",
+                           "SoftwareImages/BoysMatureData-SPSS.png") )
 ```
 
-```{r Berger1988SummaryHTjamovi1, echo=FALSE, fig.cap="The jamovi output summarising the rat lifetimes data", fig.align="center", fig.align="center", out.width="100%"}
-knitr::include_graphics("SoftwareImages/RatLivesOutput-jamovi.png")
+
+
+
+
+1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.  
+   For the girls, $336$ of the $2\,664$ matured late.
+   Use this information to construct a two-way table of sex against maturation time (Table\ \@ref(tab:MaturationData)).
+   
+```{r echo=FALSE, MaturationData}
+MaturationData <- array( "", dim = c(3, 3) )
+colnames(MaturationData) <- c("Matured late", 
+                              "Did not mature late", 
+                              "Total")
+rownames(MaturationData) <- c("Males", 
+                              "Females", 
+                              "Total")
+
+MaturationData[3,3] <- 2864 + 2664
+MaturationData[1,1] <- ""
+   
+if( knitr::is_latex_output() ) {
+   kable(MaturationData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        # escape = FALSE, # For latex to work in \rightarrow
+        linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Maturation and gender",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  MaturationData[1,3] <- webexercises::fitb(num=TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 2864 )
+  MaturationData[2,3] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 2664 )
+  MaturationData[3,1] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 352+336 )
+  MaturationData[3,2] <- webexercises::fitb(num=TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = (2864 - 352) + (2664 - 336) )
+
+  MaturationData[1,1] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 352)
+  MaturationData[2,1] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 336)
+  MaturationData[1,2] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 2864 - 352)
+  MaturationData[2,2] <- webexercises::fitb(num  =TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = 2664 - 336)
+  
+  kable(MaturationData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+       caption = "Maturation and gender",
+      booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
 ```
 
-
-```{r RatLifetimesOutputHT, echo=FALSE, fig.cap="The SPSS output summarising the rat lifetimes data", fig.align="center", fig.align="center", out.width="90%"}
-knitr::include_graphics("SoftwareImages/RatLivesOutput.png")
+2. What graphical summary could be used to display the information?
+   Sketch this display.
+3. Among the boys, compute the *odds* of maturing late.
+   Interpret this value.
+4. Among the girls, compute the *odds* of maturing late.
+   Interpret this value.
+5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
+   Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi); Fig.\ \@ref(fig:BoysMatureSPSS)).
+  
+```{r BoysMaturejamovi, echo=FALSE, fig.cap="The jamovi output from the maturation study", fig.align="center", out.width="50%"}
+knitr::include_graphics( "SoftwareImages/BoysMatureOdds-jamovi.png")
+```
+```{r BoysMatureSPSS, echo=FALSE, fig.cap="The SPSS output from the maturation study", fig.align="center", out.width="65%"}
+knitr::include_graphics( "SoftwareImages/BoysMatureOdds.png")
 ```
 
-8. Make a conclusion, in context.
-9. What conditions are necessary for the test to be statistically valid?
-10. Is it reasonable to assume these conditions are satisfied?  
-    (You may, or may not, need to refer to Fig. \@ref(fig:SPSSOutputBoxplotsCI).)
-11. What if all these rats only came from only $20$ litters?
+6. What is the **parameter** of interest?
+7. Write down the OR and the $95$%\ CI for the OR from the jamovi or SPSS output. 
+   What does it mean?
+8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
+9. Are boys generally more likely to mature later than girls? 
+   `r if (knitr::is_html_output()) '**Vote below.**'`  
+   Justify your answer.
+
+
+
+```{r echo=FALSE, MaturationSummary}
+MaturationSumm <- array( "", 
+                         dim = c(3, 3) )
+colnames(MaturationSumm) <- c("Percentage maturing late", 
+                              "Odds  maturing late", 
+                              "Sample size")
+rownames(MaturationSumm) <- c("Males", 
+                              "Females", 
+                              "Odds ratio")
+
+MaturationSumm[3,3] <- "626"
+   
+if( knitr::is_latex_output() ) {
+   kable(MaturationSumm,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption = "Maturation and gender: Numerical summary",
+        align=c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 10) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  MaturationSumm[3,1] <- ""
+  MaturationSumm[3,3] <- ""
+  
+  MaturationSumm[1,3] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.1, 
+                                            width = 6, 
+                                            answer = 2864 )
+  MaturationSumm[2,3] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.1, 
+                                            width = 6, 
+                                            answer = 2664 )
+  
+#  MaturationSumm[3,1] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=47 )
+#  MaturationSumm[3,2] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
+
+  MaturationSumm[1,1] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.1, 
+                                            width = 6, 
+                                            answer = round(352 / 2864 * 100, 1) )
+  MaturationSumm[2,1] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.1, 
+                                            width = 6, 
+                                            answer = round(336 / 2664 * 100, 1) )
+
+  MaturationSumm[1,2] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = round(352 / 2512, 3) )
+  MaturationSumm[2,2] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.001, 
+                                            width = 6, 
+                                            answer = round(336 / 2328, 3) )
+
+  MaturationSumm[3,2] <- webexercises::fitb(num = TRUE, 
+                                            tol = 0.005, 
+                                            width = 6, 
+                                            answer = round( (352 / 2512) / (336 / 2328), 3) )
+
+  kable(MaturationSumm,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Maturation and gender: Numerical summary (Enter percentages to one decimal place. Enter odds and odds ratio to three decimal places)",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
 
 `r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458373&sec_digit=1517251076&embeded_digit=7616543' style='width:100%; height:500px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458372&sec_digit=1721642515&embeded_digit=1306731425' style='width:100%; height:425px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 <!-- Admin link: -->
-<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458373&sec_digit=1517251076&edit_code=840817696 -->
-
-
-
-
-
-
-## Matching RQs and hypotheses {#MatchRQHypothesis}
-
-
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
-
-
-`r if (knitr::is_html_output()) 'Match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).'`
-
-<iframe src="https://usc.h5p.com/content/1291042384744155759/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-`r if (knitr::is_html_output()) 'Now, match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).'`
-
-<iframe src="https://usc.h5p.com/content/1291042402737889249/embed" width="900" height="600" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q4.Rmd'}
-```
-
-
-
-
-
-
-<!-- ```{r echo=FALSE} -->
-<!-- SubwayHyp <- array( NA, dim=c(11, 2)) -->
-
-<!-- SubwayHyp[1, ] <- c("1. At Subway, is the mean length of a 12-inch sub really 12 inches?", -->
-<!--                     "A. $p_\\textrm{white} = p_\\textrm{wholemeal}$") -->
-<!-- SubwayHyp[2, ] <- c("2. At Subway, is the mean length of a 12-inch sub different for white and wholemeal subs?", -->
-<!--                     "B. $\\mu_\\textrm{white} = \\mu_\\textrm{wholemeal}$") -->
-<!-- SubwayHyp[3, ] <- c("3. At Subway, is the proportion of 12-inch subs that are shorter than 12 inches different for white and wholemeal subs?", -->
-<!--                     "C. $\\mu_\\textrm{white} = \\mu_\\textrm{wholemeal} = 12$") -->
-<!-- SubwayHyp[4, ] <- c("4. At Subway, is the mean length of a 12-inch sub longer for white and  wholemeal subs?", -->
-<!--                     "D. $\\bar{x}_\\textrm{white} = \\bar{x}_\\textrm{wholemeal}$") -->
-<!-- SubwayHyp[5, ] <- c("", -->
-<!--                     "E. $\\bar{x}_\\textrm{white} = \\bar{x}_\\textrm{wholemeal} = 12$") -->
-<!-- SubwayHyp[6, ] <- c("", -->
-<!--                     "F. $\\mu = 12$") -->
-<!-- SubwayHyp[7, ] <- c("", -->
-<!--                     "G. $\\mu_\\textrm{white} \\ne \\mu_\\textrm{wholmeal}$") -->
-<!-- SubwayHyp[8, ] <- c("", -->
-<!--                     "H. $p_\\textrm{white} = p_\\textrm{wholemeal} \\le 12$") -->
-<!-- SubwayHyp[9, ] <- c("", -->
-<!--                     "I. $\\mu \\ne 12$") -->
-<!-- SubwayHyp[10, ] <- c("", -->
-<!--                      "J. $p_\\textrm{white} = p_\\textrm{wholemeal} = 12$") -->
-<!-- SubwayHyp[11, ] <- c("", -->
-<!--                      "K. $\\bar{x} \\ne 12$") -->
-
-<!-- kable(SubwayHyp, -->
-<!--       align=c("r", "l"), -->
-<!--       escape=FALSE, -->
-<!--       linesep="\\addlinespace", -->
-<!--      booktabs=TRUE) %>% -->
-<!--   column_spec(1, width="0.6\\\\textwidth") %>% -->
-<!--   column_spec(2, width="0.35\\\\textwidth") -->
-<!-- #  column_spec(2, width="1cm") %>% -->
-<!-- #  column_spec(1, width="0.8\\textwidth") %>% -->
-<!-- #  column_spec(2, width="0.2\\textwidth") %>% -->
-<!-- #  kable_styling(full_width=TRUE) -->
-<!-- ``` -->
+<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458372&sec_digit=1721642515&edit_code=1217450775 -->
 
 
 
@@ -233,7 +295,7 @@ The RQ was:
 
 > For this type of amputees, is the odds of being alive after five years the same for those who used an artificial limb, and those who did not?
 
-A total of 105 subjects were used: $35$ died within five years, and $70$ were still alive after five years.
+A total of $105$ subjects were used: $35$ died within five years, and $70$ were still alive after five years.
 In addition, $65$ subjects used an artificial limb, and $40$ did not.
 	
 1. After five years, $49$ people using an artificial limb were alive.
@@ -322,11 +384,11 @@ if( knitr::is_html_output() ) {
 2. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
-3. Write down the 95% CI for the population OR using the software output (jamovi: Fig.\ \@ref(fig:limbsOutputjamovi); SPSS: Fig.\ \@ref(fig:limbsOutput)). 
+3. Write down the $95$% CI for the population OR using the software output (jamovi: Fig.\ \@ref(fig:limbsOutputjamovi); SPSS: Fig.\ \@ref(fig:limbsOutput)). 
 4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (jamovi: Fig.\ \@ref(fig:limbsOutputjamovi); SPSS: Fig.\ \@ref(fig:limbsOutput)):
 
     a. Write the hypotheses.
-    b. Write down the value of $\chi^2$.
+    b. Write down the value of\ $\chi^2$.
     c. What $z$-score is this equivalent to?
     d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
     e. What is the exact $P$-value as reported by software?
@@ -454,12 +516,33 @@ knitr::include_graphics( c("SoftwareImages/Singh2016-ChiSq-SPSS.png",
    '*(Answers are available in Sect.\\@ref(Lecture10Answers))*'
 }`
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q8.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-IdentifyAnalysis.Rmd'}
 ```
 
 <iframe src="https://usc.h5p.com/content/1290972415580046319/embed" width="1088" height="511" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
+
+
+
+
+## Sample size calculations {#RoomWidthCISampleSize}
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
+
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
+
+
+The $44$ individual students' guesses had a standard deviation of $7.145$.
+Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5$\ m.
+
+What size sample would Prof. Lewis need?
+	
 
 
 	
@@ -472,12 +555,109 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
+### **Optional**: $P$-values {#PvalueStatement}
+
+An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
+She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
+
+After $12$ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+She finds a statistically significant difference between the odds in the two groups.
+Which of these statements is *consistent* with this conclusion?
+
+1. The $\text{OR} = 4.1$ and $P = 0.36$ \tightlist 
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+2. The $\text{OR} = 4.1$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+3. The $\text{OR} = 0.91$ and $P = 0.36$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+4. The $\text{OR} = 0.91$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+   
+How would the other statements be interpreted then?
+
+
+
+### **Optional**: Odds and odds ratio {#OddsGMfood}
+
+The use of genetically modified (GM) foods is controversial.
+An Australian study [@data:luo:gm] decided to study:
+
+> ...whether income level and attitude to genetic engineering of food are dependent.
+
+To answer this relational RQ, the researcher asked 894 Australians about their income (low or high), and  their attitude to GM foods (for or against).
+
+1. The data collected are given in  Table\ \@ref(tab:GMfoods).
+   Compute the odds that, among *high*-income earners, someone is in favour of GM foods.
+1. Compute the odds that, among *low*-income earners, someone is in favour of GM foods.   
+   Interpret what this means.
+1. The odds of a high-income earner being in favour of GM foods is how many times more than a low-income earner being in favour of GM food?
+   This value is called the **odds ratio**.
+1. For these data, the output is shown in Fig.\ \@ref(fig:GMfoodsjamovi) (from jamovi).
+   Write down the confidence interval for the odds ratio, and interpret what this means.
+1. A politician stated that 'any attempt to suggest that the acceptance of GM foods is related to income are clearly bogus'.
+   Do you agree or disagree?
+
+
+```{r GMfoods, echo=FALSE}
+GMfoodTab <- array(dim=c(2, 2))
+
+colnames(GMfoodTab) <- c("High income", 
+                         "Low income")
+rownames(GMfoodTab) <- c("For GM foods", 
+                         "Against GM foods")
+
+GMfoodTab[1, ] <- c(263, 258)
+GMfoodTab[2, ] <- c(151, 222)
+
+if( knitr::is_latex_output() ) {
+  kable(GMfoodTab,
+      format = "latex",
+      booktabs = TRUE,
+      caption = "Opinions of Australians about GM food") %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(GMfoodTab,
+      format = "html",
+      booktabs = TRUE,
+      caption = "Opinions of Australians about GM food") %>%
+  column_spec(1, bold = TRUE) %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+
+
+     
+```{r GMfoodsjamovi, echo=FALSE, fig.cap="jamovi output for the GM foods data", fig.align="center", out.width="50%"}
+include_graphics("SoftwareImages/GMfood-jamovi.png")
+```
+
+
+
+
+
 ### **Optional**: Two-way tables {#TablesHepC}
 
 Applying tattoos carries health risks as the skin is broken during application.
 An American study examined if a relationship existed between having hepatitis\ C and having tattoos [@data:Haley2001:Tattoos].
 
-To study this, $626$ people were interviewed as part of an observational study, and asked about two issues: Whether they had hepatitis\ C ($47$ people) or not ($579$ people); and if they had a tattoo ($113$ people), or no tattoos ($513$ people).
+To study this, $626$ people were interviewed as part of an observational study, and asked about two issues: 
+
+* Whether they had hepatitis\ C ($47$ people) or not ($579$ people); and 
+* Whether they had a tattoo ($113$ people), or not ($513$ people).
 
 
 1. Which **one** of these five sets of hypotheses is *not* valid for this situation? Why?
@@ -589,105 +769,12 @@ if( knitr::is_html_output() ) {
 
 
 
-
-### **Optional**: Comparing two independent means {#TwoMeansHurricanes}
-
-A study compared the number of deaths reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
-One of the tables in the paper is shown in Fig.\ \@ref(fig:Smith2016hurricanes).
-Explain in everyday language what this means.
-	
-	
-```{r Smith2016hurricanes, echo=FALSE, fig.cap="Table 4 from Smith (2016)", fig.align="center", out.width="80%"}
-include_graphics("ArticleImages/Smith2016-Table4.png")
-```
-
-
-
-
-
-
 ### **Optional**: Assumptions {#AssumptionsGraphs}
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q10.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-AssumptionsSatisfied.Rmd'}
 ```
 
 <iframe src="https://usc.h5p.com/content/1290972425279403419/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-### **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
-	
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
-:::
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
-
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$\ volt batteries to reduce their voltage to $1.0$\ volts under standard testing conditions.
-
-The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTableHT).
-
-```{r BattTableHT, echo=FALSE}
-BattTab <- array( "", 
-                  dim = c(2, 9))
-
-BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
-BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
-
-rownames(BattTab) <- c("Energizer", 
-                       "Ultracell")
-
-if( knitr::is_latex_output() ) {
-  kable(BattTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(font_size = 10)
-
-}
-if( knitr::is_html_output() ) {
-  kable(BattTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
-  column_spec(1, bold = TRUE)
-}
-```
-
-
-1. Write the hypotheses for testing the research question of interest. 
-   Is the test one- or two-tailed? \tightlist
-2. Explain the meaning of the standard error of the mean in this context.
-3. The software output for the analysis is shown in Fig.\ \@ref(fig:ALDIBatteriesTwoSampleTjamovi) (jamovi) and Fig.\ \@ref(fig:ALDIBatteriesTwoSampleTSPSS) (SPSS).
-   Determine the value of the $t$-statistic and the $P$-value for testing the hypotheses.
-4. Write a statement that communicates the result of the test.
-5. What conditions must be met for this test to be valid?
-6. Is it reasonable to assume the assumptions are satisfied? 
-7. What did you learn from this study?  
-
-   At the time of this analysis, a four-pack of the Ultracell Max batteries cost $2.49 from ALDI online, while a four pack of Energizer Max from Woolworths online cost $5.97 on special (usually $8.01)^[Data from 05 September 2012.].  
-   
-   On the basis of this information, would you be prepared to try the Ultracell batteries?
-   Explain your reasoning.
-   
-
-```{r ALDIBatteriesTwoSampleTjamovi, echo=FALSE, fig.cap="Output from jamovi for the battery data", fig.align="center", out.width="100%"}
-include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTjamoviOutput.png")
-```
-
-```{r ALDIBatteriesTwoSampleTSPSS, echo=FALSE, fig.cap="Output from SPSS for the battery data", fig.align="center", out.width="100%"}
-include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTSPSSOutput.png")
-```
-
 
 
 
@@ -709,7 +796,7 @@ The researchers used an observational study.
     b. The mean number of workers having byssinosis is the same for smokers and non-smokers.
     c. The population odds of having byssinosis is the same in among smokers and non-smokers.
 
-2. Among those randomly selected to appear in the study, $165$ workers had byssinosis ($40$ were non-smokers) and $5254$ did not ($2190$ were non-smokers).  
+2. Among those randomly selected to appear in the study, $165$ workers had byssinosis ($40$ were non-smokers) and $5\,254$ did not ($2\,190$ were non-smokers).  
    
    Construct the two-way table showing the number of workers with byssinosis among smokers and non-smokers.
 3. Compute the sample *proportion* of workers with byssinosis, among smokers.
@@ -747,75 +834,6 @@ include_graphics("SoftwareImages/ByssOR.png")
 
 
 
-
-
-
-
-
-
-### **Optional**: Tests for ORs {#ORAirways}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-	
-A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices used for nontraumatic, out-of-hospital cardiac arrest patients, to evaluate the success and failure of insertion for various devices.
-
-The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
-
-```{r AirwayTab, echo=FALSE}
-AirwayTab <- array( dim =  c(2, 2))
-
-colnames(AirwayTab) <- c("Succeed", "Fail" )
-rownames(AirwayTab) <- c("Esophageal gastric tube airway (EGTA)",
-                         "Laryngeal mask (LM)")
-
-AirwayTab[1, ] <- c(545,   49)
-AirwayTab[2, ] <- c(2701, 315)
-
-if( knitr::is_latex_output() ) {
-  kable(AirwayTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "Data from the airways study") %>%
-  row_spec(0, bold = TRUE) %>%
-  column_spec(1, bold = TRUE) %>%
-    kable_styling(font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(AirwayTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "Data from the airways study") %>%
-  row_spec(0, bold = TRUE) %>%
-  column_spec(1, bold = TRUE)
-}
-
-```
-
-1. Define $p$ as the population proportion of successful attempts at insertion.
-   Write the hypotheses to be tested.
-2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi) or Fig.\ \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS) to test the hypotheses.
-   Write a proper conclusion to communicate the results.
-3. Are the results likely to be statistically valid? Explain.
-4. The study was designed to enable medics to choose the best airway device.  
-
-   Would you recommend EGTA or LM?
-   Why?
-   Would you like any more information before making your choice?
-   Explain.
-
-
-
-```{r Tanagawa1998jamoviCrossTabs, echo=FALSE, fig.cap="The jamovi output for the table from Tanagawa and Shigematsu (1998)", fig.align="center", out.width="55%"}
-include_graphics("SoftwareImages/Tanagawa1998jamoviCrossTabs.png")
-```
-
-
-```{r Tanagawa1998SPSSCrossTabs, echo=FALSE, fig.cap="The SPSS output for the table from Tanagawa and Shigematsu (1998)", fig.align="center", out.width="80%"}
-include_graphics("SoftwareImages/Tanagawa1998SPSSCrossTabs-NoData.png")
-```
 
 
 

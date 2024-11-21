@@ -1,0 +1,51 @@
+In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).
+
+Then, match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).
+
+
+```{r SubwayHyp, echo=FALSE}
+Terms <- array( "", dim = c(11, 2))
+
+colnames(Terms) <- c("Research question", 
+                     "Hypothesis")
+
+Terms[, 1] <- 
+  c("1. At Subway, is the mean length of a 12-inch sub really 12 inches?",
+    "2. At Subway, is the mean length of a 12-inch sub \\emph{different}",
+    "~ ~  for white and wholemeal subs?",
+    "3. At Subway, is the proportion of 12-inch subs that are \\emph{shorter}",
+    "~ ~ than 12 inches different for white and wholemeal subs?",
+    "4. At Subway, is the mean length of a 12-inch sub \\emph{longer}",
+    "~ ~ for white and  wholemeal subs?",
+    rep("", 4))
+
+Terms[, 2] <- 
+  c("A. $p_\\textrm{white} = p_\\textrm{wholemeal}$",
+    "B. $\\mu_\\textrm{white} = \\mu_\\textrm{wholemeal}$",
+    "C. $\\mu_\\textrm{white} = \\mu_\\textrm{wholemeal} = 12$",
+    "D. $\\bar{x}_\\textrm{white} = \\bar{x}_\\textrm{wholemeal}$",
+    "E. $\\bar{x}_\\textrm{white} = \\bar{x}_\\textrm{wholemeal} = 12$",
+    "F. $\\mu = 12$",
+    "G. $\\mu_\\textrm{white} \\ne \\mu_\\textrm{wholmeal}$",
+    "H. $p_\\textrm{white} = p_\\textrm{wholemeal} < 12$",
+    "I. $\\mu \\ne 12$",
+    "J. $\\bar{x} \\ne 12$",
+    "K. $p_\\textrm{white} = p_\\textrm{wholemeal} = 12$")
+
+
+
+if( knitr::is_latex_output() ) {
+  kable(Terms,
+      format = "latex",
+      booktab = TRUE,
+      align = c("l", "l"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      linesep = "\\addlinespace",
+      caption = "Match RQs with the null (and then the alternative) hypotheses") %>%
+  kable_styling(full_width = FALSE) %>%
+  row_spec(0, bold = TRUE) %>%
+  column_spec(1, width = "0.68\\\\textwidth") %>%
+  column_spec(2, width = "0.3\\\\textwidth")
+}
+```
+

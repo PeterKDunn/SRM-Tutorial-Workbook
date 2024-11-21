@@ -47,12 +47,14 @@ Consider this (qualitative) RQ: 'What factors are preventing the adoption of hou
    * the sample is representative of all households in Chile
 `r if (knitr::is_html_output()) '-->'`
 
-3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. What is the *best* description of this sampling method?  
+3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
+    What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Self-selecting", 
                       "Systematic",
                       "Convenience") )}`
-4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. What is the *best* description of this sampling method?  
+4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
+    What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Multi-stage", 
                       "Systematic",
@@ -122,27 +124,27 @@ Read the description (line breaks added for clarity) of one such study as shown 
 }`
 regarding this information.
 
-> In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$ months or more after a stroke, we randomly assigned $49$ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$ to receive usual care.  
+> In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$\ months or more after a stroke, we randomly assigned $49$\ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$\ to receive usual care.  
 > &nbsp;
 >
-> Therapy consisted of $36$ $1$-hour sessions over a period of $12$ weeks. 
-> The primary outcome was a change in motor function, as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, at 12 weeks...  
+> Therapy consisted of $36$ $1$-hour sessions over a period of $12$\ weeks. 
+> The primary outcome was a change in motor function, as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, at $12$\ weeks...  
 > &nbsp;
 >
-> We recruited veterans from four participating VA medical centers who were $18$ years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least $6$ months before enrollment.  
+> We recruited veterans from four participating VA medical centers who were $18$\ years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least $6$ months before enrollment.  
 > &nbsp;
 >
-> Such impairment was defined as a score of $7$ to $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from $0$ (no function) to $66$ (normal function). 
+> Such impairment was defined as a score of $7$ to\ $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from\ $0$ (no function) to\ $66$ (normal function). 
 > All patients provided written informed consent.  
 > &nbsp;
 >
 > Patients were randomly assigned to receive robot-assisted therapy, intensive comparison therapy, or usual care...  
 > &nbsp;
 >
-> Trained evaluators who were unaware of study-group assignments assessed patients $6$, $12$, $24$, and $36$ weeks after randomization.
+> Trained evaluators who were unaware of study-group assignments assessed patients\ $6$, $12$, $24$, and $36$\ weeks after randomization.
 > &nbsp;
 >
-> The primary outcome was a change in the Fugl-Meyer score at $12$ weeks, as compared with the baseline value...
+> The primary outcome was a change in the Fugl-Meyer score at $12$\ weeks, as compared with the baseline value...
 >
 > --- @data:Lo2010:RobotAssistance
 
@@ -164,10 +166,6 @@ regarding this information.
 ```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='90%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week2-Trial.PNG")
 ```
-
-
-
-
 
 
 
@@ -199,8 +197,12 @@ Answer the questions that follow.
 	 Also, determine if it is a quasi-experiment or a true experiment.
 6. *If the study is observational*, determine if the study uses a forward direction (*cohort study*), a backward direction (case-control study), or is non-directional (cross sectional).
 7. Suggest the RQ asked at the start of the study by identifying POCI.
-8. Is a cause-and-effect relationship reasonable? Explain.
-9. Read the extract from the original article below [@data:Murphy1998:homebirth]. What is the sampling method? Why are these limitations? What other limitations of the study can you think of?
+8. Is a cause-and-effect relationship reasonable? 
+   Explain.
+9. Read the extract from the original article below [@data:Murphy1998:homebirth]. 
+   What is the sampling method? 
+   Why are these limitations? 
+   What other limitations of the study can you think of?
 
 > There are several limitations to note in this report.
 > The results reported here reflect a sample of nurse--midwifery practices willing to participate in data collection and to permit the resulting scrutiny of their practices. 
@@ -296,7 +298,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 ### **Optional**: Sampling {#SamplingParking}
 
-Suppose we needed a sample of $80$ vehicles parked at UniSC (Sippy Downs campus), and we wish to determine the proportion displaying P-plates.
+Suppose we needed a sample of $80$\ vehicles parked at UniSC (Sippy Downs campus), and we wish to determine the proportion displaying P-plates.
 
 Determine a useful way to find a suitable representative sample.
 The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** are car parks).
@@ -362,7 +364,8 @@ include_graphics("ArticleImages/fishoil2.jpg")
     - The general health of the subject.
     - The average amount of water consumed each day by the subjects.
     - Gender.
-5. Is a cause-and-effect relationship reasonable? Explain.
+5. Is a cause-and-effect relationship reasonable? 
+   Explain.
 6. What are the limitations of the study?
 7. Identify the units of observation, and the units of analysis.
 8. What did you learn from this report?
@@ -445,9 +448,9 @@ To study the progress of an imported species of beetle, a research group is stud
 Ten possible forests of each type have been found, and the research budget allows for $100$ trees to be sampled.
 Three designs are being considered:
 
-* **A.** Randomly sample $50$ trees from one randomly selected coniferous forest, and $50$ trees from one randomly selected broad leaf forest.
-* **B.** Randomly sample $5$ trees from ten randomly sampled coniferous forests, and $5$ trees from ten randomly selected broad leaf forests.
-* **C.** Randomly sample $10$ trees from five randomly sampled coniferous forests, and $10$ trees from five randomly selected broad leaf 
+* **A.** Randomly sample $50$\ trees from one randomly selected coniferous forest, and $50$\ trees from one randomly selected broad leaf forest.
+* **B.** Randomly sample $5$\ trees from ten randomly sampled coniferous forests, and $5$\ trees from ten randomly selected broad leaf forests.
+* **C.** Randomly sample $10$\ trees from five randomly sampled coniferous forests, and $10$\ trees from five randomly selected broad leaf 
 
 The researchers wish to know which design they should use.
 

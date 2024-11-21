@@ -1,0 +1,16 @@
+Consider these five situations.
+Identify the appropriate **graph** to use.
+
+1. To display the relationship between:
+   - the age of athletes, and 
+   - the times taken for each athlete to complete the `beep test'. 
+2. To display the percentage of elderly people in nursing homes that can independently complete
+   a given task, for each of the seven tasks on a given list.
+3. To display the relationship between:
+   - the type of fertiliser applied to a vegetable crop (either A, B or C), and
+   - the yield per hectare, measured over numerous plots.
+4. To display the distribution of the hardness measurements taken of $250$ samples of bamboo. 
+5. To display the relationship between:
+   - the age of concrete test cylinders (under $5$ years; $5$ years and older), and
+   - their strength (fit for purpose; or not fit for purpose).
+   

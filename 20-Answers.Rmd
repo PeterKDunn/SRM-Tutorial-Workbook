@@ -101,7 +101,7 @@ Answers implied by H5P.
    Note that many design issues are not covered until the next lecture.
 7. An example RQ might be:  
 
-   "Among UniSC students (P), is the average heart rate 30 minutes after drinking (O) is different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C)?"
+   "Among UniSC students (P), is the average heart rate $30$\ mins after drinking (O) is different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C)?"
    I'm not saying this is the best; it is just an example.
 8. Based on the above RQ: Find UniSC students who drink Earl Grey tea, and others who drink coffee, and measure their heart rate $30$\ mins after they drink.  
    
@@ -920,27 +920,6 @@ Classical.
 
 
 
-### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. The decision-making process begins with making an assumption about the population **parameter**.
-   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
-   But we can have some of idea of what values are reasonable to expect.
-   Then we take the **sample** (that is, we make the observations).
-   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
-   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
-   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
-
-2. Step\ 1:  Assumption about population parameter.
-   Step\ 2: Expectation for sample statistic.
-   Step\ 3: Observation of sample statistic.
-   Decision: Consistent?
-   Conclusion\ A: Yes, supports assumption.
-   Conclusion\ B: No, doesn't support assumption.
-
-
-
 
 ### Answers for Sect.\ \@ref(RandomCardDraws) {.unlisted .unnumbered}
 
@@ -979,6 +958,43 @@ Answers implied by H5P.
 
 
 ## Answer: TW 7 tutorial {#Lecture7Answers}
+
+### Answers for Sect.\ \@ref(ConceptsMatches) {.unlisted .unnumbered}
+
+1. This is just one box of matches (one *observation*), but the claim is about the *population mean*.
+   Some boxes will have more than $45$, and some fewer.
+2. Jake is correct in one sense: You can't have $0.9$ of a match.
+   But the value is the *mean* number, and that *can* be a decimal. 
+   Suppose $10$ boxes had $49$ matches, and $10$ boxes had $50$ matches... is the mean $49$, or is it $50$?
+   Neither are correct; the mean is $49.5$.
+3. Jake is confusing the *sample* and *population* mean.
+   The claim is that the *population* mean is $45$.
+   The sample produced a mean of $44.9$.  
+   
+   Why should the mean of two different things be the same?
+   It's like expecting your height and your Mum's height to be the same:
+   they are both heights, but of different things.
+   Why should they be the same?  
+
+   Of course, every sample will produce a different sample mean.
+   This sample may just have an unusually low number of matches.
+4. Either (1)\ The manufacturer is lying; or (2)\ the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
+5. A CI gives some indication of the variation implied by the sample.
+6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+   So the approximate $95$% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
+7. No. A $95$% CI may or may not contain the population mean.
+   Of course, the manufacturer *may* indeed be lying...
+   but we'd need to be cautious about making such a bold claim on just this evidence.
+   Ideally, we would repeat this study a few times or take a larger sample.
+   But it *is* looking suspicious...  
+
+   If we had many, many sets of $25$ matches boxes,
+   $95$% of these sets of $25$ would have a mean between $44.85$ and $44.95$.
+8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+9. $\mu$ is the mean of the population; the true mean if you like.
+   $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
+
+
 
 
 
@@ -1061,134 +1077,6 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 
 
 
-### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
-
-1. **Repeated-measures**:
-   Every subject has two TWMT recorded.
-2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-3. Each measurement is measured after and before on the same subject.
-4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
-   (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
-   **Importantly, the direction should be stated somewhere.**)
-5. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
-6. $\bar{d} = 24.9$; $s_d=13.03372$.
-7. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623$.
-   This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
-8. Almost impossible.
-   Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
-   Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
-9. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
-10. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245$m.
-11. We are $95$% confident that the population 2MWT *increases* by a mean amount between $16.7$ and $33.1$\ m.
-12. Either (or both) of these must be true:
-    (i) the population has a normal distribution,
-    and/or 
-    (ii) the sample size is large enough so the sample means have a normal distribution (i.e., larger than $25$).
-13. Since $n < 25$, we need to assume the population of differences has a normal distribution.
-    A stem plot suggests this is not unreasonable, so the sample means possibly have an approx.\ normal distribution.
-14. (Recall we haven't done hypothesis testing in this context yet!)
-    Looks pretty likely that the 2MWT distances are higher after receiving the implant.
-
-
-
-
-### Answers for Sect.\ \@ref(RoomWidthCI) {.unlisted .unnumbered}
-
-
-```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidth.Rmd'}
-```
-
-
-
-
-1. $\bar{x} = 16.02$m.
-2. $s = 7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m. 
-   The first is a measure of the variation in the original data; the second is a measure of the precision of the sample mean when estimating the population mean.
-3.The CI is from $13.85$ to $18.19$\ m.
-4. $95$% CI for population mean guess: $13.85$ to $18.19$\ m.
-5. The population of differences has a normal distribution, and/or $n > 25$ or so.
-6. Since $n > 25;$, all OK if the histogram isn't severely skewed; probably OK.
-7. Not really; the CI doesn't contain the true width.
-   But was this just due to the metric units... or perhaps students are just very poor at estimating widths in general!
-   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
-
-
-
-
-
-
-
-
-
-
-### Answers for Sect.\ \@ref(HMMaturing) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
-```
-
-
-
-
-1. Relational.
-2. $\hat{p} = 352/2\ 864 = 0.12291$. 
-3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
-4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to $0.135$.
-       Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
-5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than $5$.
-   This is true, so the calculations are valid.
-6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
-7. $n = 1/(0.02)^2 = 2500$ boys.
-
-
-
-
-
-### Answers for Sect.\ \@ref(CIPairedWaves) {.unlisted .unnumbered}
-	
-
-1. Because each method is used in each sea state.
-3. $\bar{d} = 0.06167$; $s_d = 0.2901$. 
-   The mean difference is positive: Method\ 1 measurements slightly higher (on average) than Method\ 2.
-4. $\text{s.e.}({\bar{d}}) = s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
-   $\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
-5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
-6. Since $n < 25s$, we require that the *differences* in the population have a normal distribution.
-7. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal.
-8. Since the CI includes zero, possibly the population mean difference could be zero.
-
-
-
-
-### Answers for Sect.\ \@ref(CIPairedRunners) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-RunnerCI.Rmd'}
-```
-
-
-1. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-2. Each plasma $\beta$ measurement is measured after and before on the same runner.
-3. The *direction* of the difference should be clearly stated.
-4. $\bar{d} = 18.736$; $s_d = 8.3297$
-5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
-   This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
-6. Almost impossible.
-   The sample means would vary every time we took a sample, around the true mean difference with a normal distribution having a standard error of about $2.51$.
-   Since we don't know the population mean, the best we can say is that the sample mean will vary about our best guess of the population mean. 
-   In other words, the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
-7. $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
-8. We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
-9. Either (or both) of these must be true: the population has a normal distribution, and/or the sample size is large enough so that the sample means have a normal distribution, so about larger than $25$.
-10. Since $n < 25$, we need to assume the population of differences has a normal distribution.
-    The stem-and-leaf plot suggests this is not unreasonable, so the sample means quite possibly have an approx. normal distribution:
-11.  Looks likely that the plasma $\beta$ concentrations are higher after the race.
-12. $n = (2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
-
-
-
-
-
-
-
 
 ### Answers for Sect.\ \@ref(Chapter6Drills) {.unlisted .unnumbered}
 
@@ -1203,391 +1091,6 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
-
-
-
-
-
-
-
-## Answer: TW 8 tutorial {#Lecture8Answers}
-
-
-### Answers for Sect.\ \@ref(ConceptsMatches) {.unlisted .unnumbered}
-
-1. This is just one box of matches (one *observation*), but the claim is about the *population mean*.
-   Some boxes will have more than $45$, and some fewer.
-2. Jake is correct in one sense: You can't have $0.9$ of a match.
-   But the value is the *mean* number, and that *can* be a decimal. 
-   Suppose $10$ boxes had $49$ matches, and $10$ boxes had $50$ matches... is the mean $49$, or is it $50$?
-   Neither are correct; the mean is $49.5$.
-3. Jake is confusing the *sample* and *population* mean.
-   The claim is that the *population* mean is $45$.
-   The sample produced a mean of $44.9$.  
-   
-   Why should the mean of two different things be the same?
-   It's like expecting your height and your Mum's height to be the same:
-   they are both heights, but of different things.
-   Why should they be the same?  
-
-   Of course, every sample will produce a different sample mean.
-   This sample may just have an unusually low number of matches.
-4. Either (1)\ The manufacturer is lying; or (2)\ the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
-5. A CI gives some indication of the variation implied by the sample.
-6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
-   So the approximate $95$% CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
-7. No. A $95$% CI may or may not contain the population mean.
-   Of course, the manufacturer *may* indeed be lying...
-   but we'd need to be cautious about making such a bold claim on just this evidence.
-   Ideally, we would repeat this study a few times or take a larger sample.
-   But it *is* looking suspicious...  
-
-   If we had many, many sets of $25$ matches boxes,
-   $95$% of these sets of $25$ would have a mean between $44.85$ and $44.95$.
-8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
-9. $\mu$ is the mean of the population; the true mean if you like.
-   $\mu$ is *claimed* to be 45, but the the value of $\bar{x}$ will, of course, vary.
-
-
-
-
-### Answers for Sect.\ \@ref(CIRatLifetimes) {.unlisted .unnumbered}
-
-1. The two groups are completely different.
-1. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
-2. The 95% CI is the *bottom* one: from $223.34$ to $346.13$ days.
-3. The best of these is Option\ (e)... but in practice, we usually think about CIs in terms of Option\ (d).
-4. The CI explanation can be improved by (i)\ indicating *which* diet leads to larger average lifetimes; and (ii)\ providing sample summary info. Here is a better answer:  
-   
-   "The $95$\% confidence interval for the difference between the populations mean lifetimes of rats on the restricted diet (sample mean: $968.8$ days; std dev: $284.6$ days) and on the free-eating diet ($684.0$ days; std dev: $134.1$ days) is that rats on a restricted diet live between $223.34$ and $346.13$ days longer."
-5. Since the sample is large, we must have that the two samples are independent (which is reasonable).
-   (**The figure is not needed.**)
-6. The boxplots show the variation in the lifetimes of individual rats.
-   The error bar chart displays the variation that the sample means would be expected to show from sample to sample. 
- 
-   
-   
-   
-   
-   
-### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
-
-Some answers embedded.
-
-1. See Table\ \@ref(tab:MaturationDataANS).
-1. Use a side-by-side barchart, for example, if necessary.
-1. Odds of boys  maturing late: $352 \div (2\,864 - 352) =  0.1401$: boys are $0.1401$ times more likely to mature late than not. 
-1. Odds of girls  maturing late: $336 \div (2\,328) =  0.1443$: girls are $0.1443$ times more likely to mature late than not. 
-1. Hence, to compare boys to girls: $0.1401 \div 0.1443 = 0.971$.
-1. The **parameter** of interest is the *population odds ratio* of late maturing, comparing boys to girls.
-1. From software: OR is $0.971$, and $95$% CI is from $0.828$ to $1.139$.
-1. See Table\ \@ref(tab:MaturationSummaryANS).
-1, The difference could be explained by sampling variation, or because of a real difference...
-
-```{r echo=FALSE, MaturationDataANS}
-MaturationData <- array( dim = c(3, 3) )
-colnames(MaturationData) <- c("Matured late", 
-                              "Did not mature late", 
-                              "Total")
-rownames(MaturationData) <- c("Males",
-                              "Females", 
-                              "Total")
-
-MaturationData[3, 3] <- 2864 + 2664
-MaturationData[1, 1] <- ""
-MaturationData[1,3] <- 2864
-MaturationData[2,3] <- 2664
-MaturationData[3,1] <- 352+336 
-MaturationData[3,2] <- (2864 - 352) + (2664 - 336)
-
-MaturationData[1,1] <- 352
-MaturationData[2,1] <- 336
-MaturationData[1,2] <- 2864 - 352
-MaturationData[2,2] <- 2664 - 336
-   
-if( knitr::is_latex_output() ) {
-   kable(MaturationData,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-       # escape=FALSE, # For latex to work in \rightarrow
-       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "Maturation and gender",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 8) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-  
-  kable(MaturationData,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Maturation and gender",
-        booktabs = TRUE) # %>%
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
-
-```
-
-
-
-```{r echo=FALSE, MaturationSummaryANS}
-MaturationSumm <- array( dim = c(3, 3) )
-colnames(MaturationSumm) <- c("Percentage maturing late", 
-                              "Odds  maturing late", 
-                              "Sample size")
-rownames(MaturationSumm) <- c("Males", 
-                              "Females", 
-                              "Odds ratio")
-
-MaturationSumm[3,3] <- "626"
-MaturationSumm[3, 1] <- ""
-MaturationSumm[3, 3] <- ""
-  
-MaturationSumm[1, 3] <- 2864 
-MaturationSumm[2, 3] <- 2664 
-  
-#  MaturationSumm[3,1] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=47 )
-#  MaturationSumm[3,2] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
-
-MaturationSumm[1, 1] <- round(352/2864*100, 1)
-MaturationSumm[2, 1] <- round(336/2664*100, 1)
-
-MaturationSumm[1, 2] <- round(352/2512, 4)
-MaturationSumm[2, 2] <- round(336/2328, 4)
-
-MaturationSumm[3, 2] <- round( (352/2512)/(336/2328), 5)
-   
-if( knitr::is_latex_output() ) {
-   kable(MaturationSumm,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-       # escape=FALSE, # For latex to work in \rightarrow
-       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "Maturation and gender: Numerical summary",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 8) %>%
-  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-
-  kable(MaturationSumm,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Maturation and gender: Numerical summary (Enter percentages to one decimal place. Enter odds and odds ratio to three decimal places)",
-        booktabs = TRUE) # %>%
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
-
-```
-
-
-
-
-### Answers for Sect.\ \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthSS.Rmd'}
-```
-
-
-
-$n=(2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$ students.
-
-
-
-
-### Answers for Sect.\ \@ref(LanguageOfSStats) {.unlisted .unnumbered}
-
-
-1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.
-  In batch 1, a *sample* of size $30$ was used; the sample mean number of blows till the first crack appeared in the test cylinders was $98$, and the amount of variation in the number of blows was measured using the *standard* deviation as $54$.
-  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
-
-2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using specialist school furniture with standard school furniture (which acted as a *control*).
-   They used a *random* sample of size $30$ from children registered at their facility in Canada.
-   The *sample* mean for the difference in legibility was $-0.1$, and a $95$% *confidence* interval was from $-0.8$ to $0.6$.
-   Using the standard equipment, the smallest value recorded for legibility was $19$, and the largest was $34$, so the *range* was $15$.
-  
-
-
-
-
-### Answers for Sect.\ \@ref(PizzaHT) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
-```
-
-
-
-1. Observational.
-2. Relational.
-3. Two completely separate samples are compared.
-4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
-5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.590$ inches, larger for EB.
-6. Since the sample sizes are large (both $125$), we *do not require that the populations have normal distributions*.
-7. The sample sizes are large ($n = 125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
-8. Probably yes. 
-   Amount of topping on the pizza? 
-   Which *tastes* better? 
-   Whether the samples were randomly selected or not?
-
-
-
-
-
-
-
-
-### Answers for Sect.\ \@ref(OddsGMfood) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
-```
-
-1. Odds HIE: $263/151 = 1.742$. HIE is $1.74$ times more likely to be for GM foods than against.
-1. Odds LIE: $258\div222 = 1.162$. LIE is $1.16$ times more likely to be for GM foods than against.
-1. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
-   The odds of HIE being for GM food $1.5$ times the odds that a LIE for GM foods.
-1. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
-   (Loosely, though technically incorrect: the true OR is likely to be between $1.145$ and $1.961$.) 
-   Importantly, this interval does not include $1$.
-
-
-
-
-
-## Answer: TW 9 tutorial {#Lecture9Answers}
-
-
-### Answers for Sect.\ \@ref(HTOneMean-A) {.unlisted .unnumbered}
-
-1. The **parameter** of interest is the *population mean pizza diameter*, say $\mu$.\tightlist
-1. From the output: $\bar{x} = 11.486$ and $s = 0.247$.
-1. Use $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.247/\sqrt{125} = 0.02205479$.
-1. $s$ tells us the variation in diameter from pizza to pizza.
-   $\text{s.e.}(\bar{x})$ tells us how much the sample mean is likely to vary from sample to sample, in sample of size $125$.
-1. The hypotheses are:  
-
-   $H_0$: The mean diameter is $12$ inches; or $\mu = 12$.  
-   $H_1$: The mean diameter is not $12$ inches; or $\mu \ne 12$
-1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
-1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
-1. $t = -23.3$.
-1. $t = (11.486-12)/0.02205 = -23.3$.
-1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
-   (Two-tailed $P<0.001$ from the table or from software.)
-1. Very strong evidence exists in the sample ($t = -23.3$; $\text{df} = 124$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
-   $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
-   (Note: The CI was computed in the Week\ 8 tutorial; or use $t = 1.98$.)
-1. Since $n$ is much larger than $25$, we do not require that the population has a normal distribution, just that the population is not grossly non-normal; the sample means will still have an approximate normal distribution.
-1. *Very* unlikely!
-
-
-
-
-
-
-### Answers for Sect.\ \@ref(PValues) {.unlisted .unnumbered}
-
-Use the $68$--$95$--$99.7$ rule to *approximate* the $P$-values:
-
-*Less than* $0.05$; Greater than $0.05$;
-*Less than* $0.003$;
-Greater than $0.05$;
-Greater than $0.05$;
-Very small.
-
-
-
-
-
-### Answers for Sect.\ \@ref(TestsPairedImplants) {.unlisted .unnumbered}
-
-1. Before and after measurement on same amputee.\tightlist
-2. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
-   $H_1$: $\mu_d > 0$ the way I defined differences.  
-
-   We are explicitly seeking to test for an *improvement* (i.e., walk longer distances), so the test is one-tailed.
-   (Differences in the other direction are also OK; the signs of the differences and some other subsequent things change.)
-3. The standard error of the mean is the standard deviation of the sample mean increase in walking distance, a measurement of how precisely the sample mean difference estimates the population mean difference.
-4. Mean increase: $\bar{x} = 24.9$\ m; Standard deviation: $s = 13.034$\ m; standard error: $4.122$\ m.
-5. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
-   (The one-tailed $P$ less than $0.0005$ from tables.)
-   The differences have just been defined in the opposite directions.
-   (Notice the $P$-values are the same.)
-6. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $15.58$ to $34.224$m).
-7. The population of differences has a normal distribution, and/or $n > 25$ or so.
-8. Since $n < 25$, must assume the population of differences has a normal distribution.
-   The histogram suggests this is not unreasonable.
-
-
-
-
-### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
-
-$H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
-Here, $n = 35$ and $\hat{p} = 12/35 = 0.3428571$.
-Then,  
-\[
-   \text{s.e.}(\hat{p}) 
-   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
-\]
-(make sure to use $p$ not $\hat{p}$ in the standard error calculation for the test!), and so  
-\[
-   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
-\]
-This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
-
-> The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).
-
-For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
-For *external validity*, the sample must be a random sample of Swedish programmers. 
-
-
-(For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
-
-
-
-
-
-### Answers for Sect.\ \@ref(RoomWidthTest) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
-```
-
-
-
-1. $s = 7.145$\ m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$\ m.  
-   The first measures variation in the original data; the second measures precision of the sample mean when estimating the population mean.
-2. The CI is from $13.85$ to $18.19$\ m.
-3.  Strong to moderate evidence exists in the sample (one sample $t = 2.714$; $\text{df} = 43$; two-tailed $P = 0.010$) that the population mean guess (mean: $16.02$\ m; standard deviation: $7.145$\ m) of the students is not $13.1$\ m ($95$% CI for population mean guess: $13.85$ to $18.19$\ m).
-4. The population of differences has a normal distribution, and/or $n > 25$ or so.
-5. Since $n > 25$, all OK if the histogram isn't severely skewed. 
-   Probably OK.
-6. Not really! 
-   But was this just due to using metric units? 
-   Perhaps students are just very poor at estimating widths whatever the units being used...
-   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
 
 
 
@@ -1643,15 +1146,407 @@ if( knitr::is_html_output() ) {
 
 
 
+### Answers for Sect.\ \@ref(RoomWidthCI) {.unlisted .unnumbered}
 
-### Answers for Sect.\ \@ref(PvalueStatement) {.unlisted .unnumbered}
 
-The difference in odds is statistically significant, so **either 2. or 4. is consistent with this conclusion**... and we cannot tell which.
-The size of the OR is not the issue here:  if the sample OR is statistically different from\ $1$, it does not tell us much about the population OR except that it is (most likely) not one.
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidth.Rmd'}
+```
 
-2. The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. 
-   (This likely has a smaller sample size.)
-3. The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
+
+
+
+1. $\bar{x} = 16.02$m.
+2. $s = 7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m. 
+   The first is a measure of the variation in the original data; the second is a measure of the precision of the sample mean when estimating the population mean.
+3.The CI is from $13.85$ to $18.19$\ m.
+4. $95$% CI for population mean guess: $13.85$ to $18.19$\ m.
+5. The population of differences has a normal distribution, and/or $n > 25$ or so.
+6. Since $n > 25;$, all OK if the histogram isn't severely skewed; probably OK.
+7. Not really; the CI doesn't contain the true width.
+   But was this just due to the metric units... or perhaps students are just very poor at estimating widths in general!
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(HMMaturing) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
+```
+
+
+
+
+1. Relational.
+2. $\hat{p} = 352/2\ 864 = 0.12291$. 
+3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
+4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to $0.135$.
+       Either the '$0.123\pm 0.012$' form or the '$0.111$ to $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
+5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than $5$.
+   This is true, so the calculations are valid.
+6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
+7. $n = 1/(0.02)^2 = 2500$ boys.
+
+
+
+
+
+
+
+
+
+## Answer: TW 8 tutorial {#Lecture8Answers}
+
+
+
+
+
+### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begins with making an assumption about the population **parameter**.
+   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
+   But we can have some of idea of what values are reasonable to expect.
+   Then we take the **sample** (that is, we make the observations).
+   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
+   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
+   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
+
+2. Step\ 1:  Assumption about population parameter.
+   Step\ 2: Expectation for sample statistic.
+   Step\ 3: Observation of sample statistic.
+   Decision: Consistent?
+   Conclusion\ A: Yes, supports assumption.
+   Conclusion\ B: No, doesn't support assumption.
+
+
+
+
+### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
+
+$H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
+Here, $n = 35$ and $\hat{p} = 12/35 = 0.3428571$.
+Then,  
+\[
+   \text{s.e.}(\hat{p}) 
+   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
+\]
+(make sure to use $p$ not $\hat{p}$ in the standard error calculation for the test!), and so  
+\[
+   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
+\]
+This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
+
+> The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).
+
+For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
+For *external validity*, the sample must be a random sample of Swedish programmers. 
+
+
+(For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
+
+
+
+
+
+### Answers for Sect.\ \@ref(HTOneMean-A) {.unlisted .unnumbered}
+
+1. The **parameter** of interest is the *population mean pizza diameter*, say $\mu$.\tightlist
+1. From the output: $\bar{x} = 11.486$ and $s = 0.247$.
+1. Use $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.247/\sqrt{125} = 0.02205479$.
+1. $s$ tells us the variation in diameter from pizza to pizza.
+   $\text{s.e.}(\bar{x})$ tells us how much the sample mean is likely to vary from sample to sample, in sample of size $125$.
+1. The hypotheses are:  
+
+   $H_0$: The mean diameter is $12$ inches; or $\mu = 12$.  
+   $H_1$: The mean diameter is not $12$ inches; or $\mu \ne 12$
+1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
+1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
+1. $t = -23.3$.
+1. $t = (11.486-12)/0.02205 = -23.3$.
+1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
+   (Two-tailed $P<0.001$ from the table or from software.)
+1. Very strong evidence exists in the sample ($t = -23.3$; $\text{df} = 124$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
+   $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
+   (Note: The CI was computed in the Week\ 8 tutorial; or use $t = 1.98$.)
+1. Since $n$ is much larger than $25$, we do not require that the population has a normal distribution, just that the population is not grossly non-normal; the sample means will still have an approximate normal distribution.
+1. *Very* unlikely!
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(PValues) {.unlisted .unnumbered}
+
+Use the $68$--$95$--$99.7$ rule to *approximate* the $P$-values:
+
+*Less than* $0.05$; Greater than $0.05$;
+*Less than* $0.003$;
+Greater than $0.05$;
+Greater than $0.05$;
+Very small.
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(RoomWidthTest) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
+```
+
+
+1. $s = 7.145$\ m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$\ m.  
+   The first measures variation in the original data; the second measures precision of the sample mean when estimating the population mean.
+2. The CI is from $13.85$ to $18.19$\ m.
+3.  Strong to moderate evidence exists in the sample (one sample $t = 2.714$; $\text{df} = 43$; two-tailed $P = 0.010$) that the population mean guess (mean: $16.02$\ m; standard deviation: $7.145$\ m) of the students is not $13.1$\ m ($95$% CI for population mean guess: $13.85$ to $18.19$\ m).
+4. The population of differences has a normal distribution, and/or $n > 25$ or so.
+5. Since $n > 25$, all OK if the histogram isn't severely skewed. 
+   Probably OK.
+6. Not really! 
+   But was this just due to using metric units? 
+   Perhaps students are just very poor at estimating widths whatever the units being used...
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+
+   
+### Answers for Sect.\ \@ref(LanguageOfSStats) {.unlisted .unnumbered}
+
+
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.
+  In batch 1, a *sample* of size $30$ was used; the sample mean number of blows till the first crack appeared in the test cylinders was $98$, and the amount of variation in the number of blows was measured using the *standard* deviation as $54$.
+  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
+
+2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using specialist school furniture with standard school furniture (which acted as a *control*).
+   They used a *random* sample of size $30$ from children registered at their facility in Canada.
+   The *sample* mean for the difference in legibility was $-0.1$, and a $95$% *confidence* interval was from $-0.8$ to $0.6$.
+   Using the standard equipment, the smallest value recorded for legibility was $19$, and the largest was $34$, so the *range* was $15$.
+  
+
+
+
+
+## Answer: TW 9 tutorial {#Lecture9Answers}
+
+
+
+
+### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
+
+1. **Repeated-measures**:
+   Every subject has two TWMT recorded.
+2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+3. Each measurement is measured after and before on the same subject.
+4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+   (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
+   **Importantly, the direction should be stated somewhere.**)
+5. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
+6. $\bar{d} = 24.9$; $s_d=13.03372$.
+7. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623$.
+   This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+8. Almost impossible.
+   Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
+   Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
+9. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
+10. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245$m.
+11. We are $95$% confident that the population 2MWT *increases* by a mean amount between $16.7$ and $33.1$\ m.
+12. Either (or both) of these must be true:
+    (i) the population has a normal distribution,
+    and/or 
+    (ii) the sample size is large enough so the sample means have a normal distribution (i.e., larger than $25$).
+13. Since $n < 25$, we need to assume the population of differences has a normal distribution.
+    A stem plot suggests this is not unreasonable, so the sample means possibly have an approx.\ normal distribution.
+14. (Recall we haven't done hypothesis testing in this context yet!)
+    Looks pretty likely that the 2MWT distances are higher after receiving the implant.
+
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+*Null* hypotheses:
+
+* Is the mean length of a $12$-inch sub really $12$ inches?  
+  $\mu = 12$ 
+* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
+* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
+  $p_{\text{white}} = p_{\text{wholemeal}}$
+* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
+
+*Alternative* hypotheses:
+
+* Is the mean length of a $12$-inch sub really $12$ inches? 
+  $\mu \ne 12$
+* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+  $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$
+* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?  
+  $p_{\text{white}} \ne p_{\text{wholemeal}}$
+* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
+  $\mu_{\text{white}} > \mu_{\text{wholemeal}}$
+
+
+
+### Answers for Sect.\ \@ref(CIRatLifetimes) {.unlisted .unnumbered}
+
+1. The two groups are completely different.
+1. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
+2. The 95% CI is the *bottom* one: from $223.34$ to $346.13$ days.
+3. The best of these is Option\ (e)... but in practice, we usually think about CIs in terms of Option\ (d).
+4. The CI explanation can be improved by (i)\ indicating *which* diet leads to larger average lifetimes; and (ii)\ providing sample summary info. Here is a better answer:  
+   
+   "The $95$\% confidence interval for the difference between the populations mean lifetimes of rats on the restricted diet (sample mean: $968.8$ days; std dev: $284.6$ days) and on the free-eating diet ($684.0$ days; std dev: $134.1$ days) is that rats on a restricted diet live between $223.34$ and $346.13$ days longer."
+5. Since the sample is large, we must have that the two samples are independent (which is reasonable).
+   (**The figure is not needed.**)
+6. The boxplots show the variation in the lifetimes of individual rats.
+   The error bar chart displays the variation that the sample means would be expected to show from sample to sample. 
+ 
+   
+   
+   
+   
+   
+### Answers for Sect.\ \@ref(TestsPairedImplants) {.unlisted .unnumbered}
+
+1. Before and after measurement on same amputee.\tightlist
+2. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+   $H_1$: $\mu_d > 0$ the way I defined differences.  
+
+   We are explicitly seeking to test for an *improvement* (i.e., walk longer distances), so the test is one-tailed.
+   (Differences in the other direction are also OK; the signs of the differences and some other subsequent things change.)
+3. The standard error of the mean is the standard deviation of the sample mean increase in walking distance, a measurement of how precisely the sample mean difference estimates the population mean difference.
+4. Mean increase: $\bar{x} = 24.9$\ m; Standard deviation: $s = 13.034$\ m; standard error: $4.122$\ m.
+5. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+   (The one-tailed $P$ less than $0.0005$ from tables.)
+   The differences have just been defined in the opposite directions.
+   (Notice the $P$-values are the same.)
+6. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $15.58$ to $34.224$m).
+7. The population of differences has a normal distribution, and/or $n > 25$ or so.
+8. Since $n < 25$, must assume the population of differences has a normal distribution.
+   The histogram suggests this is not unreasonable.
+
+
+
+
+
+### Answers for Sect.\ \@ref(CIPairedWaves) {.unlisted .unnumbered}
+	
+
+1. Because each method is used in each sea state.
+3. $\bar{d} = 0.06167$; $s_d = 0.2901$. 
+   The mean difference is positive: Method\ 1 measurements slightly higher (on average) than Method\ 2.
+4. $\text{s.e.}({\bar{d}}) = s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
+   $\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
+5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
+6. Since $n < 25s$, we require that the *differences* in the population have a normal distribution.
+7. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal.
+8. Since the CI includes zero, possibly the population mean difference could be zero.
+
+
+
+
+### Answers for Sect.\ \@ref(CIPairedRunners) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerCI.Rmd'}
+```
+
+
+1. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+2. Each plasma $\beta$ measurement is measured after and before on the same runner.
+3. The *direction* of the difference should be clearly stated.
+4. $\bar{d} = 18.736$; $s_d = 8.3297$
+5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
+   This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+6. Almost impossible.
+   The sample means would vary every time we took a sample, around the true mean difference with a normal distribution having a standard error of about $2.51$.
+   Since we don't know the population mean, the best we can say is that the sample mean will vary about our best guess of the population mean. 
+   In other words, the sample means will vary around $8.33$ with a standard deviation of about $2.51$. 
+7. $18.736\pm (2\times 2.5115)$, or $18.736\pm5.023$, or from $13.7$ to $23.8$ pmol/litre.
+8. We are 95% confident that the population $\beta$ plasma concentration *increases* by a mean amount between $13.7$ and $23.8$ pmol/litre, during the fun run.
+9. Either (or both) of these must be true: the population has a normal distribution, and/or the sample size is large enough so that the sample means have a normal distribution, so about larger than $25$.
+10. Since $n < 25$, we need to assume the population of differences has a normal distribution.
+    The stem-and-leaf plot suggests this is not unreasonable, so the sample means quite possibly have an approx. normal distribution:
+11.  Looks likely that the plasma $\beta$ concentrations are higher after the race.
+12. $n = (2\times 8.3297\div 2.5)^2 = 43.45$, so need data from $44$ runners.
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Answer for Sect.\ \@ref(TwoMeansHurricanes) {.unlisted .unnumbered}
+
+
+No evidence  of a difference in the mean number fatalities between female- and male-named hurricanes.
+
+
+
+
+### Answers for Sect.\ \@ref(TwoMeansBatteriesHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-BatteryHT.Rmd'}
+```
+
+
+
+1. $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$, which can also be expressed in words. 
+   Two-tailed.
+2. The precision with which the sample mean battery life estimate the population mean battery life.
+3. Use the second row (though it matters little here): $t = -0.486$; $\text{df} = 13.1$ and $P = 0.635$.
+4. The sample presents no evidence ($t = -0.486$; $\text{df} = 13.0$ and $P = 0.635$) of a difference in the mean lifetimes (mean difference: $-0.0544$; s.e.: $0.112$) of the batteries in the population.
+   ($95$% CI for the difference from $-0.30$ to $0.19$mins in favour of Ultracell.)
+5. Both population have a normal distribution, and/or $n > 25$ or so.
+6. Since $n < 25$ for both samples, we must assume the populations both have a normal distribution.
+   Stem-and-leaf plots aren't convincing (possible outliers) but the samples are too small to know anything for sure.
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(PizzaHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
+```
+
+1. Observational.
+2. Relational.
+3. Two completely separate samples are compared.
+4. $-0.774$ to $-0.560$ inches (differences are Dominos less Eagle Boys).
+5. The 95% CI for the difference in population means pizza diameters between EB and DOM pizzas from $0.774$ to $0.590$ inches, larger for EB.
+6. Since the sample sizes are large (both $125$), we *do not require that the populations have normal distributions*.
+7. The sample sizes are large ($n = 125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+8. Probably yes. 
+   Amount of topping on the pizza? 
+   Which *tastes* better? 
+   Whether the samples were randomly selected or not?
 
 
 
@@ -1695,56 +1590,6 @@ The size of the OR is not the issue here:  if the sample OR is statistically dif
 ## Answer: TW 10 tutorial {#Lecture10Answers}
 
 
-### Answers for Sect.\ \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
-
-1. The two groups are completely different; cannot determine how to pair. 
-   Indeed, the sample sizes are different.
-   Each rat, of course, must be in just one group (they measure lifetimes!).\tightlist
-   It is paired: For each unit of analysis, there are two observations.
-2. The null hypothesis is that there is no difference in the mean lifetimes of the two groups of rats.
-   In symbols (where $\mu$ represents the mean lifetime in the population):  
-   
-   $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
-3. If we took many samples of the same size from the population, the mean differences would vary from sample to sample.
-   The 'standard error of the difference' tells us how much the sample mean will vary from sample to sample.
-   It is is the standard deviation of this variation in sample means.
-4. The variation in the sample means is small: The population means are estimated quite precisely. The means look different.
-5. Either sampling variation, or the diets really are different.
-6. We always use the not-equal variance (Welch's test) row: $t = 9.161$; $\text{df} = 154.94$; one-tailed $P < 0.0005$ (test is one-tailed).
-   The evidence contradicts $H_0$.
-7. The differences are defined as the *Mean restricted-diet lifetime* minus the *Mean Free-eating diet lifetime*; we see this as the (poorly-labelled) "Mean difference" column is positive, and the only way to get this value positive is to subtract them in this order.
-8. Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: 968.75 days; std. dev.: $284.6$) is greater than rats on a free-eating diet ($684.01$ days; $134.1$) ($95$% CI for the difference from $223.3$ to $346.1$ days).
-9. The two samples are independent; the sample means have a normal distribution, so: the population has a normal distribution, and/or $n > 25$ or so.
-10. The sample sizes here are quite large so we should be OK, as the Figure suggests not very severe non-normality.
-11. Rats from the same litter are likely to be similar to each other.
-   The litter would probably be the unit of analysis then, not the individual rat.
-
-
-### Answers for Sect.\ \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-*Null* hypotheses:
-
-* Is the mean length of a $12$-inch sub really $12$ inches?  
-  $\mu = 12$ 
-* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
-  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
-* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
-  $p_{\text{white}} = p_{\text{wholemeal}}$
-* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
-  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
-
-*Alternative* hypotheses:
-
-* Is the mean length of a $12$-inch sub really $12$ inches? 
-  $\mu \ne 12$
-* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
-  $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$
-* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?  
-  $p_{\text{white}} \ne p_{\text{wholemeal}}$
-* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
-  $\mu_{\text{white}} > \mu_{\text{wholemeal}}$
 
 
 
@@ -1885,8 +1730,6 @@ if( knitr::is_html_output() ) {
 
 
 
-
-
 ### Answers for Sect.\ \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
 
 **1.** Two-sample $t$-test.
@@ -1894,6 +1737,216 @@ if( knitr::is_html_output() ) {
 **3.** A paired $t$-test.
 **4.** A two-sample $t$-test.
 **5.** None of the other options are correct: requires regression or correlation.
+
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
+
+Some answers embedded.
+
+1. See Table\ \@ref(tab:MaturationDataANS).
+1. Use a side-by-side barchart, for example, if necessary.
+1. Odds of boys  maturing late: $352 \div (2\,864 - 352) =  0.1401$: boys are $0.1401$\ times more likely to mature late than not. 
+1. Odds of girls  maturing late: $336 \div (2\,328) =  0.1443$: girls are $0.1443$\ times more likely to mature late than not. 
+1. Hence, to compare boys to girls: $0.1401 \div 0.1443 = 0.971$.
+1. The **parameter** of interest is the *population odds ratio* of late maturing, comparing boys to girls.
+1. From software: OR is $0.971$, and $95$%\ CI is from $0.828$ to\ $1.139$.
+1. See Table\ \@ref(tab:MaturationSummaryANS).
+1, The difference could be explained by sampling variation, or because of a real difference...
+
+```{r echo=FALSE, MaturationDataANS}
+MaturationData <- array( dim = c(3, 3) )
+colnames(MaturationData) <- c("Matured late", 
+                              "Did not mature late", 
+                              "Total")
+rownames(MaturationData) <- c("Males",
+                              "Females", 
+                              "Total")
+
+MaturationData[3, 3] <- 2864 + 2664
+MaturationData[1, 1] <- ""
+MaturationData[1,3] <- 2864
+MaturationData[2,3] <- 2664
+MaturationData[3,1] <- 352+336 
+MaturationData[3,2] <- (2864 - 352) + (2664 - 336)
+
+MaturationData[1,1] <- 352
+MaturationData[2,1] <- 336
+MaturationData[1,2] <- 2864 - 352
+MaturationData[2,2] <- 2664 - 336
+   
+if( knitr::is_latex_output() ) {
+   kable(MaturationData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption = "Maturation and gender",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  
+  kable(MaturationData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Maturation and gender",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+
+```{r echo=FALSE, MaturationSummaryANS}
+MaturationSumm <- array( dim = c(3, 3) )
+colnames(MaturationSumm) <- c("Percentage maturing late", 
+                              "Odds  maturing late", 
+                              "Sample size")
+rownames(MaturationSumm) <- c("Males", 
+                              "Females", 
+                              "Odds ratio")
+
+MaturationSumm[3,3] <- "626"
+MaturationSumm[3, 1] <- ""
+MaturationSumm[3, 3] <- ""
+  
+MaturationSumm[1, 3] <- 2864 
+MaturationSumm[2, 3] <- 2664 
+  
+#  MaturationSumm[3,1] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=47 )
+#  MaturationSumm[3,2] <- webex::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
+
+MaturationSumm[1, 1] <- round(352/2864*100, 1)
+MaturationSumm[2, 1] <- round(336/2664*100, 1)
+
+MaturationSumm[1, 2] <- round(352/2512, 4)
+MaturationSumm[2, 2] <- round(336/2328, 4)
+
+MaturationSumm[3, 2] <- round( (352/2512)/(336/2328), 5)
+   
+if( knitr::is_latex_output() ) {
+   kable(MaturationSumm,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption = "Maturation and gender: Numerical summary",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(MaturationSumm,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Maturation and gender: Numerical summary (Enter percentages to one decimal place. Enter odds and odds ratio to three decimal places)",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+
+
+### Answers for Sect.\ \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthSS.Rmd'}
+```
+
+
+
+$n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
+
+
+
+
+
+### Answers for Sect.\ \@ref(OddsGMfood) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
+```
+
+1. Odds HIE: $263/151 = 1.742$. HIE is $1.74$ times more likely to be for GM foods than against.
+1. Odds LIE: $258\div222 = 1.162$. LIE is $1.16$ times more likely to be for GM foods than against.
+1. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
+   The odds of HIE being for GM food $1.5$ times the odds that a LIE for GM foods.
+1. From the sample, we estimate the OR in the population to be between $1.145$ to $1.961$.
+   (Loosely, though technically incorrect: the true OR is likely to be between $1.145$ and $1.961$.) 
+   Importantly, this interval does not include $1$.
+
+
+
+
+
+
+### Answers for Sect.\ \@ref(HT-TwoMeans-A) {.unlisted .unnumbered}
+
+1. The two groups are completely different; cannot determine how to pair. 
+   Indeed, the sample sizes are different.
+   Each rat, of course, must be in just one group (they measure lifetimes!).\tightlist
+   It is paired: For each unit of analysis, there are two observations.
+2. The null hypothesis is that there is no difference in the mean lifetimes of the two groups of rats.
+   In symbols (where $\mu$ represents the mean lifetime in the population):  
+   
+   $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
+3. If we took many samples of the same size from the population, the mean differences would vary from sample to sample.
+   The 'standard error of the difference' tells us how much the sample mean will vary from sample to sample.
+   It is is the standard deviation of this variation in sample means.
+4. The variation in the sample means is small: The population means are estimated quite precisely. The means look different.
+5. Either sampling variation, or the diets really are different.
+6. We always use the not-equal variance (Welch's test) row: $t = 9.161$; $\text{df} = 154.94$; one-tailed $P < 0.0005$ (test is one-tailed).
+   The evidence contradicts $H_0$.
+7. The differences are defined as the *Mean restricted-diet lifetime* minus the *Mean Free-eating diet lifetime*; we see this as the (poorly-labelled) "Mean difference" column is positive, and the only way to get this value positive is to subtract them in this order.
+8. Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: 968.75 days; std. dev.: $284.6$) is greater than rats on a free-eating diet ($684.01$ days; $134.1$) ($95$% CI for the difference from $223.3$ to $346.1$ days).
+9. The two samples are independent; the sample means have a normal distribution, so: the population has a normal distribution, and/or $n > 25$ or so.
+10. The sample sizes here are quite large so we should be OK, as the Figure suggests not very severe non-normality.
+11. Rats from the same litter are likely to be similar to each other.
+   The litter would probably be the unit of analysis then, not the individual rat.
+
+
+
+
+### Answers for Sect.\ \@ref(PvalueStatement) {.unlisted .unnumbered}
+
+The difference in odds is statistically significant, so **either 2. or 4. is consistent with this conclusion**... and we cannot tell which.
+The size of the OR is not the issue here:  if the sample OR is statistically different from\ $1$, it does not tell us much about the population OR except that it is (most likely) not one.
+
+2. The odds are quite different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one. 
+   (This likely has a smaller sample size.)
+3. The odds are a little different, but not statistically significant, so chance cannot be ruled out as the reason why the OR is different from one.
+
+
 
 
 
@@ -1976,42 +2029,11 @@ if( knitr::is_html_output() ) {
 
 
 
-### Answer for Sect.\ \@ref(TwoMeansHurricanes) {.unlisted .unnumbered}
-
-
-No evidence  of a difference in the mean number fatalities between female- and male-named hurricanes.
-
-
-
-
-
 ### Answer for Sect.\ \@ref(AssumptionsGraphs) {.unlisted .unnumbered}
 
 
 The sample sizes are both much *larger* than $25$, so neither sample needs to be normally distributed for **statistical validity**: the *sample means* will have an approximate normal distribution.
 **None of the graphs are needed.**
-
-
-
-
-
-
-### Answers for Sect.\ \@ref(TwoMeansBatteriesHT) {.unlisted .unnumbered}
-
-```{r, child = if (knitr::is_html_output()) 'Solution-BatteryHT.Rmd'}
-```
-
-
-
-1. $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$, which can also be expressed in words. 
-   Two-tailed.
-2. The precision with which the sample mean battery life estimate the population mean battery life.
-3. Use the second row (though it matters little here): $t = -0.486$; $\text{df} = 13.1$ and $P = 0.635$.
-4. The sample presents no evidence ($t = -0.486$; $\text{df} = 13.0$ and $P = 0.635$) of a difference in the mean lifetimes (mean difference: $-0.0544$; s.e.: $0.112$) of the batteries in the population.
-   ($95$% CI for the difference from $-0.30$ to $0.19$mins in favour of Ultracell.)
-5. Both population have a normal distribution, and/or $n > 25$ or so.
-6. Since $n < 25$ for both samples, we must assume the populations both have a normal distribution.
-   Stem-and-leaf plots aren't convincing (possible outliers) but the samples are too small to know anything for sure.
 
 
 

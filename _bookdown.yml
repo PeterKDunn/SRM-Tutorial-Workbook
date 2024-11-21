@@ -11,18 +11,18 @@ delete_merged_file: no
 rmd_files:
 - index.Rmd
 - 01-TW1-Tutorial.Rmd
-#- 02-TW2-Tutorial.Rmd
+- 02-TW2-Tutorial.Rmd
 - 03-TW3-Tutorial.Rmd
 - 04-TW4-Tutorial.Rmd
-# - 05-Lecture5-Tutorial.Rmd
-# - 06-Lecture6-Tutorial.Rmd
-# - 07-Lecture7-Tutorial.Rmd
-# - 08-Lecture8-Tutorial.Rmd
-# - 09-Lecture9-Tutorial.Rmd
-# - 10-Lecture10-Tutorial.Rmd
-# - 11-Lecture11-Tutorial.Rmd
-#- 12-Lecture12-Tutorial.Rmd
-#- 20-Answers.Rmd
+- 05-TW5-Tutorial.Rmd
+- 06-TW6-Tutorial.Rmd
+- 07-TW7-Tutorial.Rmd
+- 08-TW8-Tutorial.Rmd
+- 09-TW9-Tutorial.Rmd
+- 10-TW10-Tutorial.Rmd
+- 11-TW11-Tutorial.Rmd
+- 12-TW12-Tutorial.Rmd
+- 20-Answers.Rmd
 #- 21-Appendix.Rmd
 #- 22-ImageCredits.Rmd
 #- 23-TutorInfoContainer.Rmd

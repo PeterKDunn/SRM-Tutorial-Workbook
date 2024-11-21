@@ -1,0 +1,12 @@
+The formula for the **standard error for the sample proportion** is:  
+$$
+  \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
+$$
+
+In this formula:
+
+1. What does $\hat{p}$ represent?
+2. What does $n$ represent?
+3. What does "$\text{s.e.}$" stand for?
+
+

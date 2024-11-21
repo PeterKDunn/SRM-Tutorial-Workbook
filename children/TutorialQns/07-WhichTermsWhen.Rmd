@@ -1,0 +1,37 @@
+Consider the terms in Table\ \@ref(tab:Terms):
+Which ones apply to $\mu$?
+Which ones apply to $\bar{x}$?
+
+
+
+
+
+```{r Terms, echo=FALSE}
+Terms <- array( "", dim = c(6, 2))
+
+colnames(Terms) <- c("Applies to $\\mu$",
+                     "Applies to $\\bar{x}$")
+
+rownames(Terms) <- c("Has a standard error",
+                     "Refers to the population",
+                     "Refers to the sample",
+                     "Value is known before the sample is taken",
+                     "Value is unknown until sample is taken",
+                     "Value is estimated")
+
+
+
+if( knitr::is_latex_output() ) {
+  kable(Terms,
+        format = "latex",
+        booktab = TRUE,
+        align = c("r", "r"),
+        escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+        linesep = c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
+        caption = "Which terms apply when? Tick the appropriate places in the table") %>%
+    kable_styling(full_width = FALSE) %>%
+    kable_styling(full_width = FALSE) %>%
+    row_spec(0, bold = TRUE)
+}
+```
+

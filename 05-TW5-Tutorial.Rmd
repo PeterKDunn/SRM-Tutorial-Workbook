@@ -19,10 +19,12 @@ output:
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter 14 (Relationships: quantitative data comparisons within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
-* [Chapter 15 (Relationships: quantitative data comparisons between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
-* [Chapter 16 (Relationships: quantitative data correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
-* [Chapter 17 (More about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+* [Chapter 13 (Comparing quantitative data within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
+* [Chapter 14 (Comparing quantitative data between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
+* [Chapter 16 (Correlations between quantitative variables)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (More details about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+
+Take careful note of which chapters are covered in this tutorial!
 
 
 
@@ -383,14 +385,14 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 
 `r if (knitr::is_html_output()) '<!--'`
 
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="85%"}
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="95%"}
 knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 ```
 `r if (knitr::is_html_output()) '-->'`
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q5.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-WhichSummaryMeasures.Rmd'}
 ```
 
 
@@ -473,7 +475,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 <iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect4-Q9.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectCorrectGraph.Rmd'}
 ```
 
 
@@ -531,7 +533,7 @@ In addition, draw a rough example of what the graph may look like.
 <iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q6.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectingGraphs.Rmd'}
 ```
 
 
@@ -589,7 +591,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect3-Q9.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectingGraphs2.Rmd'}
 ```
 
 

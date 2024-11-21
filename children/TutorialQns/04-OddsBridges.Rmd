@@ -1,0 +1,26 @@
+A study [@data:montalvo2020:retrospective] examined $433$ bridge collapses.
+Of these $433$ bridges, $36$ bridges collapsed due to deterioration;
+of these $433$ bridges, $82$ bridges collapsed due to a collision.
+
+
+1. The **percentage** of bridges collapsing due to deterioration is _____ divided by _____, or $8.3$%.
+2. The **odds** of a bridge collapsing due to deterioration is _____ divided by _____, or $0.091$.
+3. The odds of a bridge collapsing due to deterioration is $0.091$. 
+   What does this mean?
+
+    a. For every $100$ bridges that do collapse due to deterioration, about $9.1$ bridges do not collapse.
+    b. For every $100$ bridges that do not collapse due to deterioration, about $9.1$ bridges do collapse.
+    c. About $9$% of bridges collapse due to deterioration.
+    d. About $90$% of bridges collapse due to deterioration.
+
+4. The percentage of bridges **not** collapsing due to deterioration is _____ divided by _____, or $91.7$%.
+5. The odds of a bridge **not** collapsing due to deterioration is _____ divided by _____, or $11.0$.
+6. The percentage of bridge collapses due to collisions is _____ divided by _____, or $18.9$%.
+7. The odds of a bridge collapsing due to collisions is _____ divided by _____, or $0.234$.
+8. True or false: The odds of an event cannot be larger than one.
+9. True or false: The odds of an event cannot be smaller than one.
+10. Which **one** of the following statements is true?
+
+    a. Percentages and odds are the same thing.
+    b. Percentages must be whole numbers.
+    c. Odds cannot be negative
