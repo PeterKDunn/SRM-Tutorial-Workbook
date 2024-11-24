@@ -1,6 +1,6 @@
 Exposure to lead has adverse health impacts as lead is toxic to the heart, bones, kidneys and other organs and tissues.
-Cincinnati, Ohio (in the USA) has a history of paediatric lead poisoning from paint, dust and soil.
-One study [@data:dietrich:leadexposure] examined the impact of lead exposure on infants in this area.
+Cincinnati, Ohio (USA) has a history of paediatric lead poisoning from paint, dust and soil.
+@data:dietrich:leadexposure examined the impact of lead exposure on infants in this area.
 
 Read the *Abstract* of the research article below and select the best answer from the choices that follow.
 Then, discuss your answers with the class, and explain the reason for your choices.

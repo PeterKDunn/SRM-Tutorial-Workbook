@@ -49,7 +49,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Yes", 
                       answer = "No"))}`
-1.  What is the *Outcome* in this RQ?  
+1.  What is the *outcome* in this RQ?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "The amount of salt",
         						   answer = "The average amount of salt", 
@@ -119,24 +119,17 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 </div>
 
 
-A cafe owner doesn't believe that his customers can taste the difference between diet and regular colas.
-As a result, the cafe owner decides to conduct a study of his customers.
+A `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner doesn't believe that his customers can taste the difference between diet and regular colas.
+As a result, the owner decides to conduct a study of his customers.
 
-1. Two RQs that the cafe owner is considering are given below.
+1. Two RQs that the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner is considering are given below.
    Which do you prefer, and why?
     
     a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
-2. Make notes about how the cafe owner could answer the question using an **observational study**.  
-        
-   What would be the best type of observational study: using a forward direction (*cohort study*), a backward direction (case-control study), or non-directional (cross sectional)?
-3. Make notes about how the cafe owner could answer the question using an **experimental study**.  
-   What would be the best type of experimental study: true or quasi?
-4. List some **advantages** and **disadvantages** of the experimental and observational studies.  
-   List some **similarities** and **differences** between the two studies.  
-   
-   Which do you think would be the better study?
-   Why?
+1. Develop your own RQ to answer the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner's question.
+1. For your RQ, describe P, O, C and I (where relevant).
+1. Make notes about *how* the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner could answer the question.
 
 
 
@@ -152,11 +145,6 @@ As a result, the cafe owner decides to conduct a study of his customers.
 <!-- <div id="update"> (NOTE: Click the button above to save your answer)</div> -->
 
 
-
-
-
-
-
 ## Terminology {#UnderstandingTerminology1}
 
 Explain the *fundamental differences* between the following pairs of often-confused terms (Table\ \@ref(tab:SimilarTerms)), highlighting the important differences.
@@ -165,28 +153,28 @@ Explain the *fundamental differences* between the following pairs of often-confu
 Terms <- array( dim = c(8, 3))
 
 Terms[1, ] <- c("Hypothesis", 
-                "1", 
+                "Pair 1", 
                 "Research question") 
 Terms[2, ] <- c("Relational RQ", 
-                "2", 
+                "Pair 2", 
                 "Repeated-measures RQ") 
 Terms[3, ] <- c("Observational study", 
-                "3", 
+                "Pair 3", 
                 "Experimental study") 
 Terms[4, ] <- c("Quasi-experiment", 
-                "4", 
+                "Pair 4", 
                 "True experiment") 
 Terms[5, ] <- c("Response variable", 
-                "5", 
+                "Pair 5", 
                 "Explanatory variable") 
 Terms[6, ] <- c("Response variable", 
-                "6", 
+                "Pair 6", 
                 "Outcome") 
 Terms[7, ] <- c("Conceptual definition", 
-                "7", 
+                "Pair 7", 
                 "Operational definition")
 Terms[8, ] <- c("Unit of observation", 
-                "8", 
+                "Pair 8", 
                 "Unit of analysis")
 
 if( knitr::is_latex_output() ) {
@@ -241,20 +229,20 @@ include_graphics("Illustrations/pexels-nappy-936019.jpg")
 
 Consider the following scenario:
 
-> While at Cafe\ C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.
+> While at `r readr::parse_character( c("Café"), locale = locale(encoding = "UTF-8"))`\ C one day enjoying a small, organic, almond-milk, half-strength, decaffeinated latte (sometimes called a *Why-Bother*...), Nim sighed, 'Exams start next week.
 > I suppose we'll all start feeling stressed soon.'  
 > &nbsp;
 >
 > 'Ah,' Jane said, 'I had better buy more teabags then.'  
 > &nbsp;
 >
-> 'Tea bags? Why?'' asked Nim, not unreasonably.  
+> 'Tea bags? Why?' asked Nim, not unreasonably.  
 > &nbsp;
 >
-> 'Everyone knows that Earl Grey tea relaxes students...' said Jane, looking upwards then closing her eyes dreamily.   
+> 'Everyone knows that Earl Grey tea relaxes students...' said Jane, looking upwards then closing her eyes.   
 > &nbsp;
 >
-> 'How do you know?' Nim retorted, unintentionally aggressive.  
+> 'How do you know?' Nim said, unintentionally aggressive.  
 > &nbsp;
 >
 > 'It *does*,' snapped Jane.
@@ -266,17 +254,17 @@ Consider the following scenario:
 Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
 1. Nim needs to determine a *population* to study.
-   Which of these would be a useful and practical population to use? 
-   Or is there a different population that is 'better' to use?  
-   Explain your reasoning.
+   Which of these would be a useful and practical population to use?
+   Or is there a different population that is 'better' to use?
+   Explain.
     a. All university students.
     b. Female university students about to do an exam.
     c. UniSC students.
     d. Queensland university students.      	 
 
-2. Identify an *outcome* that Nim can measure to answer the research question.  
+2. Identify an *outcome* that Nim can measure to answer the research question.
    Justify your answer.
-3. Which of these *comparisons* do you think Nim should use? 
+3. Which of these *comparisons* do you think Nim should use?
    Why?
     a. Between drinking Earl Grey tea and coffee.
     b. Between drinking Earl Grey tea and black (ordinary) tea.
@@ -284,11 +272,12 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
     d. Between exam time and other times of the semester.
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
-5. Construct a well-worded *relational* research question *with* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
+5. Construct a well-worded *relational* research question *with an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
 6. *Briefly* describe how to set up an *experimental* study for answering your proposed research question.
-7. Construct a well-worded *relational* research question *without* an *intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
+7. Construct a well-worded *relational* research question *without an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
 8. *Briefly* describe how to set up an *observational* study for answering your proposed research question.
-9. List any necessary operational and conceptual definitions. (You do not need to *give* the definitions.)
+9. List any necessary word or terms that need operational or conceptual definitions. 
+   (You do not need to *give* the definitions.)
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
 
 
@@ -305,10 +294,10 @@ include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 `r if (knitr::is_latex_output()) '-->'`
 
 
-Bamboo is a fast-growing, strong grass often used for green building practices.
+Bamboo is a fast-growing, strong grass often used for environmentally-friendly building practices.
 A small research study explored the hardness of bamboo when used as flooring material.
 
-The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to a depth of half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
@@ -346,7 +335,7 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-1. What is the unit of analysis: The test, the board, each measurement, kilonewtons, or something else? 
+1. What is the unit of analysis: the test, the board, each measurement, kilonewtons, or something else? 
    Explain your answer.
 2. How many units of analysis are there?
 3. How many units of observation are there?
@@ -412,7 +401,7 @@ Critique the following research questions, outlining how and why they can be imp
 4. Among zoo animals, is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
 5. Is the average reaction time related to gender?
 
-What terms might need defining for each RQ?
+What words or terms might need defining for each RQ?
 
 
 

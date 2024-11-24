@@ -119,7 +119,7 @@ That covers a lot of good territory really...
 ### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-One way to manage this: arrange students into groups, and have each group discuss Parts\ 1, 2 and\ 3 separately.
+One way to manage this: arrange students into groups, and have each group discuss the answers separately.
 Then have each group share their answer with the class and discuss.
 	
 Or: have one person from each of Group\ 1, 2 and\ 3 form new groups (all containing someone from each group) to discuss the parts.

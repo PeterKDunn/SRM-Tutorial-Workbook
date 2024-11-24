@@ -10,10 +10,9 @@ Read the following information from the research article (p.\ 2, 3):
 > Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus.  
 > &nbsp;
 >
-> We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone.
-
-
-> This allowed for the naturalistic observations to be made by research personnel without the knowledge of the subjects walking below who remained anonymous throughout the entirety of the study. 
+> We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone [...]
+> &nbsp;  
+>
 > The walkway was straight, had limited ingress and egress, and was simple to navigate.  
 > &nbsp;
 >
@@ -27,8 +26,7 @@ Read the following information from the research article (p.\ 2, 3):
 > Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
 
 
-Then, answer the questions that follow.
-**Explain** the reason for your choices.
+Answer the questions that follow, **explaining** the reason for your choices.
 **Make sure you explain why the other options are incorrect.**
 
 1. Which one of these is most likely the *population* under study?

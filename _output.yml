@@ -40,6 +40,7 @@ bookdown::gitbook:
 bookdown::pdf_book:
   extra_dependencies: animate
   always_allow_html: no
+  link-citations: no
   includes:
     in_header:
     - latex/preamble.tex

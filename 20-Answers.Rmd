@@ -44,18 +44,14 @@ Some are fully worked, and some are only brief solutions.
  
 ### Answers for Sect.\ \@ref(FormingRQs) {.unlisted .unnumbered}
 
-1. Either is OK; they are just different.
-   Note the different way a study can be addressed.
-   But importantly: *neither RQ is actually helping answer the issue of the cafe owner!*
+1. *Neither RQ is actually helping answer the issue of the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner!*
    For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the test rating is the same).
-2. The cafe owner would *not allocate* drinkers to drink either diet or regular soft drinks, but just find those who were drinking either and ask them to rate the taste.
-   I guess a non-directional study (cross-sectional study) would be best.
-3. The cafe owner would need to allocate drinkers to either diet or regular.
-   Ideally, the drinkers would not know which they had consumed (really, that's next week's work).
-   Ideally, the drinks would be allocated at random to receive diet or regular (next week too).
-   Ideally a true experiment.
-4. Experimental would be better; fewer things out of the researchers control.
-   Besides, people buy what they like...
+1. One option: For my customers, what proportion can distinguish diet and regular colas?
+1. P: The customers.
+   O: The proportion that can distinguish regular ad diet colas.
+   C: None.
+   I NO
+1. Many options: give a randomly-select cola (some regular; some diet), and record if customers can correctly identify it.
 
 
 ### Answers for Sect.\ \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}

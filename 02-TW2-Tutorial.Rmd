@@ -26,7 +26,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-Consider this (qualitative) RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
+Consider this RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
 
 1. For this RQ, what is the *Population*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -40,13 +40,12 @@ Consider this (qualitative) RQ: 'What factors are preventing the adoption of hou
 		      "the sample is representative of all solar technologies",
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
-`r if (knitr::is_html_output()) '<!--'`
-   * the sample is representative of all households in the world
-   * the sample is representative of all solar technologies
-   * the sample is representative of all households in Santiago
-   * the sample is representative of all households in Chile
-`r if (knitr::is_html_output()) '-->'`
-
+`r if (knitr::is_latex_output()) {
+   * the sample is representative of all households in the world.
+   * the sample is representative of all solar technologies.
+   * the sample is representative of all households in Santiago.
+   * the sample is representative of all households in Chile.
+}
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
     What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(

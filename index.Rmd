@@ -31,9 +31,8 @@ knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}',
                                            fixed = TRUE)})
 ```
 
+
 # Preface {-}
-
-
 
 This book has been prepared for use with the book 
 `r if (knitr::is_latex_output()) {
@@ -69,14 +68,8 @@ However, some parts explicitly mention and refer to
 } else {
    '[jamovi](https://www.jamovi.org/)'
 }`
-[@Software:jamovi] and/or
-`r if (knitr::is_latex_output()) {
-   'SPSS'
-} else {
-   '[SPSS](https://www.ibm.com/products/spss-statistics) [@Software:SPSS]'
-}`,
-*output*.
-jamovi is *free* and is a little like SPSS.
+[@Software:jamovi]. 
+jamovi is *free*.
 
 
 ## Data sets {-}
@@ -85,46 +78,45 @@ Many of the data sets used in this book are available in the **R** package `SRMD
 
 
 
-## Chunks used in this book {-}
+## Call-outs used in this book {-}
 
-The chunks used in this book have meanings:
+The call-outs used in this book have meanings:
 
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-These chunks introduce the objectives for the sections of the book.
+These call-outs introduce the objectives for the sections of the book.
 :::
 
 
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-These chunks offer helpful information.
+These call-outs offer helpful information.
 :::
 
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This icon flags questions that have *video solutions* in the online book:
-A narrator works through the question, explaining the solution.
+This icon flags questions that have *video solutions* in the online book: a narrator works through the question, explaining the solution.
 :::
 
 
 :::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-These chunks highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
 :::
 
 
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These chunks highlight **optional** questions, that you might like to do in private study.
+These call-outs highlight **optional** questions, that you might like to do in private study.
 :::
 
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These chunks highlight drill questions, for practicing some of the mathematical computations.
+These call-outs highlight drill questions, for practicing some of the mathematical computations.
 :::
 
 :::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-These chunks highlight questions to be completed **before your tutorial**.
+These call-outs highlight questions to be completed **before your tutorial**.
 :::
 
 
@@ -144,9 +136,6 @@ Numerous other **R** packages were used, including:
 * The **kableExtra** package was used for nicer tables [@package:kableExtra].
 * Interactive online maps (e.g., Sect. \@ref(SamplingParking)) use the **leaflet** package [@package:leaflet].
 * Some data tables in the online version are displayed using the **DT** package [@package:DT].
-* Some plots use the **plotrix** package [@package:plotrix].
-* The NHANES data is provided by the **NHANES** package [@data:NHANES:Rpackage].
-* Some data are from the **GLMsData** package [@computing:GLMsData:Rpackage].
 * The **viridis** package is used for some colour specifications [@package:viridis] to make colours easier for those with colour-blindness to distinguish colours, and for better greyscale printing.
 * The **webexercises** package was used to create the interactive web exercises [@package:webex] (i.e., Quick Revision questions).
 
@@ -167,13 +156,6 @@ Other resources used include:
    '[**iconmonstr**](https://iconmonstr.com/)'
 }`,
  and are freely available.
-* The text folding (in the online version) was implemented by adapting advice
-  from 
-`r if (knitr::is_latex_output()) {
-   'StackOverflow.'
-} else {
-   '[StackOverflow](https://stackoverflow.com/questions/53810294/folding-general-text-in-r-bookdown).'
-}`,
 * The polling in the online book is provided by 
 `r if (knitr::is_latex_output()) {
    'Ferendum.'
@@ -211,6 +193,6 @@ In this book, you will learn to:
 
 ## How to cite this book {-}
 
-Peter K. Dunn (2024). *Scientific Research Methods: Tutorials*.
+Peter K. Dunn (2025). *Scientific Research Methods: Tutorials*.
 https://bookdown.org/pkaldunn/SRM-tutorials/index.html
 
