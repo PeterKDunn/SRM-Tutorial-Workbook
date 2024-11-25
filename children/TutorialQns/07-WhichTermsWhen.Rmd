@@ -9,8 +9,8 @@ Which ones apply to $\bar{x}$?
 ```{r Terms, echo=FALSE}
 Terms <- array( "", dim = c(6, 2))
 
-colnames(Terms) <- c("Applies to $\\mu$",
-                     "Applies to $\\bar{x}$")
+colnames(Terms) <- c("Applies to $\\mu$\\qquad",
+                     "\\qquad Applies to $\\bar{x}$")
 
 rownames(Terms) <- c("Has a standard error",
                      "Refers to the population",

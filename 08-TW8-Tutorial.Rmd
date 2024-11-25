@@ -20,7 +20,7 @@ In this chapter, you will learn and practice the content associated with these c
 
 
 
-## Quick revision {#QuickRevision-Tutorial9}
+## Quick revision {#QuickRevision-Tutorial8}
 
 
 ::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
@@ -40,6 +40,10 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
    True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
+1. Hypotheses should be constructed without any knowledge of the data. 
+   True or false?  
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( TRUE)}`
 :::
 
 
@@ -92,8 +96,8 @@ According to
 }`
 $30$% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
 
-Suppose a group of 35 Swedish computer programmers includes $12$ that wear contact lenses.
-Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
+Suppose a group of $35$\ Swedish computer programmers at a large company includes $12$ that wear contact lenses.
+Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses at this company, compared to the general Swedish population?
 Conduct a test, then write a conclusion (including a CI).
 
 What assumptions are needed for this test to be statistically valid, and externally valid?
@@ -116,7 +120,7 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size $12$-inch large pizzas' [@mypapers:Dunn:PizzaSize].
 Eagle Boys' made the data from the campaign publicly available.
 
-A summary of the diameters of a sample of $125$ of their large pizzas is shown in Fig.\ \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig.\ \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+A summary of the diameters of a sample of $125$ of their large pizzas is shown in Fig.\ \@ref(fig:PizzaSoftwareHTjamovi).
 We would like to test the company's claim, and ask the RQ:
 
 > For Eagle Boys' pizzas, is mean diameter actually $12$ inches, or not?
@@ -124,11 +128,6 @@ We would like to test the company's claim, and ask the RQ:
 
 ```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
-```
-
-
-```{r PizzaSoftwareHTSPSS, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; SPSS, slightly edited", fig.align="center", out.width='70%'}
-knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 ```
 
 
@@ -145,11 +144,11 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
 1. Write a conclusion. 
    (The CI was found in the [Teaching Week\ 7 tutorial](#CIPizzas).)
 1. Is it reasonable to assume the *statistical* validity conditions are satisfied? 
-   (Fig. \@ref(fig:PizzaHistoHT) may, or may not, help.)
+   How does Fig. \@ref(fig:PizzaHistoHT) help, if at all?
 1. Do you think that the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boys' claim?
    Explain.
 
-```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.align="center", fig.width=6}
+```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diametet of $12$ inches.", fig.align="center", fig.width=6}
 data(PizzaSize)
 
 PS <- PizzaSize
@@ -162,6 +161,10 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
       ylab = "Number of pizzas",
       main = "Histogram of pizza diameters",
       xlim = c(10, 12.5))
+points(x = 12,
+       y = 0,
+       pch = 4,
+       cex = 1.5)
 ```
 
 
@@ -216,13 +219,12 @@ This question has a video solution in the online book, so you can hear and see t
 
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
-
 The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
 The data are given in Table \@ref(tab:GuessesHT).  
    
-The data were entered into software, producing the output in Fig.\ \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig.\ \@ref(fig:LengthsHallOutput1) (SPSS).
+The data were entered into software, producing the output in Fig.\ \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi).
 
 
 ```{r GuessesHT, echo=FALSE}
@@ -256,7 +258,7 @@ if( knitr::is_html_output() ) {
 2. Perform a hypothesis test to determine if the mean guess is the actual distance of $13.1$\ m.
    (The CI was computed in Sect.\ \@ref(RoomWidthCI).)
 3. Is it reasonable to assume the conditions are satisfied? 
-   The histogram in Fig.\ \@ref(fig:LengthsHallHistoHT) may (or may not) help.
+   How does Fig.\ \@ref(fig:LengthsHallHistoHT) help, if at all?
 4. Do you think students were very good at estimating the width of the hall using metric units?
 
 ```{r echo=FALSE}
@@ -265,24 +267,21 @@ GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13,
 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
 ```
 
-```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
+```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall. The actual width is shown by a cross.", fig.align="center", fig.width=6}
 hist( GuessM, 
       las = 1,
       main = "Histogram of guesses",
       xlab = "Guess (in metres)",
       col = plot.colour)
+points(x = 13.1,
+       y = 0,
+       pch = 4,
+       cex = 1.5)
 ```
 
 ```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
 include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
                     "SoftwareImages/LengthsHallOneSampleMetres-jamovi.png") )
-```
-
-
-
-```{r LengthsHallOutput1, echo=FALSE, fig.show="hold", fig.cap="SPSS numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("80%", "80%")}
-include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
-                    "SoftwareImages/LengthsHallOneSampleMetres.png") )
 ```
 
 

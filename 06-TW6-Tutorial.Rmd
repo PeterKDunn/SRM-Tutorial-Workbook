@@ -22,9 +22,9 @@ You will need to access the normal distribution tables for this tutorial.
 
 These Tables can be found in the textbook appendices, and in this document in
 `r if (knitr::is_html_output()){
-'Appendices\\ \\@ref(ZTablesOnline)\\ and \\@ref(ZTablesOnlineBackwards)).'
+  'Appendices\\ \\@ref(ZTablesOnline)\\ and \\@ref(ZTablesOnlineBackwards)), and \\@ref(ZTablesOnlineBackwards).'
 } else {
-'Appendices\\ \\@ref(ZTablesNEG), \\@ref(ZTablesPOS) and \\@ref(ZTablesOnlineBackwards)).'
+'Appendices\\ \\@ref(ZTablesNEG) and \\@ref(ZTablesPOS).'
 }`
 :::
 
@@ -47,7 +47,7 @@ The
 } else {
 '[Isuzu F-Series trucks](https://isuzu.com.au/)'
 }`
-are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the configuration). 
+are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the configuration; in 2024). 
 
 1. What is the $z$-score for the lower limit of $10.7$\ tonnes? \tightlist
 `r if( knitr::is_html_output() ) {
@@ -123,27 +123,20 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
    **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
    (Hint: Draw a picture!)
-5. Using [**the normal distribution tables**](#ZTablesOnline), together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
-6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of females $18$\ and over (using the **Fig.\ \@ref(fig:Ht2)**) are within what height range?
+5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
+6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
+   (For this group, the mean is $\mu = 161.4$\ cm, and the standard deviation is $\sigma = 6.7$\ cm, drawn from Fig.\ \@ref(fig:Ht).)
+7. For this part, we want to just look at *females $18$\ and over* again.
+   Answer the following questions.
 
+   a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171$\ cm.
+   b. What are the *odds* that a female $18$\ and over is *shorter* than $171$\ cm?
+   c. Compute the *percentage* of females $18$\ and over that are *taller* than $171$\ cm?
+   d. What are the *odds* that a female $18$\ and over is *taller* than $171$\ cm?
+   e. Compute the *percentage* of females $18$\ and over that are *between* 170 and $180$\ cm?
+   f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180$\ cm?
 
-```{r Ht2, echo=FALSE, fig.cap="Part of the ABS report on heights of females Australians", fig.align="center", out.width='55%'}
-knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-BOTTOM-Females.png")
-```
-
-
-7. For this part, we want to just look at **females over\ $18$**; from **Fig.\ \@ref(fig:Ht2)**, for this group, the mean is $\mu = 161.4$\ cm, and the standard deviation is $\sigma = 6.7$\ cm.
-Use this information to answer the following questions.
-
-a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171$\ cm.
-b. What are the *odds* that a female $18$\ and over is *shorter* than $171$\ cm?
-c. Compute the *percentage* of females $18$\ and over that are *taller* than $171$\ cm?
-d. What are the *odds* that a female $18$\ and over is *taller* than $171$\ cm?
-e. Compute the *percentage* of females $18$\ and over that are *between* 170 and $180$\ cm?
-f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180$\ cm?
-
-8. For this part, use the data in **Fig.\ \@ref(fig:Ht2)**.
-Approximately $20$% of females $18$\ and over are shorter than what height?
+8. Approximately $20$% of females $18$\ and over are shorter than what height?
 
 
 
@@ -241,6 +234,7 @@ CoinData[, 1] <- c("0.0 (0 heads)",
 
 if( knitr::is_latex_output() ) {
   CoinData[2, 1] <- "0.1 (1 head)\\phantom{0} "
+  
   kable(CoinData,
         format = "latex",
         longtable = FALSE,
@@ -288,9 +282,11 @@ if( knitr::is_html_output() ) {
 1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
 
 
-```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $100$ repetitions'}
+```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions'}
 set.seed(8412739)
-ProbHeads <- rbinom(400, size = 10, prob = 0.5)/10
+ProbHeads <- rbinom(400, 
+                    size = 10, 
+                    prob = 0.5)/10
 barplot( table(ProbHeads),
          space = 0,
          las = 1,

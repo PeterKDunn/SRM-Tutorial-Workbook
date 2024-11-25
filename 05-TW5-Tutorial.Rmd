@@ -34,7 +34,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 
 ::: {.webex-check .webex-box}
-An Australian study [@others:lunn:cida] compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
+@others:lunn:cida compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
 ```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island", fig.align="center", fig.width=5, fig.height = 3.25, out.width = '50%'}
@@ -212,9 +212,9 @@ CorData <- array( dim = c(1, 4) )
 
 
 if( knitr::is_latex_output() ) {
-   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$"
-   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$"
-   CorData[1, 3] <- "\\textbf{C}: $r = 0.75$"
+   CorData[1, 1] <- "\\textbf{A}: $r = -0.95$\\qquad\\qquad"
+   CorData[1, 2] <- "\\textbf{B}: $r = 0.12$\\qquad\\qquad"
+   CorData[1, 3] <- "\\textbf{C}: $r = 0.75$\\qquad\\qquad"
    CorData[1, 4] <- "\\textbf{D}: $r = 0.94$"
 
   kable(CorData,
@@ -380,7 +380,7 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
 
 
-`r if (knitr::is_latex_output()) 'The table is shown in	Fig.&nbsp;\\@ref(fig:Orthoses).'`
+`r if (knitr::is_latex_output()) 'The dat are shown in Fig.&nbsp;\\@ref(fig:Orthoses).'`
 
 
 `r if (knitr::is_html_output()) '<!--'`
@@ -461,6 +461,8 @@ The building is not *air* conditioned.
 1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
 2. In words, describe the relationship.
 3. Do the offices appear to provide a 'comfortable' temperature?
+4. Suppose we wanted to compare ground floor offices to top floor offices.
+   How many units of analysis would we have for this comparison?
 
 ```{r Paul2008Table1, echo=FALSE, fig.align="center", fig.cap="Table 1 from Paul et al. (2008)", out.width='75%'}
 include_graphics("ArticleImages/Paul2008Table1.png")
@@ -493,7 +495,7 @@ In addition, draw a rough example of what the graph may look like.
 
 1. Meadowfoam is a plant from which oil can be extracted from its flowers, so maximising flowering is important.  
    
-   A study [@data:seddigh:flowers] examined many individual meadowfoam plants and explored the relationship between the number of flowers each plant produced, and the number of hours of light each plant received.
+   @data:seddigh:flowers examined many individual meadowfoam plants and explored the relationship between the number of flowers each plant produced, and the number of hours of light each plant received.
    
    
 <iframe src="https://usc.h5p.com/content/1291014902846391579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -502,7 +504,7 @@ In addition, draw a rough example of what the graph may look like.
 2. Early in the $21$st century, moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
    However, some people thought this was unnecessary, as they believed that exposure to second-hand smoke was minimal.  
    
-   To study this phenomenon and to inform public policy, a New Zealand observational study [@data:Stafford2010:Alfresco] examined numerous al fresco (open air) restaurants.  
+   To study this phenomenon and to inform public policy, @data:Stafford2010:Alfresco examined numerous al fresco (open air) restaurants in New Zealand.  
    
    They collected two pieces of information from each individual restaurant: the number of smokers present at the restaurant at the time of observation (restaurants with no smokers; restaurants with one smoker; restaurants with two or more smokers), and the concentrations of fine particulate matter (PM)  measured in the restaurant air at the same time.
    The researchers wish to compare the PM concentrations across the three groups.
@@ -510,7 +512,7 @@ In addition, draw a rough example of what the graph may look like.
 <iframe src="https://usc.h5p.com/content/1291014905631385249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
    
    
-3. To understand the usage of hospital emergency departments (EDs) in Ireland, a study [@data:Curran2011.Stroke] examined many individual admissions.  
+3. To understand the usage of hospital emergency departments (EDs) in Ireland, @data:Curran2011.Stroke examined many individual admissions.  
    
    For each admission to the ED, they recorded if the waiting time was short (within $3$\ hours) or long ($3$ hours or longer), and the time of day of the admission (in three divisions: $9$am to $5$pm; $5$pm to midnight; and midnight to $9$am).
 
@@ -521,7 +523,7 @@ In addition, draw a rough example of what the graph may look like.
 
 4. Stress in children is not as well understood as stress in adults.  
 
-   To examine the issue, a study [@data:Saunders1999:Playfulness] studied many children, and for each child they determined each child's level of playfulness (measured using a quantitative scale called the *Test of Playfulness*) and each child's level of 'coping' (measured using a quantitative scale called the *Coping Inventory*).
+   To examine the issue, @data:Saunders1999:Playfulness studied many children, and for each child they determined each child's level of playfulness (measured using a quantitative scale called the *Test of Playfulness*) and each child's level of 'coping' (measured using a quantitative scale called the *Coping Inventory*).
 
 <iframe src="https://usc.h5p.com/content/1291014912258524999/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -561,15 +563,14 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 
 ### **Optional**: Evaluating graphics {#EvaluateGraphs1}
 
-An Australian study [@data:Jennings2012:Morphine] studied patients in severe pain and compared two different treatments to determine which to recommend.
-
+@data:Jennings2012:Morphine studied patients in severe pain and compared two different treatments to determine which to recommend.
 Patients were randomly allocated to receive one of two pain treatments: either morphine, or morphine and ketamine.
 
 The pain reduction for each patient was then measured (using the 'pain verbal numeric rating scale': $0$ is no pain, and $10$ the worst pain imaginable, such as Australia losing the Ashes), by taking pain measurements before and after giving the treatment.
 
 The graph in Fig.\ \@ref(fig:Jennings2012) summarises the data.
    
-```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department", out.width='80%'}
+```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department'", out.width='80%'}
 include_graphics("ArticleImages/Jennings2012-Fig2.png")
 ```
 

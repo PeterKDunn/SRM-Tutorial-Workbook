@@ -7,6 +7,6 @@ In this formula:
 
 1. What does $\hat{p}$ represent?
 2. What does $n$ represent?
-3. What does "$\text{s.e.}$" stand for?
+3. What does "$\text{s.e.}$" short for?
 
 

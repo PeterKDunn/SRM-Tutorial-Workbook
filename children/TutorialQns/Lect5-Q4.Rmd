@@ -4,23 +4,22 @@ Fill in the blanks in this piece of text, using words and phrases from Table\ \@
    
 
    
-> * The decision-making process begins with making an assumption about the population _____.
-> * This means we know what to _____ from the sample _____. 
-> * We never know exactly what value of the statistic we will see in the sample, because of _____. 
-> * But we can have some of idea of what values are reasonable to expect.
-> * Then we take the _____ (that is, we make the observations).
-> * Then we _____ what the sample statistic that we observed... to the sample statistic we expected.
-> * If what we observe is inconsistent with what was expected, then the the assumption is _____ true.
-> * However, if what we observe is _____ with what was expected, then the the assumption is _____ true.
+> * The decision-making process begins with making an assumption about the population __________.  
+> * This means we know what to __________ from the sample __________.   
+> * We never know exactly what value of the statistic we will see in the sample, because of __________.   
+> * But we can have some of idea of what values are reasonable to expect.  
+> * Then we take the __________ (that is, we make the observations).  
+> * Then we __________ what the sample statistic that we observed... to the sample statistic we expected.  
+> * If what we observe is inconsistent with what was expected, then the the assumption is __________ true.  
+> * However, if what we observe is __________ with what was expected, then the the assumption is __________ true.
 
 
 
 ```{r Words1Table, echo=FALSE}
-Words1 <- array( "", dim=c(3, 3))
+Words1 <- array( "", dim = c(2, 5))
 
-Words1[1, ] <- c("compare", "probably", "expect")
-Words1[2, ] <- c("unlikely to be", "sample", "parameter")
-Words1[3, ] <- c("sampling variation", "statistic", "consistent")
+Words1[1, ] <- c("compare", "probably", "expect", "sampling variation", "consistent")
+Words1[2, ] <- c("unlikely to be", "sample", "parameter", "statistic", "  ")
 
 
 if( knitr::is_latex_output() ) {
@@ -29,7 +28,8 @@ if( knitr::is_latex_output() ) {
       align = "c",
       booktab = TRUE,
       caption = "Words and phrases to insert") %>%
-  kable_styling(full_width=FALSE)
+    kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 ```
 
@@ -58,7 +58,8 @@ if( knitr::is_latex_output() ) {
       align = "c", 
       booktab = TRUE,
       caption = "Words and phrases to insert into the decision-making process") %>%
-  kable_styling(full_width=FALSE)
+    kable_styling(full_width = FALSE,
+                font_size = 10)
 }
 ```
 
@@ -185,13 +186,13 @@ textrect( pos[3,],
 Fill in the blanks in this piece of text,
 using words and phrases from Table\ \@ref(tab:Words3Table).
 
-> * Suppose I wish to see if a six-sided die is fair.
-> * My _____ would be that the proportion of odd numbers is $0.5$. 
->   This value is a ______.
-> * The _____ would be "the proportion of odd numbers in the sample".
-> * We would _____ that the value of the statistic would be near $0.5$ (but maybe not exactly $0.5$).
-> * If I roll the die $100$ times and observe **53** odd numbers, this seems _____ with what I would expect if the assumption was true.
-> * If I roll the die $100$ times and observe **zero** odd numbers, this seems _____ with what I would expect if the assumption was true.
+> * Suppose I wish to see if a six-sided die is fair.  
+> * My __________ would be that the proportion of odd numbers is $0.5$.
+>   This value is a __________.   
+> * The __________ would be "the proportion of odd numbers in the sample".  
+> * We would __________ that the value of the statistic would be near $0.5$ (but maybe not exactly $0.5$).  
+> * If I roll the die $100$ times and observe **53** odd numbers, this seems __________ with what I would expect if the assumption was true.  
+> * If I roll the die $100$ times and observe **zero** odd numbers, this seems __________ with what I would expect if the assumption was true.
 
 
 ```{r Words3Table, echo=FALSE}
@@ -207,8 +208,8 @@ if( knitr::is_latex_output() ) {
       booktab = TRUE,
       align = "c",
       caption = "Words and phrases to insert") %>%
-  kable_styling(full_width=FALSE)
-}
+  kable_styling(full_width = FALSE,
+                font_size = 10)}
 ```
 
 

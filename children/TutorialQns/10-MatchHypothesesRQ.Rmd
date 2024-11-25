@@ -1,6 +1,8 @@
-In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).
+In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis*.
+In this question, $p$ represents the proportion of subs shorter than $12$-inches one longer than $12$-inches as appropriate, and $\mu$ represents the mean length of a sub.
 
-Then, match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).
+
+Then, match the RQs with the appropriate *alternative hypothesis*.
 
 
 ```{r SubwayHyp, echo=FALSE}

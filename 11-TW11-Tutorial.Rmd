@@ -3,7 +3,7 @@
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
 
-* CIs and tests for correlation.
+* CIs and tests for correlation coefficients.
 * Linear equations and regression.
 * CIs and tests for regression coefficients.
 :::
@@ -28,12 +28,12 @@ The researchers found a correlation between the number of grams of mud on a vehi
 
 In autumn, the correlation coefficient was given as $r = 0.931$.
 
-1. In this study, what variable would be the $x$ variable? \tightlist  
+1. In this study, what variable would be the $x$-variable? \tightlist  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("The number of seeds", 
           answer = "The grams of mud",
           "The season") )}`
-1. In this study, what variable would be the $y$ variable?  
+1. In this study, what variable would be the $y$-variable?  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "The number of seeds", 
           "The grams of mud",
@@ -284,7 +284,7 @@ box()
    What does this mean?
    Do you think this value is meaningful?
 8. From the line you drew above, write down an *estimate* of the regression equation.
-9. Use the software output (Fig.\ \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi); Fig.\ \@ref(fig:CorollasPriceAgeCorrelationSPSS) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionSPSS) (SPSS)) relating the price (in thousands of dollars) to age to write down the regression equation.
+9. Use the software output (Fig.\ \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi)) relating the price (in thousands of dollars) to age to write down the regression equation.
 10. Using the software output, write down the value of\ $r$.
     Using this value of\ $r$, compute the value of\ $R^2$.
     What does this mean? 
@@ -295,18 +295,12 @@ knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
 ```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data", fig.align="center", out.width="60%"}
 knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
 ```
-```{r CorollasPriceAgeCorrelationSPSS, echo=FALSE, fig.cap="The SPSS correlation output, analysing the Corolla data", fig.align="center", out.width="60%"}
-knitr::include_graphics("SoftwareImages/CorollasSPSS-Correlation.png")
-```
-```{r CorollasPriceAgeRegressionSPSS, echo=FALSE, fig.cap="The SPSS regression output, analysing the Corolla data", fig.align="center", out.width="80%"}
-knitr::include_graphics("SoftwareImages/CorollasSPSS-Regression.png")
-```
 
 11. Use the regression equation from the software output to estimate the sale price of a Corolla that is $20$\ years old, and explain your answer. \tightlist
 12. Would a Corolla $6$-years-old advertised for sale at $15\,000 appear to be good value?
     Estimate the sale price and explain your answer.
 13. Using the software output, perform a suitable hypothesis test to determine if there is evidence that lower prices are associated with older Corollas.
-14. Compute an approximate $95$% confidence interval for the population slope (use the software output in  **Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi)** (jamovi) or  **Fig.\ \@ref(fig:CorollasPriceAgeRegressionSPSS)** (SPSS)).
+14. Compute an approximate $95$% confidence interval for the population slope (use the software output in **Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi)**).
 15. I could have drawn a scatterplot with Price on the vertical (up-and-down) axis and Year of manufacture on the horizontal (left-to-right) axis (**Fig. \@ref(fig:CorollasPriceYear)**).
     For this  graph:
 
@@ -410,10 +404,11 @@ include_graphics("ArticleImages/Kelly2005-Regression.png")
 ```
 
 1. Identify a possible research question being answered by the graph.
-2. Critique the graph
+2. Critique the graph.
 3. Compute the value of\ $r$, and interpret.
-4. For a stem age of $20$\ years, what does the regression model predict as the mean stem diameter?
-5. Interpret the meaning of the slope and intercept in the regression equation.
+4. What are the values of\ $b_0$ and\ $b_1$.
+5. For a stem age of $20$\ years, what does the regression model predict as the mean stem diameter?
+6. Interpret the meaning of the slope and intercept in the regression equation.
    Comment on these interpretations.
 
 

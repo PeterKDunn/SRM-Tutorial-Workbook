@@ -784,6 +784,8 @@ if( knitr::is_latex_output() ) {
              bold = TRUE) %>%
     row_spec(8, 
              bold = TRUE) %>%
+    row_spec(7, 
+             hline_after = TRUE) %>%
     kable_styling(full_width = FALSE,
                   font_size = 10)
 }
@@ -891,8 +893,12 @@ OdourTab[3, ] <- c(14, 14, 20, 48)
 OdourTab[4, ] <- c(12, 12, 53, 77)
 
 if( knitr::is_latex_output() ) {
-  kable(OdourTab,
+  kable(pad(OdourTab,
+            targetLength = c(2, 2, 2, 3),
+            decDigits = 0),
         format = "latex",
+        align = "c",
+        escape = FALSE,
         booktabs = TRUE,
         caption = "Data on the impact of a local industry") %>%
     column_spec(1, 
@@ -905,8 +911,12 @@ if( knitr::is_latex_output() ) {
                   font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(OdourTab,
+  kable(pad(OdourTab,
+            targetLength = c(2, 2, 2, 3),
+            decDigits = 0),
         format = "html",
+        escape = FALSE,
+        align = "c",
         booktabs = TRUE,
         caption = "Data on the impact of a local industry") %>%
     column_spec(1, 

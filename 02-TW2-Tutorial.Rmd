@@ -117,7 +117,7 @@ Patients who have suffered a stroke often have restricted limb movement, and reh
 
 Read the description (line breaks added for clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
 `r if (knitr::is_latex_output()){
-   'in Fig. \\@ref(fig:Crossword-Week2)'
+   'in Fig. \\@ref(fig:Crossword-Week2-Terminology)'
 } else {
    'below'
 }`

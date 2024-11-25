@@ -9,8 +9,8 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter\ 35 (Reporting and writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
-* [Chapter\ 36 (Reading and critiquing research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
+* [Chapter 39 (Writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
+* [Chapter 40 (Reading and critiquing research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
 
 
 
@@ -21,11 +21,10 @@ In this chapter, you will learn and practice the content associated with these c
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/andrew-buchanan-FJB1ZevpPfk-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
+<!--
+
+\includegraphics[width=0.4\linewidth,style="float:right; padding:10px"]{Illustrations/andrew-buchanan-FJB1ZevpPfk-unsplash} 
+-->
 
 
 
@@ -33,12 +32,12 @@ In a study of high strength--high ductile concrete [@data:Ranada2015:Concrete], 
 
 Under a strain rate of $10$\ s${}^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of $12.4$\ MPa with a **standard deviation** of $2.8$\ MPa.
 
-One student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm 2.8$\ MPa.
-Another student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from\ $6.8$ to\ $18.0$\ MPa. 
+One student computes the approximate $95$% CI for the mean first-crack strength as $12.4\pm 2.8$\ MPa.
+Another student computes the approximate $95$% CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from $6.8$ to $18.0$\ MPa. 
 
 1. *Both* students are incorrect. 
    Explain *why* the students are incorrect, and explain what they actually have calculated instead.
-2. Compute the correct (approximate) $95$%\ CI.
+2. Compute the correct (approximate) $95$% CI.
 
 
 
@@ -60,7 +59,7 @@ From a study comparing the mean distance an iron golf club and a wooden golf clu
 * **Summaries**:
 		  The paired means are different with the iron golf club being moderately higher than the wooden club
 * **Results (1)**:
-		  The $95$%\ CI for the difference in distance in metres (wooden verse iron) differes from $34.74$ -- $43.25$ further for shots with the Iron
+		  The $95$% CI for the difference in distance in metres (wooden verse iron) differes from $34.74$ -- $43.25$ further for shots with the Iron
 * **Results (2)**:
 	    Very strong evidence exists in the paired sample (paired $t = 18.406$; $n = 50$; two tailed; $P = 0.000$) of a population mean difference between the wooden and iron golf clubs...
 
@@ -88,75 +87,6 @@ From a study comparing resting heart rates between male and female SCI110 studen
 
 
 
-## Tests for ORs {#ORAirways}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-	
-A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices used for nontraumatic, out-of-hospital cardiac arrest patients, to evaluate the success and failure of insertion for various devices.
-
-The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
-
-```{r AirwayTab, echo=FALSE}
-AirwayTab <- array( dim =  c(2, 2))
-
-colnames(AirwayTab) <- c("Succeed", "Fail" )
-rownames(AirwayTab) <- c("Esophageal gastric tube airway (EGTA)",
-                         "Laryngeal mask (LM)")
-
-AirwayTab[1, ] <- c(545,   49)
-AirwayTab[2, ] <- c(2701, 315)
-
-if( knitr::is_latex_output() ) {
-  kable(AirwayTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "Data from the airways study") %>%
-  row_spec(0, bold = TRUE) %>%
-  column_spec(1, bold = TRUE) %>%
-    kable_styling(font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(AirwayTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "Data from the airways study") %>%
-  row_spec(0, bold = TRUE) %>%
-  column_spec(1, bold = TRUE)
-}
-
-```
-
-1. Define\ $p$ as the population proportion of successful attempts at insertion.
-   Write the hypotheses to be tested.
-2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs) (jamovi) or Fig.\ \@ref(fig:Tanagawa1998SPSSCrossTabs) (SPSS) to test the hypotheses.
-   Write a proper conclusion to communicate the results.
-3. Are the results likely to be statistically valid? Explain.
-4. The study was designed to enable medics to choose the best airway device.  
-
-   Would you recommend EGTA or LM?
-   Why?
-   Would you like any more information before making your choice?
-   Explain.
-
-
-
-```{r Tanagawa1998jamoviCrossTabs, echo=FALSE, fig.cap="The jamovi output for the table from Tanagawa and Shigematsu (1998)", fig.align="center", out.width="55%"}
-include_graphics("SoftwareImages/Tanagawa1998jamoviCrossTabs.png")
-```
-
-
-```{r Tanagawa1998SPSSCrossTabs, echo=FALSE, fig.cap="The SPSS output for the table from Tanagawa and Shigematsu (1998)", fig.align="center", out.width="80%"}
-include_graphics("SoftwareImages/Tanagawa1998SPSSCrossTabs-NoData.png")
-```
-
-
-
-
-
-
 ## Critiquing past students' reports 3 {#CritiqueReports3}
 
 The extracts below are from an actual student Project Report.
@@ -171,12 +101,17 @@ From a study comparing the size of lilly pilly leaves on different sides of the 
 * **Results**: The table of results in Fig.\ \@ref(fig:BreeTable).
 * **Methods**:
 			   Chose the $5$\ trees at the university that receive both easterly and westerly sunlight conditions
-			   The $4$th leaf on the branch will be chosen $5$\ times on each side of the tree
+			   The $4$th leaf on the branch will be chosen $5$ times on each side of the tree
 
 
-```{r BreeTable, echo=FALSE, fig.cap="A table from a student project", fig.align="center", out.width="70%"}
-knitr::include_graphics("ProjectImages/BreeTable.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/BreeTable} 
+
+}
+
+\caption{A table from a student project}(\#fig:BreeTable)
+\end{figure}
 
 
 
@@ -209,7 +144,7 @@ From a study comparing how well sports-playing students can estimate distance co
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture12Answers).)
+(Answers are available in Sect.\ \@ref(Lecture12Answers).)
 :::
 
 
@@ -228,9 +163,14 @@ Which tests would have been $t$-tests?
 Which tests would have been chi-square tests?
 What do the $P$-values tell you?
 
-```{r LowerLimbMortality, echo=FALSE, fig.cap="Summary data from a study of 5-year mortality rates among lower-limb amputees", fig.align="center", out.width="100%"}
-include_graphics("ArticleImages/Singh2016-Table1.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{ArticleImages/Singh2016-Table1} 
+
+}
+
+\caption{Summary data from a study of 5-year mortality rates among lower-limb amputees}(\#fig:LowerLimbMortality)
+\end{figure}
 
 
 
@@ -241,15 +181,20 @@ Mastering handwriting is an important skill for children to learn, but children 
 
 One study [@data:Ryan:CerebralPalsy] examined the effect of handwriting legibility of children with cerebral palsy using two different types of configuration of the school desks ('standard' or 'speciality').
 
-Each of the $30$\ students (aged\ $6$ to\ $8$ years old) used both desks.
+Each of the $30$ students (aged $6$ to $8$ years old) used both desks.
 Legibility (and other aspects of handwriting) was assessed using the quantitative Minnesota Handwriting Assessment (MHA) scale.
 
 Part of Table\ 1 in the paper is shown in Fig.\ \@ref(fig:Ryan2010Table1).
 
 
-```{r Ryan2010Table1, echo=FALSE, fig.cap="Part of Table 1 in Ryan et al., 2010", fig.align="center", out.width="80%"}
-include_graphics("ArticleImages/Ryan2010-Table1.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.8\linewidth]{ArticleImages/Ryan2010-Table1} 
+
+}
+
+\caption{Part of Table 1 in Ryan et al., 2010}(\#fig:Ryan2010Table1)
+\end{figure}
 
 1. Read the extract in Fig.\ \@ref(fig:Ryan2010Aims). \tightlist
    Determine P, O, C and I (where possible) for this study.
@@ -259,9 +204,14 @@ include_graphics("ArticleImages/Ryan2010-Table1.png")
    
 
 
-```{r Ryan2010Aims, echo=FALSE, fig.cap="Part of the Abstract in Ryan et al., 2010", fig.align="center", out.width="70%"}
-include_graphics("ArticleImages/Ryan2010-Aims.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ArticleImages/Ryan2010-Aims} 
+
+}
+
+\caption{Part of the Abstract in Ryan et al., 2010}(\#fig:Ryan2010Aims)
+\end{figure}
 
 4. Identify the units of observation and units of analysis.\tightlist
 5. Does the study use blinding?
@@ -293,21 +243,31 @@ The Abstract from this paper is shown in Fig. \@ref(fig:Kozer2004Figure1).
 Read this Abstract, then answer the questions that follow.
 
 
-```{r Kozer2004Figure1, echo=FALSE, fig.cap="The Abstract from Kozer et al. (2004)", fig.align="center", out.width="60%"}
-include_graphics("ArticleImages/Kozer2004Figure1.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.6\linewidth]{ArticleImages/Kozer2004Figure1} 
+
+}
+
+\caption{The Abstract from Kozer et al. (2004)}(\#fig:Kozer2004Figure1)
+\end{figure}
 
 
-1. Identify the possible RQ being answered, identifying (where possible) P, O, C and\ I.
+1. Identify the possible RQ being answered, identifying (where possible) P, O, C and I.
 2. Identify the type of question is being asked: descriptive, relational, repeated-measures or correlational.
 3. Explain whether the study is observational or experimental (true or quasi).
 4. List the possible limitations can you identify with this study. 
    Then identify the limitations identified by the authors, by reading the extract in Fig. \@ref(fig:Kozer2004Limitations).
 
 
-```{r Kozer2004Limitations, echo=FALSE, fig.cap="The limitations listed in Kozer et al. (2004)", fig.align="center", out.width="65%"}
-include_graphics("ArticleImages/Kozer2004Limitations.png")
-```
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.65\linewidth]{ArticleImages/Kozer2004Limitations} 
+
+}
+
+\caption{The limitations listed in Kozer et al. (2004)}(\#fig:Kozer2004Limitations)
+\end{figure}
 
 
 

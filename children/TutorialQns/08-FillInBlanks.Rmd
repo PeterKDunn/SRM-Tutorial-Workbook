@@ -1,19 +1,19 @@
 
 Use the words in column 1 of Table to complete the following passage:
 
-1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an _____.    
-  In Batch\ 1, a _____ of size\ $30$ was used; 
-  the sample mean number of blows till the first crack appeared in the test cylinders was $98$, and the amount of variation in the number of blows was measured using the _____ deviation as\ $54$.  
-  Because the data are a sample, the sample mean will estimate the population mean with some sampling _____.
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an ________.    
+  In Batch\ 1, a ________ of size\ $30$ was used; 
+  the sample mean number of blows till the first crack appeared in the test cylinders was $98$, and the amount of variation in the number of blows was measured using the ________ deviation as\ $54$.  
+  Because the data are a sample, the sample mean will estimate the population mean with some sampling ________.
 
 
-2. A type of study called an _____ compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using speciality school furniture with standard school furniture (which acted as a _____).  
+2. A type of study called an ________ compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using speciality school furniture with standard school furniture (which acted as a ________).  
 
-   They used a _____ sample of size $30$ from children registered at their facility in Canada.  
+   They used a ________ sample of size $30$ from children registered at their facility in Canada.  
 
-   The _____ mean for the difference in legibility was $-0.1$, and a $95$% _____ interval was from $-0.8$ to $0.6$.  
+   The ________ mean for the difference in legibility was $-0.1$, and a $95$% ________ interval was from $-0.8$ to $0.6$.  
    
-   Using the standard equipment, the smallest value recorded for legibility was 19, and the largest was $34$, so the _____ was $15$.
+   Using the standard equipment, the smallest value recorded for legibility was 19, and the largest was $34$, so the ________ was $15$.
 
 
 
@@ -21,19 +21,18 @@ Use the words in column 1 of Table to complete the following passage:
 
 
 ```{r Words4Table, echo=FALSE}
-Words4 <- array( "", dim = c(6, 2))
-colnames(Words4) <- c("Passage 1", "Passage 2")
+Words4 <- array( "", dim = c(3, 4))
 
-Words4[, 1] <- c("sample",
+Words4[, 1] <- c("sample", 
                  "error",
-                 "standard",
+                 " ")
+Words4[, 2] <- c("standard",
                  "experiment",
-                 "",
-                 "")
-Words4[, 2] <- c("random",
+                 " ")
+Words4[, 3] <- c("random",
                  "sample",
-                 "control", 
-                 "range", 
+                 "control") 
+Words4[, 4] <- c("range", 
                  "confidence",
                  "experiment")
 
@@ -42,11 +41,15 @@ if( knitr::is_latex_output() ) {
   kable(Words4,
       format = "latex",
       booktab = TRUE,
-      align = c("c", "c"),
-      linesep = c("", "\\addlinespace", "", "\\addlinespace", "", ""),
+      align = "c",
+#      linesep = "\\addlinespace"),
       caption = "Words and phrases to insert into two passages") %>%
   kable_styling(full_width = FALSE) %>%
-  row_spec(0, bold = TRUE)
+  row_spec(0, bold = TRUE) %>%
+  add_header_above( c("Passage 1" = 2,
+                      "Passage 2" = 2),
+                    bold = TRUE,
+                    line = TRUE)
 }
 ```
 
