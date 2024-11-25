@@ -46,6 +46,9 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 "Mean",
 answer = "Odds",
 "Standard deviation") )}`
+`r if( knitr::is_html_output() ) {'<!--'}`
+Median; mean; odds; standard deviation.
+`r if( knitr::is_html_output() ) {'-->'}`
 1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "Standard deviation", 
@@ -150,19 +153,20 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
 | Female              | 97                              | 39
 
 
+1. What proportion of patients had their stroke symptoms missed?
 1. Sketch a side-by-side or stacked bar chart to display the data. \tightlist
-1. Of the *male* patients, what *percentage* had their stroke symptoms missed by the dispatcher?  
+1. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-answer = "39.1%", 
-"60.9%",
-"52.4%",
-"33.3%") )}`
-1. Of the *female* patients, what *percentage*  had their stroke symptoms missed by the dispatcher?  
+answer = "0.391", 
+"0.609",
+"0.524",
+"0.333") )}`
+1. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-"71.3%",
-"47.6%",
-answer = "28.7%", 
-"33.3%") )}`
+"0.713",
+"0.476",
+answer = "0.287", 
+"0.333") )}`
 1. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "39.1", 
@@ -175,6 +179,12 @@ answer = "0.402",
 "2.49",
 "1.10",
 "1.24") )}`
+1. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?  
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+"0.391",
+"1.6",
+answer = "0.104",
+"0.287") )}`
 1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.63",
@@ -228,7 +238,7 @@ if( knitr::is_latex_output() ) {
     kable_styling(full_width = FALSE, 
                   font_size = 10) %>%
     add_header_above( c(" " = 1,
-                        "Percentage" = 1,
+                        "Proportion" = 1,
                         "Odds" = 1,
                         "Sample" = 1),
                       align = "c",
@@ -243,13 +253,13 @@ if( knitr::is_latex_output() ) {
 
 if( knitr::is_html_output() ) {
   StrokeSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.2, 
+                                         tol = 0.002, 
                                          width = 6, 
-                                         answer = round(43 / (43 + 67) * 100) )
+                                         answer = round(43 / (43 + 67)) )
   StrokeSumm[3, 1] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.2, 
+                                         tol = 0.002, 
                                          width = 6,
-                                         answer = round(39 / (39 + 97) * 100) )
+                                         answer = round(39 / (39 + 97)) )
   
   StrokeSumm[1, 2] <- webexercises::fitb(num = TRUE, 
                                          tol = 0.02, 
@@ -270,25 +280,27 @@ if( knitr::is_html_output() ) {
                                          answer = 97 + 39 )
   StrokeSumm[5, 1] <- paste0("Difference: ",
                              webexercises::fitb(num = TRUE, 
-                                                tol = 0.1, 
+                                                tol = 0.001, 
                                                 width = 6,
-                                                answer = 10 ) )
+                                                answer = 43/(43 + 67) - 39/(39 + 97) ) )
   StrokeSumm[5, 2] <- paste0("Odds ratio: ",
                              webexercises::fitb(num = TRUE, 
                                                 tol = 0.05, 
                                                 width = 6,
                                                 answer = 0.64/0.4 ) )
   
-  
+  StrokeSumm[4, 3] <- " "
+  StrokeSumm[4, 1] <- " "
+
   kable(StrokeSumm[ c(1, 3, 5), ],
         format = "html",
         align = "r",
         escape = FALSE,
         longtable = FALSE,
-        caption = "Summary table: emergency dispatchers and missing stroke symptoms. Enter PERCENTAGES as WHOLE NUMBERS. Enter ODDS to TWO decimal places.",
+        caption = "Summary table: emergency dispatchers and missing stroke symptoms. Enter PROPORTIONS and ODDS to TWO decimal places.",
         booktabs = TRUE)  %>%
     add_header_above( c(" " = 1,
-                        "Percentage" = 1,
+                        "Proportion" = 1,
                         "Odds" = 1,
                         "Sample" = 1),
                       align = "r",
@@ -322,9 +334,9 @@ A study [@kirkendall2001heading] was conducted to determine (p.\ 157)
 Data were collected from $240$ college students for two variables:
 
 * The student type:
-One of 'soccer player' ($63$ students), 'non-soccer athlete' ($96$ students), or 'non-athlete' ($81$ students).
+one of 'soccer player', 'non-soccer athlete', or 'non-athlete'.
 * The number of head concussions:
-Each student was asked about the number of head concussions they had experienced; 'zero' ($158$ students), 'one' ($45$ students), or 'two or more'  ($37$ students) concussions.
+each student was asked about the number of head concussions they had experienced; 'zero' , 'one', or 'two or more' concussions.
 
 Use the study data (Table\ \@ref(tab:SoccerTable)) to answer the following questions.
 
@@ -346,41 +358,64 @@ SoccerTab[3, ] <- c(45, 15, 21, 81)
 SoccerTab[4, ] <- c(158, 45, 37, 240)
 
 if( knitr::is_latex_output() ) {
-  kable(SoccerTab,
+  kable(pad(SoccerTab,
+            targetLength = 3,
+            decDigits = 0),
         format = "latex",
         booktabs = TRUE,
+        escape = FALSE,
+        align = "c",
         caption = "Data on concussions experienced by college students") %>%
     #column_spec(1, bold = TRUE) %>%
     column_spec(5, bold = TRUE) %>%
     row_spec(0, bold = TRUE) %>%
     row_spec(4, bold = TRUE) %>%
     kable_styling(full_width = FALSE,
-                  font_size = 10)
+                  font_size = 10) %>%
+    add_header_above( c(" " = 1,
+                        "No. concussions" = 3,
+                        " " = 1),
+                      bold = TRUE,
+                      line = TRUE) %>%
+    row_spec(3,
+             hline_after = TRUE)
+
 }
 if( knitr::is_html_output() ) {
-  kable(SoccerTab,
+  kable(pad(SoccerTab,
+            targetLength = 3,
+            decDigits = 0),
         format = "html",
         booktabs = TRUE,
         caption = "Data on concussions experienced by college students") %>%
-    column_spec(1, bold = TRUE) %>%
-    column_spec(5, bold = TRUE) %>%
-    row_spec(0, bold = TRUE) %>%
-    row_spec(4, bold = TRUE) %>%
-    kable_styling(full_width = FALSE)
+    column_spec(1, 
+                bold = TRUE) %>%
+    column_spec(5, 
+                bold = TRUE) %>%
+    row_spec(0, 
+             bold = TRUE) %>%
+    row_spec(4, 
+             bold = TRUE) %>%
+    kable_styling(full_width = FALSE) %>%
+    add_header_above( c(" " = 1,
+                        "No. concussions" = 3,
+                        " " = 1),
+                      bold = TRUE,
+                      line = TRUE)
 }
 ```
 
 1. Classify the two variables.
-2. Compute the percentage of college students in the *sample* overall that have received exactly one concussion.
+2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
 3. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
 What is the main message from each graph?
 Which graph do you think is best?
 Why?
-4. Among the **non-athletes**, compute the odds of receiving two or more concussions.
+4. Among **non-athletes**, compute the odds of receiving two or more concussions.
 Interpret what this means.
-5. Among the **soccer players**, compute the odds of receiving two or more concussions.
+5. Among **soccer players**, compute the odds of receiving two or more concussions.
 Interpret what this means.
-6. Compute the odds ratio comparing the odds of a non-athlete player receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
+6. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
 7. Create a table of **column** percentages.
 What do these tell you?
 8. Create a table of **row** percentages.
@@ -555,24 +590,23 @@ legend("top",
 
 ## **Drills**: Computational exercises {#Chapter5Drills}
 
-*(Answers are available in Sect. \@ref(Lecture5Answers))*
+*(Answers appear in Sect. \@ref(Lecture5Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.  
-
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 If you need help, please **ask**.
 :::
 
 
 
-1. A study of drivers in [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
+1. A study of drivers [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
 
-a. What **percentage** of people use their phone while driving?
-b. What are the **odds** that a person uses their phone while driving?
-c. What are the **odds** that a WA resident uses their phone while driving?
-d. What are the **odds** that a NSW resident uses their phone while driving?
-e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
+   a. What **percentage** of people use their phone while driving?
+   b. What are the **odds** that a person uses their phone while driving?
+   c. What are the **odds** that a WA resident uses their phone while driving?
+   d. What are the **odds** that a NSW resident uses their phone while driving?
+   e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
 
 ```{r PDTable, echo=FALSE}
 PDTab <- array( dim = c(2, 2))
@@ -614,13 +648,13 @@ if( knitr::is_html_output() ) {
 
 
 2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
-a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-c. Compute the **percentage** of cuttings that were *long*.
-d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
+   a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
+   b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
+   c. Compute the **percentage** of cuttings that were *long*.
+   d. Compute the **odds** that a cuttings was *alive* at the end of the study.
+   e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
+   f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
+   g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
 
 
 ```{r RSTable, echo=FALSE}
@@ -663,7 +697,7 @@ if( knitr::is_html_output() ) {
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture4Answers).)
+(Answers appear in Sect.\ \@ref(Lecture4Answers).)
 :::
 
 
@@ -675,12 +709,12 @@ This question has a video solution in the online book, so you can hear and see t
 
 
 The impact of environmental toxins is not well understood.
-A 2012 Australian observational study [@data:Pamphlett:toxins] examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
+@data:Pamphlett:toxins examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
 
-A total of $380$ SMND cases were studied, and $377$ controls.
+A total of $380$ SMND cases and $377$ controls were studied.
 Of the $380$ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
 
-1. What is the *direction* of this study?	
+1. What is the *direction* of this study?
 2. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
 3. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
 Interpret what this means.
@@ -700,6 +734,7 @@ Do you agree or disagree?
 
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
+The BVM ('ball valve mask') method is also used.
 
 ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
 Table\ \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
@@ -776,10 +811,10 @@ if( knitr::is_html_output() ) {
 ```
 
 
-1. Among people treated with BVM ('ball valve mask'), compute the *percentage* that died (to the nearest percent). \tightlist  
+1. Among people treated with BVM, compute the *percentage* that died (to the nearest percent). \tightlist  
 `r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
 2. Among the people treated with BVM, what are the *odds* that someone died?
-Explain which one of the following calculations is correct, and **explain what the other calculations compute, and hence why they are wrong**.  
+Explain which one of the following calculations is correct, and **explain what the other calculations compute, and hence _why_ they are wrong**.  
 `r if( knitr::is_html_output() ) {longmcq(
 c(answer = "281/(404-281) = 2.28",
 "(404-281)/404 = 0.304",
@@ -831,7 +866,7 @@ answer = "For patients treated with ETI, about 278 die for every 100 that surviv
 
 Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
 Furthermore, different communities are impacted in different ways.
-One study [@data:Deane:OdorRefineries] researched the RQ:
+@data:Deane:OdorRefineries researched the RQ:
 
 > In Carson, California, does the odour from nearby petroleum refineries impact residents in different areas differently?
 

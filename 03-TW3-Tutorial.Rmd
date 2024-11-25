@@ -145,7 +145,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## Using the calculator statistics mode {#StatsMode}
+## Using the calculator statistics mode for a small data set {#StatsMode}
 
 ```{r echo=FALSE}
 set.seed(2021)
@@ -169,19 +169,25 @@ PTTab <- array( "",
                 dim = c(1, length(PT) ) )
 
 PTTab[1, ] <- PT
-PTcap <- "The amount of polythene (in tonnes) used by a sample of UK cosmetic companies"
+PTcap <- "The amount of polythene (in tonnes) used by a sample of eight UK cosmetic companies"
 
 if( knitr::is_latex_output() ) {
-  kable(PTTab,
+  kable(pad(PTTab,
+            targetLength = 8,
+            decDigits = 3),
       format = "latex",
       booktab = TRUE,
+      escape = FALSE,
       caption = PTcap) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(PTTab,
+  kable(pad(PTTab,
+            targetLength = 8,
+            decDigits = 3),
       format = "html",
+      escape = FALSE,
       booktab = TRUE,
       caption = PTcap) %>%
   kable_styling(full_width = FALSE)
@@ -193,7 +199,7 @@ if( knitr::is_html_output() ) {
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-In practice, data are almost *never* a population.  \\ 
+In practice, data are almost *never* a population.  \\  \\  
 
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
 If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
@@ -232,66 +238,6 @@ You are probably pressing the incorrect button to get the standard deviation.
 :::
 
 
-<!-- 1. The time that students remain in the examination room for a two-hour examination. -->
-<!-- 2. The heights of female students at USC. -->
-<!-- 3. The *starting* salaries of new science graduates employed full-time. -->
-<!-- 4. The volume of drink in 375ml cans of soft drink. -->
-<!-- 5. Sale prices of houses in Caloundra last year. -->
-
-
-<!-- ```{r FourHistogramApplication, echo=FALSE, fig.cap="Four histograms.  What might they represent?", fig.align="center", fig.height=6, fig.width=5} -->
-<!-- ### Makes a grid of four plots, to assign meaning to -->
-
-<!-- set.seed(8765432) -->
-
-<!-- SS <- 5000 -->
-
-<!-- xA <- runif(SS, min=0, max=400) -->
-<!-- xC <- rgamma(SS, 3, 2) -->
-
-<!-- #xBtmp <- rgamma(SS, 3, 2) -->
-<!-- xB <- -abs( rnorm(SS, 0, 10) ) -->
-
-<!-- # xB <- max(xBtmp) - xBtmp -->
-<!-- xD <- rnorm(SS, mean=177, sd=7) # EG Heights of male students at USC -->
-
-
-<!-- par(mfrow=c(2,2)) -->
-<!--    hist(xA, -->
-<!--         main="Graph A", -->
-<!--         xlab="Variable", -->
-<!--         ylab="Frequency", -->
-<!--         col="wheat", -->
-<!--         axes=FALSE) -->
-<!--     #box() -->
-
-<!--    hist(xB, -->
-<!--         main="Graph B", -->
-<!--         xlab="Variable", -->
-<!--         ylab="Frequency", -->
-<!--         col="wheat", -->
-<!--         axes=FALSE) -->
-<!--   #box() -->
-<!--    hist(xC, -->
-<!--         main="Graph C", -->
-<!--         xlab="Variable", -->
-<!--         ylab="Frequency", -->
-<!--         col="wheat", -->
-<!--         axes=FALSE) -->
-<!--   #box() -->
-
-<!--    hist(xD, -->
-<!--         main="Graph D", -->
-<!--         xlab="Variable", -->
-<!--         ylab="Frequency", -->
-<!--         col="wheat", -->
-<!--         axes=FALSE) -->
-<!--   #box() -->
-<!-- ``` -->
-
-
-
-
 
 ## Collecting data {#PlanStudy3}
 
@@ -324,17 +270,16 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 ## **Drills**: computational exercises {#Chapter4Drills}
 
-*(Answers are available in Sect. \@ref(Lecture4Answers))*
+*(Answers appear in Sect. \@ref(Lecture4Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
-These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.  
-
+These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 If you need help, please **ask**.
 :::
 
 
-1. The data in Table\ \@ref(tab:AISTable) give the heights of female tennis players at the Australian Institute of Sport (AIS) in metres [@telford1991sex].
+1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in metres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR for the data.
@@ -354,15 +299,21 @@ AISTab[1, ] <- Hts
 AIScap <- "The heights (in metres) of females tennis players at the AIS"
 
 if( knitr::is_latex_output() ) {
-  kable(AISTab,
-      format = "latex",
-      booktab = TRUE,
+  kable( pad(AISTab,
+             targetLength = 5,
+             decDigits = 1),
+        format = "latex",
+        booktab = TRUE,
+        escape = FALSE,
       caption = AIScap) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(AISTab,
+  kable( pad(AISTab,
+             targetLength = 5,
+             decDigits = 1),
+      escape = FALSE,
       format = "html",
       booktab = TRUE,
       caption = AIScap) %>%
@@ -372,7 +323,7 @@ if( knitr::is_html_output() ) {
 
 
 
-2. Bamboo is a fast-growing, strong grass useful for green building practices.
+2. Bamboo is a fast-growing, strong grass useful for environmentally-friendly building practices.
    A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).  
    Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
    The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
@@ -406,7 +357,7 @@ if( knitr::is_html_output() ) {
 
 
 
-3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of females swimmers at the Australian Institute of Sport (AIS)  [@telford1991sex].
+3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of $n = 9$ females swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR.
@@ -452,7 +403,7 @@ if( knitr::is_html_output() ) {
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture3Answers).)
+(Answers appear in Sect.\ \@ref(Lecture3Answers).)
 :::
 
 
@@ -473,8 +424,11 @@ rownames(BattTab) <- c("Energizer",
                        "Ultracell")
 
 if( knitr::is_latex_output() ) {
-  kable(BattTab,
+  kable(pad(BattTab,
+            targetLength = 4,
+            decDigits = 2),
       format = "latex",
+      escape = FALSE,
       booktab = TRUE,
       caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours") %>%
   column_spec(1, bold = TRUE) %>%
@@ -482,8 +436,11 @@ if( knitr::is_latex_output() ) {
                 font_size = 10)
 }
 if( knitr::is_html_output() ) {
-  kable(BattTab,
+  kable(pad(BattTab,
+            targetLength = 4,
+            decDigits = 2),
       format = "html",
+      escape = FALSE,
       booktab = TRUE,
       caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
   column_spec(1, bold = TRUE) %>%
@@ -496,16 +453,15 @@ if( knitr::is_html_output() ) {
 `r if( knitr::is_html_output() ) {'The type of research study is  '}`
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
    Justify your answer. \tightlist
-
 2. What are the *units of observation* and *units of analysis*?
 3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
-   a. Compute the mean of the *Energizer* batteries (to two decimal places):
+   a. Compute the mean times for the *Energizer* batteries (to two decimal places):
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
-   a. Compute the standard deviation of the *Energizer* batteries (to three decimal places):
+   a. Compute the standard deviation of the *Energizer* battery times (to three decimal places):
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
-   a. Compute the mean of the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
-   a. Compute the standard deviation of the *Ultracell* batteries (to three decimal places):
+   a. Compute the mean times for the *Ultracell* batteries (to two decimal places):
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`s
+   a. Compute the standard deviation of the *Ultracell* battery times (to three decimal places):
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
 
 4. Explain what these calculations tell you.
@@ -518,11 +474,8 @@ if( knitr::is_html_output() ) {
 6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
 7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
    Explain.
-8. Decide if outliers exist in the data. Explain.
-	 If so, identify them.
-9. Explain whether the cost of the batteries would also be important information to know. 
-   (See below.)
-10. What advice would you give about buying batteries based on these data?
+8. Information about the cost of the batteries would also be important information to know (see below).
+   What advice would you give about buying batteries based on these data?
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 The cost of the batteries, at the time of publication (05 September, 2012), was: 

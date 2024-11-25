@@ -140,7 +140,7 @@ From a study comparing how well sports-playing students can estimate distance co
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture12Answers).)
+(Answers appear in Sect.\ \@ref(Lecture12Answers).)
 :::
 
 

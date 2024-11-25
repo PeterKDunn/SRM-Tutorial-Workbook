@@ -452,7 +452,7 @@ hist( PS$DiameterInches[PS$Store == "EagleBoys"],
 
 ## **Drills**: Computational exercises {#Chapter6Drills}
 
-*(Answers are available in Sect. \@ref(Lecture6Answers))*
+*(Answers appear in Sect. \@ref(Lecture6Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
@@ -480,7 +480,7 @@ Compute the standard error in these situations:
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture7Answers).)
+(Answers appear in Sect.\ \@ref(Lecture7Answers).)
 :::
 
 

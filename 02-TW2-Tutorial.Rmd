@@ -40,12 +40,12 @@ Consider this RQ: 'What factors are preventing the adoption of household solar t
 		      "the sample is representative of all solar technologies",
                       answer = "the sample is representative of all households in Santiago",
                       "the sample is representative of all households in Chile") )}`
-`r if (knitr::is_latex_output()) {
+`r if (knitr::is_html_output()) {'<!--'}`
    * the sample is representative of all households in the world.
    * the sample is representative of all solar technologies.
    * the sample is representative of all households in Santiago.
    * the sample is representative of all households in Chile.
-}
+`r if (knitr::is_html_output()) {'-->'}`
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
     What is the *best* description of this sampling method?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -117,7 +117,7 @@ Patients who have suffered a stroke often have restricted limb movement, and reh
 
 Read the description (line breaks added for clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
 `r if (knitr::is_latex_output()){
-   'in Fig. \\@ref(fig:Crossword-Week2-Terminology)'
+   'in Fig. \\@ref(fig:Crossword-Week2)'
 } else {
    'below'
 }`
@@ -163,9 +163,50 @@ regarding this information.
 
 
 ```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='90%', eval=is_latex_output()}
-knitr::include_graphics("images/Crossword-Week2-Trial.PNG")
+knitr::include_graphics("images/Crossword-Week2.PNG")
 ```
 
+`r if (knitr::is_html_output()){'<!--'}`
+\begin{multicols}{2}
+\textbf{Across}
+
+\begin{enumerate}\tightlist
+  \item[3.]
+  The number of groups being compared (5)  
+  \item[5.] 
+  Ask if you need \verb|____| (4)  
+  \item[6.]
+  Patients were assigned \verb|____| to the type of therapy received (8)  
+  \item[11.]
+  This type of study is called a \verb|____| study (12)  
+  \item[12.]
+  A lovely place to relax, with sand and surf (5)
+  \item[13.]
+  The size of the \verb|____| is $127$ (6)
+\end{enumerate}
+
+\newcolumn
+
+\textbf{Down}
+
+\begin{enumerate}\tightlist
+  \item[1.]
+  When individuals may change their behaviour if they think they are being observed is the \verb|____| effect(9)
+  \item[2.]
+  The evaluators were not aware of which group the patient was in; they were \verb|____| to the treatment applied (5)
+  \item[4.]
+  For the study, informed consent is to ensure the study is \verb|____| (7)
+  \item[7.]
+  The treatment of “usual care” would be considered to be the \verb|____| (7)
+  \item[8.]
+  The type of therapy is called the \verb|____| (9)
+  \item[9.]
+  The research question is of this type (10)
+  \item[10.]
+  A riddle: If you give me food, I will live; if you give me water, I will die (4)
+\end{enumerate}
+\end{multicols}
+`r if (knitr::is_html_output()){'-->'}`
 
 
 
@@ -184,7 +225,7 @@ Answer the questions that follow.
 1. Identify the outcome and response variable. \tightlist
 2. Identify the comparison and explanatory variable.
 3. *Explain* whether the study is observational or experimental.
-4. Which of the following are likely to be extraneous variables, or confounding variables, or neither? **Explain.**
+4. Are the following variables likely to be extraneous variables, confounding variables, or neither? **Explain.**
 
     a. The maximum temperature on the day of giving birth. 
 	  b. The health of the mother.
@@ -193,27 +234,28 @@ Answer the questions that follow.
     e. The gender of the baby.
 
 5. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
-	 Also, determine if it is a quasi-experiment or a true experiment.
-6. *If the study is observational*, determine if the study uses a forward direction (*cohort study*), a backward direction (case-control study), or is non-directional (cross sectional).
-7. Suggest the RQ asked at the start of the study by identifying POCI.
-8. Is a cause-and-effect relationship reasonable? 
+	 Also, determine if it is a quasi-experiment or a true experiment.  
+	 
+	 *If the study is observational*, determine if the study uses a forward direction (cohort study), a backward direction (case-control study), or is non-directional (cross sectional).
+6. Suggest the RQ asked at the start of the study by identifying POCI.
+7. Is a cause-and-effect relationship reasonable? 
    Explain.
-9. Read the extract from the original article below [@data:Murphy1998:homebirth]. 
+8. Read the extract from the original article below [@data:Murphy1998:homebirth]. 
    What is the sampling method? 
    Why are these limitations? 
    What other limitations of the study can you think of?
 
 > There are several limitations to note in this report.
-> The results reported here reflect a sample of nurse--midwifery practices willing to participate in data collection and to permit the resulting scrutiny of their practices. 
+> The results reported here reflect a sample of nurse--midwifery practices *willing to participate in data collection* and to *permit the resulting scrutiny of their practices*. 
 > We cannot draw comparisons to non-participating nurse--midwifery practices or to the home birth practices of physician and other midwife providers.
 >
-> --- @data:Murphy1998:homebirth
+> --- @data:Murphy1998:homebirth, emphasis added
 
 
-10. Based on this report, do you or do you not agree that (in general) a home birth is safer than a hospital birth? 
+9. Based on this report, do you or do you not agree that (in general) a home birth is safer than a hospital birth? 
     Explain.
-11. Is the article headline consistent with the study conclusions?
-
+10. Is the article headline consistent with the study conclusions?
+11. Is the last sentence of the quotation about internal validity, external validity, or ecoloical validity?
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458376&sec_digit=1584102666&embeded_digit=266427770' style='width:100%; height:450px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
@@ -284,14 +326,14 @@ Part of the protocol  for the study is given below:
 2. Explain how the impact of the Hawthorne effect has been minimised.
 3. Explain how the impact of the observer effect has been minimised.
 4. Would the carry-over effect play a role? Explain.
-
+5. Describe the blinding that is used.
 
 
 ## **Optional questions** {#OptionalTW2}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture2Answers).)
+(Answers appear in Sect.\ \@ref(Lecture2Answers).)
 :::
 
 
@@ -300,7 +342,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 Suppose we needed a sample of $80$\ vehicles parked at UniSC (Sippy Downs campus), and we wish to determine the proportion displaying P-plates.
 
 Determine a useful way to find a suitable representative sample.
-The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** are car parks).
+The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** on the campus grounds are UniSC car parks).
 
 
 ```{r echo=FALSE}
@@ -401,7 +443,10 @@ Two variables are listed in the extract:
 * The type of drink (sweetened with sugar, or with sugarless sweeteners); and
 * Weight gain.
 
-What words could be used to describe these variables?
+1. What words could be used to describe these variables?
+2. The sample size is reasonably large: $n = 641$.
+   Does this imply high precision or high accuracy?
+3. How could the *accuracy* be improved?
 
 
 ```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012", fig.align="center", out.width='75%'}
@@ -440,9 +485,9 @@ include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
 ### **Optional**: Designing and planning studies {#DesignTrees}
 <!-- BASED ON Ruxton and Colegrave p. 128 -->
 
-To study the progress of an imported species of beetle, a research group is studying the research question:
+To study the progress of an imported species of beetle, a research group is studying the RQ:
 
-> Is the mean number of species of beetle found on trees different between local coniferous and broad leaf forests?
+> Is the average number of species of beetle found on trees different between local coniferous and broad leaf forests?
 
 Ten possible forests of each type have been found, and the research budget allows for $100$ trees to be sampled.
 Three designs are being considered:

@@ -411,7 +411,7 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture5Answers).)
+(Answers appear in Sect.\ \@ref(Lecture5Answers).)
 :::
 
 

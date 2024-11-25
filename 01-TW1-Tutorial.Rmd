@@ -351,18 +351,8 @@ if( knitr::is_html_output() ) {
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers are available in Sect.\ \@ref(Lecture1Answers).)
+(Answers appear in Sect.\ \@ref(Lecture1Answers).)
 :::
-
-
-### **Optional**: Identifying different types of studies {#TypesOfStudies}
-
-<iframe src="https://usc.h5p.com/content/1290971665016398309/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-IdentifyStudyTypes.Rmd'}
-```
 
 
 
@@ -385,7 +375,64 @@ to help you understand some of the words used in this week's content.
 
 
 ```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
-knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
+knitr::include_graphics("images/Crossword-Week1.PNG")
+```
+
+
+`r if (knitr::is_html_output()){'<!--'}`
+\begin{multicols}{2}
+\textbf{Across}
+
+\begin{enumerate}\tightlist
+  \item[4.] 
+  What we do with the data to answer the RQ (7)  
+  \item[5.]
+  A confounding variable, but is not measured or recorded, is a \verb|____| variable (7)   \item[6.]
+  Research questions are answered using \verb|____| (that is, the data) (8)  
+  \item[9.]
+  The type of research where data are summarised using numerical methods (12)  
+  \item[12.]
+  The first step in the research process is to \verb|____| the question (3)  
+  \item[13.] 
+  RQs in which two groups are compared are called v(10)  
+  \item[14.]
+  The second step in the research process (6)  
+  \item[15.]
+  The acronym to remember the four components of a RQ (4)
+\end{enumerate}
+
+\newcolumn
+
+\textbf{Down}
+
+\begin{itemize}\tightlist
+  \item[1.]
+  'Conceptual' and 'Operational' are types of \verb|____| (11)  
+  \item[2.]
+  After designing a study, the next step is to \verb|____| the data (7)  
+  \item[3.]
+  The type of research where data are NOT summarised using numerical methods (11)  
+  \item[7.]
+  The collected information to answer the RQ is called \verb|____| (4)  
+  \item[8.]
+  RQs whose main purpose in *not* making a decision are \verb|____| RQs. (10)  
+  \item[10.]
+  Data are recorded from the \verb|____| of observation (5)  
+  \item[11.]
+  Independent collections of units of observations are called unit of \verb|____| (8)
+\end{itemize}
+\end{multicols}
+`r if (knitr::is_html_output()){'-->'}`
+
+
+
+### **Optional**: Identifying different types of studies {#TypesOfStudies}
+
+<iframe src="https://usc.h5p.com/content/1290971665016398309/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-IdentifyStudyTypes.Rmd'}
 ```
 
 

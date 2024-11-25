@@ -10,18 +10,18 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answer: Tutorial\ \@ref(Lecture1) (Teaching Week\ 1): Sect.\ \@ref(Lecture1Answers).
-* Answer: Tutorial\ \@ref(Lecture2) (Teaching Week\ 2): Sect.\ \@ref(Lecture2Answers).
-* Answer: Tutorial\ \@ref(Lecture3) (Teaching Week\ 3): Sect.\ \@ref(Lecture3Answers).
-* Answer: Tutorial\ \@ref(Lecture4) (Teaching Week\ 4): Sect.\ \@ref(Lecture4Answers).
-* Answer: Tutorial\ \@ref(Lecture5) (Teaching Week\ 5): Sect.\ \@ref(Lecture5Answers).
-* Answer: Tutorial\ \@ref(Lecture6) (Teaching Week\ 6): Sect.\ \@ref(Lecture6Answers).
-* Answer: Tutorial\ \@ref(Lecture7) (Teaching Week\ 7): Sect.\ \@ref(Lecture7Answers).
-* Answer: Tutorial\ \@ref(Lecture8) (Teaching Week\ 8): Sect.\ \@ref(Lecture8Answers).
-* Answer: Tutorial\ \@ref(Lecture9) (Teaching Week\ 9): Sect.\ \@ref(Lecture9Answers).
-* Answer: Tutorial\ \@ref(Lecture10) (Teaching Week\ 10): Sect.\ \@ref(Lecture10Answers).
-* Answer: Tutorial\ \@ref(Lecture11) (Teaching Week\ 11): Sect.\ \@ref(Lecture11Answers).
-* Answer: Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
+* Answers: Tutorial\ \@ref(Lecture1) (Teaching Week\ 1): Sect.\ \@ref(Lecture1Answers).
+* Answers: Tutorial\ \@ref(Lecture2) (Teaching Week\ 2): Sect.\ \@ref(Lecture2Answers).
+* Answers: Tutorial\ \@ref(Lecture3) (Teaching Week\ 3): Sect.\ \@ref(Lecture3Answers).
+* Answers: Tutorial\ \@ref(Lecture4) (Teaching Week\ 4): Sect.\ \@ref(Lecture4Answers).
+* Answers: Tutorial\ \@ref(Lecture5) (Teaching Week\ 5): Sect.\ \@ref(Lecture5Answers).
+* Answers: Tutorial\ \@ref(Lecture6) (Teaching Week\ 6): Sect.\ \@ref(Lecture6Answers).
+* Answers: Tutorial\ \@ref(Lecture7) (Teaching Week\ 7): Sect.\ \@ref(Lecture7Answers).
+* Answers: Tutorial\ \@ref(Lecture8) (Teaching Week\ 8): Sect.\ \@ref(Lecture8Answers).
+* Answers: Tutorial\ \@ref(Lecture9) (Teaching Week\ 9): Sect.\ \@ref(Lecture9Answers).
+* Answers: Tutorial\ \@ref(Lecture10) (Teaching Week\ 10): Sect.\ \@ref(Lecture10Answers).
+* Answers: Tutorial\ \@ref(Lecture11) (Teaching Week\ 11): Sect.\ \@ref(Lecture11Answers).
+* Answers: Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
 
 
 ```{=latex}
@@ -126,19 +126,19 @@ Answers implied by H5P.
 
 
 
+### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
+
+The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definition; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; unit.
+
+
+
+
 
 ### Answers for Sect.\ \@ref(TypesOfStudies) {.unlisted .unnumbered}
 
 Answers implied by H5P.
 Observational.
 Quasi-experimental (the classes are determined by the *students*, but the lecturer decides which class gets which treatment).
-
-
-
-### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
-
-The answers, in alphabetical order, are: ask; collect; data; design; evidence; qualitative; quantitative.
-
 
 
 
@@ -255,17 +255,16 @@ beach; blind; control; ethical; experimental; fire; help; nominal; randomly; rel
     d. The number of previous births by the mother: Not sure.  Possibly confounding.  I'd have to think more.
     e. Baby's gender: Probably neither. Related to mortality (male babies have higher infant mortality) but not to the place of birth.
 
-5. Not experimental.
-6. Observational (cross-sectional/non-directional) study.
-7. Possible RQ: "Among American mothers' births (P), is the neo-mortality rate (O) the same when giving birth at home compared to giving birth in hospital (C)?"
-8. Cause-and-effect not reasonable (observational study).
-9. Voluntary response.
+5. Observational (cross-sectional/non-directional) study.
+6. Possible RQ: "Among American mothers' births (P), is the neo-mortality rate (O) the same when giving birth at home compared to giving birth in hospital (C)?"
+7. Cause-and-effect not reasonable (observational study).
+8. Voluntary response.
    Data volunteered are likely to be more favourable than the data that was not volunteered.
    Limitations: many. 
    For example, mothers who have been told to expect a difficult birth would probably opt for an in-hospital birth.
-10. This report doesn't suggest it is safer.
-11. The headline is accurate, but is certainly **not the complete story** as it implies cause-and-effect.
-
+9. This report doesn't suggest it is safer.
+10. The headline is accurate, but is certainly **not the complete story** as it implies cause-and-effect.
+11. External validity.
 
 
 
@@ -279,7 +278,7 @@ beach; blind; control; ethical; experimental; fire; help; nominal; randomly; rel
 2. It has: "the type of oil was known only by the food scientist..."
 3. "the type of oil was known only by the food scientist..."
 4. Probably.
-
+5. Subjects and researchers blinded.
 
 
 ### Answers for Sect.\ \@ref(SamplingParking) {.unlisted .unnumbered}
@@ -335,9 +334,10 @@ They could have been chosen randomly... though it would be unlikely.
 ### Answer for Sect.\ \@ref(EvaluatingReportsSugar) {.unlisted .unnumbered}
 
 
-*Type of drink*: explanatory variable; nominal variable; qualitative variable.
+1. *Type of drink*: explanatory variable; nominal variable; qualitative variable.
 Response variable; quantitative variable.
-
+2. High precision.
+3. Use a random sample.
 
 
 ### Answers for Sect.\ \@ref(DesignTrees) {.unlisted .unnumbered}
@@ -438,20 +438,18 @@ Answers implied by H5P.
 2. Units of observation and units of analysis: The individual batteries.
 3. *Energizer*: mean: $7.36$ hours; std dev: $0.289$ hours.
    *Ultracell*: mean: $7.41$ hours; std dev: $0.172$ hours.
-	 So Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
-4. *Energizer*: median: $7.46$ hours.
+4. Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
+5. *Energizer*: median: $7.46$ hours.
 	 *Ultracell*: median: $7.48$ hours.
    So Ultracell batteries are *slightly* better (last longer) on average.
-5. Probably median (outliers?), but mean and median are similar in any case.
-6. Values are close.  
-   Certainly no practically importance difference. 
+6. Probably median (outliers?), but mean and median are similar in any case.
+7. Values are close.  
    Energizer batteries take, on average, *less* time to reach $1.0$ volts, so are 'worse' in this regard.
-	 They also have a lot more variation. But in practical terms, the difference is minimal.
+	 They also have a lot more variation. 
 	 (Based on means, the difference is $0.05$\ hrs, or $3$\ mins in over $7$\ hrs use!
 	 Based on medians, the difference is $0.02$\ hrs, or $1.2$\ mins!)
 	 **The *practical* difference is negligible.**
-7. Quite possibly, some very low values for both brands.
-8. Yes: at the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
+8. At the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
 
 
 
