@@ -13,7 +13,7 @@ The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
 
 
-```{r VariationHistograms, echo=FALSE, fig.cap="Histogram of marks for four classes", fig.height=5.75, fig.width=4, fig.align="center", out.width="100%"}
+```{r VariationHistograms, echo=FALSE, fig.cap="Histogram of marks for four classes", fig.height=3.5, fig.width=4, fig.align="center", out.width="90%"}
 set.seed(2015)
 # The default: mar=c(5,4,4,2) + 0.1)
 
@@ -31,7 +31,7 @@ rescale <- function(x, lo, hi){
 
 
 par( mfrow = c(2, 2), 
-     mar = c(9, 2, 2, 2) + 0.1)
+     mar = c(2, 2, 2, 2) + 0.1)
 x1 <- rescale(runif(1000, 10, 20), 30, 80)$y
 x2 <- rescale(rnorm(1000, mean = 15, sd = 2.05), 30, 80)$y
 x3 <- rescale(rexp(1000,  rate = 20), 32, 86)$y

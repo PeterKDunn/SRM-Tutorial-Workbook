@@ -1,6 +1,5 @@
 A study [@data:montalvo2020:retrospective] examined $433$ bridge collapses.
-Of these $433$ bridges, $36$ bridges collapsed due to deterioration;
-of these $433$ bridges, $82$ bridges collapsed due to a collision.
+Of these $433$ bridges, $36$ bridges collapsed due to deterioration, and $82$ bridges collapsed due to a collision.
 
 
 1. The **percentage** of bridges collapsing due to deterioration is _____ divided by _____, or $8.3$%.
@@ -21,6 +20,6 @@ of these $433$ bridges, $82$ bridges collapsed due to a collision.
 9. True or false: The odds of an event cannot be smaller than one.
 10. Which **one** of the following statements is true?
 
-    a. Percentages and odds are the same thing.
+    a. Proportions and odds are the same thing.
     b. Percentages must be whole numbers.
     c. Odds cannot be negative
