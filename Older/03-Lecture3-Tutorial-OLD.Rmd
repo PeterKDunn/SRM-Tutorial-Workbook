@@ -364,7 +364,7 @@ Your tutor will have information.
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
-*(Answers are available in Sect. \@ref(Lecture3Answers))*
+*(Answers appear in Sect. \@ref(Lecture3Answers))*
 
 Explain the important differences between a bar chart and a histogram.
 
@@ -379,7 +379,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 :::
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\ \\@ref(Lecture3Answers))*'
+   '*(Answers appear in Sect.\\ \\@ref(Lecture3Answers))*'
 }`
 
 <iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -397,7 +397,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
-*(Answers are available in Sect. \@ref(Lecture3Answers))*
+*(Answers appear in Sect. \@ref(Lecture3Answers))*
 
 A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig.\ \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
 
@@ -423,7 +423,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
 :::
 
-*(Answers are available in Sect. \@ref(Lecture3Answers))*
+*(Answers appear in Sect. \@ref(Lecture3Answers))*
 
 An Australian study [@data:Jennings2012:Morphine] studied patients in severe pain and compared two different treatments to determine which to recommend.
 
@@ -456,7 +456,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 :::
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+   '*(Answers appear in Sect.\\@ref(Lecture3Answers))*'
 }`
 
 <iframe src="https://usc.h5p.com/content/1290973189768027779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -478,7 +478,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 :::
 
 `r if (knitr::is_latex_output()) {
-   '*(Answers are available in Sect.\\@ref(Lecture3Answers))*'
+   '*(Answers appear in Sect.\\@ref(Lecture3Answers))*'
 }`
 
 <iframe src="https://usc.h5p.com/content/1290973176373971849/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

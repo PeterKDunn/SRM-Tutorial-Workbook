@@ -1,0 +1,484 @@
+# Teaching Week 9: tutorial  {#Lecture9}
+
+
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
+**Topics** covered in this tutorial:
+
+* Tests for one mean.
+* Tests for one proportion.
+* Tests for paired sample means.
+:::
+
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+
+
+* [Chapter 30 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 31 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter 32 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 33 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
+
+
+
+
+## Quick revision {#QuickRevision-Tutorial9}
+
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+:::
+
+::: {.webex-check .webex-box}
+1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
+   True or false?  
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( FALSE)}`
+1. Hypothesis are always written in terms of population parameters. 
+   True or false?  
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( TRUE)}`
+1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
+   True or false?  
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( FALSE)}`
+:::
+
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+`r webexercises::hide()`
+1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
+   In loose terms, a hypothesis test quantifies how much evidence there is in the *sample* to support the alternative hypothesis about the *population*.
+1. **TRUE**. Hypothesis are always about the *unknown* population parameters.
+1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265028&sec_digit=1250147724&embeded_digit=1845584897' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+## Tests for one mean {#HTOneMean-A}
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
+In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size $12$-inch large pizzas' [@mypapers:Dunn:PizzaSize].
+Eagle Boys' made the data from the campaign publicly available.
+
+A summary of the diameters of a sample of $125$ of their large pizzas is shown in Fig.\ \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig.\ \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+We would like to test the company's claim, and ask the RQ:
+
+> For Eagle Boys' pizzas, is mean diameter actually $12$ inches, or not?
+
+
+```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
+knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
+```
+
+
+```{r PizzaSoftwareHTSPSS, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; SPSS, slightly edited", fig.align="center", out.width='70%'}
+knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
+```
+
+
+
+1. What is the **parameter** of interest?
+1. Write down the values of $\bar{x}$ and $s$.
+1. Determine the value of the standard error of the mean.
+1. Explain the difference in meaning between $s$ and $\text{s.e.}(\bar{x})$ in this context.
+1. Write the hypotheses to test if the mean pizza diameter is $12$\ inches.
+1. Is the alternative hypothesis one- or two-tailed? Why?
+1. Draw the normal distribution that shows how the *sample mean pizza diameter* would vary by chance, *even if* the population mean diameter was 12&nbsp;inches. 
+1. Compute the $t$-score for testing the hypotheses.
+1. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
+1. Write a conclusion. 
+   (The CI was found in the [Teaching Week\ 7 tutorial](#CIPizzas).)
+1. Is it reasonable to assume the *statistical* validity conditions are satisfied? 
+   (Fig. \@ref(fig:PizzaHistoHT) may, or may not, help.)
+1. Do you think that the pizzas do have a mean diameter of 12&nbsp;inches in the population, as Eagle Boys' claim?
+   Explain.
+
+```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.align="center", fig.width=6}
+data(PizzaSize)
+
+PS <- PizzaSize
+
+
+hist( PS$DiameterInches[PS$Store == "EagleBoys"],
+      col = plot.colour,
+      las = 1,
+      xlab = "Pizza diameter (in inches)",
+      ylab = "Number of pizzas",
+      main = "Histogram of pizza diameters",
+      xlim = c(10, 12.5))
+```
+
+
+
+
+
+
+
+
+## $P$-values {#PValues}
+
+Assuming the tests are statistically valid, what is the approximate $P$-value for a *two*-tailed $t$-test if:
+
+1. $t = -2.14$.
+2. $t = 1.90$.
+3. $t = 3.15$.
+4. $t = -1.20$.
+5. $t = -1.59$.
+6. $t = 6.71$.
+
+(**Hint**: Use the $68$--$95$--$99.7$ rule.)
+
+How would your answers change if these $t$-scores came from a *one-tailed* test?
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458374&sec_digit=1695234792&embeded_digit=1183575621' style='width:100%; height:450px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+<!-- Admin link: -->
+<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458374&sec_digit=1695234792&edit_code=97870029 -->
+
+
+## Tests for paired samples {#TestsPairedImplants}
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "35%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+(This continues from Sect.\ \@ref(CIImplant).)
+
+A study [@data:Guirao2017:amputees] examined the $2$-minute walk times (2MWT) before and after receiving a prosthetic implant.
+The 2MWT measures how far participants can walk in two minutes.
+The RQ was:
+
+> For this type of amputee, is the mean 2MWT **improved** (i.e., longer distances walked) after using the implant?
+
+
+1. Explain why these data should be analysed as a paired situation. \tightlist
+2. Which of the following is the correct null hypothesis for this question?
+   **Why** are the others incorrect?
+   Is the test one- or two-tailed?
+   What is the alternative hypothesis?
+
+    - $\mu_{\text{Without Implant}} = \mu_{\text{With implant}}$
+    - $\mu_{\text{Difference}} = 0$
+    - $\mu_{\text{Difference}} > 0$
+    - $\mu_{\text{Without Implant}} = 0$
+    - $\mu_{\text{With implant}} = 0$
+    - $\mu_{\text{Without Implant}} < \mu_{\text{With implant}}$
+    - $\mu_{\text{Difference}} < 0$
+    - $\mu_{\text{Without Implant}} < 0$
+    - $\mu_{\text{With implant}} > 0$
+
+3. Explain the *meaning* of the standard error of the mean difference in this context.
+4. The data for the ten amputee subjects are shown in Fig.\ \@ref(fig:Guirao2MWTb).
+	 Write down the mean difference, standard deviation of the difference, and standard error of the mean differences, using Fig.\ \@ref(fig:2MWTjamovi) or Fig.\ \@ref(fig:2MWTSPSS).
+
+
+```{r Guirao2MWTb, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
+knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
+```
+
+
+```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited", fig.align="center", out.width="100%"}
+knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
+```
+
+```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited", fig.align="center", out.width="95%"}
+knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
+```
+
+
+5. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses.  
+   
+   Explain why the $t$-scores from jamovi and SPSS have different signs (in jamovi: negative value; in SPSS: positive value).
+6. Write a statement that communicates the result of the test.
+7. What conditions must be met for this test to be valid?
+8. Is it reasonable to assume the assumptions are satisfied?
+   Use the histogram of the data  in Fig.\ \@ref(fig:2MWTHisto) to help.
+
+```{r 2MWTHisto, echo=FALSE, fig.cap="Histogram of differences for the increases in 2MWT with implant", fig.align="center", out.width="40%"}
+knitr::include_graphics("ArticleImages/Guirao2017-Hist.png")
+```
+
+
+
+
+
+## Test for the ruler-drop {#PlanStudy8}
+
+Your tutor *may* decide to do this activity.
+
+      
+      
+
+## Test for one proportion {#HTOneProportionA}
+
+According to
+`r if (knitr::is_html_output()){
+  '[Statistica.com](https://www.statista.com/statistics/431375/individuals-who-wear-contact-lenses-in-selected-european-countries/),'
+} else {
+  'Statistica.com,' 
+}`
+$30$% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
+
+Suppose a group of 35 Swedish computer programmers includes $12$ that wear contact lenses.
+Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
+Conduct a test, then write a conclusion (including a CI).
+
+What assumptions are needed for this test to be statistically valid, and externally valid?
+
+
+	
+	
+## **Optional questions** {#OptionalTW9}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers appear in Sect.\ \@ref(Lecture9Answers).)
+:::
+
+
+### **Optional**: Tests for one mean {#RoomWidthTest}
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
+
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
+
+To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
+The data are given in Table \@ref(tab:GuessesHT).  
+   
+The data were entered into software, producing the output in Fig.\ \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig.\ \@ref(fig:LengthsHallOutput1) (SPSS).
+
+
+```{r GuessesHT, echo=FALSE}
+GuessTab <- array( dim = c(3, 15) )
+
+GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
+GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
+GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
+
+if( knitr::is_latex_output() ) {
+  kable(GuessTab,
+      format = "latex",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(GuessTab,
+      format = "html",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? 
+   Explain the difference in the meaning of the two terms.
+2. Perform a hypothesis test to determine if the mean guess is the actual distance of $13.1$\ m.
+   (The CI was computed in Sect.\ \@ref(RoomWidthCI).)
+3. Is it reasonable to assume the conditions are satisfied? 
+   The histogram in Fig.\ \@ref(fig:LengthsHallHistoHT) may (or may not) help.
+4. Do you think students were very good at estimating the width of the hall using metric units?
+
+```{r echo=FALSE}
+GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13, 
+13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 17, 
+17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
+```
+
+```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
+hist( GuessM, 
+      las = 1,
+      main = "Histogram of guesses",
+      xlab = "Guess (in metres)",
+      col = plot.colour)
+```
+
+```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres-jamovi.png") )
+```
+
+
+
+```{r LengthsHallOutput1, echo=FALSE, fig.show="hold", fig.cap="SPSS numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("80%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres.png") )
+```
+
+
+
+
+
+
+
+### **Optional**: General ideas {#GeneralIdeas2}
+
+
+<iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect8-Q6.Rmd'}
+```
+
+
+
+
+
+
+### **Optional**: $P$-values {#PvalueStatement}
+
+An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
+She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
+
+After $12$ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+She finds a statistically significant difference between the odds in the two groups.
+Which of these statements is *consistent* with this conclusion?
+
+1. The $\text{OR} = 4.1$ and $P = 0.36$ \tightlist 
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+2. The $\text{OR} = 4.1$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+3. The $\text{OR} = 0.91$ and $P = 0.36$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+4. The $\text{OR} = 0.91$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+   
+How would the other statements be interpreted then?
+
+
+
+
+### **Optional**: Tests for paired samples {#PairedTestRunners}
+
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+After a number of runners collapsed near the finish of the Tyneside annual Great North Run, researchers decided to study the role of $\beta$ endorphins as a factor in the collapses.
+($\beta$ endorphins are a peptide which suppress pain.) 
+
+A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: does the concentration of plasma $\beta$ endorphins *increase*, on average, during fun runs.
+
+The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
+Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table\ \@ref(tab:RunnerTabHT).)
+A 'typical' value for $\beta$ endorphines is usually under about 11 pmol/litre. 
+ 
+1. Explain why these data should be analysed as a paired means situation. \tightlist
+2. Which of the following is the correct null hypothesis for this question? 
+   **Why** are the others incorrect?
+   Is the test one- or two-tailed?
+
+    a. $\mu_{\text{Before}} = \mu_{\text{After}}$
+    b. $\mu_{\text{Difference}} = 0$
+    c. $\mu_{\text{Before}} = 0$
+    d. $\mu_{\text{After}} = 0$
+    e. $\mu_{\text{Before}} < \mu_{\text{After}}$
+    f. $\mu_{\text{Difference}} > 0$
+    g. $\mu_{\text{Before}} < 0$
+    h. $\mu_{\text{After}} > 0$
+
+3. Write down the mean, standard deviation and standard error, using Fig.\ \@ref(fig:FunRunjamovi) (jamovi) or Fig.\ \@ref(fig:FunRunSPSS) (SPSS).
+4. Write down the value of the $t$-statistic, then estimate the $P$-value (using the $68$--$95$--$99.7$ rule).
+5. Write a statement that communicates the result of the test.
+6. What conditions must be met for this test to be valid?
+7. Is it reasonable to assume the assumptions are satisfied? 
+   Use the histogram of the data  in Fig.\ \@ref(fig:FunRunSPSSHisto) to help, if necessary.
+
+
+
+```{r RunnerTabHT, echo=FALSE}
+RunnerTab <- array( dim=c(11, 3))
+
+RunnerTab[, 1] <- c(4.3, 4.6, 5.2, 5.2, 6.6, 7.2, 8.4, 9.0, 10.4, 14.0, 17.8)
+RunnerTab[, 2] <- c(29.6, 25.1, 15.5, 29.6, 24.1, 37.8, 20.1, 21.9, 14.2, 34.6, 46.2)
+RunnerTab[, 3] <- RunnerTab[, 2] - RunnerTab[, 1]
+
+colnames(RunnerTab) <- c("Before", 
+                         "After", 
+                         "Difference")
+
+
+if( knitr::is_latex_output() ) {
+  kable(RunnerTab,
+      format = "latex",
+      booktabs = TRUE,
+      linesep = c("","","\\addlinespace", "", "", "", "\\addlinespace", "", "", ""),
+      caption = "Plasma-beta concentration for runners, before and after the race") %>%
+  row_spec(0, bold = TRUE) %>%
+  kable_styling(font_size = 10)
+
+}
+if( knitr::is_html_output() ) {
+  kable(RunnerTab,
+      format = "html",
+      booktabs = TRUE,
+      linesep = c("","","\\addlinespace", "", "", "", "\\addlinespace", "", "", ""),
+      caption = "Plasma-beta concentration for runners, before and after the race") %>%
+  row_spec(0, bold = TRUE)
+}
+
+```
+
+
+```{r FunRunjamovi, echo=FALSE, fig.cap="Output from jamovi for the fun run example, partially edited", fig.align="center", out.width="100%"}
+include_graphics("SoftwareImages/FunRunOutputCut3-jamovi.png")
+```
+
+```{r FunRunSPSS, echo=FALSE, fig.cap="Output from SPSS for the fun run example, partially edited", fig.align="center", out.width="90%"}
+include_graphics("SoftwareImages/FunRunOutputCut3.png")
+```
+
+```{r FunRunSPSSHisto, echo=FALSE, fig.cap="Histogram of differences for the fun run example", fig.align="center", out.width="40%"}
+include_graphics("SoftwareImages/FunRunHisto.png")
+```
+
+
+
+

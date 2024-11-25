@@ -1,0 +1,395 @@
+# Teaching Week 8: tutorial  {#Lecture8}
+
+
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
+**Topics** covered in this tutorial:
+
+* The decision-making process.
+* Hypothesis tests for one proportion.
+* Hypothesis tests for one mean
+:::
+   
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+
+* [Chapter\ 25 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
+* Chapter\ 26 (Hypothesis tests: one proportion).
+* Chapter\ 27 (Hypothesis tests: one mean).
+* Chapter\ 28 (More details about hypothesis testing)
+
+
+
+
+
+
+## Quick revision {#QuickRevision-Tutorial8}
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+:::
+
+::: {.webex-check .webex-box}
+Researchers studied the impact of a gluten-free diet on dental cavities [@khalaf2020caries].
+Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
+ 
+**Diet**           | **Sample size** | **Mean** | **Standard deviation** | **Standard error**
+------------------:+:---------------:+:--------:+:----------------------:+:----------------:
+Coeliac            |  23             | 8.39     | 4.4                    | 0.92
+Non-coeliac        |  23             | 8.17     | 4.1                    | 0.86
+**Difference**     |                 | 0.22     | &nbsp;                 | 1.3
+
+An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
+
+1. Using the $68$--$95$--$99.7$ rule gives a slightly different CI.
+  Why?
+`r if( knitr::is_html_output() ) { 
+  webexercises::longmcq( c(
+  "The researchers made a calculation error.",
+  answer = "The researchers calculated an exact $95$% CI (not an approximate $95$% CI).",
+  "The statistical validity conditions are not met.")) }`
+1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. 
+   True or false? \tightlist 
+`r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
+1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
+   True or false?  
+`r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
+1. We are $95$% confident that the difference between the population means is:   
+`r if( knitr::is_html_output() ) {
+   webexercises::longmcq( c("Larger for coeliacs", 
+          "Smaller for coeliacs",
+          answer = "Between 2.32 higher for non-coeliacs to 2.76 higher for coeliacs.",
+          "Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs.")
+	  )
+}`
+:::
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+`r webexercises::hide()`
+1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\ CI.
+   (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
+1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
+1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
+1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
+   So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265024&sec_digit=1323639114&embeded_digit=1520489507' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+## Concepts {#ConceptsMatches}
+
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "30%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
+
+
+Claire and Jake were wondering about the mean number of matches in a box.
+The boxes contain this statement:
+
+> An average of $45$ matches per box.
+
+They purchased a carton containing $25$\ boxes of matches, and Jake counted the number of matches in *one* of those $25$\ boxes.
+There was $44$\ matches.
+
+'Oh wow.  Just wow.' said Jake.
+'They lie.  There's only $44$\ matches in this box.'
+
+
+1. What is Jake's misunderstanding? \tightlist
+2. Then, they counted the number of matches in *each* of the twenty-five boxes.  
+   
+   Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
+   
+   Jake notes that the mean is $44.9$\ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
+   How would you respond?
+3. 'Wow!' said Jake.
+   'The claim is $45$\ matches per box on average, but the mean really is $44.9$!
+   They're liars!  Liar, liar, pants on...'  
+   
+   What is Jake's misunderstanding?
+4. What two broad reasons could explain why the sample mean is *not* $45$?
+5. 'Come on, Jake,' said Claire.
+   'As if the mean will be *exactly* $45$ in a sample every single time.
+   Let's work out the confidence interval.'  
+   
+   Why does Claire think a CI is needed?
+   What will it tell them?
+6. What is an approximate $95$% confidence interval for the mean for Claire's sample?
+7. 'Aha---I told you so!  They *are* absolutely lying!
+   Your confidence interval doesn't even include their mean of $45$!' said Jake.
+   'The manufacturer *must* be lying!'  
+   
+   Is Jake correct?
+   Why or why not?
+   What does the CI *mean*?
+8. In this scenario, what does\ $\bar{x}$ represent?
+   What is the *value* of\ $\bar{x}$?
+9. In this scenario, what does\ $\mu$ represent?
+   What is the *value* of\ $\mu$?
+
+
+
+
+## Test for one proportion {#HTOneProportionA}
+
+According to
+`r if (knitr::is_html_output()){
+  '[Statistica.com](https://www.statista.com/statistics/431375/individuals-who-wear-contact-lenses-in-selected-european-countries/),'
+} else {
+  'Statistica.com,' 
+}`
+$30$% of individuals in Sweden wore contact lenses in 2020 (the highest percentage in Europe).
+
+Suppose a group of 35 Swedish computer programmers includes $12$ that wear contact lenses.
+Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses, compared to the general Swedish population?
+Conduct a test, then write a conclusion (including a CI).
+
+What assumptions are needed for this test to be statistically valid, and externally valid?
+
+
+	
+
+## Tests for one mean {#HTOneMean-A}
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+`r if (knitr::is_latex_output()) '<!--'`
+```{r, echo=FALSE, out.width= "45%", out.extra='style="float:right; padding:10px"'}
+include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg")
+```
+`r if (knitr::is_latex_output()) '-->'`
+
+
+In 2011, *Eagle Boys' Pizza* ran a campaign that claimed that Eagle Boys' pizzas were  'Real size $12$-inch large pizzas' [@mypapers:Dunn:PizzaSize].
+Eagle Boys' made the data from the campaign publicly available.
+
+A summary of the diameters of a sample of $125$ of their large pizzas is shown in Fig.\ \@ref(fig:PizzaSoftwareHTjamovi) (jamovi) and Fig.\ \@ref(fig:PizzaSoftwareHTSPSS) (SPSS).
+We would like to test the company's claim, and ask the RQ:
+
+> For Eagle Boys' pizzas, is mean diameter actually $12$ inches, or not?
+
+
+```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", out.width='40%'}
+knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
+```
+
+
+```{r PizzaSoftwareHTSPSS, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; SPSS, slightly edited", fig.align="center", out.width='70%'}
+knitr::include_graphics( "SoftwareImages/PizzaDiameters-Edited.png")
+```
+
+
+
+1. What is the **parameter** of interest?
+1. Write down the values of\ $\bar{x}$ and\ $s$.
+1. Determine the value of the standard error of the mean.
+1. Explain the difference in meaning between\ $s$ and $\text{s.e.}(\bar{x})$ in this context.
+1. Write the hypotheses to test if the mean pizza diameter is $12$\ inches.
+1. Is the alternative hypothesis one- or two-tailed? Why?
+1. Draw the normal distribution that shows how the *sample mean pizza diameter* would vary by chance, *even if* the population mean diameter was $12$\ inches. 
+1. Compute the $t$-score for testing the hypotheses.
+1. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
+1. Write a conclusion. 
+   (The CI was found in the [Teaching Week\ 7 tutorial](#CIPizzas).)
+1. Is it reasonable to assume the *statistical* validity conditions are satisfied? 
+   (Fig. \@ref(fig:PizzaHistoHT) may, or may not, help.)
+1. Do you think that the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boys' claim?
+   Explain.
+
+```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas", fig.align="center", fig.width=6}
+data(PizzaSize)
+
+PS <- PizzaSize
+
+
+hist( PS$DiameterInches[PS$Store == "EagleBoys"],
+      col = plot.colour,
+      las = 1,
+      xlab = "Pizza diameter (in inches)",
+      ylab = "Number of pizzas",
+      main = "Histogram of pizza diameters",
+      xlim = c(10, 12.5))
+```
+
+
+
+
+
+
+
+
+## $P$-values {#PValues}
+
+Assuming the tests are statistically valid, what is the approximate $P$-value for a *two*-tailed $t$-test if:
+
+1. $t = -2.14$.
+2. $t = 1.90$.
+3. $t = 3.15$.
+4. $t = -1.20$.
+5. $t = -1.59$.
+6. $t = 6.71$.
+
+(**Hint**: Use the $68$--$95$--$99.7$ rule.)
+
+How would your answers change if these $t$-scores came from a *one-tailed* test?
+
+
+`r if (knitr::is_latex_output()) '<!--'`
+<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458374&sec_digit=1695234792&embeded_digit=1183575621' style='width:100%; height:450px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
+<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
+`r if (knitr::is_latex_output()) '-->'`
+<!-- Admin link: -->
+<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458374&sec_digit=1695234792&edit_code=97870029 -->
+
+
+
+
+
+
+## **Optional questions** {#OptionalTW8}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers appear in Sect.\ \@ref(Lecture8Answers).)
+:::
+
+
+### **Optional**: Tests for one mean {#RoomWidthTest}
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
+
+
+Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
+
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
+
+To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
+The data are given in Table \@ref(tab:GuessesHT).  
+   
+The data were entered into software, producing the output in Fig.\ \@ref(fig:LengthsHallOutputjamoviHT1) (jamovi), and Fig.\ \@ref(fig:LengthsHallOutput1) (SPSS).
+
+
+```{r GuessesHT, echo=FALSE}
+GuessTab <- array( dim = c(3, 15) )
+
+GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
+GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
+GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
+
+if( knitr::is_latex_output() ) {
+  kable(GuessTab,
+      format = "latex",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE,
+                font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(GuessTab,
+      format = "html",
+      caption = "Guess of the width of a room 13.1 metres wide",
+      booktabs = TRUE,
+      align = "r") %>%
+  kable_styling(full_width = FALSE)
+}
+```
+
+1. What are the values of $s$ and $\text{s.e.}(\bar{x})$? 
+   Explain the difference in the meaning of the two terms.
+2. Perform a hypothesis test to determine if the mean guess is the actual distance of $13.1$\ m.
+   (The CI was computed in Sect.\ \@ref(RoomWidthCI).)
+3. Is it reasonable to assume the conditions are satisfied? 
+   The histogram in Fig.\ \@ref(fig:LengthsHallHistoHT) may (or may not) help.
+4. Do you think students were very good at estimating the width of the hall using metric units?
+
+```{r echo=FALSE}
+GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13, 
+13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 17, 
+17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
+```
+
+```{r LengthsHallHistoHT, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall", fig.align="center", fig.width=6}
+hist( GuessM, 
+      las = 1,
+      main = "Histogram of guesses",
+      xlab = "Guess (in metres)",
+      col = plot.colour)
+```
+
+```{r LengthsHallOutputjamoviHT1, echo=FALSE, fig.show="hold", fig.cap="jamovi numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("35%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres-jamovi.png") )
+```
+
+
+
+```{r LengthsHallOutput1, echo=FALSE, fig.show="hold", fig.cap="SPSS numerical summary output for the estimates of the width of a hall in metres", fig.align="center", out.width=c("80%", "80%")}
+include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
+                    "SoftwareImages/LengthsHallOneSampleMetres.png") )
+```
+
+
+
+
+
+### **Optional**: $P$-values {#PvalueStatement}
+
+An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
+She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
+
+After $12$ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+She finds a statistically significant difference between the odds in the two groups.
+Which of these statements is *consistent* with this conclusion?
+
+1. The $\text{OR} = 4.1$ and $P = 0.36$ \tightlist 
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+2. The $\text{OR} = 4.1$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+3. The $\text{OR} = 0.91$ and $P = 0.36$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "Consistent with conclusion",
+      answer = "NOT consistent with conclusion"))}`
+4. The $\text{OR} = 0.91$ and $P = 0.0001$  
+   `r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "Consistent with conclusion",
+               "NOT consistent with conclusion"))}`
+   
+How would the other statements be interpreted then?
+
+
+
+
+### **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
+
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-FillInBlanks.Rmd'}
+```
+
+
+<iframe src="https://usc.h5p.com/content/1290972273872030009/embed" width="1088" height="375" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
