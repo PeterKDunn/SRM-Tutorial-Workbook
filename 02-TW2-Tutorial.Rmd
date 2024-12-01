@@ -162,26 +162,26 @@ regarding this information.
 <!-- I deleted the enclosing <div> ... </div> -->
 
 
-```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='90%', eval=is_latex_output()}
+```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week2.PNG")
 ```
 
 `r if (knitr::is_html_output()){'<!--'}`
-\begin{multicols}{2}
+\begin{multicols}{2}\small
 \textbf{Across}
 
 \begin{enumerate}\tightlist
-  \item[3.]
+  \item[\textbf{3.}]
   The number of groups being compared (5)  
-  \item[5.] 
+  \item[\textbf{5.}] 
   Ask if you need \verb|____| (4)  
-  \item[6.]
+  \item[\textbf{6.}]
   Patients were assigned \verb|____| to the type of therapy received (8)  
-  \item[11.]
+  \item[\textbf{11.}]
   This type of study is called a \verb|____| study (12)  
-  \item[12.]
+  \item[\textbf{12.}]
   A lovely place to relax, with sand and surf (5)
-  \item[13.]
+  \item[\textbf{13.}]
   The size of the \verb|____| is $127$ (6)
 \end{enumerate}
 
@@ -190,19 +190,19 @@ knitr::include_graphics("images/Crossword-Week2.PNG")
 \textbf{Down}
 
 \begin{enumerate}\tightlist
-  \item[1.]
-  When individuals may change their behaviour if they think they are being observed is the \verb|____| effect(9)
-  \item[2.]
+  \item[\textbf{1.}]
+  When individuals may change their behaviour if they think they are being observed is the \verb|____| effect (9)
+  \item[\textbf{2.}]
   The evaluators were not aware of which group the patient was in; they were \verb|____| to the treatment applied (5)
-  \item[4.]
+  \item[\textbf{4.}]
   For the study, informed consent is to ensure the study is \verb|____| (7)
-  \item[7.]
-  The treatment of “usual care” would be considered to be the \verb|____| (7)
-  \item[8.]
+  \item[\textbf{7.}]
+  The treatment of `usual care' would be considered to be the \verb|____| (7)
+  \item[\textbf{8.}]
   The type of therapy is called the \verb|____| (9)
-  \item[9.]
+  \item[\textbf{9.}]
   The research question is of this type (10)
-  \item[10.]
+  \item[\textbf{10.}]
   A riddle: If you give me food, I will live; if you give me water, I will die (4)
 \end{enumerate}
 \end{multicols}

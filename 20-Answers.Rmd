@@ -128,7 +128,7 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
 
-The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definition; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; unit.
+The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; units.
 
 
 

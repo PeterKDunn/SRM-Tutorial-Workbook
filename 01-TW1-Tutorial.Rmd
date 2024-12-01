@@ -273,9 +273,9 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
 5. Construct a well-worded *relational* research question *with an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
-6. *Briefly* describe how to set up an *experimental* study for answering your proposed research question.
+6. *Briefly* describe an *experimental* study for answering your proposed research question.
 7. Construct a well-worded *relational* research question *without an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
-8. *Briefly* describe how to set up an *observational* study for answering your proposed research question.
+8. *Briefly* describe an *observational* study for answering your proposed research question.
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
@@ -298,7 +298,7 @@ Bamboo is a fast-growing, strong grass often used for environmentally-friendly b
 A small research study explored the hardness of bamboo when used as flooring material.
 
 The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to a depth of half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-Five floorboards were taken, and two hardness measurements were taken on each board  (units not given, but probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
+Five floorboards were taken, and two hardness measurements were taken on each board  (units probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
 ```{r JankaBoards, echo=FALSE}
@@ -365,7 +365,7 @@ Complete the crossword
 } else {
    'below'
 }`
-to help you understand some of the words used in this week's content.
+to help you understand some of the words used in the content.
 
 
 <!-- <script src="https://www.puzzlefast.com/en/puzzles/2020032202163752N/nsl-script?width=600px&height=900px" type="text/javascript"></script> -->
@@ -374,52 +374,54 @@ to help you understand some of the words used in this week's content.
 <iframe src="https://usc.h5p.com/content/1291418275333983599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
+```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='75%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week1.PNG")
 ```
 
 
 `r if (knitr::is_html_output()){'<!--'}`
-\begin{multicols}{2}
-\textbf{Across}
+\begin{multicols}{2}\small
 
+\textbf{Across}
 \begin{enumerate}\tightlist
-  \item[4.] 
-  What we do with the data to answer the RQ (7)  
-  \item[5.]
-  A confounding variable, but is not measured or recorded, is a \verb|____| variable (7)   \item[6.]
-  Research questions are answered using \verb|____| (that is, the data) (8)  
-  \item[9.]
-  The type of research where data are summarised using numerical methods (12)  
-  \item[12.]
+  \item[\textbf{4.}] 
   The first step in the research process is to \verb|____| the question (3)  
-  \item[13.] 
-  RQs in which two groups are compared are called v(10)  
-  \item[14.]
-  The second step in the research process (6)  
-  \item[15.]
-  The acronym to remember the four components of a RQ (4)
+  \item[\textbf{5.}]
+  RQs in which groups are compared are called \verb|____| (10)  
+  \item[\textbf{6.}]
+  `Conceptual' and `Operational' are types of \verb|____| (11)  
+  \item[\textbf{8.}]
+  RQs whose main purpose in \emph{not} making a decision are \verb|____| RQs (10)  
+  \item[\textbf{9.}]
+  The type of research where data are \emph{not} summarised using numerical methods (11)  
+  \item[\textbf{11.}]
+  Research questions are answered using \verb|____| (that is, the data) (8)  
+  \item[\textbf{13.}]
+  Data are recorded from the \verb|____| of observation (5)  
+  \item[\textbf{14.}]
+  What we do with the data to answer the RQ (7)  
+  \item[\textbf{15.}]
+  A confounding variable, but is not measured or recorded, is a \verb|____| variable (7)
+
 \end{enumerate}
 
-\newcolumn
+\columnbreak
 
 \textbf{Down}
-
 \begin{itemize}\tightlist
-  \item[1.]
-  'Conceptual' and 'Operational' are types of \verb|____| (11)  
-  \item[2.]
+  \item[\textbf{1.}]
+  The acronym to remember the four components of a RQ (4)
+  \item[\textbf{2.}]
+  The type of research where data are summarised using numerical methods (12)  
+  \item[\textbf{3.}]
+  The second step in the research process (6)  
+  \item[\textbf{7.}]
   After designing a study, the next step is to \verb|____| the data (7)  
-  \item[3.]
-  The type of research where data are NOT summarised using numerical methods (11)  
-  \item[7.]
-  The collected information to answer the RQ is called \verb|____| (4)  
-  \item[8.]
-  RQs whose main purpose in *not* making a decision are \verb|____| RQs. (10)  
-  \item[10.]
-  Data are recorded from the \verb|____| of observation (5)  
-  \item[11.]
+  \item[\textbf{10.}]
   Independent collections of units of observations are called unit of \verb|____| (8)
+  \item[\textbf{12.}]
+  The collected information to answer the RQ is called \verb|____| (4)  
+
 \end{itemize}
 \end{multicols}
 `r if (knitr::is_html_output()){'-->'}`
