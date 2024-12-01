@@ -232,7 +232,7 @@ The type of experiment: true experiment.
 ### Answers for Sect.\ \@ref(LanguageReport) {.unlisted .unnumbered}
 
 The answers are, in alphabetical order:
-beach; blind; control; ethical; experimental; fire; help; nominal; randomly; relational; sample.
+beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; randomly; relational; sample; three; treatment.
 
 
 
