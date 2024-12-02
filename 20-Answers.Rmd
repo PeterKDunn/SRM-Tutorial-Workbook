@@ -241,42 +241,36 @@ beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; ra
 
 ### Answers for Sect.\ \@ref(AssessReport) {.unlisted .unnumbered}
 
-1. **Outcome**: mortality *rate* or similar;
-   **Response variable**: whether or not an *individual* baby survived.
-2. **Comparison**: Between home and hospital births;
-	 **Explanatory variable**: Where the baby is born (this is what *varies*)
-3. Observational (cross-sectional/non-directional) study.
-4. Some are up for debate... 
-   The point here is that confounding variables
-	 are (potentially) related to **both** the response and explanatory variables.
-    a. The maximum temperature on the day of giving birth: Neither? Possibly confounding?
-    b. The health of the mother; Confounding (and hence extraneous, according to our definitions).
-    c. The distance to the nearest hospital: Confounding (and hence extraneous, according to our definitions).
-    d. The number of previous births by the mother: Not sure.  Possibly confounding.  I'd have to think more.
-    e. Baby's gender: Probably neither. Related to mortality (male babies have higher infant mortality) but not to the place of birth.
-
-5. Observational (cross-sectional/non-directional) study.
-6. Possible RQ: "Among American mothers' births (P), is the neo-mortality rate (O) the same when giving birth at home compared to giving birth in hospital (C)?"
-7. Cause-and-effect not reasonable (observational study).
-8. Voluntary response.
-   Data volunteered are likely to be more favourable than the data that was not volunteered.
-   Limitations: many. 
-   For example, mothers who have been told to expect a difficult birth would probably opt for an in-hospital birth.
-9. This report doesn't suggest it is safer.
-10. The headline is accurate, but is certainly **not the complete story** as it implies cause-and-effect.
-11. External validity.
-
-
-
-
-
+1. *Outcome*: average lifespan? Not sure how one measures 'ageing well'. \tightlist
+   *Response variable*: lifespan?
+2. *Comparison*: Between eating and not eating aged cheese.
+   *Explanatory variable*: Whether someone eats aged cheese (or a certain amount of aged cheese) or not.
+3. Observational; but a guess.
+4. *Outcome*: average lifespan; *response*: lifespan.
+5. *Comparison*: Between mice drinking and not drinking spermidine; *explanatory*: the type of water the mice drank.
+6. Experimental; researchers treated the water.
+7. Possibly; 'aging well' is not the same as having an increased lifespan.
+   Study is for *mice*, not *people* anyway.
+8. To act as the control group, to measure the effect of the spermidine.
+9. *Outcome*: average blood pressure; *response*: blood pressure.
+10. Correlational.
+11. Observational.
+12. Some answers are debatable. 
+    a. Probably confounding (often is).
+    b. Probably neither.
+    c. Probably neither.
+    d. Probably confounding.
+    e. Probably extraneous.
+13. Not really; but 'ageing well' is very vague.
+14. No; spermidine may have an effect, but probably not due to aged cheese intake.
+15. No; observational.
 
 
 ### Answers for Sect.\ \@ref(StudyFeatures) {.unlisted .unnumbered}
 
-1. Yes: "They were randomly allocated to take palmolein ("B9") or canola ("T4") crisps for the first 3 weeks, then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks".
-2. It has: "the type of oil was known only by the food scientist..."
-3. "the type of oil was known only by the food scientist..."
+1. Yes: 'They were randomly allocated to take palmolein ("B9") or canola ("T4") crisps for the first 3 weeks, then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks'.
+2. It has: 'the type of oil was known only by the food scientist...'
+3. 'the type of oil was known only by the food scientist...'
 4. Probably.
 5. Subjects and researchers blinded.
 

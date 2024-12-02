@@ -212,58 +212,70 @@ knitr::include_graphics("images/Crossword-Week2.PNG")
 
 ## Assessing reports {#AssessReport}
 
-Home-birthing has many supporters and detractors.
-But how safe is home-birthing?
-Consider the newspaper report shown in Fig.\ \@ref(fig:homebirths), based on a research article [@data:Murphy1998:homebirth].
-Answer the questions that follow.
+A report in *The Sydney Morning Herald* [@data:Berry:AgedCheese] was entitled 'Aged cheese could help you age well'.
+Based on this headline:
 
-```{r homebirths, echo=FALSE, fig.cap="From: The Toowoomba Chronicle, 22 February 1999", fig.align="center", out.width="85%"}
- knitr::include_graphics("ArticleImages/homebirths2.jpg")
-```
-
-
-1. Identify the outcome and response variable. \tightlist
-2. Identify the comparison and explanatory variable.
-3. *Explain* whether the study is observational or experimental.
-4. Are the following variables likely to be extraneous variables, confounding variables, or neither? **Explain.**
-
-    a. The maximum temperature on the day of giving birth. 
-	  b. The health of the mother.
-	  c. The distance to the nearest hospital.
-	  d. The number of previous births by the mother.
-    e. The gender of the baby.
-
-5. *If the study is experimental*, determine if the principles of randomization, control, blinding and double-blinding, and blocking have been used.
-	 Also, determine if it is a quasi-experiment or a true experiment.  
-	 
-	 *If the study is observational*, determine if the study uses a forward direction (cohort study), a backward direction (case-control study), or is non-directional (cross sectional).
-6. Suggest the RQ asked at the start of the study by identifying POCI.
-7. Is a cause-and-effect relationship reasonable? 
+1. what are reasonable suggestions for the outcome and response variable? \tightlist
+2. what are reasonable suggestions for the comparison and explanatory variable? 
+3. would you expect the study to be observational or experimental?
    Explain.
-8. Read the extract from the original article below [@data:Murphy1998:homebirth]. 
-   What is the sampling method? 
-   Why are these limitations? 
-   What other limitations of the study can you think of?
+   
+Below is an extract from the newspaper article for the mice study that formed part of the research.
 
-> There are several limitations to note in this report.
-> The results reported here reflect a sample of nurse--midwifery practices *willing to participate in data collection* and to *permit the resulting scrutiny of their practices*. 
-> We cannot draw comparisons to non-participating nurse--midwifery practices or to the home birth practices of physician and other midwife providers.
->
-> --- @data:Murphy1998:homebirth, emphasis added
+> Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study.
+>   
+>   \null
+>   
+> In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
+> the team supplemented the drinking water of mice with spermidine. 
+> Control mice drank normal water.
+>   
+>  \null
+>  
+> They found that it "significantly extended" the median lifespan of the mice...
 
+Based on this information:
 
-9. Based on this report, do you or do you not agree that (in general) a home birth is safer than a hospital birth? 
+4. what are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
+5. what are reasonable suggestions for the comparison and explanatory variable? 
+6. is the study observational or experimental?
+   Explain.
+7. does the newspaper headline appear reasonable?
+8. why do the researchers give some mice plain drinking water?
+
+Below is an extract from the newspaper article for the human study that formed part of the research.
+
+> ... the researchers surveyed $800$ Italians about their diet and found that those who reported a higher intake of spermidine had lower blood pressure and a $40$ per cent lower risk of heart failure and other cardiovascular diseases.
+
+Based on this information:
+
+9. what are reasonable suggestions for the outcome and response variable for the human study? \tightlist
+10. what *type* of RQ is suggested: relational, correlational or repeated-measures? 
+11. is the study observational or experimental?
+   Explain.
+12. Are the following variables likely to be extraneous variables, confounding variables, or neither? **Explain.**
+
+    a. The sex of the person. 
+	  b. The number of siblings.
+	  c. The distance to the nearest hospital.
+	  d. The amount of exercise per week by the person.
+    e. Whether their father had heart problems.
+
+The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in 1995, 2000 and\ 2005.
+From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
+
+Those with the highest spermidine intakes had a $40$% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes. 
+Those with the highest spermidine intakes also had a significantly lower risk of *any* heart disease, compared to those with the lowest spermidine intakes.
+
+13. Does the newspaper headline appear consistent with the research article?
+
+The study reports that the biggest contributor to spermidine intakes was wholemeal foods (accounting for $13.4$% of intake), apples and pears ($13.3$%), salad ($9.8$%), vegetable sprouts ($7.3$%) and potatoes ($6.4$%).
+Aged cheese appeared in the list in sixth place ($2.9$% of intake).
+
+14. Based on this information, do you agree with, or not agree with, the newspaper article headline?
     Explain.
-10. Is the article headline consistent with the study conclusions?
-11. Is the last sentence of the quotation about internal validity, external validity, or ecoloical validity?
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458376&sec_digit=1584102666&embeded_digit=266427770' style='width:100%; height:450px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-<!-- Admin link: -->
-<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458376&sec_digit=1584102666&edit_code=2061168457 -->
-
+15. Is a cause-and-effect relationship reasonable? 
+    Explain.
 
 
 ## Planning a research study {#PlanStudy2}
