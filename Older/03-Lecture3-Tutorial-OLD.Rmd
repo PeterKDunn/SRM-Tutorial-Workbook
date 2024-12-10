@@ -358,7 +358,7 @@ Your tutor will have information.
 
 
 
-## **Optional**: Understanding graphs {#HistogramBars}
+## **(Optional)**  Understanding graphs {#HistogramBars}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -372,7 +372,7 @@ Explain the important differences between a bar chart and a histogram.
 
 
 
-## **Optional**: Selecting graphics {#SelectingGraphsH5P}
+## **(Optional)**  Selecting graphics {#SelectingGraphsH5P}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -391,7 +391,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
+## **(Optional)**  Evaluating graphics {#EvaluateGraphsAnts}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -417,7 +417,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 
 
 
-## **Optional**: Evaluating graphics {#EvaluateGraphs1}
+## **(Optional)**  Evaluating graphics {#EvaluateGraphs1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -449,7 +449,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 
 
 
-## **Optional**: Understanding graphics {#UnderstandGraphsPizza}
+## **(Optional)**  Understanding graphics {#UnderstandGraphsPizza}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -471,7 +471,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Selecting graphs {#SelectGraph1}
+## **(Optional)**  Selecting graphs {#SelectGraph1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.

@@ -21,19 +21,17 @@ Use the words in column 1 of Table to complete the following passage:
 
 
 ```{r Words4Table, echo=FALSE}
-Words4 <- array( "", dim = c(3, 4))
+Words4 <- array( "", dim = c(2, 5))
 
 Words4[, 1] <- c("sample", 
-                 "error",
-                 " ")
+                 "error")
 Words4[, 2] <- c("standard",
-                 "experiment",
-                 " ")
+                 "experiment")
 Words4[, 3] <- c("random",
-                 "sample",
                  "control") 
 Words4[, 4] <- c("range", 
-                 "confidence",
+                 "confidence")
+Words4[, 5] <- c("sample",
                  "experiment")
 
 
@@ -47,7 +45,7 @@ if( knitr::is_latex_output() ) {
   kable_styling(full_width = FALSE) %>%
   row_spec(0, bold = TRUE) %>%
   add_header_above( c("Passage 1" = 2,
-                      "Passage 2" = 2),
+                      "Passage 2" = 3),
                     bold = TRUE,
                     line = TRUE)
 }

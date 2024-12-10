@@ -1,5 +1,5 @@
-1. A lecturer wishes to compare the average blood alcohol concentrations in two of her classes.
-   She measures the blood alcohol concentrations of students in two of her Monday morning classes.  
+1. A lecturer wishes to compare the average blood alcohol concentrations (BAC) of students in two of her classes.
+   She measures the BAC of students in two of her Monday morning classes.  
 
    What *type* of study is this?
    Explain.
@@ -9,10 +9,10 @@
     c. Quasi-experimental study.
 
   
-2. A lecturer wishes to compare the average blood alcohol concentrations in two of her classes, 
-   to determine if knowing in advance leads to different average blood alcohol concentrations.  
+2. A lecturer wishes to compare the average BAC of students in two of her classes, 
+   to determine if knowing in advance leads to different average BAC.  
 
-   She informs one class on a Friday that she will be measuring blood alcohol concentrations in students on a Monday morning, 
+   She informs one class on a Friday that she will be measuring BAC in students on a Monday morning, 
    but does not tell another of her Friday classes.  
 
    What type of study is this?

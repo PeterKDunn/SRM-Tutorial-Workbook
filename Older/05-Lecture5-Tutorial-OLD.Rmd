@@ -508,7 +508,7 @@ legend("top",
 
 
 
-## **Optional**: Odds ratios {#OddsRatioSMND}
+## **(Optional)**  Odds ratios {#OddsRatioSMND}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -542,7 +542,7 @@ Of the $380$ SMND cases, $60$ had worked with metal; of the $377$ controls, $33$
 
 
 
-## **Optional**: Percentages and odds {#PercentagesOdds}
+## **(Optional)**  Percentages and odds {#PercentagesOdds}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -651,7 +651,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## **Optional**: Odds {#Odds1}
+## **(Optional)**  Odds {#Odds1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -669,7 +669,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-##  **Optional**: Working with odds {#WorkingWithOdds}
+##  **(Optional)**  Working with odds {#WorkingWithOdds}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -690,7 +690,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Optional**: Percentages { #PercentagesOdour}
+## **(Optional)**  Percentages { #PercentagesOdour}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.

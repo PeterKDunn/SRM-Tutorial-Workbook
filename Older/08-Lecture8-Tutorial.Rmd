@@ -271,7 +271,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Tests for one mean {#RoomWidthTest}
+### **(Optional)**  Tests for one mean {#RoomWidthTest}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -352,7 +352,7 @@ include_graphics( c("SoftwareImages/LengthsHallOutputNoSE.png",
 
 
 
-### **Optional**: $P$-values {#PvalueStatement}
+### **(Optional)**  $P$-values {#PvalueStatement}
 
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
@@ -383,7 +383,7 @@ How would the other statements be interpreted then?
 
 
 
-### **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
+### **(Optional)**  Understanding the language of research and statistics {#LanguageOfSStats}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-FillInBlanks.Rmd'}

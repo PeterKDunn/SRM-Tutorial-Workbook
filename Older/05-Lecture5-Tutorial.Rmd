@@ -414,7 +414,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: Understanding RQs and variables {#UnderstandRqVariables}
+### **(Optional)**  Understanding RQs and variables {#UnderstandRqVariables}
 
 @data:heartbear:radziun2023 compared the mean accuracy with which blind and sighted individuals could count their heartbeats over varying time periods.
 For the study, sighted subjects were blindfolded (p.\ 3).
@@ -446,7 +446,7 @@ The study, therefore, compared the average accuracy scores blind people to sight
 
 
 
-### **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
+### **(Optional)**  Interpreting and drawing boxplots {#DrawBoxplot}
 
 Environmentally-friendly buildings are often assumed to have a better indoor environmental quality (when occupants rate the comfort) than conventional buildings; in turn, this is assumed to have a positive impact on productivity.
 
@@ -468,7 +468,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 
-### **Optional**: Selecting the correct graph {#SelectGraphs1}
+### **(Optional)**  Selecting the correct graph {#SelectGraphs1}
 
 <iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -478,7 +478,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 
-### **Optional**: Identifying appropriate graphs {#IdentifyingGraphs1}
+### **(Optional)**  Identifying appropriate graphs {#IdentifyingGraphs1}
 
 In each of the following cases:
 	
@@ -526,7 +526,7 @@ In addition, draw a rough example of what the graph may look like.
 
 
 
-### **Optional**: Selecting graphics {#SelectingGraphsH5P}
+### **(Optional)**  Selecting graphics {#SelectingGraphsH5P}
 
 <iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -537,7 +537,7 @@ In addition, draw a rough example of what the graph may look like.
 
 
 
-### **Optional**: Evaluating graphics {#EvaluateGraphsAnts}
+### **(Optional)**  Evaluating graphics {#EvaluateGraphsAnts}
 
 A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig.\ \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
 
@@ -557,7 +557,7 @@ include_graphics("ArticleImages/Sankovitz2018.png")
 
 
 
-### **Optional**: Evaluating graphics {#EvaluateGraphs1}
+### **(Optional)**  Evaluating graphics {#EvaluateGraphs1}
 
 An Australian study [@data:Jennings2012:Morphine] studied patients in severe pain and compared two different treatments to determine which to recommend.
 
@@ -583,7 +583,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 
 
 
-### **Optional**: Selecting graphs {#SelectGraph1}
+### **(Optional)**  Selecting graphs {#SelectGraph1}
 
 <iframe src="https://usc.h5p.com/content/1290973176373971849/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

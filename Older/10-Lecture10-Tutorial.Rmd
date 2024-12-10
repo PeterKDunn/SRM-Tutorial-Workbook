@@ -472,7 +472,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Two-way tables {#TablesHepC}
+### **(Optional)**  Two-way tables {#TablesHepC}
 
 Applying tattoos carries health risks as the skin is broken during application.
 An American study examined if a relationship existed between having hepatitis\ C and having tattoos [@data:Haley2001:Tattoos].
@@ -590,7 +590,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: Comparing two independent means {#TwoMeansHurricanes}
+### **(Optional)**  Comparing two independent means {#TwoMeansHurricanes}
 
 A study compared the number of deaths reported from hurricanes with male and female names [@data:Smith2016:hurricanes].
 One of the tables in the paper is shown in Fig.\ \@ref(fig:Smith2016hurricanes).
@@ -606,7 +606,7 @@ include_graphics("ArticleImages/Smith2016-Table4.png")
 
 
 
-### **Optional**: Assumptions {#AssumptionsGraphs}
+### **(Optional)**  Assumptions {#AssumptionsGraphs}
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect9-Q10.Rmd'}
 ```
@@ -615,7 +615,7 @@ include_graphics("ArticleImages/Smith2016-Table4.png")
 
 
 
-### **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
+### **(Optional)**  Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 	
@@ -693,7 +693,7 @@ include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTSPSSOutput.png")
 
 
 
-### **Optional**: Tests for ORs {#ORTestsByss}
+### **(Optional)**  Tests for ORs {#ORTestsByss}
 
 
 A study [@data:higgins:cotton] studied byssinosis (a respiratory complaint) among workers in the textile industry.
@@ -753,7 +753,7 @@ include_graphics("SoftwareImages/ByssOR.png")
 
 
 
-### **Optional**: Tests for ORs {#ORAirways}
+### **(Optional)**  Tests for ORs {#ORAirways}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

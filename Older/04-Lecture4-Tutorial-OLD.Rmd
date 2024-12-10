@@ -293,7 +293,7 @@ Your tutor will have information.
 
 
 
-## **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
+## **(Optional)**  Using the calculator statistics mode {#CalculatorBatteries}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -382,7 +382,7 @@ The cost of the batteries, at the time of publication (05 September 2012), was:
 
 
 
-## **Optional**: Interpreting histograms {#InterpretHistogram}
+## **(Optional)**  Interpreting histograms {#InterpretHistogram}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -409,7 +409,7 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 
 
 
-## **Optional**: Interpreting and drawing boxplots {#DrawBoxplot}
+## **(Optional)**  Interpreting and drawing boxplots {#DrawBoxplot}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.
@@ -441,7 +441,7 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 
 
-## **Optional**: Selecting the correct graph {#SelectGraphs1}
+## **(Optional)**  Selecting the correct graph {#SelectGraphs1}
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 This question is **optional**; e.g., if you need more practice, or you are studying for the exam.

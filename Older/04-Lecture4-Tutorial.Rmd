@@ -670,7 +670,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Odds ratios {#OddsRatioSMND}
+### **(Optional)**  Odds ratios {#OddsRatioSMND}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -699,7 +699,7 @@ Of the $380$ SMND cases, $60$ had worked with metal in the past; of the $377$ co
 
 
 
-### **Optional**: Percentages and odds {#PercentagesOdds}
+### **(Optional)**  Percentages and odds {#PercentagesOdds}
 
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
@@ -812,7 +812,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: Odds {#Odds1}
+### **(Optional)**  Odds {#Odds1}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q5.Rmd'}
@@ -826,7 +826,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: Percentages { #PercentagesOdour}
+### **(Optional)**  Percentages { #PercentagesOdour}
 
 Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
 Furthermore, different communities are impacted in different ways.

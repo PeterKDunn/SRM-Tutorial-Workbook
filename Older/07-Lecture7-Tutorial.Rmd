@@ -488,7 +488,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: CI for one mean {#RoomWidthCI}
+### **(Optional)**  CI for one mean {#RoomWidthCI}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -569,7 +569,7 @@ include_graphics("SoftwareImages/LengthsHallOutput.png")
 
 
 
-### **Optional**: CI for one proportion {#HMMaturing}
+### **(Optional)**  CI for one proportion {#HMMaturing}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -602,7 +602,7 @@ Sample data were collected from
    
 
 
-### **Optional**: CI for mean differences (paired data) {#CIPairedWaves}
+### **(Optional)**  CI for mean differences (paired data) {#CIPairedWaves}
 
 Wave power has been considered as a [source of energy since 1890](http://www.outsidelands.org/wave-tidal3.php), but the engineering necessary to successfully and practically harness this energy is complex. 
 
@@ -697,7 +697,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: CI for mean differences (paired data) {#CIPairedRunners}
+### **(Optional)**  CI for mean differences (paired data) {#CIPairedRunners}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
