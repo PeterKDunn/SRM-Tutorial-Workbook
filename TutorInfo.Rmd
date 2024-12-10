@@ -547,14 +547,6 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-If you wish, you can form a CI for the ruler-drop (using jamovi).
-
-In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.
-```
-
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
@@ -562,6 +554,17 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 
 
 ## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors .unlisted .unnumbered}
+
+
+
+### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
+
+```{block2, type="rmdTutorInfo"}
+We only need to use the $68$--$95$--$99.7$ rule.
+The one-tailed $P$-values are *half* of the two-tailed $P$-values.
+```
+
+
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -575,22 +578,14 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
-### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-We only need to use the $68$--$95$--$99.7$ rule.
-The one-tailed $P$-values are *half* of the two-tailed $P$-values.
-```
 
 
-
-
-
-
-### Thoughts on Sect. \@ref(PlanStudy8) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
+
+In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.
 ```
 
 

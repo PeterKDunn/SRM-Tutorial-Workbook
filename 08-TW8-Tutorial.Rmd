@@ -211,7 +211,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Tests for one mean {#RoomWidthTest}
+### **(Optional)**  Tests for one mean {#RoomWidthTest}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -290,7 +290,7 @@ include_graphics( c("SoftwareImages/LengthsHallOutput-jamovi.png",
 
 
 
-### **Optional**: Understanding the language of research and statistics {#LanguageOfSStats}
+### **(Optional)**  Understanding the language of research and statistics {#LanguageOfSStats}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-FillInBlanks.Rmd'}

@@ -47,7 +47,7 @@ Some are fully worked, and some are only brief solutions.
 1. *Neither RQ is actually helping answer the issue of the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner!*
    For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the test rating is the same).
 1. One option: For my customers, what proportion can distinguish diet and regular colas?
-1. P: The customers.
+   P: The customers.
    O: The proportion that can distinguish regular ad diet colas.
    C: None.
    I NO
@@ -1319,7 +1319,7 @@ Answers implied by H5P.
 
 *Null* hypotheses:
 
-* Is the mean length of a $12$-inch sub really $12$ inches?  
+* Is the mean length of a $12$-inch sub really $12$ inches?
   $\mu = 12$ 
 * Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
   $\mu_{\text{white}} = \mu_{\text{wholemeal}}$
@@ -1334,9 +1334,9 @@ Answers implied by H5P.
   $\mu \ne 12$
 * Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
   $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$
-* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?  
+* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
   $p_{\text{white}} \ne p_{\text{wholemeal}}$
-* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
+* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
   $\mu_{\text{white}} > \mu_{\text{wholemeal}}$
 
 
@@ -1373,7 +1373,7 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(CIRatLifetimes) {.unlisted .unnumbered}
 
-1. The two groups are different rats.
+1. The two groups are different rats. \tightlist
 2. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
 3. Table not shown.
 4. The $95$% CI is the *bottom* one: from $223.34$ to $346.13$ days.
@@ -1516,7 +1516,7 @@ The sample sizes are both much *larger* than $25$, so neither sample needs to be
 
 Some answers embedded.
 
-1. See Table\ \@ref(tab:ArtLimbMortalityANS).
+1. See Table\ \@ref(tab:ArtLimbMortalityANS). \tightlist
 2. Using artificial limb: $49/16 = 3.0625$.
    Not using artificial limb: $21/19 = 1.105263$.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
@@ -1939,7 +1939,7 @@ abline(a = 5,
 
 
 1. 'What is the relationship between stem age and stem diameter in heather in the central north island of NZ?'
-2. Good!  
+2. Good!
    Too many tick marks; horizontal-axis labels would be better horizontal.
 3. $r = \sqrt{0.431} = 0.6565$, or about $r = 0.66$. 
    Positive linear relationship, reasonably strong.

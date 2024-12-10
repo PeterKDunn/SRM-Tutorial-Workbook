@@ -199,8 +199,10 @@ if( knitr::is_html_output() ) {
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
-In practice, data are almost *never* a population.  \\  \\  
+In practice, data are almost *never* a population.  
 
+\  
+  
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
 If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
 You are probably pressing the incorrect button to get the standard deviation.
@@ -296,7 +298,7 @@ AISTab <- array( "",
                  dim = c(1, length(Hts)) )
 
 AISTab[1, ] <- Hts
-AIScap <- "The heights (in metres) of females tennis players at the AIS"
+AIScap <- "The heights (in metres) of female tennis players at the AIS"
 
 if( knitr::is_latex_output() ) {
   kable( pad(AISTab,
@@ -324,7 +326,7 @@ if( knitr::is_html_output() ) {
 
 
 2. Bamboo is a fast-growing, strong grass useful for environmentally-friendly building practices.
-   A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).  
+   A small research study explored the properties of bamboo when used as flooring material, including the bending strength (the Modulus of Rupture, or MOR, in MPa).
    Five different bamboo floorboards were provided by Bamboo Flooring Australia Pty Ltd and assessed by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
    The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
    a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
@@ -357,7 +359,7 @@ if( knitr::is_html_output() ) {
 
 
 
-3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of $n = 9$ females swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
+3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR.
@@ -375,7 +377,7 @@ AISTab2 <- array( "",
                   dim = c(1, length(PBF)) )
 
 AISTab2[1, ] <- PBF
-AIScap2 <- "The percentage body fat of females swimmers players at the AIS"
+AIScap2 <- "The percentage body fat of female swimmers at the AIS"
 
 if( knitr::is_latex_output() ) {
   kable(AISTab2,
@@ -407,7 +409,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Using the calculator statistics mode {#CalculatorBatteries}
+### **(Optional)**  Using the calculator Statistics Mode {#CalculatorBatteries}
 
 Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$\ volt batteries to reduce their voltage to $1.0$\ volts under standard testing conditions.
@@ -490,7 +492,7 @@ The cost of the batteries, at the time of publication (05 September, 2012), was:
 
 
 
-### **Optional**: Interpreting histograms {#InterpretHistogram}
+### **(Optional)**  Interpreting histograms {#InterpretHistogram}
 
 To assess various lung diseases, many methods are available (including using a spirometer and the $6$-minute walk test).
 The fatigue assessment scale (FAS) is one way to measure the fatigue of the patient.
@@ -510,7 +512,7 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 
 
 
-### **Optional**: Understanding graphics {#UnderstandGraphsPizza}
+### **(Optional)**  Understanding graphics {#UnderstandGraphsPizza}
 
 
 

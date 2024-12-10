@@ -8,7 +8,7 @@ This Appendix contains tables that may be useful:
 `r if (knitr::is_html_output()){
    '(Appendix \\@ref(ZTablesOnline)).'
 } else {
-   '(Appendices \\@ref(ZTablesNEG) and \\@ref(ZTablesPOS)).'
+   '(Appendices \\@ref(ZTablesNEG) and\\ \\@ref(ZTablesPOS)).'
 }`
 `r if (knitr::is_html_output()){
 '* $z$-tables: Find the $z$-score when an area under a normal distribution is known

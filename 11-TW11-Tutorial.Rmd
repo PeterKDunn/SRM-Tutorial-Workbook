@@ -265,7 +265,7 @@ box()
 ```
 
 
-1. Describe the relationship displayed in the graph in words.
+1. Describe the relationship displayed in the graph in words. \tightlist
 2. What else could influence the price of a second-hand Corollas? 
 3. `r if (knitr::is_latex_output()) {
       'With a ruler or another straight edge (such as a book), draw an estimate of the regression line on the scatterplot.'
@@ -287,15 +287,7 @@ box()
 9. Use the software output (Fig.\ \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi)) relating the price (in thousands of dollars) to age to write down the regression equation.
 10. Using the software output, write down the value of\ $r$.
     Using this value of\ $r$, compute the value of\ $R^2$.
-    What does this mean? 
-
-```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="57%"}
-knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
-```
-```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data", fig.align="center", out.width="60%"}
-knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
-```
-
+    What does this mean?
 11. Use the regression equation from the software output to estimate the sale price of a Corolla that is $20$\ years old, and explain your answer. \tightlist
 12. Would a Corolla $6$-years-old advertised for sale at $15\,000 appear to be good value?
     Estimate the sale price and explain your answer.
@@ -308,6 +300,15 @@ knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
     b. How would the value of\ $R^2$ change?
     c. How would the value of the slope change?
     d. How would the value of the intercept change?
+
+
+```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="57%"}
+knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
+```
+```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data", fig.align="center", out.width="60%"}
+knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
+```
+
 
 
 ```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$)", fig.align="center", fig.width=6}
@@ -372,7 +373,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
+### **(Optional)**  Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/11-IdentifyAnalysis2.Rmd'}
@@ -384,7 +385,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: Reading scatterplots {#ReadScatterplotHeathers}
+### **(Optional)**  Reading scatterplots {#ReadScatterplotHeathers}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

@@ -125,7 +125,7 @@ if( knitr::is_html_output() ) {
 
 ```
 
-1. Define\ $p$ as the population proportion of successful attempts at insertion.
+1. Define\ $p$ as the population proportion of successful attempts at insertion. \tightlist
    Write the hypotheses to be tested.
 2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs)) to test the hypotheses.
    Write a proper conclusion to communicate the results.
@@ -202,7 +202,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: Deciding which test to use {#WhatTestToUse}
+### **(Optional)**  Deciding which test to use {#WhatTestToUse}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -223,7 +223,7 @@ include_graphics("ArticleImages/Singh2016-Table1.png")
 
 
 
-### **Optional**: Reading research articles {#ReadDesks}
+### **(Optional)**  Reading research articles {#ReadDesks}
 
 Mastering handwriting is an important skill for children to learn, but children with cerebral palsy have a higher prevalence of handwriting problems.
 
@@ -268,7 +268,7 @@ include_graphics("ArticleImages/Ryan2010-Aims.png")
 
 
 
-### **Optional**: Reading research articles {#ReadErrors}
+### **(Optional)**  Reading research articles {#ReadErrors}
 
 As with all endeavours involving humans, medical procedures can be subject to human error.
 One study set out to

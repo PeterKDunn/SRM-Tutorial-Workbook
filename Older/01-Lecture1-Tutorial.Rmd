@@ -381,7 +381,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Identifying different types of studies {#TypesOfStudies}
+### **(Optional)**  Identifying different types of studies {#TypesOfStudies}
 
 <iframe src="https://usc.h5p.com/content/1290971665016398309/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -393,7 +393,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: Terminology {#TerminologyLect1}
+### **(Optional)**  Terminology {#TerminologyLect1}
 
 Complete the crossword
 `r if (knitr::is_latex_output()){
@@ -419,7 +419,7 @@ knitr::include_graphics("images/Crossword-Week1-Q9.PNG")
 
 
 
-### **Optional**: Identifying poor RQs {#IdentifyingPoorRQs}
+### **(Optional)**  Identifying poor RQs {#IdentifyingPoorRQs}
 
 Critique the following research questions, outlining how and why they can be improved (if at all).
 
@@ -434,7 +434,7 @@ What terms might need defining for each RQ?
 
 
 
-### **Optional**: Understanding the terminology {#TerminologyLead}
+### **(Optional)**  Understanding the terminology {#TerminologyLead}
 
 
 <iframe src="https://usc.h5p.com/content/1291038891992762249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -447,7 +447,7 @@ What terms might need defining for each RQ?
 
 
 
-### **Optional**: Units of analysis, and units of observation {#Units2}
+### **(Optional)**  Units of analysis, and units of observation {#Units2}
 
 <!-- ADAPTED FROM : Oehlert.pdf, p. 8. -->
 
@@ -462,7 +462,7 @@ What terms might need defining for each RQ?
 
 
 
-### **Optional**: Units of analysis, and units of observation {#Units3}
+### **(Optional)**  Units of analysis, and units of observation {#Units3}
 
 <iframe src="https://usc.h5p.com/content/1290971662517623069/embed" width="1088" height="480" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

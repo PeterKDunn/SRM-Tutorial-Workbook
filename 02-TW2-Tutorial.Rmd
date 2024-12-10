@@ -14,7 +14,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 5 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
 * [Chapter 6 (External validity: sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
 * [Chapter 7 (Internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignInternal.html).
-* [Chapter 8 (Research design: limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
+* [Chapter 8 (Research design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
 
 
 
@@ -28,7 +28,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 ::: {.webex-check .webex-box}
 Consider this RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
 
-1. For this RQ, what is the *Population*?
+1. For this RQ, what is the *Population*? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Households", 
 		      "Households in Chile",
@@ -232,7 +232,7 @@ Below is an extract from the newspaper article for the mice study that formed pa
 >   
 >  \null
 >  
-> They found that it "significantly extended" the median lifespan of the mice...
+> They found that it "significantly extended" the [average] lifespan of the mice...
 
 Based on this information:
 
@@ -311,8 +311,6 @@ The article states (line breaks added):
 >
 > We decided to examine this experimentally... a major manufacturer agreed to fry batches of potato crisps in canola oil or the conventional palmolein for a human trial. 
 > This provided an opportunity for us to run a double blind crossover trial.  
->
-> --- @data:Truswell1992:crisps
 
 Part of the protocol  for the study is given below:
 
@@ -330,9 +328,7 @@ Part of the protocol  for the study is given below:
 >
 > The other half of the subjects ate palmolein crisps for $3$ weeks and canola crisps for the next $2$ weeks. 
 > The first week of the $3$ weeks served as an adjustment period. 
-> Fasting venous bloods were taken once at the start (usual diet), then for the last $3$ mornings of both the first and second experimental periods. 
->
-> --- @data:Truswell1992:crisps
+> Fasting venous bloods were taken once at the start (usual diet), then for the last $3$ mornings of both the first and second experimental periods.
 
 1. Explain how random *allocation* is used (and why), if at all.
 2. Explain how the impact of the Hawthorne effect has been minimised.
@@ -349,12 +345,12 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Sampling {#SamplingParking}
+### **(Optional)**  Sampling {#SamplingParking}
 
 Suppose we needed a sample of $80$\ vehicles parked at UniSC (Sippy Downs campus), and we wish to determine the proportion displaying P-plates.
 
-Determine a useful way to find a suitable representative sample.
-The map below of the UniSC Sippy Downs campus may prove helpful (where areas labelled **P** on the campus grounds are UniSC car parks).
+Determine a practical way to find a representative sample.
+The map below of the UniSC Sippy Downs campus may prove helpful (areas labelled **P** on the campus grounds are UniSC car parks).
 
 
 ```{r echo=FALSE}
@@ -382,7 +378,7 @@ if (knitr::is_latex_output()){
 
 
 
-### **Optional**: Understanding terminology {#UnderstandTerminologyStudies}
+### **(Optional)**  Understanding terminology {#UnderstandTerminologyStudies}
 
 
 <iframe src="https://usc.h5p.com/content/1290971648565695759/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -393,7 +389,7 @@ if (knitr::is_latex_output()){
 
 
 
-### **Optional**: Understanding studies {#UnderstandFishoil}
+### **(Optional)**  Understanding studies {#UnderstandFishoil}
 
 Fish oil has been touted as helpful to the health of the heart.
 A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fig.\ \@ref(fig:fishoil).
@@ -427,7 +423,7 @@ include_graphics("ArticleImages/fishoil2.jpg")
 
 
 
-### **Optional**: Random allocation {#RandomAllocation}
+### **(Optional)**  Random allocation {#RandomAllocation}
 
 For a small pilot study, Sam allocated $12$ students ($6$ males and $6$ females) to one of two groups.
 In the Report associated with the study, Sam stated that the $12$ students were
@@ -446,7 +442,7 @@ A reviewer, however, noted that *all* the subjects in Group\ A were male, and *a
 
 
 
-### **Optional**: Evaluating reports {#EvaluatingReportsSugar}
+### **(Optional)**  Evaluating reports {#EvaluatingReportsSugar}
 
 Many health experts are concerned about the amount of sugary drinks consumed by children.
 Part of a newspaper report about a study into this issue is shown in Fig.\ \@ref(fig:SoftDrinks).
@@ -494,7 +490,7 @@ include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
 
 
 
-### **Optional**: Designing and planning studies {#DesignTrees}
+### **(Optional)**  Designing and planning studies {#DesignTrees}
 <!-- BASED ON Ruxton and Colegrave p. 128 -->
 
 To study the progress of an imported species of beetle, a research group is studying the RQ:

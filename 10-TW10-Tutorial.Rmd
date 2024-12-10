@@ -63,8 +63,9 @@ How would the other statements be interpreted then?
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-
-
+Statements\ 2 and\ 4 are **both* consistent with the information (small $P$-value).
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
 
    
 ## CI and test for odds ratios {#OddsSoftware}
@@ -597,7 +598,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 (Answers appear in Sect.\ \@ref(Lecture10Answers).)
 :::
 
-### **Optional**: Odds and odds ratio {#OddsGMfood}
+### **(Optional)**  Odds and odds ratio {#OddsGMfood}
 
 The use of genetically modified (GM) foods is controversial.
 @data:luo:gm decided to study:
@@ -662,7 +663,7 @@ include_graphics("SoftwareImages/GMfood-jamovi.png")
 
 
 
-### **Optional**: Two-way tables {#TablesHepC}
+### **(Optional)**  Two-way tables {#TablesHepC}
 
 Applying tattoos carries health risks as the skin is broken during application.
 @data:Haley2001:Tattoos examined if a relationship existed between having hepatitis\ C and having tattoos.
@@ -781,7 +782,7 @@ if( knitr::is_html_output() ) {
 
 
 
-### **Optional**: CIs and tests for ORs {#ORTestsByss}
+### **(Optional)**  CIs and tests for ORs {#ORTestsByss}
 
 @data:higgins:cotton studied byssinosis (a respiratory complaint) among workers in the textile industry.
 The researchers were interested, among other things, in exploring the relationship between smoking status and the presence of byssinosis.

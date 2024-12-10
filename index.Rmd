@@ -107,7 +107,7 @@ These call-outs highlight common mistakes or warnings, about (for example) a par
 
 
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These call-outs highlight **optional** questions, that you might like to do in private study.
+These call-outs highlight **optional** questions, that you might like to do in personal study.
 :::
 
 
@@ -132,12 +132,12 @@ This book was made using **R** [@Software:Rsoftware], and the **bookdown** packa
 using **knitr** [@package:knitr].
 Numerous other **R** packages were used, including:
 
-* The diagrams were made in base **R**, or using the **diagram** package [@Rpackage:diagram].
-* The **kableExtra** package was used for nicer tables [@package:kableExtra].
-* Interactive online maps (e.g., Sect. \@ref(SamplingParking)) use the **leaflet** package [@package:leaflet].
-* Some data tables in the online version are displayed using the **DT** package [@package:DT].
-* The **viridis** package is used for some colour specifications [@package:viridis] to make colours easier for those with colour-blindness to distinguish colours, and for better greyscale printing.
-* The **webexercises** package was used to create the interactive web exercises [@package:webex] (i.e., Quick Revision questions).
+* **diagram** [@Rpackage:diagram] for making some diagrams. 
+* **kableExtra** [@package:kableExtra] for nicer tables.
+* **leaflet** [@package:leaflet] for creating the interactive online maps (e.g., Sect. \@ref(SamplingParking)).
+* **DT** [@package:DT] for displaying some data tables in the online version.
+* **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better greyscale printing.
+* **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions).
 
 All of this software is *free* and open source.
 Other resources used include:
@@ -147,7 +147,7 @@ Other resources used include:
    'H5P'
 } else {
    '[H5P](https://h5p.org)'
-}`,
+}`
  iframes.
 * Icons are from 
 `r if (knitr::is_latex_output()) {
@@ -178,7 +178,7 @@ In this book, you will learn to:
 
 
 * Develop quantitative research questions and testable hypotheses.
-* Design quantitative studies to answer simple quantitative research questions.
+* Design quantitative studies to answer simple scientific research questions.
 * Select and produce appropriate graphical, numerical and statistical analyses.
 * Select, apply and interpret the results of the correct statistical technique to analyse data.
 * Comprehend, apply and communicate in the language of research and statistics.

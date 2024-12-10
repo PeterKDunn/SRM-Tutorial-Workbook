@@ -306,7 +306,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Working with normal distributions {#NormalSOI}
+### **(Optional)**  Working with normal distributions {#NormalSOI}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

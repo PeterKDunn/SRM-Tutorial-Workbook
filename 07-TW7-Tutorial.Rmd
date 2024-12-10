@@ -282,7 +282,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: General ideas {#GeneralIdeas2}
+### **(Optional)**  General ideas {#GeneralIdeas2}
 
 
 <iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -295,7 +295,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: CI for one mean {#RoomWidthCI}
+### **(Optional)**  CI for one mean {#RoomWidthCI}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -375,7 +375,7 @@ include_graphics("SoftwareImages/LengthsHallOneSampleMetres-jamovi.png")
 
 
 
-### **Optional**: CI for one proportion {#HMMaturing}
+### **(Optional)**  CI for one proportion {#HMMaturing}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.

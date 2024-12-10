@@ -257,7 +257,7 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 @data:Berger1988:RatsData compared the lifetime of rats on a healthy, restricted diet ($106$\ rats) and on a free-eating diet ($89$\ rats).
 The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:RatLifetimesDatajamovi)).
 
-1. Explain why this study compares two *independent* groups.
+1. Explain why this study compares two *independent* groups. \tightlist
 2. Carefully define **parameter** of interest.
 3. Use the jamovi output (Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1)) to prepare a numerical summary table.
 4. Use the jamovi output to write down the appropriate $95$%\ CI, to estimate the *difference* between the population means.
@@ -274,8 +274,6 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
    Why not?
    Write an improved statement communicating the CI.
 7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig.\ \@ref(fig:RatsBoxErrorbar).
-
-
 8. Write down the hypotheses being tested. 
    Is this a one- or a two-tailed test? Explain.
 9. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
@@ -375,7 +373,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: CIs and tests for paired samples {#PairedTestRunners}
+### **(Optional)**  CIs and tests for paired samples {#PairedTestRunners}
 
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
@@ -432,7 +430,7 @@ if( knitr::is_html_output() ) {
 
 The 'usual' value for\ $\beta$ endorphines is usually less than about $11$\ pmol/litre. 
       
-1. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
+1. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context? \tightlist
 2. Explain why these data should be analysed as mean differences.
 3. Compute the changes in plasma $\beta$\ endorphin concentration during the run (i.e. the 'differences').
    (Although it doesn't really matter, why does it probably makes more sense to compute the *after* values minus the *before* values?)
@@ -484,7 +482,7 @@ hist( FRdiffs,
 
 
 
-### **Optional**: CI and test for mean differences (paired data) {#CIPairedWaves}
+### **(Optional)**  CI and test for mean differences (paired data) {#CIPairedWaves}
 
 Wave power has been considered as a [source of energy since 1890](http://www.outsidelands.org/wave-tidal3.php), but the engineering necessary to successfully and practically harness this energy is complex. 
 
@@ -577,7 +575,7 @@ if( knitr::is_html_output() ) {
    Draw a stem-and-leaf plot to check.
 
 
-### **Optional**: CI for differences between two means {#PizzaHT}
+### **(Optional)**  CI for differences between two means {#PizzaHT}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -695,7 +693,7 @@ lines(x = c(2 - ebline,
 
 
 
-### **Optional**: Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
+### **(Optional)**  Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
 
 *(Answers available in Sect. \@ref(Lecture10Answers))*
 	
@@ -763,7 +761,7 @@ include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTjamoviOutput.png")
 
 
 
-### **Optional**: Assumptions for two-sample tests {#AssumptionsGraphs}
+### **(Optional)**  Assumptions for two-sample tests {#AssumptionsGraphs}
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-AssumptionsSatisfied.Rmd'}
 ```

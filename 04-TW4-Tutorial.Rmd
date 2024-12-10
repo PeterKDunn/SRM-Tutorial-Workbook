@@ -18,6 +18,11 @@ In this chapter, you will learn and practice the content associated with these c
 Take careful note of which chapters are covered in this tutorial!
 
 
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You should bring your calculator to tutorials from this week onwards.
+:::
+
+
 ## Quick revision {#QuickRevision-Tutorial4}
 
 ```{r echo = FALSE}
@@ -40,15 +45,12 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 }
 `
 
-1. What would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
+1. Which opf these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Median", 
 "Mean",
 answer = "Odds",
-"Standard deviation") )}`
-`r if( knitr::is_html_output() ) {'<!--'}`
-Median; mean; odds; standard deviation.
-`r if( knitr::is_html_output() ) {'-->'}`
+"Standard deviation") )} else{"Median, mean, odds, or standard deviation"}`
 1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "Standard deviation", 
@@ -373,7 +375,7 @@ if( knitr::is_latex_output() ) {
     kable_styling(full_width = FALSE,
                   font_size = 10) %>%
     add_header_above( c(" " = 1,
-                        "No. concussions" = 3,
+                        "Num. concussions" = 3,
                         " " = 1),
                       bold = TRUE,
                       line = TRUE) %>%
@@ -398,7 +400,7 @@ if( knitr::is_html_output() ) {
              bold = TRUE) %>%
     kable_styling(full_width = FALSE) %>%
     add_header_above( c(" " = 1,
-                        "No. concussions" = 3,
+                        "Num. concussions" = 3,
                         " " = 1),
                       bold = TRUE,
                       line = TRUE)
@@ -701,7 +703,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 :::
 
 
-### **Optional**: Odds ratios {#OddsRatioSMND}
+### **(Optional)**  Odds ratios {#OddsRatioSMND}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
@@ -730,7 +732,7 @@ Do you agree or disagree?
 
 
 
-### **Optional**: Percentages and odds {#PercentagesOdds}
+### **(Optional)**  Percentages and odds {#PercentagesOdds}
 
 
 Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
@@ -850,7 +852,7 @@ answer = "For patients treated with ETI, about 278 die for every 100 that surviv
 
 
 
-### **Optional**: Odds {#Odds1}
+### **(Optional)**  Odds {#Odds1}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/04-OddsStudents.Rmd'}
@@ -864,7 +866,7 @@ answer = "For patients treated with ETI, about 278 die for every 100 that surviv
 
 
 
-### **Optional**: Percentages { #PercentagesOdour}
+### **(Optional)**  Percentages { #PercentagesOdour}
 
 Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
 Furthermore, different communities are impacted in different ways.

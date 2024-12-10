@@ -123,13 +123,12 @@ A `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` o
 As a result, the owner decides to conduct a study of his customers.
 
 1. Two RQs that the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner is considering are given below.
-   Which do you prefer, and why?
+   Which do you prefer, and why? \tightlist
     
     a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
-1. Develop your own RQ to answer the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner's question.
-1. For your RQ, describe P, O, C and I (where relevant).
-1. Make notes about *how* the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner could answer the question.
+1. Develop your own RQ to answer the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner's question, by describing P, O, C and I (where relevant).
+1. Make notes about *how* the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner could gather data to answer the RQ.
 
 
 
@@ -153,34 +152,35 @@ Explain the *fundamental differences* between the following pairs of often-confu
 Terms <- array( dim = c(8, 3))
 
 Terms[1, ] <- c("Hypothesis", 
-                "Pair 1", 
+                "$\\blacktriangleleft$ Pair 1 $\\blacktriangleright$", 
                 "Research question") 
 Terms[2, ] <- c("Relational RQ", 
-                "Pair 2", 
+                "$\\blacktriangleleft$ Pair 2 $\\blacktriangleright$", 
                 "Repeated-measures RQ") 
-Terms[3, ] <- c("Observational study", 
-                "Pair 3", 
-                "Experimental study") 
-Terms[4, ] <- c("Quasi-experiment", 
-                "Pair 4", 
-                "True experiment") 
-Terms[5, ] <- c("Response variable", 
-                "Pair 5", 
+Terms[3, ] <- c("Response variable", 
+                "$\\blacktriangleleft$ Pair 3 $\\blacktriangleright$", 
                 "Explanatory variable") 
-Terms[6, ] <- c("Response variable", 
-                "Pair 6", 
+Terms[4, ] <- c("Response variable", 
+                "$\\blacktriangleleft$ Pair 4 $\\blacktriangleright$", 
                 "Outcome") 
+Terms[5, ] <- c("Observational study", 
+                "$\\blacktriangleleft$ Pair 5 $\\blacktriangleright$", 
+                "Experimental study") 
+Terms[6, ] <- c("Quasi-experiment", 
+                "$\\blacktriangleleft$ Pair 6 $\\blacktriangleright$", 
+                "True experiment") 
 Terms[7, ] <- c("Conceptual definition", 
-                "Pair 7", 
+                "$\\blacktriangleleft$ Pair 7 $\\blacktriangleright$", 
                 "Operational definition")
 Terms[8, ] <- c("Unit of observation", 
-                "Pair 8", 
+                "$\\blacktriangleleft$ Pair 8 $\\blacktriangleright$", 
                 "Unit of analysis")
 
 if( knitr::is_latex_output() ) {
   kable(Terms, 
       booktabs = TRUE,
       format = "latex",
+      escape = FALSE,
       caption = "Distinguish the similar terms",
       linesep = c("", "\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", "", ""), 
       align = c("r", "c", "l")) %>%
@@ -264,7 +264,7 @@ Nim considers studying Jane's assertion as a **practical** SCI110 project.
 
 2. Identify an *outcome* that Nim can measure to answer the research question.
    Justify your answer.
-3. Which of these *comparisons* do you think Nim should use?
+3. Which of these *between-individuals comparisons* do you think Nim should use?
    Why?
     a. Between drinking Earl Grey tea and coffee.
     b. Between drinking Earl Grey tea and black (ordinary) tea.
@@ -313,12 +313,15 @@ Janka[1, ] <- c(10.5, 8.0, 11.5, 10.3, 10.2)
 Janka[2, ] <- c( 7.5, 8.0, 11.2, 9.9, 9.3)
 
 if( knitr::is_latex_output() ) {
-  kable(Janka,
+  kable(pad(Janka,
+            decDigits = 1,
+            targetLength=c(5, 4, 5, 5, 5)),
       format = "latex",
+      escape = FALSE,
       caption = "Two Janka hardness measurements from five different bamboo boards",
       longtable = FALSE,
       booktabs = TRUE,
-      align = "r") %>%
+      align = "c") %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -357,7 +360,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
-### **Optional**: Terminology {#TerminologyLect1}
+### **(Optional)**  Terminology {#TerminologyLect1}
 
 Complete the crossword
 `r if (knitr::is_latex_output()){
@@ -428,7 +431,7 @@ knitr::include_graphics("images/Crossword-Week1.PNG")
 
 
 
-### **Optional**: Identifying different types of studies {#TypesOfStudies}
+### **(Optional)**  Identifying different types of studies {#TypesOfStudies}
 
 <iframe src="https://usc.h5p.com/content/1290971665016398309/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -440,7 +443,7 @@ knitr::include_graphics("images/Crossword-Week1.PNG")
 
 
 
-### **Optional**: Identifying poor RQs {#IdentifyingPoorRQs}
+### **(Optional)**  Identifying poor RQs {#IdentifyingPoorRQs}
 
 Critique the following research questions, outlining how and why they can be improved (if at all).
 
@@ -455,7 +458,7 @@ What words or terms might need defining for each RQ?
 
 
 
-### **Optional**: Understanding the terminology {#TerminologyLead}
+### **(Optional)**  Understanding the terminology {#TerminologyLead}
 
 
 <iframe src="https://usc.h5p.com/content/1291038891992762249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -468,7 +471,7 @@ What words or terms might need defining for each RQ?
 
 
 
-### **Optional**: Units of analysis, and units of observation {#Units2}
+### **(Optional)**  Units of analysis, and units of observation {#Units2}
 
 <!-- ADAPTED FROM : Oehlert.pdf, p. 8. -->
 
@@ -483,7 +486,7 @@ What words or terms might need defining for each RQ?
 
 
 
-### **Optional**: Units of analysis, and units of observation {#Units3}
+### **(Optional)**  Units of analysis, and units of observation {#Units3}
 
 <iframe src="https://usc.h5p.com/content/1290971662517623069/embed" width="1088" height="480" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
