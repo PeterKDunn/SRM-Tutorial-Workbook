@@ -45,7 +45,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 }
 `
 
-1. Which opf these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
+1. Which of these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Median", 
 "Mean",
@@ -257,11 +257,11 @@ if( knitr::is_html_output() ) {
   StrokeSumm[1, 1] <- webexercises::fitb(num = TRUE, 
                                          tol = 0.002, 
                                          width = 6, 
-                                         answer = round(43 / (43 + 67)) )
+                                         answer = round(43 / (43 + 67), 2) )
   StrokeSumm[3, 1] <- webexercises::fitb(num = TRUE, 
                                          tol = 0.002, 
                                          width = 6,
-                                         answer = round(39 / (39 + 97)) )
+                                         answer = round(39 / (39 + 97), 2) )
   
   StrokeSumm[1, 2] <- webexercises::fitb(num = TRUE, 
                                          tol = 0.02, 
@@ -284,7 +284,7 @@ if( knitr::is_html_output() ) {
                              webexercises::fitb(num = TRUE, 
                                                 tol = 0.001, 
                                                 width = 6,
-                                                answer = 43/(43 + 67) - 39/(39 + 97) ) )
+                                                answer = round(43/(43 + 67) - 39/(39 + 97), 2 ) ) )
   StrokeSumm[5, 2] <- paste0("Odds ratio: ",
                              webexercises::fitb(num = TRUE, 
                                                 tol = 0.05, 

@@ -198,7 +198,7 @@ to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinT
 
 
 ```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
-knitr::include_graphics("Images/CoinToss.jpg")
+knitr::include_graphics("images/CoinToss.jpg")
 ```
 
 
