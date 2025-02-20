@@ -465,7 +465,7 @@ Histogram is pretty good; bars really should be touching.
 
  
 
-### Answer for Sect.\ \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
+### Answers for Sect.\ \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
 
 **Centre**: About $11$.4 inches;
 **Variation**: Most are between $11.0$ and $12.3$ inches;
