@@ -97,6 +97,17 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
                       "Qualitative: ordinal") )}`
 :::
 
+`r if (knitr::is_latex_output()) '<!--'`
+`r webexercises::hide()`
+1. *Age* is quantitative continuous. 
+   (Values are rounded down to the nearest year for convenience, but the *variable* is continuous.
+   The age of babies, for example, if often quoted in days, weeks or months.)
+2. Qualitative nominal.
+3. Quantitative continuous.
+
+`r webexercises::unhide()`
+`r if (knitr::is_latex_output()) '-->'`
+
 
 ```{r OSAKable, echo=FALSE}
 useOSA <- OSA[, c(2:6)]
@@ -130,19 +141,6 @@ if( knitr::is_html_output() ) {
               caption = "The Obstructive sleep apnoea data set")
 }
 ```
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-1. *Age* is quantitative continuous. 
-   (Values are rounded down to the nearest year for convenience, but the *variable* is continuous.
-   The age of babies, for example, if often quoted in days, weeks or months.)
-2. Qualitative nominal.
-3. Quantitative continuous.
-:::
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
 
 
 ## Using the calculator statistics mode for a small data set {#StatsMode}
