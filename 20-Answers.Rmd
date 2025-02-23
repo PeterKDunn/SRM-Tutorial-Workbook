@@ -69,7 +69,7 @@ Answers implied by H5P.
 **C**: Between the way subjects were using their phone.
 **I**: None: an observational study.
 
-**Explanatory variable**: The way that the phone is being used.
+**Explanatory variable**: The way the phone is being used.
 **Response variable**: The time taken to walk $50$\ m.
 
 **Unit of observation**: *Individual* subjects.
@@ -83,11 +83,11 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(CreateRQs) {.unlisted .unnumbered}
 
-1. Many populations are possible. The "best" population: the easiest, or cheapest to get?
+1. Many populations possible. The "best" population: the easiest, or cheapest to get?
    All of the options are possibilities.
 2. "Relaxing":  Many options possible for quantifying this (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
-3. Again, many options are possible, Some options for comparing to Earl Grey tea: coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
-4. "Between before and after drinking Earl Grey tea" is *not* a betwee-individuals comparison because everyone in the population (sample) is treated the same way: there are not two groups in the population being compared.
+3. Again, many options possible. Some options for comparing to Earl Grey tea: coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
+4. "Between before and after drinking Earl Grey tea" is *not* a between-individuals comparison because everyone in the population (sample) is treated the same way: there are not two groups in the population being compared.
 5. An example RQ might be:  
 
    "Among UniSC students (P), is the average heart rate $30$\ mins after drinking (O) different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C) when the drink is provided to them (I)?"
@@ -725,7 +725,7 @@ Odds **greater than** one.
 Answers implied by H5P.
 
 1. Five variables. ('Participants' would not be summarised, it is technically an *identifier* and *not* a *variable*, as each person has a unique value).
-2. Age; Height; Weight and quantitaive **continuous**.
+2. Age; Height; Weight and quantitative **continuous**.
 3. Gender (**nominal**; two levels); GMFCS (**ordinal**; three levels)
 4. As follows:
     * 'Gender': Percentages (or number) F and M
@@ -784,7 +784,7 @@ IQR similar for each office, and range similar for Offices A and C (slightly lar
 1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
 2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
 3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
-4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables vars ($30$\ mins of physical activity or not; vigorous physical 
+4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables ($30$\ mins of physical activity or not; vigorous physical 
 
 
 
@@ -999,7 +999,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 
 1. $123/(404 - 123) = 123/281 = 0.44$.\tightlist
 2. $\hat{p} = 123/404 = 0.304455$.
-3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (ie. it is lower).
+3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (i.e., it is lower).
 	Or: For every $100$ that die, about $44$ survive.
 4. No: sampling variation!
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1 - 0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about $0.023$.  
@@ -1128,8 +1128,8 @@ if( knitr::is_html_output() ) {
 
 
 
-1. $\bar{x} = 16.02$m.
-2. $s = 7.145$m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$m. 
+1. $\bar{x} = 16.02$\ m.
+2. $s = 7.145$\ m; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077$\ m. 
    The first is a measure of the variation in the original data; the second is a measure of the precision of the sample mean when estimating the population mean.
 3.The CI is from $13.85$ to $18.19$\ m.
 4. $95$% CI for population mean guess: $13.85$ to $18.19$\ m.
@@ -1356,13 +1356,13 @@ Answers implied by H5P.
    Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
 10. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
-11. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245$m.
+11. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245$\ m.
 12. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  
 13. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
 14. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $15.58$ to $34.224$m).
+15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$\ m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $15.58$ to $34.224$\ m).
 16. The population of differences has a normal distribution, and/or $n > 25$ or so.
 17. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
@@ -1440,7 +1440,7 @@ Answers implied by H5P.
 4. $\text{s.e.}({\bar{d}}) = s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
    $\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
 5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
-6. $t = 0.9016$, sp $P$-value large: no evidence of difference. 
+6. $t = 0.9016$, so $P$-value large: no evidence of difference. 
 7. Since $n < 25s$, we require that the *differences* in the population have a normal distribution.
 8. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal; probably OK.
 
@@ -1834,7 +1834,7 @@ if( knitr::is_html_output() ) {
 	 From output, $t = -15.059$, and $P = 0.000/2 = 0.000$, so $P < 0.0001$: very strong evidence that older cars fetch lower second-hand prices, on average.
 14. $-0.963 \pm (2\times 0.064)$, or $-0.963\pm 0.128$, or from $-1.091$ to $-0.835$.
 15. Looks the same really, just reflected left-to-right.
-    * *Size* of $r$ won't change, sign from negative to positive; i.e. $r = 0.93$.
+    * *Size* of $r$ won't change, sign from negative to positive; i.e., $r = 0.93$.
     * Value of $R^2$ will be the same.
  	  * Slope will be the same except sign will change (in both cases, the values on the horizontal axis are one year apart).
     * Intercept will change a lot... it is the predicted value of the price if the line is extended to year 0 (which is, of course, meaningless).
@@ -2064,7 +2064,7 @@ Between the 'alive' and 'dead' groups, there is evidence that the proportion wit
 ### Answers for Sect.\ \@ref(ReadDesks) {.unlisted .unnumbered}
 
 **1.** P: school age children with ambulatory cerebral palsy; O: In this case, the hand-writing legibility;
-       C: Between scores made when using standard and specialty furniture; I: The furniture configurations imposed.
+       C: Between scores made when using standard and special furniture; I: The furniture configurations imposed.
 **2.** True experiment, as treatments were imposed (experiment), and the researchers allocated children to the groups (true experiment).
 **3.** Unit of observation: Each students.
        Unit of analysis: Each student, as the two measurements from each student are related to the same person.
