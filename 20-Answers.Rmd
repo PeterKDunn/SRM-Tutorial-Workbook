@@ -45,12 +45,12 @@ Some are fully worked, and some are only brief solutions.
 ### Answers for Sect.\ \@ref(FormingRQs) {.unlisted .unnumbered}
 
 1. *Neither RQ is actually helping answer the issue of the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner!*
-   For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the test rating is the same).
+   For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the taste rating is the same).
 1. One option: For my customers, what proportion can distinguish diet and regular colas?
    P: The customers.
    O: The proportion that can distinguish regular ad diet colas.
    C: None.
-   I NO
+   I: NO.
 1. Many options: give a randomly-select cola (some regular; some diet), and record if customers can correctly identify it.
 
 
