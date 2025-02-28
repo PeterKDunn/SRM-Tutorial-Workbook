@@ -253,7 +253,7 @@ beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; ra
    Study is for *mice*, not *people* anyway.
 8. To act as the control group, to measure the effect of the spermidine.
 9. *Outcome*: average blood pressure; *response*: blood pressure.
-10. Correlational.
+10. Probably correlational, but possibly relational.
 11. Observational.
 12. Some answers are debatable. 
     a. Probably confounding (often is).
