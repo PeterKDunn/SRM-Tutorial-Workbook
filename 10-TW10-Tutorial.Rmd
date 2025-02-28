@@ -81,7 +81,7 @@ include_graphics("Illustrations/thomas-park-qnFFfsrxzIk-unsplash.jpg")
 
 
 The timing of pubertal maturation can vary, which can have impacts upon behaviour.
-[@data:duncan:maturity studied 'the relationships between maturational timing and body image, school behavior, and deviance.'
+@data:duncan:maturity studied 'the relationships between maturational timing and body image, school behavior, and deviance.'
 Sample data were collected from
 
 > ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
@@ -267,30 +267,30 @@ if( knitr::is_html_output() ) {
 #  MaturationSumm[3,1] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=47 )
 #  MaturationSumm[3,2] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
 
-  MaturationSumm[1,1] <- webexercises::fitb(num = TRUE, 
+  MaturationSumm[1, 1] <- webexercises::fitb(num = TRUE, 
                                             tol = 0.1, 
                                             width = 6, 
                                             answer = round(352 / 2864, 3) )
-  MaturationSumm[2,1] <- webexercises::fitb(num = TRUE, 
+  MaturationSumm[2, 1] <- webexercises::fitb(num = TRUE, 
                                             tol = 0.1, 
                                             width = 6, 
                                             answer = round(336 / 2664, 3) )
 
-  MaturationSumm[1,2] <- webexercises::fitb(num = TRUE, 
+  MaturationSumm[1, 2] <- webexercises::fitb(num = TRUE, 
                                             tol = 0.001, 
                                             width = 6, 
                                             answer = round(352 / 2512, 3) )
-  MaturationSumm[2,2] <- webexercises::fitb(num = TRUE, 
+  MaturationSumm[2, 2] <- webexercises::fitb(num = TRUE, 
                                             tol = 0.001, 
                                             width = 6, 
                                             answer = round(336 / 2328, 3) )
 
-  MaturationSumm[3,1] <- paste("Diff:",
+  MaturationSumm[3, 1] <- paste("Diff:",
                            webexercises::fitb(num = TRUE, 
-                                            tol = 0.005, 
+                                            tol = 0.001, 
                                             width = 6, 
                                             answer = round( (352 / 2864) - (336 / 2664), 3) ) )
-  MaturationSumm[3,2] <- paste("OR:",
+  MaturationSumm[3, 2] <- paste("OR:",
                            webexercises::fitb(num = TRUE, 
                                             tol = 0.005, 
                                             width = 6, 

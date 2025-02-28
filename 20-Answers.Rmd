@@ -1647,6 +1647,108 @@ if( knitr::is_html_output() ) {
 
 
 
+### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
+
+1. See Table\ \@ref(tab:MatTable).
+2. Side-by-side or stacked bar chart.
+3. $352/2512 = 0.1401$.
+4. $336/2328 = 0.1443$.
+5. $0.1401/0.1443 = 0.971$.
+6. The odds ratio, of a boy maturing late compared to a girl maturing late.
+7. OR: $0.971$, with $95$% CI from $0.828$ to $1.139$.
+8. See Table\ \@ref(tab:MatNumSummary).
+9. Probably not; OR close to\ $1$, and CI includes\ $1$.
+
+
+```{r echo=FALSE, MatTable}
+MatTabData <- array( dim = c(3, 3) )
+colnames(MatTabData) <- c("Late", 
+                           "Not late", 
+                           "Total")
+rownames(MatTabData) <- c("Males", 
+                           "Females", 
+                           "Total") 
+
+MatTabData[1,  ] <- c(352, 2512, 2864)
+MatTabData[2, ] <- c(336, 2328, 2664)
+MatTabData[3, ] <- c(688, 4840, 5528)
+
+if( knitr::is_latex_output() ) {
+   kable(MatTabData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        caption = "Maturation data table",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(MatTabData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Maturation data table",
+        booktabs = TRUE)
+}
+
+```
+
+
+
+
+```{r echo=FALSE, MatNumSummary}
+MatSumm <- array( dim = c(3, 3) )
+colnames(MatSumm) <- c("Prop late",
+                       "Odds late",
+                       "Sample size")
+rownames(MatSumm) <- c("Males",
+                       "Females", 
+                       " ") 
+
+  MatSumm[1, ] <- c( round( MatTabData[1, 1] / MatTabData[1, 3], 3),
+                     round( MatTabData[1, 1] / MatTabData[1, 2], 4),
+                     MatTabData[1, 3] )
+  MatSumm[2, ] <- c( round( MatTabData[2, 1] / MatTabData[2, 3], 3),
+                     round(MatTabData[2, 1] / MatTabData[2, 2], 4),
+                     MatTabData[2, 3] )
+  MatSumm[3, ] <- c( paste("Diff:", 
+                           round(MatSumm[1, 1] - MatSumm[2, 1], 3)), 
+                     paste("OR:", 
+                           round(MatSumm[1, 2] / MatSumm[2, 2], 3)),
+                     " " )
+
+
+if( knitr::is_latex_output() ) {
+   kable(MatSumm,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        caption = "Nunmerical summary table for maturation data",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(MatSumm,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Nunmerical summary table for maturation data",
+        booktabs = TRUE)
+}
+
+```
+
+
 ### Answers for Sect.\ \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
 
 **1.** Two-sample $t$-test.
