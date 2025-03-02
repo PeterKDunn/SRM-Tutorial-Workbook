@@ -229,10 +229,8 @@ Below is an extract from the newspaper article for the mice study that formed pa
 > In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
 > the team supplemented the drinking water of mice with spermidine. 
 > Control mice drank normal water.
->   
->  \null
->  
-> They found that it "significantly extended" the [average] lifespan of the mice...
+
+The researchers thne found that the addition of spermidine '"significantly extended" the [average] lifespan of the mice...'.
 
 Based on this information:
 
