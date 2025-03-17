@@ -590,9 +590,9 @@ legend("top",
 
 
 
-## **Drills**: Computational exercises {#Chapter5Drills}
+## **Drills**: Computational exercises {#Chapter4Drills}
 
-*(Answers appear in Sect. \@ref(Lecture5Answers))*
+*(Answers appear in Sect. \@ref(Lecture4Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.

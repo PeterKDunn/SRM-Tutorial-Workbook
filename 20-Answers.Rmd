@@ -413,15 +413,47 @@ Answers implied by H5P.
 ### Answers for Sect.\ \@ref(Chapter4Drills) {.unlisted .unnumbered}
 
 
+
+<!--
+### Number 1
+ais <- scan()
+1: 167.9
+2: 177.5
+3: 162.5
+4: 172.5
+5: 166.7
+6: 175.0
+7: 157.9
+mean(ais); sd(ais); median(ais); IQR(ais)
+[1] 168.5714
+[1] 6.966279
+[1] 167.9
+[1] 9.15
+
+### Number 2
+> bamboo <- scan()
+1: 99.2	111.2	97.6	101.1	104
+mean(bamboo); sd(bamboo); median(bamboo); IQR(bamboo)
+
+### Number 3
+> bf <- scan()
+1: 14.52	11.47	17.71	18.48	11.22	13.61	12.78	11.85	13.35
+mean(bf); sd(bf); median(bf); IQR(bf)
+
+-->
+
 1. Mean: $168.5714$, or $168.57$\ m. 
    Standard deviation: $6.966279$, or $6.97$\ m. 
    (Specifically, **not** $6.44952$.)
-   The median: $167.9$\ m.
-2. $\bar{x} = 102.62$\ MPa; $s = 5.356$\ MPa.
+   Median: $167.9$\ m.
+   IQR: $175.0 - 162.5 = 12.5$\ m (software may give a different value).
+2. Descriptive.
+   $\bar{x} = 102.62$\ MPa; $s = 5.356$\ MPa.
    The median is $101.1$\ MPa.
 3. Mean: $13.88778$, or $13.888$%.
    Standard deviation: $2.617402$, or $2.617$%.
    Median: $13.35$%.
+   IQR: $16.115 - 11.66 = 4.455$% (software may give a different value).
 
 
  
@@ -536,7 +568,7 @@ A small outlier (near $10.5$ inches)
 
 
 
-### Answers for Sect.\ \@ref(Chapter5Drills) {.unlisted .unnumbered}
+### Answers for Sect.\ \@ref(Chapter4Drills) {.unlisted .unnumbered}
 
 1.
   a. $(381 + 345)/1347 = 0.53898$, or about $53.9$%.

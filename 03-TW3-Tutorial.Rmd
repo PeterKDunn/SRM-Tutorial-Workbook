@@ -268,9 +268,9 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 
 
-## **Drills**: computational exercises {#Chapter4Drills}
+## **Drills**: computational exercises {#Chapter3Drills}
 
-*(Answers appear in Sect. \@ref(Lecture4Answers))*
+*(Answers appear in Sect. \@ref(Lecture3Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
 These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
@@ -330,6 +330,8 @@ if( knitr::is_html_output() ) {
    a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
    Justify your answer.
    b. Use your calculator's statistics mode to compute the mean and the standard deviation.
+   c. Without using a calculator, find the **median** of the data.
+
 
 ```{r MORTable, echo=FALSE}
 MORTab <- array( "", 
