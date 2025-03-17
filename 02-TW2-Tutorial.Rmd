@@ -222,17 +222,12 @@ Based on this headline:
    
 Below is an extract from the newspaper article for the mice study that formed part of the research.
 
-> Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study.
->   
->   \null
->   
+> Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study... \null
 > In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
 > the team supplemented the drinking water of mice with spermidine. 
 > Control mice drank normal water.
->   
->  \null
->  
-> They found that it "significantly extended" the [average] lifespan of the mice...
+
+The researchers then found that the addition of spermidine '"significantly extended" the [average] lifespan of the mice...'.
 
 Based on this information:
 
