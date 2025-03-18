@@ -193,7 +193,11 @@ Sometimes we need to assume answers or just state that we don't know.
 The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
 
-**In online classes**, you may just need to **talk** about the issues, rather than **do** the study.
+I have prepared a H5P artefact for you to use:
+
+<iframe src="https://usc.h5p.com/content/1292525075807919739/embed" aria-label="Ruler-drop presentation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+**In online classes**, you can **talk** about the issues, rather than **do** the study, or use the above.
 
 There are many correct ways to do this activity.
 However, for many reasons, we suggest following the suggestions here in the end (though having students suggest other ideas first is a great idea too).
@@ -292,16 +296,35 @@ Notes:
 <!-- Lecture3ThoughtsForTutors -->
 
 
+
+
+```{block2, type="rmdTutorInfo"}
+At present, exams are online.
+This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadsheet or jamovi) I guess. 
+We have no way of knowing anyway. 
+
+For that reason, you may wish to reconsider how this is taught.
+Nonetheless, I think that learning to use a calculator for simple calculation is a useful skill.
+Using the **Stats** mode can also be useful.
+
+There *will* be a question in the exam where studets are expected to compute a mean and/or standard deviation, so finding a quick way (i.e., not by hand) is important.
+Students could use as jamovi or the *Stats* mode on a calculator, for example.
+```
+
+
 ### Thoughts on Sect. \@ref(StatsMode) {.unlisted .unnumbered}
 
 
 ```{block2, type="rmdTutorInfo"}
-At present, exams are online.  
+You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
 
-This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadhseet) I guess. 
-We have no way of knowing.  
+The Course Outline indicates that a calculator is needed.
+Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
+You can perhaps direct students to work with other students having similar calculators.
 
-For that reason, you may wish to reconsider how this is taught.
+
+If students use the *wrong* standard deviation button, they will get $\sigma = s = 1485.919327$\ tonnes in error.
+**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
 ```
 
 
@@ -370,10 +393,10 @@ kable(NumSum,
 Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
 
 I suggest starting jamovi.
-(Remember: each unit of analysis (student) is a row; the columns will be `Left` and `Right` hand timings),
+(Remember: each unit of analysis (student) is a row; the columns will be `Dom` and `NonDom` hand timings),
 Show students how to set up the variables, and have them come to the computer and enter their own data.
 
-Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences).
+Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences) and some numerical summary information.
 
 **Save the data!**
 ```
@@ -387,7 +410,15 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
-### Thoughts on Sect. \@ref(QuickRevision-Tutorial4) {.unlisted .unnumbered}
+
+
+## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
+
+
+[**Return to index of tutor information.**](#TutorInfo)
+
+ 
+### Thoughts on Sect. \@ref(QuickRevision-Tutorial5) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
 With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
@@ -397,24 +428,6 @@ If you have the time: **Ask**  *how* to explain why they are wrong, and **ask ap
 ```
 
 
-
-```{block2, type="rmdTutorInfo"}
-You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
-
-The Course Outline indicates that a calculator is needed.
-Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
-You can perhaps direct students to work with other students having similar calculators.
-
-
-If students use the wrong standard deviation button, they will get $\sigma = 4.79$\ MPa in error.
-**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
-```
-
-[**Return to index of tutor information.**](#TutorInfo)
-
- 
-
-## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
@@ -540,7 +553,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 ### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
 
 ```{block2, type="rmdTutorInfo"}
-**Students commonly forget the square root.**
+**Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
 Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.
 ```
 
