@@ -255,21 +255,21 @@ if( knitr::is_latex_output() ) {
 
 if( knitr::is_html_output() ) {
   StrokeSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.002, 
+                                         tol = 0.01, 
                                          width = 6, 
                                          answer = round(43 / (43 + 67), 2) )
   # Recall 2 and 4 are empty to create spaces!
   StrokeSumm[3, 1] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.002, 
+                                         tol = 0.01, 
                                          width = 6,
                                          answer = round(39 / (39 + 97), 2) )
   
   StrokeSumm[1, 2] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.02, 
+                                         tol = 0.01, 
                                          width = 6,
                                          answer = round(43 / 67 , 2) )
   StrokeSumm[3, 2] <- webexercises::fitb(num = TRUE, 
-                                         tol = 0.02, 
+                                         tol = 0.01, 
                                          width = 6, 
                                          answer = round( 39 / 97, 2) )
   
@@ -283,12 +283,12 @@ if( knitr::is_html_output() ) {
                                          answer = 97 + 39 )
   StrokeSumm[5, 1] <- paste0("Difference: ",
                              webexercises::fitb(num = TRUE, 
-                                                tol = 0.001, 
+                                                tol = 0.01, 
                                                 width = 6,
                                                 answer = round(43/(43 + 67) - 39/(39 + 97), 2 ) ) )
   StrokeSumm[5, 2] <- paste0("Odds ratio: ",
                              webexercises::fitb(num = TRUE, 
-                                                tol = 0.05, 
+                                                tol = 0.01, 
                                                 width = 6,
                                                 answer = 0.64/0.4 ) )
   
