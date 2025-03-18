@@ -258,6 +258,7 @@ if( knitr::is_html_output() ) {
                                          tol = 0.002, 
                                          width = 6, 
                                          answer = round(43 / (43 + 67), 2) )
+  # Recall 2 and 4 are empty to create spaces!
   StrokeSumm[3, 1] <- webexercises::fitb(num = TRUE, 
                                          tol = 0.002, 
                                          width = 6,
