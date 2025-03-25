@@ -57,7 +57,7 @@ answer = "Standard deviation",
 "Median",
 "Mean",
 "Odds") )}`
-1. What might be an **appropriate** way to numerically describe the average REI of participants?  
+1. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Standard deviation", 
 answer = "Median",
