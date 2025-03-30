@@ -121,7 +121,7 @@ boxplot(Width ~ Location,
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. Discuss in class.
-1. The sample is small, so hard to too certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers..
+1. The sample is small, so hard to be certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers..
 1. Discuss in class.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
