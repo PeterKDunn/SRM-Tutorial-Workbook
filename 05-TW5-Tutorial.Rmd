@@ -578,7 +578,7 @@ include_graphics("ArticleImages/Jennings2012-Fig2.png")
 2. Identify the units of observation, and the units of analysis.
 3. Critique this graph.
 4. What do you think the negative numbers on the graph mean?
-5. Do you think that a real difference exists between the nedian for the two treatments *in the population*?
+5. Do you think that a real difference exists between the median for the two treatments *in the population*?
    Explain
 
 
