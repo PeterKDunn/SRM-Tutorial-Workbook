@@ -110,8 +110,22 @@ In the \textit{National Nutrition Survey} (NNS) (conducted with the 1995\ *Natio
 
 The values quoted are used for modelling purposes, and are essentially the population means\ $\mu$ and standard deviations\ $\sigma$. 
 
-1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you? _______
-2. Write down your own height: ________
+1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you?
+`r if( knitr::is_html_output() ) {
+  fitb(num = TRUE, 
+       tol = 50, 
+       answer = 50)
+} else {
+ '________'
+}`%.
+2. Write down your own height:
+`r if( knitr::is_html_output() ) {
+  fitb(num = TRUE, 
+       tol = 70, 
+       answer = 170)
+} else {
+ '________'
+}`cm.
 3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
    Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
    Explain what this means.
@@ -207,7 +221,7 @@ Repeat this process numerous times (if you are in a class, each student can repe
 `r if (knitr::is_html_output()){
   'the following table:'
 } else {
-  'Table \\@ref(tab:CoinDataTable).'
+  'Table\\ \\@ref(tab:CoinDataTable).'
 }`
 
 
