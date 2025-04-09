@@ -921,7 +921,7 @@ In addition, the proportion of the population with an IQ **above** $85$ is about
     * So the odds are $92.36/(100 - 92.36) = 12.1$.
     * The answer is just $1 - 0.9236 = 0.0764$ or about $7.6$%.
     * The probability of **over 171cm** is $7.64$%.
-    * So the odds are $7.64/(100 - 7.64)= 0.084$.
+    * So the odds are $7.64/(100 - 7.64)= 0.083$.
     * $z$-scores are $1.28$ and $2.78$, so the answer is $0.9973 - 0.8997 = 0.0976$, or about $9.8$%. 
     * So the odds are $9.8/(100 - 9.8) = 0.11$.
 
