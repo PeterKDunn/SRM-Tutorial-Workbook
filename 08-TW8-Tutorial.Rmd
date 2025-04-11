@@ -12,9 +12,9 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 25 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
-* Chapter\ 26 (Hypothesis tests: one proportion).
-* Chapter\ 27 (Hypothesis tests: one mean).
-* Chapter\ 28 (More details about hypothesis testing)
+* [Chapter\ 26 (Hypothesis tests: one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneProportion.html).
+* [Chapter\ 27 (Hypothesis tests: one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
+* [Chapter\ 28 (More details about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
 
 
 

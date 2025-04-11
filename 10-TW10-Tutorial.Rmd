@@ -10,9 +10,9 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* Chapter\ 31 (CIs and tests: comparing two odds or proportions)
-* Chapter\ 32 (Finding sample sizes for CIs)
-* Chapter\ 34 (Selecting an analysis)
+* [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisOddsRatio.html)
+* [Chapter\ 32 (Finding sample sizes for CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
+* [Chapter\ 34 (Selecting an analysis)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html)
 
 Take careful note of which chapters are covered in this tutorial!
 

@@ -11,8 +11,8 @@
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
-* Chapter\ 29 (CIs and tests: mean differences (paired data)).
-* Chapter\ 30 (CIs and tests: comparing two means)
+* [Chapter\ 29 (CIs and tests: mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisPaired.html).
+* [Chapter\ 30 (CIs and tests: comparing two means)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisTwoMeans.html)
 
 
 
