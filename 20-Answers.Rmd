@@ -1081,8 +1081,8 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 
 ### Answers for Sect.\ \@ref(Chapter6Drills) {.unlisted .unnumbered}
 
-1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.084} = 0.2898275$, or about 0.2898.
-2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about 0.04330.
+1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.0084} = 0.09165151$, or about $0.09165$.
+2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about $0.04330$.
 3. $0.08724964$, or about $0.08725$.
 4. $0.0534479$, or about $0.05345$.
 
