@@ -1394,7 +1394,7 @@ Answers implied by H5P.
 13. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
 14. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$\ m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $15.58$ to $34.224$\ m).
+15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9$\ m higher after receiving the implant; standard deviation: $13.034$\ m; $95$% CI from $16.66$ to $33.14$\ m).
 16. The population of differences has a normal distribution, and/or $n > 25$ or so.
 17. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
