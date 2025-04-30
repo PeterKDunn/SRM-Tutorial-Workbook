@@ -30,7 +30,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 ::: {.webex-check .webex-box}
 Researchers studied the impact of a gluten-free diet (required for coeliacs) on dental cavities [@khalaf2020caries].
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
-The researchers wanted to compare the mean DMFT for coeliacs and non-coaelics.
+The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
  
 **Diet**                | **Sample size** | **Mean** | **Standard deviation** | **Standard error**
@@ -83,8 +83,8 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
    So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
 1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
-1. **FALSE**. The hypothesis is about a population parameter ($\mu$), which is good.  
-   But the actual question was only aboyt studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
+1. **FALSE**. The hypothesis is about population parameters ($\mu$), which is good.  
+   But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
 1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
 `r webexercises::unhide()`
