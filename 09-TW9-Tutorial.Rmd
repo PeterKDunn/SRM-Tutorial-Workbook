@@ -321,10 +321,17 @@ plot( mns ~ groups,
       main = "Error bar chart for rat\nlifetime data",
       ylim = c(600, 1100),
       xlim = c(0.5, 2.5),
+      axes = FALSE,
       las = 1,
       xlab = "Diet",
       ylab = "Lifetime (days)")
-
+axis(side = 2, 
+     las = 1)
+axis(side = 1,
+     at = c(1, 2),
+     label = c("Restricted",
+               "Free-eating"))
+box()
 # Left error bar
 lines( x = c(1, 1),
        y = c(mns[1] - 2 * ses[1],
