@@ -712,7 +712,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         # escape = FALSE, # For latex to work in \rightarrow
         linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Five-year mortality for artifical limb users",
+        caption = "Hepatitis\\ C and tattoos",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -764,7 +764,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Five-year mortality for artifical limb users",
+        caption = "Hepatitis\\ C and tattoos",
         booktabs = TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
