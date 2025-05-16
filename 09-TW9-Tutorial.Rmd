@@ -8,12 +8,12 @@
 * CIs and tests for comparing two independent means.
 :::
 
+
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
-* Chapter\ 29 (CIs and tests: mean differences (paired data)).
-* Chapter\ 30 (CIs and tests: comparing two means)
-
+* [Chapter\ 29 (CIs and tests: mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisPaired.html).
+* [Chapter\ 30 (CIs and tests: comparing two means)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisTwoMeans.html)
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -30,7 +30,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 ::: {.webex-check .webex-box}
 Researchers studied the impact of a gluten-free diet (required for coeliacs) on dental cavities [@khalaf2020caries].
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
-The researchers wanted to compare the mean DMFT for coeliacs and non-coaelics.
+The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
  
 **Diet**                | **Sample size** | **Mean** | **Standard deviation** | **Standard error**
@@ -83,8 +83,8 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
    So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
 1. **TRUE**. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).
-1. **FALSE**. The hypothesis is about a population parameter ($\mu$), which is good.  
-   But the actual question was only aboyt studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
+1. **FALSE**. The hypothesis is about population parameters ($\mu$), which is good.  
+   But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
 1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
 `r webexercises::unhide()`
@@ -95,8 +95,6 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265024&sec_digit=1323639114&embeded_digit=1520489507' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
-
-
 
 
 
@@ -127,9 +125,6 @@ include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
 ```
 
 
-
-
-
 ## CIs and tests for mean differences (paired data) {#CIImplant}
 
 ```{r echo=FALSE}
@@ -146,7 +141,7 @@ include_graphics("Illustrations/pexels-shotpot-4046557.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-@data:Guirao2017:amputees examined the difference between 2-minute walk test score (2MWT) for $10$\ patients before *and* after receiving a prosthetic implant.
+@data:Guirao2017:amputees examined the difference between $2$-minute walk test score (2MWT) for $10$\ patients before *and* after receiving a prosthetic implant.
 (The 2MWT measures how far participants can walk in two minutes, in metres.)
 
 The 2MWT for ten amputees *with* and *without* an implant are shown in Fig.\ \@ref(fig:Guirao2MWT).
@@ -155,7 +150,7 @@ The researchers asked:
 > For this type of amputee, is the mean 2MWT **improved** (i.e., longer distances walked) after using the implant?	
 
 
-```{r Guirao2MWT, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres", fig.align="center", out.width="70%"}
+```{r Guirao2MWT, echo=FALSE, fig.cap="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres.", fig.align="center", out.width="70%"}
 knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 ```
 
@@ -204,13 +199,13 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 17. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
 
-```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited", fig.align="center", out.width="100%"}
+```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
 knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
 ```
 
 
 
-```{r 2MWTHisto, echo=FALSE, fig.height = 4, fig.width = 5, out.wdth="60%", fig.align="center", fig.cap="Histogram of differences for the increases in 2MWT with implant"}
+```{r 2MWTHisto, echo=FALSE, fig.height = 4, fig.width = 5, out.wdth="60%", fig.align="center", fig.cap="Histogram of differences for the increases in 2MWT with implant."}
 hist(Improve,
      las = 1,
      xlab = "Change in 2MWT (in m)",
@@ -219,20 +214,14 @@ hist(Improve,
 ```
 
 
-```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited", fig.align="center", out.width="95%"}
+```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited.", fig.align="center", out.width="95%"}
 knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
 ```
-
-
-
-	
 	
 	
 ## CI and test for the ruler-drop {#PlanStudy7}
 
 Your tutor *may* decide to do this activity.
-
-
 
 
 ## CIs and test for difference between two sample means {#CIRatLifetimes}
@@ -285,15 +274,13 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
     How does Fig.\ \@ref(fig:RatsBoxErrorbar). help, if at all?
 15. What if all these rats only came from only $20$ litters?
 
-
-
    
 
-```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example", fig.align="center", out.width='27%'}
+```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example.", fig.align="center", out.width='27%'}
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
 ```
 
-```{r RatsBoxErrorbar, echo=FALSE,  fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data", fig.align="center", fig.width=7, out.width='80%', fig.height = 4}
+```{r RatsBoxErrorbar, echo=FALSE,  fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.", fig.align="center", fig.width=7, out.width='80%', fig.height = 4}
 par( mfrow = c(1, 2))
 
 # Boxplot
@@ -321,10 +308,17 @@ plot( mns ~ groups,
       main = "Error bar chart for rat\nlifetime data",
       ylim = c(600, 1100),
       xlim = c(0.5, 2.5),
+      axes = FALSE,
       las = 1,
       xlab = "Diet",
       ylab = "Lifetime (days)")
-
+axis(side = 2, 
+     las = 1)
+axis(side = 1,
+     at = c(1, 2),
+     label = c("Restricted",
+               "Free-eating"))
+box()
 # Left error bar
 lines( x = c(1, 1),
        y = c(mns[1] - 2 * ses[1],
@@ -355,10 +349,9 @@ lines(x = c(2 - ebline,
 
 
 
-```{r Berger1988SummaryHTjamovi1, echo=FALSE, fig.cap="The jamovi output summarising the rat lifetimes data", fig.align="center", fig.align="center", out.width="100%"}
+```{r Berger1988SummaryHTjamovi1, echo=FALSE, fig.cap="The jamovi output summarising the rat lifetimes data.", fig.align="center", fig.align="center", out.width="100%"}
 knitr::include_graphics("SoftwareImages/RatLivesOutput-jamovi.png")
 ```
-
 
 
 ## **Optional questions** {#OptionalTW9}
@@ -368,9 +361,6 @@ knitr::include_graphics("SoftwareImages/RatLivesOutput-jamovi.png")
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
 (Answers appear in Sect.\ \@ref(Lecture9Answers).)
 :::
-
-
-
 
 
 ### **(Optional)**  CIs and tests for paired samples {#PairedTestRunners}
@@ -408,7 +398,7 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       align = "c",
       linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race") %>%
+      caption = "Plasma-beta concentration for runners, before and after the race.") %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -421,7 +411,7 @@ if( knitr::is_html_output() ) {
       escape = FALSE,
       booktabs = TRUE,
       linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race") %>%
+      caption = "Plasma-beta concentration for runners, before and after the race.") %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE)
 }
@@ -460,14 +450,12 @@ The 'usual' value for\ $\beta$ endorphines is usually less than about $11$\ pmol
    How does the histogram in Fig.\ \@ref(fig:FunRunSPSSHisto) help, if at all?
 
 
-
-
-```{r FunRunjamovi, echo=FALSE, fig.cap="Output from jamovi for the fun run example, partially edited", fig.align="center", out.width="100%"}
+```{r FunRunjamovi, echo=FALSE, fig.cap="Output from jamovi for the fun run example, partially edited.", fig.align="center", out.width="100%"}
 include_graphics("SoftwareImages/FunRunOutputCut3-jamovi.png")
 ```
 
 
-```{r FunRunSPSSHisto, echo=FALSE, fig.cap="Histogram of differences for the fun run example", fig.align="center", out.width="60%", fig.width=5, fig.height = 3}
+```{r FunRunSPSSHisto, echo=FALSE, fig.cap="Histogram of differences for the fun run example.", fig.align="center", out.width="60%", fig.width=5, fig.height = 3}
 FRdiffs <- RunnerTab[, 3]
 hist( FRdiffs,
       xlab = "Differences in beta endorphins",
@@ -475,10 +463,6 @@ hist( FRdiffs,
       main = "Histogram of increases in beta\nendorphins concentrations",
       las = 1)
 ```
-
-
-
-
 
 
 
@@ -544,7 +528,7 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       escape = FALSE,
       align = c("c", "c", "c"),
-      caption = "The bending stress using two different mooring methods") %>%
+      caption = "The bending stress using two different mooring methods.") %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -555,7 +539,7 @@ if( knitr::is_html_output() ) {
       booktabs = TRUE,
       escape = FALSE,
       align = c("r", "r", "r"),
-      caption = "The bending stress using two different mooring methods") %>%
+      caption = "The bending stress using two different mooring methods.") %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE)
 }
@@ -617,7 +601,7 @@ include_graphics("SoftwareImages/PizzaSizeCompare-jamovi.png")
 
 
 
-```{r PizzaSizeBoxplots, echo=FALSE, fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the pizza size data", fig.show="hold", fig.align="center", out.width='90%', fig.width=8, fig.height=4}
+```{r PizzaSizeBoxplots, echo=FALSE, fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the pizza size data.", fig.show="hold", fig.align="center", out.width='90%', fig.width=8, fig.height=4}
 data(PizzaSize)
 
 par(mfrow = c(1, 2))
@@ -704,7 +688,7 @@ This question has a video solution in the online book, so you can hear and see t
 
 Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
 
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5$\ volt batteries to reduce their voltage to $1.0$\ volts under standard testing conditions.
+A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5\vs$ batteries to reduce their voltage to $1.0\vs$ under standard testing conditions.
 
 The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTableHT).
 
@@ -722,7 +706,7 @@ if( knitr::is_latex_output() ) {
   kable(BattTab,
       format = "latex",
       booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours).") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(font_size = 10)
 
@@ -731,7 +715,7 @@ if( knitr::is_html_output() ) {
   kable(BattTab,
       format = "html",
       booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours).") %>%
   column_spec(1, bold = TRUE)
 }
 ```
@@ -753,12 +737,9 @@ if( knitr::is_html_output() ) {
    Explain your reasoning.
    
 
-```{r ALDIBatteriesTwoSampleTjamovi, echo=FALSE, fig.cap="Output from jamovi for the battery data", fig.align="center", out.width="100%"}
+```{r ALDIBatteriesTwoSampleTjamovi, echo=FALSE, fig.cap="Output from jamovi for the battery data.", fig.align="center", out.width="100%"}
 include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTjamoviOutput.png")
 ```
-
-
-
 
 
 ### **(Optional)**  Assumptions for two-sample tests {#AssumptionsGraphs}
@@ -767,9 +748,4 @@ include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTjamoviOutput.png")
 ```
 
 <iframe src="https://usc.h5p.com/content/1290972425279403419/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
 

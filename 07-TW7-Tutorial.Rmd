@@ -8,6 +8,7 @@
 * Confidence intervals for one mean.
 :::
 
+
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 21 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
@@ -29,7 +30,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
    True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. All *confidence interval* are 95% confidence intervals. 
+1. All *confidence interval* are $95$% confidence intervals. 
    True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
@@ -63,13 +64,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 `r if (knitr::is_latex_output()) '-->'`
 
 
-
-   
-
-
-
 ## Concepts {#ConceptsMatches}
-
 
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
@@ -80,9 +75,7 @@ include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-
-
-
+\
 Claire and Jake were wondering about the mean number of matches in a box.
 The boxes contain this statement:
 
@@ -92,7 +85,8 @@ They purchased a carton containing $25$\ boxes of matches, and Jake counted the 
 There was $44$\ matches.
 
 'Oh wow.  Just wow.' said Jake.
-'They lie.  There's only $44$\ matches in this box.'
+'They lie.  
+There's only $44$\ matches in this box.'
 
 
 1. What is Jake's misunderstanding? \tightlist
@@ -127,8 +121,6 @@ There was $44$\ matches.
    What is the *value* of\ $\mu$?
 
 
-
-
 ## Standard error for a proportion {#SEproportions}
 
 
@@ -148,7 +140,7 @@ The BVM ('ball valve mask') method is also used.
 
 @data:Gausche200:Endotracheal examined the use of ETI for airway management of children in the out-of-hospital setting.
 
-```{r Gausche2000Abstract, echo=FALSE, fig.cap="Part of the Abstract from Gausche et al. (2000)", fig.align="center", out.width='70%'}
+```{r Gausche2000Abstract, echo=FALSE, fig.cap="Part of the Abstract from Gausche et al. (2000).", fig.align="center", out.width='70%'}
 knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 ```
 
@@ -183,13 +175,12 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 `r if (knitr::is_latex_output()) '-->'`
 
 
-
 In 2011, *Eagle Boy's Pizza* ran a campaign that claimed (among many other claims) that Eagle Boy's pizzas were  'Real size $12$-inch large pizzas' in an effort to out-market *Domino's Pizza*.
 
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
 A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi).
 
-```{r PizzaCIjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi", fig.align="center", fig.align="center", out.width='42%'}
+```{r PizzaCIjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi.", fig.align="center", fig.align="center", out.width='42%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 ```
 
@@ -214,7 +205,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
     - The sample has a normal distribution.
 
    
-```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The corss is the claimed diameter of 12 inches.", fig.width=6, fig.height = 4}
+```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 4}
 data(PizzaSize)
 
 hist( PizzaSize$DiameterInches[PizzaSize$Store == "EagleBoys"],
@@ -242,9 +233,6 @@ points(x = 12,
 
 <!-- Admin link: -->
 <!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458369&sec_digit=776424948&edit_code=13483820 -->
-
-
-
 
 
 
@@ -304,7 +292,7 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1\ms$).
 
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
@@ -324,7 +312,7 @@ if( knitr::is_latex_output() ) {
   kable(GuessTab,
       format = "latex",
       booktabs = TRUE,
-      caption = "Guess of the width of a room 13.1 metres wide",
+      caption = "Guess of the width of a room 13.1 metres wide.",
       align = "r") %>%  
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -333,7 +321,7 @@ if( knitr::is_html_output() ) {
   kable(GuessTab,
       format = "html",
       booktabs = TRUE,
-      caption = "Guess of the width of a room 13.1 metres wide",
+      caption = "Guess of the width of a room 13.1 metres wide.",
       align = "r")
 }
 ```
@@ -372,9 +360,6 @@ include_graphics("SoftwareImages/LengthsHallOneSampleMetres-jamovi.png")
 ```
 
 
-
-
-
 ### **(Optional)**  CI for one proportion {#HMMaturing}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
@@ -383,7 +368,7 @@ This question has a video solution in the online book, so you can hear and see t
 
 
 The timing of pubertal maturation can vary, which can have impacts upon behaviour.
-@data:duncan:maturity studied (p. 231): 
+@data:duncan:maturity studied (p.\ 231): 
 
 > ...the relationships between maturational timing and body image, school behavior, and deviance
 
@@ -402,7 +387,4 @@ Sample data were collected from
 5. Confirm that the conditions necessary for this calculation to be statistically valid are met.
 6. If the researchers wished to estimate the true proportion of boys that mature late to within give-or-take $0.02$ with $95$% confidence, would a *larger* or *smaller* sample be needed?
    Explain.
-
-
-
 

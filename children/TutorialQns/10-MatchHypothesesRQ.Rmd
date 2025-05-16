@@ -43,7 +43,7 @@ if( knitr::is_latex_output() ) {
       align = c("l", "l"),
       escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
       linesep = "\\addlinespace",
-      caption = "Match RQs with the null (and then the alternative) hypotheses") %>%
+      caption = "Match RQs with the null (and then the alternative) hypotheses.") %>%
   kable_styling(full_width = FALSE) %>%
   row_spec(0, bold = TRUE) %>%
   column_spec(1, width = "0.68\\\\textwidth") %>%

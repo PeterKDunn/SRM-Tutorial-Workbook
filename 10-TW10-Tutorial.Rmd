@@ -8,11 +8,12 @@
 * Selecting an analysis.
 :::
 
+
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* Chapter\ 31 (CIs and tests: comparing two odds or proportions)
-* Chapter\ 32 (Finding sample sizes for CIs)
-* Chapter\ 34 (Selecting an analysis)
+* [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisOddsRatio.html)
+* [Chapter\ 32 (Finding sample sizes for CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
+* [Chapter\ 34 (Selecting an analysis)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html)
 
 Take careful note of which chapters are covered in this tutorial!
 
@@ -20,9 +21,6 @@ Take careful note of which chapters are covered in this tutorial!
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 Something from this week's content may be needed for your Task\ 2B.
 :::
-
-
-
 
 
 ## Quick revision {#QuickRevision-Tutorial10}
@@ -34,9 +32,9 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 
 ::: {.webex-check .webex-box}
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
-She uses $50$ different sites, allocating the two grasses at random to the sites ($25$ sites for each grass).
+She uses $50$\ different sites, allocating the two grasses at random to the sites ($25$\ sites for each grass).
 
-After $12$ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+After $12$\ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
 She finds a statistically significant difference between the odds in the two groups.
 Which of these statements is *consistent* with this conclusion?
 
@@ -87,22 +85,17 @@ Sample data were collected from
 > ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
 > Data were collected on... adolescents' physical and psychological status...
 
-
 The researchers asked the RQ;
 
 > For US children, is the odds of a boy maturing late the *same* as the odds of a girl maturing late?
 
-
 Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-jamova-SPSS))
 
 
-```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi", fig.align="center", out.width='33%'}
+```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi.", fig.align="center", out.width='33%'}
 knitr::include_graphics( "SoftwareImages/BoysMatureData-jamovi.png",
                          )
 ```
-
-
-
 
 
 1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.  
@@ -128,7 +121,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         # escape = FALSE, # For latex to work in \rightarrow
         # linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Maturation and gender",
+        caption = "Maturation and gender.",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -184,14 +177,14 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-       caption = "Maturation and gender",
+       caption = "Maturation and gender.",
       booktabs = TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
 }
-
 ```
+
 
 2. What graphical summary could be used to display the information?
    Sketch this display.
@@ -202,7 +195,7 @@ if( knitr::is_html_output() ) {
 5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
    Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi)).
 6. What is the **parameter** of interest?
-7. Write down the OR and the $95$%\ CI for the OR from the jamovi or SPSS output. 
+7. Write down the OR and the $95$%\ CI for the OR from the jamovi output. 
    What does it mean?
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
 9. Are boys generally more likely to mature later than girls? 
@@ -214,6 +207,8 @@ if( knitr::is_html_output() ) {
 knitr::include_graphics( "SoftwareImages/BoysMatureOdds-jamovi.png")
 ```
 
+
+(ref:MaturationSummaryCaption) Maturation and gender: numerical summary. (Enter proportions, odds and odds ratios **rounded** to **three** decimal places.)
 
 ```{r echo=FALSE, MaturationSummary}
 MaturationSumm <- array( "", 
@@ -287,12 +282,12 @@ if( knitr::is_html_output() ) {
 
   MaturationSumm[3, 1] <- paste("Diff:",
                            webexercises::fitb(num = TRUE, 
-                                            tol = 0.001, 
+                                            tol = 0.0025, 
                                             width = 6, 
                                             answer = round( (352 / 2864) - (336 / 2664), 3) ) )
   MaturationSumm[3, 2] <- paste("OR:",
                            webexercises::fitb(num = TRUE, 
-                                            tol = 0.005, 
+                                            tol = 0.0025, 
                                             width = 6, 
                                             answer = round( (352 / 2512) / (336 / 2328), 3) ) )
 
@@ -301,7 +296,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Maturation and gender: Numerical summary (Enter proportions to three decimal places. Enter odds and odds ratio to three decimal places)",
+        caption = "(ref:MaturationSummaryCaption)",
         booktabs = TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
@@ -316,10 +311,6 @@ if( knitr::is_html_output() ) {
 `r if (knitr::is_latex_output()) '-->'`
 <!-- Admin link: -->
 <!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458372&sec_digit=1721642515&edit_code=1217450775 -->
-
-
-
-
 
 
 ## Tests for ORs {#TestsForORs}
@@ -345,7 +336,7 @@ A total of $105$ subjects were used: $35$ died within five years, and $70$ were 
 In addition, $65$ subjects used an artificial limb, and $40$ did not.
 	
 1. After five years, $49$ people using an artificial limb were alive.
-   Construct the $2\times 2$ table (Table \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
+   Construct the $2\times 2$ table (Table\ \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
 
 ```{r echo=FALSE, ArtLimbMortality}
 ArtLimb <- array( "", dim = c(3, 3) )
@@ -365,7 +356,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        linesep = "\\addlinespace", # Add a bit of space between all rows. 
-       caption = "Five-year mortality for artifical limb users",
+       caption = "Five-year mortality for artifical limb users.",
         align = "r")   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -421,20 +412,19 @@ if( knitr::is_html_output() ) {
         align = "r",
         escape = FALSE,
         longtable = FALSE,
-        caption = "Five-year mortality for artifical limb users",
+        caption = "Five-year mortality for artifical limb users.",
         booktabs = TRUE) %>%
   row_spec(3, bold = TRUE)
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
    
 }
-
 ```
 
 2. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
-3. Write down the $95$% CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
+3. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
 4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.
@@ -467,7 +457,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         # escape=FALSE, # For latex to work in \rightarrow
         linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary",
+        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
         align = c("l", "l", "l", "l"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -535,7 +525,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary",
+        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
         booktabs = TRUE) %>%
   add_header_above( c( " " = 1, 
                        "Percentage alive" = 1, 
@@ -551,7 +541,7 @@ if( knitr::is_html_output() ) {
 ```
 
 
-```{r echo=FALSE, limbsOutputjamovi, fig.cap="The jamovi output for the question on lower-limb amputees", fig.align="center", out.width="50%"}
+```{r echo=FALSE, limbsOutputjamovi, fig.cap="The jamovi output for the question on lower-limb amputees.", fig.align="center", out.width="50%"}
 knitr::include_graphics("SoftwareImages/Singh2016-ChiSq-jamovi.png")
 ```
 
@@ -566,10 +556,6 @@ knitr::include_graphics("SoftwareImages/Singh2016-ChiSq-jamovi.png")
 <iframe src="https://usc.h5p.com/content/1290972415580046319/embed" width="1088" height="511" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-
-
-
-
 ## Sample size calculations {#RoomWidthCISampleSize}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
@@ -579,16 +565,12 @@ This question has a video solution in the online book, so you can hear and see t
 
 Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
 
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1$\ m).
+The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1\ms$).
 
-
-The $44$ individual students' guesses had a standard deviation of $7.145$.
-Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5$\ m.
+The $44$ individual students' guesses had a standard deviation of $7.145\ms$.
+Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5\ms$.
 
 What size sample would Prof. Lewis need?
-	
-
-
 	
 
 ## **Optional questions** {#OptionalTW10}
@@ -635,7 +617,7 @@ if( knitr::is_latex_output() ) {
   kable(GMfoodTab,
       format = "latex",
       booktabs = TRUE,
-      caption = "Opinions of Australians about GM food") %>%
+      caption = "Opinions of Australians about GM food.") %>%
   column_spec(1, bold = TRUE) %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
@@ -645,22 +627,17 @@ if( knitr::is_html_output() ) {
   kable(GMfoodTab,
       format = "html",
       booktabs = TRUE,
-      caption = "Opinions of Australians about GM food") %>%
+      caption = "Opinions of Australians about GM food.") %>%
   column_spec(1, bold = TRUE) %>%
   row_spec(0, bold = TRUE) %>%
   kable_styling(full_width = FALSE)
 }
 ```
 
-
-
      
-```{r GMfoodsjamovi, echo=FALSE, fig.cap="jamovi output for the GM foods data", fig.align="center", out.width="50%"}
+```{r GMfoodsjamovi, echo=FALSE, fig.cap="jamovi output for the GM foods data.", fig.align="center", out.width="50%"}
 include_graphics("SoftwareImages/GMfood-jamovi.png")
 ```
-
-
-
 
 
 ### **(Optional)**  Two-way tables {#TablesHepC}
@@ -712,7 +689,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         # escape = FALSE, # For latex to work in \rightarrow
         linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Five-year mortality for artifical limb users",
+        caption = "Hepatitis\\ C and tattoos.",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -764,7 +741,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Five-year mortality for artifical limb users",
+        caption = "Hepatitis\\ C and tattoos.",
         booktabs = TRUE) # %>%
    #row_spec(row=1, bold=TRUE) %>%
 #   column_spec(column=1, bold=TRUE)
@@ -778,8 +755,6 @@ if( knitr::is_html_output() ) {
 6. In the sample, what are the odds that someone has Hep.\ C, among those *without* a tattoo?
 7. From the sample information, compute the odds ratio of having Hep.\ C, comparing students with a tattoo to those without a tattoo.
    Carefully explain what this value means.
-
-
 
 
 ### **(Optional)**  CIs and tests for ORs {#ORTestsByss}
@@ -816,7 +791,7 @@ The researchers used an observational study.
 
 
 
-```{r ByssOutputjamovi, echo=FALSE, fig.cap="Output from jamovi for the byssinosis example", fig.align="center", out.width="50%"}
+```{r ByssOutputjamovi, echo=FALSE, fig.cap="Output from jamovi for the byssinosis example.", fig.align="center", out.width="50%"}
 include_graphics("SoftwareImages/Byss-jamovi.png")
 ```
 

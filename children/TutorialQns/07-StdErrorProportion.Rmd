@@ -5,8 +5,8 @@ $$
 
 In this formula:
 
-1. What does $\hat{p}$ represent?
-2. What does $n$ represent?
-3. What does "$\text{s.e.}$" short for?
+1. What does\ $\hat{p}$ represent?
+2. What does\ $n$ represent?
+3. What is "$\text{s.e.}$" short for?
 
 

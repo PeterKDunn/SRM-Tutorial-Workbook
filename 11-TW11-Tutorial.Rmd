@@ -11,8 +11,7 @@
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* Chapter\ 33 (Correlation and regression)
-
+* [Chapter\ 33 (Correlation and regression)](https://bookdown.org/pkaldunn/SRM-Textbook/CorrelationRegression.html)
 
 
 ## Quick revision {#QuickRevision-Tutorial11}
@@ -21,6 +20,7 @@ In this chapter, you will learn and practice the content associated with these c
 ::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
 :::
+
 
 ::: {.webex-check .webex-box}
 A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
@@ -72,11 +72,6 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265036&sec_digit=1243418155&embeded_digit=1746246557' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
-
-
-		      
-		      
-		      
 		      
 
 ## Understanding correlations and regression {#UnderstandCorrelationsRegressions}
@@ -89,8 +84,7 @@ On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationshi
 4. Then write down an estimate of the regression line equation.
 
 
-
-```{r Guesses, echo=FALSE, fig.cap="Six different scatterplots", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
+```{r Guesses, echo=FALSE, fig.cap="Six different scatterplots.", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
 set.seed(107695)
 n <- 50
 
@@ -193,11 +187,6 @@ grid()
 ```
 
 
-
-
-
-
-
 ## Interpreting regressions {#InterpretRegressions}
 
 
@@ -225,13 +214,11 @@ I then restricted the data to cars $15$ years old or younger
 I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
 
 
-
-```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$)", fig.align="center", fig.width=6}
+```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).", fig.align="center", fig.width=6}
 
 data(Corollas)
 
 CP <- Corollas
-
 
 CP <- rbind(CP, c(2008, 13000, 6) )  ### Add as it looks better
 
@@ -302,16 +289,16 @@ box()
     d. How would the value of the intercept change?
 
 
-```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data", fig.align="center", out.width="57%"}
+```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data.", fig.align="center", out.width="57%"}
 knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
 ```
-```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data", fig.align="center", out.width="60%"}
+```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data.", fig.align="center", out.width="60%"}
 knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
 ```
 
 
 
-```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$)", fig.align="center", fig.width=6}
+```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$).", fig.align="center", fig.width=6}
 data(Corollas)
 
 CP <- Corollas
@@ -351,17 +338,12 @@ box()
 ```
 
 
-
-
-
 ## Regression and correlation {#RegressionCorrelation}
 
 Draw the regression line corresponding to $\hat{y} = 5 + 2x$ for values of $x$ between\ $0$ and\ $10$.
 
 1. Add some points to the scatterplot such that the correlation is approximately $r = 0.9$.
 2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.3$.
-
-
 
 
 ## **Optional questions** {#OptionalTW11}
@@ -400,7 +382,7 @@ Researchers in New Zealand were interested in:
 
 The graph in Fig.\ \@ref(fig:Stems) comes from this study examining heather in the central North Island of New Zealand.
 
-```{r Stems, echo=FALSE, fig.cap="Figure 2 (top panel) from Rogers (1996)", fig.align="center", out.width="45%"}
+```{r Stems, echo=FALSE, fig.cap="Figure 2 (top panel) from Rogers (1996).", fig.align="center", out.width="45%"}
 include_graphics("ArticleImages/Kelly2005-Regression.png")
 ```
 
@@ -411,8 +393,4 @@ include_graphics("ArticleImages/Kelly2005-Regression.png")
 5. For a stem age of $20$\ years, what does the regression model predict as the mean stem diameter?
 6. Interpret the meaning of the slope and intercept in the regression equation.
    Comment on these interpretations.
-
-
-
-
 

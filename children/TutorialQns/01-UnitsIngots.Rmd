@@ -1,7 +1,7 @@
 
 
 The strength of steel depends on the heat treatments applied (Oehlert 2010, p.\ 8).
-In one study, ingots of steel are given different heat treatments (40 ingots for Treatment\ A and 40 ingots for Treatment\ B).
+In one study, ingots of steel are given different heat treatments ($40$\ ingots for Treatment\ A and $40$\ ingots for Treatment\ B).
 Each ingot is punched in four locations to measure its hardness.
 
 1. What are the *units of analysis*?
