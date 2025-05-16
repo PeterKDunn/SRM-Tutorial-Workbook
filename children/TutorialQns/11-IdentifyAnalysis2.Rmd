@@ -13,18 +13,18 @@ Each scenario will have only *one* correct answer.
 
 2. Living next to construction work can be annoying, and may impact people's day-to-day living.  
   At St Thomas University (Minnesota, USA), researchers examined the impact of constructing a new student accommodation building close to an existing student accommodation building.  
-  The study [@data:Ng2000:BuildingNoise] examined, among other things, the relationship between the GPA of female students (as A, B, C or D) and the location of their room (central wing; far wing; near wing) in the student accommodation complex (which was located near a construction site) to study the impact of the construction noise.  
+  The study [@data:Ng2000:BuildingNoise] examined, among other things, the relationship between the GPA of female students (as A, B, C or\ D) and the location of their room (central wing; far wing; near wing) in the student accommodation complex (which was located near a construction site) to study the impact of the construction noise.  
   What is the appropriate method of analysis?
 
 3. A study [@data:Coustumer2012:Biolilters] of using stormwater biofilters examined, among other things, hydraulic conductivity over time when Malaleuca was used as the vegetation type as the biofilter.  
 
-   The conductivity was measured near the start (at $4$ weeks) and the end of the study ($60$ weeks), and the hydraulic conductivity at both times was compared, for a large number of biofilters.  
+   The conductivity was measured near the start (at $4$\ weeks) and the end of the study ($60$ weeks), and the hydraulic conductivity at both times was compared, for a large number of biofilters.  
 
    What is the appropriate method of analysis?
 
 4. Biodiesel is being considered as a alternative fuel.  
 
-   To help understand the properties of biodiesel, a study [@data:Gopinath2009:Iodine] studied (among other things) the relationship between the iodine value (the iodine value is the mass of iodine in grams that $100$\ g of a chemical can consume) and percentage weight of fatty acid methyl esters present in five different biodiesel fuels.  
+   To help understand the properties of biodiesel, a study [@data:Gopinath2009:Iodine] studied (among other things) the relationship between the iodine value (the iodine value is the mass of iodine in grams that $100\gs$ of a chemical can consume) and percentage weight of fatty acid methyl esters present in five different biodiesel fuels.  
    
    What is the appropriate method of analysis?
 

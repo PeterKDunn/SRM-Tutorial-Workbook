@@ -1,5 +1,5 @@
 
-Use the words in column 1 of Table to complete the following passage:
+Use the words in column\ 1 of Table\ \@ref(tab:Words4Table) to complete the following passage:
 
 1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an ________.    
   In Batch\ 1, a ________ of size\ $30$ was used; 
@@ -7,17 +7,13 @@ Use the words in column 1 of Table to complete the following passage:
   Because the data are a sample, the sample mean will estimate the population mean with some sampling ________.
 
 
-2. A type of study called an ________ compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using speciality school furniture with standard school furniture (which acted as a ________).  
+2. A type of study called an ________ compared the handwriting legibility for school children (Ryan\ et al., 2010) having cerebral palsy when using speciality school furniture with standard school furniture (which acted as a ________).  
 
    They used a ________ sample of size $30$ from children registered at their facility in Canada.  
 
-   The ________ mean for the difference in legibility was $-0.1$, and a $95$% ________ interval was from $-0.8$ to $0.6$.  
+   The ________ mean for the difference in legibility was $-0.1$, and a\ $95$% ________ interval was from $-0.8$ to\ $0.6$.  
    
-   Using the standard equipment, the smallest value recorded for legibility was 19, and the largest was $34$, so the ________ was $15$.
-
-
-
-
+   Using the standard equipment, the smallest value recorded for legibility was 19, and the largest was\ $34$, so the ________ was\ $15$.
 
 
 ```{r Words4Table, echo=FALSE}
@@ -41,7 +37,7 @@ if( knitr::is_latex_output() ) {
       booktab = TRUE,
       align = "c",
 #      linesep = "\\addlinespace"),
-      caption = "Words and phrases to insert into two passages") %>%
+      caption = "Words and phrases to insert into two passages.") %>%
   kable_styling(full_width = FALSE) %>%
   row_spec(0, bold = TRUE) %>%
   add_header_above( c("Passage 1" = 2,
@@ -50,7 +46,5 @@ if( knitr::is_latex_output() ) {
                     line = TRUE)
 }
 ```
-
-
 
 

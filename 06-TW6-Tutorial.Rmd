@@ -10,6 +10,7 @@
 * The normal distribution.
 :::
 
+
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
@@ -29,7 +30,6 @@ These Tables can be found in the textbook appendices, and in this document in
 :::
 
 
-
 ## Quick revision {#QuickRevision-Tutorial6}
 
 
@@ -43,9 +43,9 @@ For the simulation, they modelled the gross vehicle mass (GVM) of trucks as havi
 
 The 
 `r if (knitr::is_latex_output()) {
-'Isuzu F-Series trucks'
+  'Isuzu F-Series trucks'
 } else {
-'[Isuzu F-Series trucks](https://isuzu.com.au/)'
+  '[Isuzu F-Series trucks](https://isuzu.com.au/)'
 }`
 are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the configuration; in 2024). 
 
@@ -79,18 +79,15 @@ answer = "The mass is lower than average",
 `r if (knitr::is_latex_output()) '-->'`
 
 
-
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265018&sec_digit=355513952&embeded_digit=1285939919' style='width:100%; height:375px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 
 
-
-
 ## Normal distributions and IQs {#NormalIQs}
 
-Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of $100$, and a standard deviation of $15$.
+Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/06-NormalAndIQ.Rmd'}
@@ -100,8 +97,6 @@ Standard IQs in current use are designed so that the IQ scores of the *populatio
 `r if (knitr::is_html_output()) {"Use this information to answer the following questions."}`
 
 <iframe src="https://usc.h5p.com/content/1290968343185265779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
 
 
 ## Normal distributions and heights {#NormalHeights}
@@ -130,7 +125,7 @@ The values quoted are used for modelling purposes, and are essentially the popul
    Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
    Explain what this means.
 
-```{r Ht, echo=FALSE, fig.cap="Part of the ABS report on heights of Australians", fig.align="center", out.width='85%'}
+```{r Ht, echo=FALSE, fig.cap="Part of the ABS report on heights of Australians.", fig.align="center", out.width='85%'}
 knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 ```
 
@@ -139,20 +134,18 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
    (Hint: Draw a picture!)
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
 6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
-   (For this group, the mean is $\mu = 161.4$\ cm, and the standard deviation is $\sigma = 6.7$\ cm, drawn from Fig.\ \@ref(fig:Ht).)
+   (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
 7. For this part, we want to just look at *females $18$\ and over* again.
    Answer the following questions.
 
-   a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171$\ cm.
-   b. What are the *odds* that a female $18$\ and over is *shorter* than $171$\ cm?
-   c. Compute the *percentage* of females $18$\ and over that are *taller* than $171$\ cm?
-   d. What are the *odds* that a female $18$\ and over is *taller* than $171$\ cm?
-   e. Compute the *percentage* of females $18$\ and over that are *between* 170 and $180$\ cm?
-   f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180$\ cm?
+   a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171\cms$.
+   b. What are the *odds* that a female $18$\ and over is *shorter* than $171\cms$?
+   c. Compute the *percentage* of females $18$\ and over that are *taller* than $171\cms$?
+   d. What are the *odds* that a female $18$\ and over is *taller* than $171\cms$?
+   e. Compute the *percentage* of females $18$\ and over that are *between* $170$ and $180\cms$?
+   f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180\cms$?
 
 8. Approximately $20$% of females $18$\ and over are shorter than what height?
-
-
 
 
 ## Probability {#Probability2}
@@ -193,18 +186,13 @@ For the following, indicate *how* you could estimate the probability (classical;
 6. Explain the difference between the meaning of the **first two** statements.
 
 
-
-
-
-
-
 ## Random coin tosses {#RandomCardDraws}
 
 Use 
 `r if (knitr::is_html_output()){
-'[this website at RANDOM.org](https://www.random.org/coins/?num=10&cur=60-aud.1dollar) (at the bottom of the page, keep pressing *Flip again* to repeat)'
+  '[this website at RANDOM.org](https://www.random.org/coins/?num=10&cur=60-aud.1dollar) (at the bottom of the page, keep pressing *Flip again* to repeat)'
 } else {
-'the website https://www.random.org/coins/'
+  'the website https://www.random.org/coins/'
 }`
 to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
@@ -214,7 +202,6 @@ to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinT
 ```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
 knitr::include_graphics("images/CoinToss.jpg")
 ```
-
 
 
 Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete 
@@ -255,7 +242,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         escape = FALSE, # For latex to work in \rightarrow
         linesep = c( rep("\\addlinespace\\addlinespace\\hline", 11) ), # Add a bit of space between all rows. 
-        caption = "Tossing coins",
+        caption = "Tossing coins.",
         align = c("r", "r"))   %>%
     kable_styling(full_width = FALSE, 
                   font_size = 10) %>%
@@ -277,7 +264,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Tossing coins",
+        caption = "Tossing coins.",
         booktabs = TRUE) # %>%
   #row_spec(row=1, bold=TRUE) %>%
   #   column_spec(column=1, bold=TRUE)
@@ -296,7 +283,7 @@ if( knitr::is_html_output() ) {
 1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
 
 
-```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions'}
+```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, 
                     size = 10, 
@@ -339,6 +326,4 @@ The daily SOI has an approximate normal distribution, and is designed to have a 
 6. What is the probability that the daily SOI is between\ $-10$ and\ $20$?
 7. The SOI is *less than* what value about\ $80$% of the time?
 8. The SOI is *greater* than what value about\ $35$% of the time?
-
-
 

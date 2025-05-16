@@ -12,7 +12,6 @@ Match the following **definitions** with the words below:
 
 Here are the **words**:
 
-
 \begin{minipage}[t]{0.3\textwidth}
 A. Observational study\\
 B. Outcome\\

@@ -1,8 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
 # Teaching Week 5: tutorial {#Lecture5}
 
 
@@ -25,8 +20,6 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 17 (More details about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 Take careful note of which chapters are covered in this tutorial!
-
-
 
 
 
@@ -66,13 +59,13 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 > The bars in the histogram have heights of $10$, $2$, $4$, $2$ and $4$.
 > When these numbers are put in order, they are: $2$, $2$, $4$, $4$, $10$.
-> The median breadth is the median of these numbers, so the median breadth is the middle one: $4$\ mm is the median.  
+> The median breadth is the median of these numbers, so the median breadth is the middle one: $4\mms$ is the median.  
 
 **Student\ 2** responds:  
 
 > You have the correct answer, but for the wrong reason!
 > There are five bars, and the middle bar is the third bar.
-> Since the third bar has a height of $4$, the median breadth is $4$\ mm.  
+> Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -94,7 +87,7 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
                       "The Site B box") )}`
 
 
-```{r JellyfishBoxplots, echo=FALSE, fig.cap="A boxplot of the breadth of jellyfish at two sites", fig.align="center", out.width='50%', fig.height = 3.5, fig.width=5}
+```{r JellyfishBoxplots, echo=FALSE, fig.cap="A boxplot of the breadth of jellyfish at two sites.", fig.align="center", out.width='50%', fig.height = 3.5, fig.width=5}
 data(Jellyfish)
 
 JF <- Jellyfish
@@ -170,14 +163,14 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
 
 
-```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/BareBoxplot.png")
 ```
 
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
 	 
 
-```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='75%'}
+```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='75%'}
 knitr::include_graphics("ProjectImages/DodgyBar.png")
 ```
 
@@ -187,22 +180,15 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
    Identify ways to improve the graph.
 
 
-```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project", fig.align="center", out.width='70%'}
+```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/WrongBar.png")
 ```
-
-
-
-
-
 
 
 ## Understanding correlations  {#UnderstandCorrelations}
 
 Answer the following questions, referring to Fig.\ \@ref(fig:GuessesCorr).
 The four correlation coefficients $r$ are:
-
-
 
 
 ```{r echo=FALSE}
@@ -256,7 +242,7 @@ For two plots, a correlation is not suitable.
 
 
 
-```{r GuessesCorr, echo=FALSE, fig.cap="Six different scatterplots", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
+```{r GuessesCorr, echo=FALSE, fig.cap="Six different scatterplots.", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
 set.seed(107695)
 n <- 50
 
@@ -359,18 +345,9 @@ grid()
 ```
 
 
-
-
-
-
-
 ## Numerical summary for ruler-drop data {#PlanStudy4}
 
 Your tutor will have information.
-
-
-
-
 
 
 ## Which summary measures to use {#WhichSummaryToUse}
@@ -385,7 +362,7 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 
 `r if (knitr::is_html_output()) '<!--'`
 
-```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)", fig.align="center", out.width="95%"}
+```{r Orthoses, echo=FALSE, fig.cap="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System).", fig.align="center", out.width="95%"}
 knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 ```
 `r if (knitr::is_html_output()) '-->'`
@@ -396,14 +373,7 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 ```
 
 
-
-
 <iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-
 
 
 
@@ -413,7 +383,6 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
 (Answers appear in Sect.\ \@ref(Lecture5Answers).)
 :::
-
 
 
 ### **(Optional)**  Understanding RQs and variables {#UnderstandRqVariables}
@@ -426,10 +395,10 @@ The participants were instructed (p.\ 4):
 > Do not take your pulse or feel on your chest with your hand. 
 > You are only allowed to feel the sensation of your heart beating.
 
-The process was repeated using time intervals of $25$, $30$, $35$, $40$, $45$, and $50$ seconds.
+The process was repeated using time intervals of $25$, $30$, $35$, $40$, $45$, and\ $50\secs$.
 The time intervals were presented in random order to the subjects ($34$ blind; $36$ sighted), who received no information about the length of the time interval.
 
-Each subject was assigned a *single* accuracy score (from $0$ to $1$ (perfect accuracy)) by combining their results across the various time intervals.
+Each subject was assigned a *single* accuracy score (from $0$ to\ $1$ (perfect accuracy)) by combining their results across the various time intervals.
 The study, therefore, compared the average accuracy scores blind people to sighted people.
 
 1. What type of RQ is this?
@@ -444,8 +413,6 @@ The study, therefore, compared the average accuracy scores blind people to sight
 1. What are the units of analysis?
 1. How many units of analysis are there?
 1. How many units of observation are there for each unit of analysis? 
-
-
 
 
 ### **(Optional)**  Interpreting and drawing boxplots {#DrawBoxplot}
@@ -469,9 +436,6 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 ```
 
 
-
-
-
 ### **(Optional)**  Selecting the correct graph {#SelectGraphs1}
 
 <iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -479,7 +443,6 @@ include_graphics("ArticleImages/Paul2008Table1.png")
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectCorrectGraph.Rmd'}
 ```
-
 
 
 ### **(Optional)**  Identifying appropriate graphs {#IdentifyingGraphs1}
@@ -514,7 +477,7 @@ In addition, draw a rough example of what the graph may look like.
    
 3. To understand the usage of hospital emergency departments (EDs) in Ireland, @data:Curran2011.Stroke examined many individual admissions.  
    
-   For each admission to the ED, they recorded if the waiting time was short (within $3$\ hours) or long ($3$ hours or longer), and the time of day of the admission (in three divisions: $9$am to $5$pm; $5$pm to midnight; and midnight to $9$am).
+   For each admission to the ED, they recorded if the waiting time was short (within $3\hs$) or long ($3\hs$ or longer), and the time of day of the admission (in three divisions: $9$am to $5$pm; $5$pm to midnight; and midnight to $9$am).
 
 
 <iframe src="https://usc.h5p.com/content/1291014908484867689/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -537,8 +500,6 @@ In addition, draw a rough example of what the graph may look like.
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectingGraphs.Rmd'}
 ```
-
-
 
 
 ### **(Optional)**  Evaluating graphics {#EvaluateGraphsAnts}

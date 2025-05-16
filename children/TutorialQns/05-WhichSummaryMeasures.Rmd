@@ -50,7 +50,3 @@
     d. Boxplot.
     e. Bar chart.
     f. Histogram.
-
-
-
-

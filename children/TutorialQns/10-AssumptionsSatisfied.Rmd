@@ -1,4 +1,4 @@
-Suppose a researcher wishes to study the mean amount of water used per camper $\mu$ at a campsite in  a national park, comparing Spring ($S$) and Autumn ($A$):
+Suppose a researcher wishes to study the mean amount of water used per camper\ $\mu$ at a campsite in  a national park, comparing Spring\ ($S$) and Autumn\ ($A$):
 
 * $H_0$: $\mu_S  =  \mu_A$ versus 
 * $H_1$: $\mu_S \ne \mu_A$.

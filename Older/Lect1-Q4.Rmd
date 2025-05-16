@@ -18,7 +18,7 @@ Read the following information from the research article (p.\ 2, 3):
 > &nbsp;
 >
 > All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
-> The starting and end points to the $50$\ m walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
+> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
 > &nbsp;
 > 
 > Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.  
@@ -39,8 +39,8 @@ Then, answer the questions that follow.
 
 2. Which one of these is most likely the *outcome* in the study?
     a. The way subjects were using their phone.
-    b. The time taken to walk $50$\ m.
-    c. The **average** time taken to walk $50$\ m.
+    b. The time taken to walk $50\ms$.
+    c. The **average** time taken to walk $50\ms$.
     d. The differences between the times taken.
 		
 3. Which one of these is most likely the *comparison* in the study?
@@ -58,14 +58,14 @@ Then, answer the questions that follow.
 5. What is the *explanatory variable*?
     a. The phone.
     b. The way that the phone is being used.
-	  c. The average time to walk $50$\ m.
+	  c. The average time to walk $50\ms$.
     d. The walking speed.
 				
 6. What is the *response variable*?
     a. The differences between the times taken.
     b. The way subjects were using the phone.
-    c. The **average** time to walk $50$\ m.
-    d. The time taken to walk $50$\ m.
+    c. The **average** time to walk $50\ms$.
+    d. The time taken to walk $50\ms$.
 
 7. Which one of these is most likely the *unit of observation* in the study?
     a. The phone.

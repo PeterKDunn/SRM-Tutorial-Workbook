@@ -162,7 +162,7 @@ regarding this information.
 <!-- I deleted the enclosing <div> ... </div> -->
 
 
-```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='85%', eval=is_latex_output()}
+```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete.", fig.align="center", out.width='85%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week2.PNG")
 ```
 
@@ -371,8 +371,6 @@ if (knitr::is_latex_output()){
 
 
 
-
-
 ### **(Optional)**  Understanding terminology {#UnderstandTerminologyStudies}
 
 
@@ -391,7 +389,7 @@ A newspaper report of one such study [@data:GISSI1999:Infarction] is shown in Fi
 Answer the questions that follow.
 
 
-```{r fishoil, echo=FALSE, fig.cap="From The Downs Star, Thursday March 18, 1999", fig.align="center", out.width="80%"}
+```{r fishoil, echo=FALSE, fig.cap="From The Downs Star, Thursday March 18, 1999.", fig.align="center", out.width="80%"}
 include_graphics("ArticleImages/fishoil2.jpg")
 ```
 
@@ -435,8 +433,6 @@ A reviewer, however, noted that *all* the subjects in Group\ A were male, and *a
 
 
 
-
-
 ### **(Optional)**  Evaluating reports {#EvaluatingReportsSugar}
 
 Many health experts are concerned about the amount of sugary drinks consumed by children.
@@ -452,7 +448,7 @@ Two variables are listed in the extract:
 3. How could the *accuracy* be improved?
 
 
-```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012", fig.align="center", out.width='75%'}
+```{r SoftDrinks, echo=FALSE, fig.cap="From: www.news.com.au, Tuesday 25 September 2012.", fig.align="center", out.width='75%'}
 include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
 ```
 
@@ -478,9 +474,6 @@ include_graphics("ArticleImages/SoftDrinks-cut3CloseGap.png")
 <!--   row_spec(0, bold=TRUE) %>% -->
 <!--   kable_styling(full_width=FALSE) -->
 <!-- ``` -->
-
-
-
 
 
 

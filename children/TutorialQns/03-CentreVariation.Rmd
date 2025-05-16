@@ -1,5 +1,5 @@
 A tutor has recorded the marks (as a percentage) for all students in her four classes for an assignment.
-All classes have $30$ students.
+All classes have $30$\ students.
 The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
 1. In which class would the median be the *largest*?
@@ -13,7 +13,7 @@ The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
 
 
-```{r VariationHistograms, echo=FALSE, fig.cap="Histogram of marks for four classes", fig.height=3.5, fig.width=4, fig.align="center", out.width="90%"}
+```{r VariationHistograms, echo=FALSE, fig.cap="Histogram of marks for four classes.", fig.height=3.5, fig.width=4, fig.align="center", out.width="90%"}
 set.seed(2015)
 # The default: mar=c(5,4,4,2) + 0.1)
 

@@ -1,10 +1,9 @@
-A study [@data:montalvo2020:retrospective] examined $433$ bridge collapses.
-Of these $433$ bridges, $36$ bridges collapsed due to deterioration, and $82$ bridges collapsed due to a collision.
+A study [@data:montalvo2020:retrospective] examined $433$\ bridge collapses.
+Of these $433$\ bridges, $36$\ bridges collapsed due to deterioration, and $82$\ bridges collapsed due to a collision.
 
-
-1. The **percentage** of bridges collapsing due to deterioration is _____ divided by _____, or $8.3$%.
-2. The **odds** of a bridge collapsing due to deterioration is _____ divided by _____, or $0.091$.
-3. The odds of a bridge collapsing due to deterioration is $0.091$. 
+1. The **percentage** of bridges collapsing due to deterioration is _____ divided by _____, or\ $8.3$%.
+2. The **odds** of a bridge collapsing due to deterioration is _____ divided by _____, or\ $0.091$.
+3. The odds of a bridge collapsing due to deterioration is\ $0.091$. 
    What does this mean?
 
     a. For every $100$ bridges that do collapse due to deterioration, about $9.1$ bridges do not collapse.

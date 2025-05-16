@@ -126,7 +126,7 @@ if( knitr::is_latex_output() ) {
                             "BMI",
                             "Neck circumference (cm)",
                             "REI"),
-              caption = "Part of the obstructive sleep apnoea data set ($n = 60$)") %>%
+              caption = "Part of the obstructive sleep apnoea data set ($n = 60$).") %>%
     kable_styling(font_size = 10) %>%
     row_spec(0, bold = TRUE) 
 }
@@ -138,7 +138,7 @@ if( knitr::is_html_output() ) {
               list(scrollX = TRUE, 
                    scrollY = TRUE, 
                    ordering = FALSE),
-              caption = "The Obstructive sleep apnoea data set")
+              caption = "The Obstructive sleep apnoea data set.")
 }
 ```
 
@@ -167,7 +167,7 @@ PTTab <- array( "",
                 dim = c(1, length(PT) ) )
 
 PTTab[1, ] <- PT
-PTcap <- "The amount of polythene (in tonnes) used by a sample of eight UK cosmetic companies"
+PTcap <- "The amount of polythene (in tonnes) used by a sample of eight UK cosmetic companies."
 
 if( knitr::is_latex_output() ) {
   kable(pad(PTTab,
@@ -225,12 +225,8 @@ You are probably pressing the incorrect button to get the standard deviation.
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-
-
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-HistogramWhereUsed.Rmd'}
 ```
-
-
 
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
@@ -242,9 +238,6 @@ You are probably pressing the incorrect button to get the standard deviation.
 ## Collecting data {#PlanStudy3}
 
 Your tutor will have information.
-
-
-
 
 
 
@@ -261,10 +254,6 @@ A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig
 ```{r Bryden1984Fig3b, echo=FALSE, fig.cap="A histogram of the body length of female Weddell seals", fig.align="center", out.width='55%'}
 knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 ```
-
-
-
-
 
 
 
@@ -296,7 +285,7 @@ AISTab <- array( "",
                  dim = c(1, length(Hts)) )
 
 AISTab[1, ] <- Hts
-AIScap <- "The heights (in metres) of female tennis players at the AIS"
+AIScap <- "The heights (in metres) of female tennis players at the AIS."
 
 if( knitr::is_latex_output() ) {
   kable( pad(AISTab,
@@ -344,7 +333,7 @@ if( knitr::is_latex_output() ) {
   kable(MORTab,
       format = "latex",
       booktab = TRUE,
-      caption = "The MOR (in MPa) for five bamboo boards") %>%
+      caption = "The MOR (in MPa) for five bamboo boards.") %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
 }
@@ -352,7 +341,7 @@ if( knitr::is_html_output() ) {
   kable(MORTab,
       format = "html",
       booktab = TRUE,
-      caption = "The MOR (in MPa) for five bamboo boards") %>%
+      caption = "The MOR (in MPa) for five bamboo boards.") %>%
   kable_styling(full_width = FALSE)
 }
 ```
@@ -377,7 +366,7 @@ AISTab2 <- array( "",
                   dim = c(1, length(PBF)) )
 
 AISTab2[1, ] <- PBF
-AIScap2 <- "The percentage body fat of female swimmers at the AIS"
+AIScap2 <- "The percentage body fat of female swimmers at the AIS."
 
 if( knitr::is_latex_output() ) {
   kable(AISTab2,
@@ -432,7 +421,7 @@ if( knitr::is_latex_output() ) {
       format = "latex",
       escape = FALSE,
       booktab = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours") %>%
+      caption = "The times taken for batteries to go from $1.5\\vs$ to $1.0\\vs$, in hours.") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(full_width = FALSE,
                 font_size = 10)
@@ -444,7 +433,7 @@ if( knitr::is_html_output() ) {
       format = "html",
       escape = FALSE,
       booktab = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5\\vs$ to $1.0\\vs, in hours)") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(full_width = FALSE)
 }
@@ -480,7 +469,7 @@ if( knitr::is_html_output() ) {
    What advice would you give about buying batteries based on these data?
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-The cost of the batteries, at the time of publication (05 September, 2012), was: 
+The cost of the batteries, at the time of publication (05\ September, 2012), was: 
   
 * *Ultracell*: A four-pack cost $2.49 from ALDI online
 * *Energizer Max*: A four-pack cost $5.97 from Woolworths online, *on special*; the normal price was $8.01 for the four-pack.
@@ -509,11 +498,7 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 ```
 
 
-
-
-
 ### **(Optional)**  Understanding graphics {#UnderstandGraphsPizza}
-
 
 
 <iframe src="https://usc.h5p.com/content/1290973189768027779/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -522,9 +507,4 @@ include_graphics("ArticleImages/Baughman2007-HistogramFig2.png")
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-PizzaHistogram.Rmd'}
 ```
-
-
-
-
-
 

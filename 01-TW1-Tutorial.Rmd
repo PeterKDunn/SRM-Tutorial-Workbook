@@ -1,8 +1,5 @@
 \mainmatter
 
-
-
-
 # Teaching Week 1: tutorial {#Lecture1}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -148,6 +145,7 @@ As a result, the owner decides to conduct a study of his customers.
 
 Explain the *fundamental differences* between the following pairs of often-confused terms (Table\ \@ref(tab:SimilarTerms)), highlighting the important differences.
 
+
 ```{r SimilarTerms, echo=FALSE}
 Terms <- array( dim = c(8, 3))
 
@@ -181,7 +179,7 @@ if( knitr::is_latex_output() ) {
       booktabs = TRUE,
       format = "latex",
       escape = FALSE,
-      caption = "Distinguish the similar terms",
+      caption = "Distinguish the similar terms.",
       linesep = c("", "\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", "", ""), 
       align = c("r", "c", "l")) %>%
   column_spec(2, bold = TRUE) %>%
@@ -193,7 +191,7 @@ if( knitr::is_html_output() ) {
   kable(Terms, 
       booktabs = TRUE,
       format = "html",
-      caption = "Distinguish the similar terms",
+      caption = "Distinguish the similar terms.",
       linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "", ""), 
       align = c("r", "c", "l")) %>%
   column_spec(2, bold = TRUE) %>%
@@ -297,7 +295,7 @@ include_graphics("Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg")
 Bamboo is a fast-growing, strong grass often used for environmentally-friendly building practices.
 A small research study explored the hardness of bamboo when used as flooring material.
 
-The *Janka hardness*^[The force required to embed an $11.28$\ mm steel ball into wood to a depth of half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
+The *Janka hardness*^[The force required to embed an $11.28\mms$ steel ball into wood to a depth of half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
 Five floorboards were taken, and two hardness measurements were taken on each board  (units probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
@@ -318,7 +316,7 @@ if( knitr::is_latex_output() ) {
             targetLength=c(5, 4, 5, 5, 5)),
       format = "latex",
       escape = FALSE,
-      caption = "Two Janka hardness measurements from five different bamboo boards",
+      caption = "Two Janka hardness measurements from five different bamboo boards..",
       longtable = FALSE,
       booktabs = TRUE,
       align = "c") %>%
@@ -377,7 +375,7 @@ to help you understand some of the words used in the content.
 <iframe src="https://usc.h5p.com/content/1291418275333983599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete", fig.align="center", out.width='75%', eval=is_latex_output()}
+```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete.", fig.align="center", out.width='75%', eval=is_latex_output()}
 knitr::include_graphics("images/Crossword-Week1.PNG")
 ```
 
