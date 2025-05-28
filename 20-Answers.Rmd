@@ -1689,7 +1689,7 @@ if( knitr::is_html_output() ) {
     * *Size* of $r$ won't change, sign from negative to positive; i.e., $r = 0.93$.
     * Value of $R^2$ will be the same.
  	  * Slope will be the same except sign will change (in both cases, the values on the horizontal axis are one year apart).
-    * Intercept will change a lot... it is the predicted value of the price if the line is extended to year 0 (which is, of course, meaningless).
+    * Intercept will change a lot... it is the predicted value of the price if the line is extended to year\ $0$ (which is, of course, meaningless).
 
 
 ### Answers for Sect.\ \@ref(RegressionCorrelation) {.unlisted .unnumbered}
