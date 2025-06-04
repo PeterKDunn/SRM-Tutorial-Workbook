@@ -24,10 +24,11 @@ rmd_files:
 - 11-TW11-Tutorial.Rmd
 - 12-TW12-Tutorial.Rmd
 - 20-Answers.Rmd
-- 21-Appendix.Rmd
-- 22-ImageCredits.Rmd
-- 23-TutorInfoContainer.Rmd
-- 24-References.Rmd
+- 21-Tables.Rmd
+- 22-Symbols.Rmd
+- 23-ImageCredits.Rmd
+- 24-TutorInfoContainer.Rmd
+- 25-References.Rmd
 language:
   label:
     lem: 'Think '
