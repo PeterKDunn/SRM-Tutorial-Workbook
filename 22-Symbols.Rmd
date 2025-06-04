@@ -1,0 +1,492 @@
+
+# Symbols, formulas, statistics and parameters {#StatisticsAndParameters}
+
+## Symbols and standard errors {#Symbols}
+\index{Mean!of a population}
+\index{Mean!of a sample}
+\index{Mean!difference between}
+\index{Mean difference}
+\index{Proportions!of a population}
+\index{Proportions!of a sample}
+\index{Odds ratio}
+\index{Regression!coefficients}
+\index{Correlation coefficient (Pearson)}
+\index{Symbols used}
+
+
+* The following table lists the statistics used to estimate unknown population parameters. \tightlist
+* When the sampling distribution is approximately normally distributed, under appropriate statistical validity conditions, this is indicated by\ \ding{52}.\index{Sampling distribution}
+* The value of the mean of the sampling distribution (the *sampling mean*) is\index{Sampling mean}:
+
+  - unknown, for *confidence intervals*.
+  - assumed to be the value given in the null hypothesis, for *hypothesis tests*.
+
+
+(ref:SamplingDistributionPropCI) Ch.\ \@ref(CIOneProportion)
+
+(ref:SamplingDistributionPropHT) Ch.\ \@ref(TestOneProportion)
+
+(ref:SamplingDistributionXbarCI) Chs.\ \@ref(OneMeanConfInterval), \@ref(TestOneMean)
+
+(ref:SamplingDistributionXbarHT) Ch.\ \@ref(TestOneMean)
+
+(ref:SamplingDistributionDbarCI) Ch.\ \@ref(AnalysisPaired)
+
+(ref:SamplingDistributionDbarHT) Ch.\ \@ref(AnalysisPaired)
+
+(ref:SamplingDistributionTwoMeansCI) Ch.\ \@ref(AnalysisTwoMeans)
+
+(ref:SamplingDistributionTwoMeansHT) Ch.\ \@ref(AnalysisTwoMeans)
+
+(ref:SamplingDistributionTwoProps) Ch.\ \@ref(AnalysisOddsRatio)
+
+(ref:SamplingDistributionORCI) Ch.\ \@ref(AnalysisOddsRatio)
+
+(ref:SamplingDistributionORHT) Ch.\ \@ref(AnalysisOddsRatio)
+
+(ref:SamplingDistributionCorrelationHT) Ch.\ \@ref(CorrelationRegression)
+
+(ref:SamplingDistributionRegression) Ch.\ \@ref(CorrelationRegression)
+
+
+```{r ParametersStatistics2, echo=FALSE}
+ParStat <- array( dim = c(18, 6))
+
+colnames(ParStat) <- c("",
+                       #"Param.",
+                       "Statistic",
+                       "Mean",
+                       "Std error",
+                       "Normal?",
+                       "Ref.")
+rownames(ParStat) <- c("Proportion",
+                       "Proportion",
+                       "Mean",
+                       "Mean",
+                       "Mean difference",
+                       "Mean difference",
+                       "Difference between means",
+                       "Difference between means",
+                       "Difference between proportions",
+                       "Difference between proportions",
+                       "Odds ratio (OR)",
+                       "Odds ratio (OR)",
+                       "Correlation",
+                       "Correlation",
+                       "Regression: slope",
+                       "Regression: slope",
+                       "Regression: intercept",
+                       "Regression: intercept")
+
+ParStat[1, ] <- c("CI:",
+#                  "$p$",
+                  "$\\hat{p}$", 
+                  "$p$", 
+                  "CI: $\\displaystyle \\sqrt{\\frac{ \\hat{p} \\times (1 - \\hat{p})}{n}}$",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionPropCI)")
+ParStat[2, ] <- c("Test:",
+#                  "$p$",
+                  "$\\hat{p}$", 
+                  "$p$", 
+                  "HT: $\\displaystyle \\sqrt{\\frac{ p \\times (1 - p)}{n}}$",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionPropHT)")
+
+ParStat[3, ] <- c("CI:",
+#                  "$\\mu$", 
+                 "$\\bar{x}$",
+                 "$\\mu$",
+                 "$\\displaystyle \\frac{s}{\\sqrt{n}}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionXbarCI)")
+ParStat[4, ] <- c("Test:",
+#                  "$\\mu$", 
+                 "$\\bar{x}$", 
+                 "$\\mu$",
+                 "$\\displaystyle \\frac{s}{\\sqrt{n}}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionXbarCI)")
+ParStat[5, ] <- c("CI:",
+#                  "$\\mu_d$", 
+                 "$\\bar{d}$",
+                 "$\\mu_d$",
+                 "$\\displaystyle \\frac{s_d}{\\sqrt{n}}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionDbarCI)")
+ParStat[6, ] <- c("Test:",
+#                  "$\\mu_d$", 
+                 "$\\bar{d}$", 
+                 "$\\mu_d$",
+                 "$\\displaystyle \\frac{s_d}{\\sqrt{n}}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionDbarCI)")
+ParStat[7, ] <- c("CI:",
+#                  "$\\mu_1 - \\mu_2$", 
+                 "$\\bar{x}_1 - \\bar{x}_2$",
+                 "$\\mu_1 - \\mu_2$",
+                 "$\\displaystyle \\sqrt{\\text{s.e.}(\\bar{x}_1)^2 + \\text{s.e.}(\\bar{x}_2)^2}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionTwoMeansCI)")
+ParStat[8, ] <- c("Test:",
+#                  "$\\mu_1 - \\mu_2$", 
+                 "$\\bar{x}_1 - \\bar{x}_2$",
+                 "$\\mu_1 - \\mu_2$",
+                 "$\\displaystyle \\sqrt{\\text{s.e.}(\\bar{x}_1)^2 + \\text{s.e.}(\\bar{x}_2)^2}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionTwoMeansCI)")# ParStat[6, ] <- c("$\\sigma$", 
+
+ParStat[9, ] <- c("CI:",
+#                 "$p_1 - p_2$",
+                 "$\\hat{p}_1 - \\hat{p}_2$", 
+                 "$p_1 - p_2$",
+                 "CI: $\\displaystyle \\sqrt{\\text{s.e.}(\\hat{p}_1)^2 + \\text{s.e.}(\\hat{p}_2)^2}$", 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionTwoProps)")
+ParStat[10, ] <- c("Test:",
+#                  "$p_1 - p_2$", 
+                 "$\\hat{p}_1 - \\hat{p}_2$",
+                 "$p_1 - p_2$",
+                 ifelse( knitr::is_latex_output(),
+                         "\\stackunder{HT: $\\displaystyle \\sqrt{\\text{s.e.}(\\hat{p}_1)^2 + \\text{s.e.}(\\hat{p}_2)^2}$}{using \\emph{common} proportion $\\hat{p}$}", 
+                         "HT: $\\displaystyle \\sqrt{\\text{s.e.}(\\hat{p}_1)^2 + \\text{s.e.}(\\hat{p}_2)^2}$ using common proportion $\\hat{p}$"), 
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                 "(ref:SamplingDistributionTwoProps)")# ParStat[6, ] <- c("$\\sigma$", 
+ParStat[11, ] <- c("CI:",
+                 "Sample OR", 
+                 "Pop. OR",
+                 "(Not given)",
+                  ifelse( knitr::is_latex_output(), "\\ding{55}", "&#10008;"),
+                 "(ref:SamplingDistributionORCI)")
+ParStat[12, ] <- c("Test:",
+                 "Sample OR", 
+                 "Pop. OR",
+                 "(Not given)",
+                  ifelse( knitr::is_latex_output(), "\\ding{55}", "&#10008;"),
+                 "(ref:SamplingDistributionORHT)")
+ParStat[13, ] <- c("Test:",
+                  "$r$",
+                  "$\\rho$",
+                  "(Not given)",
+                  ifelse( knitr::is_latex_output(), "\\ding{55}", "&#10008;"),
+                  "(ref:SamplingDistributionCorrelationHT)")
+ParStat[14, ] <- c("CI:",
+                  "$r$",
+                  "$\\rho$",
+                  "(Not given)",
+                  ifelse( knitr::is_latex_output(), "\\ding{55}", "&#10008;"),
+                  "(ref:SamplingDistributionCorrelationHT)")
+ParStat[15, ] <- c("Test:",
+                  "$b_1$",
+                  "$\\beta_1$",
+                  "$\\text{s.e.}(b_1)$ (value from software)",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionRegression)")
+ParStat[16, ] <- c("CI:",
+                  "$b_1$",
+                  "$\\beta_1$",
+                  "$\\text{s.e.}(b_1)$ (value from software)",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionRegression)")
+ParStat[17, ] <- c("Test:",
+                  "$b_0$",
+                  "$\\beta_0$",
+                  "$\\text{s.e.}(b_0)$ (value from software)",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionRegression)")
+ParStat[18, ] <- c("CI:",
+                  "$b_0$",
+                  "$\\beta_0$",
+                  "$\\text{s.e.}(b_0)$ (value from software)",
+                  ifelse( knitr::is_latex_output(), "\\ding{52}", "&#10004;"),
+                  "(ref:SamplingDistributionRegression)")
+
+if( knitr::is_latex_output() ) {
+  kable( ParStat[ c(1, 2, 3, 5, 7, 9, 10, 11, 13, 15, 17), 
+                  c(2, 3, 5, 4, 6)],
+         format = "latex",
+         booktabs = TRUE,
+         escape = FALSE,
+         align = c("c", "c", "c", "c", "l"),
+         col.names = c("Statistic",
+                       "sampling mean",
+                       "distn?",
+                       "error",
+                       "Ref."),
+         linesep = "\\addlinespace",
+         caption = "Sample statistics used to estimate population parameters. Some statistics have appproximately normally-distributed sampling distributions under appropriate (statistical validity) conditions, as indicated using a \\ding{52}."
+         ) %>%
+	  row_spec(0, bold = TRUE) %>%
+    #row_spec(0, angle = c(0, 0, 90, 90, 0, 0, 0, 0)) %>%
+   column_spec(column = 1, width = "21mm") %>% 
+   #column_spec(column = 2, width = "14mm") %>%
+   #column_spec(column = 3, width = "15mm") %>%
+   #column_spec(column = 4, width = "39mm") %>%
+   column_spec(column = 5, width = "33mm") %>%
+#   column_spec(column = 6, width = "24mm") %>%
+    add_header_above( c(" " = 2, 
+                        "Parameter, and" = 1,
+                        "Normal" = 1,
+                        "Standard" = 1,
+                        " " = 1),
+                      bold = TRUE,
+                      line = FALSE) %>%
+    add_header_above( c(" " = 2,
+                        "Sampling distribution" = 3,
+                        " " = 1),
+                      bold = TRUE,
+                      line = TRUE) %>%
+    kable_styling(font_size = 8) %>% 
+    collapse_rows(target = 1,  # Collapse based on what we see in Col 1 (i.e., by analysis)
+                  columns = c(1, 2, 3, 4, 5, 6) )
+}
+if( knitr::is_html_output() ) {
+  kable( ParStat[ c(1, 2, 3, 5, 7, 9, 10, 11, 13, 15, 17), 
+                  c(2, 3, 5, 4, 6)],
+         format = "html",
+         col.names = c("Statistic",
+                       "sampling mean",
+                       "distn?",
+                       "error",
+                       "Ref."),
+         booktabs = TRUE,
+         escape = FALSE,
+         align = c("l", "c", "c", "c", "c") ) %>%
+         #caption = "Sample statistics used to estimate population parameters. Empty table cells means that these are not studied in this book. For statistics with standard errors given, the sampling distribution is approximately normally distributed under certain (statistical validity) conditions.") %>%
+    row_spec(0, bold = TRUE) %>%
+     add_header_above( c(" " = 2, 
+                        "Parameter, and" = 1,
+                        "Normal" = 1,
+                        "Standard" = 1,
+                        " " = 1),
+                      bold = TRUE,
+                      line = FALSE) %>%
+    add_header_above( c(" " = 2,
+                        "Sampling distribution" = 3,
+                        " " = 1),
+                      bold = TRUE,
+                      line = TRUE) %>% 
+    collapse_rows(latex_hline = "custom",
+                  columns = 1:3,
+                  target = 2,
+                  custom_latex_hline = 6)
+#                  custom_latex_hline = 6)
+}
+```
+
+
+
+
+## Confidence intervals {#FormulasCI}
+
+For statistics whose sampling distribution has an approximate normal distribution, *confidence intervals (CIs)* have the form\index{Confidence intervals}
+$$ 
+    \text{statistic} \pm \big( \text{multiplier} \times \text{s.e.}(\text{statistic})\big).
+$$
+
+**Notes:**
+
+* The multiplier is *approximately*\ $2$ to create an *approximate* $95$%\ CI (based on the $68$--$95$--$99.7$ rule).
+* The quantity '$\text{multiplier} \times \text{s.e.}(\text{statistic})$' is called the *margin of error*.\index{Margin of error}
+* Software uses *exact* multipliers to form *exact* confidence intervals.
+* When the sampling distribution for the statistic does *not* have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and the CIs are taken directly from software output when available.
+
+
+
+
+
+
+
+## Hypothesis testing {#FormulasTest}
+
+For statistics whose sampling distribution has an approximate normal distribution, the *test statistic* has the form:\index{Hypothesis testing}
+$$
+  \text{test statistic} = \frac{\text{statistic} - \text{parameter}}{\text{s.e.}(\text{statistic})},
+$$
+where $\text{s.e.}(\text{statistic})$ is the standard error of the statistic.
+The test-statistic is a $t$-score for most hypothesis tests in this book when the sampling distribution is described by a normal distribution, but is a $z$-score for a hypothesis test involving one or two *proportions*.
+
+
+
+**Notes:**
+
+* If the test-statistic is a $z$-score,\index{Test statistic!z@$z$-score} the $P$-value can be found using tables
+`r if (knitr::is_latex_output()) {
+   '(Appendices\\ \\@ref(ZTablesNEG) and\\ \\@ref(ZTablesPOS))' 
+} else {
+   '(Appendix\\ \\@ref(ZTablesOnline))'
+}`,
+or *approximated* using the $68$--$95$--$99.7$ rule.
+* If the test-statistic is a $t$-score,\index{Test statistic!t@$t$-score} the $P$-value can be *approximated* using tables
+`r if (knitr::is_latex_output()) {
+   '(Appendices\\ \\@ref(ZTablesNEG) and\\ \\@ref(ZTablesPOS))' 
+} else {
+   '(Appendix\\ \\@ref(ZTablesOnline))'
+}`,
+or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are similar to $z$-scores; Sect.\ \@ref(TestStatistic)).
+* When the sampling distribution for the statistic does not have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and $P$-values are taken from software when available.
+* A hypothesis test about ORs uses a $\chi^2$ test statistic.
+  For $2\times 2$ tables only, the $\chi^2$-value is equivalent to a $z$-score with a value of $\sqrt{\chi^2}$.\index{Test statistic!$\chi^2$-score}
+
+
+
+\pagebreak
+
+
+## Sample size estimation {#FormulasSampleSize}
+
+The following formulas compute the *approximate* minimum (i.e., conservative) sample size needed to produce a $95$% CI with a specified margin of error\index{Sample size estimation} (i.e., the 'give-or-take' amount).
+
+* To estimate the sample size needed for *estimating a proportion* (Sect.\ \@ref(SampleSizeProportions)), use:
+$$
+   n = \frac{1}{(\text{Margin of error})^2}.
+$$
+* To estimate the sample size needed for *estimating a mean* (Sect.\ \@ref(SampleSizeOneMean)) use:
+$$
+   n = \left( \frac{2\times s}{\text{Margin of error}}\right)^2
+$$
+   for some estimate\ $s$ of the standard deviation of the data.
+* To estimate the sample size needed for *estimating a mean difference* (Sect.\ \@ref(SampleSizeMeanDifferences)) use:
+$$
+   n = \left( \frac{2 \times s_d}{\text{Margin of error}}\right)^2
+$$
+   for some estimate\ $s_d$ of the standard deviation of the differences.
+* To estimate the sample size needed for *estimating the difference between two means* (Sect.\ \@ref(SampleSizeDifferenceTwoMeans)) use:
+$$
+   n = 2\times \left( \frac{2 \times s}{\text{Margin of error}}\right)^2
+$$
+for *each* group being compared, where $s$ is an estimate of the common standard deviation in the population for both groups.
+This formula assumes:
+
+  * the sample size for each group will be the same; and
+  * the standard deviation in each group is the same.
+
+* To estimate the sample size needed for *estimating the difference between two proportions* (Sect.\ \@ref(SampleSizeDifferenceTwoProportions)) use:
+$$
+   n = \frac{2}{(\text{Margin of error})^2}
+$$
+for *each* group being compared.
+This formula assumes the sample size in each group will be the same.
+
+
+
+**Notes:**
+
+* In *sample size* calculations, *round up* the sample size found from the above formulas.
+
+
+
+\pagebreak
+
+## Other formulas {#FormulasOther}
+
+* To *calculate $z$-scores* (Sect.\ \@ref(zScores)), use\index{z@$z$-score} 
+$$
+   z = \frac{\text{value of variable} - \text{mean of the distribution of the variable}}{\text{standard deviation of the distribution of the variable}}.
+$$
+  $t$-scores are like $z$-scores.\index{Test statistic!t@$t$-score}
+  When the 'variable' is a sample estimate (such as $\bar{x}$), the 'standard deviation of the distribution' is a standard error (such as $\text{s.e.}(\bar{x})$).
+* The *unstandardising formula* (Sect.\ \@ref(Unstandardising)) is $x = \mu + (z\times \sigma)$.\index{Unstandardising formula}
+* The *interquartile range* (IQR) is $Q_3 - Q_1$, where $Q_1$ and $Q_3$ are the first and third quartiles respectively (or, equivalently, the $25$th and $75$th percentiles).\index{Interquartile range (IQR)}
+* The smallest expected value (for assessing statistical validity when forming CIs and conducting hypothesis tests with proportions or ORs) is
+$$
+  \frac{(\text{Smallest row total})\times(\text{Smallest column total})}{\text{Overall total}}.
+$$
+* The *regression equation* in the *sample* is $\hat{y} = b_0 + b_1 x$, where $b_0$ is the sample intercept and $b_1$ is the sample slope.
+
+
+
+
+## Other symbols and abbreviations used {#OtherSymbols}
+\index{Standard deviation!of a population}
+\index{Standard deviation!of a sample}
+\index{Sample size}
+
+(ref:RQs) Chap.\ \@ref(RQs)
+
+(ref:AboutHypotheses) Sect.\ \@ref(AboutHypotheses)
+
+(ref:TestStatObs) Sect.\ \@ref(TestStatObs)
+
+(ref:AboutCIs) Chap.\ \@ref(AboutCIs)
+
+(ref:StandardError) Def.\ \@ref(def:StandardError)
+
+(ref:Rsquared) Sect.\ \@ref(Rsquared)
+
+(ref:VariationStdDev) Sect.\ \@ref(VariationStdDev)
+
+(ref:CIpKnownp) Sect.\ \@ref(CIpKnownp)
+
+(ref:SampleSize) Def.\ \@ref(def:SampleSize)
+
+```{r OtherSymbols}
+SymbolsTab <- array( dim = c(13, 3))
+
+colnames(SymbolsTab) <- c("Symbol or abbreviation", 
+                          "Meaning", 
+                          "Reference")
+
+SymbolsTab[1, ] <- c("RQ", 
+                     "Research question", 
+                     "(ref:RQs)")
+SymbolsTab[2, ] <- c("$s$", 
+                     "Sample standard deviation", 
+                     "(ref:VariationStdDev)")
+SymbolsTab[3, ] <- c("$\\sigma$", 
+                     "Population standard deviation", 
+                     "(ref:VariationStdDev)")
+SymbolsTab[4, ] <- c("$s_d$", 
+                     "Sample standard deviation of differences", 
+                     "(ref:VariationStdDev)")
+SymbolsTab[5, ] <- c("$\\sigma_d$", 
+                     "Population standard deviation of differences", 
+                     "(ref:VariationStdDev)")
+SymbolsTab[6, ] <- c("$R^2$", 
+                     "R-squared", 
+                     "(ref:Rsquared)")
+SymbolsTab[7, ] <- c("$H_0$", 
+                     "Null hypothesis", 
+                     "(ref:AboutHypotheses)")
+SymbolsTab[8, ] <- c("$H_1$", 
+                     "Alternative hypothesis", 
+                     "(ref:AboutHypotheses)")
+SymbolsTab[9, ] <- c("CI", 
+                     "Confidence interval", 
+                     "(ref:AboutCIs) ")
+SymbolsTab[10, ] <- c("s.e.", 
+                     "Standard error" , 
+                     "(ref:StandardError)")
+SymbolsTab[11, ] <- c("$n$", 
+                     "Sample size", 
+                     "(ref:SampleSize)")
+SymbolsTab[12, ] <- c("$\\chi^2$", 
+                     "The chi-squared test statistic", 
+                     "(ref:TestStatObs) ")
+SymbolsTab[13, ] <- c("$\\pm$", 
+                     "Plus-or-minus (give-or-take)", 
+                     "(ref:CIpKnownp) ")
+
+
+if( knitr::is_latex_output() ) {
+  kable( SymbolsTab,
+         format = "latex",
+         booktabs = TRUE,
+         escape = FALSE,
+         align = c("c", "l", "c"),
+         linesep = c("\\addlinespace", "", "\\addlinespace", "",  "\\addlinespace", "\\addlinespace", "", "\\addlinespace", "", "")) %>%  # Else adds a space every 5 lines...
+        # caption = "Some symbols used") %>%
+	row_spec(0, bold = TRUE) %>%
+  column_spec(column = 1, width = "25mm") %>% 
+  kable_styling(font_size = 9)
+}
+if( knitr::is_html_output() ) {
+  kable( SymbolsTab,
+                format = "html",
+                booktabs = TRUE,
+                align = c("c", "l", "c")) %>%
+                #caption = "Some symbols used")
+  row_spec(0, bold = TRUE)
+}
+```
+
