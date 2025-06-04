@@ -1,394 +1,270 @@
-# Teaching Week 11: Tutorial  {#Lecture11}
+# Teaching Week 12: Tutorial  {#Lecture12}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 **Topics** covered in this tutorial:
-
-* CIs and tests for correlation coefficients.
-* Linear equations and regression.
-* CIs and tests for regression coefficients.
+  
+* How to read research.
+* How to write research.
 :::
-
 
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
-* [Chapter\ 33 (Correlation and regression)](https://bookdown.org/pkaldunn/SRM-Textbook/CorrelationRegression.html)
+* [Chapter\ 35 (Reporting and writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
+* [Chapter\ 36 (Reading and critiquing research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
 
 
-## Quick revision {#QuickRevision-Tutorial11}
-
-
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
-:::
-
-
-::: {.webex-check .webex-box}
-A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
-The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
-
-In autumn, the correlation coefficient was given as $r = 0.931$.
-
-1. In this study, what variable would be the $x$-variable? \tightlist  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("The number of seeds", 
-          answer = "The grams of mud",
-          "The season") )}`
-1. In this study, what variable would be the $y$-variable?  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "The number of seeds", 
-          "The grams of mud",
-          "The season") )}`
-1. What is the value of $R^2$?  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "86.7%", 
-          "93.1%",
-          "96.5%") )}`
-1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "380", 
-          "96422",
-          "-104") )}`
-1. In this regression equation, the slope means:
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("Each seed is associated with 137.4 extra grams of mud on average",
-          "Each seed is associated with 0.3459 extra grams of mud on average",
-	        "Each 1g of mud is associated with 137.4 extra seeds on average",
-          answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )}`
-:::
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
-1. The $y$-variable is the number of seeds.
-1. $R^2 = (0.931^2) = 0.86676$, or about $86.7$%.
-1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
-1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265036&sec_digit=1243418155&embeded_digit=1746246557' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-		      
-
-## Understanding correlations and regression {#UnderstandCorrelationsRegressions}
-
-On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationship is appropriate (there are *four*!):
-
-1. Draw or estimate the 'best' straight regression line (where appropriate).
-2. From the line in **Part\ 1.** above, estimate the **slope** for each line.
-3. From the line in **Part\ 1.** above, estimate the **intercept** for each line.
-4. Then write down an estimate of the regression line equation.
-
-
-```{r Guesses, echo=FALSE, fig.cap="Six different scatterplots.", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
-set.seed(107695)
-n <- 50
-
-par( mfrow = c(3, 2))
-
-x0 <- seq(6, 16, 
-          length = n)
-x1 <- x0 - min(x0)
-
-
-y1 <- 12 + 4 * x1 + rnorm(length(x1), 0, 3.8)
-plot(y1 ~ x1,
-   xlab = expression(italic(x)),
-   ylab = expression(italic(y)),
-   pch = 19,
-   col = plot.colour0,
-   ylim = c(0, 60),
-   main = "Plot 1",
-   las = 1 )
-grid()
-
-
-x2 <- seq(-5, 10,
-          length = n)
-y2 <- 50 - 3 * x1 + rnorm(length(x1), 0, 3)
-plot(y2 ~ x2,
-   xlab = expression(italic(x)),
-   ylab = expression(italic(y)),
-   pch = 19,
-   col = plot.colour0,
-   ylim = c(10, 60),
-   main = "Plot 2",
-   las = 1  )
-grid()
-
-
-
-x1 <- x0 - min(x0)
-y3 <- 32 + 0.01 * x1 + rnorm(length(x1), 0, 10)
-plot(y3 ~ x1,
-   xlab = expression(italic(x)),
-   ylab = expression(italic(y)),
-   pch = 19,
-   col = plot.colour0,
-   ylim = c(0, 60),
-   main = "Plot 3",
-   las = 1  )
-grid()
-
-
-
-
-x0 <- seq(0, 10, length = n)
-mu4 <- -1 + 0.35 * x0
-vr4 <- 0.65
-y4 <- exp( mu4 + rnorm(length(x0), 0, vr4) )
-plot(y4 ~ x0,
-   xlab = expression(italic(x)),
-   ylab = expression(italic(y)),
-   pch = 19,
-   col = plot.colour0,
-   ylim = c(0, 35),
-   main = "Plot 4",
-   las = 1  )
-grid()
-
-
-x0 <- seq(0, 1, length=n)
-y5 <- 10 + x0 - 50 * (x0 - max(x0))^3 + rnorm(length(x0), 0, 3)
-plot(y5 ~ x0,
-     xlab = expression(italic(x)),
-     ylab = expression(italic(y)),
-     pch = 19,
-     col = plot.colour0,
-     ylim = c(0, 70),
-     main = "Plot 5",
-     las = 1  )
-grid()
-
-
-x6 <- seq(5, 10, length = n)
-y6 <- 16 + 4 * x6 + rnorm(length(x6), 0, 6)
-plot(y6 ~ x6,
-     xlab = expression(italic(x)),
-     ylab = expression(italic(y)),
-     pch = 19,
-     col = plot.colour0,
-     axes = FALSE,
-     ylim = c(30, 70),
-     xlim = c(5, 10),
-     main = "Plot 6",
-     las = 1 )
-axis(side = 2, 
-     las = 1)
-axis(side = 1, 
-     at = seq(5, 10, by = 1))
-box()
-
-grid()
-```
-
-
-## Interpreting regressions {#InterpretRegressions}
+## Confidence intervals {#CIConcrete}
 
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
 `r if (knitr::is_latex_output()) '<!--'`
 ```{r, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/angga-pratama-8xZuFxi0On4-unsplash.jpg")
+include_graphics("Illustrations/andrew-buchanan-FJB1ZevpPfk-unsplash.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
 
-I was wondering about how the age of second-hand cars impact their price.
-On 25\ June, 2014, I searched
-`r if (knitr::is_latex_output()) {
-   'Gum Tree'
-} else {
-   '[Gum Tree](https://www.gumtree.com.au)'
-}`,
-for `Toyota Corolla` in the 'Cars, Vans \& Utes' category.
-The age and the price of each (second-hand) car was recorded from the first two pages of results that were returned.
 
-I then restricted the data to cars $15$ years old or younger
-(and removed one $13$-year-old Corolla advertised for sale for $390\,000, assuming this was an error).
-I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
+In a study of high strength--high ductile concrete, @data:Ranada2015:Concrete measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
+
+Under a strain rate of $10\secs^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of $12.4\MPAs$ with a **standard deviation** of $2.8\MPas$.
+
+One student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm 2.8\MPas$.
+Another student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from\ $6.8$ to\ $18.0\MPas$. 
+
+1. *Both* students are incorrect. 
+   Explain *why* the students are incorrect, and explain what they actually have calculated instead.
+2. Compute the correct (approximate) $95$%\ CI.
 
 
-```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).", fig.align="center", fig.width=6}
+## Critiquing past students' reports 1 {#CritiqueReports1}
 
-data(Corollas)
+The extracts below are from an actual student Project Report.
+Critique these extracts, and suggest better ways of communicating the information.
 
-CP <- Corollas
+From a study comparing the mean distance an iron golf club and a wooden golf club can hit the ball:
 
-CP <- rbind(CP, c(2008, 13000, 6) )  ### Add as it looks better
-
-CP <- subset( CP, Age < 16)
-CP <- subset( CP, Price < 20000)
-
-CP$PriceThous <- CP$Price/1000
-
-
-
-#Year Price Age
-plot( Price/1000 ~ Age, 
-      data = CP,
-      xlab = "Age (in years)",
-      ylab = "Price (in thousands of dollars)",
-      main = "Prices of second-hand Corollas\non gumtree.com.au in 2014",
-      pch = 19,
-      col = plot.colour0,
-      las = 1,
-      xlim = c(0, 16),
-      ylim = c(0, 20),
-      axes = FALSE
-)
-axis(side = 1, 
-     at = seq(0, 16, by = 2), 
-     las = 1 )
-axis(side = 2, 
-     at = seq(0, 20, by = 2), 
-     las = 1 )
-box()
-```
+* **Research question**:
+	    For casual golfers, will using a metal club rather than a wooden club result in the ball travelling a further distance?
+* **Summaries**:
+		  The paired means are different with the iron golf club being moderately higher than the wooden club
+* **Results (1)**:
+		  The $95$%\ CI for the difference in distance in metres (wooden verse iron) differs from $34.74$ -- $43.25$ further for shots with the Iron
+* **Results (2)**:
+	    Very strong evidence exists in the paired sample (paired $t = 18.406$; $n = 50$; two tailed; $P = 0.000$) of a population mean difference between the wooden and iron golf clubs...
 
 
-1. Describe the relationship displayed in the graph in words. \tightlist
-2. What else could influence the price of a second-hand Corollas? 
-3. `r if (knitr::is_latex_output()) {
-      'With a ruler or another straight edge (such as a book), draw an estimate of the regression line on the scatterplot.'
-   } else {
-      'From the scatterplot, draw (if you can) or estimate by eye an approximation of the regression line.'
-   }`
-4. On the scatterplot, locate a seven-year-old Corolla selling for $15\,000.
-   Would this be cheap or expensive?
-5. As stated, I removed one observation: a $13$-year-old Corolla for sale at $390\,000.
-   What do you think the price was meant to be listed as, by looking at the scatterplot?
-	 Explain.
-6. *Estimate* the value of\ $b_0$ (the intercept) from the line you drew.
-   What does this mean?
-   Do you think this value is meaningful?
-7. *Estimate* the value of\ $b_1$ (the slope) from the line you drew.
-   What does this mean?
-   Do you think this value is meaningful?
-8. From the line you drew above, write down an *estimate* of the regression equation.
-9. Use the software output (Fig.\ \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi)) relating the price (in thousands of dollars) to age to write down the regression equation.
-10. Using the software output, write down the value of\ $r$.
-    Using this value of\ $r$, compute the value of\ $R^2$.
-    What does this mean?
-11. Use the regression equation from the software output to estimate the sale price of a Corolla that is $20$\ years old, and explain your answer. \tightlist
-12. Using the software output, perform a suitable hypothesis test to determine if there is evidence that lower prices are associated with older Corollas.
-13. Compute an approximate $95$% confidence interval for the population slope (use the software output in **Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi)**).
-14. I could have drawn a scatterplot with Price on the vertical (up-and-down) axis and Year of manufacture on the horizontal (left-to-right) axis (**Fig. \@ref(fig:CorollasPriceYear)**).
-    For this  graph:
+## Critiquing past students' reports 2 {#CritiqueReports2}
 
-    a. What is the value of the correlation coefficient?
-    b. How would the value of\ $R^2$ change?
-    c. How would the value of the slope change?
-    d. How would the value of the intercept change?
+The extracts below are from an actual student Project Report.
+Critique these extracts, and suggest better ways of communicating the information.
 
+From a study comparing resting heart rates between male and female SCI110 students:
 
-```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data.", fig.align="center", out.width="57%"}
-knitr::include_graphics("SoftwareImages/Corollas-Correlation-jamovi.png")
-```
-```{r CorollasPriceAgeRegressionjamovi, echo=FALSE, fig.cap="The jamovi regression output, analysing the Corolla data.", fig.align="center", out.width="60%"}
-knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
-```
+* **Null hypothesis**:
+      Among current UniSC students studying SCI110, male and female resting heart rates are the same.
+* **Results**:
+			The sample presents evidence ($\chi^2 = 30.0$; two tailed $P = 0.517$) that the mean resting heart rate does not have a significant difference between males and females (males mean: $72.6$\ bpm; females mean: $77.2$\ bpm).
 
 
 
-```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$).", fig.align="center", fig.width=6}
-data(Corollas)
+## Tests for ORs {#ORAirways}
 
-CP <- Corollas
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This question has a video solution in the online book, so you can hear and see the solution.
+:::
 
+	
+A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices used for nontraumatic, out-of-hospital cardiac arrest patients, to evaluate the success and failure of insertion for various devices.
 
-CP <- rbind(CP, c(2008, 13000, 6) )  ### Add as it looks better
+The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
 
-CP <- subset( CP, Age < 16)
-CP <- subset( CP, Price < 20000)
+```{r AirwayTab, echo=FALSE}
+AirwayTab <- array( dim =  c(2, 2))
 
-CP$PriceThous <- CP$Price/1000
+colnames(AirwayTab) <- c("Succeed", "Fail" )
+rownames(AirwayTab) <- c("Esophageal gastric tube airway (EGTA)",
+                         "Laryngeal mask (LM)")
 
+AirwayTab[1, ] <- c(545,   49)
+AirwayTab[2, ] <- c(2701, 315)
 
-
-#### PRICE vs YEAR
-
-plot( PriceThous ~ Year, 
-      data = CP,
-      xlab = "Year of manufacture",
-      ylab = "Price (in thousands of dollars)",
-      main = "Prices of second-hand Corollas\non gumtree.com.au in 2014",
-      pch = 19,
-      col = plot.colour0,
-      las = 1,
-      xlim = c(2001, 2012),
-      ylim = c(0, 20),
-      axes = FALSE
-)
-axis(side = 1, 
-     at = seq(2001, 2012, by = 1), 
-     las = 1 )
-axis(side = 2, 
-     at = seq(0, 20, by = 2), 
-     las = 1 )
-box()
+if( knitr::is_latex_output() ) {
+  kable(AirwayTab,
+      format = "latex",
+      booktabs = TRUE,
+      caption = "Data from the airways study.") %>%
+  row_spec(0, bold = TRUE) %>%
+  column_spec(1, bold = TRUE) %>%
+    kable_styling(font_size = 10)
+}
+if( knitr::is_html_output() ) {
+  kable(AirwayTab,
+      format = "html",
+      booktabs = TRUE,
+      caption = "Data from the airways study.") %>%
+  row_spec(0, bold = TRUE) %>%
+  column_spec(1, bold = TRUE)
+}
 
 ```
 
+1. Define\ $p$ as the population proportion of successful attempts at insertion. \tightlist
+   Write the hypotheses to be tested.
+2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs)) to test the hypotheses.
+   Write a proper conclusion to communicate the results.
+3. Are the results likely to be statistically valid? Explain.
+4. The study was designed to enable medics to choose the best airway device.  
 
-## Regression and correlation {#RegressionCorrelation}
-
-Draw the regression line corresponding to $\hat{y} = 5 + 2x$ for values of $x$ between\ $0$ and\ $10$.
-
-1. Add some points to the scatterplot such that the correlation is approximately $r = 0.9$.
-2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.3$.
+   Would you recommend EGTA or LM?
+   Why?
+   Would you like any more information before making your choice?
+   Explain.
 
 
-## **Optional questions** {#OptionalTW11}
+
+```{r Tanagawa1998jamoviCrossTabs, echo=FALSE, fig.cap="The jamovi output for the table from Tanagawa and Shigematsu (1998).", fig.align="center", out.width="55%"}
+include_graphics("SoftwareImages/Tanagawa1998jamoviCrossTabs.png")
+```
+
+
+## Critiquing past students' reports 3 {#CritiqueReports3}
+
+The extracts below are from an actual student Project Report.
+Critique these extracts, and suggest better ways of communicating the information.
+
+From a study comparing the size of lilly pilly leaves on different sides of the tree:
+
+* **Research question**:
+		  Among Weeping Lily Pily trees located at the University of the Sunshine Coast, do leaves that grow on the sunrise (east) side become longer than those growing on the sunset (west) side of the tree?
+* **Null hypothesis**:
+		  The leaves on the east and west sides of Weeping Lily Pily trees are same, therefore no relationship exists between the sunset (east) and sunrise (west) side of the tree and leaf length.
+* **Results**: The table of results in Fig.\ \@ref(fig:BreeTable).
+* **Methods**:
+			   Chose the $5$\ trees at the university that receive both easterly and westerly sunlight conditions
+			   The $4$th leaf on the branch will be chosen $5$\ times on each side of the tree
+
+
+```{r BreeTable, echo=FALSE, fig.cap="A table from a student project.", fig.align="center", out.width="70%"}
+knitr::include_graphics("ProjectImages/BreeTable.png")
+```
+
+
+
+## Critiquing past students' reports 4 {#CritiqueReports4}
+
+The extracts below (including typos) are from an actual student Project Report.
+Critique these extracts, and suggest better ways of communicating the information.
+
+From a study comparing how well sports-playing students can estimate distance compared to non-sports-playing students:
+
+* **Research question**:
+		    Among UniSC Sippy Downs students, are individuals who regularly play sports have closer estimations to the actual measurement when identifying the width of a regular path compared to individuals who don't play sports regularly?
+* **Null hypothesis**:
+		    The Null Hypophysis for our research question is that students who play sports regularly at the UniSC Sippy down campus have an increased level of perception when it comes to estimating distances.
+* **Results**:
+		   This sample presents strong evidence in support of the Null Hypothesis that sport status has an affect on distance estimation (regular played sport: mean $176.36$ and non regular played sport: mean $172.34$).
+
+* **Discussion**:
+		    From our original research question we have concluded that it supports the Null Hypothesis as it has a large $P$-value ($0.36$: one-tailed). Therefore we have proven that playing sports regularly has an effect on the accuracy of distance estimation.
+
+
+## **Optional questions** {#OptionalTW12}
 
 
 ::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
 These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture11Answers).)
+(Answers appear in Sect.\ \@ref(Lecture12Answers).)
 :::
 
 
-### **(Optional)**  Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/11-IdentifyAnalysis2.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1290972483879075319/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-### **(Optional)**  Reading scatterplots {#ReadScatterplotHeathers}
+### **(Optional)**  Deciding which test to use {#WhatTestToUse}
 
 ::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
 This question has a video solution in the online book, so you can hear and see the solution.
 :::
 
 
-Researchers in New Zealand were interested in:
+@data:Singh:lowerlimb examined the mortality rates within five years of lower-limb amputation, and factors that may be associated with mortality.
+A summary of the data are shown in Fig. \@ref(fig:LowerLimbMortality).
 
-> ...the behaviour of heather (*Calluna vulgaris*) in Tongariro National Park...:  the potential for herbicidal control; likely changes in secondary vegetation if biological control is effective; some aspects of its demography; and, finally, whether heather acts to facilitate or impede rates of native shrub invasion of red tussock grassland.
->
-> --- @data:Rogers1996:Heather
+Which tests would have been $t$-tests? 
+Which tests would have been chi-square tests?
+What do the $P$-values tell you?
 
-The graph in Fig.\ \@ref(fig:Stems) comes from this study examining heather in the central North Island of New Zealand.
-
-```{r Stems, echo=FALSE, fig.cap="Figure 2 (top panel) from Rogers (1996).", fig.align="center", out.width="45%"}
-include_graphics("ArticleImages/Kelly2005-Regression.png")
+```{r LowerLimbMortality, echo=FALSE, fig.cap="Summary data from a study of 5-year mortality rates among lower-limb amputees.", fig.align="center", out.width="100%"}
+include_graphics("ArticleImages/Singh2016-Table1.png")
 ```
 
-1. Identify a possible research question being answered by the graph.
-2. Critique the graph.
-3. Compute the value of\ $r$, and interpret.
-4. What are the values of\ $b_0$ and\ $b_1$.
-5. For a stem age of $20$\ years, what does the regression model predict as the mean stem diameter?
-6. Interpret the meaning of the slope and intercept in the regression equation.
-   Comment on these interpretations.
 
+
+### **(Optional)**  Reading research articles {#ReadDesks}
+
+Mastering handwriting is an important skill for children to learn, but children with cerebral palsy have a higher prevalence of handwriting problems.
+
+@data:Ryan:CerebralPalsy examined the effect of handwriting legibility of children with cerebral palsy using two different types of configuration of the school desks ('standard' or 'speciality').
+
+Each of the $30$\ students (aged\ $6$ to\ $8$ years old) used both desks.
+Legibility (and other aspects of handwriting) was assessed using the quantitative Minnesota Handwriting Assessment (MHA) scale.
+
+Part of Table\ 1 in the paper is shown in Fig.\ \@ref(fig:Ryan2010Table1).
+
+
+```{r Ryan2010Table1, echo=FALSE, fig.cap="Part of Table 1 in Ryan et al., 2010.", fig.align="center", out.width="80%"}
+include_graphics("ArticleImages/Ryan2010-Table1.png")
+```
+
+1. Read the extract in Fig.\ \@ref(fig:Ryan2010Aims). \tightlist
+   Determine P, O, C and I (where possible) for this study.
+2. Identify the type of study being used. Is this a paired design or not?  
+   Explain.
+3. Identify the type of statistical technique that was probably used to compute the test information in Fig.\ \@ref(fig:Ryan2010Table1).
+   
+
+
+```{r Ryan2010Aims, echo=FALSE, fig.cap="Part of the Abstract in Ryan et al., 2010.", fig.align="center", out.width="70%"}
+include_graphics("ArticleImages/Ryan2010-Aims.png")
+```
+
+4. Identify the units of observation and units of analysis.\tightlist
+5. Does the study use blinding?
+   If so, for what reason?
+   If not, why not?  
+
+   What is the implication? 
+   What about double blinding?
+6. Determine the sample mean and sample standard deviation for the scores when children use the standard furniture configuration.
+7. Compute an approximate $95$% CI for the population mean legibility score when children use the standard furniture configuration.
+8. Write down a statement communicating the results of the test comparing the two furniture configurations.
+9. Based on this study, do you think the speciality desk improves handwriting legibility?
+
+
+### **(Optional)**  Reading research articles {#ReadErrors}
+
+As with all endeavours involving humans, medical procedures can be subject to human error.
+One study set out to
+
+> ...characterise the incidence and nature of medication errors during paediatric resuscitations
+> 
+> --- @data:Kozer2004:MedicationErrors, p. 1
+
+The Abstract from this paper is shown in Fig.\ \@ref(fig:Kozer2004Figure1).
+Read this Abstract, then answer the questions that follow.
+
+
+```{r Kozer2004Figure1, echo=FALSE, fig.cap="The Abstract from Kozer et al. (2004).", fig.align="center", out.width="60%"}
+include_graphics("ArticleImages/Kozer2004Figure1.png")
+```
+
+
+1. Identify the possible RQ being answered, identifying (where possible) P, O, C and\ I.
+2. Identify the type of question is being asked: descriptive, relational, repeated-measures or correlational.
+3. Explain whether the study is observational or experimental (true or quasi).
+4. List the possible limitations can you identify with this study. 
+   Then identify the limitations identified by the authors, by reading the extract in Fig.\ \@ref(fig:Kozer2004Limitations).
+
+
+```{r Kozer2004Limitations, echo=FALSE, fig.cap="The limitations listed in Kozer et al. (2004).", fig.align="center", out.width="65%"}
+include_graphics("ArticleImages/Kozer2004Limitations.png")
+```
