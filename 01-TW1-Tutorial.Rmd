@@ -250,7 +250,7 @@ Consider the following scenario:
 >  &nbsp;
 
 
-Nim considers studying Jane's assertion as a **practical** SCI110 project.
+Nim considers studying Jane's assertion as a **feasible** and **practical** SCI110 project.
 
 1. Nim needs to determine a *population* to study.
    Which of these would be a useful and practical population to use?
