@@ -71,7 +71,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 <iframe src="https://usc.h5p.com/content/1291090890943888619/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/Lect5-Q4.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcess.Rmd'}
 ```
 
 
