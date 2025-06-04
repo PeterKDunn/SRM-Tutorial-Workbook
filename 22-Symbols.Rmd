@@ -324,7 +324,7 @@ or *approximated* using the $68$--$95$--$99.7$ rule.
 } else {
    '(Appendix\\ \\@ref(ZTablesOnline))'
 }`,
-or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are similar to $z$-scores; Sect.\ \@ref(TestStatistic)).
+or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are similar to $z$-scores; Sect.\ 28.4.
 * When the sampling distribution for the statistic does not have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and $P$-values are taken from software when available.
 * A hypothesis test about ORs uses a $\chi^2$ test statistic.
   For $2\times 2$ tables only, the $\chi^2$-value is equivalent to a $z$-score with a value of $\sqrt{\chi^2}$.\index{Test statistic!$\chi^2$-score}
@@ -338,21 +338,21 @@ or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are simila
 
 The following formulas compute the *approximate* minimum (i.e., conservative) sample size needed to produce a $95$% CI with a specified margin of error\index{Sample size estimation} (i.e., the 'give-or-take' amount).
 
-* To estimate the sample size needed for *estimating a proportion* (Sect.\ \@ref(SampleSizeProportions)), use:
+* To estimate the sample size needed for *estimating a proportion* (Sect.\ 32.3), use:  
 $$
    n = \frac{1}{(\text{Margin of error})^2}.
 $$
-* To estimate the sample size needed for *estimating a mean* (Sect.\ \@ref(SampleSizeOneMean)) use:
+* To estimate the sample size needed for *estimating a mean* (Sect.\ 32.4) use:  
 $$
    n = \left( \frac{2\times s}{\text{Margin of error}}\right)^2
 $$
    for some estimate\ $s$ of the standard deviation of the data.
-* To estimate the sample size needed for *estimating a mean difference* (Sect.\ \@ref(SampleSizeMeanDifferences)) use:
+* To estimate the sample size needed for *estimating a mean difference* (Sect.\ 32.5) use:  
 $$
    n = \left( \frac{2 \times s_d}{\text{Margin of error}}\right)^2
 $$
    for some estimate\ $s_d$ of the standard deviation of the differences.
-* To estimate the sample size needed for *estimating the difference between two means* (Sect.\ \@ref(SampleSizeDifferenceTwoMeans)) use:
+* To estimate the sample size needed for *estimating the difference between two means* (Sect.\ 32.6) use:  
 $$
    n = 2\times \left( \frac{2 \times s}{\text{Margin of error}}\right)^2
 $$
@@ -362,7 +362,7 @@ This formula assumes:
   * the sample size for each group will be the same; and
   * the standard deviation in each group is the same.
 
-* To estimate the sample size needed for *estimating the difference between two proportions* (Sect.\ \@ref(SampleSizeDifferenceTwoProportions)) use:
+* To estimate the sample size needed for *estimating the difference between two proportions* (Sect.\ 32.7) use:  
 $$
    n = \frac{2}{(\text{Margin of error})^2}
 $$
@@ -381,13 +381,13 @@ This formula assumes the sample size in each group will be the same.
 
 ## Other formulas {#FormulasOther}
 
-* To *calculate $z$-scores* (Sect.\ \@ref(zScores)), use\index{z@$z$-score} 
+* To *calculate $z$-scores* (Sect.\ 20.4), use\index{z@$z$-score} 
 $$
    z = \frac{\text{value of variable} - \text{mean of the distribution of the variable}}{\text{standard deviation of the distribution of the variable}}.
 $$
   $t$-scores are like $z$-scores.\index{Test statistic!t@$t$-score}
   When the 'variable' is a sample estimate (such as $\bar{x}$), the 'standard deviation of the distribution' is a standard error (such as $\text{s.e.}(\bar{x})$).
-* The *unstandardising formula* (Sect.\ \@ref(Unstandardising)) is $x = \mu + (z\times \sigma)$.\index{Unstandardising formula}
+* The *unstandardising formula* (Sect.\ 20.8) is $x = \mu + (z\times \sigma)$.\index{Unstandardising formula}
 * The *interquartile range* (IQR) is $Q_3 - Q_1$, where $Q_1$ and $Q_3$ are the first and third quartiles respectively (or, equivalently, the $25$th and $75$th percentiles).\index{Interquartile range (IQR)}
 * The smallest expected value (for assessing statistical validity when forming CIs and conducting hypothesis tests with proportions or ORs) is
 $$
@@ -403,25 +403,25 @@ $$
 \index{Standard deviation!of a sample}
 \index{Sample size}
 
-(ref:RQs) Chap.\ \@ref(RQs)
+(ref:RQs) Chap.\ 2
 
-(ref:AboutHypotheses) Sect.\ \@ref(AboutHypotheses)
+(ref:AboutHypotheses) Sect.\ 28.2
 
-(ref:TestStatObs) Sect.\ \@ref(TestStatObs)
+(ref:TestStatObs) Sect.\ 31.6.3
 
-(ref:AboutCIs) Chap.\ \@ref(AboutCIs)
+(ref:AboutCIs) Chap.\ 24
 
-(ref:StandardError) Def.\ \@ref(def:StandardError)
+(ref:StandardError) Def.\ 19.4
 
-(ref:Rsquared) Sect.\ \@ref(Rsquared)
+(ref:Rsquared) Sect.\ 16.4.2
 
-(ref:VariationStdDev) Sect.\ \@ref(VariationStdDev)
+(ref:VariationStdDev) Sect.\ 11.7.2
 
-(ref:CIpKnownp) Sect.\ \@ref(CIpKnownp)
+(ref:CIpKnownp) Sect.\ 22.3
 
-(ref:SampleSize) Def.\ \@ref(def:SampleSize)
+(ref:SampleSize) Def.\ 2.21
 
-```{r OtherSymbols}
+```{r OtherSymbols, echo=FALSE}
 SymbolsTab <- array( dim = c(13, 3))
 
 colnames(SymbolsTab) <- c("Symbol or abbreviation", 
