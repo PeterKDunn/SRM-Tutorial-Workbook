@@ -27,6 +27,17 @@ monofontoptions: "Scale=0.7"
 # Preface {-}
 
 
+```{r echo=FALSE}
+# Chunk options: Options must all be on one line
+knitr::opts_chunk$set(
+  cache = TRUE,
+  echo = FALSE,
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+
 
 <!-- Best way I have found to get correct spacing for units in LaTeX, without screwing up HTML -->
 \newcommand{\cms}{\,\text{cm}}
