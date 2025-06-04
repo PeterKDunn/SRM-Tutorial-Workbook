@@ -12,14 +12,12 @@ csl: journal-of-applied-animal-science.csl
 link-citations: yes  
 documentclass: krantz
 classoption: krantz2
-links-as-notes: true
 site: bookdown::bookdown_site
+links-to-footnotes: false
 colorlinks: yes
 #lot: no
 #lof: no
 fontsize: 11pt
-monofont: "Source Code Pro"
-monofontoptions: "Scale=0.7"
 ---
 
 
@@ -135,43 +133,37 @@ Many of the data sets used in this book are available in the **R** package `SRMD
 
 The call-outs used in this book have meanings:
 
-
-
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 These call-outs introduce the objectives for the sections of the book.
 :::
 
-
-
-
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-These call-outs offer helpful information.
-:::
-
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This icon flags questions that have *video solutions* in the online book: a narrator works through the question, explaining the solution.
-:::
-
-
-:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
-:::
-
-
-:::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These call-outs highlight **optional** questions, that you might like to do in personal study.
-:::
-
-
-::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These call-outs highlight drill questions, for practicing some of the mathematical computations.
+:::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
+These call-outs indicate the relevant chapter of the textbook to read.
 :::
 
 :::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
 These call-outs highlight questions to be completed **before your tutorial**.
 :::
 
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+These call-outs offer helpful information.
+:::
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This icon flags questions that have *video solutions* in the online book: a narrator works through the question, explaining the solution.
+:::
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+:::
+
+:::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These call-outs highlight **optional** questions, that you might like to do in personal study.
+:::
+
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These call-outs highlight drill questions, for practicing some of the mathematical computations.
+:::
 
 
 ## How this book was made {-}
@@ -246,6 +238,8 @@ In this book, you will learn to:
 
 ## How to cite this book {-}
 
-Peter K. Dunn (2025). *Scientific Research Methods: Tutorials*.
+Peter K. Dunn (2025).
+*Scientific Research and Methodology: An introduction to quantitative research and statistics in science, engineering and health*.
+Chapman & Hall.
 https://bookdown.org/pkaldunn/SRM-tutorials/index.html
 

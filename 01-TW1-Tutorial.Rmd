@@ -11,13 +11,14 @@
 :::
 
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 1 (Research: an introduction)](https://bookdown.org/pkaldunn/SRM-Textbook/Intro.html).
 * [Chapter 2 (Research questions)](https://bookdown.org/pkaldunn/SRM-Textbook/RQs.html).
 * [Chapter 3 (Overview of research design)](https://bookdown.org/pkaldunn/SRM-Textbook/FactorsInfluenceY.html).
 * [Chapter 4 (Types of research studies)](https://bookdown.org/pkaldunn/SRM-Textbook/ResearchDesign.html).
-
+:::
 
 
 
