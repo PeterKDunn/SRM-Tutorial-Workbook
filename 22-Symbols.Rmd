@@ -22,31 +22,32 @@
   - assumed to be the value given in the null hypothesis, for *hypothesis tests*.
 
 
-(ref:SamplingDistributionPropCI) Ch.\ \@ref(CIOneProportion)
+<!-- Hard-coded to textbook references -->
+(ref:SamplingDistributionPropCI) Ch.\ 22
 
-(ref:SamplingDistributionPropHT) Ch.\ \@ref(TestOneProportion)
+(ref:SamplingDistributionPropHT) Ch.\ 26
 
-(ref:SamplingDistributionXbarCI) Chs.\ \@ref(OneMeanConfInterval), \@ref(TestOneMean)
+(ref:SamplingDistributionXbarCI) Chs.\ 23, 27
 
-(ref:SamplingDistributionXbarHT) Ch.\ \@ref(TestOneMean)
+(ref:SamplingDistributionXbarHT) Chs.\ 23, 27
 
-(ref:SamplingDistributionDbarCI) Ch.\ \@ref(AnalysisPaired)
+(ref:SamplingDistributionDbarCI) Ch.\ 29
 
-(ref:SamplingDistributionDbarHT) Ch.\ \@ref(AnalysisPaired)
+(ref:SamplingDistributionDbarHT) Ch.\ 29
 
-(ref:SamplingDistributionTwoMeansCI) Ch.\ \@ref(AnalysisTwoMeans)
+(ref:SamplingDistributionTwoMeansCI) Ch.\ 30
 
-(ref:SamplingDistributionTwoMeansHT) Ch.\ \@ref(AnalysisTwoMeans)
+(ref:SamplingDistributionTwoMeansHT) Ch.\ 30
 
-(ref:SamplingDistributionTwoProps) Ch.\ \@ref(AnalysisOddsRatio)
+(ref:SamplingDistributionTwoProps) Ch.\ 31
 
-(ref:SamplingDistributionORCI) Ch.\ \@ref(AnalysisOddsRatio)
+(ref:SamplingDistributionORCI) Ch.\ 31
 
-(ref:SamplingDistributionORHT) Ch.\ \@ref(AnalysisOddsRatio)
+(ref:SamplingDistributionORHT) Ch.\ 31
 
-(ref:SamplingDistributionCorrelationHT) Ch.\ \@ref(CorrelationRegression)
+(ref:SamplingDistributionCorrelationHT) Ch.\ 33
 
-(ref:SamplingDistributionRegression) Ch.\ \@ref(CorrelationRegression)
+(ref:SamplingDistributionRegression) Ch.\ 33
 
 
 ```{r ParametersStatistics2, echo=FALSE}
