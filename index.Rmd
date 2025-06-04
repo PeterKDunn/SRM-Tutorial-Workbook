@@ -60,6 +60,7 @@ knitr::opts_chunk$set(
 \newcommand{\xLs}{\text{L}} 
 <!-- No space beforehand so useful in place like \\microgs.\\xLs^{-1} -->
 \newcommand{\mgs}{\,\text{mg}}
+\newcommand{\mls}{\,\text{mL}}
 \newcommand{\microgs}{\,\ensuremath{\mu}\text{g}}
 \newcommand{\millis}{\,\text{ms}}
 \newcommand{\mins}{\,\text{mins}}
@@ -121,7 +122,7 @@ However, some parts explicitly mention and refer to
    '[jamovi](https://www.jamovi.org/)'
 }`
 [@Software:jamovi]. 
-jamovi is *free*.
+jamovi is *free* to download and use.
 
 
 ## Data sets {-}
