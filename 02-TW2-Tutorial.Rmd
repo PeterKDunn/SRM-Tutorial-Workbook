@@ -90,7 +90,7 @@ Consider this RQ: 'What factors are preventing the adoption of household solar t
 
 A student group was studying this RQ (which is **not** appropriate for the SCI110 Project): 'Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?'
 
-Explain why, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
+Explain *why*, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
 \greyboxlines{2}
 
 The students gave the following information about their study.

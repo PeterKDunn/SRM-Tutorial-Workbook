@@ -370,7 +370,7 @@ This formula assumes the sample size in each group will be the same.
 
 ## Other formulas {#FormulasOther}
 
-* To *calculate $z$-scores* (Sect.\ 20.4), use
+* To *calculate $z$-scores* (Sect.\ 20.4), use  
 $$
    z = \frac{\text{value of variable} - \text{mean of the distribution of the variable}}{\text{standard deviation of the distribution of the variable}}.
 $$
@@ -378,7 +378,7 @@ $$
   When the 'variable' is a sample estimate (such as $\bar{x}$), the 'standard deviation of the distribution' is a standard error (such as $\text{s.e.}(\bar{x})$).
 * The *unstandardising formula* (Sect.\ 20.8) is $x = \mu + (z\times \sigma)$.
 * The *interquartile range* (IQR) is $Q_3 - Q_1$, where $Q_1$ and $Q_3$ are the first and third quartiles respectively (or, equivalently, the $25$th and $75$th percentiles).
-* The smallest expected value (for assessing statistical validity when forming CIs and conducting hypothesis tests with proportions or ORs) is
+* The smallest expected value (for assessing statistical validity when forming CIs and conducting hypothesis tests with proportions or ORs) is  
 $$
   \frac{(\text{Smallest row total})\times(\text{Smallest column total})}{\text{Overall total}}.
 $$

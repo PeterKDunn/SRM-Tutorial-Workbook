@@ -228,7 +228,7 @@ Answers implied by H5P.
 3. Better with a title; some more labelled tick marks would be better.
 
 
-### Answers for Sect.\ \@ref(Chapter4Drills) {.unlisted .unnumbered}
+### Answers for Sect.\ \@ref(Chapter3Drills) {.unlisted .unnumbered}
 
 <!--
 ### Number 1
@@ -264,7 +264,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
    Median: $167.9\ms$.
    IQR: $175.0 - 162.5 = 12.5\ms$ (software may give a different value).
 2. Descriptive.
-   $\bar{x} = 102.62 MPas$; $s = 5.356\MPas$.
+   $\bar{x} = 102.62\MPas$; $s = 5.356\MPas$.
    The median is $101.1\MPas$.
 3. Mean: $13.88778$, or $13.888$%.
    Standard deviation: $2.617402$, or $2.617$%.
@@ -298,6 +298,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 ### Answers for Sect.\ \@ref(PercentOddsStroke) {.unlisted .unnumbered}
 
+1. Because the sex of the person is the explanatory variable.
 1. (No answer.)
 1. $43\div (43 + 67) \times 100 = 39.1$%. 
 1. $39\div (97 + 39) \times 100 = 28.7$%.
@@ -309,6 +310,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 ### Answers for Sect.\ \@ref(TwoWayTables) {.unlisted .unnumbered}
 
+1. Because 'Number of concussions' is the response variable.
 1. Type of student:nominal (with three levels).
    Number of concussions: *ordinal* (with three levels).
 2. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion.
@@ -714,7 +716,7 @@ Then,
 \]
 This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
 
-> The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).
+'The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).'
 
 For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
 For *external validity*, the sample must be a random sample of Swedish programmers. 
@@ -766,53 +768,55 @@ Answers implied by H5P.
 
 *Null* hypotheses:
 
-* Is the mean length of a $12$-inch sub really $12$ inches?
-  $\mu = 12$.
-* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
-  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$.
-* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
-  $p_{\text{white}} = p_{\text{wholemeal}}$.
-* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
-  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$.
+1. Is the mean length of a $12$-inch sub really $12$ inches?
+   **F**: $\mu = 12$.
+2. Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+   **B**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} = 0$.
+3. Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
+   **A**: $p_{\text{white}} - p_{\text{wholemeal}} = 0$.
+4. Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
+   **B**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} = 0$.
 
 *Alternative* hypotheses:
 
-* Is the mean length of a $12$-inch sub really $12$ inches? 
-  $\mu \ne 12$.
-* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
-  $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$.
-* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
-  $p_{\text{white}} \ne p_{\text{wholemeal}}$.
-* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
-  $\mu_{\text{white}} > \mu_{\text{wholemeal}}$.
+1. Is the mean length of a $12$-inch sub really $12$ inches? 
+   **I**: $\mu \ne 12$.
+2. Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+   **G**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} \ne  0$.
+3. Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
+   **K**: $p_{\text{white}} - p_{\text{wholemeal}}\ne 0$.
+4. Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
+   **L**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} > 0$.
   
 
 ### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
 
-1. **Repeated-measures**:
+
+1. How much further patients with *with* the implant.
+2. **Repeated-measures**:
    Every subject has two TWMT recorded.
-2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-3. Each measurement is measured after and before on the same subject.
-4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+3. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+4. Each measurement is measured after and before on the same subject.
+5. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
    (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
    **Importantly, the direction should be stated somewhere.**)
-5. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
-6. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
-7. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
-8. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
-9. Almost impossible.
+6. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
+7. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
+8. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
+9. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+10. Almost impossible.
    Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
-10. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
-11. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
-12. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+11. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
+12. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
+13. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  
-13. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
-14. The differences have just been defined in the opposite directions.
+14. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+15. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
-16. The population of differences has a normal distribution, and/or $n > 25$ or so.
-17. Since $n < 25$, must assume the population of differences has a normal distribution.
+16. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
+17. The population of differences has a normal distribution, and/or $n > 25$ or so.
+18. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
    
 
@@ -820,6 +824,7 @@ Answers implied by H5P.
 
 1. The two groups are different rats. \tightlist
 2. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
+   Measure how much longer the lifetimes are for rats on a restricted diet.
 3. Table not shown.
 4. The $95$%\ CI is the *bottom* one: from $223.34$ to\$346.13$\ days.
 5. The best of these is Option\ (e)... but in practice, we usually think about CIs in terms of Option\ (d) so Option\ (d) is fine.
@@ -849,6 +854,14 @@ Answers implied by H5P.
 
 ## Answer: TW 10 tutorial {#Lecture10Answers}
 
+
+### Answers for Sect.\ \@ref(Consistency) {.unlisted .unnumbered}
+
+If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
+
+(Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
+
+
 ### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
 
 1. See Table\ \@ref(tab:MatTable).
@@ -859,7 +872,7 @@ Answers implied by H5P.
 6. The odds ratio, of a boy maturing late compared to a girl maturing late.
 7. OR: $0.971$, with $95$% CI from $0.828$ to $1.139$.
 8. See Table\ \@ref(tab:MatNumSummary).
-9. Probably not; OR close to\ $1$, and CI includes\ $1$.
+9. $P = 0.717$; no evidence of a difference between boys and girls.
 
 
 ```{r echo=FALSE, MatTable}
@@ -930,11 +943,14 @@ if( knitr::is_latex_output() ) {
         format = "latex",
         longtable = FALSE,
         booktabs = TRUE,
-        caption = "Nunmerical summary table for maturation data.",
+        caption = "Numerical summary table for maturation data.",
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 8) %>%
-  row_spec(0, bold = TRUE) # Columns headings in bold
+    row_spec(2, 
+             hline_after = TRUE) %>%
+  row_spec(0, 
+           bold = TRUE) # Columns headings in bold
 }
 
 if( knitr::is_html_output() ) {
@@ -956,12 +972,13 @@ if( knitr::is_html_output() ) {
 Some answers embedded.
 
 1. See Table\ \@ref(tab:ArtLimbMortalityANS). \tightlist
-2. Using artificial limb: $49/16 = 3.0625$.
+2. Sex is the explanatory variable.
+3. Using artificial limb: $49/16 = 3.0625$.
    Not using artificial limb: $21/19 = 1.105263$.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
    See Table\ \@ref(tab:ArtLimbSummaryANS).
-3. The CI for the OR is from $1.198$ to $6.411$.
-4. Chi-squared: $5.836$; like $z = \sqrt{5.836/1} = 2.42$: large; $P$ about\ $0.016$.  
+4. The CI for the OR is from $1.198$ to $6.411$.
+5. Chi-squared: $5.836$; like $z = \sqrt{5.836/1} = 2.42$: large; $P$ about\ $0.016$.  
 
    The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.836$; $\text{df} = 1$; $P = 0.016$; OR: $2.771$ and $95$% CI from $1.198$ to\ $6.411$).
 
@@ -999,6 +1016,8 @@ if( knitr::is_latex_output() ) {
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 8) %>%
+    row_spec(2, 
+             hline_after = TRUE) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 }
 
@@ -1058,6 +1077,8 @@ if( knitr::is_latex_output() ) {
         align = c("r", "r", "r", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 8) %>%
+    row_spec(2, 
+             hline_after = TRUE) %>%
   row_spec(0, bold = TRUE) #%>% # Columns headings in bold
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
@@ -1088,8 +1109,8 @@ if( knitr::is_html_output() ) {
 **2.** A $\chi^2$ test.
 **3.** A paired $t$-test.
 **4.** A two-sample $t$-test.
-**5.** None of the other options are correct: requires regression or correlation.
-
+**5.** A $z$-test comparing two proportions.
+**6.** None of the other options are correct: requires regression or correlation.
 
 ### Answers for Sect.\ \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
 
@@ -1184,51 +1205,6 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 * **Discussion**: you don't *prove* anything like this...
   Again, what was tested doesn't help answer the RQ.
   
-
-### Answers for Sect.\ \@ref(WhatTestToUse) {.unlisted .unnumbered}
-
-$t$-test: age as it is the only quantitative variable.  
-The rest would use a chi-square test.
-Between the 'alive' and 'dead' groups, there is evidence that the proportion with diabetes is different and whether or not a (prosthetic) limb was fitted.
-
-```{r, child = if (knitr::is_html_output()) 'Solution-WhichTest.Rmd'}
-```
-
-
-### Answers for Sect.\ \@ref(ReadDesks) {.unlisted .unnumbered}
-
-**1.** P:\ school age children with ambulatory cerebral palsy; 
-       O:\ In this case, the hand-writing legibility;
-       C:\ Between scores made when using standard and special furniture; 
-       I:\ The furniture configurations imposed.
-**2.** True experiment, as treatments were imposed (experiment), and the researchers allocated children to the groups (true experiment).
-**3.** Unit of observation: each students.
-       Unit of analysis: each student, as the two measurements from each student are related to the same person.
-       The students are compared.
-       So this is a paired analysis.
-       A paired-$t$ test.
-**4.** Blinding not used, as students would know the desk configurations were different.
-       No blinding, so double blinding is not used.
-       However:
-       The assessors are blinded to the intervention,
-       as assessor unaware of furniture configuration,
-       so assessor does not influence outcomes (unintentionally).
-**5.** Sample mean: $30.7$; $s = 3.3$.
-**6.** Standard errors $\text{s.e.}(\bar{x}) = 3.3\div\sqrt{30} = 0.60249$; the approximate CI is $30.7\pm(2\times0.60249)$, or $30.7\pm 1.2$; from $29.5$ to\ $31.9$.
-**7.** The sample provides no evidence (paired $t$: $-0.30$; $\text{df} = 29$; two-tailed $P = 0.77$) of a population mean difference
-         between the handwriting legibility when performed using standard 
-         ($30.7$; standard deviation: $3.3$) and speciality furniture configurations ($30.6$; $3.3$; $95$%\ CI for the difference from $-0.8$ to\ $0.6$).
-**8.** No.
-
-
-### Answer for Sect.\ \@ref(ReadErrors) {.unlisted .unnumbered}
-
-**1.** P: Medical 'teams' working in paediatric resuscitations; O: Number and type of drug errors; C: None; I: None.
-**2.** Descriptive.
-**3.** Observational; forward direction (cohort study).
-**4.** For example: study is only a mock (not real) situation, due to ethics. 
-       Hawthorne effect: subjects know they are being watched.
-
 
 
 

@@ -196,7 +196,7 @@ include_graphics("Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.
 `r if (knitr::is_latex_output()) '-->'`
 
 
-In 2011, *Eagle Boy's Pizza* ran a campaign that claimed (among many other claims) that Eagle Boy's pizzas were  'Real size $12$-inch large pizzas' in an effort to out-market *Domino's Pizza*.
+In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims) that Eagle Boys pizzas were 'Real size $12$-inch large pizzas' in an effort to out-market *Dominos Pizza*.
 
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
 A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi).
@@ -215,7 +215,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 \greyboxlines{2}
 5. Explain the difference in *meaning* between $s$ and $\text{s.e.}(\bar{x})$ here.
 \greyboxlines{2}
-6. If someone else takes a sample of $125$\ Eagle Boy's pizzas, will the sample mean be $11.486$\ inches again (as it is in this sample)?
+6. If someone else takes a sample of $125$\ Eagle Boys pizzas, will the sample mean be $11.486$\ inches again (as it is in this sample)?
    Why or why not?
 \greyboxlines{2}
 7. Draw a picture of the approximate sampling distribution for\ $\bar{x}$.

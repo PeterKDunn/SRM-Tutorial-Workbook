@@ -91,6 +91,11 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 `r if( knitr::is_html_output() ) {webexercises::mcq( c(
         						  answer = "The Site A box", 
                       "The Site B box") )} else {'\\null'}`
+\greyboxlines{1}
+5. What would be measured if the difference between the mean breadths was defined as $\mu_A - \mu_B$?
+`r if( knitr::is_html_output() ) {webexercises::mcq( c(
+        						  answer = "How much larger the mean for Site A was compared to Site B", 
+                      "How much larger the mean for Site B was compared to Site A") )} else {'\\null'}`
 \greyboxlines{2}
 
 
@@ -122,6 +127,7 @@ boxplot(Width ~ Location,
 `r webexercises::hide()`
 1. Discuss in class.
 1. The sample is small, so hard to be certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers.
+1. Discuss in class.
 1. Discuss in class.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`

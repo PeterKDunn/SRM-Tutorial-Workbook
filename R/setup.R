@@ -34,3 +34,5 @@ foldLaTeXText <- "The answer is given in the online book."
 
 
 knitr::opts_chunk$set(fig.pos = "hbtp")   # Place tables HERE and so on
+
+source("R/surroundMaths.R")

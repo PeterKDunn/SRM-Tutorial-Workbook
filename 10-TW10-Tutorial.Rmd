@@ -21,7 +21,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-Something from this week's content may be needed for your Task\ 2B.
+Some of this week's content may be needed for your Task\ 2B.
 :::
 
 
@@ -69,6 +69,44 @@ Statements\ 2 and\ 4 are **both* consistent with the information (small $P$-valu
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
+
+## Consistency {#Consistency}
+
+Suppose a researcher asked the RQ:
+
+> For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
+
+1. Which would be the appropriate null hypothesis?
+`r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles",
+               "The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles",
+               "Either of the above"))} else {'\\null'}`
+`r if( knitr::is_html_output() ) {'<!--'}`
+   a. The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles.
+   b. The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles. 
+   c. Either of the above.
+`r if( knitr::is_html_output() ) {'-->'}`
+1. Which would be the appropriate CI to produce?
+`r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(answer = "A CI for the odds ratio",
+               "A CI for the difference in proportions",
+               "Either of the above"))} else {'\\null'}`
+`r if( knitr::is_html_output() ) {'<!--'}`
+   a. A CI for the odds ratio.
+   b. A CI for the difference in proportions.
+   c. Either of the above.
+`r if( knitr::is_html_output() ) {'-->'}`
+1. Which would be the appropriate hypothesis test?
+`r if( knitr::is_html_output() ) {webexercises::longmcq(
+    c(         "A hypothesis tests for the difference between proportions",
+      answer = "A hypothesis tests for the odds ratio",
+               "Either of the above"))} else {'\\null'}`
+`r if( knitr::is_html_output() ) {'<!--'}`
+   a. A hypothesis tests for the difference between proportions.
+   b. A hypothesis tests for the odds ratio.
+   c. Either of the above.
+`r if( knitr::is_html_output() ) {'-->'}`
+
    
 ## CI and test for odds ratios {#OddsSoftware}
 
@@ -97,8 +135,7 @@ Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-j
 
 
 ```{r MaturationData-jamova-SPSS, echo=FALSE, fig.show="hold", fig.cap="Some of the maturation-data entered into jamovi.", fig.align="center", out.width='33%'}
-knitr::include_graphics( "SoftwareImages/BoysMatureData-jamovi.png",
-                         )
+knitr::include_graphics( "SoftwareImages/BoysMatureData-jamovi.png")
 ```
 
 
@@ -209,14 +246,14 @@ if( knitr::is_html_output() ) {
 \greyboxlines{2}
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
 9. Are boys generally more likely to mature later than girls? 
-   Justify your answer.
-\greyboxlines{2}
+   Perform a hypothesis test.
+\greyboxlines{4}
 
    `r if (knitr::is_html_output()) '**Vote below.**'`
 
   
 ```{r BoysMaturejamovi, echo=FALSE, fig.cap="The jamovi output from the maturation study", fig.align="center", out.width="50%"}
-knitr::include_graphics( "SoftwareImages/BoysMatureOdds-jamovi.png")
+knitr::include_graphics( "SoftwareImages/BoysMatureTestsCI-jamovi.png")
 ```
 
 
@@ -433,13 +470,14 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-2. For a person using an artificial limb, compute the odds of being alive after five years.
+2. In Table\ \@ref(tab:ArtLimbMortality), *why* are males and females listed in the rows (rather than the columns)?
+3. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
 \greyboxlines{4}
-3. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
+4. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
 \greyboxlines{2}
-4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
+5. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.
 \greyboxlines{2}

@@ -475,17 +475,6 @@ include_graphics("SoftwareImages/RulerDropData.png")
  
  
 
-### Thoughts on Sect. \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
-You can have different groups (two or four) do different parts,
-and then explain their answers to other groups.  
-
-Promote discussion, don't just give answers.
-Ask **why**!
-```
-
-
 
 
 [**Return to index of tutor information.**](TutorInfo.html)

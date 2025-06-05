@@ -19,7 +19,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-Something from this week's content may be needed for your Task\ 2B.
+Some of this week's content may be needed for your Task\ 2B.
 :::
 
 
@@ -30,7 +30,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-Researchers studied the impact of a gluten-free diet (required for coeliacs) on dental cavities [@khalaf2020caries].
+Researchers studied the impact of a gluten-free diet (needed by coeliacs) on dental cavities [@khalaf2020caries].
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
@@ -84,11 +84,11 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
   answer = "The researchers calculated an exact $95$% CI (not an approximate $95$% CI).",
   "The statistical validity conditions are not met.")) } else {'\\null'}`
 \greyboxlines{2}
-1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. 
-   True or false? \tightlist 
+1. True or false: 
+   The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
-   True or false?  
+1. True or false:
+   One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
 1. We are $95$% confident that the difference between the population means is:
 `r if( knitr::is_html_output() ) {
@@ -99,20 +99,30 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 	  )
 } else {'\\null'}`
 \greyboxlines{2}
-1. The *null* hypothesis is $H_0$: $\mu_{C} = \mu_{NC}$. 
-   True or false?  
+1. True or false:
+   The *null* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} = 0$. 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. The *alternative* hypothesis is $H_0$: $\mu_{C} > \mu_{NC}$. 
-   True or false?  
+1. True or false:
+   The *alternative* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} > 0$. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. Since the two sample means are different, we reject the null hypothesis. 
-   True or false?  
+1. True or false:
+   Since the two sample means are different, we reject the null hypothesis. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
+1. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
+   What does this *measure*?
+`r if( knitr::is_html_output() ) {
+   webexercises::longmcq( 
+     c("How much larger the mean number of cavities are for non-coeliacs", 
+          answer = "How much larger the mean number of cavities are for coeliacs")
+	  )
+} else {'\\null'}`
+\greyboxlines{2}
 :::
 
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
+1. How much larger the mean number of cavities are for coeliacs.
 1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\ CI.
    (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
 1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
@@ -192,6 +202,8 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 ```
 
 
+1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
+\greyboxlines{2}
 1. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
 \greyboxlines{1}
 2. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
@@ -229,12 +241,12 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
    Is the test one- or two-tailed?
    What is the alternative hypothesis?
 
-    - $\mu_{\text{Without Implant}} = \mu_{\text{With implant}}$
+    - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0$
     - $\mu_{\text{Difference}} = 0$
     - $\mu_{\text{Difference}} > 0$
     - $\mu_{\text{Without Implant}} = 0$
     - $\mu_{\text{With implant}} = 0$
-    - $\mu_{\text{Without Implant}} < \mu_{\text{With implant}}$
+    - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} < 0$
     - $\mu_{\text{Difference}} < 0$
     - $\mu_{\text{Without Implant}} < 0$
     - $\mu_{\text{With implant}} > 0$
@@ -301,6 +313,7 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 1. Explain why this study compares two *independent* groups. \tightlist
 \greyboxlines{2}
 2. Carefully define **parameter** of interest, including the *direction*.
+   What does this definition of the difference measure?
 \greyboxlines{2}
 3. Use the jamovi output (Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1)) to prepare a numerical summary table.
 \greyboxlines{4}

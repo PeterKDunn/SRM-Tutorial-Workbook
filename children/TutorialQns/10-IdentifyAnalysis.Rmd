@@ -1,9 +1,10 @@
 For each of the following scenarios, determine the appropriate method of analysis:
 
 a. A $\chi^2$ test;
-b. A paired $t$-test for the mean difference;
-c. A two-sample $t$-test
-d. None of the above.
+b. A $z$-test for comparing two proportions;
+c. A paired $t$-test for the mean difference;
+d. A two-sample $t$-test
+e. None of the above.
 
 If 'None of the above' is chosen, can you identify the correct analysis?
 
@@ -41,7 +42,12 @@ If 'None of the above' is chosen, can you identify the correct analysis?
    What is the appropriate method of analysis?
 \greyboxlines{2}
 
-5. A study compared the relationship between the VO2 max (a measure of an individual of an individual physical fitness) and $3$\ km running velocity, for a set of male long-distance runners.
+5. A study compared the proportion of females in retail working overtime, to the proportion of males on retail working overtime.
+
+   What is the appropriate method of analysis?
+\greyboxlines{2}
+
+6. A study compared the relationship between the VO2 max (a measure of an individual of an individual physical fitness) and $3$\ km running velocity, for a set of male long-distance runners.
 
    What is the appropriate method of analysis?
 \greyboxlines{2}

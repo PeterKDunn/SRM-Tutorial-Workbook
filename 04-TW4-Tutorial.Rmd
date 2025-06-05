@@ -5,9 +5,9 @@
 **Topics** covered in this tutorial:
 
 * Graphical summaries for **qualitative** data.
-* Numerical summaries for **qualitative** data (e.g., odds).
+* Numerical summaries for **qualitative** data (e.g., odds, proportions).
 * Graphical summaries for comparing **qualitative** data.
-* Numerical summaries for comparing **qualitative** data (e.g., odds ratios).
+* Numerical summaries for comparing **qualitative** data (e.g., odds ratios, difference in proportions).
 :::
 
 
@@ -111,16 +111,22 @@ answer = "0.82") )} else {'\\null'}`
 
 ```{r OSAKable3, echo=FALSE}
 useOSA <- OSA[, c(2:6)]
-useOSA$Gender <- factor(useOSA$Gender, 
-                        levels = 1:2, 
-                        labels = c("Male", 
-                                   "Female"))
+useOSA$Gender[ useOSA$Gender==1] <- "Male"
+useOSA$Gender[ useOSA$Gender==2] <- "Female"
 
+#useOSA$Gender <- factor(useOSA$Gender, 
+#                        levels = 1:2, 
+#                        labels = c("Male", "Female"))
+OSAtab <- rbind( head(useOSA, 10),
+                 rep("$\\vdots$", 5) )
+    
+    
 if( knitr::is_latex_output() ) {
-  knitr::kable( head(useOSA, 10),
+  knitr::kable( OSAtab,
                 format = "latex",
                 longtable = FALSE,
                 booktabs = TRUE,
+                escape = FALSE,
                 align = "c", 
                 col.names = c("Age",
                               "Gender",
@@ -190,7 +196,8 @@ if( knitr::is_html_output() ) {
 ```
 
 
-
+1. *Why* are the levels 'Male' and 'Female' placed in the rows of the table, rather than the columns?
+\greyboxlines{2}
 1. What proportion of patients had their stroke symptoms missed? \tightlist
 \greyboxlines{2}
 1. Sketch a side-by-side or stacked bar chart to display the data.
@@ -450,6 +457,8 @@ if( knitr::is_html_output() ) {
 }
 ```
 
+1. *Why* is the number of concussions placed in the columns of the table, rather than the rows?
+\greyboxlines{2}
 1. Classify the two variables.
 \greyboxlines{2}
 2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
@@ -647,13 +656,13 @@ If you need help, please **ask**.
 1. A study of drivers [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
 
    a. What **percentage** of people use their phone while driving?
-\greyboxlines{2}
+\greyboxlines{1}
    b. What are the **odds** that a person uses their phone while driving?
-\greyboxlines{2}
+\greyboxlines{1}
    c. What are the **odds** that a WA resident uses their phone while driving?
-\greyboxlines{2}
+\greyboxlines{1}
    d. What are the **odds** that a NSW resident uses their phone while driving?
-\greyboxlines{2}
+\greyboxlines{1}
    e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
 \greyboxlines{2}
 

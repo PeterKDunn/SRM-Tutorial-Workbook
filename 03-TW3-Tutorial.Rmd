@@ -114,17 +114,24 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 `r if (knitr::is_latex_output()) '-->'`
 
 
-```{r OSAKable, echo=FALSE}
+```{r OSAKable, echo=FALSE, warnings=FALSE}
 useOSA <- OSA[, c(2:6)]
-useOSA$Gender <- factor(useOSA$Gender, 
-                        levels = 1:2, 
-                        labels = c("Male", "Female"))
+useOSA$Gender[ useOSA$Gender==1] <- "Male"
+useOSA$Gender[ useOSA$Gender==2] <- "Female"
+
+#useOSA$Gender <- factor(useOSA$Gender, 
+#                        levels = 1:2, 
+#                        labels = c("Male", "Female"))
+OSAtab <- rbind( head(useOSA, 10),
+                 rep("$\\vdots$", 5) )
+    
     
 if( knitr::is_latex_output() ) {
-  knitr::kable( head(useOSA, 10),
+  knitr::kable(OSAtab,
                format = "latex",
                longtable = FALSE,
                booktabs = TRUE,
+               escape = FALSE,
                align = "c",
                col.names = c("Age",
                             "Gender",

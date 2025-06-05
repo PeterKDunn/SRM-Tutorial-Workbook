@@ -179,7 +179,6 @@ Numerous other **R** packages were used, including:
 
 * **diagram** [@Rpackage:diagram] for making some diagrams. 
 * **kableExtra** [@package:kableExtra] for nicer tables.
-* **leaflet** [@package:leaflet] for creating the interactive online maps (e.g., Sect. \@ref(SamplingParking)).
 * **DT** [@package:DT] for displaying some data tables in the online version.
 * **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better greyscale printing.
 * **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions).

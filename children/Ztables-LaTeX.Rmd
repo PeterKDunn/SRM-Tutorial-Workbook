@@ -1,0 +1,241 @@
+
+
+\pagebreak
+
+## Normal distribution: negative $z$-values probabilities {#ZTablesNEG}
+
+
+\begin{multicols}{2}
+
+```{r echo=FALSE, fig.width=4.5, fig.height=1.05, fig.align="center", out.width='100%'}
+par(mar = c(1.8, 
+            0.05, 
+            0.05, 
+            0.05))
+delta <- 0.01
+z <- seq(-3.5, 3.5, 
+         by = delta)
+zy <- dnorm(z)
+
+zval <- -1.385 # Add the last digit 5 so shading works. Really, z = -1.38
+
+plot( zy ~ z,
+      lwd = 2,
+      type = "l",
+      xlab = "",
+      ylab = "",
+      axes = FALSE)
+#axis(side=1, at=-3:3)
+axis(side = 1, 
+     at = zval, 
+     label = expression(italic(z)))
+abline(h = 0, 
+       lwd = 2)
+
+abline(v = zval, 
+       lwd = 2, 
+       col = "grey")
+
+xshade <- c(  seq(min(z), 
+                  zval, 
+                  by =  delta),
+              seq(zval, 
+                  min(z), 
+                  by = -delta) )
+yshade <- c( rep(0, length(xshade)/2),
+             rev(zy[ z < zval]) )
+            
+polygon( xshade, 
+         yshade, 
+         col = plot.colour)
+
+arrows(x0 = -2.5, 
+       y0 = max(zy)/2,
+       x1 = -1.55, 
+       y1 = 0.05, 
+       angle = 15,
+       length = 0.1)
+text(-2.5, max(zy)/2, 
+     "Area",
+     pos = 3)
+```
+
+\columnbreak
+
+\begin{normalsize}\raggedright
+The table gives the probability (area) that a $z$-score is \emph{less} than a given value.
+For example: the area \emph{less than} $z = -1.38$ is $0.0838$, or $8.38$\%.
+\end{normalsize}
+
+\end{multicols}
+
+
+
+```{r echo=FALSE}
+z1 <- c( z1n <- seq(-3.5, 0, 
+                    by = 0.1), 
+         z1p <- seq(0, 3.5, 
+                    by = 0.1))  # As zero gets two rows: pos and neg
+z2 <- seq(0.00, 0.09, 
+          by = 0.01)
+
+Ztab <- array( dim = c(length(z1), 
+                       length(z2)) )  
+
+colnames(Ztab) <- paste("$", sprintf("%.2f", z2), "$")
+rownames(Ztab) <- paste("$", sprintf("%.1f", z1), "$")
+rownames(Ztab)[length(z1n)] <- "$-0.0$"
+rownames(Ztab)[length(z1n)+1] <- "$0.0$"
+
+zero.count <- 0
+for (i in 1:length(z1)){
+  
+  if ( z1[i] > 0 ){
+    Ztab[i, ] <- pnorm( z1[i] + z2 )
+  } 
+  if ( z1[i] == 0 ){
+    if (zero.count == 0 ){ # The first zero row: negative 0.00
+      zero.count <- zero.count + 1 
+      Ztab[i, ] <- pnorm( z1[i] - z2 )
+      
+    } else {               # The second zero row: positive 0.00
+      Ztab[i, ] <- pnorm( z1[i] + z2 )
+    }
+  }
+  if ( z1[i] < 0 ){
+    Ztab[i, ] <- pnorm( z1[i] - z2 )
+  }
+}
+
+```
+
+
+```{r AppendixTablesNegativeZ, echo=FALSE}
+ZtabNeg <-  formatC( Ztab[1: length(z1n), ], # For small values, that otherwise end up in sci notation
+                     format = "f",
+                     digits = 4)   
+
+if( knitr::is_latex_output()) {
+   kable(surroundMaths(ZtabNeg,
+                       decDigits = 4),
+        format = "latex",
+        #caption = "The probability that the area is less than the value of $z$ that is looked up",
+        digits = 4,
+        #longtable = TRUE,
+        escape = FALSE,
+        linesep = c("", "", "", "", "\\vspace{3pt}"),
+        align = "r",
+        booktab = TRUE) %>%
+      kable_styling(font_size = 9)        
+
+}
+```
+
+\begin{normalsize}
+For $z = -4$, the probability is $0.00003$. For $z = -5$, the probability is $0.0000003$.
+\end{normalsize}
+
+
+
+
+\pagebreak
+
+
+
+## Normal distribution: positive $z$-values probabilities  {#ZTablesPOS}
+
+\begin{multicols}{2}
+
+```{r echo=FALSE, fig.width=4.5, fig.height=1.05, fig.align="center", out.width='100%'}
+par(mar = c(1.8, 
+            0.05, 
+            0.05, 
+            0.05))
+delta <- 0.01
+z <- seq(-3.5, 3.5, 
+         by = delta)
+zy <- dnorm(z)
+
+zval <- 1.875 # Add the last digit 5 so shading works. Really, z = 1.87
+
+plot( zy ~ z,
+      lwd = 2,
+      type = "l",
+      xlab = "",
+      ylab = "",
+      axes = FALSE)
+#axis(side=1, at=-3:3)
+axis(side = 1, 
+     at = zval, 
+     label = expression( italic(z) ) )
+abline(h = 0, 
+       lwd = 2)
+
+abline(v = zval, 
+       lwd = 2, 
+       col = "grey")
+
+xshade <- c(  seq(min(z), 
+                  zval, 
+                  by = delta),
+              seq(zval, 
+                  min(z), 
+                  by = -delta) )
+yshade <- c( rep(0, length(xshade)/2),
+             rev(zy[ z<zval]) )
+            
+polygon( xshade, yshade, 
+         col = plot.colour)
+
+arrows(-2.5, 
+       max(zy)/2,
+       0, 
+       max(zy)/2, 
+       angle = 15,
+       length = 0.1)
+text(-2.5, max(zy)/2, 
+     "Area",
+     pos = 3)
+```
+
+\columnbreak
+
+\begin{normalsize}\raggedright
+The table gives the probability (area) that a $z$-score is \emph{less} than a given value.
+For example: the area \textit{less than} $z = 1.87$ is $0.9693$, or $96.93$\%.
+\end{normalsize}
+
+\end{multicols}
+
+
+
+
+```{r AppendixTablesPositiveZLaTeX, echo=FALSE}
+ZtabPos <- formatC( Ztab[ (length(z1n) + 1): length(z1), ],
+                    format = "f",
+                    digits = 4)
+
+if( knitr::is_latex_output() ) {
+
+   kable(surroundMaths(ZtabPos,
+                       decDigits = 4),
+        format = "latex",
+        #caption = "The probability that the area is less than the value of $z$ that is looked up",
+        digits = 4,
+#        longtable = TRUE,
+        escape = FALSE,
+        linesep = c("", "", "", "", "\\vspace{3pt}"),
+        align = "r",
+        booktab = TRUE) %>%
+      kable_styling(font_size = 9)
+}
+```
+
+\begin{normalsize}
+For $z = 4$, the probability is $0.99997$. 
+For $z = 5$, the probability is $0.9999997$.
+\end{normalsize}
+
+\pagebreak
+
+
