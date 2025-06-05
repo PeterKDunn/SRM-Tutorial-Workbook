@@ -10,7 +10,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 5 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
 * [Chapter 6 (External validity: sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
@@ -36,7 +36,7 @@ Consider this RQ: 'What factors are preventing the adoption of household solar t
                       answer = "Households in Santiago",
                       "Solar technologies") )} else {'\\null'}`
 \greyboxlines{1}
-2. The study will be *externally valid* if:
+2. `r if( knitr::is_latex_output() ) {'Select the correct option:'}` The study will be *externally valid* if:
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "the sample is representative of all households in the world",
 		      "the sample is representative of all solar technologies",
@@ -91,27 +91,27 @@ Consider this RQ: 'What factors are preventing the adoption of household solar t
 A student group was studying this RQ (which is **not** appropriate for the SCI110 Project): 'Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?'
 
 Explain why, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
-\greyboxlines{1}
+\greyboxlines{2}
 
 The students gave the following information about their study.
 Explain **why** each of these statements is **incorrect**.
 
 1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "The Outcome is '*the average serum cholesterol concentration for smokers and non-smokers*'."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "The study is not externally valid, as the results may not apply to all people in the world."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "The response variable is *serum cholesterol*."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "In this experiment, the population is '*Australians*'."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "The data file will have two columns: one for smokers, and one for non-smokers."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "'*Whether or not the person owns a cat*' is likely to be a confounding variable."
-\greyboxlines{1}
+\greyboxlines{2}
 1. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
-\greyboxlines{1}
+\greyboxlines{2}
 
 
 
@@ -174,6 +174,9 @@ regarding this information.
 <!-- PASSCODE:: SCI10 -->
 <!-- I added the  height="800" -->
 <!-- I deleted the enclosing <div> ... </div> -->
+
+
+\pagebreak
 
 
 ```{r Crossword-Week2-Terminology, echo=FALSE, fig.cap="A crossword to complete.", fig.align="center", out.width='85%', eval=is_latex_output()}
@@ -246,43 +249,44 @@ Below is an extract from the newspaper article for the mice study that formed pa
 
 The researchers then found that the addition of spermidine '"significantly extended" the [average] lifespan of the mice...'.
 
-Based on this information:
+Based on this information, answer the following questions.
 
-4. what are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
+4. What are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
 \greyboxlines{2}
 5. what are reasonable suggestions for the comparison and explanatory variable? 
 \greyboxlines{2}
-6. is the study observational or experimental?
+6. Is the study observational or experimental?
    Explain.
 \greyboxlines{2}
-7. does the newspaper headline appear reasonable?
+7. Does the newspaper headline appear reasonable?
 \greyboxlines{1}
-8. why do the researchers give some mice plain drinking water?
+8. Why do the researchers give some mice plain drinking water?
 \greyboxlines{2}
 
 Below is an extract from the newspaper article for the human study that formed part of the research.
 
 > ... the researchers surveyed $800$ Italians about their diet and found that those who reported a higher intake of spermidine had lower blood pressure...
 
-Based on this information:
+Based on this information, answer the following questions.
 
-9. what are reasonable suggestions for the outcome and response variable for the human study? \tightlist
+9. What are reasonable suggestions for the outcome and response variable for the human study? \tightlist
 \greyboxlines{2}
-10. what *type* of RQ is suggested: relational, correlational or repeated-measures? 
+10. What *type* of RQ is suggested: relational, correlational or repeated-measures? 
 \greyboxlines{1}
-11. is the study observational or experimental?
+11. Is the study observational or experimental?
     Explain.
 \greyboxlines{2}
-12. Are the following variables likely to be extraneous variables, confounding variables, or neither? **Explain.**
+12. Are the following variables likely to be extraneous variables, confounding variables, or neither? 
+    **Explain.**
 
     a. The sex of the person. 
 	  b. The number of siblings.
 	  c. The distance to the nearest hospital.
 	  d. The amount of exercise per week by the person.
     e. Whether their father had heart problems.
-\greyboxlines{6}
+\greyboxlines{5}
 
-The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in 1995, 2000 and\ 2005.
+The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005.
 From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
 
 Those with the highest spermidine intakes had a $40$% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes. 

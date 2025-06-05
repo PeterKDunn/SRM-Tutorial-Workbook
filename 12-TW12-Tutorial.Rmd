@@ -10,7 +10,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 33 (Correlation and regression)](https://bookdown.org/pkaldunn/SRM-Textbook/CorrelationRegression.html)
 :::
@@ -36,19 +36,19 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
           answer = "The grams of mud",
           "The season") )} else {'\\null'}`
 \greyboxlines{2}
-1. In this study, what variable would be the $y$-variable?  
+1. In this study, what variable would be the $y$-variable?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "The number of seeds", 
           "The grams of mud",
           "The season") )} else {'\\null'}`
 \greyboxlines{2}
-1. What is the value of $R^2$?  
+1. What is the value of $R^2$?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "86.7%", 
           "93.1%",
           "96.5%") )} else {'\\null'}`
 \greyboxlines{2}
-1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?  
+1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "380", 
           "96422",

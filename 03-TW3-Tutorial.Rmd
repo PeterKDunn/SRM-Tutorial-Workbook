@@ -13,7 +13,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 9 (Collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
 * [Chapter 10 (Classifying data and variables)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
@@ -26,7 +26,7 @@ You should bring your calculator to tutorials from this week onwards.
 
 `r if( knitr::is_latex_output() ){'<!--'}`
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
+You can search on YouTube for tutorials on using your calculator's **Statistics Mode**.
 Here are some links that may prove useful.
 
 * [**TI**-30 XS](https://www.youtube.com/watch?v=I437u8PxV2M)
@@ -43,8 +43,8 @@ In YouTube, I searched for `"statistics" "mean" "standard deviation"` together w
 
 `r if( knitr::is_html_output() ){'<!--'}`
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You may wish search on YouTube for some tutorials on using your calculator's **Statistics Mode**.
-For example, try:
+You can search on YouTube for tutorials on using your calculator's **Statistics Mode**.
+For example:
 
 `"statistics" "mean" "standard deviation" Casio fx82`
 :::
@@ -232,14 +232,14 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
+::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
+:::
+
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/03-HistogramWhereUsed.Rmd'}
 ```
 
-
-::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
-:::
 
 
 

@@ -12,7 +12,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 12 (Summarising qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQualData.html).
 * [Chapter\ 15 (Comparing qualitative data between individuals](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
@@ -153,12 +153,42 @@ if( knitr::is_html_output() ) {
 
 ## Percentages and odds {#PercentOddsStroke}
 
-In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data shown below were collected.
+In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data in Table\ \@ref(tab:Stroke) were collected.
 
-| **Sex of patients** | **Dispatcher suspected stroke** | **Dispatcher missed stroke**
-|:-------------------:+:-------------------------------:+:-------------------------:
-| Male                | 67                              | 43
-| Female              | 97                              | 39
+
+```{r Stroke, echo=FALSE}
+Stroke <- array( dim = c(2, 2))
+Stroke[1, ] <- c(67, 43)
+Stroke[2, ] <- c(97, 39)
+
+colnames(Stroke) <- c("Dispatcher suspected stroke",
+                      "Dispatchers missed stroke")
+rownames(Stroke) <- c("Males",
+                      "Females")
+
+if( knitr::is_latex_output() ) {
+  knitr::kable( Stroke,
+                format = "latex",
+                longtable = FALSE,
+                booktabs = TRUE,
+                align = "c", 
+                caption = "How well emergency dispatchers recognised signs of stroke.") %>%
+    kable_styling(font_size = 10) %>%
+    row_spec(0, 
+             bold = TRUE)
+}
+if( knitr::is_html_output() ) {
+  knitr::kable( head(useOSA, 10),
+                format = "html",
+                longtable = FALSE,
+                booktabs = TRUE,
+                align = "c",
+                caption = "How well emergency dispatchers recognised signs of stroke.") %>%
+    row_spec(0, 
+             bold = TRUE)
+}
+```
+
 
 
 1. What proportion of patients had their stroke symptoms missed? \tightlist
@@ -638,7 +668,7 @@ colnames(PDTab) <- c("Uses phone",
 PDTab[1, ] <- c(381, 295) 
 PDTab[2, ] <- c(345, 326)
 
-PDcap <- "The number of drivers who use their phone while driving"
+PDcap <- "The number of drivers who use their phone while driving."
 
 if( knitr::is_latex_output() ) {
   kable(PDTab,
@@ -666,19 +696,19 @@ if( knitr::is_html_output() ) {
 
 2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
    a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-\greyboxlines{2}
+\greyboxlines{1}
    b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-\greyboxlines{2}
+\greyboxlines{1}
    c. Compute the **percentage** of cuttings that were *long*.
-\greyboxlines{2}
+\greyboxlines{1}
    d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-\greyboxlines{2}
+\greyboxlines{1}
    e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-\greyboxlines{2}
+\greyboxlines{1}
    f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-\greyboxlines{2}
+\greyboxlines{1}
    g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
-\greyboxlines{2}
+\greyboxlines{1}
 
 
 ```{r RSTable, echo=FALSE}
@@ -688,7 +718,7 @@ data(rootstock)
 RSTab <- xtabs( Count ~ Length + Condition, 
                 data = rootstock)
 
-RScap <- "The relationship between length and condition of plum rootstocks"
+RScap <- "The relationship between length and condition of plum rootstocks."
 
 if( knitr::is_latex_output() ) {
   kable(RSTab,
@@ -730,7 +760,6 @@ This question has a video solution in the online book, so you can hear and see t
 
 The impact of environmental toxins is not well understood.
 @data:Pamphlett:toxins examined the association between the environmental exposure of toxins and sporadic motor neuron disease (SMND).
-
 A total of $380$\ SMND cases and $377$ controls were studied.
 Of the $380$\ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
 
@@ -748,9 +777,9 @@ Of the $380$\ SMND cases, $60$ had worked with metal in the past; of the $377$ c
    (This is an *odds ratio*.)
 \greyboxlines{2}
 6. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
-\greyboxlines{2}
+\greyboxlines{1}
 7. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-\greyboxlines{2}
+\greyboxlines{1}
 8. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
 \greyboxlines{1}

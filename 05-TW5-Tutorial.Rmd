@@ -14,7 +14,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 13 (Comparing quantitative data within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
 * [Chapter 14 (Comparing quantitative data between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
@@ -376,7 +376,7 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
 
 
-`r if (knitr::is_latex_output()) 'The dat are shown in Fig.&nbsp;\\@ref(fig:Orthoses).'`
+`r if (knitr::is_latex_output()) 'The data are shown in Fig.&nbsp;\\@ref(fig:Orthoses).'`
 
 
 `r if (knitr::is_html_output()) '<!--'`

@@ -10,7 +10,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisOddsRatio.html)
 * [Chapter\ 32 (Finding sample sizes for CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
@@ -208,7 +208,6 @@ if( knitr::is_html_output() ) {
    What does it mean?
 \greyboxlines{2}
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
-\greyboxlines{2}
 9. Are boys generally more likely to mature later than girls? 
    Justify your answer.
 \greyboxlines{2}
@@ -439,7 +438,7 @@ if( knitr::is_html_output() ) {
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
 \greyboxlines{4}
 3. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
-\greyboxlines{3}
+\greyboxlines{2}
 4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.

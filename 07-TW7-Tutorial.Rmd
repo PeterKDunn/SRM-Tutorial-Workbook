@@ -10,7 +10,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 21 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
 * [Chapter\ 22 (Confidence intervals: one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
@@ -40,6 +40,7 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
 1. CIs answers estimation-type RQs.
+   True or false?  
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
 :::
@@ -76,7 +77,7 @@ include_graphics("Illustrations/pexels-john-finkelstein-1602905.jpg")
 ```
 `r if (knitr::is_latex_output()) '-->'`
 
-\
+
 Claire and Jake were wondering about the mean number of matches in a box.
 The boxes contain this statement:
 
@@ -175,7 +176,7 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 7. Compute an approximate $95$% confidence interval for the population proportion based on the sample proportion.
 \greyboxlines{4}
 8. Write a sentence communicating this confidence interval.
-\greyboxlines{4}
+\greyboxlines{3}
 9. If the researchers wished to estimate the true survival proportion to within give-or-take $0.01$ with $95$% confidence, would the sample size need to be *larger* or *smaller*?
 \greyboxlines{2}
 10. Confirm that the conditions necessary for this calculation to be statistically valid are met.

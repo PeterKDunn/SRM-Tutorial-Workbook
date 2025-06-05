@@ -12,7 +12,7 @@
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
 * [Chapter\ 19 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
@@ -22,7 +22,6 @@ In this chapter, you will learn and practice the content associated with these c
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 You will need to access the normal distribution tables for this tutorial.
-
 These Tables can be found in the textbook appendices, and in this document in
 `r if (knitr::is_html_output()){
   'Appendices\\ \\@ref(ZTablesOnline)\\ and\\ \\@ref(ZTablesOnlineBackwards), and Appendix\\ \\@ref(ZTablesOnlineBackwards).'
@@ -126,7 +125,7 @@ The values quoted are used for modelling purposes, and are essentially the popul
 } else {
  '________'
 }`cm.
-3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
+3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.
    Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
    Explain what this means.
 \greyboxlines{4}
@@ -176,28 +175,28 @@ For the following, indicate *how* you could estimate the probability (classical;
               "Subjective approach."
 ))} else {'\\null'}`
 \greyboxlines{1}
-2. The probability that a given Nambour resident is a UniSC student.  
+2. The probability that a given Nambour resident is a UniSC student.
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
     answer = "Relative frequency approach.",
              "Subjective approach."
 ))} else {'\\null'}`
 \greyboxlines{1}
-3. The probability that Labor wins the next federal election.  
+3. The probability that Labor wins the next federal election.
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
              "Relative frequency approach.",
     answer = "Subjective approach."
 ))} else {'\\null'}`
 \greyboxlines{1}
-4. The probability that you will throw a dart and hit the bullseye.  
+4. The probability that you will throw a dart and hit the bullseye.
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
     answer = "Relative frequency approach.",
              "Subjective approach."
 ))} else {'\\null'}`
 \greyboxlines{1}
-5. The probability that a roulette wheel spins a $33$.  
+5. The probability that a roulette wheel spins a $33$.
 `r if( knitr::is_html_output() ) {longmcq(
   c(answer = "Classical approach.",
              "Relative frequency approach.",
