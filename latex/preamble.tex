@@ -33,6 +33,39 @@
 
 %\setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya}
 
+%%% Box for writing answers
+\usepackage{calc} 
+\newlength{\greyboxheight}
+
+% Define helper macro to compute height
+% Increase the height of a "line"
+\newcommand{\setgreyboxheight}[1]{%
+  \setlength{\greyboxheight}{2.3\baselineskip * #1}%
+}
+
+\newenvironment{greybox}[1]{%
+  \setgreyboxheight{#1}%
+  \begin{tcolorbox}[
+    colframe=gray!30!black,
+    boxrule=2pt,
+    width=\linewidth,
+    height=\greyboxheight,
+    valign=center,
+    colback=white,
+    left=4pt,
+    right=4pt, top=4pt, bottom=4pt,
+    before skip=4pt,
+    after skip=4pt
+  ]
+\vspace*{\greyboxheight} % force the box to have that height visually
+}{%
+  \end{tcolorbox}
+}
+
+\newcommand{\greyboxlines}[1]{\noindent\begin{greybox}{#1}\end{greybox}}
+
+
+
 \usepackage{framed,color}
 \definecolor{shadecolor}{RGB}{224,224,224}
 \definecolor{lightshadecolor}{RGB}{230, 230, 255}
