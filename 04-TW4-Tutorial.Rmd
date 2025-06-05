@@ -10,12 +10,15 @@
 * Numerical summaries for comparing **qualitative** data (e.g., odds ratios).
 :::
 
+
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 12 (Summarising qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQualData.html).
 * [Chapter\ 15 (Comparing qualitative data between individuals](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
 
 Take careful note of which chapters are covered in this tutorial!
+:::
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -51,40 +54,45 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 "Mean",
 answer = "Odds",
 "Standard deviation") )} else{"Median, mean, odds, or standard deviation"}`
-1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?  
+1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "Standard deviation", 
 "Median",
 "Mean",
-"Odds") )}`
-1. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?  
+"Odds") )} else{'\\null'}`
+\greyboxlines{1}
+1. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Standard deviation", 
 answer = "Median",
 "Odds",
-"Percentages") )}`
-1. What might be an **appropriate** way to numerically describe the gender of the participants?  
+"Percentages") )} else{'\\null'}`
+\greyboxlines{1}
+1. What might be an **appropriate** way to numerically describe the gender of the participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Standard deviation", 
 "Median",
 "IQR",
-answer = "Percentages") )}`
-1. In the sample of $n = 60$, what **percentage** of individuals are females?  
+answer = "Percentages") )} else {'\\null'}`
+\greyboxlines{1}
+1. In the sample of $n = 60$, what **percentage** of individuals are females?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.45", 
 answer = "45%",
 "0.55",
 "55%",
 "1.22",
-"0.82") )}`
-1. In the sample of $n = 60$, what are the **odds** that an individual is female?  
+"0.82") )} else {'\\null'}`
+\greyboxlines{1}
+1. In the sample of $n = 60$, what are the **odds** that an individual is female?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.45", 
 "45%",
 "0.55",
 "55%",
 "1.22",
-answer = "0.82") )}`
+answer = "0.82") )} else {'\\null'}`
+\greyboxlines{1}
 :::
 
 
@@ -153,44 +161,52 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
 | Female              | 97                              | 39
 
 
-1. What proportion of patients had their stroke symptoms missed?
-1. Sketch a side-by-side or stacked bar chart to display the data. \tightlist
-1. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?  
+1. What proportion of patients had their stroke symptoms missed? \tightlist
+\greyboxlines{2}
+1. Sketch a side-by-side or stacked bar chart to display the data.
+\greyboxlines{4}
+1. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.391", 
 "0.609",
 "0.524",
-"0.333") )}`
-1. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?  
+"0.333") )} else {'\\null'}`
+\greyboxlines{2}
+1. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.713",
 "0.476",
 answer = "0.287", 
-"0.333") )}`
-1. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?  
+"0.333") )} else {'\\null'}`
+\greyboxlines{2}
+1. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "39.1", 
 answer = "0.642",
 "0.907",
-"0.50") )}`
-1. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?  
+"0.50") )} else {'\\null'}`
+\greyboxlines{2}
+1. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.402", 
 "2.49",
 "1.10",
-"1.24") )}`
-1. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?  
+"1.24") )} else {'\\null'}`
+\greyboxlines{2}
+1. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.391",
 "1.6",
 answer = "0.104",
-"0.287") )}`
-1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?  
+"0.287") )} else {'\\null'}`
+\greyboxlines{2}
+1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.63",
 "0.402",
 "0.50",
-answer = "1.6") )}`
+answer = "1.6") )} else {'\\null'}`
+\greyboxlines{2}
 1. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
 
 
@@ -405,21 +421,30 @@ if( knitr::is_html_output() ) {
 ```
 
 1. Classify the two variables.
+\greyboxlines{2}
 2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
+\greyboxlines{2}
 3. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
+\greyboxlines{2}
 4. Among **non-athletes**, compute the odds of receiving two or more concussions.
-Interpret what this means.
+   Interpret what this means.
+\greyboxlines{2}
 5. Among **soccer players**, compute the odds of receiving two or more concussions.
-Interpret what this means.
+   Interpret what this means.
+\greyboxlines{2}
 6. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
+\greyboxlines{2}
 7. Create a table of **column** percentages.
    What do these tell you?
+\greyboxlines{4}
 8. Create a table of **row** percentages.
    What do these tell you?
+\greyboxlines{4}
 9. Which one of these tables is probably more sensible, and why?
+\greyboxlines{2}
 
 
 
@@ -582,7 +607,7 @@ legend("top",
 *(Answers appear in Sect. \@ref(Lecture4Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
+These *optional* **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
 These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 If you need help, please **ask**.
 :::
@@ -592,10 +617,15 @@ If you need help, please **ask**.
 1. A study of drivers [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
 
    a. What **percentage** of people use their phone while driving?
+\greyboxlines{2}
    b. What are the **odds** that a person uses their phone while driving?
+\greyboxlines{2}
    c. What are the **odds** that a WA resident uses their phone while driving?
+\greyboxlines{2}
    d. What are the **odds** that a NSW resident uses their phone while driving?
+\greyboxlines{2}
    e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
+\greyboxlines{2}
 
 ```{r PDTable, echo=FALSE}
 PDTab <- array( dim = c(2, 2))
@@ -636,12 +666,19 @@ if( knitr::is_html_output() ) {
 
 2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
    a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
+\greyboxlines{2}
    b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
+\greyboxlines{2}
    c. Compute the **percentage** of cuttings that were *long*.
+\greyboxlines{2}
    d. Compute the **odds** that a cuttings was *alive* at the end of the study.
+\greyboxlines{2}
    e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
+\greyboxlines{2}
    f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
+\greyboxlines{2}
    g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
+\greyboxlines{2}
 
 
 ```{r RSTable, echo=FALSE}
@@ -698,214 +735,27 @@ A total of $380$\ SMND cases and $377$ controls were studied.
 Of the $380$\ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
 
 1. What is the *direction* of this study?
+\greyboxlines{1}
 2. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
+\greyboxlines{4}
 3. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
    Interpret what this means.
+\greyboxlines{2}
 4. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
    Interpret what this means.
+\greyboxlines{2}
 5. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
    (This is an *odds ratio*.)
+\greyboxlines{2}
 6. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
+\greyboxlines{2}
 7. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
+\greyboxlines{2}
 8. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
+\greyboxlines{1}
 9. Sketch a bar chart to display the data.
+\greyboxlines{4}
 
 
-
-### **(Optional)**  Percentages and odds {#PercentagesOdds}
-
-Endotracheal intubation (ETI) is a method for maintaining an open airway or as a method for administering certain drugs for ill patients.
-The BVM ('ball valve mask') method is also used.
-
-ETI is widely used for airway management of children in the out-of-hospital setting, but for many years little evidence was available on the effect of using ETI.
-Table\ \@ref(tab:AirwayTable) comes from a study [@data:Gausche200:Endotracheal] of using different types of endotracheal intubation on children.
-Use the table to answer the questions that follow.
-
-
-```{r AirwayTable, echo=FALSE}
-Airways <- array( dim = c(8, 4))
-
-colnames(Airways) <- c("Number", 
-                       "%", 
-                       "Number", 
-                       "%")
-rownames(Airways) <- c("Normal, no change from baseline",
-                       "No change from baseline",
-                       "Mild disability",
-                       "Moderate disability",
-                       "Severe disability",
-                       "Coma/vegetative",
-                       "Death",
-                       "Total")
-
-Airways[1, ] <- c("39", "(10%)", "33", "(8%)")
-Airways[2, ] <- c("33", "(8%)", "25", "(6%)")
-Airways[3, ] <- c("20", "(5%)", "27", "(6%)")
-Airways[4, ] <- c("6", "(1%)", "7", "(2%)")
-Airways[5, ] <- c("10", "(2%)", "6", "(1%)")
-Airways[6, ] <- c("15", "(4%)", "12", "(3%)")
-Airways[7, ] <- c("281", "(70%)", "306", "(74%)")
-Airways[8, ] <- c("404", "", "416", "")
-
-if( knitr::is_latex_output() ) {
-  kable(Airways,
-        format = "latex",
-        align = rep("r", 4),
-        booktabs = TRUE,
-        linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-        caption = "Airway management data.") %>%
-    add_header_above(header = c("  " = 1, 
-                                "BVM group " = 2, 
-                                " ETI group" = 2), 
-                     align = "c", 
-                     bold = TRUE  ) %>%
-    column_spec(1, bold = TRUE) %>%
-    row_spec(0, 
-             bold = TRUE) %>%
-    row_spec(8, 
-             bold = TRUE) %>%
-    row_spec(7, 
-             hline_after = TRUE) %>%
-    kable_styling(full_width = FALSE,
-                  font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(Airways,
-        format = "html",
-        align = rep("r", 4),
-        booktabs = TRUE,
-        linesep = c("", "\\addlinespace", "", "", "\\addlinespace", "","\\addlinespace", ""), 
-        caption = "Airway management data.") %>%
-    add_header_above(header = c("  " = 1, 
-                                "BVM group " = 2, 
-                                " ETI group" = 2), 
-                     align = "c", 
-                     bold = TRUE  ) %>%
-    column_spec(1, 
-                bold = TRUE) %>%
-    row_spec(0, 
-             bold = TRUE) %>%
-    row_spec(8, 
-             bold = TRUE) %>%
-    kable_styling(full_width = FALSE)
-}
-
-```
-
-
-1. Among people treated with BVM, compute the *percentage* that died (to the nearest percent). \tightlist  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol=0.1, answer=70)}`
-2. Among the people treated with BVM, what are the *odds* that someone died?
-Explain which one of the following calculations is correct, and **explain what the other calculations compute, and hence _why_ they are wrong**.  
-`r if( knitr::is_html_output() ) {longmcq(
-c(answer = "281/(404-281) = 2.28",
-"(404-281)/404 = 0.304",
-"281/404 = 0.696",
-"(281+306) / ( 404+416) = 0.716",
-"281/306 = 0.918"
-))}`
-`r if( knitr::is_html_output() ) {"<!--"}`
-   * $281/(404 - 281) = 2.28$
-   * $(404 - 281)/404 = 0.304$
-   * $281/404 = 0.696$
-   * $(281 + 306) / ( 404 + 416) = 0.716$
-   * $281/306 = 0.918$
-`r if( knitr::is_html_output() ) {"-->"}`
-
-3. Among people treated with ETI, the *odds* that someone died is $2.78$.
-What does this mean?  
-`r if( knitr::is_html_output() ) {longmcq(
-c(         "A patient treated with ETI has a 2.78% chance of dying.",
-"2.78% of patients treated with ETI in the study died.",
-answer = "For patients treated with ETI, about 278 die for every 100 that survive.",
-"For patients treated with ETI, about 278 live for every 100 that die."
-))}`
-
-4. How many times greater is the odds that a person treated with ETI died compared to the odds that a person treated with BVM died?  
-`r if( knitr::is_html_output() ) {fitb(num=TRUE, tol = 0.01, answer = 1.22)}`
-
-
-
-### **(Optional)**  Odds {#Odds1}
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/04-OddsStudents.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1290968278235165709/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-### **(Optional)**  Percentages { #PercentagesOdour}
-
-Industries often produce unpleasant odours, but the effects on the health of those impacted is not always clear.
-Furthermore, different communities are impacted in different ways.
-@data:Deane:OdorRefineries researched the RQ:
-
-> In Carson, California, does the odour from nearby petroleum refineries impact residents in different areas differently?
-
-One aim of the study was to determine if the reports of unpleasant odours were related to measurements made by a dynamic olfactometer (an 'electronic nose').
-Part of the data collected are shown in Table \@ref(tab:Odour).
-
-```{r Odour, echo=FALSE}
-OdourTab <- array( dim = c(4, 4))
-
-colnames(OdourTab) <- c("Area I", 
-                        "Area II",
-                        "Area III",
-                        "Total")
-rownames(OdourTab) <- c("At least once a week", 
-                        "Between once a week and once a month", 
-                        "Less often than once a month", 
-                        "Not at all")
-
-OdourTab[1, ] <- c(48, 48, 16, 112)
-OdourTab[2, ] <- c(23, 21, 10, 54)
-OdourTab[3, ] <- c(14, 14, 20, 48)
-OdourTab[4, ] <- c(12, 12, 53, 77)
-
-if( knitr::is_latex_output() ) {
-  kable(pad(OdourTab,
-            targetLength = c(2, 2, 2, 3),
-            decDigits = 0),
-        format = "latex",
-        align = "c",
-        escape = FALSE,
-        booktabs = TRUE,
-        caption = "Data on the impact of a local industry.") %>%
-    column_spec(1, 
-                bold = TRUE) %>%
-    column_spec(5, 
-                bold = TRUE) %>%
-    row_spec(0, 
-             bold = TRUE) %>%
-    kable_styling(full_width = FALSE,
-                  font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(pad(OdourTab,
-            targetLength = c(2, 2, 2, 3),
-            decDigits = 0),
-        format = "html",
-        escape = FALSE,
-        align = "c",
-        booktabs = TRUE,
-        caption = "Data on the impact of a local industry.") %>%
-    column_spec(1, 
-                bold = TRUE) %>%
-    column_spec(5, 
-                bold = TRUE) %>%
-    row_spec(0, 
-             bold = TRUE) %>%
-    kable_styling(full_width = FALSE)
-}
-```
-
-1. Explain whether the study is observational or experimental (true or quasi).
-2. What would be the meaning of *column* percentages for this table?
-3. What would be the meaning of *row* percentages for this table?
-4. Would row or column percentages probably be more sensible to use? Why?
-5. Compute the percentage of residents in the sample overall not detecting the odour at all.
 

@@ -20,6 +20,14 @@ This Appendix contains tables that may be useful:
 
 
 
+<!-- * Random numbers (Appendix\ \@ref(AppendixRandomNumbers)). -->
+The $z$-score tables provide the area *to the left* of a given $z$-score associated with a normal distribution.
+
+
+```{r, child = if (knitr::is_latex_output()) './Tables/Ztables-Using-Hardcopy-Appendix.Rmd'}
+```
+
+
 
 <!-- Appendix B: Table -->
 <!-- Forward tables -->

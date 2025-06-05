@@ -12,6 +12,8 @@
 * Numerical summaries for correlational studies.
 :::
 
+
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter 13 (Comparing quantitative data within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
@@ -20,6 +22,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter 17 (More details about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
 
 Take careful note of which chapters are covered in this tutorial!
+:::
 
 
 
@@ -67,6 +70,7 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 > There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
+\greyboxlines{3}
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458355&sec_digit=1244149825&embeded_digit=426794483' style='width:100%; height:450px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
@@ -79,12 +83,15 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 
 2. Describe the histogram.
+\greyboxlines{2}
 3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig.\ \@ref(fig:JellyfishBoxplots).
    Describe and compare the breadths of the jellyfish.
+\greyboxlines{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
 `r if( knitr::is_html_output() ) {webexercises::mcq( c(
         						  answer = "The Site A box", 
-                      "The Site B box") )}`
+                      "The Site B box") )} else {'\\null'}`
+\greyboxlines{2}
 
 
 ```{r JellyfishBoxplots, echo=FALSE, fig.cap="A boxplot of the breadth of jellyfish at two sites.", fig.align="center", out.width='50%', fig.height = 3.5, fig.width=5}
@@ -114,7 +121,7 @@ boxplot(Width ~ Location,
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
 1. Discuss in class.
-1. The sample is small, so hard to be certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers..
+1. The sample is small, so hard to be certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers.
 1. Discuss in class.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
@@ -136,7 +143,9 @@ In this activity, you get to critique actual student Project submissions, so you
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 You don't know what 'standard error' means yet, so don't worry about that column.
 :::
-	
+
+\greyboxlines{4}
+
 
 ```{r StudentsNumSumA, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="70%"}
 knitr::include_graphics("ProjectImages/StudentResults1.png")
@@ -148,6 +157,7 @@ knitr::include_graphics("ProjectImages/StudentResults1.png")
 
    The RQ is '*What is the difference between the mean burn rates of generic and brand-name sparklers?*'
 	 
+\greyboxlines{4}
 
 ```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="60%"}
 knitr::include_graphics("ProjectImages/StudentResults2.png")
@@ -162,13 +172,17 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 
 1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
 
+\greyboxlines{4}
+
 
 ```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/BareBoxplot.png")
 ```
 
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
-	 
+
+\greyboxlines{4}
+
 
 ```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='75%'}
 knitr::include_graphics("ProjectImages/DodgyBar.png")
@@ -179,6 +193,7 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
 
+\greyboxlines{4}
 
 ```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/WrongBar.png")
@@ -236,9 +251,13 @@ if( knitr::is_html_output() ) {
 For two plots, a correlation is not suitable.
 
 1. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
+\greyboxlines{3}
 2. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
+\greyboxlines{3}
 3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 2**.
+\greyboxlines{3}
 4. Compute the values of $R^2$ for each plot identified in **Part\ 1** of this question.
+\greyboxlines{4}
 
 
 
@@ -374,186 +393,5 @@ knitr::include_graphics("ArticleImages/Swinnen-Table1-Cropped.png")
 
 
 <iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-## **Optional questions** {#OptionalTW5}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture5Answers).)
-:::
-
-
-### **(Optional)**  Understanding RQs and variables {#UnderstandRqVariables}
-
-@data:heartbear:radziun2023 compared the mean accuracy with which blind and sighted individuals could count their heartbeats over varying time periods.
-For the study, sighted subjects were blindfolded (p.\ 3).
-The participants were instructed (p.\ 4):
-
-> Without manually checking, can you silently count each heartbeat you feel in your body from the time you hear 'start' to when you hear 'stop'? 
-> Do not take your pulse or feel on your chest with your hand. 
-> You are only allowed to feel the sensation of your heart beating.
-
-The process was repeated using time intervals of $25$, $30$, $35$, $40$, $45$, and\ $50\secs$.
-The time intervals were presented in random order to the subjects ($34$ blind; $36$ sighted), who received no information about the length of the time interval.
-
-Each subject was assigned a *single* accuracy score (from $0$ to\ $1$ (perfect accuracy)) by combining their results across the various time intervals.
-The study, therefore, compared the average accuracy scores blind people to sighted people.
-
-1. What type of RQ is this?
-1. What type of study is this?
-1. What are the Outcome and the response variable in this study?
-1. What are the Comparison and the explanatory variable in this study?
-1. Is there an intervention?
-   Explain.
-1. Describe the response variable (e.g., qualitative nominal; quantitative discrete).
-1. Describe the explanatory variable (e.g., qualitative nominal; quantitative discrete).
-1. What graph would be used to display the relationship?
-1. What are the units of analysis?
-1. How many units of analysis are there?
-1. How many units of observation are there for each unit of analysis? 
-
-
-### **(Optional)**  Interpreting and drawing boxplots {#DrawBoxplot}
-
-Environmentally-friendly buildings are often assumed to have a better indoor environmental quality (when occupants rate the comfort) than conventional buildings; in turn, this is assumed to have a positive impact on productivity.
-
-One group of researchers decided to test this assertion. 
-Figure\ \@ref(fig:Paul2008Table1) is taken from a study of office temperatures [@data:Paul2008:Comfort] in an environmentally-friendly building at Charles Sturt University.
-
-Operative temperatures were measured in three offices between 8am to 6pm during four weeks near the end of summer; Office\ A is located on the ground floor, while Offices B and C are located on the top floor.
-The building is not *air* conditioned.
-
-1. Use this information to construct a boxplot of the range of office temperatures for the three offices.
-2. In words, describe the relationship.
-3. Do the offices appear to provide a 'comfortable' temperature?
-4. Suppose we wanted to compare ground floor offices to top floor offices.
-   How many units of analysis would we have for this comparison?
-
-```{r Paul2008Table1, echo=FALSE, fig.align="center", fig.cap="Table 1 from Paul et al. (2008)", out.width='75%'}
-include_graphics("ArticleImages/Paul2008Table1.png")
-```
-
-
-### **(Optional)**  Selecting the correct graph {#SelectGraphs1}
-
-<iframe src="https://usc.h5p.com/content/1291016626996338939/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectCorrectGraph.Rmd'}
-```
-
-
-### **(Optional)**  Identifying appropriate graphs {#IdentifyingGraphs1}
-
-In each of the following cases:
-	
-* Identify the variables;
-* Identify what *type* of variables these are; and
-* Hence determine and justify the most appropriate graph for displaying the *relationship* of interest.
-
-In addition, draw a rough example of what the graph may look like.
-
-
-1. Meadowfoam is a plant from which oil can be extracted from its flowers, so maximising flowering is important.  
-   
-   @data:seddigh:flowers examined many individual meadowfoam plants and explored the relationship between the number of flowers each plant produced, and the number of hours of light each plant received.
-   
-   
-<iframe src="https://usc.h5p.com/content/1291014902846391579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-2. Early in the $21$st century, moves were made to ban smoking in outdoor areas of restaurants, cafes, pubs and bars.
-   However, some people thought this was unnecessary, as they believed that exposure to second-hand smoke was minimal.  
-   
-   To study this phenomenon and to inform public policy, @data:Stafford2010:Alfresco examined numerous al fresco (open air) restaurants in New Zealand.  
-   
-   They collected two pieces of information from each individual restaurant: the number of smokers present at the restaurant at the time of observation (restaurants with no smokers; restaurants with one smoker; restaurants with two or more smokers), and the concentrations of fine particulate matter (PM)  measured in the restaurant air at the same time.
-   The researchers wish to compare the PM concentrations across the three groups.
-   
-<iframe src="https://usc.h5p.com/content/1291014905631385249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-   
-   
-3. To understand the usage of hospital emergency departments (EDs) in Ireland, @data:Curran2011.Stroke examined many individual admissions.  
-   
-   For each admission to the ED, they recorded if the waiting time was short (within $3\hs$) or long ($3\hs$ or longer), and the time of day of the admission (in three divisions: $9$am to $5$pm; $5$pm to midnight; and midnight to $9$am).
-
-
-<iframe src="https://usc.h5p.com/content/1291014908484867689/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-4. Stress in children is not as well understood as stress in adults.  
-
-   To examine the issue, @data:Saunders1999:Playfulness studied many children, and for each child they determined each child's level of playfulness (measured using a quantitative scale called the *Test of Playfulness*) and each child's level of 'coping' (measured using a quantitative scale called the *Coping Inventory*).
-
-<iframe src="https://usc.h5p.com/content/1291014912258524999/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-### **(Optional)**  Selecting graphics {#SelectingGraphsH5P}
-
-<iframe src="https://usc.h5p.com/content/1290971685720511979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectingGraphs.Rmd'}
-```
-
-
-### **(Optional)**  Evaluating graphics {#EvaluateGraphsAnts}
-
-A study of the impact of ants on plant communities [@data:Sankovitz2018:nests] produced the boxplot in Fig.\ \@ref(fig:Sankovitz2018), showing the percentage of land covered by plants next to the ant nest, uphill from the ant nest, and downhill from the ant nest.
-
-
-```{r Sankovitz2018, echo=FALSE, fig.align="center", fig.cap="A graphic from Sankovitz et al. (2018", out.width='70%'}
-include_graphics("ArticleImages/Sankovitz2018.png")
-```
-
-
-1. Identify the type of study: experimental or observational.
-2. Identify the units of observation, and the units of analysis.
-3. Critique this graph.
-4. Do you think that a real difference exists between median plant coverage at different locations around the ant nest?
-   What other interesting features can be seen from the graph?
-
-
-
-
-
-### **(Optional)**  Evaluating graphics {#EvaluateGraphs1}
-
-@data:Jennings2012:Morphine studied patients in severe pain and compared two different treatments to determine which to recommend.
-Patients were randomly allocated to receive one of two pain treatments: either morphine, or morphine and ketamine.
-
-The pain reduction for each patient was then measured (using the 'pain verbal numeric rating scale': $0$ is no pain, and $10$ the worst pain imaginable, such as Australia losing the Ashes), by taking pain measurements before and after giving the treatment.
-
-The graph in Fig.\ \@ref(fig:Jennings2012) summarises the data.
-   
-```{r Jennings2012, echo=FALSE, fig.align="center", fig.cap="A graphic from Jennings et al. (2002). 'ED' means 'Emergency Department'", out.width='80%'}
-include_graphics("ArticleImages/Jennings2012-Fig2.png")
-```
-
-1. Identify the type of study: experimental or observational.
-2. Identify the units of observation, and the units of analysis.
-3. Critique this graph.
-4. What do you think the negative numbers on the graph mean?
-5. Do you think that a real difference exists between the median for the two treatments *in the population*?
-   Explain
-
-
-
-
-
-
-### **(Optional)**  Selecting graphs {#SelectGraph1}
-
-<iframe src="https://usc.h5p.com/content/1290973176373971849/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/05-SelectingGraphs2.Rmd'}
-```
 
 

@@ -9,9 +9,11 @@
 :::
 
 
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 33 (Correlation and regression)](https://bookdown.org/pkaldunn/SRM-Textbook/CorrelationRegression.html)
+:::
 
 
 ## Quick revision {#QuickRevision-Tutorial11}
@@ -32,28 +34,33 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("The number of seeds", 
           answer = "The grams of mud",
-          "The season") )}`
+          "The season") )} else {'\\null'}`
+\greyboxlines{2}
 1. In this study, what variable would be the $y$-variable?  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "The number of seeds", 
           "The grams of mud",
-          "The season") )}`
+          "The season") )} else {'\\null'}`
+\greyboxlines{2}
 1. What is the value of $R^2$?  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "86.7%", 
           "93.1%",
-          "96.5%") )}`
+          "96.5%") )} else {'\\null'}`
+\greyboxlines{2}
 1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?  
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "380", 
           "96422",
-          "-104") )}`
+          "-104") )} else {'\\null'}`
+\greyboxlines{2}
 1. In this regression equation, the slope means:
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("Each seed is associated with 137.4 extra grams of mud on average",
           "Each seed is associated with 0.3459 extra grams of mud on average",
 	        "Each 1g of mud is associated with 137.4 extra seeds on average",
-          answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )}`
+          answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )} else {'\\null'}`
+\greyboxlines{2}
 :::
 
 
@@ -80,8 +87,11 @@ On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationshi
 
 1. Draw or estimate the 'best' straight regression line (where appropriate).
 2. From the line in **Part\ 1.** above, estimate the **slope** for each line.
+\greyboxlines{4}
 3. From the line in **Part\ 1.** above, estimate the **intercept** for each line.
+\greyboxlines{4}
 4. Then write down an estimate of the regression line equation.
+\greyboxlines{4}
 
 
 ```{r Guesses, echo=FALSE, fig.cap="Six different scatterplots.", fig.align="center", fig.width=5, fig.height=8, out.width="85%"}
@@ -253,7 +263,9 @@ box()
 
 
 1. Describe the relationship displayed in the graph in words. \tightlist
+\greyboxlines{2}
 2. What else could influence the price of a second-hand Corollas? 
+\greyboxlines{3}
 3. `r if (knitr::is_latex_output()) {
       'With a ruler or another straight edge (such as a book), draw an estimate of the regression line on the scatterplot.'
    } else {
@@ -261,30 +273,44 @@ box()
    }`
 4. On the scatterplot, locate a seven-year-old Corolla selling for $15\,000.
    Would this be cheap or expensive?
+\greyboxlines{2}
 5. As stated, I removed one observation: a $13$-year-old Corolla for sale at $390\,000.
    What do you think the price was meant to be listed as, by looking at the scatterplot?
 	 Explain.
+\greyboxlines{2}
 6. *Estimate* the value of\ $b_0$ (the intercept) from the line you drew.
    What does this mean?
    Do you think this value is meaningful?
+\greyboxlines{3}
 7. *Estimate* the value of\ $b_1$ (the slope) from the line you drew.
    What does this mean?
    Do you think this value is meaningful?
+\greyboxlines{3}
 8. From the line you drew above, write down an *estimate* of the regression equation.
+\greyboxlines{3}
 9. Use the software output (Fig.\ \@ref(fig:CorollasPriceAgeCorrelationjamovi) and Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi) (jamovi)) relating the price (in thousands of dollars) to age to write down the regression equation.
+\greyboxlines{2}
 10. Using the software output, write down the value of\ $r$.
     Using this value of\ $r$, compute the value of\ $R^2$.
     What does this mean?
+\greyboxlines{3}
 11. Use the regression equation from the software output to estimate the sale price of a Corolla that is $20$\ years old, and explain your answer. \tightlist
+\greyboxlines{3}
 12. Using the software output, perform a suitable hypothesis test to determine if there is evidence that lower prices are associated with older Corollas.
+\greyboxlines{4}
 13. Compute an approximate $95$% confidence interval for the population slope (use the software output in **Fig.\ \@ref(fig:CorollasPriceAgeRegressionjamovi)**).
+\greyboxlines{4}
 14. I could have drawn a scatterplot with Price on the vertical (up-and-down) axis and Year of manufacture on the horizontal (left-to-right) axis (**Fig. \@ref(fig:CorollasPriceYear)**).
     For this  graph:
 
     a. What is the value of the correlation coefficient?
+\greyboxlines{2}
     b. How would the value of\ $R^2$ change?
+\greyboxlines{2}
     c. How would the value of the slope change?
+\greyboxlines{2}
     d. How would the value of the intercept change?
+\greyboxlines{2}
 
 
 ```{r CorollasPriceAgeCorrelationjamovi, echo=FALSE, fig.cap="The jamovi correlation output, analysing the Corolla data.", fig.align="center", out.width="57%"}
@@ -341,54 +367,6 @@ box()
 Draw the regression line corresponding to $\hat{y} = 5 + 2x$ for values of $x$ between\ $0$ and\ $10$.
 
 1. Add some points to the scatterplot such that the correlation is approximately $r = 0.9$.
+\greyboxlines{5}
 2. Add some more points to the scatterplot such that the correlation is approximately $r = 0.3$.
-
-
-## **Optional questions** {#OptionalTW11}
-
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture11Answers).)
-:::
-
-
-### **(Optional)**  Identifying the correct analysis {#IdentifyCorrectAnalysisAgain}
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/11-IdentifyAnalysis2.Rmd'}
-```
-
-
-<iframe src="https://usc.h5p.com/content/1290972483879075319/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-### **(Optional)**  Reading scatterplots {#ReadScatterplotHeathers}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Researchers in New Zealand were interested in:
-
-> ...the behaviour of heather (*Calluna vulgaris*) in Tongariro National Park...:  the potential for herbicidal control; likely changes in secondary vegetation if biological control is effective; some aspects of its demography; and, finally, whether heather acts to facilitate or impede rates of native shrub invasion of red tussock grassland.
->
-> --- @data:Rogers1996:Heather
-
-The graph in Fig.\ \@ref(fig:Stems) comes from this study examining heather in the central North Island of New Zealand.
-
-```{r Stems, echo=FALSE, fig.cap="Figure 2 (top panel) from Rogers (1996).", fig.align="center", out.width="45%"}
-include_graphics("ArticleImages/Kelly2005-Regression.png")
-```
-
-1. Identify a possible research question being answered by the graph.
-2. Critique the graph.
-3. Compute the value of\ $r$, and interpret.
-4. What are the values of\ $b_0$ and\ $b_1$.
-5. For a stem age of $20$\ years, what does the regression model predict as the mean stem diameter?
-6. Interpret the meaning of the slope and intercept in the regression equation.
-   Comment on these interpretations.
-
+\greyboxlines{5}

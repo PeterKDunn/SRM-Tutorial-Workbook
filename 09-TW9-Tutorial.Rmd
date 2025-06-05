@@ -9,11 +9,13 @@
 :::
 
 
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 
 * [Chapter\ 29 (CIs and tests: mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisPaired.html).
 * [Chapter\ 30 (CIs and tests: comparing two means)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisTwoMeans.html)
+:::
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -47,21 +49,23 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
   webexercises::longmcq( c(
   "The researchers made a calculation error.",
   answer = "The researchers calculated an exact $95$% CI (not an approximate $95$% CI).",
-  "The statistical validity conditions are not met.")) }`
+  "The statistical validity conditions are not met.")) } else {'\\null'}`
+\greyboxlines{2}
 1. The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. 
    True or false? \tightlist 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
 1. One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
    True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. We are $95$% confident that the difference between the population means is:   
+1. We are $95$% confident that the difference between the population means is:
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("Larger for coeliacs", 
           "Smaller for coeliacs",
           answer = "Between 2.32 higher for non-coeliacs to 2.76 higher for coeliacs.",
           "Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs.")
 	  )
-}`
+} else {'\\null'}`
+\greyboxlines{2}
 1. The *null* hypothesis is $H_0$: $\mu_{C} = \mu_{NC}$. 
    True or false?  
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
@@ -156,17 +160,27 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 
 
 1. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
+\greyboxlines{1}
 2. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
+\greyboxlines{2}
 3. Explain why these data should be analysed as *paired* data.
+\greyboxlines{2}
 4. Compute the *changes* in 2MWT for each patient.
 5. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
+\greyboxlines{2}
 6. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
+\greyboxlines{2}
 7. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
+\greyboxlines{2}
 8. Explain the *meaning* of the standard error of the mean difference in this context.
+\greyboxlines{2}
 9. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
+\greyboxlines{2}
 10. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
+\greyboxlines{4}
 11. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
+\greyboxlines{4}
 
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458370&sec_digit=963714428&embeded_digit=2120791150' style='width:100%; height:500px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
@@ -193,11 +207,16 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
     - $\mu_{\text{With implant}} > 0$
 
 13. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
+\greyboxlines{3}
 14. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
+\greyboxlines{2}
 15. Write a statement that communicates the result of the test.
+\greyboxlines{2}
 16. What conditions must be met for this test to be valid?
+\greyboxlines{2}
 17. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
+\greyboxlines{2}
 
 ```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
 knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
@@ -247,9 +266,13 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:RatLifetimesDatajamovi)).
 
 1. Explain why this study compares two *independent* groups. \tightlist
-2. Carefully define **parameter** of interest.
+\greyboxlines{2}
+2. Carefully define **parameter** of interest, including the *direction*.
+\greyboxlines{2}
 3. Use the jamovi output (Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1)) to prepare a numerical summary table.
+\greyboxlines{4}
 4. Use the jamovi output to write down the appropriate $95$%\ CI, to estimate the *difference* between the population means.
+\greyboxlines{4}
 5. Which of these short statements best communicates this CI? 
    **Why** are the other statements incorrect?
 
@@ -262,17 +285,27 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 6. The above statement communicating the CI isn't perfect. 
    Why not?
    Write an improved statement communicating the CI.
+\greyboxlines{2}
 7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig.\ \@ref(fig:RatsBoxErrorbar).
+\greyboxlines{2}
 8. Write down the hypotheses being tested. 
    Is this a one- or a two-tailed test? Explain.
+\greyboxlines{2}
 9. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
+\greyboxlines{2}
 10. Write down the $t$-score and the appropriate $P$-value, using the output in Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1) .
+\greyboxlines{4}
 11. Calculate the $t$-score (using the standard error as given in the output), and show it is the same value as given in the output.
+\greyboxlines{4}
 12. Make a conclusion, in context.
+\greyboxlines{2}
 13. What conditions are necessary for the CI and test to be statistically valid?
+\greyboxlines{2}
 14. Is it reasonable to assume these conditions are satisfied?
     How does Fig.\ \@ref(fig:RatsBoxErrorbar). help, if at all?
+\greyboxlines{2}
 15. What if all these rats only came from only $20$ litters?
+\greyboxlines{2}
 
    
 
@@ -352,400 +385,4 @@ lines(x = c(2 - ebline,
 ```{r Berger1988SummaryHTjamovi1, echo=FALSE, fig.cap="The jamovi output summarising the rat lifetimes data.", fig.align="center", fig.align="center", out.width="100%"}
 knitr::include_graphics("SoftwareImages/RatLivesOutput-jamovi.png")
 ```
-
-
-## **Optional questions** {#OptionalTW9}
-
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture9Answers).)
-:::
-
-
-### **(Optional)**  CIs and tests for paired samples {#PairedTestRunners}
-
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-After a number of runners collapsed near the finish of the Tyneside annual Great North Run, researchers decided to study the role of $\beta$\ endorphins as a factor in the collapses.
-($\beta$\ endorphins are a peptide which suppress pain.) 
-
-A study [@data:Dale:FunRun] examined what happened with plasma $\beta$ endorphins during fun runs: how much do the concentrations change, on average?
-The researchers recorded the plasma $\beta$ concentrations in fun runners (participating in the Tyneside Great North Run).
-Eleven runners (who did not collapse) had their plasma $\beta$ concentrations measured (in pmol/litre) before and after the race (Table\ \@ref(tab:RunnerTab).)
-
-
-```{r RunnerTab, echo=FALSE}
-RunnerTab <- array( dim = c(11, 3))
-
-RunnerTab[, 1] <- c( 4.3,  4.6,  5.2,  5.2,  6.6,  7.2,  8.4,  9.0, 10.4, 14.0, 17.8)
-RunnerTab[, 2] <- c(29.6, 25.1, 15.5, 29.6, 24.1, 37.8, 20.1, 21.9, 14.2, 34.6, 46.2)
-RunnerTab[, 3] <- RunnerTab[, 2] - RunnerTab[, 1]
-
-colnames(RunnerTab) <- c("Before race", 
-                         "After race",
-                         "Increase")
-if( knitr::is_latex_output() ) {
-  kable(pad(RunnerTab,
-            decDigits = 1,
-            targetLength = 4),
-      format = "latex",
-      escape = FALSE,
-      booktabs = TRUE,
-      align = "c",
-      linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race.") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(pad(RunnerTab,
-            decDigits = 1,
-            targetLength = 4),
-      format = "html",
-      escape = FALSE,
-      booktabs = TRUE,
-      linesep = c("", "", "", "\\addlinespace", "", "", "\\addlinespace", "", "", "", ""),
-      caption = "Plasma-beta concentration for runners, before and after the race.") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-The 'usual' value for\ $\beta$ endorphines is usually less than about $11$\ pmol/litre. 
-      
-1. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context? \tightlist
-2. Explain why these data should be analysed as mean differences.
-3. Compute the changes in plasma $\beta$\ endorphin concentration during the run (i.e. the 'differences').
-   (Although it doesn't really matter, why does it probably makes more sense to compute the *after* values minus the *before* values?)
-4. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences.
-5. Compute the standard error of the mean difference. 
-   Explain what this means in this context.
-6. If another sample of eleven runners were studied, would the same sample mean difference be computed?
-   How much variation would be expected in the sample means found from different samples?
-7. Compute an approximate $95$% CI for the population mean difference in plasma $\beta$\ concentrations.
-8. Which of the following is the correct null hypothesis for this question? 
-   **Why** are the others incorrect?
-   Is the test one- or two-tailed?
-
-    a. $\mu_{\text{Before}} = \mu_{\text{After}}$
-    b. $\mu_{\text{Difference}} = 0$
-    c. $\mu_{\text{Before}} = 0$
-    d. $\mu_{\text{After}} = 0$
-    e. $\mu_{\text{Before}} < \mu_{\text{After}}$
-    f. $\mu_{\text{Difference}} > 0$
-    g. $\mu_{\text{Before}} < 0$
-    h. $\mu_{\text{After}} > 0$
-
-9. Write down the value of the $t$-statistic, then estimate the $P$-value (using the $68$--$95$--$99.7$ rule).
-10. Write a statement that communicates the result of the test.
-11. What conditions must be met for this test to be valid?
-12. Is it reasonable to assume the assumptions are satisfied? 
-   How does the histogram in Fig.\ \@ref(fig:FunRunSPSSHisto) help, if at all?
-
-
-```{r FunRunjamovi, echo=FALSE, fig.cap="Output from jamovi for the fun run example, partially edited.", fig.align="center", out.width="100%"}
-include_graphics("SoftwareImages/FunRunOutputCut3-jamovi.png")
-```
-
-
-```{r FunRunSPSSHisto, echo=FALSE, fig.cap="Histogram of differences for the fun run example.", fig.align="center", out.width="60%", fig.width=5, fig.height = 3}
-FRdiffs <- RunnerTab[, 3]
-hist( FRdiffs,
-      xlab = "Differences in beta endorphins",
-      ylab = "Frequency",
-      main = "Histogram of increases in beta\nendorphins concentrations",
-      las = 1)
-```
-
-
-
-### **(Optional)**  CI and test for mean differences (paired data) {#CIPairedWaves}
-
-Wave power has been considered as a [source of energy since 1890](http://www.outsidelands.org/wave-tidal3.php), but the engineering necessary to successfully and practically harness this energy is complex. 
-
-To understand one method of harnessing this energy, one study [@data:hand:handbook] examined the bending stress (in Newton--metres) in part of a device used to generate electricity from wave power.
-Two different mooring types were compared (Table\ \@ref(tab:mooringCI)) in $n = 18$ different sea states.
-
-
-```{r echo=FALSE}
-inTableWebex <- function(x){
-  # Fixes the output of  webex  when used in a table.
-  # It appear to replace the leading and trailing <  and  >
-  # with the html codes:  &lt;  and  &gt;
-  # This function restores them to  <  and  >
- x <- sub("&lt;", "<", x)
- x <- sub("&gt;", ">", x)
- x
-}
-```
-
-```{r mooringCI, echo=FALSE, warning=FALSE}
-WaveTab <- array( dim = c(18, 3) )
-
-WaveTab[, 1] <- c(2.23,  2.55,  7.99,  4.09,  9.62,  1.59,  8.98,  0.82, 10.83,  1.54, 10.75,  5.79,  5.91,  5.79,  5.50,  9.96,  1.92,  7.38)
-WaveTab[, 2] <- c(1.82,  2.42,  8.26,  3.46,  9.77,  1.40,  8.88,  0.87, 11.20,  1.33, 10.32,  5.87,  6.44,  5.87,  5.30,  9.82,  1.69,  7.41)
-
-WaveTab[, 3] <- round(WaveTab[, 1] - WaveTab[, 2], 2)
-
-
-colnames(WaveTab) <- c("Method 1",
-                       "Method 2",
-                       "Differences")
-  
-if( knitr::is_html_output() ) {
-  WaveTab[15, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[15, 3]))
-  WaveTab[16, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[16, 3]))
-  WaveTab[17, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[17, 3]))
-  WaveTab[18, 3] <- inTableWebex(webexercises::fitb(num = TRUE, 
-                                                    tol = 0.001, 
-                                                    width = 6, 
-                                                    answer = WaveTab[18, 3]))
-} else {
-  WaveTab[c(15:18), 3 ] <- "\\_\\_\\_\\_"
-}
-
-if( knitr::is_latex_output() ) {
-  kable(pad(WaveTab,
-            decDigits = 2,
-            targetLength = 5),
-      format = "latex",
-      booktabs = TRUE,
-      escape = FALSE,
-      align = c("c", "c", "c"),
-      caption = "The bending stress using two different mooring methods.") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(WaveTab,
-      format = "html",
-      booktabs = TRUE,
-      escape = FALSE,
-      align = c("r", "r", "r"),
-      caption = "The bending stress using two different mooring methods.") %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-
-	
-1. Explain *why* these data should be analysed as mean differences.
-2. Compute the sample differences (most have been done for you).
-3. Using the statistics mode on your calculator, compute the sample mean and the sample standard deviation of these differences.
-4. Compute the standard error of the mean difference. 
-   What does this value mean?
-5. Compute an approximate $95$%\ CI for the population mean difference in two methods.
-6. Conduct a hypothesis test to determine if the mean bending stress is different between the two methods.
-7. What conditions must be met for this CI and test to be statistically valid?
-8. Is it reasonable to assume the CI and test are statistically valid?  
-   Draw a stem-and-leaf plot to check.
-
-
-### **(Optional)**  CI for differences between two means {#PizzaHT}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-	  
-In 2011, *Eagle Boy's Pizza* ran a campaign [@mypapers:Dunn:PizzaSize] that claimed that Eagle Boy's pizzas were larger than *Domino's* large pizzas.
-Eagle Boy's made the data behind the campaign publicly available.
-
-Each sample contained similar pizzas types (the three toppings were: supreme, Hawaiian, meat-lovers; the three base types were deep, thin, mid).
-
-Some output from a sample of $125$ of Eagle Boys' and Domino's large pizzas is shown in Fig.\
-\@ref(fig:PizzaSizeComparejamovi) (jamovi).
-
-```{r PizzaSizeComparejamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boy's and Domino's large pizzas, from jamovi", fig.align="center", out.width="98%"}
-include_graphics("SoftwareImages/PizzaSizeCompare-jamovi.png")
-```
-
-1. Explain whether the study is observational or experimental (true or quasi). \tightlist
-2. Identify the type of research question is being answered:
-   descriptive, relational, repeated-measures or correlational?
-   Explain.
-3. Two students are arguing about this study.
-   One claims that the study compares *two independent samples*, because the pizzas have come from two different companies completely.
-   The other student argues that the study has *paired samples*, because each store has the same types of pizzas in the sample (e.g.\ both have supreme, Hawaiian and meat-lovers pizzas).  
-	 
-   With whom do you agree?
-   Why?
-4. Write down the CI to estimate the difference in population means.
-5. What does the right panel of Fig.\ \@ref(fig:PizzaSizeBoxplots) communicate?
-6. Conduct a hypothesis tests to compare the two brands.
-7. What condition must hold for the CI to be statistically valid?
-8. Is it reasonable to assume these conditions are satisfied? 
-   (You may need to refer Fig.\ \@ref(fig:PizzaSizeBoxplots).)
-9. *Eagle Boy's* claimed that their pizzas are 'larger' than Domino's pizzas.
-   Do you agree or disagree?  
-   Why?
-   What other information would be helpful for answering this question?
-
-
-
-```{r PizzaSizeBoxplots, echo=FALSE, fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the pizza size data.", fig.show="hold", fig.align="center", out.width='90%', fig.width=8, fig.height=4}
-data(PizzaSize)
-
-par(mfrow = c(1, 2))
-
-# Boxplot
-boxplot( DiameterInches ~ Store,
-         data = PizzaSize,
-         las = 1,
-         names = c("Dominos",
-                   "Eagle Boys"),
-         main = "Boxplot of pizza\ndiameters",
-         xlab = "Company",
-         ylab = "Diameter (in inches)")
-
-# Error bar chart
-ebline <- 0.15
-
-mns <- tapply( PizzaSize$DiameterInches,
-               list(PizzaSize$Store),
-               "mean")
-ses <- tapply( PizzaSize$DiameterInches,
-               list(PizzaSize$Store),
-               function(x){ sd(x)/sqrt(length(x))} )
-groups <- 1:2
-
-plot( mns ~ groups,
-      main = "Error bar chart for pizza\ndiameter data",
-      ylim = c(10.5, 11.6),
-      xlim = c(0.5, 2.5),
-      las = 1,
-      axes = FALSE,
-      xlab = "Company",
-      ylab = "Diameter (in inches)")
-axis(side = 2,
-     las = 1)
-axis(side = 1,
-     at = 1:2,
-     labels = c("Dominos", 
-                "Eagle Boys"))
-box()
-
-
-# Left error bar
-lines( x = c(1, 1),
-       y = c(mns[1] - 2 * ses[1],
-             mns[1] + 2 * ses[1]) )
-
-lines(x = c(1 - ebline,
-            1 + ebline),
-      y = c(mns[1] - 2 * ses[1],
-            mns[1] - 2 * ses[1]) )
-lines(x = c(1 - ebline,
-            1 + ebline),
-      y = c(mns[1] + 2 * ses[1],
-            mns[1] + 2 * ses[1]) )
-
-# Right error bar
-lines( x = c(2, 2),
-       y = c(mns[2] - 2 * ses[2],
-             mns[2] + 2 * ses[2]) )
-lines(x = c(2 - ebline,
-            2 + ebline),
-      y = c(mns[2] - 2 * ses[2],
-            mns[2] - 2 * ses[2]) )
-lines(x = c(2 - ebline,
-            2 + ebline),
-      y = c(mns[2] + 2 * ses[2],
-            mns[2] + 2 * ses[2]) )
-#include_graphics("SoftwareImages/PizzaSizeBoxplot.png")
-#include_graphics("images/SPACER.png")
-#include_graphics("SoftwareImages/PizzaSizeErrorBar.png")
-```
-
-
-
-### **(Optional)**  Tests for comparing the mean from two independent samples {#TwoMeansBatteriesHT}
-
-*(Answers available in Sect. \@ref(Lecture10Answers))*
-	
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Batteries are expensive, so comparing the performance of expensive and cheap batteries is helpful.
-
-A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time for two brands of $1.5\vs$ batteries to reduce their voltage to $1.0\vs$ under standard testing conditions.
-
-The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTableHT).
-
-```{r BattTableHT, echo=FALSE}
-BattTab <- array( "", 
-                  dim = c(2, 9))
-
-BattTab[1, ] <- c(7.58, 7.46, 7.46, 7.59, 7.46, 7.52, 6.83, 6.89, 7.45)
-BattTab[2, ] <- c(7.50, 7.48, 7.47, 7.48, 7.48, 7.41, 7.47, 6.96, 7.48)
-
-rownames(BattTab) <- c("Energizer", 
-                       "Ultracell")
-
-if( knitr::is_latex_output() ) {
-  kable(BattTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours).") %>%
-  column_spec(1, bold = TRUE) %>%
-  kable_styling(font_size = 10)
-
-}
-if( knitr::is_html_output() ) {
-  kable(BattTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "The times taken for batteries to go from $1.5$ volts to $1.0$ volts, in hours).") %>%
-  column_spec(1, bold = TRUE)
-}
-```
-
-
-1. Write the hypotheses for testing the research question of interest. 
-   Is the test one- or two-tailed? \tightlist
-2. Explain the meaning of the standard error of the mean in this context.
-3. The software output for the analysis is shown in Fig.\ \@ref(fig:ALDIBatteriesTwoSampleTjamovi).
-   Determine the value of the $t$-statistic and the $P$-value for testing the hypotheses.
-4. Write a statement that communicates the result of the test.
-5. What conditions must be met for this test to be valid?
-6. Is it reasonable to assume the assumptions are satisfied? 
-7. What did you learn from this study?  
-
-   At the time of this analysis, a four-pack of the Ultracell Max batteries cost $2.49 from ALDI online, while a four pack of Energizer Max from Woolworths online cost $5.97 on special (usually $8.01)^[Data from 05 September 2012.].  
-   
-   On the basis of this information, would you be prepared to try the Ultracell batteries?
-   Explain your reasoning.
-   
-
-```{r ALDIBatteriesTwoSampleTjamovi, echo=FALSE, fig.cap="Output from jamovi for the battery data.", fig.align="center", out.width="100%"}
-include_graphics("SoftwareImages/ALDIBatteries-TwoSampleTjamoviOutput.png")
-```
-
-
-### **(Optional)**  Assumptions for two-sample tests {#AssumptionsGraphs}
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-AssumptionsSatisfied.Rmd'}
-```
-
-<iframe src="https://usc.h5p.com/content/1290972425279403419/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

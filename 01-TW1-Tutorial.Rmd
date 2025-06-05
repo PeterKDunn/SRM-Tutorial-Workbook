@@ -39,35 +39,42 @@ Consider this RQ (based on @data:jaworowska2012:determination):
                       answer = "Relational",
                       "Repeated-measures",
                       "Correlational") )} else {'Descriptive, relational, repeated-measures or correlational?'}`
+\greyboxlines{1}
 1.  What *type* of RQ is this? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Estimation", 
                       answer = "Decision-making") )} else {'Estimation or decision-making?'}`
-1.  Is an *intervention* present?
+\greyboxlines{1}
+1.  Is an *intervention* present?\tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Yes", 
-                      answer = "No"))}`
-1.  What is the *outcome* in this RQ?  
+                      answer = "No") )} else {'\\null'}`
+\greyboxlines{2}
+1.  What is the *outcome* in this RQ?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "The amount of salt",
         						   answer = "The average amount of salt", 
                       "The average amount of salt in Chinese and Indian take-away meals",
-                      "London take-away restaurants") )}`
-1.  What is the *response variable*?  
+                      "London take-away restaurants") )} else {'\\null'}`
+\greyboxlines{1}
+1.  What is the *response variable*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The average amount of salt", 
                       answer = "The amount of salt in each meal",
-                      "The type of London take-away restaurant") )}`
+                      "The type of London take-away restaurant") )} else {'\\null'}`
+\greyboxlines{3}
 1.  What is the *unit of analysis*?  
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+`r if( knitr::is_html_output() ) {  webexercises::longmcq( c(
         						   "The restaurants", 
                        "The meals",
-                       answer = "We need more information about how the data were collected") )}`
+                       answer = "We need more information about how the data were collected") )} else {'\\null'}`
+\greyboxlines{1}
 1.  What is the *unit of observation*?  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "The restaurants", 
                       answer = "The meals",
-                      "It's hard to know: we need more information about how the data were collected") )}`
+                      "It's hard to know: we need more information about how the data were collected") )} else {'\\null'}`
+\greyboxlines{1}
 
 :::
 
@@ -125,8 +132,11 @@ As a result, the owner decides to conduct a study of his customers.
     
     a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
+\greyboxlines{2}
 1. Develop your own RQ to answer the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner's question, by describing P, O, C and I (where relevant).
+\greyboxlines{3}
 1. Make notes about *how* the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner could gather data to answer the RQ.
+\greyboxlines{3}
 
 
 
@@ -260,9 +270,9 @@ Nim considers studying Jane's assertion as a **feasible** and **practical** SCI1
     b. Female university students about to do an exam.
     c. UniSC students.
     d. Queensland university students.      	 
-
 2. Identify an *outcome* that Nim can measure to answer the research question.
    Justify your answer.
+\greyboxlines{3}
 3. Which of these *between-individuals comparisons* do you think Nim should use?
    Why?
     a. Between drinking Earl Grey tea and coffee.
@@ -271,13 +281,20 @@ Nim considers studying Jane's assertion as a **feasible** and **practical** SCI1
     d. Between exam time and other times of the semester.
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
+\greyboxlines{3}
 5. Construct a well-worded *relational* research question *with an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
+\greyboxlines{3}
 6. *Briefly* describe an *experimental* study for answering your proposed research question.
+\greyboxlines{3}
 7. Construct a well-worded *relational* research question *without an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
+\greyboxlines{3}
 8. *Briefly* describe an *observational* study for answering your proposed research question.
+\greyboxlines{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
+\greyboxlines{3}
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
+\greyboxlines{2}
 
 
 
@@ -297,7 +314,7 @@ Bamboo is a fast-growing, strong grass often used for environmentally-friendly b
 A small research study explored the hardness of bamboo when used as flooring material.
 
 The *Janka hardness*^[The force required to embed an $11.28\mms$ steel ball into wood to a depth of half the diameter of the ball.] of bamboo flooring provided by Bamboo Flooring Australia Pty Ltd was measured by the Queensland Department of Primary Industries [@data:Gerber:BambooFlooring].
-Five floorboards were taken, and two hardness measurements were taken on each board  (units probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
+Five floorboards had two hardness measurements taken on *each* board  (units probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
 ```{r JankaBoards, echo=FALSE}
@@ -339,12 +356,17 @@ if( knitr::is_html_output() ) {
 
 1. What is the unit of analysis: the test, the board, each measurement, kilonewtons, or something else? 
    Explain your answer.
+\greyboxlines{2}
 2. How many units of analysis are there?
+\greyboxlines{1}
 3. How many units of observation are there?
+\greyboxlines{1}
 4. Suppose the measurements were all taken from $10$\ *different* places on the *same* board (rather than from five different boards).
    How many units of analysis are there now?
    Explain your answer.
+\greyboxlines{3}
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
+\greyboxlines{2}
 
 
 
@@ -376,8 +398,8 @@ to help you understand some of the words used in the content.
 <iframe src="https://usc.h5p.com/content/1291418275333983599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete.", fig.align="center", out.width='75%', eval=is_latex_output()}
-knitr::include_graphics("images/Crossword-Week1.PNG")
+```{r Crossword-Week1-Terminology, echo=FALSE, fig.cap="A crossword to complete.", fig.align="center", out.width='70%', eval=is_latex_output()}
+knitr::include_graphics("images/Crossword-Week1.png")
 ```
 
 
@@ -437,60 +459,6 @@ knitr::include_graphics("images/Crossword-Week1.PNG")
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-IdentifyStudyTypes.Rmd'}
-```
-
-
-
-
-### **(Optional)**  Identifying poor RQs {#IdentifyingPoorRQs}
-
-Critique the following research questions, outlining how and why they can be improved (if at all).
-
-1. Among domestic watertanks used in southeast Queensland, are lead concentrations in water in concrete tanks higher than in poly tanks?
-2. Are lower-limb amputees more likely to die? 
-3. Is the amount of salt the same for homebrand as for non-homebrand beans?
-4. Among zoo animals, is the weight of adult elephants greater than that of juvenile kangaroos (joeys)?
-5. Is the average reaction time related to gender?
-
-What words or terms might need defining for each RQ?
-
-
-
-
-### **(Optional)**  Understanding the terminology {#TerminologyLead}
-
-
-<iframe src="https://usc.h5p.com/content/1291038891992762249/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-TerminologyLead.Rmd'}
-```
-
-
-
-### **(Optional)**  Units of analysis, and units of observation {#Units2}
-
-<!-- ADAPTED FROM : Oehlert.pdf, p. 8. -->
-
-<iframe src="https://usc.h5p.com/content/1290971658775044979/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-UnitsIngots.Rmd'}
-```
-
-
-
-
-### **(Optional)**  Units of analysis, and units of observation {#Units3}
-
-<iframe src="https://usc.h5p.com/content/1290971662517623069/embed" width="1088" height="480" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/01-UnitsFish.Rmd'}
 ```
 
 

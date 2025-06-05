@@ -9,13 +9,14 @@
 :::
 
 
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 21 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
 * [Chapter\ 22 (Confidence intervals: one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
 * [Chapter\ 23 (Confidence intervals: one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
 * [Chapter\ 24 (More details about CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
-
+:::
 
 
 ## Quick revision {#QuickRevision-Tutorial7}
@@ -90,24 +91,30 @@ There's only $44$\ matches in this box.'
 
 
 1. What is Jake's misunderstanding? \tightlist
+\greyboxlines{2}
 2. Then, they counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.
    
    Jake notes that the mean is $44.9$\ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
    How would you respond?
+\greyboxlines{2}
 3. 'Wow!' said Jake.
    'The claim is $45$\ matches per box on average, but the mean really is $44.9$!
    They're liars!  Liar, liar, pants on...'  
    
    What is Jake's misunderstanding?
+\greyboxlines{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
+\greyboxlines{2}
 5. 'Come on, Jake,' said Claire.
    'As if the mean will be *exactly* $45$ in a sample every single time.
    Let's work out the confidence interval.'  
    
    Why does Claire think a CI is needed?
    What will it tell them?
+\greyboxlines{2}
 6. What is an approximate $95$% confidence interval for the mean for Claire's sample?
+\greyboxlines{2}
 7. 'Aha---I told you so!  They *are* absolutely lying!
    Your confidence interval doesn't even include their mean of $45$!' said Jake.
    'The manufacturer *must* be lying!'  
@@ -115,10 +122,13 @@ There's only $44$\ matches in this box.'
    Is Jake correct?
    Why or why not?
    What does the CI *mean*?
+\greyboxlines{2}
 8. In this scenario, what does\ $\bar{x}$ represent?
    What is the *value* of\ $\bar{x}$?
+\greyboxlines{2}
 9. In this scenario, what does\ $\mu$ represent?
    What is the *value* of\ $\mu$?
+\greyboxlines{2}
 
 
 ## Standard error for a proportion {#SEproportions}
@@ -147,19 +157,29 @@ knitr::include_graphics("ArticleImages/Gausche2000-PartialAbstract.png")
 
 1. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute the sample *odds* of a patient who survived.
+\greyboxlines{2}
 2. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute an estimate of the population *proportion* of patients who survive.
+\greyboxlines{2}
 3. Explain the difference between the meaning of the two above calculations.
+\greyboxlines{2}
 4. In another sample of $404$\ patients who received the BVM treatment, would we expect to find *exactly* $123$ surviving?
    Why or why not?
+\greyboxlines{2}
 5. Compute the *standard error* of\ $\hat{p}$, which indicates the sampling variability in the estimate of\ $p$.
    Explain what is meant by the term 'sampling variation' in this context.
+\greyboxlines{2}
 6. Every time a new sample is chosen, the sample will likely yield a different value for\ $\hat{p}$.
    Sketch the distribution that shows how much the value of\ $\hat{p}$ is likely to change from one sample to the next.
+\greyboxlines{4}
 7. Compute an approximate $95$% confidence interval for the population proportion based on the sample proportion.
+\greyboxlines{4}
 8. Write a sentence communicating this confidence interval.
+\greyboxlines{4}
 9. If the researchers wished to estimate the true survival proportion to within give-or-take $0.01$ with $95$% confidence, would the sample size need to be *larger* or *smaller*?
+\greyboxlines{2}
 10. Confirm that the conditions necessary for this calculation to be statistically valid are met.
+\greyboxlines{2}
    
    
    
@@ -185,16 +205,26 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 ```
 
 1. What do\ $\mu$ and\ $\bar{x}$ represent in this context? \tightlist 
+\greyboxlines{2}
 2. Write down the *values* of\ $\mu$ and\ $\bar{x}$.
+\greyboxlines{2}
 3. Write down the *values* of\ $\sigma$ and\ $s$.
+\greyboxlines{2}
 4. Compute the value of the standard error of the mean.
+\greyboxlines{2}
 5. Explain the difference in *meaning* between $s$ and $\text{s.e.}(\bar{x})$ here.
+\greyboxlines{2}
 6. If someone else takes a sample of $125$\ Eagle Boy's pizzas, will the sample mean be $11.486$\ inches again (as it is in this sample)?
    Why or why not?
+\greyboxlines{2}
 7. Draw a picture of the approximate sampling distribution for\ $\bar{x}$.
+\greyboxlines{4}
 8. Compute an approximate $95$% confidence interval for the mean pizza diameter.
+\greyboxlines{4}
 9. Write a statement that communicates your $95$%\ CI for the mean pizza diameter.
+\greyboxlines{4}
 10. What are the **statistical** validity conditions?
+\greyboxlines{2}
 11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
     How does Fig.\ \@ref(fig:PizzaHistoCI) help, if at all? 
     Explain.
@@ -204,6 +234,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
     - The population standard deviation is known.
     - The sample has a normal distribution.
 
+\greyboxlines{2}
    
 ```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 4}
 data(PizzaSize)
@@ -224,6 +255,7 @@ points(x = 12,
 
 12. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
     Explain.
+\greyboxlines{2}
     
 `r if (knitr::is_latex_output()) '<!--'`
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458369&sec_digit=776424948&embeded_digit=21580733' style='width:100%; height:500px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
@@ -241,7 +273,7 @@ points(x = 12,
 *(Answers appear in Sect. \@ref(Lecture6Answers))*
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
+These *optional* **Drill** exercises (repeated practice) give you practice at getting computations correct, and using your calculator.
 These drill questions are more about practising the underlying *mathematics* rather than the *statistics*.
 If you need help, please **ask**.
 :::
@@ -255,136 +287,15 @@ The standard error quantifies how much the sample proportion is likely to vary f
 Compute the standard error in these situations:
 
 1. When $n = 25$ and $\hat{p} = 0.70$.
+\greyboxlines{3}
 1. When $n = 100$ and $\hat{p} = 0.25$.
+\greyboxlines{3}
 1. When $n = 32$ and $\hat{p} = 0.42$.
+\greyboxlines{3}
 1. When $n = 53$ and $\hat{p} = 0.814$.
+\greyboxlines{3}
 
 Will the CIs be statistically valid in the above situations?
+\greyboxlines{3}
 
-
-## **Optional questions** {#OptionalTW7}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture7Answers).)
-:::
-
-
-### **(Optional)**  General ideas {#GeneralIdeas2}
-
-
-<iframe src="https://usc.h5p.com/content/1290972394620770569/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/07-WhichTermsWhen.Rmd'}
-```
-
-
-
-
-
-### **(Optional)**  CI for one mean {#RoomWidthCI}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-Shortly after metric units were introduced to Australia in 1977, a lecturer wondered how accurately students could estimate lengths using the metric measurements [@data:hand:handbook].
-
-The aim of the study was to determine if, on average, students could correctly guess the width of the hall (which was $13.1\ms$).
-
-
-To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
-The data are given in Table\ \@ref(tab:Guesses).  
-   
-The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi).
-
-
-```{r Guesses, echo=FALSE}
-GuessTab <- array( dim = c(3, 15) )
-
-GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
-GuessTab[2, ] <- c(13, 13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16)
-GuessTab[3, ] <- c(16, 17, 17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40, "")
-
-if( knitr::is_latex_output() ) {
-  kable(GuessTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "Guess of the width of a room 13.1 metres wide.",
-      align = "r") %>%  
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(GuessTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "Guess of the width of a room 13.1 metres wide.",
-      align = "r")
-}
-```
-
-1. What is the value of $\bar{x}$?
-2. What are the values of\ $s$ and $\text{s.e.}(\bar{x})$? 
-   Explain the difference in the meaning of the two terms.
-3. Write down the $95$%\ CI for the population estimate (see Fig.\ \@ref(fig:LengthsHallOutputjamovi1) (jamovi).
-4. What conditions must be met for this test to be statistically valid?
-5. Is it reasonable to assume the statistical validity conditions are satisfied? 
-   How does the histogram in Fig.\ \@ref(fig:LengthsHallHisto1) help, if at all?
-6. Do you think students were very good at estimating the width of the hall using metric units? 
-   Explain.
-   
-   
-```{r echo=FALSE}
-GuessM <- c(8, 9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13, 13, 
-13, 14, 14, 14, 15, 15, 15, 15, 15, 15, 15, 15, 16, 16, 16, 17, 
-17, 17, 17, 18, 18, 20, 22, 25, 27, 35, 38, 40)
-```
-
-```{r LengthsHallHisto1, echo=FALSE, fig.cap="Histogram for the estimates of the width of a hall by $n = 44$ students. The cross is the actual width of the hall.", fig.align="center", fig.width=6}
-hist( GuessM, 
-      las = 1,
-      main = "Histogram of guesses",
-      xlab = "Guess (in metres)",
-      col = plot.colour)
-points(x = 13.1,
-       y = 0,
-       pch = 4,
-       cex = 1.5)
-```
-
-```{r LengthsHallOutputjamovi1, echo=FALSE, fig.cap="jamovi output for the estimates of the width of a hall in metres", fig.align="center", out.width="80%"}
-include_graphics("SoftwareImages/LengthsHallOneSampleMetres-jamovi.png")
-```
-
-
-### **(Optional)**  CI for one proportion {#HMMaturing}
-
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This question has a video solution in the online book, so you can hear and see the solution.
-:::
-
-
-The timing of pubertal maturation can vary, which can have impacts upon behaviour.
-@data:duncan:maturity studied (p.\ 231): 
-
-> ...the relationships between maturational timing and body image, school behavior, and deviance
-
-Sample data were collected from 
-
-> ...children and youth of the entire United States drawn by the National Center for Health Statistics... known as the National Health Examination Survey (1966--1970). 
-> Data were collected on $5\,735$ adolescents' physical and psychological status...
-
-
-1. What type of research question is being answered: descriptive, relational, repeated-measures or correlational? 
-   Explain.
-2. For the $2\,864$ males in the sample, $352$ were classified as maturing late.
-   Compute the sample estimate of the *population* proportion of males who mature late.
-3. Compute the precision of this estimate (that is, the *standard error*).
-4. Compute an approximate $95$% confidence interval for the population proportion of boys that mature late based on the sample proportion.
-5. Confirm that the conditions necessary for this calculation to be statistically valid are met.
-6. If the researchers wished to estimate the true proportion of boys that mature late to within give-or-take $0.02$ with $95$% confidence, would a *larger* or *smaller* sample be needed?
-   Explain.
 

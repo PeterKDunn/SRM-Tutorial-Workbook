@@ -9,6 +9,7 @@
 :::
 
 
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisOddsRatio.html)
@@ -16,6 +17,7 @@ In this chapter, you will learn and practice the content associated with these c
 * [Chapter\ 34 (Selecting an analysis)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html)
 
 Take careful note of which chapters are covered in this tutorial!
+:::
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -54,8 +56,10 @@ Which of these statements is *consistent* with this conclusion?
    `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(answer = "Consistent with conclusion",
                "NOT consistent with conclusion"))}`
-   
+\greyboxlines{4}
+
 How would the other statements be interpreted then?
+\greyboxlines{4}
 :::
 
 
@@ -188,18 +192,27 @@ if( knitr::is_html_output() ) {
 
 2. What graphical summary could be used to display the information?
    Sketch this display.
+\greyboxlines{4}
 3. Among the boys, compute the *odds* of maturing late.
    Interpret this value.
+\greyboxlines{2}
 4. Among the girls, compute the *odds* of maturing late.
    Interpret this value.
+\greyboxlines{2}
 5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
    Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi)).
-6. What is the **parameter** of interest?
+\greyboxlines{2}
+6. What is the **parameter** of interest (make sure you specify the direction)?
+\greyboxlines{2}
 7. Write down the OR and the $95$%\ CI for the OR from the jamovi output. 
    What does it mean?
+\greyboxlines{2}
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
+\greyboxlines{2}
 9. Are boys generally more likely to mature later than girls? 
    Justify your answer.
+\greyboxlines{2}
+
    `r if (knitr::is_html_output()) '**Vote below.**'`
 
   
@@ -424,15 +437,23 @@ if( knitr::is_html_output() ) {
 2. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
+\greyboxlines{4}
 3. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
+\greyboxlines{3}
 4. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.
+\greyboxlines{2}
     b. Write down the value of\ $\chi^2$.
+\greyboxlines{2}
     c. What $z$-score is this equivalent to?
+\greyboxlines{2}
     d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
+\greyboxlines{2}
     e. What is the exact $P$-value as reported by software?
+\greyboxlines{2}
     f. Write a conclusion.
+\greyboxlines{2}
 
 
 ```{r echo=FALSE, ArtLimbSummary}
@@ -571,228 +592,7 @@ The $44$ individual students' guesses had a standard deviation of $7.145\ms$.
 Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5\ms$.
 
 What size sample would Prof. Lewis need?
-	
+\greyboxlines{4}
 
-## **Optional questions** {#OptionalTW10}
-
-::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
-(Answers appear in Sect.\ \@ref(Lecture10Answers).)
-:::
-
-### **(Optional)**  Odds and odds ratio {#OddsGMfood}
-
-The use of genetically modified (GM) foods is controversial.
-@data:luo:gm decided to study:
-
-> ...whether income level and attitude to genetic engineering of food are dependent.
-
-To answer this relational RQ, the researchers asked 894 Australians about their income (low or high), and  their attitude to GM foods (for or against).
-
-1. The data collected are given in Table\ \@ref(tab:GMfoods).
-   Compute the odds that, among *high*-income earners, someone is in favour of GM foods.
-1. Compute the odds that, among *low*-income earners, someone is in favour of GM foods.   
-   Interpret what this means.
-1. The odds of a high-income earner being in favour of GM foods is how many times more than a low-income earner being in favour of GM food?
-   This value is called the **odds ratio**.
-1. For these data, the output is shown in Fig.\ \@ref(fig:GMfoodsjamovi) (from jamovi).
-   Write down the confidence interval for the odds ratio, and interpret what this means.
-1. Conduct a hypothesis test to determine if there is  evidence of a difference between high and low income earners.
-1. A politician stated that 'any attempt to suggest that the acceptance of GM foods is related to income are clearly bogus'.
-   Do you agree or disagree?
-
-
-```{r GMfoods, echo=FALSE}
-GMfoodTab <- array(dim=c(2, 2))
-
-colnames(GMfoodTab) <- c("High income", 
-                         "Low income")
-rownames(GMfoodTab) <- c("For GM foods", 
-                         "Against GM foods")
-
-GMfoodTab[1, ] <- c(263, 258)
-GMfoodTab[2, ] <- c(151, 222)
-
-if( knitr::is_latex_output() ) {
-  kable(GMfoodTab,
-      format = "latex",
-      booktabs = TRUE,
-      caption = "Opinions of Australians about GM food.") %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE,
-                font_size = 10)
-}
-if( knitr::is_html_output() ) {
-  kable(GMfoodTab,
-      format = "html",
-      booktabs = TRUE,
-      caption = "Opinions of Australians about GM food.") %>%
-  column_spec(1, bold = TRUE) %>%
-  row_spec(0, bold = TRUE) %>%
-  kable_styling(full_width = FALSE)
-}
-```
-
-     
-```{r GMfoodsjamovi, echo=FALSE, fig.cap="jamovi output for the GM foods data.", fig.align="center", out.width="50%"}
-include_graphics("SoftwareImages/GMfood-jamovi.png")
-```
-
-
-### **(Optional)**  Two-way tables {#TablesHepC}
-
-Applying tattoos carries health risks as the skin is broken during application.
-@data:Haley2001:Tattoos examined if a relationship existed between having hepatitis\ C and having tattoos.
-
-To study this, $626$ people were interviewed as part of an observational study, and asked about two issues: 
-
-* Whether they had hepatitis\ C ($47$ people) or not ($579$ people); and 
-* Whether they had a tattoo ($113$ people), or not ($513$ people).
-
-
-1. Which **one** of these five sets of hypotheses is *not* valid for this situation? Why?
-
-    a. $H_0$: No association between having hepatitis\ C and having a tattoo *in the population*;  
-      $H_1$:  An association between having hepatitis\ C and having a tattoo *in the population*.
-    b. $H_0$: The odds of having hepatitis\ C is the same with or without a tattoo *in the population*;  
-      $H_1$:  The odds of having hepatitis\ C is *not* the same with or without a tattoo *in the population*.
-    c. $H_0$: The mean number of people having hepatitis\ C is the same for those with and without a tattoo *in the population*;  
-      $H_1$:  The mean number of people having hepatitis\ C is *not* the same for those with and without a tattoo *in the population*.
-    d. $H_0$: The odds ratio of having hepatitis\ C, comparing those with or without a tattoo, is one *in the population*;  
-      $H_1$:  The odds ratio of having hepatitis\ C, comparing those with or without a tattoo, is *not* one *in the population*.
-    e. $H_0$: The proportion having hepatitis\ C is the same with or without a tattoo *in the population*;  
-      $H_1$:  The proportion having hepatitis\ C is *not* the same with or without a tattoo *in the population*.
-
-2. Compute the percentage of people overall in the sample with a tattoo.
-3. Assuming the null hypothesis about the population is true,	compute the number of people in the sample *with* hepatitis\ C that you would *expect* have a tattoo.
-	Use the information above to answer the question.
-4. In the sample, $25$ people had Hep.\ C *and* a tattoo.
-   Use this information to create the two-way table summarising the data (Table\ \@ref(tab:TattHepTab)).
-
-```{r echo=FALSE, TattHepTab}
-TattHep <- array( "", 
-                  dim = c(3, 3) )
-colnames(TattHep) <- c("Had Hep. C", 
-                       "Did not have Hep. C", 
-                       "Total")
-rownames(TattHep) <- c("Had tattoo", 
-                       "Did not have tattoo",
-                       "Total")
-
-TattHep[3,3] <- " "
-   
-if( knitr::is_latex_output() ) {
-   kable(TattHep,
-        format = "latex",
-        longtable = FALSE,
-        booktabs = TRUE,
-        # escape = FALSE, # For latex to work in \rightarrow
-        linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Hepatitis\\ C and tattoos.",
-        align = c("r", "r", "r", "r"))   %>%
-   kable_styling(full_width = FALSE, 
-                 font_size = 10) %>%
-  row_spec(0, bold = TRUE) %>% # Columns headings in bold
-  row_spec(3, bold = TRUE) 
-#   column_spec(column=1, width="3cm") %>% 
-#   column_spec(column=2, width="5cm") %>%
-#   column_spec(column=3, width="5cm") %>%
-#   column_spec(column=4, width="2cm")
-}
-
-if( knitr::is_html_output() ) {
-  TattHep[1, 3] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 113 )
-  TattHep[2, 3] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 513 )
-  TattHep[3, 1] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 47 )
-  TattHep[3, 2] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 579 )
- 
-  TattHep[1, 1] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 25)
-  TattHep[2, 1] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 22)
-  TattHep[1, 2] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 88)
-  TattHep[2, 2] <- webexercises::fitb(num = TRUE, 
-                                      tol = 0.001, 
-                                      width = 6, 
-                                      answer = 491)
-  
-  kable(TattHep,
-        format = "html",
-        align = c("r", "r", "r"),
-        escape = FALSE,
-        longtable = FALSE,
-        caption = "Hepatitis\\ C and tattoos.",
-        booktabs = TRUE) # %>%
-   #row_spec(row=1, bold=TRUE) %>%
-#   column_spec(column=1, bold=TRUE)
-   
-}
-
-```
-
-
-5. In the sample, what are the odds that someone has Hep.\ C, among those with a tattoo?
-6. In the sample, what are the odds that someone has Hep.\ C, among those *without* a tattoo?
-7. From the sample information, compute the odds ratio of having Hep.\ C, comparing students with a tattoo to those without a tattoo.
-   Carefully explain what this value means.
-
-
-### **(Optional)**  CIs and tests for ORs {#ORTestsByss}
-
-@data:higgins:cotton studied byssinosis (a respiratory complaint) among workers in the textile industry.
-The researchers were interested, among other things, in exploring the relationship between smoking status and the presence of byssinosis.
-
-More specifically, they wanted to see if the proportion of smokers with byssinosis was *greater* than the proportion of non-smokers with byssinosis, among all textile workers.
-
-The researchers used an observational study.
-
-1. Which one of these is correct as a null hypothesis? Why are the others incorrect? \tightlist
-
-    a. The odds of having byssinosis is the same in the sample of smokers and the sample of non-smokers.
-    b. The mean number of workers having byssinosis is the same for smokers and non-smokers.
-    c. The population odds of having byssinosis is the same in among smokers and non-smokers.
-
-2. Among those randomly selected to appear in the study, $165$ workers had byssinosis ($40$ were non-smokers) and $5\,254$ did not ($2\,190$ were non-smokers).  
-   
-   Construct the two-way table showing the number of workers with byssinosis among smokers and non-smokers.
-3. Compute the sample *proportion* of workers with byssinosis, among smokers.
-   Then, compute the sample *proportion* of workers with byssinosis, among non-smokers.
-4. Compute the odds of having byssinosis, among *smokers*.
-   Then compute the odds of having byssinosis, among *non-smokers*.
-   What do these odds mean?
-5. Compute the odds ratio comparing smokers to non-smokers.
-   What does this odds ratio mean?
-6. A report states that the odds ratio is not one simply due to sampling variation, and not due to smoking.  
-   Do you agree or disagree?
-   Why?
-7. Use the software output in Fig.\ \@ref(fig:ByssOutputjamovi) to test the hypotheses.
-   Write a proper conclusion to communicate the results.
-8. Are the results likely to be statistically valid? Explain.
-
-
-
-```{r ByssOutputjamovi, echo=FALSE, fig.cap="Output from jamovi for the byssinosis example.", fig.align="center", out.width="50%"}
-include_graphics("SoftwareImages/Byss-jamovi.png")
-```
 
 

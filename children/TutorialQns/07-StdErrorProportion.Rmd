@@ -6,7 +6,10 @@ $$
 In this formula:
 
 1. What does\ $\hat{p}$ represent?
+\greyboxlines{1}
 2. What does\ $n$ represent?
-3. What is "$\text{s.e.}$" short for?
+\greyboxlines{1}
+3. What is "$\text{s.e.}$" an abbreviation for?
+\greyboxlines{1}
 
 

@@ -11,11 +11,13 @@
 :::
 
 
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
 
 * [Chapter\ 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
 * [Chapter\ 19 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
 * [Chapter\ 20 (Models and normal distributions)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
+:::
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
@@ -54,19 +56,22 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 webexercises::mcq( c("1.77",
 answer = "-1.77", 
 "-0.7",
-"0.7") )}`
+"0.7") )} else {'\\null'}`
+\greyboxlines{2}
 1. What is the $z$-score for the upper limit of $26.0$\ tonnes?
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c(answer ="10",
 "-10", 
 "-16",
-"16") )}`
+"16") )} else {'\\null'}`
+\greyboxlines{2}
 1. What does a *negative* $z$-score mean?  
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c("There has been an error",
 "The mass is larger than average",
 answer = "The mass is lower than average",
-"The mass is a negative number, which is impossible") )}`
+"The mass is a negative number, which is impossible") )} else {'\\null'}`
+\greyboxlines{2}
 :::
 
 
@@ -124,6 +129,7 @@ The values quoted are used for modelling purposes, and are essentially the popul
 3. From Fig.\ \@ref(fig:Ht), write down the mean and standard deviation for people in your *age group* and *gender*.  
    Using this information, compute the $z$-score for your height, relative to people in your age group and gender.
    Explain what this means.
+\greyboxlines{4}
 
 ```{r Ht, echo=FALSE, fig.cap="Part of the ABS report on heights of Australians.", fig.align="center", out.width='85%'}
 knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
@@ -132,20 +138,30 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
    **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
    (Hint: Draw a picture!)
+\greyboxlines{4}
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
+\greyboxlines{3}
 6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
    (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
+\greyboxlines{4}
 7. For this part, we want to just look at *females $18$\ and over* again.
    Answer the following questions.
 
    a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171\cms$.
+\greyboxlines{2}
    b. What are the *odds* that a female $18$\ and over is *shorter* than $171\cms$?
+\greyboxlines{2}
    c. Compute the *percentage* of females $18$\ and over that are *taller* than $171\cms$?
+\greyboxlines{2}
    d. What are the *odds* that a female $18$\ and over is *taller* than $171\cms$?
+\greyboxlines{2}
    e. Compute the *percentage* of females $18$\ and over that are *between* $170$ and $180\cms$?
+\greyboxlines{2}
    f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180\cms$?
+\greyboxlines{2}
 
 8. Approximately $20$% of females $18$\ and over are shorter than what height?
+\greyboxlines{2}
 
 
 ## Probability {#Probability2}
@@ -158,32 +174,39 @@ For the following, indicate *how* you could estimate the probability (classical;
   c(          "Classical approach.",
      answer = "Relative frequency approach.",
               "Subjective approach."
-))}`
+))} else {'\\null'}`
+\greyboxlines{1}
 2. The probability that a given Nambour resident is a UniSC student.  
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
     answer = "Relative frequency approach.",
              "Subjective approach."
-))}`
+))} else {'\\null'}`
+\greyboxlines{1}
 3. The probability that Labor wins the next federal election.  
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
              "Relative frequency approach.",
     answer = "Subjective approach."
-))}`
+))} else {'\\null'}`
+\greyboxlines{1}
 4. The probability that you will throw a dart and hit the bullseye.  
 `r if( knitr::is_html_output() ) {longmcq(
   c(         "Classical approach.",
     answer = "Relative frequency approach.",
              "Subjective approach."
-))}`
+))} else {'\\null'}`
+\greyboxlines{1}
 5. The probability that a roulette wheel spins a $33$.  
 `r if( knitr::is_html_output() ) {longmcq(
   c(answer = "Classical approach.",
              "Relative frequency approach.",
              "Subjective approach."
-))}`
-6. Explain the difference between the meaning of the **first two** statements.
+))} else {'\\null'}`
+\greyboxlines{1}
+
+Explain the difference between the meaning of the **first two** statements.
+\greyboxlines{2}
 
 
 ## Random coin tosses {#RandomCardDraws}
@@ -276,11 +299,15 @@ if( knitr::is_html_output() ) {
 
 1. Use this data to create a histogram of the proportion of heads.
    How would you describe the histogram?
+\greyboxlines{4}
 1. I did the same thing, but I repeated the process of tossing $10$ coins $400$ times.
    My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
    How would you describe the histogram?
+\greyboxlines{2}
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
+\greyboxlines{4}
 1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
+\greyboxlines{2}
 
 
 ```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
@@ -319,11 +346,19 @@ The Southern Oscillation Index (SOI) is a unitless^[That is, it is not measured 
 The daily SOI has an approximate normal distribution, and is designed to have a mean of\ $0$ and a standard deviation of\ $10$.
 
 1. Draw a rough, labelled sketch of the theoretical distribution of the SOI values.
+\greyboxlines{4}
 2. What is the probability that the daily SOI exceeds\ $20$?
+\greyboxlines{2}
 3. What are the *odds* that the daily SOI exceeds\ $20$?
+\greyboxlines{2}
 4. What is the probability that the daily SOI is less than\ $-25$?
+\greyboxlines{2}
 5. What is the probability that the daily SOI is greater than\ $-12$?
+\greyboxlines{2}
 6. What is the probability that the daily SOI is between\ $-10$ and\ $20$?
+\greyboxlines{2}
 7. The SOI is *less than* what value about\ $80$% of the time?
+\greyboxlines{2}
 8. The SOI is *greater* than what value about\ $35$% of the time?
+\greyboxlines{2}
 

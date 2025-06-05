@@ -1,12 +1,13 @@
 
-
-
 1. How many quantitative *continuous* variable(s) appear in the data set?
    Which are they?
+\greyboxlines{3}
 2. How many qualitative *ordinal* variable(s) appear in the data set?
    Which are they?
+\greyboxlines{3}
 3. How many quantitative *nominal* variable(s) appear in the data set?
    Which are they?
+\greyboxlines{3}
 4. What statistics could be used to *numerically* summarise the variable **Age**?
     a. Odds.
     b. Standard deviation.

@@ -7,7 +7,7 @@ Why?
 2. The heights of female students at UniSC.
 3. The *starting* salaries of new science graduates employed full-time.
 4. The volume of drink in $375\mls$ cans of soft drink.
-1. The time that students remain in the examination room for a **hard** or **long** two-hour examination.
+5. The time that students remain in the examination room for a **hard** or **long** two-hour examination.
 
 
 ```{r FourHistograms, echo=FALSE, fig.cap="Four histograms; what \\textbf{shape} is appropriate for which scenario?", fig.align="center", out.width='55%', fig.width=5.5, fig.height=5.5, out.width="80%"}

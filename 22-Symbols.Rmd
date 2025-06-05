@@ -2,21 +2,10 @@
 # Symbols, formulas, statistics and parameters {#StatisticsAndParameters}
 
 ## Symbols and standard errors {#Symbols}
-\index{Mean!of a population}
-\index{Mean!of a sample}
-\index{Mean!difference between}
-\index{Mean difference}
-\index{Proportions!of a population}
-\index{Proportions!of a sample}
-\index{Odds ratio}
-\index{Regression!coefficients}
-\index{Correlation coefficient (Pearson)}
-\index{Symbols used}
-
 
 * The following table lists the statistics used to estimate unknown population parameters. \tightlist
-* When the sampling distribution is approximately normally distributed, under appropriate statistical validity conditions, this is indicated by\ \ding{52}.\index{Sampling distribution}
-* The value of the mean of the sampling distribution (the *sampling mean*) is\index{Sampling mean}:
+* When the sampling distribution is approximately normally distributed, under appropriate statistical validity conditions, this is indicated by\ \ding{52}.
+* The value of the mean of the sampling distribution (the *sampling mean*) is:
 
   - unknown, for *confidence intervals*.
   - assumed to be the value given in the null hypothesis, for *hypothesis tests*.
@@ -280,7 +269,7 @@ if( knitr::is_html_output() ) {
 
 ## Confidence intervals {#FormulasCI}
 
-For statistics whose sampling distribution has an approximate normal distribution, *confidence intervals (CIs)* have the form\index{Confidence intervals}
+For statistics whose sampling distribution has an approximate normal distribution, *confidence intervals (CIs)* have the form
 $$ 
     \text{statistic} \pm \big( \text{multiplier} \times \text{s.e.}(\text{statistic})\big).
 $$
@@ -288,7 +277,7 @@ $$
 **Notes:**
 
 * The multiplier is *approximately*\ $2$ to create an *approximate* $95$%\ CI (based on the $68$--$95$--$99.7$ rule).
-* The quantity '$\text{multiplier} \times \text{s.e.}(\text{statistic})$' is called the *margin of error*.\index{Margin of error}
+* The quantity '$\text{multiplier} \times \text{s.e.}(\text{statistic})$' is called the *margin of error*.
 * Software uses *exact* multipliers to form *exact* confidence intervals.
 * When the sampling distribution for the statistic does *not* have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and the CIs are taken directly from software output when available.
 
@@ -300,7 +289,7 @@ $$
 
 ## Hypothesis testing {#FormulasTest}
 
-For statistics whose sampling distribution has an approximate normal distribution, the *test statistic* has the form:\index{Hypothesis testing}
+For statistics whose sampling distribution has an approximate normal distribution, the *test statistic* has the form:
 $$
   \text{test statistic} = \frac{\text{statistic} - \text{parameter}}{\text{s.e.}(\text{statistic})},
 $$
@@ -311,14 +300,14 @@ The test-statistic is a $t$-score for most hypothesis tests in this book when th
 
 **Notes:**
 
-* If the test-statistic is a $z$-score,\index{Test statistic!z@$z$-score} the $P$-value can be found using tables
+* If the test-statistic is a $z$-score, the $P$-value can be found using tables
 `r if (knitr::is_latex_output()) {
    '(Appendices\\ \\@ref(ZTablesNEG) and\\ \\@ref(ZTablesPOS))' 
 } else {
    '(Appendix\\ \\@ref(ZTablesOnline))'
 }`,
 or *approximated* using the $68$--$95$--$99.7$ rule.
-* If the test-statistic is a $t$-score,\index{Test statistic!t@$t$-score} the $P$-value can be *approximated* using tables
+* If the test-statistic is a $t$-score, the $P$-value can be *approximated* using tables
 `r if (knitr::is_latex_output()) {
    '(Appendices\\ \\@ref(ZTablesNEG) and\\ \\@ref(ZTablesPOS))' 
 } else {
@@ -327,7 +316,7 @@ or *approximated* using the $68$--$95$--$99.7$ rule.
 or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are similar to $z$-scores; Sect.\ 28.4.
 * When the sampling distribution for the statistic does not have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and $P$-values are taken from software when available.
 * A hypothesis test about ORs uses a $\chi^2$ test statistic.
-  For $2\times 2$ tables only, the $\chi^2$-value is equivalent to a $z$-score with a value of $\sqrt{\chi^2}$.\index{Test statistic!$\chi^2$-score}
+  For $2\times 2$ tables only, the $\chi^2$-value is equivalent to a $z$-score with a value of $\sqrt{\chi^2}$.
 
 
 
@@ -336,7 +325,7 @@ or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are simila
 
 ## Sample size estimation {#FormulasSampleSize}
 
-The following formulas compute the *approximate* minimum (i.e., conservative) sample size needed to produce a $95$% CI with a specified margin of error\index{Sample size estimation} (i.e., the 'give-or-take' amount).
+The following formulas compute the *approximate* minimum (i.e., conservative) sample size needed to produce a $95$% CI with a specified margin of error (i.e., the 'give-or-take' amount).
 
 * To estimate the sample size needed for *estimating a proportion* (Sect.\ 32.3), use:  
 $$
@@ -381,14 +370,14 @@ This formula assumes the sample size in each group will be the same.
 
 ## Other formulas {#FormulasOther}
 
-* To *calculate $z$-scores* (Sect.\ 20.4), use\index{z@$z$-score} 
+* To *calculate $z$-scores* (Sect.\ 20.4), use
 $$
    z = \frac{\text{value of variable} - \text{mean of the distribution of the variable}}{\text{standard deviation of the distribution of the variable}}.
 $$
-  $t$-scores are like $z$-scores.\index{Test statistic!t@$t$-score}
+  $t$-scores are like $z$-scores.
   When the 'variable' is a sample estimate (such as $\bar{x}$), the 'standard deviation of the distribution' is a standard error (such as $\text{s.e.}(\bar{x})$).
-* The *unstandardising formula* (Sect.\ 20.8) is $x = \mu + (z\times \sigma)$.\index{Unstandardising formula}
-* The *interquartile range* (IQR) is $Q_3 - Q_1$, where $Q_1$ and $Q_3$ are the first and third quartiles respectively (or, equivalently, the $25$th and $75$th percentiles).\index{Interquartile range (IQR)}
+* The *unstandardising formula* (Sect.\ 20.8) is $x = \mu + (z\times \sigma)$.
+* The *interquartile range* (IQR) is $Q_3 - Q_1$, where $Q_1$ and $Q_3$ are the first and third quartiles respectively (or, equivalently, the $25$th and $75$th percentiles).
 * The smallest expected value (for assessing statistical validity when forming CIs and conducting hypothesis tests with proportions or ORs) is
 $$
   \frac{(\text{Smallest row total})\times(\text{Smallest column total})}{\text{Overall total}}.
@@ -399,9 +388,6 @@ $$
 
 
 ## Other symbols and abbreviations used {#OtherSymbols}
-\index{Standard deviation!of a population}
-\index{Standard deviation!of a sample}
-\index{Sample size}
 
 (ref:RQs) Chap.\ 2
 
