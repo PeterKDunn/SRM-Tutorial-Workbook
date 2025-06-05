@@ -1,0 +1,2586 @@
+
+# (APPENDIX) Appendices {-}
+
+# Answers for exercises {#OptionalAnswers}
+
+This Appendix contains answers to *most* (not all) exercises.
+Some are fully worked, and some are only brief solutions.
+
+* Answers: Tutorial\ \@ref(Lecture1) (Teaching Week\ 1): Sect.\ \@ref(Lecture1Answers).
+* Answers: Tutorial\ \@ref(Lecture2) (Teaching Week\ 2): Sect.\ \@ref(Lecture2Answers).
+* Answers: Tutorial\ \@ref(Lecture3) (Teaching Week\ 3): Sect.\ \@ref(Lecture3Answers).
+* Answers: Tutorial\ \@ref(Lecture4) (Teaching Week\ 4): Sect.\ \@ref(Lecture4Answers).
+* Answers: Tutorial\ \@ref(Lecture5) (Teaching Week\ 5): Sect.\ \@ref(Lecture5Answers).
+* Answers: Tutorial\ \@ref(Lecture6) (Teaching Week\ 6): Sect.\ \@ref(Lecture6Answers).
+* Answers: Tutorial\ \@ref(Lecture7) (Teaching Week\ 7): Sect.\ \@ref(Lecture7Answers).
+* Answers: Tutorial\ \@ref(Lecture8) (Teaching Week\ 8): Sect.\ \@ref(Lecture8Answers).
+* Answers: Tutorial\ \@ref(Lecture9) (Teaching Week\ 9): Sect.\ \@ref(Lecture9Answers).
+* Answers: Tutorial\ \@ref(Lecture10) (Teaching Week\ 10): Sect.\ \@ref(Lecture10Answers).
+* Answers: Tutorial\ \@ref(Lecture11) (Teaching Week\ 11): Sect.\ \@ref(Lecture11Answers).
+* Answers: Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
+
+
+```{=latex}
+\begin{footnotesize}
+```
+
+## Answer: TW 1 tutorial {#Lecture1Answers}
+
+
+### Answers for Sect.\ \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
+
+1. Should be in terms of averages or means. 
+   So perhaps "Among water tanks used in south-east Queensland, are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
+2. *Everyone* dies!  
+   So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
+   Perhaps something like: "Are lower-limb amputees more likely to die $12$ months after amputation compared to upper-limb amputees?" or something. 
+3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?);  "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per $100$\ g or similar.
+   "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
+   Anyway: You can look at the label (unless, of course, you wish to query those values).
+4. Silly: elephants are huge, and joeys are tiny. 
+   No-one needs to test this.
+   Also,the RQ talks about "weight" rather than "**mean** weight" too.
+5. Needs to be more specific!
+   Perhaps: "Is the mean reaction time different for males and females?" or similar.
+
+Terms that may need defining (there may be others):
+
+1. Conceptual: Domestic; "SE Queensland"; poly tanks; concrete tanks.  
+   Operational: How the concentration will be measured.
+2. Conceptual: Lower-limb amputee.
+3. Conceptual: "Amount" of salt; Homebrand; beans (coffee beans? jelly beans; bean-bag beans; kidney beans; baked beans; etc.)  
+   Operational: how is salt "amount" being measured?
+4. Conceptual: adult; juvenile; what type of kangaroos and elephants?  
+   Operational: How to measure weight (especially of elephants!)
+5. Conceptual: Reaction time; gender.
+   Operational: How reaction time will be measured. How gender will be determined.
+
+
+### Answers for Sect.\ \@ref(TerminologyLead) {.unlisted .unnumbered}
+
+1. The *population* is: *a.* $2$-year-old infants in Cincinnati.
+2. The *outcome*: *c.* The average of the indexes of the $2$-year neurobehavioural development.
+3. The *comparison*: *b.* Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
+4. The *intervention*: *d.* There is no intervention.
+5. The *unit of observation*: *b.* The children.
+6. The *unit of analysis*: *b.* The children.
+
+
+### Answers for Sect.\ \@ref(Units2) {.unlisted .unnumbered}
+
+*Units of analysis*:  **a.** The individuals ingots.
+*Sample size*: **d.** $80$.
+
+
+### Answers for Sect.\ \@ref(Units3) {.unlisted .unnumbered}
+
+Units of analysis: the tank of fish.
+The type of experiment: true experiment.
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+### Answers for Sect.\ \@ref(SamplingParking) {.unlisted .unnumbered}
+
+Use a multi-stage sample: Select a carpark at random, then a row of cars at random, then cars at random.
+
+
+### Answers for Sect.\ \@ref(UnderstandTerminologyStudies) {.unlisted .unnumbered}
+
+1. The 'who' or 'what' which are observed, and for which data are collected: *F.\ Units of observation*.
+2. A study where the researcher creates differences in the explanatory variable and measures the change in the response variable: *G.\ Experimental study*.
+3. The result or effects of interest, across the population: *B.\ Outcome*.
+4. What we 'do' to the individuals in the study: *H.\ Intervention*.
+5. The question of interest to be answered by the study: *D.\ Research question*.
+6. The larger group of individuals that are the focus of the study: *E.\ Population*.
+7. The smallest independent 'who' or 'what' about which generalisations and conclusions are made, and for which information is analysed: *C.\ Units of analysis*.
+8. A study where the researcher observes difference in the explanatory variable, and notices if these are related to changes in the response:  *A.\ Observational study*.
+
+
+### Answers for Sect.\ \@ref(UnderstandFishoil) {.unlisted .unnumbered}
+
+1. Variables: risk of dying from heart disease (or mortality rate? It's a bit ambiguous) as response; whether they get fish oil and/or Vitamin E as explanatory.
+2. True experimental, as  fish oil and Vitamin\ E are *given* to subjects, and the groups are determined by the researchers.
+3. Randomization is not mentioned but probably used (a reporting issue).
+   Control used (there is a placebo).
+   Blinding: not stated. 
+   Blocking: none indicated. 
+   Study seems well done, so no obvious lurking variables (however, all subjects did change their diet).
+   Group allocated by researchers, so a true experiment.
+4. Since experiment, lurking variables not an issue (if study well done).
+5. Cause-and-effect relationship likely (if experiment well done).
+6. Limitations: Study only looked at people who have had a heart attack, were on heart medication, and looks like all subjects were Italian, and *all* subjects changed to a healthy diet.
+7. Units of observation: the individuals in the study. 
+   Units of analysis: the individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
+
+
+### Answer for Sect.\ \@ref(RandomAllocation) {.unlisted .unnumbered}
+
+Quite possibly: confounding!
+They could have been chosen randomly... though it would be unlikely.
+
+
+### Answer for Sect.\ \@ref(EvaluatingReportsSugar) {.unlisted .unnumbered}
+
+1. *Type of drink*: explanatory variable; nominal variable; qualitative variable.
+Response variable; quantitative variable.
+2. High precision.
+3. Use a random sample.
+
+
+### Answers for Sect.\ \@ref(DesignTrees) {.unlisted .unnumbered}
+
+1. The first design (A).
+2. The third design (C).
+3. Depends on the research focus, but the second probably strikes a balance.
+   The key identifying the source of variation that is likely to be the greatest, and allocate relatively more units there because that is the source of variation that is more important to quantify. 
+4. Easiest would be the design using the smallest number of forests (Design\ A), as collecting data within a forest is likely to be more convenient than moving around to many forests.
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+### Answers for Sect.\ \@ref(InterpretHistogram) {.unlisted .unnumbered}
+
+FAS here is about $20$--$25$ in general, ranging from $10$ to\ $50$ (which are actually the smallest and largest possible scores).
+
+Here's is a detailed explanation.
+**You are not expected to go to this detail!**
+The FAS is about $25$ on average, ranging from about $10$ to\ $50$, slightly skewed right with no outliers.
+The distribution is unimodal.
+(The heights of the bars are, as best as I can figure, $3$; $14$; $44$; $34$; $22$; $17$; $5$; $3$.)
+With $n = 142$, the median is observation number $71.5$, which is in the $25$--$30$ bar.
+The quartiles will have about $35$ in them, so $Q_1$ will be in the $20$--$25$ bar, and $Q_3$ will be in the $30$--$35$ bar.
+Histogram is pretty good; bars really should be touching.
+
+ 
+
+### Answers for Sect.\ \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
+
+**Centre**: About $11.4$ inches;
+**Variation**: Most are between $11.0$ and $12.3$ inches;
+**Shape**: Slightly skewed right (apart from that outlier...);
+A small outlier (near $10.5$ inches).
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+
+### Answers for Sect.\ \@ref(PercentagesOdds) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. $70$%, as given directly from the table.
+2. $281/(404 - 281) - 2.28$.
+3. For patients treated with ETI, about $278$ die for every $100$ that survive.
+4. $2.78/2.28 = 1.22$.
+
+
+### Answers for Sect.\ \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+Odds **less than** one.
+Odds **less than** one.
+Odds **greater than** one.
+Odds **greater than** one.
+
+
+### Answers for Sect.\ \@ref(PercentagesOdour) {.unlisted .unnumbered}
+
+1. Observational.
+2. The percentage of residents in each area that detected the smell at the given frequency.
+   So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
+   This means that $49.5$% *of the sample that lived in Area\ I* detected the odour at least once a week.
+3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area\ I.
+4. Probably column percentages.
+5. $77\div 291 = 26.46\%$.
+
+
+ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+### Answers for Sect.\ \@ref(UnderstandRqVariables) {.unlisted .unnumbered}
+
+1. Relational.
+1. Observational: no intervention 
+1. O: average accuracy. 
+   Response variable: the 'accuracy' for each individual.
+1. C: Between blind and sighted individuals.
+   Explanatory variable: Whether the individual is blind, or not.
+1. No intervention: the\ C (whether someone is blind or not) cannot be manipulated by the researchers.
+1. Quantitative continuous.
+1. Qualitative nominal.
+1. A boxplot.
+1. The unit of analysis is the person.
+1. $34 + 36 = 70$.
+1. One: each person gets one 'accuracy' value. 
+
+
+### Answers for Sect.\ \@ref(DrawBoxplot) {.unlisted .unnumbered}
+
+1. Not shown.
+2. The median temperatures similar; a slight increase from Office\ A to\ C.
+IQR similar for each office, and range similar for Offices A and C (slightly larger for Office\ B).
+   In summary: Office\ A a bit different (cooler) on average.
+3. Perhaps Office\ A. 
+4. Three.
+
+
+### Answers for Sect.\ \@ref(SelectGraphs1) {.unlisted .unnumbered}
+
+1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
+2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
+3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
+4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables ($30 mins$ of physical activity or not; vigorous physical 
+
+
+### Answers for Sect.\ \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. **Explanatory** variable is the number of hours of light each plant received; **response** variable is the number of flowers each plant received.
+   The units of **observation** are the individual plants.
+2. **Explanatory** variable is the number of smokers at the restaurant; **response** variable is the concentration of fine particulate matter.
+3. **Response** variable is the waiting time; **explanatory** variable is the time of admission.
+4. **Explanatory** variable is the "Level of Playfulness"; **response** variable is the "Level of Coping".
+
+
+### Answer for Sect.\ \@ref(SelectingGraphsH5P) {.unlisted .unnumbered}
+
+
+1. To display the relationship between the age of athletes, and the times taken for each athlete to complete the `beep test': *Scatterplot*
+   Boxplot if 'Whether aged under\ $25$'.
+2. To display the percentage of elderly people in nursing homes that can independently complete a given task, for each of the seven tasks on a given list: *Bar chart* or *Dot chart*
+3. To display the relationship between the type of fertiliser applied to a vegetable crop (either\ A, B or\ C) and the yield per hectare, measured over numerous plots:  *Boxplot*
+4. To display the distribution of the hardness measurements taken of $250$ samples of bamboo: *Histogram* 
+5. To display the relationship between the age of concrete test cylinders (under $5$\ years; $5$\ years and older) and their strength (fit for purpose; or not fit for purpose): *Side-by-side or stacked bar chart*
+
+
+### Answers for Sect.\ \@ref(EvaluateGraphsAnts) {.unlisted .unnumbered}
+
+1. Observational; the ant nest would be pre-existing.
+2. Both are 'ant nests'.
+3. Looks good!
+4. Uphill looks different to the other two.
+   Also: the lower dots comprise mostly blue dots (Sourdough Trail), so perhaps a difference between locations too.
+
+
+### Answers for Sect.\ \@ref(EvaluateGraphs1) {.unlisted .unnumbered}
+
+1. True experiment: treatments given (experiment), and the researchers selected the groups, groups did not previously existed (so *true* experiment).
+2. Observation: each  patient.
+   Analysis: The patient.
+3. Pretty good.
+   A label on the horizontal axis would be better, but the caption does contain that information.
+4. Pain is *reduced*.
+5. Yes, probably. 
+   We cannot be sure due to randomness...
+
+
+### Answer for Sect.\ \@ref(SelectGraph1) {.unlisted .unnumbered}
+
+Boxplot; scatterplot.
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+CHAP 7
+
+### Answers for Sect.\ \@ref(GeneralIdeas2) {.unlisted .unnumbered}
+
+See Table\ \@ref(tab:TermsANSWER).
+
+```{r TermsANSWER, echo=FALSE}
+Terms <- array( "No", 
+                dim = c(6, 2))
+
+colnames(Terms) <- c("Applies to $\\mu$",
+                     "Applies to $\\bar{x}$")
+
+rownames(Terms) <- c("Has a standard error",
+              "Refers to the population",
+              "Refers to the sample",
+              "Value is known before the sample is taken",
+              "Value is unknown until sample is taken",
+              "Value is estimated")
+
+
+Terms[c(2, 4, 6) ,1] <- "YES"
+Terms[c(1, 3, 5) ,2] <- "YES"
+
+
+if( knitr::is_latex_output() ) {
+  kable(Terms,
+      format = "latex",
+      booktab = TRUE,
+      align = c("r", "r"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      linesep = c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
+      caption = "Which terms apply when? Tick the appropriate places in the table.") %>%
+  kable_styling(full_width = FALSE) %>%
+  kable_styling(font_size = 8) %>%
+  row_spec(0, bold = TRUE)
+}
+if( knitr::is_html_output() ) {
+  kable(Terms,
+      format = "html",
+      booktab = TRUE,
+      align = c("r", "r"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      caption = "Which terms apply when? Tick the appropriate places in the table.") 
+}
+```
+
+
+### Answers for Sect.\ \@ref(RoomWidthCI) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidth.Rmd'}
+```
+
+
+1. $\bar{x} = 16.02\ms$.
+2. $s = 7.145\ms$; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077\ms$. 
+   The first is a measure of the variation in the original data; the second is a measure of the precision of the sample mean when estimating the population mean.
+3.The CI is from $13.85$ to $18.19\ms$.
+4. $95$% CI for population mean guess: $13.85$ to $18.19\ms$.
+5. The population of differences has a normal distribution, and/or $n > 25$ or so.
+6. Since $n > 25;$, all OK if the histogram isn't severely skewed; probably OK.
+7. Not really; the CI doesn't contain the true width.
+   But was this just due to the metric units... or perhaps students are just very poor at estimating widths in general!
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+### Answers for Sect.\ \@ref(HMMaturing) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
+```
+
+1. Relational.
+2. $\hat{p} = 352/2\ 864 = 0.12291$. 
+3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
+4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to\ $0.135$.
+       Either the '$0.123\pm 0.012$' form or the '$0.111$ to\ $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
+5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than $5$.
+   This is true, so the calculations are valid.
+6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
+7. $n = 1/(0.02)^2 = 2500$ boys.
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CHAP 8
+
+### Answers for Sect.\ \@ref(RoomWidthTest) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
+```
+
+
+1. $s = 7.145\ms$; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077\ms$.  
+   The first measures variation in the original data; the second measures precision of the sample mean when estimating the population mean.
+2. The CI is from $13.85$ to $18.19\ms$.
+3.  Strong to moderate evidence exists in the sample (one sample $t = 2.714$; $\text{df} = 43$; two-tailed $P = 0.010$) that the population mean guess (mean: $16.02\ms$; standard deviation: $7.145\ms$) of the students is not $13.1\ms$ ($95$%\ CI for population mean guess: $13.85$ to $18.19\ms$).
+4. The population of differences has a normal distribution, and/or $n > 25$ or so.
+5. Since $n > 25$, all OK if the histogram isn't severely skewed. 
+   Probably OK.
+6. Not really! 
+   But was this just due to using metric units? 
+   Perhaps students are just very poor at estimating widths whatever the units being used...
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+### Answers for Sect.\ \@ref(LanguageOfSStats) {.unlisted .unnumbered}
+
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.
+  In batch 1, a *sample* of size $30$ was used; the sample mean number of blows till the first crack appeared in the test cylinders was\ $98$, and the amount of variation in the number of blows was measured using the *standard* deviation as\ $54$.
+  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
+
+2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using specialist school furniture with standard school furniture (which acted as a *control*).
+   They used a *random* sample of size\ $30$ from children registered at their facility in Canada.
+   The *sample* mean for the difference in legibility was\ $-0.1$, and a $95$% *confidence* interval was from $-0.8$ to\ $0.6$.
+   Using the standard equipment, the smallest value recorded for legibility was\ $19$, and the largest was\ $34$, so the *range* was\ $15$.
+  
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CHAP 9
+
+### Answers for Sect.\ \@ref(PairedTestRunners) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerCI.Rmd'}
+```
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerHT.Rmd'}
+```
+
+
+1. Before and after measurement on same runner.
+2. Each plasma $\beta$ measurement is measured after and before on the same runner.
+3. No shown.
+4. $\bar{d} = 18.736$; $s_d = 8.3297$
+5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
+6. Almost impossible.
+   The sample means would vary every time we took a sample, around the true mean difference with a normal distribution having a standard error of about\ $2.51$.
+   Since we don't know the population mean, the best we can say is that the sample mean will vary about our best guess of the population mean. 
+   In other words, the sample means will vary around $8.33$ with a standard deviation of about\ $2.51$. 
+7.  $18.736\pm (2\times 2.5115)$, or\ $18.736\pm5.023$, or from $13.7$ to\ $23.8$ pmol/litre.
+8. $H_0$: $\mu_d = 0$, differences defined as 'after' minus 'before'. 
+   $H_1$: $\mu_d > 0$ the way I defined the differences.  
+   We are explicitly seeking to test for an *increase*, so the test is one-tailed.
+   (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
+9. $t = 7.46$ and $\text{df} = 11 - 1 = 10$. Since $t$ is very large, expect $P$ to be very small.
+10. Very strong evidence exists in the sample (paired $t = 7.46$; $\text{df} = 10$; one-tailed\ $P$ less than $0.0005$) that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race (mean difference: $18.73$\ pmol/litre higher after the race; std. dev.: $8.33$\ pmol/litre; $95$%\ CI from $13.14$ to\ $24.33$\ pmol/litre).
+11. The population of differences has a normal distribution, and/or $n > 25$ or so.
+12. Since $n < 25$, must assume the population of differences has a normal distribution. 
+   The histogram suggests this is not unreasonable.
+
+
+### Answers for Sect.\ \@ref(CIPairedWaves) {.unlisted .unnumbered}
+	
+1. Because each method is used in each sea state.
+3. $\bar{d} = 0.06167$; $s_d = 0.2901$. 
+   The mean difference is positive: Method\ 1 measurements slightly higher (on average) than Method\ 2.
+4. $\text{s.e.}({\bar{d}}) = s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
+   $\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
+5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
+6. $t = 0.9016$, so $P$-value large: no evidence of difference. 
+7. Since $n < 25s$, we require that the *differences* in the population have a normal distribution.
+8. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal; probably OK.
+
+
+### Answers for Sect.\ \@ref(PizzaHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
+```
+
+1. Observational.
+2. Relational.
+3. Two completely different groups of pizzas (stores) are compared.
+4. $-0.774$ to $-0.560$ inches (differences are *Dominos* less *Eagle Boys*).
+5. 
+6. From output, $t = -14.6$ and $P < 0.001$: very strong evidence of a difference.
+7. Since the sample sizes are large (both $125$), we *do not require that the populations have normal distributions*.
+8. The sample sizes are large ($n = 125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+9. Probably true. 
+   Amount of topping on the pizza? 
+   Which *tastes* better? 
+   Whether the samples were randomly selected or not?
+   Are sizes before of after cooking?
+
+
+### Answers for Sect.\ \@ref(TwoMeansBatteriesHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-BatteryHT.Rmd'}
+```
+
+1. $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$, which can also be expressed in words. 
+   Two-tailed.
+2. The precision with which the sample mean battery life estimate the population mean battery life.
+3. Use the second row (though it matters little here): $t = -0.486$; $\text{df} = 13.1$ and $P = 0.635$.
+4. The sample presents no evidence ($t = -0.486$; $\text{df} = 13.0$ and $P = 0.635$) of a difference in the mean lifetimes (mean difference: $-0.0544$; s.e.: $0.112$) of the batteries in the population.
+   ($95$%\ CI for the difference from $-0.30$ to\ $0.19\mins$ in favour of Ultracell.)
+5. Both population have a normal distribution, and/or $n > 25$ or so.
+6. Since $n < 25$ for both samples, we must assume the populations both have a normal distribution.
+   Stem-and-leaf plots aren't convincing (possible outliers) but the samples are too small to know anything for sure.
+
+
+### Answer for Sect.\ \@ref(AssumptionsGraphs) {.unlisted .unnumbered}
+
+The sample sizes are both much *larger* than $25$, so neither sample needs to be normally distributed for **statistical validity**: the *sample means* will have an approximate normal distribution.
+**None of the graphs are needed.**
+
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+CHAP 10
+
+### Answers for Sect.\ \@ref(OddsGMfood) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
+```
+
+1. Odds HIE: $263/151 = 1.742$. HIE is $1.74$ times more likely to be for GM foods than against.
+1. Odds LIE: $258\div222 = 1.162$. LIE is $1.16$ times more likely to be for GM foods than against.
+1. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
+   The odds of HIE being for GM food $1.5$ times the odds that a LIE for GM foods.
+1. From the sample, we estimate the OR in the population to be between $1.145$ to\ $1.961$.
+   (Loosely, though technically incorrect: the true OR is likely to be between $1.145$ and\ $1.961$.) 
+   Importantly, this interval does not include $1$.
+1. $\chi^2 = 8.74$ and $P = 0.003$; strong evidence of a difference.
+
+
+### Answers for Sect.\ \@ref(TablesHepC) {.unlisted .unnumbered}
+
+**1.** Incorrect is the one about means.
+**2.** $113/626 = 18.05\%$.
+**4.** $18.05$% of $47$ is $8.48$. 
+   See Table\ \@ref(tab:TattHepTabANS).
+**5.** $25\div 88 = 0.284$.
+**6.** $22\div 491 = 0.0448$.
+**7.** The OR is $0.284\div 0.0448 = 6.3$. 
+   This OR means that the odds of having Hep.\ C is\ $6.3$ times greater for students who have a tattoo, compared to those who do not have a tattoo.
+       
+
+```{r echo=FALSE, TattHepTabANS}
+TattHep <- array( dim=c(3, 3) )
+colnames(TattHep) <- c("Had Hep. C", 
+                       "Did not have Hep. C", 
+                       "Total")
+rownames(TattHep) <- c("Had tattoo", 
+                       "Did not have tattoo", 
+                       "Total")
+
+  TattHep[1, 3] <- 113
+  TattHep[2, 3] <- 513
+  TattHep[3, 1] <- 47
+  TattHep[3, 2] <- 579
+
+  TattHep[1, 1] <- 25
+  TattHep[2, 1] <- 22
+  TattHep[1, 2] <- 88
+  TattHep[2, 2] <- 491
+  
+TattHep[3, 3] <- 626
+   
+if( knitr::is_latex_output() ) {
+   kable(TattHep,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Hepatitis\\ C and tattoos.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(TattHep,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Hepatitis\\ C and tattoos.",
+      booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+### Answers for Sect.\ \@ref(ORTestsByss) {.unlisted .unnumbered}
+
+
+1. The third. 
+   The first is about samples; the second about means.
+   $H_0$: $\text{Pop. odds having byss.}_{\text{Smokers}} = \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR} = 1$; $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR} > 1$ for the OR suitably defined.  
+3. Smokers: $\hat{p} = 125/3,189 = 0.0392$; Non-smokers: $\hat{p} = 40/2,230 = 0.0179$.
+4. For smokers: $\text{Odds having byssinosis} = 125/3,064 = 0.0408$.
+   This means: smokers are $0.041$ times as likely to have byssinosis than not (or, inverting the ratio, $24.5$ times as likely not to have byssinosis than have it).
+  For non-smokers: $\text{odds} = 40/2,190 = 0.01826$.
+	Non-smokers are $0.018$ times as likely to have byssinosis than not (or, inverting the ratio, $54.8$ times as likely not to have byssinosis than have it).
+5. The OR is $0.04080/0.01826 = 2.2$, so the odds of a smoker having byssinosis are $2.2$ times the odds of a non-smoker having byssinosis. 
+6. OR not one could be due to chance or because of a real difference in the population, due to smoking and/or other reasons.
+7. The sample provides strong evidence (one-tailed $P < 0.001)$; $\text{df} = 1$; $\text{chi-square} = 20.092$; OR: $2.234$ ($95$% CI: $1.6$ to\ $3.2$)) that the population proportion of smokers with byssinosis ($\hat{p} = 0.0392$) is greater than the population proportion of non-smokers with byssinosis ($\hat{p} = 0.0179$).
+8. Valid, since expected counts all exceed five (which they do: no SPSS warnings given for example).
+
+
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+
+CHAP 11
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+CHAP 12
+
+
+### Answers for Sect.\ \@ref(IdentifyCorrectAnalysisAgain) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_latex_output()) 'Solutions/Lect10-A4.Rmd'}
+```
+
+
+### Answers for Sect.\ \@ref(ReadScatterplotHeathers) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-Heather.Rmd'}
+```
+
+
+1. 'What is the relationship between stem age and stem diameter in heather in the central north island of NZ?'
+2. Good!
+   Too many tick marks; horizontal-axis labels would be better horizontal.
+3. $r = \sqrt{0.431} = 0.6565$, or about $r = 0.66$. 
+   Positive linear relationship, reasonably strong.
+4. $b_0 = 1.531$ and $b_1 = 0.311$.
+5. $\hat{y} = (0.311 \times 20) + 1.531 = 7.751$.
+6. Slope of\ $0.311$: for each extra year of age, the stem diameter increases by about\ $0.311\mms$ on average.
+   Intercept of\ $1.531$: for stems of zero years of age, the average stem diameter is about $1.531\mms$, which is silly. 
+   The graph shows that this is extrapolation anyway: the data only start at about $3$\ years of age.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+### Answer for Sect.\ \@ref(ResearchProcess) {.unlisted .unnumbered}
+
+**Ask** the question.
+**Design** the study.
+**Collect** the data.
+**Classify** and **summarize** the data.
+**Analyse** the data.
+**Report** the results.
+ 
+ 
+ 
+### Answers for Sect.\ \@ref(FormingRQs) {.unlisted .unnumbered}
+
+1. *Neither RQ is actually helping answer the issue of the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner!*
+   For example, I may be able to tell the difference between diet and regular cola... but I may like them both equally (i.e., the taste rating is the same).
+1. One option: For my customers, what proportion can distinguish diet and regular colas?
+   P: The customers.
+   O: The proportion that can distinguish regular ad diet colas.
+   C: None.
+   I: NO.
+1. Many options: give a randomly-select cola (some regular; some diet), and record if customers can correctly identify it.
+
+
+### Answers for Sect.\ \@ref(UnderstandingTerminology1) {.unlisted .unnumbered}
+
+You can use the **Glossary** in the textbook.
+
+
+
+### Answers for Sect.\ \@ref(UnderstandingTerminology2) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+**P**: People at an American college.
+**O**: The *average* time taken to walk $50$\ m.
+**C**: Between the way subjects were using their phone.
+**I**: None: an observational study.
+
+**Explanatory variable**: The way the phone is being used.
+**Response variable**: The time taken to walk $50$\ m.
+
+**Unit of observation**: *Individual* subjects.
+**Unit of analysis**: *Individual* subjects.
+
+
+### Answers for Sect.\ \@ref(CreateRQs) {.unlisted .unnumbered}
+
+1. Many populations possible. The "best" population: the easiest, or cheapest to get?
+   All of the options are possibilities.
+2. "Relaxing":  Many options possible for quantifying this (heart rate? breathing rate? survey? *change* in heart rate before and after drinking the tea?).
+3. Again, many options possible. Some options for comparing to Earl Grey tea: coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
+4. "Between before and after drinking Earl Grey tea" is *not* a between-individuals comparison because everyone in the population (sample) is treated the same way: there are not two groups in the population being compared.
+5. An example RQ might be:  
+
+   "Among UniSC students (P), is the average heart rate $30$\ mins after drinking (O) different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C) when the drink is provided to them (I)?"
+   
+   I'm not saying this is the best; it is just an example.
+6. Get volunteers; place into one of the groups (Earl Grey and coffee); give the beverage; measure heart rate after $30$\ mins.
+   Note that many design issues are not covered until the next lecture.
+7. An example RQ might be:  
+
+   "Among UniSC students (P), is the average heart rate $30\mins$ after drinking (O) is different between those who drink a cup of Earl Grey tea and those who drinking a cup of hot coffee (C)?"
+   I'm not saying this is the best; it is just an example.
+8. Based on the above RQ: Find UniSC students who drink Earl Grey tea, and others who drink coffee, and measure their heart rate $30$\ mins after they drink.  
+   
+   It would have a lot of confounding effects to account for.
+9. For my RQ above: The volume of tea or coffee; brand of tea or coffee; how made; when beverage taken; how long steeped for; how heart rate is measured; student (full-time only?); etc.
+   You don't need to *define* these, but if you have time you can have a go at one or two definitions.
+10. Many options, but for the RQ above: type of beverage; heart rate after $30$\ mins (or better, the *change* in heart rate).
+
+
+### Answers for Sect.\ \@ref(Units) {.unlisted .unnumbered}
+
+1. The unit of analysis is the *floorboard*: because one board is compared to another; because the hardness is a feature of each board, not each test; because the two measurements on each board are not independent of each other (from the same board).
+2. There are $5$\ units of analysis.
+3. There are $10$\ units of observation.
+4. Now, only one unit of analysis.
+5. *Within* boards, the variation is small, apart from Board\ 1.
+   *Between* boards it is larger.
+
+
+### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
+
+The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; units.
+
+
+### Answers for Sect.\ \@ref(TypesOfStudies) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+Observational.
+Quasi-experimental (the classes are determined by the *students*, but the lecturer decides which class gets which treatment).
+
+
+### Answers for Sect.\ \@ref(IdentifyingPoorRQs) {.unlisted .unnumbered}
+
+1. Should be in terms of averages or means. 
+   So perhaps "Among water tanks used in south-east Queensland, are the **average** lead levels in tank water in concrete tanks higher than in poly tanks?"
+2. *Everyone* dies!  
+   So a time-frame is probably meant (i.e., twelve months after amputation). And compared to what?
+   Perhaps something like: "Are lower-limb amputees more likely to die $12$ months after amputation compared to upper-limb amputees?" or something. 
+3. No defined population (frozen beans? fresh butter beans? tinned kidney beans? jelly beans? coffee beans? can sizes?);  "amount" of salt should be, for example, the "average" amount (or concentration) of salt, and per $100$\ g or similar.
+   "Is the mean amount of salt in tinned butter beans  the same for Woolworth's Select brand as for Edgells brand?"
+   Anyway: You can look at the label (unless, of course, you wish to query those values).
+4. Silly: elephants are huge, and joeys are tiny. 
+   No-one needs to test this.
+   Also,the RQ talks about "weight" rather than "**mean** weight" too.
+5. Needs to be more specific!
+   Perhaps: "Is the mean reaction time different for males and females?" or similar.
+
+Terms that may need defining (there may be others):
+
+1. Conceptual: Domestic; "SE Queensland"; poly tanks; concrete tanks.  
+   Operational: How the concentration will be measured.
+2. Conceptual: Lower-limb amputee.
+3. Conceptual: "Amount" of salt; Homebrand; beans (coffee beans? jelly beans; bean-bag beans; kidney beans; baked beans; etc.)  
+   Operational: how is salt "amount" being measured?
+4. Conceptual: adult; juvenile; what type of kangaroos and elephants?  
+   Operational: How to measure weight (especially of elephants!)
+5. Conceptual: Reaction time; gender.
+   Operational: How reaction time will be measured. How gender will be determined.
+
+
+### Answers for Sect.\ \@ref(TerminologyLead) {.unlisted .unnumbered}
+
+1. The *population* is: *a.* $2$-year-old infants in Cincinnati.
+2. The *outcome*: *c.* The average of the indexes of the $2$-year neurobehavioural development.
+3. The *comparison*: *b.* Between low-to-moderate pre/post exposure to lead and no pre/post exposure.
+4. The *intervention*: *d.* There is no intervention.
+5. The *unit of observation*: *b.* The children.
+6. The *unit of analysis*: *b.* The children.
+
+
+### Answers for Sect.\ \@ref(Units2) {.unlisted .unnumbered}
+
+*Units of analysis*:  **a.** The individuals ingots.
+*Sample size*: **d.** $80$.
+
+
+### Answers for Sect.\ \@ref(Units3) {.unlisted .unnumbered}
+
+Units of analysis: the tank of fish.
+The type of experiment: true experiment.
+
+
+## Answer: TW 2 tutorial {#Lecture2Answers}
+
+### Answers for Sect.\ \@ref(StudyDesign) {.unlisted .unnumbered}
+
+1. Read the *Guidelines* carefully to find out!
+1. The study is *observational*, but because the researchers cannot determine the C (whether the person is a smoker or not).
+   The critical element here is C, *not* O.
+1. This is a mix of both C ('smokers and non-smokers') and O ('the median serum cholesterol').
+1. *External validity* only refers to whether the *sample* represents the given target *population*, which is *Australians*.
+   Whether the results apply for the entire world is irrelevant.
+1. "Serum cholesterol" is not a variable; nothing here is varying. "Serum cholesterol" is just a type of cholesterol.  
+   What actually varies--and so is the variable--is "the serum cholesterol concentration", or the "value of serum cholesterol".
+1. This is *not an experiment*, since the individuals cannot be directed into the comparison groups (between smokers and non-smokers) by the researchers. 
+1. In the data file, each row is a unit of analysis and each column is a variable. 
+   So there will be two variables but not those listed: one column will record the smoking status (Yes/No) and one column will record the serum cholesterol concentration.
+1. A confounding variable has to be related to *both* the response and explanatory variables.
+1. The *observer effect* is about how the *researchers* might respond, *not* the individuals under study.
+
+
+### Answers for Sect.\ \@ref(LanguageReport) {.unlisted .unnumbered}
+
+The answers are, in alphabetical order:
+beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; randomly; relational; sample; three; treatment.
+
+
+### Answers for Sect.\ \@ref(AssessReport) {.unlisted .unnumbered}
+
+1. *Outcome*: average lifespan? Not sure how one measures 'ageing well'. \tightlist
+   *Response variable*: lifespan?
+2. *Comparison*: Between eating and not eating aged cheese.
+   *Explanatory variable*: Whether someone eats aged cheese (or a certain amount of aged cheese) or not.
+3. Observational; but a guess.
+4. *Outcome*: average lifespan; *response*: lifespan.
+5. *Comparison*: Between mice drinking and not drinking spermidine; *explanatory*: the type of water the mice drank.
+6. Experimental; researchers treated the water.
+7. Possibly; 'aging well' is not the same as having an increased lifespan.
+   Study is for *mice*, not *people* anyway.
+8. To act as the control group, to measure the effect of the spermidine.
+9. *Outcome*: average blood pressure; *response*: blood pressure.
+10. Probably correlational, but possibly relational.
+11. Observational.
+12. Some answers are debatable. 
+    a. Probably confounding (often is).
+    b. Probably neither.
+    c. Probably neither.
+    d. Probably confounding.
+    e. Probably extraneous.
+13. Not really; but 'ageing well' is very vague.
+14. No; spermidine may have an effect, but probably not due to aged cheese intake.
+15. No; observational.
+
+
+### Answers for Sect.\ \@ref(StudyFeatures) {.unlisted .unnumbered}
+
+1. Yes: 'They were randomly allocated to take palmolein ("B9") or canola ("T4") crisps for the first 3 weeks, then (without a washout period) changed over to the other type, canola or palmolein for another 2 weeks'.
+2. It has: 'the type of oil was known only by the food scientist...'
+3. 'the type of oil was known only by the food scientist...'
+4. Probably.
+5. Subjects and researchers blinded.
+
+
+### Answers for Sect.\ \@ref(SamplingParking) {.unlisted .unnumbered}
+
+Use a multi-stage sample: Select a carpark at random, then a row of cars at random, then cars at random.
+
+
+### Answers for Sect.\ \@ref(UnderstandTerminologyStudies) {.unlisted .unnumbered}
+
+1. The 'who' or 'what' which are observed, and for which data are collected: *F.\ Units of observation*.
+2. A study where the researcher creates differences in the explanatory variable and measures the change in the response variable: *G.\ Experimental study*.
+3. The result or effects of interest, across the population: *B.\ Outcome*.
+4. What we 'do' to the individuals in the study: *H.\ Intervention*.
+5. The question of interest to be answered by the study: *D.\ Research question*.
+6. The larger group of individuals that are the focus of the study: *E.\ Population*.
+7. The smallest independent 'who' or 'what' about which generalisations and conclusions are made, and for which information is analysed: *C.\ Units of analysis*.
+8. A study where the researcher observes difference in the explanatory variable, and notices if these are related to changes in the response:  *A.\ Observational study*.
+
+
+### Answers for Sect.\ \@ref(UnderstandFishoil) {.unlisted .unnumbered}
+
+1. Variables: risk of dying from heart disease (or mortality rate? It's a bit ambiguous) as response; whether they get fish oil and/or Vitamin E as explanatory.
+2. True experimental, as  fish oil and Vitamin\ E are *given* to subjects, and the groups are determined by the researchers.
+3. Randomization is not mentioned but probably used (a reporting issue).
+   Control used (there is a placebo).
+   Blinding: not stated. 
+   Blocking: none indicated. 
+   Study seems well done, so no obvious lurking variables (however, all subjects did change their diet).
+   Group allocated by researchers, so a true experiment.
+4. Since experiment, lurking variables not an issue (if study well done).
+5. Cause-and-effect relationship likely (if experiment well done).
+6. Limitations: Study only looked at people who have had a heart attack, were on heart medication, and looks like all subjects were Italian, and *all* subjects changed to a healthy diet.
+7. Units of observation: the individuals in the study. 
+   Units of analysis: the individuals in the study, as we are comparing the outcomes from each individual, and the outcome from each individual is independent of others. 
+
+
+### Answer for Sect.\ \@ref(RandomAllocation) {.unlisted .unnumbered}
+
+Quite possibly: confounding!
+They could have been chosen randomly... though it would be unlikely.
+
+
+### Answer for Sect.\ \@ref(EvaluatingReportsSugar) {.unlisted .unnumbered}
+
+1. *Type of drink*: explanatory variable; nominal variable; qualitative variable.
+Response variable; quantitative variable.
+2. High precision.
+3. Use a random sample.
+
+
+### Answers for Sect.\ \@ref(DesignTrees) {.unlisted .unnumbered}
+
+1. The first design (A).
+2. The third design (C).
+3. Depends on the research focus, but the second probably strikes a balance.
+   The key identifying the source of variation that is likely to be the greatest, and allocate relatively more units there because that is the source of variation that is more important to quantify. 
+4. Easiest would be the design using the smallest number of forests (Design\ A), as collecting data within a forest is likely to be more convenient than moving around to many forests.
+
+
+
+
+## Answer: TW 3 tutorial {#Lecture3Answers}
+
+### Answers for Sect.\ \@ref(StatsMode) {.unlisted .unnumbered}
+
+1. Some of the significant figures look ridiculous.
+   Mean: $990.0791$, or $990.1$\ tonnes.
+   Standard deviation: $1588.514579$, or $1588.5$\ tonnes. 
+   (Specifically, **not** $1485.919327$.)
+2. Median: $180.5$\ tonnes.
+3. Splitting the data into two parts of four observations each:
+   $Q_1$ is half-way between $8.0001$ and $29.4$ tonnes: $Q_1 = 18.7005$.
+   $Q_3$ is half-way between $676.2$ and $2547.3$ tonnes: $Q_1 = 1611.75$.
+   The IQR is $1611.75 - 18.7005 = 1593.05$, or about $1593$ tonnes.
+   
+
+### Answers for Sect.\ \@ref(UnderstandingVariation) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+Median largest: **Class\ D**.
+Median smallest: **Class\ C**.
+Standard deviation largest: **Class\ A**.
+Standard deviation smallest: **Class\ D**.
+
+
+### Answers for Sect.\ \@ref(UnderstandingHistograms) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Volume of drinks in $375\mls$: **Graph\ D**. 
+   (Students sometimes say Graph\ A, thinking that most cans have very similar amounts.)
+2. Time in exam for **short** or **easy** exam: **Graph\ C**.
+3. Time in exam for **long** or **hard** exam: **Graph\ B**.
+4. The heights of females UniSC students: **Graph\ D**.
+5. The *starting* salaries: **Graph\ C**. 
+   (Students sometimes say Graph\ B, thinking that salaries rise over time.)
+
+
+### Answers for Sect.\ \@ref(InterpretingGraphs) {.unlisted .unnumbered}
+
+1. Female Weddell: about $260$--$270\cms$ long, vary from about $200$ to $310\cms$.
+   Slight negative skewness; possible small outlier at about $170$--$180\cms$.
+2. Dotchart.  
+   (Too much data for a useful stem-and-leaf plot probably.)
+3. Better with a title; some more labelled tick marks would be better.
+
+
+### Answers for Sect.\ \@ref(Chapter4Drills) {.unlisted .unnumbered}
+
+<!--
+### Number 1
+ais <- scan()
+1: 167.9
+2: 177.5
+3: 162.5
+4: 172.5
+5: 166.7
+6: 175.0
+7: 157.9
+mean(ais); sd(ais); median(ais); IQR(ais)
+[1] 168.5714
+[1] 6.966279
+[1] 167.9
+[1] 9.15
+
+### Number 2
+> bamboo <- scan()
+1: 99.2	111.2	97.6	101.1	104
+mean(bamboo); sd(bamboo); median(bamboo); IQR(bamboo)
+
+### Number 3
+> bf <- scan()
+1: 14.52	11.47	17.71	18.48	11.22	13.61	12.78	11.85	13.35
+mean(bf); sd(bf); median(bf); IQR(bf)
+
+-->
+
+1. Mean: $168.5714$, or $168.57\ms$. 
+   Standard deviation: $6.966279$, or $6.97\ms$. 
+   (Specifically, **not** $6.44952$.)
+   Median: $167.9\ms$.
+   IQR: $175.0 - 162.5 = 12.5\ms$ (software may give a different value).
+2. Descriptive.
+   $\bar{x} = 102.62 MPas$; $s = 5.356\MPas$.
+   The median is $101.1\MPas$.
+3. Mean: $13.88778$, or $13.888$%.
+   Standard deviation: $2.617402$, or $2.617$%.
+   Median: $13.35$%.
+   IQR: $16.115 - 11.66 = 4.455$% (software may give a different value).
+
+
+### Answers for Sect.\ \@ref(CalculatorBatteries) {.unlisted .unnumbered}
+
+1. Observational: the 'treatment' (brand of battery) is not assigned; we simply take measurements from the batteries that exist.
+2. Units of observation and units of analysis: The individual batteries.
+3. *Energizer*: mean: $7.36\hs$; std dev: $0.289\hs$.
+   *Ultracell*: mean: $7.41\hs$; std dev: $0.172\hs$.
+4. Ultracell batteries are *slightly* better (last longer) on average, and more consistent performers.
+5. *Energizer*: median: $7.46\hs$.
+	 *Ultracell*: median: $7.48\hs$.
+   So Ultracell batteries are *slightly* better (last longer) on average.
+6. Probably median (outliers?), but mean and median are similar in any case.
+7. Values are close.  
+   Energizer batteries take, on average, *less* time to reach $1.0$ volts, so are 'worse' in this regard.
+	 They also have a lot more variation. 
+	 (Based on means, the difference is $0.05\hs$, or $3\mins$ in over $7\hs$ use!
+	 Based on medians, the difference is $0.02\hs$, or $1.2\mins$!)
+	 **The *practical* difference is negligible.**
+8. At the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
+
+
+### Answers for Sect.\ \@ref(InterpretHistogram) {.unlisted .unnumbered}
+
+FAS here is about $20$--$25$ in general, ranging from $10$ to\ $50$ (which are actually the smallest and largest possible scores).
+
+Here's is a detailed explanation.
+**You are not expected to go to this detail!**
+The FAS is about $25$ on average, ranging from about $10$ to\ $50$, slightly skewed right with no outliers.
+The distribution is unimodal.
+(The heights of the bars are, as best as I can figure, $3$; $14$; $44$; $34$; $22$; $17$; $5$; $3$.)
+With $n = 142$, the median is observation number $71.5$, which is in the $25$--$30$ bar.
+The quartiles will have about $35$ in them, so $Q_1$ will be in the $20$--$25$ bar, and $Q_3$ will be in the $30$--$35$ bar.
+Histogram is pretty good; bars really should be touching.
+
+ 
+
+### Answers for Sect.\ \@ref(UnderstandGraphsPizza) {.unlisted .unnumbered}
+
+**Centre**: About $11.4$ inches;
+**Variation**: Most are between $11.0$ and $12.3$ inches;
+**Shape**: Slightly skewed right (apart from that outlier...);
+A small outlier (near $10.5$ inches).
+
+
+
+## Answer: TW 4 tutorial {#Lecture4Answers}
+
+### Answers for Sect.\ \@ref(PercentOddsStroke) {.unlisted .unnumbered}
+
+1. (No answer.)
+1. $43\div (43 + 67) \times 100 = 39.1$%. 
+1. $39\div (97 + 39) \times 100 = 28.7$%.
+1. $43\div 67 = 0.642$.
+1. $39\div 97 = 0.402$.
+1. $0.642 \div 0.402 = 1.6$.
+1. (No answer; see online.)
+
+
+### Answers for Sect.\ \@ref(TwoWayTables) {.unlisted .unnumbered}
+
+1. Type of student:nominal (with three levels).
+   Number of concussions: *ordinal* (with three levels).
+2. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion.
+3. Not sure which is best; they do different things.
+   I'd probably prefer\ (c) (bottom left graph).
+4. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
+   Non-athletes are $0.35$ times as likely to receive two or more concussions than fewer than two.
+	 Or: For every $100$ students with fewer than two concussions, there are $35$ with two or more.
+5. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
+	 Soccer players are $0.26$ times more likely to receive two or more concussions than fewer than two concussions.
+6. OR: $0.35 \div 0.26$, or about $1.35$.
+	 The odds of a non-athlete receiving two or more concussions is about $1.35$ times the odds of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
+7. Not given.
+8. Not given.
+9. The better table is probably row percentages: the percentages of each type of students with given number of concussions.
+
+
+### Answers for Sect.\ \@ref(WorkingWithOdds) {.unlisted .unnumbered}
+
+1. The *percentage* of bridges collapsing due to deterioration is *36* divided by *433*, or $8.3$%.
+2. The *odds* of a bridge collapsing due to deterioration is *36* divided by *397*, or $0.091$.
+3. The odds of a bridge collapsing due to deterioration is $0.091$; this means: *b. For every $100$ bridges that do not collapse due to deterioration, about $9.1$ bridges do collapse*.
+4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or $91.7$%.
+5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or $11.0$.
+6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or $18.9$%.
+7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or $0.234$.
+8. The odds of an event cannot be larger than one: *FALSE*.
+9. The odds of an event cannot be smaller than one. *FALSE*.
+10. The following statement is true: *c. Odds cannot be negative*
+
+
+### Answers for Sect.\ \@ref(Chapter4Drills) {.unlisted .unnumbered}
+
+1.
+  a. $(381 + 345)/1347 = 0.53898$, or about $53.9$%.
+  b. $(381 + 345)/(295 + 326) = 1.1691$, or about $1.17$.
+  c. $345/326 = 1.05828$, or about $1.06$.
+  d. $381/295 = 1.29153$, or about $1.29$.
+  e. $1.05828 / 1.29153 = 0.81940$, or about $0.819$.
+
+2.
+  a. $(240 + 138)/960 = 0.39375$, or $39.4$%.
+  b. $(240 + 342)/960 = 0.60625$, or $60.6$%.
+  c. $(240 + 240)/960 = 0.5000$, or $50$%.
+  d. $(240 + 138)/(240 + 342) = 0.64948$, or about $0.649$.
+  e. $240/240 = 1.000$.
+  f. $138/342 = 0.40351$ or about $0.404$.
+  g. $0.40351/ 1.000 = 0.40351$ (i.e., the answer to f divided by the answer to e).
+
+
+### Answers for Sect.\ \@ref(OddsRatioSMND) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-SMND.Rmd'}
+```
+
+1. Backwards.
+1. See Table\ \@ref(tab:SMNDAnswerTable).
+2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
+3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
+
+
+```{r echo=FALSE, SMNDAnswerTable}
+SMNDData <- array( dim = c(3, 3) )
+colnames(SMNDData) <- c("Worked with metals", 
+                        "Did not work with metals", 
+                        "Total")
+rownames(SMNDData) <- c("SMND cases", 
+                        "Controls", 
+                        "Total")
+
+SMNDData[1,] <- c(60, 320, 380)
+SMNDData[2,] <- c(33, 344, 377)
+SMNDData[3,] <- c(93, 664, 757)
+
+if( knitr::is_latex_output() ) {
+   kable(SMNDData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+       caption = "SMND cases, and whether they had worked with metals.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+  kable(SMNDData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "SMND cases, and whether they had worked with metals.",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+### Answers for Sect.\ \@ref(PercentagesOdds) {.unlisted .unnumbered}
+
+Answers embedded.
+
+1. $70$%, as given directly from the table.
+2. $281/(404 - 281) - 2.28$.
+3. For patients treated with ETI, about $278$ die for every $100$ that survive.
+4. $2.78/2.28 = 1.22$.
+
+
+### Answers for Sect.\ \@ref(Odds1) {.unlisted .unnumbered}
+
+Answers embedded.
+
+Odds **less than** one.
+Odds **less than** one.
+Odds **greater than** one.
+Odds **greater than** one.
+
+
+### Answers for Sect.\ \@ref(PercentagesOdour) {.unlisted .unnumbered}
+
+1. Observational.
+2. The percentage of residents in each area that detected the smell at the given frequency.
+   So, for example, the first number in the first column would become $48\div 97\times 100 = 49.5$.
+   This means that $49.5$% *of the sample that lived in Area\ I* detected the odour at least once a week.
+3. For example, the percentage of residents who detected an odour at least once a week, who lived in Area\ I.
+4. Probably column percentages.
+5. $77\div 291 = 26.46\%$.
+
+
+ 
+
+## Answer: TW 5 tutorial {#Lecture5Answers}
+
+### Answers for Sect.\ \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
+
+1. A few issues:
+   Five decimal places is to the nearest $0.01$ of a mm!
+	 The standard deviation of the difference is *not* the difference between the individual standard deviations.
+	 A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
+	 Note that there is a sample size of\ $0$ for the difference!
+2. A few issues:
+   Five decimal places: That's accuracy to $0.00001$ of a millimetre per second (I don't think so...).
+	 There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
+	 The *differences* between the two brands.
+
+
+### Answers for Sect.\ \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+
+1. A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
+2. A few issues: this is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
+  In addition: the largest value is over $70\mins$! Do a *quick* project!
+		
+3. A few issues: Compares just two numbers (means) using lots of ink; no indication of *variation* in the data; a boxplot (or dotchart) would be appropriate.
+
+
+### Answers for Sect.\ \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
+
+1. **Plot\ 1**: $0.94$ (correlation\ **D**);
+   **Plot\ 2**: $-0.95$ (correlation\ **A**); 
+   **Plot\ 3**: $0.12$ (correlation\ **B**);
+   **Plot\ 6**: $0.75$ (correlation\ **C**).  
+   Correlation is inappropriate for Plot\ 4 (non-linear) and Plot\ 5 (non-linear).
+2. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
+3.   Examples of direction in **Plot\ 2**: any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
+4. **Plot\ 1**: $88.4$%;
+   **Plot\ 2**: $90.3$%;
+   **Plot\ 3**: $1.4$%; 
+   **Plot\ 6**: $56.3$%.
+ 
+
+### Answers for Sect.\ \@ref(WhichSummaryToUse) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. Five variables. ('Participants' would not be summarised, it is technically an *identifier* and *not* a *variable*, as each person has a unique value).
+2. Age; Height; Weight and quantitative **continuous**.
+3. Gender (**nominal**; two levels); GMFCS (**ordinal**; three levels)
+4. As follows:
+    * 'Gender': Percentages (or number) F and M
+    * 'Age': Mean/median; standard deviation/IQR
+    * 'Height':  Mean/median; standard deviation/IQR
+    * 'Weight':  Mean/median; standard deviation/IQR
+    * 'GMFCS': Percentages (or numbers) in each group
+5. As follows:
+    * 'Gender': Barchart (not really needed)
+    * 'Age': Histogram/stemplot
+    * 'Height':  Histogram/stemplot
+    * 'Weight':  Histogram/stemplot
+    * 'GMFCS': Barchart/piechart
+6. As follows:
+    * Between Gender and Height: Boxplot
+    * Between Gender and GMFCS: Side-by-side or stacked bar chart.
+
+
+### Answers for Sect.\ \@ref(UnderstandRqVariables) {.unlisted .unnumbered}
+
+1. Relational.
+1. Observational: no intervention 
+1. O: average accuracy. 
+   Response variable: the 'accuracy' for each individual.
+1. C: Between blind and sighted individuals.
+   Explanatory variable: Whether the individual is blind, or not.
+1. No intervention: the\ C (whether someone is blind or not) cannot be manipulated by the researchers.
+1. Quantitative continuous.
+1. Qualitative nominal.
+1. A boxplot.
+1. The unit of analysis is the person.
+1. $34 + 36 = 70$.
+1. One: each person gets one 'accuracy' value. 
+
+
+### Answers for Sect.\ \@ref(DrawBoxplot) {.unlisted .unnumbered}
+
+1. Not shown.
+2. The median temperatures similar; a slight increase from Office\ A to\ C.
+IQR similar for each office, and range similar for Offices A and C (slightly larger for Office\ B).
+   In summary: Office\ A a bit different (cooler) on average.
+3. Perhaps Office\ A. 
+4. Three.
+
+
+### Answers for Sect.\ \@ref(SelectGraphs1) {.unlisted .unnumbered}
+
+1. Stacked or side-by-side barcharts;  whether bird injured or not, and whether upper or lower are both qualitative variables.
+2. Boxplots would be OK; one quantitative (length-of-stay) and one qualitative (therapy type) variable.
+3. Scatterplots; two quantitative variables (frequency; amount wheat consumed).   
+4. Two-way table or stacked/side-by-side barchart, or table; two qualitative variables ($30 mins$ of physical activity or not; vigorous physical 
+
+
+### Answers for Sect.\ \@ref(IdentifyingGraphs1) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. **Explanatory** variable is the number of hours of light each plant received; **response** variable is the number of flowers each plant received.
+   The units of **observation** are the individual plants.
+2. **Explanatory** variable is the number of smokers at the restaurant; **response** variable is the concentration of fine particulate matter.
+3. **Response** variable is the waiting time; **explanatory** variable is the time of admission.
+4. **Explanatory** variable is the "Level of Playfulness"; **response** variable is the "Level of Coping".
+
+
+### Answer for Sect.\ \@ref(SelectingGraphsH5P) {.unlisted .unnumbered}
+
+
+1. To display the relationship between the age of athletes, and the times taken for each athlete to complete the `beep test': *Scatterplot*
+   Boxplot if 'Whether aged under\ $25$'.
+2. To display the percentage of elderly people in nursing homes that can independently complete a given task, for each of the seven tasks on a given list: *Bar chart* or *Dot chart*
+3. To display the relationship between the type of fertiliser applied to a vegetable crop (either\ A, B or\ C) and the yield per hectare, measured over numerous plots:  *Boxplot*
+4. To display the distribution of the hardness measurements taken of $250$ samples of bamboo: *Histogram* 
+5. To display the relationship between the age of concrete test cylinders (under $5$\ years; $5$\ years and older) and their strength (fit for purpose; or not fit for purpose): *Side-by-side or stacked bar chart*
+
+
+### Answers for Sect.\ \@ref(EvaluateGraphsAnts) {.unlisted .unnumbered}
+
+1. Observational; the ant nest would be pre-existing.
+2. Both are 'ant nests'.
+3. Looks good!
+4. Uphill looks different to the other two.
+   Also: the lower dots comprise mostly blue dots (Sourdough Trail), so perhaps a difference between locations too.
+
+
+### Answers for Sect.\ \@ref(EvaluateGraphs1) {.unlisted .unnumbered}
+
+1. True experiment: treatments given (experiment), and the researchers selected the groups, groups did not previously existed (so *true* experiment).
+2. Observation: each  patient.
+   Analysis: The patient.
+3. Pretty good.
+   A label on the horizontal axis would be better, but the caption does contain that information.
+4. Pain is *reduced*.
+5. Yes, probably. 
+   We cannot be sure due to randomness...
+
+
+### Answer for Sect.\ \@ref(SelectGraph1) {.unlisted .unnumbered}
+
+Boxplot; scatterplot.
+
+
+
+ 
+
+## Answer: TW 6 tutorial {#Lecture6Answers}
+
+### Answers for Sect.\ \@ref(NormalIQs) {.unlisted .unnumbered}
+
+Answers embedded.
+Some answers:
+
+**1.** In order from left to right: $70$; $85$; $100$; $115$; $130$.
+**3.** $30$ points above the mean.
+**4.** Two standard deviations above the mean.
+**5.** About $2.5$%.
+
+A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
+Using the **68**--$95$--$99.7$ rule, the proportion of the population with an IQ less than $85$ is about **32**%. 
+In addition, the proportion of the population with an IQ **above** $85$ is about **68**%.
+
+
+### Answers for Sect.\ \@ref(NormalHeights) {.unlisted .unnumbered}
+
+1. Answers vary.
+2. Answers vary.
+3. Answers vary.
+4. Answers vary.
+   You probably cannot be very accurate using the $68$--$95$--$99.7$ rule.
+5. Answers vary.
+6. Two standard deviations from the mean is $2\times 6.7 = 13.4$, so $95$% of females aged $18$ and over have a measured height
+   between $161.4 \pm13.4$ approximately, or from $148.0$cm to $174.8$cm.
+7. As follows:
+    * $z = (171 - 161.4)/6.7 = 1.43$, so the probability is $0.9236$ or about $92$%.
+    * So the odds are $92.36/(100 - 92.36) = 12.1$.
+    * The answer is just $1 - 0.9236 = 0.0764$ or about $7.6$%.
+    * The probability of **over 171cm** is $7.64$%.
+    * So the odds are $7.64/(100 - 7.64)= 0.083$.
+    * $z$-scores are $1.28$ and $2.78$, so the answer is $0.9973 - 0.8997 = 0.0976$, or about $9.8$%. 
+    * So the odds are $9.8/(100 - 9.8) = 0.11$.
+
+8. Use the Tables: $z = -0.84$; then using unstandardising formula, the height is $x = \mu + (z\times\sigma) = 161.4 + (-0.84\times6.7) = 155.772$, or about $156\cms$.
+
+
+### Answers for Sect.\ \@ref(Probability2) {.unlisted .unnumbered}
+
+Answers embedded.
+
+Relative frequency.
+Relative frequency.
+Subjective.
+Relative frequency.
+Classical.
+
+
+### Answers for Sect.\ \@ref(RandomCardDraws) {.unlisted .unnumbered}
+
+1. Depends on data.
+1. Looking close to normal, centred around $0.5$-ish.
+1. We'd have an approximate normal distribution with mean $\mu_{\hat{p}} = 0.5$ and standard deviation $\text{s.e.}(\hat{p}) = \sqrt{0.5 \times (1 - 0.5)/10} \approx 0.158$.
+1. Still normal; same mean; but standard deviation would be smaller: $\text{s.e.}(\hat{p}) = \sqrt{0.5 \times (1 - 0.5)/50} \approx 0.071$.
+
+
+### Answers for Sect.\ \@ref(NormalSOI) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-SOI.Rmd'}
+```
+
+
+2. $z = (20 - 0)/10 = 2$. 
+   The area or probability to the *right* is $0.0228$, or about $2.3$%.
+3. The probability the SOI exceeds $20$: $2.3$%. 
+   So odds: $2.3\div(100 - 2.3)$, or about $0.024$.
+4. $z = (-25 - 0)/10 = -2.5$. 
+   The area to the *left* is $0.0062$, or about $0.6$%.
+5. $z = (-12 - 0)/10 = -1.2$. 
+   The area to the *right* is $0.8849$, or about $88.5$%.
+6. The two $z$-scores: $(-10 - 0)/10 = -1$ and $(20 - 0)/10 = 2$. 
+   The area *between* these is $0.9772 - 0.1587 = 0.8185$, or about $81.9$%.
+7. The $z$ score corresponds to an area of $0.80$ to the *left*; from the tables, about $z = 0.84$. 
+   This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
+8. The $z$-score is $0.385$ from Appendix\ 3 in the textbook, remembering that the area to the *left* would be $0.650$ (draw a diagram!). 
+   So, the $z$-score is $0.385$, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
+
+
+
+
+## Answer: TW 7 tutorial {#Lecture7Answers}
+
+### Answers for Sect.\ \@ref(ConceptsMatches) {.unlisted .unnumbered}
+
+1. This is just one box of matches (one *observation*), but the claim is about the *population mean*.
+   Some boxes will have more than $45$, and some fewer.
+2. Jake is correct in one sense: You can't have $0.9$ of a match.
+   But the value is the *mean* number, and that *can* be a decimal. 
+   Suppose $10$ boxes had $49$ matches, and $10$ boxes had $50$ matches... is the mean $49$, or is it $50$?
+   Neither are correct; the mean is $49.5$.
+3. Jake is confusing the *sample* and *population* mean.
+   The claim is that the *population* mean is $45$.
+   The sample produced a mean of $44.9$.  
+   
+   Why should the mean of two different things be the same?
+   It's like expecting your height and your Mum's height to be the same:
+   they are both heights, but of different things.
+   Why should they be the same?  
+
+   Of course, every sample will produce a different sample mean.
+   This sample may just have an unusually low number of matches.
+4. Either (1)\ The manufacturer is lying; or (2)\ the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
+5. A CI gives some indication of the variation implied by the sample.
+6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+   So the approximate $95$%\ CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
+7. No. A $95$% CI may or may not contain the population mean.
+   Of course, the manufacturer *may* indeed be lying...
+   but we'd need to be cautious about making such a bold claim on just this evidence.
+   Ideally, we would repeat this study a few times or take a larger sample.
+   But it *is* looking suspicious...  
+
+   If we had many, many sets of $25$\ matches boxes,
+   $95$% of these sets of\ $25$ would have a mean between $44.85$ and $44.95$.
+8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+9. $\mu$ is the mean of the population; the true mean if you like.
+   $\mu$ is *claimed* to be $45$, but the the value of $\bar{x}$ will, of course, vary.
+
+
+### Answers for Sect.\ \@ref(SEproportions) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+$\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \big)/n}$, where $\hat{p}$ is the *sample proportion*; $n$ the *sample size*; "s.e." the "standard error".
+
+
+### Answers for Sect.\ \@ref(CIPropBVM) {.unlisted .unnumbered}
+
+1. $123/(404 - 123) = 123/281 = 0.44$.\tightlist
+2. $\hat{p} = 123/404 = 0.304455$.
+3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (i.e., it is lower).
+	Or: For every $100$ that die, about $44$ survive.
+4. No: sampling variation!
+5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1 - 0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about $0.023$.  
+   A definition can be found in the textbook *Glossary*. 
+   Essentially, each sample is likely to produce a different value for the sample proportion, $\hat{p}$ (the estimate of the population proportion, $p$), and that is what we mean by "sampling variation".
+6. (Not provided.)
+7. The values of $\hat{p}$ will have an approximate normal distribution, with a standard deviation equal to standard error ($0.023$) and centred around the true proportion $p$. 
+    A $95$% CI: $0.304455 \pm (2\times0.022894)$, or $0.30446\pm0.04579$, or $0.26$ to $0.35$.
+8. One way of writing communicating: “The population proportion of patients surviving after BVM treatment has a $95$% chance of lying between $26$% and $35$%.”
+   This is not strictly correct, but acceptable and very, very commonly used (as explained in the textbook.
+9. Larger, to get a tighter (more precise) CI than the one calculated.
+10. The number of surviving and non surviving both exceed $5$.
+
+      
+### Answers for Sect.\ \@ref(CIPizzas) {.unlisted .unnumbered}
+
+1. $\mu$ is the population mean diameter size of *all* EB pizzas;
+   $\bar{x}$ is the mean diameter of the pizzas in the sample.
+2. $\bar{x} = 11.486$ inches; it's not sensible to quote the diameter to $0.001$ of an inch; what *would* be is sensible?
+   We don't know the value of $\mu$, and we never will.
+	 Our best *estimate* is the value of $\bar{x}$.
+3. $s = 0.24658$ inches.
+   It's not sensible to quote the diameter to $0.001$ of a cm though.
+   $\sigma$ is the standard deviation of the population.
+	 We don't know the value of $\sigma$, and we never will.
+4. $\displaystyle\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.24658/\sqrt{125} = 0.02205$.
+5. The first measures the variation in the diameters of individual pizzas; the second measures the precision of the sample mean when used to estimate the population mean.
+6. Almost certainly not the same.
+   Probably close to $\bar{x} = 11.486$ inches.
+   More precisely, probably within three standard errors ($3\times 0.022$) of $\bar{x}$.
+7. Normal; mean $\mu$; std. dev is the standard error of $0.02205$.
+8. The approximate $95$% CI is $11.486\pm (2\times 0.02205)$ or $11.486\pm0.044$, which is from $11.44$ to $11.53$ inches.
+9. Based on the sample, a $95$% confidence interval for the population mean for the pizza diameter is between $11.44$ and $11.53$ inches.
+10. $n > 25$ **or** $n\le 25$ and population has normal distribution.
+11. We do not need to **assume** that $n > 25$ because we know that it is.
+		We do *not* require that the sample or the population has a normal distribution.
+		We require that the *sample means* have an approximate normal distribution, which they will if $n > 25$.
+			So the CI is statistically valid, and the histogram is not needed.
+12. Population mean diameter probably not $12$ inches based on the CI.
+
+
+### Answers for Sect.\ \@ref(Chapter6Drills) {.unlisted .unnumbered}
+
+1. $\sqrt{0.70\times(1 - 0.70)/25} = \sqrt{0.0084} = 0.09165151$, or about $0.09165$.
+2. $\sqrt{0.25\times(1 - 0.25)/100} = \sqrt{0.001875} = 0.04330127$, or about $0.04330$.
+3. $0.08724964$, or about $0.08725$.
+4. $0.0534479$, or about $0.05345$.
+
+All statistically valid.
+
+**Note**: Students commonly forget to take the square root.
+
+**Note**: If you calculator gives an answer something like `1.875 E-03` or similar, it is using **scientific notation**.
+It means $1.875\times 10^{-3}$, or $0.001875$.
+
+
+### Answers for Sect.\ \@ref(GeneralIdeas2) {.unlisted .unnumbered}
+
+See Table\ \@ref(tab:TermsANSWER).
+
+```{r TermsANSWER, echo=FALSE}
+Terms <- array( "No", 
+                dim = c(6, 2))
+
+colnames(Terms) <- c("Applies to $\\mu$",
+                     "Applies to $\\bar{x}$")
+
+rownames(Terms) <- c("Has a standard error",
+              "Refers to the population",
+              "Refers to the sample",
+              "Value is known before the sample is taken",
+              "Value is unknown until sample is taken",
+              "Value is estimated")
+
+
+Terms[c(2, 4, 6) ,1] <- "YES"
+Terms[c(1, 3, 5) ,2] <- "YES"
+
+
+if( knitr::is_latex_output() ) {
+  kable(Terms,
+      format = "latex",
+      booktab = TRUE,
+      align = c("r", "r"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      linesep = c("\\addlinespace", "", "\\addlinespace", "", "\\addlinespace", ""),
+      caption = "Which terms apply when? Tick the appropriate places in the table.") %>%
+  kable_styling(full_width = FALSE) %>%
+  kable_styling(font_size = 8) %>%
+  row_spec(0, bold = TRUE)
+}
+if( knitr::is_html_output() ) {
+  kable(Terms,
+      format = "html",
+      booktab = TRUE,
+      align = c("r", "r"),
+      escape = FALSE, # Makes the  $\\mu$ (e.g.) work in latex
+      caption = "Which terms apply when? Tick the appropriate places in the table.") 
+}
+```
+
+
+### Answers for Sect.\ \@ref(RoomWidthCI) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidth.Rmd'}
+```
+
+
+1. $\bar{x} = 16.02\ms$.
+2. $s = 7.145\ms$; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077\ms$. 
+   The first is a measure of the variation in the original data; the second is a measure of the precision of the sample mean when estimating the population mean.
+3.The CI is from $13.85$ to $18.19\ms$.
+4. $95$% CI for population mean guess: $13.85$ to $18.19\ms$.
+5. The population of differences has a normal distribution, and/or $n > 25$ or so.
+6. Since $n > 25;$, all OK if the histogram isn't severely skewed; probably OK.
+7. Not really; the CI doesn't contain the true width.
+   But was this just due to the metric units... or perhaps students are just very poor at estimating widths in general!
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+### Answers for Sect.\ \@ref(HMMaturing) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-MatureLate.Rmd'}
+```
+
+1. Relational.
+2. $\hat{p} = 352/2\ 864 = 0.12291$. 
+3. $\text{s.e.(}\hat{p}) = \sqrt{0.12291 \times (1 - 0.12291)/2864} = 0.006135$.
+4. An approximate 95\% CI is $0.12291 \pm (2\times 0.006135)$, or $0.12291\pm 0.01227$, or from $0.111$ to\ $0.135$.
+       Either the '$0.123\pm 0.012$' form or the '$0.111$ to\ $0.135$' form is fine; percentages or proportions are fine (but **the calculations must done with the proportions, not the percentages**).
+5. We need the number of boys who are late maturers and who are *not* late maturers to both be greater than $5$.
+   This is true, so the calculations are valid.
+6. Smaller; the current sample size estimates $p$ to within $1.2\%$, and less accuracy needs fewer in the sample.
+7. $n = 1/(0.02)^2 = 2500$ boys.
+
+
+
+
+## Answer: TW 8 tutorial {#Lecture8Answers}
+
+### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begins with making an assumption about the population **parameter**.
+   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
+   But we can have some of idea of what values are reasonable to expect.
+   Then we take the **sample** (that is, we make the observations).
+   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
+   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
+   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
+
+2. Step\ 1:  Assumption about population parameter.
+   Step\ 2: Expectation for sample statistic.
+   Step\ 3: Observation of sample statistic.
+   Decision: Consistent?
+   Conclusion\ A: Yes, supports assumption.
+   Conclusion\ B: No, doesn't support assumption.
+
+### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
+
+$H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
+Here, $n = 35$ and $\hat{p} = 12/35 = 0.3428571$.
+Then,  
+\[
+   \text{s.e.}(\hat{p}) 
+   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
+\]
+(make sure to use $p$ not $\hat{p}$ in the standard error calculation for the test!), and so  
+\[
+   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
+\]
+This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
+
+> The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).
+
+For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
+For *external validity*, the sample must be a random sample of Swedish programmers. 
+
+(For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
+
+
+### Answers for Sect.\ \@ref(HTOneMean-A) {.unlisted .unnumbered}
+
+1. The **parameter** of interest is the *population mean pizza diameter*, say $\mu$.\tightlist
+1. From the output: $\bar{x} = 11.486$\ inches and $s = 0.247$\ inches.
+1. Use $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 0.247/\sqrt{125} = 0.02205479$\ inches.
+1. $s$ tells us the variation in diameter from pizza to pizza.
+   $\text{s.e.}(\bar{x})$ tells us how much the sample mean is likely to vary from sample to sample, in sample of size\ $125$.
+1. The hypotheses are:  
+
+   $H_0$: The mean diameter is $12$ inches; or $\mu = 12$.  
+   $H_1$: The mean diameter is not $12$ inches; or $\mu \ne 12$
+1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
+1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
+1. $t = (11.486-12)/0.02205 = -23.3$.
+1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
+   (Two-tailed $P<0.001$ from the table or from software.)
+1. Very strong evidence exists in the sample ($t = -23.3$; $\text{df} = 124$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
+   $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
+1. Since $n$ is much larger than $25$, we do not require that the population has a normal distribution, just that the population is not grossly non-normal; the sample means will still have an approximate normal distribution.
+1. *Very* unlikely!
+
+
+### Answers for Sect.\ \@ref(PValues) {.unlisted .unnumbered}
+
+Use the $68$--$95$--$99.7$ rule to *approximate* the $P$-values:
+
+*Less than* $0.05$; Greater than $0.05$;
+*Less than* $0.003$;
+Greater than $0.05$;
+Greater than $0.05$;
+Very small.
+
+
+### Answers for Sect.\ \@ref(RoomWidthTest) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthHT.Rmd'}
+```
+
+
+1. $s = 7.145\ms$; $\text{s.e.}(\bar{x}) = s/\sqrt{n} = 7.145/\sqrt{44} =  1.077\ms$.  
+   The first measures variation in the original data; the second measures precision of the sample mean when estimating the population mean.
+2. The CI is from $13.85$ to $18.19\ms$.
+3.  Strong to moderate evidence exists in the sample (one sample $t = 2.714$; $\text{df} = 43$; two-tailed $P = 0.010$) that the population mean guess (mean: $16.02\ms$; standard deviation: $7.145\ms$) of the students is not $13.1\ms$ ($95$%\ CI for population mean guess: $13.85$ to $18.19\ms$).
+4. The population of differences has a normal distribution, and/or $n > 25$ or so.
+5. Since $n > 25$, all OK if the histogram isn't severely skewed. 
+   Probably OK.
+6. Not really! 
+   But was this just due to using metric units? 
+   Perhaps students are just very poor at estimating widths whatever the units being used...
+   In fact, the Professor also had the students estimate the width of the hall in imperial units also, as a comparison.
+
+
+### Answers for Sect.\ \@ref(LanguageOfSStats) {.unlisted .unnumbered}
+
+1. Researchers [@data:Nataraja1999:concrete] examined the strength of fibre reinforced concrete, by using a study design called an *experiment*.
+  In batch 1, a *sample* of size $30$ was used; the sample mean number of blows till the first crack appeared in the test cylinders was\ $98$, and the amount of variation in the number of blows was measured using the *standard* deviation as\ $54$.
+  Because the data are a sample, the sample mean will estimate the population mean with some sampling *error*.
+
+2. A type of study called an *experiment* compared the handwriting legibility for school children (Ryan et al., 2010) having cerebral palsy when using specialist school furniture with standard school furniture (which acted as a *control*).
+   They used a *random* sample of size\ $30$ from children registered at their facility in Canada.
+   The *sample* mean for the difference in legibility was\ $-0.1$, and a $95$% *confidence* interval was from $-0.8$ to\ $0.6$.
+   Using the standard equipment, the smallest value recorded for legibility was\ $19$, and the largest was\ $34$, so the *range* was\ $15$.
+  
+
+
+
+
+## Answer: TW 9 tutorial {#Lecture9Answers}
+
+### Answers for Sect.\ \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+*Null* hypotheses:
+
+* Is the mean length of a $12$-inch sub really $12$ inches?
+  $\mu = 12$.
+* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$.
+* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
+  $p_{\text{white}} = p_{\text{wholemeal}}$.
+* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs? 
+  $\mu_{\text{white}} = \mu_{\text{wholemeal}}$.
+
+*Alternative* hypotheses:
+
+* Is the mean length of a $12$-inch sub really $12$ inches? 
+  $\mu \ne 12$.
+* Is the mean length of a $12$-inch sub different for white and wholemeal subs? 
+  $\mu_{\text{white}} \ne \mu_{\text{wholemeal}}$.
+* Is the proportion of $12$-inch subs shorter than $12$ inches different for white, wholemeal subs?
+  $p_{\text{white}} \ne p_{\text{wholemeal}}$.
+* Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
+  $\mu_{\text{white}} > \mu_{\text{wholemeal}}$.
+  
+
+### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
+
+1. **Repeated-measures**:
+   Every subject has two TWMT recorded.
+2. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+3. Each measurement is measured after and before on the same subject.
+4. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+   (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
+   **Importantly, the direction should be stated somewhere.**)
+5. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
+6. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
+7. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
+8. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+9. Almost impossible.
+   Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
+   Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
+10. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
+11. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
+12. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+    $H_1$: $\mu_d > 0$ the way I defined differences.  
+13. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+14. The differences have just been defined in the opposite directions.
+   (Notice the $P$-values are the same.)
+15. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
+16. The population of differences has a normal distribution, and/or $n > 25$ or so.
+17. Since $n < 25$, must assume the population of differences has a normal distribution.
+   The histogram suggests this is not unreasonable.
+   
+
+### Answers for Sect.\ \@ref(CIRatLifetimes) {.unlisted .unnumbered}
+
+1. The two groups are different rats. \tightlist
+2. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
+3. Table not shown.
+4. The $95$%\ CI is the *bottom* one: from $223.34$ to\$346.13$\ days.
+5. The best of these is Option\ (e)... but in practice, we usually think about CIs in terms of Option\ (d) so Option\ (d) is fine.
+6. The CI explanation can be improved by (i)\ indicating *which* diet leads to larger average lifetimes; and (ii)\ providing sample summary info. Here is a better answer:  
+   
+   "The $95$\% confidence interval for the difference between the populations mean lifetimes of rats on the restricted diet (sample mean: $968.8$ days; std dev: $284.6$ days) and on the free-eating diet ($684.0$ days; std dev: $134.1$ days) is that rats on a restricted diet live between $223.34$ and $346.13$ days longer."
+7. Boxplots:  shows the variation in the lifetimes of individual rats.
+   Error bar chart: displays the variation that the sample means would be expected to show from sample to sample. 
+8. The null hypothesis is that there is no difference in the mean lifetimes of the two groups of rats.
+   In symbols (where $\mu$ represents the mean lifetime in the population):  
+   
+   $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
+9.  Either sampling variation explain the difference, or the diets really are different.
+10. Use the not-equal variance (Welch's test) row: $t = 9.161$; one-tailed $P < 0.0005$ (test is one-tailed).
+11. $t = (284.73 - 0/31.08 = 9.16$, as per output.
+12. The evidence contradicts $H_0$.
+    Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: $968.75$\ days; std. dev.: $284.6$\ days) is greater than rats on a free-eating diet ($684.01$\ days; $134.1$) ($95$%\ CI for the difference from $223.3$ to\ $346.1$\ days).
+13. The the *sample means* have a normal distribution.
+    Since both sample sizes are greater than\ $24$, this is true.
+    The figure suggests not very severe non-normality.
+14. Rats from the same litter are likely to be similar to each other.
+   The litter would probably be the unit of analysis then, not the individual rat.
+
+
+### Answers for Sect.\ \@ref(PairedTestRunners) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerCI.Rmd'}
+```
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RunnerHT.Rmd'}
+```
+
+
+1. Before and after measurement on same runner.
+2. Each plasma $\beta$ measurement is measured after and before on the same runner.
+3. No shown.
+4. $\bar{d} = 18.736$; $s_d = 8.3297$
+5. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 8.3297/\sqrt{11} = 2.5115$.
+6. Almost impossible.
+   The sample means would vary every time we took a sample, around the true mean difference with a normal distribution having a standard error of about\ $2.51$.
+   Since we don't know the population mean, the best we can say is that the sample mean will vary about our best guess of the population mean. 
+   In other words, the sample means will vary around $8.33$ with a standard deviation of about\ $2.51$. 
+7.  $18.736\pm (2\times 2.5115)$, or\ $18.736\pm5.023$, or from $13.7$ to\ $23.8$ pmol/litre.
+8. $H_0$: $\mu_d = 0$, differences defined as 'after' minus 'before'. 
+   $H_1$: $\mu_d > 0$ the way I defined the differences.  
+   We are explicitly seeking to test for an *increase*, so the test is one-tailed.
+   (Diffs in the other direction are also OK; the signs of the differences and some other subsequent things change.)
+9. $t = 7.46$ and $\text{df} = 11 - 1 = 10$. Since $t$ is very large, expect $P$ to be very small.
+10. Very strong evidence exists in the sample (paired $t = 7.46$; $\text{df} = 10$; one-tailed\ $P$ less than $0.0005$) that the population mean $\beta$ plasma concentrations are higher after the race compared to before the race (mean difference: $18.73$\ pmol/litre higher after the race; std. dev.: $8.33$\ pmol/litre; $95$%\ CI from $13.14$ to\ $24.33$\ pmol/litre).
+11. The population of differences has a normal distribution, and/or $n > 25$ or so.
+12. Since $n < 25$, must assume the population of differences has a normal distribution. 
+   The histogram suggests this is not unreasonable.
+
+
+### Answers for Sect.\ \@ref(CIPairedWaves) {.unlisted .unnumbered}
+	
+1. Because each method is used in each sea state.
+3. $\bar{d} = 0.06167$; $s_d = 0.2901$. 
+   The mean difference is positive: Method\ 1 measurements slightly higher (on average) than Method\ 2.
+4. $\text{s.e.}({\bar{d}}) = s_d/\sqrt{n} = 0.2901/\sqrt{18} = 0.0684$. 
+   $\text{s.e.}({\bar{d}})$ measures the precision with which the sample mean difference	estimates the population mean difference.
+5. $0.06167\pm(2\times 0.0684)$, which is $0.06167 \pm 0.137$, or from $-0.075$ to $0.199$ Newton--metres.
+6. $t = 0.9016$, so $P$-value large: no evidence of difference. 
+7. Since $n < 25s$, we require that the *differences* in the population have a normal distribution.
+8. The stem-and-leaf plot of the *sample* doesn't suggest the *population* is non-normal; probably OK.
+
+
+### Answers for Sect.\ \@ref(PizzaHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-PizzaWidthHT.Rmd'}
+```
+
+1. Observational.
+2. Relational.
+3. Two completely different groups of pizzas (stores) are compared.
+4. $-0.774$ to $-0.560$ inches (differences are *Dominos* less *Eagle Boys*).
+5. 
+6. From output, $t = -14.6$ and $P < 0.001$: very strong evidence of a difference.
+7. Since the sample sizes are large (both $125$), we *do not require that the populations have normal distributions*.
+8. The sample sizes are large ($n = 125$ in each), so we don't need the populations to be normally distributed; **we don't need the histogram**.
+9. Probably true. 
+   Amount of topping on the pizza? 
+   Which *tastes* better? 
+   Whether the samples were randomly selected or not?
+   Are sizes before of after cooking?
+
+
+### Answers for Sect.\ \@ref(TwoMeansBatteriesHT) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-BatteryHT.Rmd'}
+```
+
+1. $H_0$: $\mu_E = \mu_U$ (that is, the means are the same in the two populations) and $H_1$: $\mu_E\ne\mu_U$, which can also be expressed in words. 
+   Two-tailed.
+2. The precision with which the sample mean battery life estimate the population mean battery life.
+3. Use the second row (though it matters little here): $t = -0.486$; $\text{df} = 13.1$ and $P = 0.635$.
+4. The sample presents no evidence ($t = -0.486$; $\text{df} = 13.0$ and $P = 0.635$) of a difference in the mean lifetimes (mean difference: $-0.0544$; s.e.: $0.112$) of the batteries in the population.
+   ($95$%\ CI for the difference from $-0.30$ to\ $0.19\mins$ in favour of Ultracell.)
+5. Both population have a normal distribution, and/or $n > 25$ or so.
+6. Since $n < 25$ for both samples, we must assume the populations both have a normal distribution.
+   Stem-and-leaf plots aren't convincing (possible outliers) but the samples are too small to know anything for sure.
+
+
+### Answer for Sect.\ \@ref(AssumptionsGraphs) {.unlisted .unnumbered}
+
+The sample sizes are both much *larger* than $25$, so neither sample needs to be normally distributed for **statistical validity**: the *sample means* will have an approximate normal distribution.
+**None of the graphs are needed.**
+
+
+
+
+
+## Answer: TW 10 tutorial {#Lecture10Answers}
+
+### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
+
+1. See Table\ \@ref(tab:MatTable).
+2. Side-by-side or stacked bar chart.
+3. $352/2512 = 0.1401$.
+4. $336/2328 = 0.1443$.
+5. $0.1401/0.1443 = 0.971$.
+6. The odds ratio, of a boy maturing late compared to a girl maturing late.
+7. OR: $0.971$, with $95$% CI from $0.828$ to $1.139$.
+8. See Table\ \@ref(tab:MatNumSummary).
+9. Probably not; OR close to\ $1$, and CI includes\ $1$.
+
+
+```{r echo=FALSE, MatTable}
+MatTabData <- array( dim = c(3, 3) )
+colnames(MatTabData) <- c("Late", 
+                           "Not late", 
+                           "Total")
+rownames(MatTabData) <- c("Males", 
+                           "Females", 
+                           "Total") 
+
+MatTabData[1,  ] <- c(352, 2512, 2864)
+MatTabData[2, ] <- c(336, 2328, 2664)
+MatTabData[3, ] <- c(688, 4840, 5528)
+
+if( knitr::is_latex_output() ) {
+   kable(MatTabData,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        caption = "Maturation data table.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(MatTabData,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Maturation data table.",
+        booktabs = TRUE)
+}
+
+```
+
+
+
+
+```{r echo=FALSE, MatNumSummary}
+MatSumm <- array( dim = c(3, 3) )
+colnames(MatSumm) <- c("Prop late",
+                       "Odds late",
+                       "Sample size")
+rownames(MatSumm) <- c("Males",
+                       "Females", 
+                       " ") 
+
+  MatSumm[1, ] <- c( round( MatTabData[1, 1] / MatTabData[1, 3], 3),
+                     round( MatTabData[1, 1] / MatTabData[1, 2], 4),
+                     MatTabData[1, 3] )
+  MatSumm[2, ] <- c( round( MatTabData[2, 1] / MatTabData[2, 3], 3),
+                     round(MatTabData[2, 1] / MatTabData[2, 2], 4),
+                     MatTabData[2, 3] )
+  MatSumm[3, ] <- c( paste("Diff:", 
+                           round(MatSumm[1, 1] - MatSumm[2, 1], 3)), 
+                     paste("OR:", 
+                           round(MatSumm[1, 2] / MatSumm[2, 2], 3)),
+                     " " )
+
+
+if( knitr::is_latex_output() ) {
+   kable(MatSumm,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+        caption = "Nunmerical summary table for maturation data.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(MatSumm,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Nunmerical summary table for maturation data.",
+        booktabs = TRUE)
+}
+
+```
+
+
+### Answers for Sect.\ \@ref(TestsForORs) {.unlisted .unnumbered}
+
+Some answers embedded.
+
+1. See Table\ \@ref(tab:ArtLimbMortalityANS). \tightlist
+2. Using artificial limb: $49/16 = 3.0625$.
+   Not using artificial limb: $21/19 = 1.105263$.
+   The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
+   See Table\ \@ref(tab:ArtLimbSummaryANS).
+3. The CI for the OR is from $1.198$ to $6.411$.
+4. Chi-squared: $5.836$; like $z = \sqrt{5.836/1} = 2.42$: large; $P$ about\ $0.016$.  
+
+   The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.836$; $\text{df} = 1$; $P = 0.016$; OR: $2.771$ and $95$% CI from $1.198$ to\ $6.411$).
+
+
+
+```{r echo=FALSE, ArtLimbMortalityANS}
+ArtLimb <- array( dim = c(3, 3) )
+colnames(ArtLimb) <- c("Alive",
+                       "Dead", 
+                       "Total")
+rownames(ArtLimb) <- c("Used art. limb", 
+                       "Did not use art. limb", 
+                       "Total")
+
+  ArtLimb[1, 3] <- 65
+  ArtLimb[2, 3] <- 40
+  ArtLimb[3, 1] <- 70
+  ArtLimb[3, 2] <- 35
+
+  ArtLimb[1, 1] <- 49
+  ArtLimb[2, 1] <- 21
+  ArtLimb[1, 2] <- 16
+  ArtLimb[2, 2] <- 19
+  
+ArtLimb[3,3] <- 105
+   
+if( knitr::is_latex_output() ) {
+   kable(ArtLimb,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Five-year mortality for artifical limb users.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+}
+
+if( knitr::is_html_output() ) {
+
+  
+  kable(ArtLimb,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Five-year mortality for artifical limb users.",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+```{r echo=FALSE, ArtLimbSummaryANS}
+ArtLimbSumm <- array( dim = c(3, 3) )
+colnames(ArtLimbSumm) <- c("Percentage alive after 5 years", 
+                           "Odds alive after 5 years", 
+                           "Sample size")
+rownames(ArtLimbSumm) <- c("Use artificial limb", 
+                           "Did not use artifical limb", 
+                           " ") 
+
+  ArtLimbSumm[3, 1] <- ""
+  ArtLimbSumm[3, 3] <- ""
+  
+  ArtLimbSumm[1, 3] <- 65
+  ArtLimbSumm[2, 3] <- 40
+  
+  ArtLimbSumm[1, 1] <- round(49 / 65 * 100, 1)
+  ArtLimbSumm[2, 1] <- round(21 / 40 * 100, 1)
+
+  ArtLimbSumm[1, 2] <- round(49 / 16, 2)
+  ArtLimbSumm[2, 2] <- round(21 / 19, 2)
+
+  ArtLimbSumm[3, 1] <-  paste("Diff in percentages:", 22.9)
+  ArtLimbSumm[3, 2] <-  paste("OR:",2.771)
+
+  
+  ArtLimbSumm[3, 3] <- 626
+   
+if( knitr::is_latex_output() ) {
+   kable(ArtLimbSumm,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold = TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(ArtLimbSumm,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
+        booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+### Answers for Sect.\ \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
+
+**1.** Two-sample $t$-test.
+**2.** A $\chi^2$ test.
+**3.** A paired $t$-test.
+**4.** A two-sample $t$-test.
+**5.** None of the other options are correct: requires regression or correlation.
+
+
+### Answers for Sect.\ \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-RoomWidthSS.Rmd'}
+```
+
+
+$n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
+
+
+### Answers for Sect.\ \@ref(OddsGMfood) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-GMFoodsCI.Rmd'}
+```
+
+1. Odds HIE: $263/151 = 1.742$. HIE is $1.74$ times more likely to be for GM foods than against.
+1. Odds LIE: $258\div222 = 1.162$. LIE is $1.16$ times more likely to be for GM foods than against.
+1. $\text{OR}(\text{HIE in favour})\div\text{OR}(\text{LIE in favour}) = 1.742/ 1.162 = 1.5$ ($1.499$ in table). 
+   The odds of HIE being for GM food $1.5$ times the odds that a LIE for GM foods.
+1. From the sample, we estimate the OR in the population to be between $1.145$ to\ $1.961$.
+   (Loosely, though technically incorrect: the true OR is likely to be between $1.145$ and\ $1.961$.) 
+   Importantly, this interval does not include $1$.
+1. $\chi^2 = 8.74$ and $P = 0.003$; strong evidence of a difference.
+
+
+### Answers for Sect.\ \@ref(TablesHepC) {.unlisted .unnumbered}
+
+**1.** Incorrect is the one about means.
+**2.** $113/626 = 18.05\%$.
+**4.** $18.05$% of $47$ is $8.48$. 
+   See Table\ \@ref(tab:TattHepTabANS).
+**5.** $25\div 88 = 0.284$.
+**6.** $22\div 491 = 0.0448$.
+**7.** The OR is $0.284\div 0.0448 = 6.3$. 
+   This OR means that the odds of having Hep.\ C is\ $6.3$ times greater for students who have a tattoo, compared to those who do not have a tattoo.
+       
+
+```{r echo=FALSE, TattHepTabANS}
+TattHep <- array( dim=c(3, 3) )
+colnames(TattHep) <- c("Had Hep. C", 
+                       "Did not have Hep. C", 
+                       "Total")
+rownames(TattHep) <- c("Had tattoo", 
+                       "Did not have tattoo", 
+                       "Total")
+
+  TattHep[1, 3] <- 113
+  TattHep[2, 3] <- 513
+  TattHep[3, 1] <- 47
+  TattHep[3, 2] <- 579
+
+  TattHep[1, 1] <- 25
+  TattHep[2, 1] <- 22
+  TattHep[1, 2] <- 88
+  TattHep[2, 2] <- 491
+  
+TattHep[3, 3] <- 626
+   
+if( knitr::is_latex_output() ) {
+   kable(TattHep,
+        format = "latex",
+        longtable = FALSE,
+        booktabs = TRUE,
+       # escape=FALSE, # For latex to work in \rightarrow
+       #linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
+        caption = "Hepatitis\\ C and tattoos.",
+        align = c("r", "r", "r", "r"))   %>%
+   kable_styling(full_width = FALSE, 
+                 font_size = 8) %>%
+  row_spec(0, bold=TRUE) #%>% # Columns headings in bold
+#   column_spec(column=1, width="3cm") %>% 
+#   column_spec(column=2, width="5cm") %>%
+#   column_spec(column=3, width="5cm") %>%
+#   column_spec(column=4, width="2cm")
+}
+
+if( knitr::is_html_output() ) {
+
+  kable(TattHep,
+        format = "html",
+        align = c("r", "r", "r"),
+        escape = FALSE,
+        longtable = FALSE,
+        caption = "Hepatitis\\ C and tattoos.",
+      booktabs = TRUE) # %>%
+   #row_spec(row=1, bold=TRUE) %>%
+#   column_spec(column=1, bold=TRUE)
+   
+}
+
+```
+
+
+### Answers for Sect.\ \@ref(ORTestsByss) {.unlisted .unnumbered}
+
+
+1. The third. 
+   The first is about samples; the second about means.
+   $H_0$: $\text{Pop. odds having byss.}_{\text{Smokers}} = \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR} = 1$; $H_1$: $\text{Pop. odds having byss.}_{\text{Smokers}} > \text{Pop. odds having byss.}_{\text{Non-Smokers}}$ or $\text{OR} > 1$ for the OR suitably defined.  
+3. Smokers: $\hat{p} = 125/3,189 = 0.0392$; Non-smokers: $\hat{p} = 40/2,230 = 0.0179$.
+4. For smokers: $\text{Odds having byssinosis} = 125/3,064 = 0.0408$.
+   This means: smokers are $0.041$ times as likely to have byssinosis than not (or, inverting the ratio, $24.5$ times as likely not to have byssinosis than have it).
+  For non-smokers: $\text{odds} = 40/2,190 = 0.01826$.
+	Non-smokers are $0.018$ times as likely to have byssinosis than not (or, inverting the ratio, $54.8$ times as likely not to have byssinosis than have it).
+5. The OR is $0.04080/0.01826 = 2.2$, so the odds of a smoker having byssinosis are $2.2$ times the odds of a non-smoker having byssinosis. 
+6. OR not one could be due to chance or because of a real difference in the population, due to smoking and/or other reasons.
+7. The sample provides strong evidence (one-tailed $P < 0.001)$; $\text{df} = 1$; $\text{chi-square} = 20.092$; OR: $2.234$ ($95$% CI: $1.6$ to\ $3.2$)) that the population proportion of smokers with byssinosis ($\hat{p} = 0.0392$) is greater than the population proportion of non-smokers with byssinosis ($\hat{p} = 0.0179$).
+8. Valid, since expected counts all exceed five (which they do: no SPSS warnings given for example).
+
+
+
+
+
+
+
+## Answer: TW 11 tutorial {#Lecture11Answers}
+
+### Answers for Sect.\ \@ref(UnderstandCorrelationsRegressions) {.unlisted .unnumbered}
+
+1. No answer. 
+   But a line is fine for **Plots\ 1, 2, 6** and\ **3** (but very weak!),  but not for **Plots\ 4 and\ 5**. 
+2. My **very rough** slope estimates are:  
+   **Plot\ 1**: $(50-10)/10 \approx 4$; **Plot\ 2**: $(20 - 50)/15 \approx -2$;
+   **Plot\ 3**: $0$;  **Plot\ 6**: $(55 - 35)/5 = 4$.
+3. My **very rough** intercept estimates are:
+   **Plot\ 1**: $8$; **Plot\ 2**: $40$;
+   **Plot\ 3**: $32$; **Plot\ 6**: $10$.
+4. My very rough estimates are:
+   **Plot\ 1**; $\hat{y} = 8 + 4x$; **Plot\ 2**: $\hat{y} = 40 - 2x$;
+	 **Plot\ 3**: $\hat{y} = 32$;  **Plot\ 6**: $\hat{y} = 10 + 4x$. 		
+
+
+### Answers for Sect.\ \@ref(InterpretRegressions) {.unlisted .unnumbered}
+
+1. Approximately linear, negative, reasonably strong.
+2. Condition, extras (air con, etc.), sedan/hatch, colour, when rego due, new/old tyres, location, etc.
+3. No answer.
+4. Looks to be expensive, as $15,000 would be above the line (at least for the line I'd draw).
+5. Probably $3900.
+6. My guess is about $b_0\approx 17$ or\ $17,000.
+	This would mean the average price of a 2014 second-hand Corolla can be expected to be about $17,000.
+7. $b_1 = (1 - 17)/(16 - 0)\approx -1$. 
+   That is, the price reduces by about\ $1000 each year older the Corolla gets.
+8. Using the above, we have $\hat{y} = 17 - x$ approximately.
+   Guessing the regression line won't, of course, produce this level of precision, so anything close-ish to this is fine.
+9. $\hat{y} = 16.54 - 0.96x$ (jamovi) or $\hat{y} = 16.536 - 0.963x$ (SPSS), where $y$ is the price in thousands of dollars, and $x$ is the age in years.
+10. $r = -0.929$, and so $R^2 = (-0.929)^2 = 0.863$, or about $86$%, so about $86$% of the variation in prices can be explained by age alone.
+    The rest can be explained by the car's condition, odometer reading, accessories, service history, etc.
+11. jamovi: $\hat{y} = 16.54 - (0.96\times 20) = -2.66$, or -\$2660.  
+    SPSS: $\hat{y} = 16.536 - (0.963\times 20) = -2.72$, or -\$2720.  
+	 This is clearly silly, as we are extrapolating.
+12. Hardly need a test...  $H_0$: $\beta_1 = 0$ vs $H_1$: $\beta_1 < 0$.
+	 From output, $t = -15.059$, and $P = 0.000/2 = 0.000$, so $P < 0.0001$: very strong evidence that older cars fetch lower second-hand prices, on average.
+13. $-0.963 \pm (2\times 0.064)$, or $-0.963\pm 0.128$, or from $-1.091$ to $-0.835$.
+14. Looks the same really, just reflected left-to-right.
+    * *Size* of $r$ won't change, sign from negative to positive; i.e., $r = 0.93$.
+    * Value of $R^2$ will be the same.
+ 	  * Slope will be the same except sign will change (in both cases, the values on the horizontal axis are one year apart).
+    * Intercept will change a lot... it is the predicted value of the price if the line is extended to year\ $0$ (which is, of course, meaningless).
+
+
+### Answers for Sect.\ \@ref(RegressionCorrelation) {.unlisted .unnumbered}
+
+```{r echo=FALSE, fig.cap="Plots giving different correlations.", fig.align="center", fig.height=3, out.width='100%', fig.width=7}
+set.seed(5238)
+x <- c(0, 
+       runif(n = 8, 
+           min = 0,
+           max = 10),
+       10)
+y1 <- 5 + 2 * x
+
+
+
+set.seed(715238)
+y2 <- 5 + 2 * x + rnorm(10, 
+                        mean = 0,
+                        sd = 3)
+
+set.seed(4710523)
+y3 <- 5 + 2 * x + rnorm(10, 
+                        mean = 0,
+                        sd = 10)
+
+
+ylim <- c(0, max(y3) )
+
+#
+par(mfrow = c(1, 3))
+plot( y1 ~ x,
+      las = 1,
+      type = "n",
+      xlim = c(0, 10),
+      ylim = ylim,
+      xlab = expression(italic(x)~values),
+      ylab = expression(italic(y)~values),
+      main = "The regression line")
+abline(a = 5,
+       b = 2)
+#
+cor1 <- round( cor( x,
+                    y2), 3)
+
+plot( y2 ~ x,
+      las = 1,
+      xlim = c(0, 10),
+      ylim = ylim,
+      pch = 19,
+      xlab = expression(italic(x)~values),
+      ylab = expression(italic(y)~values),
+      sub = bquote( italic(r) == .(cor1)),
+      main = "Large correlation")
+abline(a = 5,
+       b = 2)
+#
+
+cor2 <- round( cor( c(x, x),
+                    c(y2, y3) ), 3)
+plot( c(y2, y3) ~ c(x, x),
+      las = 1,
+      xlim = c(0, 10),
+      ylim = ylim,
+      pch = 19,
+      xlab = expression(italic(x)~values),
+      ylab = expression(italic(y)~values),
+      sub = bquote( italic(r) == .(cor2)),
+      main = "Small correlation")
+abline(a = 5,
+       b = 2)
+
+
+
+
+```
+
+
+### Answers for Sect.\ \@ref(IdentifyCorrectAnalysisAgain) {.unlisted .unnumbered}
+
+
+```{r, child = if (knitr::is_latex_output()) 'Solutions/Lect10-A4.Rmd'}
+```
+
+
+### Answers for Sect.\ \@ref(ReadScatterplotHeathers) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-Heather.Rmd'}
+```
+
+
+1. 'What is the relationship between stem age and stem diameter in heather in the central north island of NZ?'
+2. Good!
+   Too many tick marks; horizontal-axis labels would be better horizontal.
+3. $r = \sqrt{0.431} = 0.6565$, or about $r = 0.66$. 
+   Positive linear relationship, reasonably strong.
+4. $b_0 = 1.531$ and $b_1 = 0.311$.
+5. $\hat{y} = (0.311 \times 20) + 1.531 = 7.751$.
+6. Slope of\ $0.311$: for each extra year of age, the stem diameter increases by about\ $0.311\mms$ on average.
+   Intercept of\ $1.531$: for stems of zero years of age, the average stem diameter is about $1.531\mms$, which is silly. 
+   The graph shows that this is extrapolation anyway: the data only start at about $3$\ years of age.
+
+
+
+
+
+
+
+
+
+## Answer: TW 12 tutorial {#Lecture12Answers}
+
+### Answers for Sect.\ \@ref(CIConcrete) {.unlisted .unnumbered}
+
+1. Both students are incorrect as they used $s$ rather than $\text{s.e.}(\bar{x})$.
+   * Student\ A:
+     This is an approximate $68$%\ CI for the values of individual concrete samples, not for the mean, **assuming the individual first-crack strengths have an approximate normal distribution**.
+    * Student\ B:
+      This is an approximate $95$%\ CI for the values of individual concrete samples, not for the mean, **assuming the individual first-crack strengths are approximately normally distributed**.
+2.  We need to use the *standard error* because the question asks about a sample mean... and standard errors tells us how much the sample means are likely to vary.
+    $12.4\pm(2\times 2.8\div\sqrt{6})$, or $12.4\pm 2.286\MPas$, or from $10.11$ to\ $14.69\MPas$.
+
+
+### Answers for Sect.\ \@ref(CritiqueReports1) {.unlisted .unnumbered}
+
+* **Research question:** use *mean* distance.
+  So more directly:  
+  
+> For casual golfers, is the *mean* distance travelled by a golf ball the same when hit by a wooden or metal club?
+
+* **Summaries:** 
+  There is no mention of the distance travelled by the ball.
+  It really doesn't make sense to say 'the iron golf club' is 'moderately higher than the wooden golf club'.
+  That sounds like the height of the clubs are different!
+* **Results (1):**
+  Spelling/grammar errors ('verse'; 'differes').
+  Is two decimal places suitable? Certainly no more.
+  The CI is for the difference between the *means* of hitting distances. 
+* **Results (2):**
+  The results just say there is a difference between metal and wooden clubs (of course!); there is no mention of hitting distance.
+
+
+### Answers for Sect.\ \@ref(CritiqueReports2) {.unlisted .unnumbered}
+
+**Null hypothesis:** The *mean* heart rates.
+**Results:** A $\chi^2$ test is inappropriate for comparing means.
+
+
+### Answers for Sect.\ \@ref(ORAirways) {.unlisted .unnumbered}
+
+```{r, child = if (knitr::is_html_output()) 'Solution-AirwaysHT.Rmd'}
+```
+
+
+1. The null hypothesis is that the proportion (or the odds) of successful attempts is the same using EGTA and\ LM, in the two populations.
+2. Using symbols, based on using proportions: $H_0$: $p_{\text{EGTA}} = p_{\text{LM}}$; $H_1$:  $p_{\text{EGTA}} \ne p_{\text{LM}}$ (two-tailed).
+3. The sample presents insufficient evidence ($\text{chi-square}=2.63$; $\text{df}=1$; $P=0.104$) that the success rates between EGTA and LM are different in the population.
+4. Yes: All expected counts are greater than\ $5$ (no SPSS warning messages).
+5. No evidence of a difference, so perhaps consider other issues such as cost, longevity, pain associated with insertion etc.
+
+
+### Answers for Sect.\ \@ref(CritiqueReports3) {.unlisted .unnumbered}
+
+* **Research question**: Spelling error ('lily pily'); *mean* size.
+  It sounds odd, too, to ask if they 'become' longer.
+  We are just comparing the mean length of leaves of eastern and western sides.
+* **Null hypothesis**: Spelling again; and the hypothesis should be explicitly comparing the *means*:
+  "For weeping lilly pilly trees at UniSC, is the mean leaf length the same for leaves on the western and eastern sides of the tree?"
+* **Results**: Cannot find the mean of a qualitative variable ('Side of tree'); the table should give the mean, standard deviation and standard error for leaves taken from the west side (one row) and the east side (second row), plus information about the *difference*.
+* **Methods**: There are only five units of analysis.
+  Leaves taken from the same tree are likely to share a lot in common: genetics; sunlight, watering regime, soil condition, etc.
+  The students should have used $50$\ trees.  
+
+  Alternatively, I suppose they could have used one tree (so the RQ was about what happens on one tree only), and compared\ $50$ leaves on either side.
+  While this is kinda OK, I do **not** recommend it.
+
+
+### Answers for Sect.\ \@ref(CritiqueReports4) {.unlisted .unnumbered}
+
+* **Research question**: Cumbersome wording...; *mean* estimates.
+* **Null hypothesis**: Spelling/grammar errors; *mean* again;	where does 'increased level of perception' come from?
+  We are just comparing estimation distances; perception is much more than just that.
+* **Results**: this doesn't answer the question.
+  This is comparing the estimates from both groups---and yes, there may be a difference.
+  But the RQ was about which group could estimate closer (on average) to the actual true width of the path.
+  We still don't know: the RQ was not answered.
+* **Discussion**: you don't *prove* anything like this...
+  Again, what was tested doesn't help answer the RQ.
+  
+
+### Answers for Sect.\ \@ref(WhatTestToUse) {.unlisted .unnumbered}
+
+$t$-test: age as it is the only quantitative variable.  
+The rest would use a chi-square test.
+Between the 'alive' and 'dead' groups, there is evidence that the proportion with diabetes is different and whether or not a (prosthetic) limb was fitted.
+
+```{r, child = if (knitr::is_html_output()) 'Solution-WhichTest.Rmd'}
+```
+
+
+### Answers for Sect.\ \@ref(ReadDesks) {.unlisted .unnumbered}
+
+**1.** P:\ school age children with ambulatory cerebral palsy; 
+       O:\ In this case, the hand-writing legibility;
+       C:\ Between scores made when using standard and special furniture; 
+       I:\ The furniture configurations imposed.
+**2.** True experiment, as treatments were imposed (experiment), and the researchers allocated children to the groups (true experiment).
+**3.** Unit of observation: each students.
+       Unit of analysis: each student, as the two measurements from each student are related to the same person.
+       The students are compared.
+       So this is a paired analysis.
+       A paired-$t$ test.
+**4.** Blinding not used, as students would know the desk configurations were different.
+       No blinding, so double blinding is not used.
+       However:
+       The assessors are blinded to the intervention,
+       as assessor unaware of furniture configuration,
+       so assessor does not influence outcomes (unintentionally).
+**5.** Sample mean: $30.7$; $s = 3.3$.
+**6.** Standard errors $\text{s.e.}(\bar{x}) = 3.3\div\sqrt{30} = 0.60249$; the approximate CI is $30.7\pm(2\times0.60249)$, or $30.7\pm 1.2$; from $29.5$ to\ $31.9$.
+**7.** The sample provides no evidence (paired $t$: $-0.30$; $\text{df} = 29$; two-tailed $P = 0.77$) of a population mean difference
+         between the handwriting legibility when performed using standard 
+         ($30.7$; standard deviation: $3.3$) and speciality furniture configurations ($30.6$; $3.3$; $95$%\ CI for the difference from $-0.8$ to\ $0.6$).
+**8.** No.
+
+
+### Answer for Sect.\ \@ref(ReadErrors) {.unlisted .unnumbered}
+
+**1.** P: Medical 'teams' working in paediatric resuscitations; O: Number and type of drug errors; C: None; I: None.
+**2.** Descriptive.
+**3.** Observational; forward direction (cohort study).
+**4.** For example: study is only a mock (not real) situation, due to ethics. 
+       Hawthorne effect: subjects know they are being watched.
+
+
+```{=latex}
+\end{footnotesize}
+```
