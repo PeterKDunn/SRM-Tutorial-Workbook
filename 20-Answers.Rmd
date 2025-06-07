@@ -694,12 +694,6 @@ Answers implied by H5P.
    If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
    However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
 
-2. Step\ 1:  Assumption about population parameter.
-   Step\ 2: Expectation for sample statistic.
-   Step\ 3: Observation of sample statistic.
-   Decision: Consistent?
-   Conclusion\ A: Yes, supports assumption.
-   Conclusion\ B: No, doesn't support assumption.
 
 ### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
 
