@@ -37,12 +37,12 @@ Answer the questions that follow, **explaining** the reason for your choices.
     a. The way subjects were using their phone.
     b. The time taken to walk $50$\ m.
     c. The **average** time taken to walk $50$\ m.
-    d. The differences between the times taken.
+    d. The difference between the times taken, between those texting and those not texting. 
 		
 3. Which one of these is most likely the *comparison* in the study?
     a. Between the way subjects were using their phone (talking; texting; not at all).
     b. Between those walking slowly and those walking quickly.
-    c. Between free-living and active-transport walking.
+    c. Between those walking and those not walking.
     d. Between those using and not using a mobile phone.
 		
 4. Which one of these is most likely the *intervention* in the study?
@@ -54,7 +54,7 @@ Answer the questions that follow, **explaining** the reason for your choices.
 5. What is the *explanatory variable*?
     a. The phone.
     b. The way that the phone is being used.
-	  c. The average time to walk $50\ms$.
+	  c. The **average** time to walk $50\ms$.
     d. The walking speed.
 				
 6. What is the *response variable*?

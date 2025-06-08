@@ -2,13 +2,12 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Collecting data.
-* Classifying data.
-* Graphical summaries for quantitative data.
-* Numerical summaries for quantitative data.
-* Using the **Statistics Mode** of your calculator.
+* collect data.
+* classify data.
+* produce and understand graphical summaries for quantitative data.
+* produce and understand numerical summaries for quantitative data.
 :::
 
 

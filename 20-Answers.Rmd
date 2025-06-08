@@ -1120,7 +1120,7 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 
 
-## Answer: TW 11 tutorial {#Lecture12Answers}
+## Answer: TW 11 tutorial {#Lecture11Answers}
 
 ### Answers for Sect.\ \@ref(CIConcrete) {.unlisted .unnumbered}
 
@@ -1202,7 +1202,7 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 
 
-## Answer: TW 12 tutorial {#Lecture11Answers}
+## Answer: TW 12 tutorial {#Lecture12Answers}
 
 ### Answers for Sect.\ \@ref(UnderstandCorrelationsRegressions) {.unlisted .unnumbered}
 

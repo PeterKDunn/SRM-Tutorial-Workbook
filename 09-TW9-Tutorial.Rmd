@@ -2,10 +2,10 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* CIs and tests for paired sample means.
-* CIs and tests for comparing two independent means.
+* construct CIs and conduct hypothesis tests for the mean difference in paired situations.
+* construct CIs and conduct hypothesis tests for comparing two independent means.
 :::
 
 

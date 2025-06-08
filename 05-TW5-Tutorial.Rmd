@@ -2,14 +2,14 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial concern:
+You will learn to produce and understand:
 
-* Graphical summaries for *between*-individuals comparisons for **quantitative** data.
-* Numerical summaries for *between*-individuals comparisons for **quantitative** data.
-* Graphical summaries for *within*-individuals comparisons for **quantitative** data.
-* Numerical summaries for *within*-individuals comparisons for **quantitative** data.
-* Graphical summaries for correlational studies.
-* Numerical summaries for correlational studies.
+* graphical summaries for *between*-individuals comparisons for **quantitative** data.
+* numerical summaries for *between*-individuals comparisons for **quantitative** data.
+* graphical summaries for *within*-individuals comparisons for **quantitative** data.
+* numerical summaries for *within*-individuals comparisons for **quantitative** data.
+* graphical summaries for correlational studies.
+* numerical summaries for correlational studies.
 :::
 
 

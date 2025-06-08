@@ -2,11 +2,12 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* The decision-making process.
-* Hypothesis tests for one proportion.
-* Hypothesis tests for one mean
+* explain and use the decision-making process.
+* conduct and understand hypothesis tests for one proportion.
+* conduct and understand hypothesis tests for one mean.
+* explain and understand $P$-values. 
 :::
    
 

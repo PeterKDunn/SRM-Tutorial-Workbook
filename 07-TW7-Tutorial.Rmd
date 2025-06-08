@@ -2,10 +2,10 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Confidence intervals for one proportion.
-* Confidence intervals for one mean.
+* construct and understand confidence intervals for one proportion.
+* construct and understand confidence intervals for one mean.
 :::
 
 

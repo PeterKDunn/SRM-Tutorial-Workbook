@@ -2,12 +2,14 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Probability.
-* Models.
-* Sampling variation.
-* The normal distribution.
+* identify different methods for computing probabilities.
+* compute probabilities in simple situations.
+* understand the role of probability models for describing sampling variation.
+* describe sampling variation, and understand the role played by the sample size.
+* find the probability associated with a value on a normal distribution.
+* find the value associated with a probability in a normal distribution.
 :::
 
 
@@ -64,7 +66,7 @@ webexercises::mcq( c(answer ="10",
 "-16",
 "16") )} else {'\\null'}`
 \greyboxlines{2}
-1. What does a *negative* $z$-score mean?  
+1. What does a *negative* $z$-score mean?
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c("There has been an error",
 "The mass is larger than average",
@@ -107,7 +109,7 @@ Standard IQs in current use are designed so that the IQ scores of the *populatio
 
 In the \textit{National Nutrition Survey} (NNS) (conducted with the 1995\ *National Health Survey* (NHS)), trained nutritionists measured the heights of the respondents [@data:ABS1995:MeasureUp].
 
-The values quoted are used for modelling purposes, and are essentially the population means\ $\mu$ and standard deviations\ $\sigma$. 
+The values quoted are the population means\ $\mu$ and standard deviations\ $\sigma$ of the models used for heights. 
 
 1. Take a wild guess: What percentage of your peers (people your age and gender) do you think would be *shorter* than you?
 `r if( knitr::is_html_output() ) {

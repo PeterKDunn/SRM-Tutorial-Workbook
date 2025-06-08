@@ -3,11 +3,11 @@
 # Teaching Week 1: tutorial {#Lecture1}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Types of research studies.
-* Research questions.
-* Language used in research.
+* identify types of research studies.
+* ask quantitative research questions.
+* use and understand the language used in research.
 :::
 
 
@@ -421,21 +421,21 @@ knitr::include_graphics("images/Crossword-Week1.png")
 \textbf{Across}
 \begin{enumerate}\tightlist
   \item[\textbf{4.}] 
-  The first step in the research process is to \verb|____| the question (3)  
+  The first step in the research process is to \verb|____| the research question (3)  
   \item[\textbf{5.}]
-  RQs in which groups are compared are called \verb|____| (10)  
+  RQs in which groups are compared numerically are called \verb|____| (10)  
   \item[\textbf{6.}]
   `Conceptual' and `Operational' are types of \verb|____| (11)  
   \item[\textbf{8.}]
-  RQs whose main purpose in \emph{not} making a decision are \verb|____| RQs (10)  
+  RQs may be decision making-type RQs or \verb|____|-type RQs (10)  
   \item[\textbf{9.}]
   The type of research where data are \emph{not} summarised using numerical methods (11)  
   \item[\textbf{11.}]
-  Research questions are answered using \verb|____| (that is, the data) (8)  
+  Research is used to provide \verb|____|-based answers to RQs (8)  
   \item[\textbf{13.}]
-  Data are recorded from the \verb|____| of observation (5)  
+  The sample size is the number of \verb|____| of analysis (5)  
   \item[\textbf{14.}]
-  What we do with the data to answer the RQ (7)  
+  What we do with the data to find an answer to the RQ (7)  
   \item[\textbf{15.}]
   A confounding variable, but is not measured or recorded, is a \verb|____| variable (7)
 
@@ -448,7 +448,7 @@ knitr::include_graphics("images/Crossword-Week1.png")
   \item[\textbf{1.}]
   The acronym to remember the four components of a RQ (4)
   \item[\textbf{2.}]
-  The type of research where data are summarised using numerical methods (12)  
+  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)  
   \item[\textbf{3.}]
   The second step in the research process (6)  
   \item[\textbf{7.}]

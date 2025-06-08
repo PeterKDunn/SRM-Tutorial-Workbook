@@ -1,11 +1,12 @@
 # Teaching Week 10: tutorial  {#Lecture10}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Tests for ORs.
-* Estimating sample sizes for finding CIs.
-* Selecting an analysis.
+* construct CIs and conduct hypothesis tests for ORs.
+* construct CIs and conduct hypothesis tests for the difference between two proportions.
+* estimate sample sizes for finding CIs.
+* selecting an appropriate analysis for a given situation.
 :::
 
 

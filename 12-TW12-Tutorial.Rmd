@@ -1,11 +1,13 @@
-# Teaching Week 11: Tutorial  {#Lecture11}
+# Teaching Week 12: Tutorial  {#Lecture12}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* CIs and tests for correlation coefficients.
-* Linear equations and regression.
-* CIs and tests for regression coefficients.
+* construct CIs and conduct hypothesis tests for correlation coefficients.
+* understand linear equations.
+* estimate the parameters in simple linear regression models.
+* find the parameters in simple linear regression models from software.
+* construct CIs and conduct hypothesis tests for regression coefficients.
 :::
 
 
@@ -35,19 +37,19 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
    webexercises::longmcq( c("The number of seeds", 
           answer = "The grams of mud",
           "The season") )} else {'\\null'}`
-\greyboxlines{2}
+\greyboxlines{1}
 1. In this study, what variable would be the $y$-variable?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "The number of seeds", 
           "The grams of mud",
           "The season") )} else {'\\null'}`
-\greyboxlines{2}
+\greyboxlines{1}
 1. What is the value of $R^2$?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "86.7%", 
           "93.1%",
           "96.5%") )} else {'\\null'}`
-\greyboxlines{2}
+\greyboxlines{1}
 1. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c(answer = "380", 
@@ -322,7 +324,7 @@ knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
 
 
 
-```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$).", fig.align="center", fig.width=5.5, fig.height=4, out.width="60%"}
+```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n = 38$).", fig.align="center", fig.width=5.5, fig.height=4, out.width="60%"}
 data(Corollas)
 
 CP <- Corollas

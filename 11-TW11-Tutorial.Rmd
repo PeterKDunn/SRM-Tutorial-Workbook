@@ -1,10 +1,10 @@
-# Teaching Week 12: Tutorial  {#Lecture12}
+# Teaching Week 11: Tutorial  {#Lecture11}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
   
-* How to read research.
-* How to write research.
+* read and understand research.
+* write about research.
 :::
 
 

@@ -2,12 +2,12 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Graphical summaries for **qualitative** data.
-* Numerical summaries for **qualitative** data (e.g., odds, proportions).
-* Graphical summaries for comparing **qualitative** data.
-* Numerical summaries for comparing **qualitative** data (e.g., odds ratios, difference in proportions).
+* produce and understand graphical summaries for **qualitative** data.
+* produce and understand numerical summaries for **qualitative** data (e.g., odds, proportions).
+* produce and understand graphical summaries for comparing **qualitative** data.
+* produce and understand numerical summaries for comparing **qualitative** data (e.g., odds ratios, difference in proportions).
 :::
 
 
@@ -296,7 +296,7 @@ if( knitr::is_latex_output() ) {
           align = "c",
           escape = FALSE, # For latex to work in \rightarrow
           linesep = c(" ", "\\hline"), # Add a bit of space between all rows. 
-          caption = "Summary table: emergency dispatchers and missing stroke symptoms.") %>%
+          caption = "Numerical summary table: emergency dispatchers and missing stroke symptoms.") %>%
     kable_styling(full_width = FALSE, 
                   font_size = 10) %>%
     add_header_above( c(" " = 1,
@@ -360,7 +360,7 @@ if( knitr::is_html_output() ) {
         align = "r",
         escape = FALSE,
         longtable = FALSE,
-        caption = "Summary table: emergency dispatchers and missing stroke symptoms. Enter PROPORTIONS and ODDS to TWO decimal places.",
+        caption = "Numerical summary table: emergency dispatchers and missing stroke symptoms. Enter PROPORTIONS and ODDS to TWO decimal places.",
         booktabs = TRUE)  %>%
     add_header_above( c(" " = 1,
                         "Proportion" = 1,
