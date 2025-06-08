@@ -2,10 +2,10 @@
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
-**Topics** covered in this tutorial:
+You will learn to:
 
-* Design of studies.
-* Language used in research.
+* design quantitative research studies to answer RQs.
+* use and understand the language used in research.
 :::
 
 
@@ -188,7 +188,7 @@ knitr::include_graphics("images/Crossword-Week2.png")
   \item[\textbf{3.}]
   The number of groups being compared (5)  
   \item[\textbf{5.}] 
-  Ask if you need \verb|____| (4)  
+  Ask if you need \verb|____| (e.g., in tutorial, on on the Canvas \textit{Discussions}) (4)  
   \item[\textbf{6.}]
   Patients were assigned \verb|____| to the type of therapy received (8)  
   \item[\textbf{11.}]
@@ -211,7 +211,7 @@ knitr::include_graphics("images/Crossword-Week2.png")
   \item[\textbf{4.}]
   Informed consent ensures the study is \verb|____| (7)
   \item[\textbf{7.}]
-  The treatment of `usual care' would be considered to be the \verb|____| (7)
+  The treatment of `usual care' would be considered to be the \verb|____| group (7)
   \item[\textbf{8.}]
   The type of therapy is called the \verb|____| (9)
   \item[\textbf{9.}]
@@ -310,7 +310,12 @@ Aged cheese appeared in the list in sixth place ($2.9$% of intake).
 
 ## Planning a research study {#PlanStudy2}
 
-Your tutor will have information.
+Your tutor will have
+`r if (knitr::is_html_output()) {
+   'information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1292525075807919739)'
+} else{' information.'}`
+
+
 
 <!-- Documentation tool?? -->
 
