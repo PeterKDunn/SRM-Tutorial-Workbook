@@ -1,6 +1,6 @@
 
 1. Draw a labelled picture of the normal distribution of the IQ scores in the *population*.
-\greyboxlines{5}
+\greyboxlines{6}
 2. For a person with an IQ of\ $130$, how many IQ points are they from the mean?
 \greyboxlines{2}
 3. For a person with an IQ of\ $130$, how many *standard deviations* is their IQ from the mean?

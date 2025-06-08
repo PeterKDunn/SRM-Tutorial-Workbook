@@ -193,7 +193,7 @@ Sometimes we need to assume answers or just state that we don't know.
 The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
 
-I have prepared a H5P artefact for you to use:
+I have prepared a H5P artefact for you to use, thinking mostly of **online tutorials**:
 
 <iframe src="https://usc.h5p.com/content/1292525075807919739/embed" aria-label="Ruler-drop presentation" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 

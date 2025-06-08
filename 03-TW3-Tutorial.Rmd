@@ -464,34 +464,33 @@ if( knitr::is_html_output() ) {
 ```
 
 
-1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'}`
-`r if( knitr::is_html_output() ) {'The type of research study is  '}`
+1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'} else {'The type of research study is  '}`
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
    Justify your answer. \tightlist
 \greyboxlines{2}
 2. What are the *units of observation* and *units of analysis*?
 \greyboxlines{2}
 3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
-   a. Compute the mean times for the *Energizer* batteries (to two decimal places):
+   a. Compute the mean times for the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
-   a. Compute the standard deviation of the *Energizer* battery times (to three decimal places):
+   a. Compute the standard deviation of the *Energizer* battery times (to three decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.001, answer=0.289)}`
-   a. Compute the mean times for the *Ultracell* batteries (to two decimal places):
-   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`s
-   a. Compute the standard deviation of the *Ultracell* battery times (to three decimal places):
+   a. Compute the mean times for the *Ultracell* batteries (to two decimal places).
+   `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
+   a. Compute the standard deviation of the *Ultracell* battery times (to three decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
 \greyboxlines{4}
 4. Explain what these calculations tell you.
 \greyboxlines{2}
 5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
-   a. Compute the median of the *Energizer* batteries (to two decimal places):
+   a. Compute the median of the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
-   b. Compute the median of the *Ultracell* batteries (to two decimal places):
+   b. Compute the median of the *Ultracell* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
-\greyboxlines{4}
-6. Determine (and justify) if the mean or median would be a more appropriate measure of centre for these data.
+\greyboxlines{3}
+6. Determine (and justify) if the mean or median would be a more appropriate measure of centre.
 \greyboxlines{2}
-7. Do you think evidence exists that the average time for the batteries to reach 1.0 volts is the same for each brand?
+7. Do you the average time to reach 1.0 volts is the same for each brand?
    Explain.
 \greyboxlines{2}
 8. Information about the cost of the batteries would also be important information to know (see below).

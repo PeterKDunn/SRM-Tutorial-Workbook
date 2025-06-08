@@ -27,20 +27,16 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-1. A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist 
-   True or false?  
+1. True or false: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. All *confidence interval* are $95$% confidence intervals. 
-   True or false?  
+1. True or false: All *confidence interval* are $95$% confidence intervals.
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
-   True or false?  
+1. True or false: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. CIs answers estimation-type RQs.
-   True or false?  
+1. True or false: CIs answers estimation-type RQs.
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
 :::
@@ -87,14 +83,13 @@ They purchased a carton containing $25$\ boxes of matches, and Jake counted the 
 There was $44$\ matches.
 
 'Oh wow.  Just wow.' said Jake.
-'They lie.  
-There's only $44$\ matches in this box.'
+'They lie. There's only $44$\ matches in this box.'
 
 
 1. What is Jake's misunderstanding? \tightlist
 \greyboxlines{2}
 2. Then, they counted the number of matches in *each* of the twenty-five boxes.
-   Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.
+   Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
    
    Jake notes that the mean is $44.9$\ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
    How would you respond?
@@ -237,7 +232,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 
 \greyboxlines{2}
    
-```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 4}
+```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 3.5, out.width="70%", fig.align="center"}
 data(PizzaSize)
 
 hist( PizzaSize$DiameterInches[PizzaSize$Store == "EagleBoys"],

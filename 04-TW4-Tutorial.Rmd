@@ -44,7 +44,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
   'The data are shown in Fig.\\ \\@ref(fig:OSADT3).'
 } else
 {
-  'Part of the data are shown in Table\\ \\@ref(tab:OSAKable3).'
+  'Part of the data are in Table\\ \\@ref(tab:OSAKable3).'
 }
 `
 
@@ -53,7 +53,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 "Median", 
 "Mean",
 answer = "Odds",
-"Standard deviation") )} else{"Median, mean, odds, or standard deviation"}`
+"Standard deviation") )} else{"Median, mean, odds, or standard deviation."}`
 1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "Standard deviation", 
@@ -133,14 +133,14 @@ if( knitr::is_latex_output() ) {
                               "BMI",
                               "Neck circumference (cm)",
                               "REI"),
-                caption = "Part of the Obstructive sleep apnoea data set.") %>%
+                caption = "Part of the Obstructive Sleep Apnoea (OSA) data set.") %>%
     kable_styling(font_size = 10) %>%
     row_spec(0, 
              bold = TRUE)
 }
 ```
 
-```{r OSADT3, echo=FALSE, fig.cap="The Obstructive sleep apnoea data set", fig.align="center"}
+```{r OSADT3, echo=FALSE, fig.cap="The Obstructive Sleep Apnoea (OSA) data set", fig.align="center"}
 if( knitr::is_html_output() ) {
   DT::datatable(useOSA,
                 list(scrollX = TRUE, 
@@ -168,11 +168,15 @@ Stroke[1, ] <- c(67, 43)
 Stroke[2, ] <- c(97, 39)
 
 colnames(Stroke) <- c("Dispatcher suspected stroke",
-                      "Dispatchers missed stroke")
+                      "Dispatcher missed stroke")
 rownames(Stroke) <- c("Males",
                       "Females")
 
 if( knitr::is_latex_output() ) {
+colnames(Stroke) <- c("suspected stroke",
+                      "missed stroke")
+rownames(Stroke) <- c("Males",
+                      "Females")
   knitr::kable( Stroke,
                 format = "latex",
                 longtable = FALSE,
@@ -181,7 +185,12 @@ if( knitr::is_latex_output() ) {
                 caption = "How well emergency dispatchers recognised signs of stroke.") %>%
     kable_styling(font_size = 10) %>%
     row_spec(0, 
-             bold = TRUE)
+             bold = TRUE) %>%
+    add_header_above( c( " ",
+                         "Dispatcher" = 1,
+                         "Dispatcher" = 1),
+                      bold = TRUE,
+                      line = FALSE)
 }
 if( knitr::is_html_output() ) {
   knitr::kable( head(useOSA, 10),
@@ -291,8 +300,8 @@ if( knitr::is_latex_output() ) {
     kable_styling(full_width = FALSE, 
                   font_size = 10) %>%
     add_header_above( c(" " = 1,
-                        "Proportion" = 1,
-                        "Odds" = 1,
+                        "Proportion of" = 1,
+                        "Odds that" = 1,
                         "Sample" = 1),
                       align = "c",
                       bold = TRUE,
@@ -368,8 +377,6 @@ if( knitr::is_html_output() ) {
 
 ```
 
-
-\pagebreak
 
 ## Two-way tables {#TwoWayTables}
 

@@ -28,20 +28,16 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-1. Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
-   True or false?  
+1. True or false: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. Hypothesis are always written in terms of population parameters. 
-   True or false?  
+1. True or false: Hypothesis are always written in terms of population parameters. 
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
-1. Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
-   True or false?  
+1. True or false: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
 `r if( knitr::is_html_output() ) {
    webexercises::torf( FALSE)}`
-1. Hypotheses should be constructed without any knowledge of the data. 
-   True or false?  
+1. True or false: Hypotheses should be constructed without any knowledge of the data. 
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
 :::
@@ -152,7 +148,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 \greyboxlines{2}
 
 
-```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diametet of $12$ inches.", fig.align="center", fig.width=6}
+```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diametet of $12$ inches.", fig.align="center", fig.width=6, fig.height=3.5, out.width="70%"}
 data(PizzaSize)
 
 PS <- PizzaSize

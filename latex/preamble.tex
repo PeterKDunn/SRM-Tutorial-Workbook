@@ -18,7 +18,7 @@
 \usepackage[font={small,it}]{caption}
 \usepackage{multirow}
 
-% For sometimes stacking things on top of each other (used in table, in the selecting a test chapter)
+% For sometimes stacking things on top of each other (used in table, in the selecting-a-test chapter)
 \usepackage{stackengine} 
 \renewcommand\stacktype{L}
 \def\stackalignment{l}
@@ -31,8 +31,6 @@
 \setfloatlocations{table}{hbtp}
 
 
-%\setmainfont[UprightFeatures={SmallCapsFont=AlegreyaSC-Regular}]{Alegreya}
-
 %%% Box for writing answers
 \usepackage{calc} 
 \newlength{\greyboxheight}
@@ -42,7 +40,6 @@
 \newcommand{\setgreyboxheight}[1]{%
   \setlength{\greyboxheight}{2.3\baselineskip * #1}%
 }
-
 \newenvironment{greybox}[1]{%
   \setgreyboxheight{#1}%
   \begin{tcolorbox}[
@@ -99,8 +96,6 @@
 \fi
 
 
-
-
 % Default figure width
 \setkeys{Gin}{width=0.5\linewidth}
 
@@ -131,9 +126,6 @@
 \makeatother
 
 
-
-
-
 \newenvironment{rmdthinkHTML}{}{}
 
 \newenvironment{rmdblock}[1]
@@ -162,11 +154,7 @@
   }
   
 
-
-  
-  
-  
-  
+%%% START: CALL OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   
 %%% Objectives boxes
 \definecolor{ObjColour}{rgb}{0.926, 0.910, 0.980}
@@ -398,7 +386,8 @@
 \newenvironment{rmdTutorInfo}
   {\begin{rmdblock}{iconmonstr-school-7-240}}
   {\end{rmdblock}}
-
+  
+%%% END: CALL-OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Redfine some existing environments
 % -QUOTE

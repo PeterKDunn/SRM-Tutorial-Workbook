@@ -247,7 +247,7 @@ Consider the following scenario:
 > 'Tea bags? Why?' asked Nim, not unreasonably.  
 > &nbsp;
 >
-> 'Everyone knows that Earl Grey tea relaxes students...' said Jane, looking upwards then closing her eyes.   
+> 'Everyone knows that Earl Grey tea relaxes students...' said Jane dreamily.   
 > &nbsp;
 >
 > 'How do you know?' Nim said, unintentionally aggressive.  

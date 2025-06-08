@@ -27,7 +27,9 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-Consider this RQ: 'What factors are preventing the adoption of household solar technologies in Santiago [Chile]?' [@walters2018factors].
+Consider this RQ  [@walters2018factors]: 
+
+> What factors are preventing the adoption of household solar technologies in Santiago [Chile]?'
 
 1. For this RQ, what is the *Population*? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -88,7 +90,9 @@ Consider this RQ: 'What factors are preventing the adoption of household solar t
 
 ## Study design {#StudyDesign}
 
-A student group was studying this RQ (which is **not** appropriate for the SCI110 Project): 'Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?'
+A student group was studying this RQ (which is **not** appropriate for the SCI110 Project):
+
+> Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?
 
 Explain *why*, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
 \greyboxlines{2}
@@ -127,9 +131,8 @@ include_graphics("Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg
 `r if (knitr::is_latex_output()) '-->'`
 
 
-Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are looking to using robotic means to assist these patients.
-
-Read the description (line breaks added for clarity) of one such study as shown below [@data:Lo2010:RobotAssistance], then complete the crossword 
+Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are studying robotics to assist these patients.
+Read the description (line breaks added for clarity) of one such study [@data:Lo2010:RobotAssistance], then complete the crossword 
 `r if (knitr::is_latex_output()){
    'in Fig. \\@ref(fig:Crossword-Week2-Terminology)'
 } else {
@@ -140,26 +143,20 @@ regarding this information.
 > In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$\ months or more after a stroke, we randomly assigned $49$\ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$\ to receive usual care.  
 > &nbsp;
 >
-> Therapy consisted of $36$ $1$-hour sessions over a period of $12$\ weeks. 
-> The primary outcome was a change in motor function, as measured on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, at $12$\ weeks...  
+> Therapy consisted of $36$ $1$-hour sessions over [...] $12$\ weeks. 
+> The primary outcome was a change in motor function [...] at $12$\ weeks...  
 > &nbsp;
 >
 > We recruited veterans from four participating VA medical centers who were $18$\ years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least $6$ months before enrollment.  
 > &nbsp;
 >
-> Such impairment was defined as a score of $7$ to\ $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from\ $0$ (no function) to\ $66$ (normal function). 
-> All patients provided written informed consent.  
-> &nbsp;
->
+> Such impairment was defined as a score of\ $7$ to\ $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from\ $0$ (no function) to\ $66$ (normal function). 
+> All patients provided written informed consent.
 > Patients were randomly assigned to receive robot-assisted therapy, intensive comparison therapy, or usual care...  
 > &nbsp;
 >
 > Trained evaluators who were unaware of study-group assignments assessed patients\ $6$, $12$, $24$, and $36$\ weeks after randomization.
-> &nbsp;
->
 > The primary outcome was a change in the Fugl-Meyer score at $12$\ weeks, as compared with the baseline value...
->
-> --- @data:Lo2010:RobotAssistance
 
 
 <iframe src="https://usc.h5p.com/content/1291418096383708349/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -208,11 +205,11 @@ knitr::include_graphics("images/Crossword-Week2.png")
 
 \begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  When individuals may change their behaviour if they think they are being observed is the \verb|____| effect (9)
+  When individuals change their behaviour if they think they are being observed: the \verb|____| effect (9)
   \item[\textbf{2.}]
-  The evaluators were not aware of which group the patient was in; they were \verb|____| to the treatment applied (5)
+  The evaluators were unaware of the group the patient was in; they were \verb|____| to the treatment (5)
   \item[\textbf{4.}]
-  For the study, informed consent is to ensure the study is \verb|____| (7)
+  Informed consent ensures the study is \verb|____| (7)
   \item[\textbf{7.}]
   The treatment of `usual care' would be considered to be the \verb|____| (7)
   \item[\textbf{8.}]
@@ -220,27 +217,30 @@ knitr::include_graphics("images/Crossword-Week2.png")
   \item[\textbf{9.}]
   The research question is of this type (10)
   \item[\textbf{10.}]
-  A riddle: If you give me food, I will live; if you give me water, I will die (4)
+  Riddle: Feed me, I live; water me, I die (4)
 \end{enumerate}
 \end{multicols}
 `r if (knitr::is_html_output()){'-->'}`
 
 
 
+\pagebreak
+
+
 ## Assessing reports {#AssessReport}
 
 A report in *The Sydney Morning Herald* [@data:Berry:AgedCheese] was entitled 'Aged cheese could help you age well'.
-Based on this headline:
+Based on this information, answer the following questions.
 
-1. what are reasonable suggestions for the outcome and response variable? \tightlist
+1. What are reasonable suggestions for the outcome and response variable? \tightlist
 \greyboxlines{2}
-2. what are reasonable suggestions for the comparison and explanatory variable? 
+2. What are reasonable suggestions for the comparison and explanatory variable? 
 \greyboxlines{2}
-3. would you expect the study to be observational or experimental?
+3. Would you expect the study to be observational or experimental?
    Explain.
 \greyboxlines{2}
   
-Below is an extract from the newspaper article for the mice study that formed part of the research.
+Below is an extract from the newspaper article about the mice study that formed part of the research.
 
 > Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study... \null
 > In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
@@ -305,6 +305,8 @@ Aged cheese appeared in the list in sixth place ($2.9$% of intake).
     Explain.
 \greyboxlines{2}
 
+
+\pagebreak
 
 ## Planning a research study {#PlanStudy2}
 

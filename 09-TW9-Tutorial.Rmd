@@ -340,9 +340,9 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 9. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
 \greyboxlines{2}
 10. Write down the $t$-score and the appropriate $P$-value, using the output in Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1) .
-\greyboxlines{4}
+\greyboxlines{3}
 11. Calculate the $t$-score (using the standard error as given in the output), and show it is the same value as given in the output.
-\greyboxlines{4}
+\greyboxlines{3}
 12. Make a conclusion, in context.
 \greyboxlines{2}
 13. What conditions are necessary for the CI and test to be statistically valid?
@@ -359,7 +359,7 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
 ```
 
-```{r RatsBoxErrorbar, echo=FALSE,  fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.", fig.align="center", fig.width=7, out.width='80%', fig.height = 4}
+```{r RatsBoxErrorbar, echo=FALSE,  fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.", fig.align="center", fig.width=7, out.width='80%', fig.height = 3.5}
 par( mfrow = c(1, 2))
 
 # Boxplot

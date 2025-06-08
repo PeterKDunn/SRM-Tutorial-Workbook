@@ -224,7 +224,7 @@ I then restricted the data to cars $15$ years old or younger
 I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
 
 
-```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).", fig.align="center", fig.width=6}
+```{r CorollasPriceAge, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).", fig.align="center", fig.width=5.5, fig.height=4, out.width="60%"}
 
 data(Corollas)
 
@@ -322,7 +322,7 @@ knitr::include_graphics("SoftwareImages/Corollas-Regression-jamovi.png")
 
 
 
-```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$).", fig.align="center", fig.width=6}
+```{r CorollasPriceYear, echo=FALSE, fig.cap="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n=38$).", fig.align="center", fig.width=5.5, fig.height=4, out.width="60%"}
 data(Corollas)
 
 CP <- Corollas
