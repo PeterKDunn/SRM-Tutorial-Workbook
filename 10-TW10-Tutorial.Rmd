@@ -282,7 +282,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
        # escape=FALSE, # For latex to work in \rightarrow
        # linesep = c( "\\addlinespace"), # Add a bit of space between all rows. 
-       caption = "Maturation and gender: Numerical summary",
+       caption = "Maturation and gender: numerical summary",
         align=c("l", "l", "l", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -516,7 +516,7 @@ if( knitr::is_latex_output() ) {
         booktabs = TRUE,
         # escape=FALSE, # For latex to work in \rightarrow
         linesep = "\\addlinespace", # Add a bit of space between all rows. 
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
+        caption = "Five-year mortality and use of an artificial limb: numerical summary.",
         align = c("l", "l", "l", "l"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
@@ -584,7 +584,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Five-year mortality and use of an artificial limb: Numerical summary.",
+        caption = "Five-year mortality and use of an artificial limb: numerical summary.",
         booktabs = TRUE) %>%
   add_header_above( c( " " = 1, 
                        "Percentage alive" = 1, 

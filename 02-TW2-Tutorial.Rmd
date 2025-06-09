@@ -188,7 +188,7 @@ knitr::include_graphics("images/Crossword-Week2.png")
   \item[\textbf{3.}]
   The number of groups being compared (5)  
   \item[\textbf{5.}] 
-  Ask if you need \verb|____| (e.g., in tutorial, on on the Canvas \textit{Discussions}) (4)  
+  Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
   \item[\textbf{6.}]
   Patients were assigned \verb|____| to the type of therapy received (8)  
   \item[\textbf{11.}]

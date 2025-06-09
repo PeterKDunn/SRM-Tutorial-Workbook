@@ -33,7 +33,7 @@ Take careful note of which chapters are covered in this tutorial!
 @others:lunn:cida compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
-```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island", fig.align="center", fig.width=5, fig.height = 3.25, out.width = '50%'}
+```{r JellyfishHist, echo=FALSE, fig.cap="A histogram of the breadth of jellyfish at Dangar Island.", fig.align="center", fig.width=5, fig.height = 3.25, out.width = '50%'}
 data(Jellyfish)
 
 JF <- Jellyfish
@@ -153,7 +153,7 @@ You don't know what 'standard error' means yet, so don't worry about that column
 \greyboxlines{4}
 
 
-```{r StudentsNumSumA, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="70%"}
+```{r StudentsNumSumA, echo=FALSE, fig.cap="A numerical summary from a student Project.", fig.align="center", out.width="70%"}
 knitr::include_graphics("ProjectImages/StudentResults1.png")
 ```
 
@@ -165,7 +165,7 @@ knitr::include_graphics("ProjectImages/StudentResults1.png")
 	 
 \greyboxlines{4}
 
-```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project", fig.align="center", out.width="60%"}
+```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project.", fig.align="center", out.width="60%"}
 knitr::include_graphics("ProjectImages/StudentResults2.png")
 ```
 
