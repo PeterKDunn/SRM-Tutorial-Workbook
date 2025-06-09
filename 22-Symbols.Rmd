@@ -412,7 +412,7 @@ SymbolsTab <- array( dim = c(13, 3))
 
 colnames(SymbolsTab) <- c("Symbol or abbreviation", 
                           "Meaning", 
-                          "Reference")
+                          "Textbook reference")
 
 SymbolsTab[1, ] <- c("RQ", 
                      "Research question", 
@@ -442,38 +442,47 @@ SymbolsTab[9, ] <- c("CI",
                      "Confidence interval", 
                      "(ref:AboutCIs) ")
 SymbolsTab[10, ] <- c("s.e.", 
-                     "Standard error" , 
-                     "(ref:StandardError)")
+                      "Standard error" , 
+                      "(ref:StandardError)")
 SymbolsTab[11, ] <- c("$n$", 
-                     "Sample size", 
-                     "(ref:SampleSize)")
+                      "Sample size", 
+                      "(ref:SampleSize)")
 SymbolsTab[12, ] <- c("$\\chi^2$", 
-                     "The chi-squared test statistic", 
-                     "(ref:TestStatObs) ")
+                      "The chi-squared test statistic", 
+                      "(ref:TestStatObs) ")
 SymbolsTab[13, ] <- c("$\\pm$", 
-                     "Plus-or-minus (give-or-take)", 
-                     "(ref:CIpKnownp) ")
+                      "Plus-or-minus (give-or-take)", 
+                      "(ref:CIpKnownp) ")
 
 
 if( knitr::is_latex_output() ) {
+  colnames(SymbolsTab) <- c("abbreviation", 
+                            "Meaning", 
+                            "reference")
+  
   kable( SymbolsTab,
          format = "latex",
          booktabs = TRUE,
          escape = FALSE,
          align = c("c", "l", "c"),
          linesep = c("\\addlinespace", "", "\\addlinespace", "",  "\\addlinespace", "\\addlinespace", "", "\\addlinespace", "", "")) %>%  # Else adds a space every 5 lines...
-        # caption = "Some symbols used") %>%
-	row_spec(0, bold = TRUE) %>%
-  column_spec(column = 1, width = "25mm") %>% 
-  kable_styling(font_size = 9)
+    # caption = "Some symbols used") %>%
+    row_spec(0, bold = TRUE) %>%
+    column_spec(column = 1, width = "25mm") %>% 
+    kable_styling(font_size = 9) %>%
+    add_header_above( c("Symbol or" = 1,
+                        " " = 1,
+                        "Textbook" = 1),
+                      bold = TRUE,
+                      line = FALSE)
 }
 if( knitr::is_html_output() ) {
   kable( SymbolsTab,
-                format = "html",
-                booktabs = TRUE,
-                align = c("c", "l", "c")) %>%
-                #caption = "Some symbols used")
-  row_spec(0, bold = TRUE)
+         format = "html",
+         booktabs = TRUE,
+         align = c("c", "l", "c")) %>%
+    #caption = "Some symbols used")
+    row_spec(0, bold = TRUE)
 }
 ```
 
