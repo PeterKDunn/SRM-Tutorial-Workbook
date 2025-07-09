@@ -11,6 +11,7 @@ library("diagram")
 library("viridis")
 library("DT")          # For displaying tables
 library("htmlwidgets")
+library("varhandle")
 library("readr") # For Cafe
 
 # set global chunk options
