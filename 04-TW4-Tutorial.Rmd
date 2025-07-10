@@ -173,10 +173,10 @@ rownames(Stroke) <- c("Males",
                       "Females")
 
 if( knitr::is_latex_output() ) {
-colnames(Stroke) <- c("suspected stroke",
-                      "missed stroke")
-rownames(Stroke) <- c("Males",
-                      "Females")
+  colnames(Stroke) <- c("suspected stroke",
+                        "missed stroke")
+  rownames(Stroke) <- c("Males",
+                        "Females")
   knitr::kable( Stroke,
                 format = "latex",
                 longtable = FALSE,
@@ -193,67 +193,71 @@ rownames(Stroke) <- c("Males",
                       line = FALSE)
 }
 if( knitr::is_html_output() ) {
-  knitr::kable( head(useOSA, 10),
+  knitr::kable( Stroke,
                 format = "html",
                 longtable = FALSE,
                 booktabs = TRUE,
-                align = "c",
+                align = "c", 
                 caption = "How well emergency dispatchers recognised signs of stroke.") %>%
     row_spec(0, 
-             bold = TRUE)
-}
+             bold = TRUE) %>%
+    add_header_above( c( " ",
+                         "Dispatcher" = 1,
+                         "Dispatcher" = 1),
+                      bold = TRUE,
+                      line = FALSE)}
 ```
 
 
 1. *Why* are the levels 'Male' and 'Female' placed in the rows of the table, rather than the columns?
 \greyboxlines{2}
-1. What proportion of patients had their stroke symptoms missed? \tightlist
+2. What proportion of patients had their stroke symptoms missed? \tightlist
 \greyboxlines{2}
-1. Sketch a side-by-side or stacked bar chart to display the data.
+3. Sketch a side-by-side or stacked bar chart to display the data.
 \greyboxlines{4}
-1. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?
+4. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.391", 
 "0.609",
 "0.524",
 "0.333") )} else {'\\null'}`
 \greyboxlines{2}
-1. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?
+5. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.713",
 "0.476",
 answer = "0.287", 
 "0.333") )} else {'\\null'}`
 \greyboxlines{2}
-1. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
+6. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "39.1", 
 answer = "0.642",
 "0.907",
 "0.50") )} else {'\\null'}`
 \greyboxlines{2}
-1. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
+7. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.402", 
 "2.49",
 "1.10",
 "1.24") )} else {'\\null'}`
 \greyboxlines{2}
-1. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?
+8. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.391",
 "1.6",
 answer = "0.104",
 "0.287") )} else {'\\null'}`
 \greyboxlines{2}
-1. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?
+9. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.63",
 "0.402",
 "0.50",
 answer = "1.6") )} else {'\\null'}`
 \greyboxlines{2}
-1. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
+10. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
 
 
 
