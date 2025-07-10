@@ -54,28 +54,28 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 "Mean",
 answer = "Odds",
 "Standard deviation") )} else{"Median, mean, odds, or standard deviation."}`
-1. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
+2. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "Standard deviation", 
 "Median",
 "Mean",
 "Odds") )} else{'\\null'}`
 \greyboxlines{1}
-1. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?
+3. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Standard deviation", 
 answer = "Median",
 "Odds",
 "Percentages") )} else{'\\null'}`
 \greyboxlines{1}
-1. What might be an **appropriate** way to numerically describe the gender of the participants?
+4. What might be an **appropriate** way to numerically describe the gender of the participants?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "Standard deviation", 
 "Median",
 "IQR",
 answer = "Percentages") )} else {'\\null'}`
 \greyboxlines{1}
-1. In the sample of $n = 60$, what **percentage** of individuals are females?
+5. In the sample of $n = 60$, what **percentage** of individuals are females?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.45", 
 answer = "45%",
@@ -84,7 +84,7 @@ answer = "45%",
 "1.22",
 "0.82") )} else {'\\null'}`
 \greyboxlines{1}
-1. In the sample of $n = 60$, what are the **odds** that an individual is female?
+6. In the sample of $n = 60$, what are the **odds** that an individual is female?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.45", 
 "45%",
