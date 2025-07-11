@@ -85,14 +85,14 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
                       "Qualitative: nominal",
                       "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
-1. How would you *classify* the variable `Gender`? \tightlist
+2. How would you *classify* the variable `Gender`? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Quantitative: discrete", 
 		                  "Quantitative: continuous",
                       answer = "Qualitative: nominal",
                       "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
-1. How would you *classify* the variable `BMI`? \tightlist
+3. How would you *classify* the variable `BMI`? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       "Quantitative: discrete", 
 		                  answer = "Quantitative: continuous",

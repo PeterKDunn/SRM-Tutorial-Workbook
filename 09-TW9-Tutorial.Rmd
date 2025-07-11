@@ -84,13 +84,13 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
   answer = "The researchers calculated an exact $95$% CI (not an approximate $95$% CI).",
   "The statistical validity conditions are not met.")) } else {'\\null'}`
 \greyboxlines{2}
-1. True or false: 
+2. True or false: 
    The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. True or false:
+3. True or false:
    One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. We are $95$% confident that the difference between the population means is:
+4. We are $95$% confident that the difference between the population means is:
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( c("Larger for coeliacs", 
           "Smaller for coeliacs",
@@ -99,16 +99,16 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 	  )
 } else {'\\null'}`
 \greyboxlines{2}
-1. True or false:
+5. True or false:
    The *null* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} = 0$. 
 `r if( knitr::is_html_output() ) { webexercises::torf(TRUE) }`
-1. True or false:
+6. True or false:
    The *alternative* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} > 0$. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. True or false:
+7. True or false:
    Since the two sample means are different, we reject the null hypothesis. 
 `r if( knitr::is_html_output() ) { webexercises::torf(FALSE) }`
-1. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
+8. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
    What does this *measure*?
 `r if( knitr::is_html_output() ) {
    webexercises::longmcq( 
