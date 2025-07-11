@@ -298,7 +298,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 ### Answers for Sect.\ \@ref(PercentOddsStroke) {.unlisted .unnumbered}
 
-1. Because the sex of the person is the explanatory variable.
+1. Because the gender of the person is the explanatory variable.
 1. (No answer.)
 1. $43\div (43 + 67) \times 100 = 39.1$%. 
 1. $39\div (97 + 39) \times 100 = 28.7$%.
