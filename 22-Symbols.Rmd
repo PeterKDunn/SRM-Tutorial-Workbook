@@ -1,6 +1,19 @@
 
 # Symbols, formulas, statistics and parameters {#StatisticsAndParameters}
 
+`r if (knitr::is_latex_output()) {'<!--'}` 
+The following information appears in this Appendix:
+
+* [Symbols and standard errors for confidence intervals and hypothesis testing](#Symbols)
+* [Information about forming confidence intervals](#FormulasCI)
+* [Information for hypothesis testing](#FormulasTest)
+* [Information for estimating sample sizes](#FormulasSampleSize)
+* [Other formulas used](#FormulasOther)
+* [Other symbols used](#SymbolsOther)
+`r if (knitr::is_latex_output()) {'-->'}` 
+
+
+
 ## Symbols and standard errors {#Symbols}
 
 * The following table lists the statistics used to estimate unknown population parameters. \tightlist
