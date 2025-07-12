@@ -87,7 +87,7 @@ Suppose a researcher asked the RQ:
    b. The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles. 
    c. Either of the above.
 `r if( knitr::is_html_output() ) {'-->'}`
-1. Which would be the appropriate CI to produce?
+2. Which would be the appropriate CI to produce?
 `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(answer = "A CI for the odds ratio",
                "A CI for the difference in proportions",
@@ -97,7 +97,7 @@ Suppose a researcher asked the RQ:
    b. A CI for the difference in proportions.
    c. Either of the above.
 `r if( knitr::is_html_output() ) {'-->'}`
-1. Which would be the appropriate hypothesis test?
+3. Which would be the appropriate hypothesis test?
 `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(         "A hypothesis tests for the difference between proportions",
       answer = "A hypothesis tests for the odds ratio",

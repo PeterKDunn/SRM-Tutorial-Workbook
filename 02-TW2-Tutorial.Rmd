@@ -345,6 +345,8 @@ The article states (line breaks added):
 >
 > We decided to examine this experimentally... a major manufacturer agreed to fry batches of potato crisps in canola oil or the conventional palmolein for a human trial. 
 > This provided an opportunity for us to run a double blind crossover trial.  
+>
+> --- @data:Truswell1992:crisps
 
 Part of the protocol  for the study is given below:
 
@@ -363,6 +365,8 @@ Part of the protocol  for the study is given below:
 > The other half of the subjects ate palmolein crisps for $3$ weeks and canola crisps for the next $2$ weeks. 
 > The first week of the $3$ weeks served as an adjustment period. 
 > Fasting venous bloods were taken once at the start (usual diet), then for the last $3$ mornings of both the first and second experimental periods.
+>
+> --- @data:Truswell1992:crisps
 
 1. Explain how random *allocation* is used (and why), if at all.
 \greyboxlines{2}
