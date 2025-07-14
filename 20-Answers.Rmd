@@ -966,7 +966,7 @@ if( knitr::is_html_output() ) {
 Some answers embedded.
 
 1. See Table\ \@ref(tab:ArtLimbMortalityANS). \tightlist
-2. Sex is the explanatory variable.
+2. Use of artificial limb is the explanatory variable.
 3. Using artificial limb: $49/16 = 3.0625$.
    Not using artificial limb: $21/19 = 1.105263$.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
