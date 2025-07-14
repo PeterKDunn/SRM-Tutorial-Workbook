@@ -786,7 +786,7 @@ Answers implied by H5P.
 ### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
 
 
-1. How much further patients with *with* the implant.
+1. How much further patients walk *with* the implant.
 2. **Repeated-measures**:
    Every subject has two TWMT recorded.
 3. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
@@ -801,7 +801,7 @@ Answers implied by H5P.
 10. Almost impossible.
    Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
-11. Normal; mean $\mu$, std deviation is the standard error of $4.121$.
+11. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
 12. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
 13. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  

@@ -122,7 +122,6 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
-1. How much larger the mean number of cavities are for coeliacs.
 1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\ CI.
    (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
 1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
@@ -134,6 +133,7 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
    But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
 1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
+1. How much larger the mean number of cavities are for coeliacs.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
