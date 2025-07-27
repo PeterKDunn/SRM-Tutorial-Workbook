@@ -253,7 +253,7 @@ Based on this information, answer the following questions.
 
 4. What are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
 \greyboxlines{2}
-5. what are reasonable suggestions for the comparison and explanatory variable? 
+5. What are reasonable suggestions for the comparison and explanatory variable? 
 \greyboxlines{2}
 6. Is the study observational or experimental?
    Explain.
