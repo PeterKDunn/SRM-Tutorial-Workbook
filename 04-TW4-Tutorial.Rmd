@@ -167,8 +167,8 @@ Stroke <- array( dim = c(2, 2))
 Stroke[1, ] <- c(67, 43)
 Stroke[2, ] <- c(97, 39)
 
-colnames(Stroke) <- c("Dispatcher suspected stroke",
-                      "Dispatcher missed stroke")
+colnames(Stroke) <- c("suspected stroke",
+                      "missed stroke")
 rownames(Stroke) <- c("Males",
                       "Females")
 
