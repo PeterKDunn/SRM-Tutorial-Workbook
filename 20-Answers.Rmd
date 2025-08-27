@@ -820,7 +820,7 @@ Answers implied by H5P.
 2. The **parameter** of interest is the *difference between the population mean lifetimes*, say $\mu_R - \mu_F$.
    Measure how much longer the lifetimes are for rats on a restricted diet.
 3. Table not shown.
-4. The $95$%\ CI is the *bottom* one: from $223.34$ to\$346.13$\ days.
+4. The $95$%\ CI is the *bottom* one: from $223.34$ to\ $346.13$\ days.
 5. The best of these is Option\ (e)... but in practice, we usually think about CIs in terms of Option\ (d) so Option\ (d) is fine.
 6. The CI explanation can be improved by (i)\ indicating *which* diet leads to larger average lifetimes; and (ii)\ providing sample summary info. Here is a better answer:  
    
@@ -833,11 +833,11 @@ Answers implied by H5P.
    $H_0$: $\mu_R = \mu_{FE}$; and $H_1$: $\mu_R > \mu_{FE}$; **one**-tailed, because of the RQ.
 9.  Either sampling variation explain the difference, or the diets really are different.
 10. Use the not-equal variance (Welch's test) row: $t = 9.161$; one-tailed $P < 0.0005$ (test is one-tailed).
-11. $t = (284.73 - 0/31.08 = 9.16$, as per output.
+11. $t = (284.73 - 0)/31.08 = 9.16$, as per output.
 12. The evidence contradicts $H_0$.
     Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: $968.75$\ days; std. dev.: $284.6$\ days) is greater than rats on a free-eating diet ($684.01$\ days; $134.1$) ($95$%\ CI for the difference from $223.3$ to\ $346.1$\ days).
 13. The the *sample means* have a normal distribution.
-    Since both sample sizes are greater than\ $24$, this is true.
+    Since both sample sizes are greater than\ $25$, this is true.
     The figure suggests not very severe non-normality.
 14. Rats from the same litter are likely to be similar to each other.
    The litter would probably be the unit of analysis then, not the individual rat.
@@ -966,7 +966,7 @@ if( knitr::is_html_output() ) {
 Some answers embedded.
 
 1. See Table\ \@ref(tab:ArtLimbMortalityANS). \tightlist
-2. Sex is the explanatory variable.
+2. Use of artificial limb is the explanatory variable.
 3. Using artificial limb: $49/16 = 3.0625$.
    Not using artificial limb: $21/19 = 1.105263$.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.

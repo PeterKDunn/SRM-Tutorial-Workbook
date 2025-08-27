@@ -471,7 +471,7 @@ if( knitr::is_html_output() ) {
 }
 ```
 
-2. In Table\ \@ref(tab:ArtLimbMortality), *why* are males and females listed in the rows (rather than the columns)?
+2. In Table\ \@ref(tab:ArtLimbMortality), *why* is the use (or not) of artificial limbs listed in the *rows* (rather than the *columns*)?
 3. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
