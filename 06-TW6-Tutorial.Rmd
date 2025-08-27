@@ -158,7 +158,7 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 \greyboxlines{2}
    e. Compute the *percentage* of females $18$\ and over that are *between* $170$ and $180\cms$?
 \greyboxlines{2}
-   f. What are the *odds* that a female $18$\ and over is *between* than $170$ and $180\cms$?
+   f. What are the *odds* that a female $18$\ and over is *between* $170$ and $180\cms$?
 \greyboxlines{2}
 
 8. Approximately $20$% of females $18$\ and over are shorter than what height?
