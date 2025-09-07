@@ -149,7 +149,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 \greyboxlines{2}
 
 
-```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diametet of $12$ inches.", fig.align="center", fig.width=6, fig.height=3.5, out.width="70%"}
+```{r PizzaHistoHT, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diameter of $12$ inches.", fig.align="center", fig.width=6, fig.height=3.5, out.width="70%"}
 data(PizzaSize)
 
 PS <- PizzaSize
