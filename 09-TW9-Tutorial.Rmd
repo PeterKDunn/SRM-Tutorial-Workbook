@@ -445,11 +445,11 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 ### **(Optional)**  Paired $t$-test {#JumpingInference}
 
 @hebert2023effect recorded double-legged jumping distance for\ $80$ healthy people, when they wore shoes and were barefoot.
-The data are too large to show here, but the use the jamovi output (Fig.\ \@ref(fig:JumpingDatajamovi)) to answer the following questions.
+The data are too large to show here, but use the jamovi output (Fig.\ \@ref(fig:JumpingDatajamovi)) to answer the following questions.
 
 1. What do the differences *mean* (as given in the output)?
 2. Create a numerical summary table for the data.
-3. Determine $95$% CI for the difference in height of the two jumps.
+3. Determine $95$%\ CI for the difference in height of the two jumps.
 4. Conduct a hypothesis test to determine if a mean difference exists in the population.
 
 
@@ -464,15 +464,18 @@ knitr::include_graphics("SoftwareImages/JumpingOutput.png")
 ### **(Optional)**  Two-sample $t$-test {#ReactionTimeInference}
 
 @data:Strayer2001:phones examined the reaction times, while driving, for students from the University of Utah [@agresti2007statistics].
-In one study, students were randomly allocated to one of two groups: one group *used* a mobile phone while driving in a driving simulator, and one group *did not use* a mobile phone while driving in a driving simulator.
-The reaction time for each student was measured.
+In one study, students were randomly allocated to one of two groups: 
 
+* one group *used* a mobile phone while driving in a driving simulator; and 
+* one group *did not use* a mobile phone while driving in a driving simulator.
+
+The reaction time for each student was measured.
 The data are shown below.
 Use the information in Table\ \@ref(tab:PhoneSummary) to answer this RQ:
 
-> For students, what is the difference between the mean reaction time while driving when using a mobile phone and when *not* using a mobile phone?
+> For students, is there a  difference between the mean reaction time while driving when using a mobile phone and when *not* using a mobile phone?
 
-Be sure to include an approximate $95$% CI as well as the hypothesis test results.
+Be sure to include an approximate $95$%\ CI as well as the hypothesis test results.
 
 
 ```{r PhoneDataTable, echo=FALSE}
@@ -581,6 +584,7 @@ opts <- options(knitr.kable.NA = "")
 if( knitr::is_latex_output() ) {
   knitr::kable( pad( Phone.DataSummary,
                      decDigits = c(2, 0, 2, 3),
+                     targetLength = c(6, 2, 5, 6),
                      surroundMaths = TRUE),
                 format = "latex",
                 align = "c",
@@ -593,6 +597,7 @@ if( knitr::is_latex_output() ) {
 } else {
   knitr::kable( pad( Phone.DataSummary,
                      decDigits = c(2, 0, 2, 3),
+                     targetLength = c(6, 2, 5, 6),
                      surroundMaths = TRUE),
                 format = "html",
                 align = "c",

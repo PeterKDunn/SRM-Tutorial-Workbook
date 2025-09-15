@@ -730,11 +730,11 @@ For *external validity*, the sample must be a random sample of Swedish programme
    $H_0$: The mean diameter is $12$ inches; or $\mu = 12$.  
    $H_1$: The mean diameter is not $12$ inches; or $\mu \ne 12$
 1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
-1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.02205$.
-1. $t = (11.486-12)/0.02205 = -23.3$.
+1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.022092$.
+1. $t = (11.486-12)/0.022092 = -23.3$.
 1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
    (Two-tailed $P<0.001$ from the table or from software.)
-1. Very strong evidence exists in the sample ($t = -23.3$; $\text{df} = 124$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
+1. Very strong evidence exists in the sample ($t = -23.3$$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
    $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
 1. Since $n$ is much larger than $25$, we do not require that the population has a normal distribution, just that the population is not grossly non-normal; the sample means will still have an approximate normal distribution.
 1. *Very* unlikely!
@@ -836,13 +836,38 @@ Answers implied by H5P.
 11. $t = (284.73 - 0)/31.08 = 9.16$, as per output.
 12. The evidence contradicts $H_0$.
     Very strong evidence exists in the sample ($t = 9.161$ for two independent samples; $\text{df} = 154.94$; one-tailed $P < 0.0005$) that the population mean lifetime of rats on a restricted diet (mean lifetime: $968.75$\ days; std. dev.: $284.6$\ days) is greater than rats on a free-eating diet ($684.01$\ days; $134.1$) ($95$%\ CI for the difference from $223.3$ to\ $346.1$\ days).
-13. The the *sample means* have a normal distribution.
+13. The *sample means* have a normal distribution.
     Since both sample sizes are greater than\ $25$, this is true.
     The figure suggests not very severe non-normality.
 14. Rats from the same litter are likely to be similar to each other.
    The litter would probably be the unit of analysis then, not the individual rat.
 
 
+
+### Answers for Sect.\ \@ref(JumpingInference) {.unlisted .unnumbered}
+
+$H_0$: $\mu_d = 0$ and $H_1$: $\mu_d\ne 0$, where $\mu_d$ is the mean difference (shoes minus barefoot, from the second table).
+$t = -2.231$; $P = 0.029$.
+Moderate evidence of a mean difference (approx. $95$%\ CI: $0.066$ to\ $1.206\cms$ greater barefoot).
+
+```{r eval=FALSE, echo=FALSE}
+data(Jumping)
+with(Jumping, 
+     t.test(Shoes - Barefoot))
+```
+
+
+### Answers for Sect.\ \@ref(ReactionTimeInference) {.unlisted .unnumbered}
+
+$H_0$: $\mu_P = \mu_N$ and $H_1$: $\mu_P\ne \mu_N$, where $\mu_P$ is the mean reaction time *with* a phone and $\mu_N$ is the mean reaction time *with no phone*.
+Using summary table: $t = (51.59 - 0)/19.612 = 2.63$, so $P$-value will be smaller than $0.05$ (based on $68$--$95$--$99.7$ rule).
+Strong evidence of a difference between the mean reaction times; approx. $95$%\ CI: $12.37$ to\ $90.81\secs$ slower (i.e., greater) with phone.
+
+```{r eval=FALSE, echo=FALSE}
+data(ReactionTime)
+with(ReactionTime,
+     t.test(Reaction ~ factor(Group) ) )
+```
 
 
 
