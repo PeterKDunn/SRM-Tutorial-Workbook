@@ -81,19 +81,19 @@
 {\begin{kframe}}
 {\end{kframe}}
 
-\ifxetex
-  \usepackage{letltxmacro}
-  \setlength{\XeTeXLinkMargin}{1pt}
-  \LetLtxMacro\SavedIncludeGraphics\includegraphics
-  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
-    \IncludeGraphicsAux{#1}%
-  }%
-  \newcommand*{\IncludeGraphicsAux}[2]{%
-    \XeTeXLinkBox{%
-      \SavedIncludeGraphics#1{#2}%
-    }%
-  }%
-\fi
+%\ifxetex
+%  \usepackage{letltxmacro}
+%  \setlength{\XeTeXLinkMargin}{1pt}
+%  \LetLtxMacro\SavedIncludeGraphics\includegraphics
+%  \def\includegraphics#1#{% #1 catches optional stuff (star/opt. arg.)
+%    \IncludeGraphicsAux{#1}%
+%  }%
+%  \newcommand*{\IncludeGraphicsAux}[2]{%
+%    \XeTeXLinkBox{%
+%      \SavedIncludeGraphics#1{#2}%
+%    }%
+%  }%
+%\fi
 
 
 % Default figure width

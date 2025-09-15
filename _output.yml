@@ -38,6 +38,7 @@ bookdown::gitbook:
       all: ~
   md_extensions: -smart
 bookdown::pdf_book:
+  latex_engine: xelatex
 #  extra_dependencies: animate
   always_allow_html: no
   link-citations: no

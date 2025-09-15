@@ -17,6 +17,7 @@ library("readr") # For Cafe
 # set global chunk options
 options(formatR.arrow = TRUE,
         width = 90)
+options(knitr.kable.NA = '') 
 
 # But change to colour on cover page:
 reddishTransparent <- rgb(179/255, 145/255, 145/255,
@@ -37,3 +38,4 @@ foldLaTeXText <- "The answer is given in the online book."
 knitr::opts_chunk$set(fig.pos = "hbtp")   # Place tables HERE and so on
 
 source("R/surroundMaths.R")
+source("R/prepareSideBySideTable.R")
