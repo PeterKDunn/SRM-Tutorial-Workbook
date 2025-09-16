@@ -13,6 +13,8 @@ link-citations: yes
 documentclass: krantz
 classoption: krantz2
 site: bookdown::bookdown_site
+github-repo: PeterKDunn/SRM-Tutorial-Workbook
+graphics: yes
 links-to-footnotes: false
 colorlinks: yes
 #lot: no

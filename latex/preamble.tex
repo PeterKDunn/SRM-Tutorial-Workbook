@@ -1,12 +1,23 @@
 
+% NOTE:  clashes with  ntheorem  package... if I want top use that. I tried to use if to put lemma in shaded backgrounds... without luck. So I just put this code back.
+% Need to be before \usepackage{newtxtext,newtxmath} to avoid clash with openbox
+%\usepackage{amsthm}
+%\makeatletter
+%\def\thm@space@setup{%
+%  \thm@preskip=8pt plus 2pt minus 4pt
+%  \thm@postskip=\thm@preskip
+%}
+
+
 %%
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{tcolorbox} % Provides  \newtcolorbox
 \usepackage[bf,singlelinecheck=off]{caption}
-%\usepackage{animate} %%% SEE: https://stackoverflow.com/questions/30476119/plot-animation-in-knitr-rmarkdown: PDF animations
-\usepackage{times,pifont} % Nice fonts
+\usepackage{pifont} % pifont needed for \ding
+\let\arrowvert\relax% Need this to avoid a conflict.. from the amssymb files loaded by krantz
+\usepackage{newtxtext,newtxmath} % Nice fonts
 \usepackage{fancyhdr}
 \usepackage{tabularx} % For column specifications, using the kable_styling function  column_spec()
 \usepackage{tabu} % For column specifications, using the kable_styling function  column_spec()
@@ -17,9 +28,7 @@
 %\usepackage{caption} % Reformat captions
 \usepackage[font={small,it}]{caption}
 \usepackage{multirow}
-
-% For sometimes stacking things on top of each other (used in table, in the selecting-a-test chapter)
-\usepackage{stackengine} 
+\usepackage{stackengine} % For sometimes stacking things on top of each other (used in table, in the selecting-a-test chapter)
 \renewcommand\stacktype{L}
 \def\stackalignment{l}
 
@@ -444,23 +453,15 @@
 \makeindex
 
 \usepackage{hyperref}
-\hypersetup{
-    breaklinks = true,     % Allows line breaking of URLs
-    colorlinks = true,     % Colors hyperlinks instead of boxes
-    linkcolor = blue,      % Color for internal links
-    citecolor = blue,      % Color for citations
-    urlcolor = blue        % Color for URLs
-}
+%\hypersetup{
+%    breaklinks = true,     % Allows line breaking of URLs
+%    colorlinks = true,     % Colors hyperlinks instead of boxes
+%    linkcolor = blue,      % Color for internal links
+%    citecolor = blue,      % Color for citations
+%    urlcolor = blue        % Color for URLs
+%}
 \urlstyle{tt}
 
-
-% NOTE:  clashes with  ntheorem  package... if I want top use that. I tried to use if to put lemma in shaded backgrounds... without luck. So I just put this code back.
-\usepackage{amsthm}
-\makeatletter
-\def\thm@space@setup{%
-  \thm@preskip=8pt plus 2pt minus 4pt
-  \thm@postskip=\thm@preskip
-}
 
 
 \makeatother
