@@ -1,5 +1,6 @@
 output_dir: _book
 new_session: yes
+repo: https://github.com/PeterKDunn/SRM-Tutorial-Workbook
 before_chapter_script:
 - R/setup.R
 - R/NormalDistributions.R
