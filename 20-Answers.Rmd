@@ -997,9 +997,9 @@ Some answers embedded.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
    See Table\ \@ref(tab:ArtLimbSummaryANS).
 4. The CI for the OR is from $1.198$ to $6.411$.
-5. Chi-squared: $5.836$; like $z = \sqrt{5.836/1} = 2.42$: large; $P$ about\ $0.016$.  
+5. Chi-squared: $5.84$; like $z = \sqrt{5.84/1} = 2.42$: large; $P$ about\ $0.016$.  
 
-   The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.836$; $\text{df} = 1$; $P = 0.016$; OR: $2.771$ and $95$% CI from $1.198$ to\ $6.411$).
+   The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.84$; $\text{df} = 1$; $P = 0.016$; OR: $2.771$ and $95$% CI from $1.198$ to\ $6.411$).
 
 
 
