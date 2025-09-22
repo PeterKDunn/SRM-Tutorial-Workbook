@@ -363,7 +363,7 @@ if( knitr::is_html_output() ) {
 <!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458372&sec_digit=1721642515&edit_code=1217450775 -->
 
 
-## Tests for ORs {#TestsForORs}
+## CIs and tests for ORs {#TestsForORs}
 
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
@@ -525,7 +525,7 @@ if( knitr::is_latex_output() ) {
   row_spec(0, 
            bold = TRUE) %>% # Columns headings in bold
   add_header_above( c( " " = 1, 
-                       "Percentage alive" = 1, 
+                       "Proportion alive" = 1, 
                        "Odds of being alive" = 1, "Sample" = 1), 
                     bold = TRUE, 
                     line = FALSE,
@@ -550,28 +550,28 @@ if( knitr::is_html_output() ) {
                                           answer = 40 )
   
   ArtLimbSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.1, 
+                                          tol = 0.002, 
                                           width = 6,
-                                          answer = round(49 / 65 * 100, 1) )
+                                          answer = round(49 / 65, 3) )
   ArtLimbSumm[2, 1] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.1, 
+                                          tol = 0.002, 
                                           width = 6, 
-                                          answer = round(21 / 40 * 100, 1) )
+                                          answer = round(21 / 40 , 3) )
 
   ArtLimbSumm[1, 2] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.1, 
+                                          tol = 0.001, 
                                           width = 6, 
-                                          answer = round(49 / 16, 2) )
+                                          answer = round(49 / 16, 3) )
   ArtLimbSumm[2, 2] <- webexercises::fitb(num = TRUE, 
-                                          tol = 0.1, 
+                                          tol = 0.001, 
                                           width = 6, 
-                                          answer = round(21 / 19, 2) )
+                                          answer = round(21 / 19, 3) )
 
-  ArtLimbSumm[3, 1] <- paste("Diff in percentages:",
+  ArtLimbSumm[3, 1] <- paste("Diff in proportions:",
                              webexercises::fitb(num = TRUE, 
-                                          tol = 0.005, 
+                                          tol = 0.002, 
                                           width = 6, 
-                                          answer = 22.9 ) )
+                                          answer = 0.229 ) )
   ArtLimbSumm[3, 2] <- paste("OR: ",
                              webexercises::fitb(num = TRUE, 
                                           tol = 0.005, 
@@ -587,7 +587,7 @@ if( knitr::is_html_output() ) {
         caption = "Five-year mortality and use of an artificial limb: numerical summary.",
         booktabs = TRUE) %>%
   add_header_above( c( " " = 1, 
-                       "Percentage alive" = 1, 
+                       "Proportion alive" = 1, 
                        "Odds of being alive" = 1, "Sample" = 1), 
                     bold = TRUE, 
                     line = FALSE,

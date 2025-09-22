@@ -979,7 +979,7 @@ if( knitr::is_html_output() ) {
         align = c("r", "r", "r"),
         escape = FALSE,
         longtable = FALSE,
-        caption = "Nunmerical summary table for maturation data.",
+        caption = "Numerical summary table for maturation data.",
         booktabs = TRUE)
 }
 
@@ -996,10 +996,10 @@ Some answers embedded.
    Not using artificial limb: $21/19 = 1.105263$.
    The OR is $3.0625/1.105263 = 2.771$; that is, the odds of being alive after five years is almost three times higher for those using an artificial limb compared to those who do not.
    See Table\ \@ref(tab:ArtLimbSummaryANS).
-4. The CI for the OR is from $1.198$ to $6.411$.
-5. Chi-squared: $5.84$; like $z = \sqrt{5.84/1} = 2.42$: large; $P$ about\ $0.016$.  
+4. The CI for the OR is from $1.20$ to $6.41$.
+5. Chi-squared: $5.84$; like $z = \sqrt{5.84} = 2.42$: large; $P$ about\ $0.016$.  
 
-   The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.84$; $\text{df} = 1$; $P = 0.016$; OR: $2.771$ and $95$% CI from $1.198$ to\ $6.411$).
+   The *sample* provides evidence to suggest that the odds of dying within five years is not the same between having a wearing an artificial limb and the five-year mortality rate *in the population* ($\text{chi-square} = 5.84$; $P = 0.016$; OR: $2.77$ and $95$% CI from $1.20$ to\ $6.41$).
 
 
 
@@ -1060,7 +1060,7 @@ if( knitr::is_html_output() ) {
 
 ```{r echo=FALSE, ArtLimbSummaryANS}
 ArtLimbSumm <- array( dim = c(3, 3) )
-colnames(ArtLimbSumm) <- c("Percentage alive after 5 years", 
+colnames(ArtLimbSumm) <- c("Proportion alive after 5 years", 
                            "Odds alive after 5 years", 
                            "Sample size")
 rownames(ArtLimbSumm) <- c("Use artificial limb", 
@@ -1073,8 +1073,8 @@ rownames(ArtLimbSumm) <- c("Use artificial limb",
   ArtLimbSumm[1, 3] <- 65
   ArtLimbSumm[2, 3] <- 40
   
-  ArtLimbSumm[1, 1] <- round(49 / 65 * 100, 1)
-  ArtLimbSumm[2, 1] <- round(21 / 40 * 100, 1)
+  ArtLimbSumm[1, 1] <- round(49 / 65, 3)
+  ArtLimbSumm[2, 1] <- round(21 / 40, 3)
 
   ArtLimbSumm[1, 2] <- round(49 / 16, 2)
   ArtLimbSumm[2, 2] <- round(21 / 19, 2)
