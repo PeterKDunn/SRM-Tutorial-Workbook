@@ -1192,7 +1192,7 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 1. The null hypothesis is that the proportion (or the odds) of successful attempts is the same using EGTA and\ LM, in the two populations.
 2. Using symbols, based on using proportions: $H_0$: $p_{\text{EGTA}} = p_{\text{LM}}$; $H_1$:  $p_{\text{EGTA}} \ne p_{\text{LM}}$ (two-tailed).
 3. The sample presents insufficient evidence ($\text{chi-square}=2.63$; $\text{df}=1$; $P=0.104$) that the success rates between EGTA and LM are different in the population.
-4. Yes: All expected counts are greater than\ $5$ (no SPSS warning messages).
+4. Yes: All expected counts are greater than\ $5$ (using the textbook criteria (smallest row total, times smallest column total, divided by grand total).
 5. No evidence of a difference, so perhaps consider other issues such as cost, longevity, pain associated with insertion etc.
 
 
