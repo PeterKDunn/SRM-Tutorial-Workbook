@@ -52,7 +52,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 \greyboxlines{1}
 4.  What is the *outcome* in this RQ?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "The amount of salt",
+                      "The amount of salt in each meal",
         						   answer = "The average amount of salt", 
                       "The average amount of salt in Chinese and Indian take-away meals",
                       "London take-away restaurants") )} else {'\\null'}`
@@ -65,15 +65,24 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 \greyboxlines{1}
 6.  What is the *unit of analysis*?
 `r if( knitr::is_html_output() ) {  webexercises::longmcq( c(
-        						   "The restaurants", 
-                       "The meals",
+        						   "Each restaurant", 
+                       "Each meal",
                        answer = "We need more information about how the data were collected") )} else {'\\null'}`
 \greyboxlines{1}
 7.  What is the *unit of observation*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "The restaurants", 
-                      answer = "The meals",
+        						   "Each restaurant", 
+                      answer = "Each meal",
                       "It's hard to know: we need more information about how the data were collected") )} else {'\\null'}`
+\greyboxlines{1}
+8.  The article states (p. 518) that 
+
+> a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
+
+What *type* of definition is this?
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+        						   "Operational ", 
+                      answer = "Conceptual") )} else {'\\null'}`
 \greyboxlines{1}
 :::
 
@@ -90,6 +99,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. *We need more information.* 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
+1. Conceptual: it defines what a word or term means.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
