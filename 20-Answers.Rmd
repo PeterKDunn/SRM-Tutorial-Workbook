@@ -803,14 +803,15 @@ Answers implied by H5P.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
 11. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
 12. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
-13. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+13. Only *one sample of people* have been studied, so it is (as always) hard to be sure.
+14. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  
-14. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
-15. The differences have just been defined in the opposite directions.
+15. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+16. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-16. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
-17. The population of differences has a normal distribution, and/or $n > 25$ or so.
-18. Since $n < 25$, must assume the population of differences has a normal distribution.
+17. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
+18. The population of differences has a normal distribution, and/or $n > 25$ or so.
+19. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
    
 

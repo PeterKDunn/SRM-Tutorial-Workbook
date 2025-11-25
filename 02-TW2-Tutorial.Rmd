@@ -64,6 +64,14 @@ Consider this RQ  [@walters2018factors]:
                       "Systematic",
                       "Stratified") )} else {'\\null'}`
 \greyboxlines{1}
+5. Identify the best description of this sampling method:
+  The researchers stood outside a busy shopping centre, and surveyed every ninth person who entered.
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      answer = "Systematic", 
+                      "Simple random sample",
+                      "Stratified") )} else {'\\null'}`
+\greyboxlines{1}
+
 :::
 
 
@@ -75,15 +83,6 @@ Consider this RQ  [@walters2018factors]:
 1. There are multiple stages of *random* selection, so this is multi-stage.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
-
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265008&sec_digit=1374138508&embeded_digit=24312211' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-
 
 
 

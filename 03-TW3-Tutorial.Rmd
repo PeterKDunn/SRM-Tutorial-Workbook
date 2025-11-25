@@ -212,7 +212,6 @@ if( knitr::is_html_output() ) {
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.  
-
 \  
   
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
@@ -456,7 +455,7 @@ if( knitr::is_html_output() ) {
       format = "html",
       escape = FALSE,
       booktab = TRUE,
-      caption = "The times taken for batteries to go from $1.5\\vs$ to $1.0\\vs, in hours)") %>%
+      caption = "The times taken for batteries to go from $1.5\\vs$ to $1.0\\vs$, in hours)") %>%
   column_spec(1, bold = TRUE) %>%
   kable_styling(full_width = FALSE)
 }

@@ -75,10 +75,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
                       answer = "Each meal",
                       "It's hard to know: we need more information about how the data were collected") )} else {'\\null'}`
 \greyboxlines{1}
-8.  The article states (p. 518) that 
-
-> a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
-
+8.  The article states (p. 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
 What *type* of definition is this?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						   "Operational ", 
@@ -102,15 +99,6 @@ What *type* of definition is this?
 1. Conceptual: it defines what a word or term means.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
-
-
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265006&sec_digit=609909989&embeded_digit=1998328052' style='width:100%; height:400px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
 
 
 

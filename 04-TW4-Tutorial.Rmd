@@ -151,12 +151,6 @@ if( knitr::is_html_output() ) {
 ```
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265016&sec_digit=2096733296&embeded_digit=1512827955' style='width:100%; height:450px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>           
-`r if (knitr::is_latex_output()) '-->'`                      
-
-
 ## Percentages and odds {#PercentOddsStroke}
 
 In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data in Table\ \@ref(tab:Stroke) were collected.
@@ -493,7 +487,8 @@ if( knitr::is_html_output() ) {
 8. Create a table of **row** percentages.
    What do these tell you?
 \greyboxlines{4}
-9. Which one of these tables is probably more sensible, and why?
+9. Which one of these tables is probably more sensible?
+   Why?
 \greyboxlines{2}
 
 
@@ -633,13 +628,6 @@ legend("top",
                   "Athlete", 
                   "Non-athlete") )
 ```
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458368&sec_digit=866310140&embeded_digit=144702422' style='width:100%; height:450px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
 
 ## Working with odds {#WorkingWithOdds}
 

@@ -41,6 +41,10 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 1. True or false: Hypotheses should be constructed without any knowledge of the data. 
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
+1. True or false:
+   The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( TRUE)}`
 :::
 
 
@@ -52,16 +56,12 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
    In loose terms, a hypothesis test quantifies how much evidence there is in the *sample* to support the alternative hypothesis about the *population*.
 1. **TRUE**. Hypothesis are always about the *unknown* population parameters.
 1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
+1. **TRUE**.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
 
 
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265028&sec_digit=1250147724&embeded_digit=1845584897' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
 
 
 
@@ -185,14 +185,4 @@ Assuming the tests are statistically valid, what is the approximate $P$-value fo
 
 How would your answers change if these $t$-scores came from a *one-tailed* test?
 \greyboxlines{2}
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458374&sec_digit=1695234792&embeded_digit=1183575621' style='width:100%; height:450px; overflow: auto; background: #B3919133;' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-<!-- Admin link: -->
-<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458374&sec_digit=1695234792&edit_code=97870029 -->
-
-
 

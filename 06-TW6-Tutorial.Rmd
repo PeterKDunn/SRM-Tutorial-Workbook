@@ -73,6 +73,10 @@ webexercises::mcq( c("There has been an error",
 answer = "The mass is lower than average",
 "The mass is a negative number, which is impossible") )} else {'\\null'}`
 \greyboxlines{2}
+1. **True** or **false**:
+   A standard error measures the size of the difference between the **sample** proportion and the **population** proportion.
+`r if( knitr::is_html_output() ) {
+webexercises::torf( FALSE) }`
 :::
 
 
@@ -82,12 +86,6 @@ answer = "The mass is lower than average",
 1. $z = (26.0 -13)/1.3 = 10$.
 1. A *negative* $z$-score means that the value is *less than* the **mean**.
 `r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
-
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265018&sec_digit=355513952&embeded_digit=1285939919' style='width:100%; height:375px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
 `r if (knitr::is_latex_output()) '-->'`
 
 

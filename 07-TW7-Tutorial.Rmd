@@ -39,6 +39,9 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 1. True or false: CIs answers estimation-type RQs.
 `r if( knitr::is_html_output() ) {
    webexercises::torf( TRUE)}`
+1. True or false: A 95% confidence interval will contain approximately 95% of the observations.
+`r if( knitr::is_html_output() ) {
+   webexercises::torf( FALSE)}`
 :::
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -51,15 +54,13 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 1. **FALSE**.
    A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
 1. **TRUE**.
+1. **FALSE**. 
+   A CI is an interval that is likely to contain the unknown value of the *parameter*, not a certain percentage of the observations.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=1265022&sec_digit=1542537483&embeded_digit=1153605398' style='width:100%; height:350px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
 
 
 ## Concepts {#ConceptsMatches}
@@ -86,7 +87,8 @@ There was $44$\ matches.
 'They lie. There's only $44$\ matches in this box.'
 
 
-1. What is Jake's misunderstanding? \tightlist
+1. Identify the two concepts that Jake is confusing. 
+   How would you clarify Jake's confusion?\tightlist
 \greyboxlines{2}
 2. Then, they counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
@@ -98,7 +100,8 @@ There was $44$\ matches.
    'The claim is $45$\ matches per box on average, but the mean really is $44.9$!
    They're liars!  Liar, liar, pants on...'  
    
-   What is Jake's misunderstanding?
+   Identify the two concepts that Jake is confusing. 
+   How would you clarify Jake's confusion?
 \greyboxlines{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
 \greyboxlines{2}

@@ -72,16 +72,6 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 \greyboxlines{3}
 
-`r if (knitr::is_latex_output()) '<!--'`
-<iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458355&sec_digit=1244149825&embeded_digit=426794483' style='width:100%; height:450px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-`r if (knitr::is_latex_output()) '-->'`
-
-<!-- Admin link: -->
-<!-- https://www.ferendum.com/en/admin.php?pregunta_ID=458355&sec_digit=1244149825&edit_code=1611489288 -->
-
-
-
 2. Describe the histogram.
 \greyboxlines{2}
 3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig.\ \@ref(fig:JellyfishBoxplots).
