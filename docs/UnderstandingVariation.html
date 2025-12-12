@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3.3 Understanding centre and variation | Science Research Methods: Tutorials</title>
+  <meta name="description" content="TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)" />
+  <meta name="generator" content="bookdown 0.45 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3.3 Understanding centre and variation | Science Research Methods: Tutorials" />
+  <meta property="og:type" content="book" />
+  <meta property="og:image" content="/images/cover-Tutorial.png" />
+  <meta property="og:description" content="TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)" />
+  <meta name="github-repo" content="PeterKDunn/SRM-Tutorial-Workbook" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3.3 Understanding centre and variation | Science Research Methods: Tutorials" />
+  
+  <meta name="twitter:description" content="TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)" />
+  <meta name="twitter:image" content="/images/cover-Tutorial.png" />
+
+<meta name="author" content="Peter K. Dunn" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="StatsMode.html"/>
+<link rel="next" href="UnderstandingHistograms.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="libs/pagedtable-1.1/js/pagedtable.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.34.0/datatables.js"></script>
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.2.2/css/crosstalk.min.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.2.2/js/crosstalk.min.js"></script>
+<link href="libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="libs/selectize-0.12.0/selectize.min.js"></script>
+<link rel="shortcut icon" href="icons/iconmonstr-ruler-26-240-favicon2.png" />
+<script type="text/javascript">
+$(document).ready(function() {
+  $folds = $(".fold");
+  $folds.wrapInner("<div class=\"fold-blck\">"); // wrap a div container around content
+  $folds.prepend("<button class=\"fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSteelBlue\">Answer: Reveal</button>");  // add a button
+  $(".fold-blck").toggle();  // fold all blocks
+  $(".fold-btn").on("click", function() {  // add onClick event
+    $(this).text($(this).text() === "Answer: Hide" ? "Answer: Reveal" : "Answer: Hide");  // if the text equals "Fold", change it to "Unfold"or else to "Fold" 
+    $(this).next(".fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
+  })
+});
+</script>
+
+<script src="https://h5p.org/sites/all/modules/h5p/library/js/h5p-resizer.js" charset="UTF-8"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2XVTLVFP0R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2XVTLVFP0R');
+</script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $examplefolds = $(".exampleExtra");
+  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
+  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
+  $(".example-fold-blck").toggle();  // fold all blocks
+  $(".example-fold-btn").on("click", function() {  // add onClick event
+    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
+    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
+  })
+});
+
+</script>
+
+
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<link rel="stylesheet" href="css/columns.css" type="text/css" />
+<link rel="stylesheet" href="include/webex.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./index.html">SCI110 tutorials</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Preface</a>
+<ul>
+<li class="chapter" data-level="" data-path="answers-to-questions.html"><a href="answers-to-questions.html"><i class="fa fa-check"></i>Answers to questions</a></li>
+<li class="chapter" data-level="" data-path="statistical-software.html"><a href="statistical-software.html"><i class="fa fa-check"></i>Statistical software</a></li>
+<li class="chapter" data-level="" data-path="data-sets.html"><a href="data-sets.html"><i class="fa fa-check"></i>Data sets</a></li>
+<li class="chapter" data-level="" data-path="call-outs-used-in-this-book.html"><a href="call-outs-used-in-this-book.html"><i class="fa fa-check"></i>Call-outs used in this book</a></li>
+<li class="chapter" data-level="" data-path="how-this-book-was-made.html"><a href="how-this-book-was-made.html"><i class="fa fa-check"></i>How this book was made</a></li>
+<li class="chapter" data-level="" data-path="learning-outcomes.html"><a href="learning-outcomes.html"><i class="fa fa-check"></i>Learning outcomes</a></li>
+<li class="chapter" data-level="" data-path="how-to-cite-this-book.html"><a href="how-to-cite-this-book.html"><i class="fa fa-check"></i>How to cite this book</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="Lecture1.html"><a href="Lecture1.html"><i class="fa fa-check"></i><b>1</b> Teaching Week 1: tutorial</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="QuickRevision-Tutorial1.html"><a href="QuickRevision-Tutorial1.html"><i class="fa fa-check"></i><b>1.1</b> Quick revision</a></li>
+<li class="chapter" data-level="1.2" data-path="ResearchProcess.html"><a href="ResearchProcess.html"><i class="fa fa-check"></i><b>1.2</b> Research process</a></li>
+<li class="chapter" data-level="1.3" data-path="FormingRQs.html"><a href="FormingRQs.html"><i class="fa fa-check"></i><b>1.3</b> Forming RQs</a></li>
+<li class="chapter" data-level="1.4" data-path="UnderstandingTerminology1.html"><a href="UnderstandingTerminology1.html"><i class="fa fa-check"></i><b>1.4</b> Terminology</a></li>
+<li class="chapter" data-level="1.5" data-path="UnderstandingTerminology2.html"><a href="UnderstandingTerminology2.html"><i class="fa fa-check"></i><b>1.5</b> Terminology</a></li>
+<li class="chapter" data-level="1.6" data-path="CreateRQs.html"><a href="CreateRQs.html"><i class="fa fa-check"></i><b>1.6</b> Creating research questions and studies</a></li>
+<li class="chapter" data-level="1.7" data-path="Units.html"><a href="Units.html"><i class="fa fa-check"></i><b>1.7</b> Identifying units of analysis and units of observation</a></li>
+<li class="chapter" data-level="1.8" data-path="OptionalTW1.html"><a href="OptionalTW1.html"><i class="fa fa-check"></i><b>1.8</b> <strong>Optional questions</strong></a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="OptionalTW1.html"><a href="OptionalTW1.html#TypesOfStudies"><i class="fa fa-check"></i><b>1.8.1</b> <strong>(Optional)</strong> Identifying different types of studies</a></li>
+<li class="chapter" data-level="1.8.2" data-path="OptionalTW1.html"><a href="OptionalTW1.html#TerminologyLect1"><i class="fa fa-check"></i><b>1.8.2</b> <strong>(Optional)</strong> Terminology</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="Lecture2.html"><a href="Lecture2.html"><i class="fa fa-check"></i><b>2</b> Teaching Week 2: tutorial</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="QuickRevision-Tutorial2.html"><a href="QuickRevision-Tutorial2.html"><i class="fa fa-check"></i><b>2.1</b> Quick revision</a></li>
+<li class="chapter" data-level="2.2" data-path="StudyDesign.html"><a href="StudyDesign.html"><i class="fa fa-check"></i><b>2.2</b> Study design</a></li>
+<li class="chapter" data-level="2.3" data-path="LanguageReport.html"><a href="LanguageReport.html"><i class="fa fa-check"></i><b>2.3</b> Language</a></li>
+<li class="chapter" data-level="2.4" data-path="AssessReport.html"><a href="AssessReport.html"><i class="fa fa-check"></i><b>2.4</b> Assessing reports</a></li>
+<li class="chapter" data-level="2.5" data-path="PlanStudy2.html"><a href="PlanStudy2.html"><i class="fa fa-check"></i><b>2.5</b> Planning a research study</a></li>
+<li class="chapter" data-level="2.6" data-path="StudyFeatures.html"><a href="StudyFeatures.html"><i class="fa fa-check"></i><b>2.6</b> Study design features</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="Lecture3.html"><a href="Lecture3.html"><i class="fa fa-check"></i><b>3</b> Teaching Week 3: tutorial</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="QuickRevision-Tutorial3.html"><a href="QuickRevision-Tutorial3.html"><i class="fa fa-check"></i><b>3.1</b> Quick revision</a></li>
+<li class="chapter" data-level="3.2" data-path="StatsMode.html"><a href="StatsMode.html"><i class="fa fa-check"></i><b>3.2</b> Using the calculator statistics mode for a small data set</a></li>
+<li class="chapter" data-level="3.3" data-path="UnderstandingVariation.html"><a href="UnderstandingVariation.html"><i class="fa fa-check"></i><b>3.3</b> Understanding centre and variation</a></li>
+<li class="chapter" data-level="3.4" data-path="UnderstandingHistograms.html"><a href="UnderstandingHistograms.html"><i class="fa fa-check"></i><b>3.4</b> Understanding histograms</a></li>
+<li class="chapter" data-level="3.5" data-path="PlanStudy3.html"><a href="PlanStudy3.html"><i class="fa fa-check"></i><b>3.5</b> Collecting data</a></li>
+<li class="chapter" data-level="3.6" data-path="InterpretingGraphs.html"><a href="InterpretingGraphs.html"><i class="fa fa-check"></i><b>3.6</b> Interpreting graphs</a></li>
+<li class="chapter" data-level="3.7" data-path="Chapter3Drills.html"><a href="Chapter3Drills.html"><i class="fa fa-check"></i><b>3.7</b> <strong>Drills</strong>: computational exercises</a></li>
+<li class="chapter" data-level="3.8" data-path="OptionalTW3.html"><a href="OptionalTW3.html"><i class="fa fa-check"></i><b>3.8</b> <strong>Optional questions</strong></a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="OptionalTW3.html"><a href="OptionalTW3.html#CalculatorBatteries"><i class="fa fa-check"></i><b>3.8.1</b> <strong>(Optional)</strong> Using the calculator Statistics Mode</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="Lecture4.html"><a href="Lecture4.html"><i class="fa fa-check"></i><b>4</b> Teaching Week 4: tutorial</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="QuickRevision-Tutorial4.html"><a href="QuickRevision-Tutorial4.html"><i class="fa fa-check"></i><b>4.1</b> Quick revision</a></li>
+<li class="chapter" data-level="4.2" data-path="PercentOddsStroke.html"><a href="PercentOddsStroke.html"><i class="fa fa-check"></i><b>4.2</b> Percentages and odds</a></li>
+<li class="chapter" data-level="4.3" data-path="TwoWayTables.html"><a href="TwoWayTables.html"><i class="fa fa-check"></i><b>4.3</b> Two-way tables</a></li>
+<li class="chapter" data-level="4.4" data-path="WorkingWithOdds.html"><a href="WorkingWithOdds.html"><i class="fa fa-check"></i><b>4.4</b> Working with odds</a></li>
+<li class="chapter" data-level="4.5" data-path="Chapter4Drills.html"><a href="Chapter4Drills.html"><i class="fa fa-check"></i><b>4.5</b> <strong>Drills</strong>: Computational exercises</a></li>
+<li class="chapter" data-level="4.6" data-path="OptionalTW4.html"><a href="OptionalTW4.html"><i class="fa fa-check"></i><b>4.6</b> <strong>Optional questions</strong></a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="OptionalTW4.html"><a href="OptionalTW4.html#OddsRatioSMND"><i class="fa fa-check"></i><b>4.6.1</b> <strong>(Optional)</strong> Odds ratios</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="Lecture5.html"><a href="Lecture5.html"><i class="fa fa-check"></i><b>5</b> Teaching Week 5: tutorial</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="QuickRevision-Tutorial5.html"><a href="QuickRevision-Tutorial5.html"><i class="fa fa-check"></i><b>5.1</b> Quick revision</a></li>
+<li class="chapter" data-level="5.2" data-path="CritiqueStudentSummaries.html"><a href="CritiqueStudentSummaries.html"><i class="fa fa-check"></i><b>5.2</b> Critiquing students' numerical summaries</a></li>
+<li class="chapter" data-level="5.3" data-path="CritiqueStudentGraphs1.html"><a href="CritiqueStudentGraphs1.html"><i class="fa fa-check"></i><b>5.3</b> Critiquing students' graphs</a></li>
+<li class="chapter" data-level="5.4" data-path="UnderstandCorrelations.html"><a href="UnderstandCorrelations.html"><i class="fa fa-check"></i><b>5.4</b> Understanding correlations</a></li>
+<li class="chapter" data-level="5.5" data-path="PlanStudy4.html"><a href="PlanStudy4.html"><i class="fa fa-check"></i><b>5.5</b> Numerical summary for ruler-drop data</a></li>
+<li class="chapter" data-level="5.6" data-path="WhichSummaryToUse.html"><a href="WhichSummaryToUse.html"><i class="fa fa-check"></i><b>5.6</b> Which summary measures to use</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="Lecture6.html"><a href="Lecture6.html"><i class="fa fa-check"></i><b>6</b> Teaching Week 6: tutorial</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="QuickRevision-Tutorial6.html"><a href="QuickRevision-Tutorial6.html"><i class="fa fa-check"></i><b>6.1</b> Quick revision</a></li>
+<li class="chapter" data-level="6.2" data-path="NormalIQs.html"><a href="NormalIQs.html"><i class="fa fa-check"></i><b>6.2</b> Normal distributions and IQs</a></li>
+<li class="chapter" data-level="6.3" data-path="NormalHeights.html"><a href="NormalHeights.html"><i class="fa fa-check"></i><b>6.3</b> Normal distributions and heights</a></li>
+<li class="chapter" data-level="6.4" data-path="Probability2.html"><a href="Probability2.html"><i class="fa fa-check"></i><b>6.4</b> Probability</a></li>
+<li class="chapter" data-level="6.5" data-path="RandomCardDraws.html"><a href="RandomCardDraws.html"><i class="fa fa-check"></i><b>6.5</b> Random coin tosses</a></li>
+<li class="chapter" data-level="6.6" data-path="OptionalTW6.html"><a href="OptionalTW6.html"><i class="fa fa-check"></i><b>6.6</b> <strong>Optional questions</strong></a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="OptionalTW6.html"><a href="OptionalTW6.html#NormalSOI"><i class="fa fa-check"></i><b>6.6.1</b> <strong>(Optional)</strong> Working with normal distributions</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="Lecture7.html"><a href="Lecture7.html"><i class="fa fa-check"></i><b>7</b> Teaching Week 7: tutorial</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="QuickRevision-Tutorial7.html"><a href="QuickRevision-Tutorial7.html"><i class="fa fa-check"></i><b>7.1</b> Quick revision</a></li>
+<li class="chapter" data-level="7.2" data-path="ConceptsMatches.html"><a href="ConceptsMatches.html"><i class="fa fa-check"></i><b>7.2</b> Concepts</a></li>
+<li class="chapter" data-level="7.3" data-path="SEproportions.html"><a href="SEproportions.html"><i class="fa fa-check"></i><b>7.3</b> Standard error for a proportion</a></li>
+<li class="chapter" data-level="7.4" data-path="CIPropBVM.html"><a href="CIPropBVM.html"><i class="fa fa-check"></i><b>7.4</b> CIs for one proportion</a></li>
+<li class="chapter" data-level="7.5" data-path="CIPizzas.html"><a href="CIPizzas.html"><i class="fa fa-check"></i><b>7.5</b> CIs for one mean</a></li>
+<li class="chapter" data-level="7.6" data-path="Chapter6Drills.html"><a href="Chapter6Drills.html"><i class="fa fa-check"></i><b>7.6</b> <strong>Drills</strong>: Computational exercises</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="Lecture8.html"><a href="Lecture8.html"><i class="fa fa-check"></i><b>8</b> Teaching Week 8: tutorial</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="QuickRevision-Tutorial8.html"><a href="QuickRevision-Tutorial8.html"><i class="fa fa-check"></i><b>8.1</b> Quick revision</a></li>
+<li class="chapter" data-level="8.2" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.2</b> The decision-making process</a></li>
+<li class="chapter" data-level="8.3" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.3</b> Test for one proportion</a></li>
+<li class="chapter" data-level="8.4" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.4</b> Tests for one mean</a></li>
+<li class="chapter" data-level="8.5" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.5</b> <span class="math inline">\(P\)</span>-values</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="QuickRevision-Tutorial9.html"><a href="QuickRevision-Tutorial9.html"><i class="fa fa-check"></i><b>9.1</b> Quick revision</a></li>
+<li class="chapter" data-level="9.2" data-path="MatchRQHypothesis.html"><a href="MatchRQHypothesis.html"><i class="fa fa-check"></i><b>9.2</b> Matching RQs and hypotheses</a></li>
+<li class="chapter" data-level="9.3" data-path="CIImplant.html"><a href="CIImplant.html"><i class="fa fa-check"></i><b>9.3</b> CIs and tests for mean differences (paired data)</a></li>
+<li class="chapter" data-level="9.4" data-path="PlanStudy7.html"><a href="PlanStudy7.html"><i class="fa fa-check"></i><b>9.4</b> CI and test for the ruler-drop</a></li>
+<li class="chapter" data-level="9.5" data-path="CIRatLifetimes.html"><a href="CIRatLifetimes.html"><i class="fa fa-check"></i><b>9.5</b> CIs and test for difference between two sample means</a></li>
+<li class="chapter" data-level="9.6" data-path="OptionalTW9.html"><a href="OptionalTW9.html"><i class="fa fa-check"></i><b>9.6</b> <strong>Optional questions</strong></a>
+<ul>
+<li class="chapter" data-level="9.6.1" data-path="OptionalTW9.html"><a href="OptionalTW9.html#JumpingInference"><i class="fa fa-check"></i><b>9.6.1</b> <strong>(Optional)</strong> Paired <span class="math inline">\(t\)</span>-test</a></li>
+<li class="chapter" data-level="9.6.2" data-path="OptionalTW9.html"><a href="OptionalTW9.html#ReactionTimeInference"><i class="fa fa-check"></i><b>9.6.2</b> <strong>(Optional)</strong> Two-sample <span class="math inline">\(t\)</span>-test</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="Lecture10.html"><a href="Lecture10.html"><i class="fa fa-check"></i><b>10</b> Teaching Week 10: tutorial</a>
+<ul>
+<li class="chapter" data-level="10.1" data-path="QuickRevision-Tutorial10.html"><a href="QuickRevision-Tutorial10.html"><i class="fa fa-check"></i><b>10.1</b> Quick revision</a></li>
+<li class="chapter" data-level="10.2" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.2</b> Consistency</a></li>
+<li class="chapter" data-level="10.3" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.3</b> CI and test for odds ratios</a></li>
+<li class="chapter" data-level="10.4" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.4</b> CIs and tests for ORs</a></li>
+<li class="chapter" data-level="10.5" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.5</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.6</b> Sample size calculations</a></li>
+</ul></li>
+<li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="CIConcrete.html"><a href="CIConcrete.html"><i class="fa fa-check"></i><b>11.1</b> Confidence intervals</a></li>
+<li class="chapter" data-level="11.2" data-path="CritiqueReports1.html"><a href="CritiqueReports1.html"><i class="fa fa-check"></i><b>11.2</b> Critiquing past students' reports 1</a></li>
+<li class="chapter" data-level="11.3" data-path="CritiqueReports2.html"><a href="CritiqueReports2.html"><i class="fa fa-check"></i><b>11.3</b> Critiquing past students' reports 2</a></li>
+<li class="chapter" data-level="11.4" data-path="ORAirways.html"><a href="ORAirways.html"><i class="fa fa-check"></i><b>11.4</b> Tests for ORs</a></li>
+<li class="chapter" data-level="11.5" data-path="CritiqueReports3.html"><a href="CritiqueReports3.html"><i class="fa fa-check"></i><b>11.5</b> Critiquing past students' reports 3</a></li>
+<li class="chapter" data-level="11.6" data-path="CritiqueReports4.html"><a href="CritiqueReports4.html"><i class="fa fa-check"></i><b>11.6</b> Critiquing past students' reports 4</a></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="Lecture12.html"><a href="Lecture12.html"><i class="fa fa-check"></i><b>12</b> Teaching Week 12: Tutorial</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="QuickRevision-Tutorial11.html"><a href="QuickRevision-Tutorial11.html"><i class="fa fa-check"></i><b>12.1</b> Quick revision</a></li>
+<li class="chapter" data-level="12.2" data-path="UnderstandCorrelationsRegressions.html"><a href="UnderstandCorrelationsRegressions.html"><i class="fa fa-check"></i><b>12.2</b> Understanding correlations and regression</a></li>
+<li class="chapter" data-level="12.3" data-path="InterpretRegressions.html"><a href="InterpretRegressions.html"><i class="fa fa-check"></i><b>12.3</b> Interpreting regressions</a></li>
+<li class="chapter" data-level="12.4" data-path="RegressionCorrelation.html"><a href="RegressionCorrelation.html"><i class="fa fa-check"></i><b>12.4</b> Regression and correlation</a></li>
+</ul></li>
+<li class="appendix"><span><b>Appendices</b></span></li>
+<li class="chapter" data-level="A" data-path="OptionalAnswers.html"><a href="OptionalAnswers.html"><i class="fa fa-check"></i><b>A</b> Answers for exercises</a>
+<ul>
+<li class="chapter" data-level="A.1" data-path="Lecture1Answers.html"><a href="Lecture1Answers.html"><i class="fa fa-check"></i><b>A.1</b> Answer: TW 1 tutorial</a></li>
+<li class="chapter" data-level="A.2" data-path="Lecture2Answers.html"><a href="Lecture2Answers.html"><i class="fa fa-check"></i><b>A.2</b> Answer: TW 2 tutorial</a></li>
+<li class="chapter" data-level="A.3" data-path="Lecture3Answers.html"><a href="Lecture3Answers.html"><i class="fa fa-check"></i><b>A.3</b> Answer: TW 3 tutorial</a></li>
+<li class="chapter" data-level="A.4" data-path="Lecture4Answers.html"><a href="Lecture4Answers.html"><i class="fa fa-check"></i><b>A.4</b> Answer: TW 4 tutorial</a></li>
+<li class="chapter" data-level="A.5" data-path="Lecture5Answers.html"><a href="Lecture5Answers.html"><i class="fa fa-check"></i><b>A.5</b> Answer: TW 5 tutorial</a></li>
+<li class="chapter" data-level="A.6" data-path="Lecture6Answers.html"><a href="Lecture6Answers.html"><i class="fa fa-check"></i><b>A.6</b> Answer: TW 6 tutorial</a></li>
+<li class="chapter" data-level="A.7" data-path="Lecture7Answers.html"><a href="Lecture7Answers.html"><i class="fa fa-check"></i><b>A.7</b> Answer: TW 7 tutorial</a></li>
+<li class="chapter" data-level="A.8" data-path="Lecture8Answers.html"><a href="Lecture8Answers.html"><i class="fa fa-check"></i><b>A.8</b> Answer: TW 8 tutorial</a></li>
+<li class="chapter" data-level="A.9" data-path="Lecture9Answers.html"><a href="Lecture9Answers.html"><i class="fa fa-check"></i><b>A.9</b> Answer: TW 9 tutorial</a></li>
+<li class="chapter" data-level="A.10" data-path="Lecture10Answers.html"><a href="Lecture10Answers.html"><i class="fa fa-check"></i><b>A.10</b> Answer: TW 10 tutorial</a></li>
+<li class="chapter" data-level="A.11" data-path="Lecture11Answers.html"><a href="Lecture11Answers.html"><i class="fa fa-check"></i><b>A.11</b> Answer: TW 11 tutorial</a></li>
+<li class="chapter" data-level="A.12" data-path="Lecture12Answers.html"><a href="Lecture12Answers.html"><i class="fa fa-check"></i><b>A.12</b> Answer: TW 12 tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="B" data-path="appendix-tables.html"><a href="appendix-tables.html"><i class="fa fa-check"></i><b>B</b> Appendix: Tables</a>
+<ul>
+<li class="chapter" data-level="B.1" data-path="ZTablesOnline.html"><a href="ZTablesOnline.html"><i class="fa fa-check"></i><b>B.1</b> When the <span class="math inline">\(z\)</span>-score is known, and the area is sought</a></li>
+<li class="chapter" data-level="B.2" data-path="ZTablesOnlineBackwards.html"><a href="ZTablesOnlineBackwards.html"><i class="fa fa-check"></i><b>B.2</b> When the area is known, and the <span class="math inline">\(z\)</span>-score is sought</a></li>
+<li class="chapter" data-level="B.3" data-path="AppendixRandomNumbers.html"><a href="AppendixRandomNumbers.html"><i class="fa fa-check"></i><b>B.3</b> Random numbers</a></li>
+</ul></li>
+<li class="chapter" data-level="C" data-path="StatisticsAndParameters.html"><a href="StatisticsAndParameters.html"><i class="fa fa-check"></i><b>C</b> Symbols, formulas, statistics and parameters</a>
+<ul>
+<li class="chapter" data-level="C.1" data-path="Symbols.html"><a href="Symbols.html"><i class="fa fa-check"></i><b>C.1</b> Symbols and standard errors</a></li>
+<li class="chapter" data-level="C.2" data-path="FormulasCI.html"><a href="FormulasCI.html"><i class="fa fa-check"></i><b>C.2</b> Confidence intervals</a></li>
+<li class="chapter" data-level="C.3" data-path="FormulasTest.html"><a href="FormulasTest.html"><i class="fa fa-check"></i><b>C.3</b> Hypothesis testing</a></li>
+<li class="chapter" data-level="C.4" data-path="FormulasSampleSize.html"><a href="FormulasSampleSize.html"><i class="fa fa-check"></i><b>C.4</b> Sample size estimation</a></li>
+<li class="chapter" data-level="C.5" data-path="FormulasOther.html"><a href="FormulasOther.html"><i class="fa fa-check"></i><b>C.5</b> Other formulas</a></li>
+<li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
+</ul></li>
+<li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
+<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Science Research Methods: Tutorials</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="UnderstandingVariation" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Understanding centre and variation<a href="UnderstandingVariation.html#UnderstandingVariation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<iframe src="https://usc.h5p.com/content/1290996647109217689/embed" width="1088" height="909" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *">
+</iframe>
+<script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+</div>
+<hr><div class="footer"><span style="color: gray; font-size:0.7em">Copyright &copy; Peter K. Dunn, 2025</span></div>
+<script>
+
+/* update total correct if #webex-total_correct exists */
+update_total_correct = function() {
+  console.log("webex: update total_correct");
+
+  var t = document.getElementsByClassName("webex-total_correct");
+  for (var i = 0; i < t.length; i++) {
+    p = t[i].parentElement;
+    var correct = p.getElementsByClassName("webex-correct").length;
+    var solvemes = p.getElementsByClassName("webex-solveme").length;
+    var radiogroups = p.getElementsByClassName("webex-radiogroup").length;
+    var selects = p.getElementsByClassName("webex-select").length;
+
+    t[i].innerHTML = correct + " of " + (solvemes + radiogroups + selects) + " correct";
+  }
+}
+
+/* webex-solution button toggling function */
+b_func = function() {
+  console.log("webex: toggle hide");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('open')) {
+    cl.remove("open");
+  } else {
+    cl.add("open");
+  }
+}
+
+/* check answers */
+check_func = function() {
+  console.log("webex: check answers");
+
+  var cl = this.parentElement.classList;
+  if (cl.contains('unchecked')) {
+    cl.remove("unchecked");
+    this.innerHTML = "Hide Answers";
+  } else {
+    cl.add("unchecked");
+    this.innerHTML = "Show Answers";
+  }
+}
+
+/* function for checking solveme answers */
+solveme_func = function(e) {
+  console.log("webex: check solveme");
+
+  var real_answers = JSON.parse(this.dataset.answer);
+  var my_answer = this.value;
+  var cl = this.classList;
+  if (cl.contains("ignorecase")) {
+    my_answer = my_answer.toLowerCase();
+  }
+  if (cl.contains("nospaces")) {
+    my_answer = my_answer.replace(/ /g, "")
+  }
+
+  if (my_answer == "") {
+    cl.remove("webex-correct");
+    cl.remove("webex-incorrect");
+  } else if (real_answers.includes(my_answer)) {
+    cl.add("webex-correct");
+    cl.remove("webex-incorrect");
+  } else {
+    cl.add("webex-incorrect");
+    cl.remove("webex-correct");
+  }
+
+  // match numeric answers within a specified tolerance
+  if(this.dataset.tol > 0){
+    var tol = JSON.parse(this.dataset.tol);
+    var matches = real_answers.map(x => Math.abs(x - my_answer) < tol)
+    if (matches.reduce((a, b) => a + b, 0) > 0) {
+      cl.add("webex-correct");
+    } else {
+      cl.remove("webex-correct");
+    }
+  }
+
+  // added regex bit
+  if (cl.contains("regex")){
+    answer_regex = RegExp(real_answers.join("|"))
+    if (answer_regex.test(my_answer)) {
+      cl.add("webex-correct");
+    }
+  }
+
+  update_total_correct();
+}
+
+/* function for checking select answers */
+select_func = function(e) {
+  console.log("webex: check select");
+
+  var cl = this.classList
+
+  /* add style */
+  cl.remove("webex-incorrect");
+  cl.remove("webex-correct");
+  if (this.value == "answer") {
+    cl.add("webex-correct");
+  } else if (this.value != "blank") {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+/* function for checking radiogroups answers */
+radiogroups_func = function(e) {
+  console.log("webex: check radiogroups");
+
+  var checked_button = document.querySelector('input[name=' + this.id + ']:checked');
+  var cl = checked_button.parentElement.classList;
+  var labels = checked_button.parentElement.parentElement.children;
+
+  /* get rid of styles */
+  for (i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("webex-incorrect");
+    labels[i].classList.remove("webex-correct");
+  }
+
+  /* add style */
+  if (checked_button.value == "answer") {
+    cl.add("webex-correct");
+  } else {
+    cl.add("webex-incorrect");
+  }
+
+  update_total_correct();
+}
+
+window.onload = function() {
+  console.log("webex onload");
+  /* set up solution buttons */
+  var buttons = document.getElementsByTagName("button");
+
+  for (var i = 0; i < buttons.length; i++) {
+    if (buttons[i].parentElement.classList.contains('webex-solution')) {
+      buttons[i].onclick = b_func;
+    }
+  }
+
+  var check_sections = document.getElementsByClassName("webex-check");
+  console.log("check:", check_sections.length);
+  for (var i = 0; i < check_sections.length; i++) {
+    check_sections[i].classList.add("unchecked");
+
+    let btn = document.createElement("button");
+    btn.innerHTML = "Show Answers";
+    btn.classList.add("webex-check-button");
+    btn.onclick = check_func;
+    check_sections[i].appendChild(btn);
+
+    let spn = document.createElement("span");
+    spn.classList.add("webex-total_correct");
+    check_sections[i].appendChild(spn);
+  }
+
+  /* set up webex-solveme inputs */
+  var solveme = document.getElementsByClassName("webex-solveme");
+
+  for (var i = 0; i < solveme.length; i++) {
+    /* make sure input boxes don't auto-anything */
+    solveme[i].setAttribute("autocomplete","off");
+    solveme[i].setAttribute("autocorrect", "off");
+    solveme[i].setAttribute("autocapitalize", "off");
+    solveme[i].setAttribute("spellcheck", "false");
+    solveme[i].value = "";
+
+    /* adjust answer for ignorecase or nospaces */
+    var cl = solveme[i].classList;
+    var real_answer = solveme[i].dataset.answer;
+    if (cl.contains("ignorecase")) {
+      real_answer = real_answer.toLowerCase();
+    }
+    if (cl.contains("nospaces")) {
+      real_answer = real_answer.replace(/ /g, "");
+    }
+    solveme[i].dataset.answer = real_answer;
+
+    /* attach checking function */
+    solveme[i].onkeyup = solveme_func;
+    solveme[i].onchange = solveme_func;
+
+    solveme[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  }
+
+  /* set up radiogroups */
+  var radiogroups = document.getElementsByClassName("webex-radiogroup");
+  for (var i = 0; i < radiogroups.length; i++) {
+    radiogroups[i].onchange = radiogroups_func;
+  }
+
+  /* set up selects */
+  var selects = document.getElementsByClassName("webex-select");
+  for (var i = 0; i < selects.length; i++) {
+    selects[i].onchange = select_func;
+    selects[i].insertAdjacentHTML("afterend", " <span class='webex-icon'></span>")
+  }
+
+  update_total_correct();
+}
+
+</script>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="StatsMode.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="UnderstandingHistograms.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+  "sharing": {
+    "github": false,
+    "facebook": false,
+    "twitter": false,
+    "linkedin": false,
+    "weibo": false,
+    "instapaper": false,
+    "vk": false,
+    "whatsapp": false,
+    "all": null,
+    "google": false
+  },
+  "fontsettings": {
+    "theme": "white",
+    "family": "sans",
+    "size": 2
+  },
+  "edit": null,
+  "history": {
+    "link": null,
+    "text": null
+  },
+  "view": {
+    "link": null,
+    "text": null
+  },
+  "download": ["_main.pdf"],
+  "search": {
+    "engine": "fuse",
+    "options": null
+  },
+  "toc": {
+    "collapse": "subsection",
+    "scroll_highlight": true,
+    "toc_depth": 2
+  }
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
