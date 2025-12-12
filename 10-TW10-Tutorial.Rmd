@@ -11,11 +11,11 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/AnalysisOddsRatio.html)
-* [Chapter\ 32 (Finding sample sizes for CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/EstimatingSampleSize.html)
-* [Chapter\ 34 (Selecting an analysis)](https://bookdown.org/pkaldunn/SRM-Textbook/SelectTest.html)
+* [Chapter\ 31 (CIs and tests: comparing two odds or proportions)](https://peterkdunn.github.io/SRM-Textbook/AnalysisOddsRatio.html)
+* [Chapter\ 32 (Finding sample sizes for CIs)](https://peterkdunn.github.io/SRM-Textbook/EstimatingSampleSize.html)
+* [Chapter\ 34 (Selecting an analysis)](https://peterkdunn.github.io/SRM-Textbook/SelectTest.html)
 
 Take careful note of which chapters are covered in this tutorial!
 :::

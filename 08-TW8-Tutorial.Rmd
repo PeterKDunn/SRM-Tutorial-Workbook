@@ -12,12 +12,12 @@ You will learn to:
    
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter\ 25 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
-* [Chapter\ 26 (Hypothesis tests: one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneProportion.html).
-* [Chapter\ 27 (Hypothesis tests: one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter\ 28 (More details about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
+* [Chapter\ 25 (Making decisions)](https://peterkdunn.github.io/SRM-Textbook/MakingDecisions.html).
+* [Chapter\ 26 (Hypothesis tests: one proportion)](https://peterkdunn.github.io/SRM-Textbook/TestOneProportion.html).
+* [Chapter\ 27 (Hypothesis tests: one mean)](https://peterkdunn.github.io/SRM-Textbook/TestOneMean.html).
+* [Chapter\ 28 (More details about hypothesis testing)](https://peterkdunn.github.io/SRM-Textbook/MoreAboutTests.html).
 :::
 
 

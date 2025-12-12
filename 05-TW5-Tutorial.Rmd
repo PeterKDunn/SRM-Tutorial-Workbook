@@ -14,12 +14,12 @@ You will learn to produce and understand:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 13 (Comparing quantitative data within individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
-* [Chapter 14 (Comparing quantitative data between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/BetweenQuantData.html).
-* [Chapter 16 (Correlations between quantitative variables)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
-* [Chapter 17 (More details about tables and graphs)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+* [Chapter 13 (Comparing quantitative data within individuals)](https://peterkdunn.github.io/SRM-Textbook/SummariseWithin.html).
+* [Chapter 14 (Comparing quantitative data between individuals)](https://peterkdunn.github.io/SRM-Textbook/BetweenQuantData.html).
+* [Chapter 16 (Correlations between quantitative variables)](https://peterkdunn.github.io/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (More details about tables and graphs)](https://peterkdunn.github.io/SRM-Textbook/SummariseComments.html).
 
 Take careful note of which chapters are covered in this tutorial!
 :::

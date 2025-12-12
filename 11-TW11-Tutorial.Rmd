@@ -9,10 +9,10 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter\ 35 (Reporting and writing research)](https://bookdown.org/pkaldunn/SRM-Textbook/WritingResearch.html).
-* [Chapter\ 36 (Reading and critiquing research)](https://bookdown.org/pkaldunn/SRM-Textbook/Reading.html).
+* [Chapter\ 35 (Reporting and writing research)](https://peterkdunn.github.io/SRM-Textbook/WritingResearch.html).
+* [Chapter\ 36 (Reading and critiquing research)](https://peterkdunn.github.io/SRM-Textbook/Reading.html).
 :::
 
 

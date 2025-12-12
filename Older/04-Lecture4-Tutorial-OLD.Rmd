@@ -9,10 +9,10 @@
 * Using the **Statistics Mode** of your calculator.
 :::
 
-In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 13 (Summarising qualitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQualData.html).
-* [Chapter 14 (Quantitative data: Summaries for changes within individuals](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseWithin.html).
+* [Chapter 13 (Summarising qualitative data)](https://peterkdunn.github.io/SRM-Textbook/SummariseQualData.html).
+* [Chapter 14 (Quantitative data: Summaries for changes within individuals](https://peterkdunn.github.io/SRM-Textbook/SummariseWithin.html).
 
 
 *****

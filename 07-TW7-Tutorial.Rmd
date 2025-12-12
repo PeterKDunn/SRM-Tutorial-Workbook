@@ -10,12 +10,12 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter\ 21 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
-* [Chapter\ 22 (Confidence intervals: one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
-* [Chapter\ 23 (Confidence intervals: one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
-* [Chapter\ 24 (More details about CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
+* [Chapter\ 21 (Introducing inference)](https://peterkdunn.github.io/SRM-Textbook/IntroducingInference.html).
+* [Chapter\ 22 (Confidence intervals: one proportions)](https://peterkdunn.github.io/SRM-Textbook/CIOneProportion.html).
+* [Chapter\ 23 (Confidence intervals: one mean)](https://peterkdunn.github.io/SRM-Textbook/OneMeanConfInterval.html).
+* [Chapter\ 24 (More details about CIs)](https://peterkdunn.github.io/SRM-Textbook/AboutCIs.html).
 :::
 
 

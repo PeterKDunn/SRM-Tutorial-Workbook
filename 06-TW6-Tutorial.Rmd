@@ -14,11 +14,11 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter\ 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
-* [Chapter\ 19 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
-* [Chapter\ 20 (Models and normal distributions)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
+* [Chapter\ 18 (Probability)](https://peterkdunn.github.io/SRM-Textbook/Probability.html).
+* [Chapter\ 19 (Sampling variation)](https://peterkdunn.github.io/SRM-Textbook/SamplingVariation.html).
+* [Chapter\ 20 (Models and normal distributions)](https://peterkdunn.github.io/SRM-Textbook/SamplingDistributions.html).
 :::
 
 

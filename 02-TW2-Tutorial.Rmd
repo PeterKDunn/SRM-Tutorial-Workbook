@@ -10,12 +10,12 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 5 (Ethics in research)](https://bookdown.org/pkaldunn/SRM-Textbook/Ethics.html).
-* [Chapter 6 (External validity: sampling)](https://bookdown.org/pkaldunn/SRM-Textbook/Sampling.html).
-* [Chapter 7 (Internal validity)](https://bookdown.org/pkaldunn/SRM-Textbook/DesignInternal.html).
-* [Chapter 8 (Research design limitations)](https://bookdown.org/pkaldunn/SRM-Textbook/Interpretation.html).
+* [Chapter 5 (Ethics in research)](https://peterkdunn.github.io/SRM-Textbook/Ethics.html).
+* [Chapter 6 (External validity: sampling)](https://peterkdunn.github.io/SRM-Textbook/Sampling.html).
+* [Chapter 7 (Internal validity)](https://peterkdunn.github.io/SRM-Textbook/DesignInternal.html).
+* [Chapter 8 (Research design limitations)](https://peterkdunn.github.io/SRM-Textbook/Interpretation.html).
 :::
 
 

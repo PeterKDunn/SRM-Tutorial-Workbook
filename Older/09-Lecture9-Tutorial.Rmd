@@ -9,13 +9,13 @@
 * Tests for paired sample means.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
 
-* [Chapter 30 (Tests for one proportion)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 31 (Tests for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/TestOneMean.html).
-* [Chapter 32 (More about hypothesis testing)](https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html).
-* [Chapter 33 (Tests for the mean difference)](https://bookdown.org/pkaldunn/SRM-Textbook/TestPairedMeans.html).
+* [Chapter 30 (Tests for one proportion)](https://peterkdunn.github.io/SRM-Textbook/TestOneMean.html).
+* [Chapter 31 (Tests for one mean)](https://peterkdunn.github.io/SRM-Textbook/TestOneMean.html).
+* [Chapter 32 (More about hypothesis testing)](https://peterkdunn.github.io/SRM-Textbook/MoreAboutTests.html).
+* [Chapter 33 (Tests for the mean difference)](https://peterkdunn.github.io/SRM-Textbook/TestPairedMeans.html).
 
 
 

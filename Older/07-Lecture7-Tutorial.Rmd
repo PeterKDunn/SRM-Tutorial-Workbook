@@ -9,13 +9,13 @@
 * Confidence intervals for mean differences (paired means).
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 22 (Introducing inference)](https://bookdown.org/pkaldunn/SRM-Textbook/IntroducingInference.html).
-* [Chapter 23 (Confidence intervals for one proportions)](https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html).
-* [Chapter 24 (Confidence intervals for one mean)](https://bookdown.org/pkaldunn/SRM-Textbook/OneMeanConfInterval.html).
-* [Chapter 25 (More about forming CIs)](https://bookdown.org/pkaldunn/SRM-Textbook/AboutCIs.html).
-* [Chapter 26 (Confidence intervals for mean differences (paired data))](https://bookdown.org/pkaldunn/SRM-Textbook/PairedCI.html).
+* [Chapter 22 (Introducing inference)](https://peterkdunn.github.io/SRM-Textbook/IntroducingInference.html).
+* [Chapter 23 (Confidence intervals for one proportions)](https://peterkdunn.github.io/SRM-Textbook/CIOneProportion.html).
+* [Chapter 24 (Confidence intervals for one mean)](https://peterkdunn.github.io/SRM-Textbook/OneMeanConfInterval.html).
+* [Chapter 25 (More about forming CIs)](https://peterkdunn.github.io/SRM-Textbook/AboutCIs.html).
+* [Chapter 26 (Confidence intervals for mean differences (paired data))](https://peterkdunn.github.io/SRM-Textbook/PairedCI.html).
 
 
 

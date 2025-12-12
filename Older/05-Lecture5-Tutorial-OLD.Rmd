@@ -10,12 +10,12 @@
 * Odds and odds ratios.
 :::
 
-In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with this chapter of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 15 (Quantitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/WithinQuantData.html).
-* [Chapter 16 (Two quantitative variables: Summaries for correlations)](https://bookdown.org/pkaldunn/SRM-Textbook/TwoQuant.html).
-* [Chapter 17 (Qualitative data: Summaries for comparing between individuals)](https://bookdown.org/pkaldunn/SRM-Textbook/CompareQualData.html).
-* [Chapter 18 (More about summarising data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseComments.html).
+* [Chapter 15 (Quantitative data: Summaries for comparing between individuals)](https://peterkdunn.github.io/SRM-Textbook/WithinQuantData.html).
+* [Chapter 16 (Two quantitative variables: Summaries for correlations)](https://peterkdunn.github.io/SRM-Textbook/TwoQuant.html).
+* [Chapter 17 (Qualitative data: Summaries for comparing between individuals)](https://peterkdunn.github.io/SRM-Textbook/CompareQualData.html).
+* [Chapter 18 (More about summarising data)](https://peterkdunn.github.io/SRM-Textbook/SummariseComments.html).
 
 
 

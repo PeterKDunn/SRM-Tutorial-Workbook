@@ -11,10 +11,10 @@
 :::
 
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 37 (Correlation)](https://bookdown.org/pkaldunn/SRM-Textbook/Correlation.html).
-* [Chapter 38 (Regression)](https://bookdown.org/pkaldunn/SRM-Textbook/Regression.html).
+* [Chapter 37 (Correlation)](https://peterkdunn.github.io/SRM-Textbook/Correlation.html).
+* [Chapter 38 (Regression)](https://peterkdunn.github.io/SRM-Textbook/Regression.html).
 
 
 

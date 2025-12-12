@@ -12,11 +12,11 @@ You will learn to:
 
 
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
-You will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 9 (Collecting data)](https://bookdown.org/pkaldunn/SRM-Textbook/CollectingDataProcedures.html).
-* [Chapter 10 (Classifying data and variables)](https://bookdown.org/pkaldunn/SRM-Textbook/DescribingVars.html).
-* [Chapter 11 (Summarising quantitative data)](https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQuantData.html).
+* [Chapter 9 (Collecting data)](https://peterkdunn.github.io/SRM-Textbook/CollectingDataProcedures.html).
+* [Chapter 10 (Classifying data and variables)](https://peterkdunn.github.io/SRM-Textbook/DescribingVars.html).
+* [Chapter 11 (Summarising quantitative data)](https://peterkdunn.github.io/SRM-Textbook/SummariseQuantData.html).
 :::
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}

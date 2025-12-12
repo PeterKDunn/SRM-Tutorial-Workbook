@@ -10,12 +10,12 @@
 * The normal distribution.
 :::
 
-In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://bookdown.org/pkaldunn/SRM-Textbook/):
+In this chapter, you will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
-* [Chapter 18 (Probability)](https://bookdown.org/pkaldunn/SRM-Textbook/Probability.html).
-* [Chapter 29 (Making decisions)](https://bookdown.org/pkaldunn/SRM-Textbook/MakingDecisions.html).
-* [Chapter 20 (Sampling variation)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingVariation.html).
-* [Chapter 21 (Models and normal distributions)](https://bookdown.org/pkaldunn/SRM-Textbook/SamplingDistributions.html).
+* [Chapter 18 (Probability)](https://peterkdunn.github.io/SRM-Textbook/Probability.html).
+* [Chapter 29 (Making decisions)](https://peterkdunn.github.io/SRM-Textbook/MakingDecisions.html).
+* [Chapter 20 (Sampling variation)](https://peterkdunn.github.io/SRM-Textbook/SamplingVariation.html).
+* [Chapter 21 (Models and normal distributions)](https://peterkdunn.github.io/SRM-Textbook/SamplingDistributions.html).
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
