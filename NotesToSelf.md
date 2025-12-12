@@ -12,8 +12,8 @@ library(bookdown)
 
 # TO PUBLISH ON BOOKDOWN:  
 
-library(bookdown) 
-bookdown::publish_book(name="SRM-tutorials") 
+#library(bookdown) 
+#bookdown::publish_book(name="SRM-tutorials") 
 
 
 

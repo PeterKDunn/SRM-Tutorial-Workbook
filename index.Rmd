@@ -243,5 +243,5 @@ In this book, you will learn to:
 Peter K. Dunn (2025).
 *Scientific Research and Methodology: An introduction to quantitative research and statistics in science, engineering and health*.
 Chapman & Hall.
-https://peterkdunn.github.io/SRM-tutorials/index.html
+https://peterkdunn.github.io/SRM-Tutorial-Workbook/index.html
 
