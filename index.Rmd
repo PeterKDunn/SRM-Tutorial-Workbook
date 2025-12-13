@@ -203,12 +203,6 @@ Other resources used include:
    '[**iconmonstr**](https://iconmonstr.com/)'
 }`,
  and are freely available.
-* The polling in the online book is provided by 
-`r if (knitr::is_latex_output()) {
-   'Ferendum.'
-} else {
-   '[Ferendum](https://www.ferendum.com/en/).'
-}`
 * The cover for the book was made using a free image with 
 `r if (knitr::is_latex_output()) {
    'Canva.'
