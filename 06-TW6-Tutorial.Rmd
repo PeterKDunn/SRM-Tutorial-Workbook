@@ -13,6 +13,15 @@ You will learn to:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 6 content is essential for:
+
+* understanding the content that follows, *all* of which relies on probability, understanding sampling variation, and using normal distributions;
+* **Quiz\ 3**, which includes questions about *probability, sampling variation, and normal distributions*; and
+* the **Exam**, which will contain questions about *probability, sampling variation, and normal distributions*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 

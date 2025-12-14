@@ -13,6 +13,15 @@ You will learn to produce and understand:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 5 content is essential for:
+
+* **Task\ 2B**, which requires you to *produce appropriate numerical summaries and produce appropriate graphs*;
+* **Quiz\ 2**, which includes questions about *numerical summaries and graphs*; and
+* the **Exam**, which will contain questions about *numerical summaries and graphs*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 

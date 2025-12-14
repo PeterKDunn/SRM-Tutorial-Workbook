@@ -11,6 +11,13 @@ You will learn to:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 12 content is essential for:
+
+* the **Exam**, which will contain *many* questions about *understanding correlation and regression*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 

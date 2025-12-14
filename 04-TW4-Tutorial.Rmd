@@ -11,6 +11,16 @@ You will learn to:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 4 content is essential for:
+
+* **Task\ 2A**, which requires you to *suggest appropriate numerical summaries, and suggest appropriate graphs*;
+* **Task\ 2B**, which requires you to *produce appropriate numerical summaries and produce appropriate graphs*;
+* **Quiz\ 2**, which includes questions about *numerical summaries and graphs*; and
+* the **Exam**, which will contain questions about *numerical summaries and graphs*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 

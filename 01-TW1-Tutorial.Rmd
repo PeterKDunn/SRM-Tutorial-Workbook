@@ -11,6 +11,15 @@ You will learn to:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 1 content is essential for:
+
+* **Task\ 2A**, where you need to *write your own RQ*;
+* **Quiz\ 1**, which includes questions about *writing RQs and RQ components*; and
+* the **Exam**, which will contain questions about *RQs*
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
@@ -19,6 +28,9 @@ You will learn and practice the content associated with these chapters of the [t
 * [Chapter 3 (Overview of research design)](https://peterkdunn.github.io/SRM-Textbook/FactorsInfluenceY.html).
 * [Chapter 4 (Types of research studies)](https://peterkdunn.github.io/SRM-Textbook/ResearchDesign.html).
 :::
+
+
+
 
 
 

@@ -11,6 +11,15 @@ You will learn to:
 :::
    
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 8 content is essential for:
+
+* **Task\ 2B**, which requires you to *conduct a hypothesis test for your data*;
+* **Quiz\ 3**, which includes questions about *understanding and conducting hypothesis tests*; and
+* the **Exam**, which will contain questions about *understanding and conducting hypothesis tests*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 

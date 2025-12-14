@@ -9,6 +9,15 @@ You will learn to:
 :::
 
 
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 7 content is essential for:
+
+* **Task\ 2B**, which requires you to *produce CIs for your data*;
+* **Quiz\ 3**, which includes questions about *understanding and producing CIs*; and
+* the **Exam**, which will contain questions about *understanding and producing CIs*.
+:::
+
+
 ::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
 
