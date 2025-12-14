@@ -140,6 +140,13 @@ The call-outs used in this book have meanings:
 These call-outs introduce the objectives for the sections of the book.
 :::
 
+
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+These call-out show how the content links to the course assessment.
+:::
+
+
+
 :::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 These call-outs indicate the relevant chapter of the textbook to read.
 :::

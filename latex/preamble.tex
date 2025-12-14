@@ -192,7 +192,38 @@
   } 
   
   
-% Tip boxes
+  
+  
+%%% Link to Assessment boxes
+\definecolor{AssessmentColour}{rgb}{0.926, 0.910, 0.980}
+\newtcolorbox{assessmentcolourbox}{
+  colback=AssessmentColour,
+  colframe=AssessmentColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{assessmentBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    } 
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{assessmentcolourbox}
+  \item
+  }
+  {
+  \end{assessmentcolourbox}
+  \end{itemize}
+  } 
+
+
+
+
+%%% Tip boxes
 \definecolor{TipColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{tipcolourbox}{
   colback=TipColour,
@@ -222,7 +253,7 @@
 
 
 
-% Optional boxes
+%%% Optional boxes
 \definecolor{OptionalColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{optionalcolourbox}{
   colback=OptionalColour,
@@ -252,7 +283,7 @@
   
   
   
-% VideoSolution box
+%%% VideoSolution box
 \definecolor{VideoColour}{rgb}{0.973, 0.945, 0.922}
 \newtcolorbox{videosolutionscolourbox}{
   colback=VideoColour,
@@ -281,7 +312,7 @@
   
     
   
-% Drill box
+%%% Drill box
 \definecolor{DrillColour}{rgb}{0.996, 0.945, 0.898}
 \newtcolorbox{drillcolourbox}{
   colback=DrillColour,
@@ -308,7 +339,9 @@
   }  
   
   
-% Important Box
+
+
+%%% Important Box
 \definecolor{ImportantColour}{rgb}{0.996, 0.934, 0.898}
 \newtcolorbox{importantcolourbox}{
   colback=ImportantColour,
@@ -335,7 +368,7 @@
   }  
   
   
-% PreClass box
+%%% PreClass box
 \definecolor{PreClassColour}{rgb}{0.973, 0.945, 0.922}
 \newtcolorbox{preclasscolourbox}{
   colback=PreClassColour,
@@ -363,7 +396,7 @@
 
   
 
-% Chapter-to-read boxes
+%%% Chapter-to-read boxes
 \definecolor{ReadColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{readcolourbox}{
   colback=ReadColour,
@@ -391,7 +424,7 @@
   }  
 
 
-% TUTOR INFO BOXES
+%%% TUTOR INFO BOXES
 \newenvironment{rmdTutorInfo}
   {\begin{rmdblock}{iconmonstr-school-7-240}}
   {\end{rmdblock}}
