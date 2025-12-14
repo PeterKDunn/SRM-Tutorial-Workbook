@@ -30,9 +30,9 @@ Take careful note of which chapters are covered in this tutorial!
 :::
 
 
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-Some of this week's content may be needed for your Task\ 2B.
-:::
+
+\pagebreak
+
 
 
 ## Quick revision {#QuickRevision-Tutorial10}

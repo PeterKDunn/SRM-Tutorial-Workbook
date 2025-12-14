@@ -25,18 +25,16 @@ You will learn and practice the content associated with these chapters of the [t
 :::
 
 
-## Confidence intervals {#CIConcrete}
+\pagebreak
 
 
-<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
-<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-`r if (knitr::is_latex_output()) '<!--'`
-```{r, echo=FALSE, out.width= "40%", out.extra='style="float:right; padding:10px"'}
-include_graphics("Illustrations/andrew-buchanan-FJB1ZevpPfk-unsplash.jpg")
-```
-`r if (knitr::is_latex_output()) '-->'`
 
 
+## Quick revision {#QuickRevision-Tutorial11}
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+:::
 
 In a study of high strength--high ductile concrete, @data:Ranada2015:Concrete measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
 
@@ -50,6 +48,7 @@ Another student computes the approximate $95$%\ CI for the mean first-crack stre
 \greyboxlines{4}
 2. Compute the correct (approximate) $95$%\ CI.
 \greyboxlines{4}
+
 
 
 ## Critiquing past students' reports 1 {#CritiqueReports1}
