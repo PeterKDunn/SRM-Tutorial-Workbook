@@ -15,6 +15,15 @@ body {
   background: #ede9fb 5px center/3em no-repeat; 
 }
 
+.assessmentBox {
+  font-size: small;
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #ede9fb;
+  background: #ede9fb 5px center/3em no-repeat; 
+}
+
 .readBox {
   font-size: small;
   padding: 1em 1em 1em 4em;
@@ -89,6 +98,9 @@ body {
 /* Try new way to do things with _icons_ in callouts */
 .objectives {
   background-image: url("../icons/iconmonstr-target-4-240.png");
+}
+.assessment {
+  background-image: url("../icons/iconmonstr-text-check-list-lined-240.png");
 }
 .read {
   background-image: url("../icons/iconmonstr-school-15-240.png");

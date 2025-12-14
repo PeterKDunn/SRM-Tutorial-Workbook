@@ -295,7 +295,38 @@
   } 
   
   
-% Tip boxes
+  
+  
+%%% Link to Assessment boxes
+\definecolor{AssessmentColour}{rgb}{0.926, 0.910, 0.980}
+\newtcolorbox{assessmentcolourbox}{
+  colback=AssessmentColour,
+  colframe=AssessmentColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{assessmentBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    } 
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{assessmentcolourbox}
+  \item
+  }
+  {
+  \end{assessmentcolourbox}
+  \end{itemize}
+  } 
+
+
+
+
+%%% Tip boxes
 \definecolor{TipColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{tipcolourbox}{
   colback=TipColour,
@@ -325,7 +356,7 @@
 
 
 
-% Optional boxes
+%%% Optional boxes
 \definecolor{OptionalColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{optionalcolourbox}{
   colback=OptionalColour,
@@ -355,7 +386,7 @@
   
   
   
-% VideoSolution box
+%%% VideoSolution box
 \definecolor{VideoColour}{rgb}{0.973, 0.945, 0.922}
 \newtcolorbox{videosolutionscolourbox}{
   colback=VideoColour,
@@ -384,7 +415,7 @@
   
     
   
-% Drill box
+%%% Drill box
 \definecolor{DrillColour}{rgb}{0.996, 0.945, 0.898}
 \newtcolorbox{drillcolourbox}{
   colback=DrillColour,
@@ -411,7 +442,9 @@
   }  
   
   
-% Important Box
+
+
+%%% Important Box
 \definecolor{ImportantColour}{rgb}{0.996, 0.934, 0.898}
 \newtcolorbox{importantcolourbox}{
   colback=ImportantColour,
@@ -438,7 +471,7 @@
   }  
   
   
-% PreClass box
+%%% PreClass box
 \definecolor{PreClassColour}{rgb}{0.973, 0.945, 0.922}
 \newtcolorbox{preclasscolourbox}{
   colback=PreClassColour,
@@ -466,7 +499,7 @@
 
   
 
-% Chapter-to-read boxes
+%%% Chapter-to-read boxes
 \definecolor{ReadColour}{rgb}{0.938, 0.957, 0.957}
 \newtcolorbox{readcolourbox}{
   colback=ReadColour,
@@ -494,7 +527,7 @@
   }  
 
 
-% TUTOR INFO BOXES
+%%% TUTOR INFO BOXES
 \newenvironment{rmdTutorInfo}
   {\begin{rmdblock}{iconmonstr-school-7-240}}
   {\end{rmdblock}}
@@ -622,7 +655,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: November 25, 2025}
+\date{Last updated: December 14, 2025}
 
 \begin{document}
 \maketitle
@@ -815,6 +848,11 @@ These call-outs introduce the objectives for the sections of the book.
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+These call-out show how the content links to the course assessment.
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 These call-outs indicate the relevant chapter of the textbook to read.
 
@@ -886,9 +924,6 @@ Other resources used include:
   \textbf{iconmonstr},
   and are freely available.
 \item
-  The polling in the online book is provided by
-  Ferendum.
-\item
   The cover for the book was made using a free image with
   Canva.
 \end{itemize}
@@ -924,7 +959,7 @@ In this book, you will learn to:
 Peter K. Dunn (2025).
 \emph{Scientific Research and Methodology: An introduction to quantitative research and statistics in science, engineering and health}.
 Chapman \& Hall.
-\url{https://peterkdunn.github.io/SRM-tutorials/index.html}
+\url{https://peterkdunn.github.io/SRM-Tutorial-Workbook/index.html}
 
 \mainmatter
 
@@ -945,6 +980,22 @@ You will learn to:
 \end{itemize}
 
 \end{objectivesBox}
+
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~1 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2A}, where you need to \emph{write your own RQ};
+\item
+  \textbf{Quiz~1}, which includes questions about \emph{writing RQs and RQ components}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{RQs}
+\end{itemize}
+
+\end{assessmentBox}
 
 \begin{readBox}{iconmonstr-school-15-240.png}
 
@@ -1486,6 +1537,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~2 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2A}, which is largely about the \emph{research design} for answering your own RQ;
+\item
+  \textbf{Quiz~1}, which includes questions about \emph{research design}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{research design}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -1894,6 +1961,24 @@ You will learn to:
 \end{itemize}
 
 \end{objectivesBox}
+
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~3 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2A}, which requires you to \emph{classify variables and suggest appropriate numerical and appropriate graphical summaries};
+\item
+  \textbf{Task~2B}, which requires you to \emph{collect your own data, classify variables, produce appropriate numerical summaries, and produce appropriate graphs};
+\item
+  \textbf{Quiz~2}, which includes questions about \emph{classifying variables, numerical summaries and graphs}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{classifying variables, numerical summaries and graphs}.
+\end{itemize}
+
+\end{assessmentBox}
 
 \begin{readBox}{iconmonstr-school-15-240.png}
 
@@ -2361,6 +2446,24 @@ You will learn to:
 \end{itemize}
 
 \end{objectivesBox}
+
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~4 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2A}, which requires you to \emph{suggest appropriate numerical summaries, and suggest appropriate graphs};
+\item
+  \textbf{Task~2B}, which requires you to \emph{produce appropriate numerical summaries and produce appropriate graphs};
+\item
+  \textbf{Quiz~2}, which includes questions about \emph{numerical summaries and graphs}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{numerical summaries and graphs}.
+\end{itemize}
+
+\end{assessmentBox}
 
 \begin{readBox}{iconmonstr-school-15-240.png}
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -2861,6 +2964,22 @@ You will learn to produce and understand:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~5 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{produce appropriate numerical summaries and produce appropriate graphs};
+\item
+  \textbf{Quiz~2}, which includes questions about \emph{numerical summaries and graphs}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{numerical summaries and graphs}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
 
@@ -3292,6 +3411,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~6 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  understanding the content that follows, \emph{all} of which relies on probability, understanding sampling variation, and using normal distributions;
+\item
+  \textbf{Quiz~3}, which includes questions about \emph{probability, sampling variation, and normal distributions}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{probability, sampling variation, and normal distributions}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -3638,6 +3773,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~7 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{produce CIs for your data};
+\item
+  \textbf{Quiz~3}, which includes questions about \emph{understanding and producing CIs}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{understanding and producing CIs}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -3973,6 +4124,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~8 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{conduct a hypothesis test for your data};
+\item
+  \textbf{Quiz~3}, which includes questions about \emph{understanding and conducting hypothesis tests}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{understanding and conducting hypothesis tests}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -4221,6 +4388,22 @@ You will learn to:
 \end{itemize}
 
 \end{objectivesBox}
+
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~9 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{produce CIs and conduct a hypothesis test for your data};
+\item
+  \textbf{Quiz~4}, which includes questions about \emph{understanding and producing CIs, and understanding and conducting hypothesis tests}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{understanding and producing CIs, and understanding and conducting hypothesis tests}.
+\end{itemize}
+
+\end{assessmentBox}
 
 \begin{readBox}{iconmonstr-school-15-240.png}
 
@@ -4718,6 +4901,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~10 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{produce CIs and conduct a hypothesis test for your data};
+\item
+  \textbf{Quiz~4}, which includes questions about \emph{understanding and producing CIs, understanding and conducting hypothesis tests, and estimating sample sizes}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{understanding and producing CIs, understanding and conducting hypothesis tests, and estimating sample sizes}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
 
@@ -5172,6 +5371,22 @@ You will learn to:
 
 \end{objectivesBox}
 
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~11 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Task~2B}, which requires you to \emph{write about your own research};
+\item
+  \textbf{Quiz~4}, which includes questions about \emph{understanding the language of research, and understanding extracts from published research}; and
+\item
+  the \textbf{Exam}, which will contain questions about \emph{understanding the language of research, and understanding extracts from published research}.
+\end{itemize}
+
+\end{assessmentBox}
+
 \begin{readBox}{iconmonstr-school-15-240.png}
 
 You will learn and practice the content associated with these chapters of the \href{https://peterkdunn.github.io/SRM-Textbook/}{textbook}:
@@ -5395,6 +5610,18 @@ You will learn to:
 \end{itemize}
 
 \end{objectivesBox}
+
+\begin{assessmentBox}{iconmonstr-text-check-list-lined-240.png}
+
+The Week~12 content is essential for:
+
+\begin{itemize}
+\tightlist
+\item
+  the \textbf{Exam}, which will contain \emph{many} questions about \emph{understanding correlation and regression}.
+\end{itemize}
+
+\end{assessmentBox}
 
 \begin{readBox}{iconmonstr-school-15-240.png}
 
@@ -7314,37 +7541,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 8 8 2 1 6 & 7 7 6 8 8 & 7 6 9 2 9 & 4 4 9 2 1 & 0 7 9 3 9\\
-Row B & 6 9 2 9 2 & 2 2 1 3 2 & 3 6 9 0 4 & 7 0 2 9 6 & 5 4 0 6 1\\
-Row C & 7 4 0 9 9 & 4 9 4 0 9 & 3 3 9 9 9 & 3 7 7 2 5 & 5 9 3 2 0\\
-Row D & 6 6 0 6 1 & 9 2 5 2 3 & 9 2 4 9 2 & 7 4 8 6 0 & 2 3 5 3 3\\
-Row E & 9 7 8 9 5 & 3 5 0 9 5 & 0 5 6 8 5 & 0 0 1 4 4 & 8 7 9 6 8\\
+Row A & 8 0 8 9 7 & 7 1 1 8 0 & 9 8 0 5 1 & 7 0 4 7 5 & 6 1 5 6 7\\
+Row B & 5 7 3 7 7 & 4 4 0 6 1 & 9 3 0 2 3 & 8 4 8 3 9 & 6 7 6 7 4\\
+Row C & 4 9 7 1 8 & 3 4 9 0 8 & 6 3 1 0 8 & 9 2 1 0 3 & 9 3 6 3 7\\
+Row D & 5 4 0 6 3 & 2 9 3 3 8 & 9 7 3 3 6 & 4 6 2 1 8 & 4 5 6 1 5\\
+Row E & 9 5 6 4 5 & 6 1 2 1 2 & 4 3 4 8 1 & 5 4 5 4 7 & 8 9 6 9 7\\
 \addlinespace
-Row F & 8 8 6 1 4 & 1 8 7 5 4 & 5 0 8 2 0 & 0 3 8 5 8 & 8 0 1 3 4\\
-Row G & 8 4 3 1 4 & 3 1 3 5 7 & 1 3 1 2 7 & 0 6 6 5 5 & 2 8 7 1 8\\
-Row H & 1 6 1 6 8 & 2 8 1 8 7 & 3 0 7 7 1 & 3 9 9 8 3 & 5 5 9 0 3\\
-Row I & 5 7 0 0 6 & 9 9 2 7 8 & 0 0 4 0 7 & 0 5 9 2 8 & 2 1 1 3 2\\
-Row J & 1 1 3 7 4 & 1 2 0 3 1 & 5 8 3 0 6 & 7 7 2 9 9 & 0 3 5 9 3\\
+Row F & 5 5 0 5 2 & 4 3 0 5 5 & 5 6 4 8 5 & 7 2 7 6 3 & 1 3 4 7 8\\
+Row G & 0 3 5 9 5 & 8 3 5 5 3 & 7 2 5 0 1 & 6 6 7 8 6 & 1 3 6 6 6\\
+Row H & 3 8 9 6 0 & 9 5 2 2 1 & 7 1 7 3 3 & 5 5 8 8 8 & 3 8 4 1 3\\
+Row I & 0 8 9 3 8 & 4 7 0 6 5 & 6 7 9 0 5 & 8 3 0 7 0 & 7 1 4 7 0\\
+Row J & 2 9 0 8 8 & 9 4 5 0 7 & 5 8 6 0 2 & 8 5 6 4 9 & 5 8 1 5 6\\
 \addlinespace
-Row K & 8 8 0 7 9 & 7 9 2 7 1 & 6 3 2 4 3 & 0 1 3 3 2 & 7 7 9 9 3\\
-Row L & 8 3 4 3 6 & 3 4 0 2 7 & 1 8 5 4 0 & 8 0 1 4 9 & 8 0 9 0 1\\
-Row M & 9 7 8 0 3 & 8 2 0 7 4 & 8 7 4 5 6 & 0 3 6 6 2 & 1 2 3 7 6\\
-Row N & 5 0 3 7 0 & 2 6 3 1 0 & 4 7 9 0 6 & 7 4 1 2 3 & 1 1 7 0 1\\
-Row O & 7 6 0 0 1 & 8 4 2 7 4 & 5 5 5 1 0 & 4 5 8 3 3 & 5 8 6 2 2\\
+Row K & 3 2 6 9 3 & 2 4 0 3 6 & 5 3 4 1 7 & 5 8 3 6 0 & 6 0 5 0 9\\
+Row L & 9 0 8 1 8 & 8 4 6 1 6 & 2 3 4 5 5 & 6 7 1 0 3 & 1 2 2 4 2\\
+Row M & 1 5 4 2 3 & 0 0 3 8 8 & 6 6 7 3 2 & 3 4 6 6 8 & 0 4 8 7 2\\
+Row N & 2 3 1 8 8 & 5 8 7 6 9 & 0 1 8 2 4 & 4 4 5 0 9 & 9 0 7 6 6\\
+Row O & 6 0 8 7 5 & 4 1 5 1 8 & 9 5 8 2 5 & 2 9 2 3 6 & 9 9 7 7 9\\
 \addlinespace
-Row P & 3 1 2 1 6 & 7 9 8 5 2 & 5 2 3 8 1 & 3 4 8 0 4 & 9 1 8 0 5\\
-Row Q & 4 4 5 3 5 & 6 5 4 2 3 & 2 4 7 4 9 & 6 5 2 4 5 & 1 5 3 9 5\\
-Row R & 1 4 0 4 4 & 3 3 2 3 3 & 5 0 6 6 1 & 8 2 7 5 0 & 7 2 7 5 5\\
-Row S & 7 4 4 3 9 & 0 5 0 7 5 & 4 9 9 2 6 & 0 8 8 1 0 & 2 5 8 5 6\\
-Row T & 7 3 3 1 3 & 4 8 3 1 5 & 4 4 1 4 9 & 8 4 1 2 1 & 6 2 5 8 3\\
+Row P & 5 1 9 3 6 & 9 6 1 7 1 & 4 7 8 6 3 & 2 5 7 0 8 & 2 6 4 2 0\\
+Row Q & 4 2 8 8 0 & 7 7 7 2 1 & 2 3 0 6 9 & 8 3 5 2 8 & 1 9 3 6 2\\
+Row R & 9 8 5 8 1 & 5 2 5 6 8 & 2 8 1 4 8 & 9 1 0 0 6 & 8 1 6 5 0\\
+Row S & 0 4 9 1 0 & 9 3 9 7 8 & 8 1 5 9 4 & 0 0 3 3 6 & 8 7 8 9 1\\
+Row T & 6 9 7 6 2 & 0 9 2 6 9 & 7 0 1 1 3 & 3 9 0 2 7 & 4 1 5 3 3\\
 \addlinespace
-Row U & 3 1 9 5 5 & 6 3 0 5 2 & 3 9 4 6 8 & 7 3 6 7 5 & 5 9 3 6 5\\
-Row V & 7 7 7 7 4 & 0 4 1 0 1 & 6 4 1 6 1 & 0 4 7 5 1 & 8 5 9 7 5\\
-Row W & 3 0 1 5 4 & 8 9 7 4 2 & 6 9 8 6 8 & 7 6 4 2 8 & 8 2 8 7 3\\
-Row X & 9 6 0 0 4 & 3 6 1 3 6 & 8 1 8 9 0 & 5 4 9 4 3 & 6 8 8 7 1\\
-Row Y & 0 5 4 7 3 & 0 7 7 5 9 & 1 5 9 7 5 & 7 7 7 2 7 & 3 5 1 3 7\\
+Row U & 1 7 0 6 6 & 9 5 8 7 3 & 2 9 3 7 4 & 2 5 6 3 5 & 0 5 5 0 5\\
+Row V & 3 1 9 2 2 & 2 0 2 2 9 & 5 9 0 8 1 & 9 9 4 4 5 & 4 3 0 5 0\\
+Row W & 0 0 5 9 4 & 8 3 7 1 4 & 3 1 4 8 0 & 8 0 5 4 4 & 5 8 0 3 0\\
+Row X & 5 7 8 7 1 & 8 9 0 6 9 & 5 7 2 1 9 & 6 8 5 0 4 & 2 8 6 4 7\\
+Row Y & 7 7 2 7 9 & 8 3 0 1 9 & 3 9 6 5 9 & 6 7 0 8 4 & 0 6 2 5 9\\
 \addlinespace
-Row Z & 3 0 9 9 8 & 4 4 9 6 7 & 4 8 5 6 2 & 0 6 6 7 4 & 8 6 1 5 9\\
+Row Z & 4 1 9 5 7 & 9 9 9 6 0 & 8 7 7 1 6 & 8 2 2 7 2 & 5 2 9 8 2\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -7621,7 +7848,7 @@ $\pm$ & Plus-or-minus (give-or-take) & Sect.~22.3\\
 \chapter*{References}\label{references}
 
 
-\phantomsection\label{refs}
+\protect\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
 \bibitem[\citeproctext]{ref-agresti2007statistics}
 Agresti A, Franklin CA. Statistics: {T}he art and science of learning from data. Third. Pearson Education Limited; 2007.
