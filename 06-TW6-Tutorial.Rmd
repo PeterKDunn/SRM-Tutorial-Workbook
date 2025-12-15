@@ -224,20 +224,23 @@ Explain the difference between the meaning of the **first two** statements.
 
 ## Random coin tosses {#RandomCardDraws}
 
+\begin{wrapfigure}[5]{R}{.25\textwidth} % The first optional input is the number of lines allowed for the image to be placed in
+  \centering%
+  \vspace{-30pt}% This removes some white space
+  \includegraphics[width=.24\textwidth]{QRcodes/RandomOrgCoinToss.png}%
+\end{wrapfigure}
+
+In this activity, we see an example of a sampling distribution that can be described by a normal distribution. 
+
 Use 
 `r if (knitr::is_html_output()){
   '[this website at RANDOM.org](https://www.random.org/coins/?num=10&cur=60-aud.1dollar) (at the bottom of the page, keep pressing *Flip again* to repeat)'
 } else {
-  'the website https://www.random.org/coins/'
+  'the website https://www.random.org/coins/ (you can use the QR code to get there quickly)'
 }`
 to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
-'(Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$ coins, and use an Australian $1 coin.)'}`
-
-
-```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
-knitr::include_graphics("images/CoinToss.jpg")
-```
+'(Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$\ coins, and use an Australian $1 coin.)'}`
 
 
 Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete 
@@ -246,6 +249,14 @@ Repeat this process numerous times (if you are in a class, each student can repe
 } else {
   'Table\\ \\@ref(tab:CoinDataTable).'
 }`
+
+
+
+
+
+```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
+knitr::include_graphics("images/CoinToss.jpg")
+```
 
 
 
