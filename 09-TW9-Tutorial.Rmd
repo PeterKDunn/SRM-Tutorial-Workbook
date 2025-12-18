@@ -41,7 +41,6 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-Researchers studied the impact of a gluten-free diet (needed by coeliacs) on dental cavities [@khalaf2020caries].
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
@@ -227,31 +226,31 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 
 1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
 \greyboxlines{2}
-1. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
+2. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
 \greyboxlines{1}
-2. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
+3. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
 \greyboxlines{2}
-3. Explain why these data should be analysed as *paired* data.
+4. Explain why these data should be analysed as *paired* data.
 \greyboxlines{2}
-4. Compute the *changes* in 2MWT for each patient.
-5. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
+5. Compute the *changes* in 2MWT for each patient.
+6. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
 \greyboxlines{2}
-6. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
+7. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
 \greyboxlines{2}
-7. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
+8. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
 \greyboxlines{2}
-8. Explain the *meaning* of the standard error of the mean difference in this context.
+9. Explain the *meaning* of the standard error of the mean difference in this context.
 \greyboxlines{2}
-9. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
+10. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
 \greyboxlines{2}
-10. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
+11. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
 \greyboxlines{4}
-11. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
+12. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
 \greyboxlines{4}
-12. Do you think the population 2MWT changes because of the prosthetic, on average?
+13. Do you think the population 2MWT changes because of the prosthetic, on average?
 \greyboxlines{3}
-13. Which of the following is the correct null hypothesis for this RQ? \tightlist
+14. Which of the following is the correct null hypothesis for this RQ? \tightlist
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
    What is the alternative hypothesis?
@@ -266,20 +265,26 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
     - $\mu_{\text{Without Implant}} < 0$
     - $\mu_{\text{With implant}} > 0$
 
-14. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
+15. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
 \greyboxlines{3}
-15. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
+16. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
 \greyboxlines{2}
-16. Write a statement that communicates the result of the test.
+17. Write a statement that communicates the result of the test.
 \greyboxlines{2}
-17. What conditions must be met for this test to be valid?
+18. What conditions must be met for this test to be valid?
 \greyboxlines{2}
-18. Is it reasonable to assume the assumptions are satisfied?
+19. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
+\greyboxlines{2}
+20. What did you learn from this study?
 \greyboxlines{2}
 
 ```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
 knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
+```
+
+```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited.", fig.align="center", out.width="95%"}
+knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
 ```
 
 
@@ -292,10 +297,6 @@ hist(Improve,
      main = "Improvements in 2MWT")
 ```
 
-
-```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited.", fig.align="center", out.width="95%"}
-knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
-```
 	
 	
 ## CI and test for the ruler-drop {#PlanStudy7}
@@ -323,7 +324,7 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 > For rats, is the mean lifetime *shorter* for rats on a *free-choice* diet compared to rats on a *healthy, restricted* diet?
 
 @data:Berger1988:RatsData compared the lifetime of rats on a healthy, restricted diet ($106$\ rats) and on a free-eating diet ($89$\ rats).
-The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:RatLifetimesDatajamovi)).
+The data set is large, so only an extract of the data is shown (Fig.\ \@ref(fig:RatLifetimesDatajamovi)).
 
 1. Explain why this study compares two *independent* groups. \tightlist
 \greyboxlines{2}
@@ -343,8 +344,7 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
     d. We are $95$% sure that the difference between the population mean lifetimes is between $223.34$ and $346.13$\ days.
     e. If we repeated everything many times, $95$% of the CIs constructed would contain the difference between the population means.
 
-6. The above statement communicating the CI isn't perfect. 
-   Why not?
+6. The best statement above for communicating the CI is missing an important piece of information. 
    Write an improved statement communicating the CI.
 \greyboxlines{2}
 7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig.\ \@ref(fig:RatsBoxErrorbar).
@@ -370,8 +370,10 @@ The data set is large, so we only show an extract of the data  (Fig.\ \@ref(fig:
 
    
 
-```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example.", fig.align="center", out.width='27%'}
+```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example.", fig.align="center", out.width=c('27%', '26%')}
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
+
+knitr::include_graphics("SoftwareImages/RatLivesData-jamovi2.png")
 ```
 
 ```{r RatsBoxErrorbar, echo=FALSE,  fig.cap="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.", fig.align="center", fig.width=7, out.width='80%', fig.height = 3.5}

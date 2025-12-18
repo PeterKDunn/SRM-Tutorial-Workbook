@@ -43,10 +43,13 @@ Under a strain rate of $10\secs^{-1}$, the $n = 6$ concrete samples produced a *
 One student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm 2.8\MPas$.
 Another student computes the approximate $95$%\ CI for the mean first-crack strength as $12.4\pm (2\times 2.8)$, or from\ $6.8$ to\ $18.0\MPas$. 
 
-1. *Both* students are incorrect. 
-   Explain *why* the students are incorrect, and explain what they actually have calculated instead.
+*Both* students are incorrect. 
+
+1. Explain *why* Student\ 1 is incorrect, and explain what the student actually calculated.
 \greyboxlines{4}
-2. Compute the correct (approximate) $95$%\ CI.
+2. Explain *why* Student\ 2 is incorrect, and explain what the student actually calculated.
+\greyboxlines{4}
+3. Compute the correct (approximate) $95$%\ CI.
 \greyboxlines{4}
 
 
@@ -132,7 +135,7 @@ if( knitr::is_html_output() ) {
 1. Define\ $p$ as the population proportion of successful attempts at insertion. \tightlist
    Write the hypotheses to be tested.
 \greyboxlines{4}
-2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs)) to test the hypotheses.
+2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs) to test the hypotheses.
    Write a proper conclusion to communicate the results.
 \greyboxlines{4}
 3. Are the results likely to be statistically valid? 

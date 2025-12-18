@@ -459,7 +459,7 @@ This question is **optional**; e.g., if you need more practice, or you are study
 
 
 
-## **Drills**: computational exercises {#Chapter4Drills}
+## **Optional drills**: computational exercises {#Chapter4Drills}
 
 *(Answers appear in Sect. \@ref(Lecture4Answers))*
 

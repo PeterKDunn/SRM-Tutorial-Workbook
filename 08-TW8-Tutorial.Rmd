@@ -101,10 +101,19 @@ $30$% of individuals in Sweden wore contact lenses in 2020 (the highest percenta
 
 Suppose a group of $35$\ Swedish computer programmers at a large company includes $12$\ that wear contact lenses.
 Is there evidence in this sample that a *greater* proportion of Swedish programmers wear contact lenses at this company, compared to the general Swedish population?
-Conduct a test, then write a conclusion (including a CI).
-\greyboxlines{5}
 
-What assumptions are needed for this test to be statistically valid, and externally valid?
+1. Write the hypotheses for conducting the appropriate hypothesis test.
+\greyboxlines{2}
+2. Compute the value of the appropriate sample statistic.
+\greyboxlines{2}
+2. Compute the value of the appropriate standard error of the statistic.
+   What does this value *mean*?
+\greyboxlines{2}
+3. Compute the value of the appropriate test statistic.
+\greyboxlines{3}
+4. Write a conclusion (including a CI).
+\greyboxlines{5}
+5. What assumptions are needed for this test to be statistically valid, and externally valid?
 \greyboxlines{2}
 
 ## Tests for one mean {#HTOneMean-A}

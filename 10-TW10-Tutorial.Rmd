@@ -48,6 +48,7 @@ She uses $50$\ different sites, allocating the two grasses at random to the site
 
 After $12$\ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
 She finds a statistically significant difference between the odds in the two groups.
+
 Which of these statements is *consistent* with this conclusion?
 
 1. The $\text{OR} = 4.1$ and $P = 0.36$. \tightlist 
@@ -611,7 +612,7 @@ knitr::include_graphics("SoftwareImages/Singh2016-ChiSq-jamovi.png")
 ## Identify the correct test {#IdentifyCorrectAnalyses}
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-IdentifyAnalysis.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-IdentifyAnalysis.Rmd '}
 ```
 
 <iframe src="https://usc.h5p.com/content/1290972415580046319/embed" width="1088" height="511" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

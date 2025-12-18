@@ -755,7 +755,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## **Drills**: Computational exercises {#Chapter5Drills}
+## **Optional drills**: Computational exercises {#Chapter5Drills}
 
 *(Answers appear in Sect. \@ref(Lecture5Answers))*
 

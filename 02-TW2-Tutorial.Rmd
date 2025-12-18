@@ -29,6 +29,12 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You should bring your calculator to tutorials from next week onwards.
+:::
+
+
+
 \pagebreak
 
 
@@ -103,11 +109,11 @@ Consider this RQ  [@walters2018factors]:
 
 ## Study design {#StudyDesign}
 
-A student group was studying this RQ (which is **not** appropriate for the SCI110 Project):
+A student group was studying this RQ (which is **not** appropriate for the SCI110 Project; Task 2):
 
 > Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?
 
-Explain *why*, according to the *Guidelines*, this RQ is not appropriate for Task\ 2.
+Explain *why*, according to the *Guidelines*, this RQ is *not* appropriate for Task\ 2.
 \greyboxlines{2}
 
 The students gave the following information about their study.
@@ -115,17 +121,17 @@ Explain **why** each of these statements is **incorrect**.
 
 1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
 \greyboxlines{2}
-1. "The Outcome is '*the average serum cholesterol concentration for smokers and non-smokers*'."
+1. "The Outcome is *the average serum cholesterol concentration for smokers and non-smokers*."
 \greyboxlines{2}
 1. "The study is not externally valid, as the results may not apply to all people in the world."
 \greyboxlines{2}
 1. "The response variable is *serum cholesterol*."
 \greyboxlines{2}
-1. "In this experiment, the population is '*Australians*'."
+1. "In this experiment, the population is *Australians*."
 \greyboxlines{2}
 1. "The data file will have two columns: one for smokers, and one for non-smokers."
 \greyboxlines{2}
-1. "'*Whether or not the person owns a cat*' is likely to be a confounding variable."
+1. "*Whether or not the person owns a cat* is likely to be a confounding variable."
 \greyboxlines{2}
 1. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
 \greyboxlines{2}
@@ -203,13 +209,13 @@ knitr::include_graphics("images/Crossword-Week2.png")
   \item[\textbf{5.}] 
   Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
   \item[\textbf{6.}]
-  Patients were assigned \verb|____| to the type of therapy received (8)  
+  Patients were assigned \verb|________| to the type of therapy received (8)  
   \item[\textbf{11.}]
-  This type of study is called a \verb|____| study (12)  
+  This type of study is called a \verb|____________| study (12)  
   \item[\textbf{12.}]
   A lovely place to relax, with sand and surf (5)
   \item[\textbf{13.}]
-  The size of the \verb|____| is $127$ (6)
+  The size of the \verb|______| is $127$ (6)
 \end{enumerate}
 
 \newcolumn
@@ -218,15 +224,15 @@ knitr::include_graphics("images/Crossword-Week2.png")
 
 \begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  When individuals change their behaviour if they think they are being observed: the \verb|____| effect (9)
+  When individuals change their behaviour if they think they are being observed: the \verb|_________| effect (9)
   \item[\textbf{2.}]
-  The evaluators were unaware of the group the patient was in; they were \verb|____| to the treatment (5)
+  The evaluators were unaware of the group the patient was in; they were \verb|_____| to the treatment (5)
   \item[\textbf{4.}]
-  Informed consent ensures the study is \verb|____| (7)
+  Informed consent ensures the study is \verb|_______| (7)
   \item[\textbf{7.}]
-  The treatment of `usual care' would be considered to be the \verb|____| group (7)
+  The treatment of `usual care' would be considered to be the \verb|_______| group (7)
   \item[\textbf{8.}]
-  The type of therapy is called the \verb|____| (9)
+  The type of therapy is called the \verb|_________| (9)
   \item[\textbf{9.}]
   The research question is of this type (10)
   \item[\textbf{10.}]
@@ -243,11 +249,12 @@ knitr::include_graphics("images/Crossword-Week2.png")
 ## Assessing reports {#AssessReport}
 
 A report in *The Sydney Morning Herald* [@data:Berry:AgedCheese] was entitled 'Aged cheese could help you age well'.
-Based on this information, answer the following questions.
+The research was based partly on a study of mice, and partly on a study of people. 
+Based on this headline, answer the following questions.
 
-1. What are reasonable suggestions for the outcome and response variable? \tightlist
+1. What are reasonable suggestions for the outcome and response variable, given this headline? \tightlist
 \greyboxlines{2}
-2. What are reasonable suggestions for the comparison and explanatory variable? 
+2. What are reasonable suggestions for the comparison and explanatory variable, given this headline? 
 \greyboxlines{2}
 3. Would you expect the study to be observational or experimental?
    Explain.
@@ -261,7 +268,6 @@ Below is an extract from the newspaper article about the mice study that formed 
 > Control mice drank normal water.
 
 The researchers then found that the addition of spermidine '"significantly extended" the [average] lifespan of the mice...'.
-
 Based on this information, answer the following questions.
 
 4. What are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
@@ -289,7 +295,7 @@ Based on this information, answer the following questions.
 11. Is the study observational or experimental?
     Explain.
 \greyboxlines{2}
-12. Are the following variables likely to be extraneous variables, confounding variables, or neither? 
+12. Are the following variables likely to be extraneous variables, control variables, confounding variables, or none of these? 
     **Explain.**
 
     a. The sex of the person. 
@@ -299,7 +305,7 @@ Based on this information, answer the following questions.
     e. Whether their father had heart problems.
 \greyboxlines{5}
 
-The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005.
+The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the study of people.
 From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
 
 Those with the highest spermidine intakes had a $40$% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes. 
@@ -308,15 +314,23 @@ Those with the highest spermidine intakes also had a significantly lower risk of
 13. Does the newspaper headline appear consistent with the research article?
 \greyboxlines{1}
 
-The study reports that the biggest contributor to spermidine intakes was wholemeal foods (accounting for $13.4$% of intake), apples and pears ($13.3$%), salad ($9.8$%), vegetable sprouts ($7.3$%) and potatoes ($6.4$%).
-Aged cheese appeared in the list in sixth place ($2.9$% of intake).
+The study reports that the biggest contributors to spermidine intakes were:
+
+* wholemeal foods (accounting for $13.4$% of intake);
+* apples and pears ($13.3$%), 
+* salad ($9.8$%), 
+* vegetable sprouts ($7.3$%), and 
+* potatoes ($6.4$%).
+* aged cheese ($2.9$%).
 
 14. Based on this information, do you agree with, or not agree with, the newspaper article headline?
     Explain.
 \greyboxlines{2}
-15. Is a cause-and-effect relationship reasonable? 
+15. Is the cause-and-effect relationship, as implied in the article headline, reasonable? 
     Explain.
 \greyboxlines{2}
+16. What did you learn from this study?
+\greyboxlines{1}
 
 
 \pagebreak

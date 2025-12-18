@@ -91,6 +91,8 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
   'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
 }
 `
+(REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
+
 
 1. How would you *classify* the variable `Age`? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -112,6 +114,15 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 		                  answer = "Quantitative: continuous",
                       "Qualitative: nominal",
                       "Qualitative: ordinal") )} else {'\\null'}`
+\greyboxlines{1}
+4. How would you *classify* the variable `REI`? \tightlist
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
+                      "Quantitative: discrete", 
+		                  answer = "Quantitative: continuous",
+                      "Qualitative: nominal",
+                      "Qualitative: ordinal") )} else {'\\null'}`
+\greyboxlines{1}
+5. What did you learn from this study?
 \greyboxlines{1}
 :::
 
@@ -180,7 +191,7 @@ PT <- polythene$Polythene
 PT <- PT[ sample( 1:length(PT), len) ]
 ```
 
-The data in Table\ \@ref(tab:PolyTable) give the usage, in tonnes, of polythene by eight UK cosmetic companies [@gilchrist2000regression].
+Table\ \@ref(tab:PolyTable) shows the polythene usage, in tonnes, by eight UK cosmetic companies [@gilchrist2000regression].
 
 1. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
 \greyboxlines{2}
@@ -270,7 +281,7 @@ Your tutor will have information.
 
 ## Interpreting graphs {#InterpretingGraphs}
 
-A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, body length.
+A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other things, the seal body length.
 A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig:Bryden1984Fig3b).
 
 1. Describe this histogram in words (average; variation; shape; outliers).
@@ -279,6 +290,8 @@ A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig
 \greyboxlines{2}
 3. Critique the graph.
 \greyboxlines{3}
+4. Write a one-sentence summary of the body length of female Weddell seals suitable for a publicity brochure.
+\greyboxlines{2}
 
 
 ```{r Bryden1984Fig3b, echo=FALSE, fig.cap="A histogram of the body length of female Weddell seals", fig.align="center", out.width='55%'}
@@ -287,7 +300,7 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 
 
-## **Drills**: computational exercises {#Chapter3Drills}
+## **Optional drills**: computational exercises {#Chapter3Drills}
 
 *(Answers appear in Sect. \@ref(Lecture3Answers))*
 

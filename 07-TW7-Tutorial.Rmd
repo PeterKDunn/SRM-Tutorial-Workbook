@@ -97,42 +97,44 @@ The boxes contain this statement:
 They purchased a carton containing $25$\ boxes of matches, and Jake counted the number of matches in *one* of those $25$\ boxes.
 There was $44$\ matches.
 
-'Oh wow.  Just wow.' said Jake.
-'They lie. There's only $44$\ matches in this box.'
+"Oh wow.  Just wow..." said Jake.
+"They lie. There's only $44$\ matches in this box."
 
 
 1. Identify the two concepts that Jake is confusing. 
    How would you clarify Jake's confusion?\tightlist
 \greyboxlines{2}
-2. Then, they counted the number of matches in *each* of the twenty-five boxes.
+2. Then, Jake and Claire counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
    
-   Jake notes that the mean is $44.9$\ matches per box, and says: 'You can't have $0.9$ of a match.  That's dumb.'
+   Jake says, "A mean of $44.9$\ matches per box? 
+   You can't have $0.9$ of a match! 
+   That's dumb."
    How would you respond?
 \greyboxlines{2}
-3. 'Wow!' said Jake.
-   'The claim is $45$\ matches per box on average, but the mean really is $44.9$!
-   They're liars!  Liar, liar, pants on...'  
+3. "The claim is $45$\ matches per box on average, but the mean really is $44.9$!" said Jake.
+   "They're liars!  Liar, liar, pants on..."  
    
    Identify the two concepts that Jake is confusing. 
    How would you clarify Jake's confusion?
 \greyboxlines{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
 \greyboxlines{2}
-5. 'Come on, Jake,' said Claire.
-   'As if the mean will be *exactly* $45$ in a sample every single time.
-   Let's work out the confidence interval.'  
+5. Claire says, "The mean won't be *exactly* $45$ in every sample of $25$ boxes!
+   Let's work out the confidence interval."  
    
    Why does Claire think a CI is needed?
    What will it tell them?
 \greyboxlines{2}
-6. What is an approximate $95$% confidence interval for the mean for Claire's sample?
+6. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
 \greyboxlines{2}
-7. 'Aha---I told you so!  They *are* absolutely lying!
-   Your confidence interval doesn't even include their mean of $45$!' said Jake.
-   'The manufacturer *must* be lying!'  
+7. "Aha---I told you so!  
+   They *are* absolutely lying!
+   Your confidence interval doesn't even include their mean of $45$!" said Jake.
+   "The manufacturer *must* be lying!
+   I'm calling my lawyer!"  
    
-   Is Jake correct?
+   Is Jake correct that the manufacturer *must* be lying?
    Why or why not?
    What does the CI *mean*?
 \greyboxlines{2}
@@ -281,7 +283,7 @@ points(x = 12,
 
 
 
-## **Drills**: Computational exercises {#Chapter6Drills}
+## **Optional drills**: Computational exercises {#Chapter6Drills}
 
 *(Answers appear in Sect. \@ref(Lecture6Answers))*
 

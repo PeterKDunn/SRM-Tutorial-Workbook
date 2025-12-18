@@ -66,21 +66,21 @@ The
 }`
 are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the configuration; in 2024). 
 
-1. What is the $z$-score for the lower limit of $10.7$\ tonnes? \tightlist
+1. What is the $z$-score for the lightest truck of $10.7$\ tonnes? \tightlist
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c("1.77",
 answer = "-1.77", 
 "-0.7",
 "0.7") )} else {'\\null'}`
 \greyboxlines{2}
-1. What is the $z$-score for the upper limit of $26.0$\ tonnes?
+1. What is the $z$-score for the heaviest truck of $26.0$\ tonnes?
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c(answer ="10",
 "-10", 
 "-16",
 "16") )} else {'\\null'}`
 \greyboxlines{2}
-1. What does a *negative* $z$-score mean?
+1. What does a *negative* $z$-score mean in this context?
 `r if( knitr::is_html_output() ) {
 webexercises::mcq( c("There has been an error",
 "The mass is larger than average",
@@ -89,6 +89,7 @@ answer = "The mass is lower than average",
 \greyboxlines{2}
 1. **True** or **false**:
    A standard error measures the size of the difference between the **sample** proportion and the **population** proportion.
+   Explain.
 `r if( knitr::is_html_output() ) {
 webexercises::torf( FALSE) }`
 :::
@@ -105,7 +106,7 @@ webexercises::torf( FALSE) }`
 
 ## Normal distributions and IQs {#NormalIQs}
 
-Standard IQs in current use are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
+Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/06-NormalAndIQ.Rmd'}
@@ -240,7 +241,7 @@ Use
 }`
 to flip **ten** Australian one-dollar coins at random (see Fig.\ \@ref(fig:CoinTosser)).
 `r if (knitr::is_latex_output()){
-'(Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$\ coins, and use an Australian $1 coin.)'}`
+'Click *Games* from the top, then *Coin flipper*, then select the options to toss $10$\ coins, and use an Australian $1 coin.)'}`
 
 
 Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete 
@@ -324,13 +325,14 @@ if( knitr::is_html_output() ) {
 1. Use this data to create a histogram of the proportion of heads.
    How would you describe the histogram?
 \greyboxlines{4}
-1. I did the same thing, but I repeated the process of tossing $10$ coins $400$ times.
+1. I also 'tossed' $10$\ coins, but repeated this random process $400$\ times.
    My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
    How would you describe the histogram?
 \greyboxlines{2}
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
+   What does this sketch show you?
 \greyboxlines{4}
-1. How would this *sampling distribution* change if we looked the proportion of heads in $50$ tosses of a coin?
+1. How would this *sampling distribution* change if we looked the proportion of heads in $50$\ tosses of a coin (rather than $10$\ tosses)?
 \greyboxlines{2}
 
 
@@ -384,5 +386,9 @@ The daily SOI has an approximate normal distribution, and is designed to have a 
 7. The SOI is *less than* what value about\ $80$% of the time?
 \greyboxlines{2}
 8. The SOI is *greater* than what value about\ $35$% of the time?
+\greyboxlines{2}
+9. What is the probability that the daily SOI exceeds\ $55$?
+\greyboxlines{2}
+10. The SOI is *greater* than what value about\ $50$% of the time?
 \greyboxlines{2}
 

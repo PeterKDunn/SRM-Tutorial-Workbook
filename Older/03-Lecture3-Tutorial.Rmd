@@ -330,7 +330,7 @@ knitr::include_graphics("ArticleImages/Bryden1984-Figure3b.png")
 
 
 
-## **Drills**: computational exercises {#Chapter4Drills}
+## **Optional drills**: computational exercises {#Chapter4Drills}
 
 *(Answers appear in Sect. \@ref(Lecture4Answers))*
 

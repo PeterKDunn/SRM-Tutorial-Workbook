@@ -15,7 +15,7 @@ You will learn to:
 The Week\ 4 content is essential for:
 
 * **Task\ 2A**, which requires you to *suggest appropriate numerical summaries, and suggest appropriate graphs*;
-* **Task\ 2B**, which requires you to *produce appropriate numerical summaries and produce appropriate graphs*;
+* **Task\ 2B**, which requires you to *produce and interpret appropriate numerical summaries and produce and interpret appropriate graphs*;
 * **Quiz\ 2**, which includes questions about *numerical summaries and graphs*; and
 * the **Exam**, which will contain questions about *numerical summaries and graphs*.
 :::
@@ -61,6 +61,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
   'Part of the data are in Table\\ \\@ref(tab:OSAKable3).'
 }
 `
+(REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. Which of these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
@@ -107,6 +108,8 @@ answer = "45%",
 "1.22",
 answer = "0.82") )} else {'\\null'}`
 \greyboxlines{1}
+7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this mean.
+\greyboxlines{3}
 :::
 
 
@@ -119,8 +122,18 @@ answer = "0.82") )} else {'\\null'}`
 1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
 1. $27/60\times 100 = 45$%.
 1. $27/33 = 0.8181$.
+1. Note the *mean* is meaningless for qualitative variables!
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
+
+
+
+```{r OSAoutput, echo=FALSE, fig.cap="A numerical summary of the OSA data: jamovi", fig.align="center", out.width='75%'}
+knitr::include_graphics("SoftwareImages/OSADescriptive.png")
+```
+
+
+
 
 
 ```{r OSAKable3, echo=FALSE}
@@ -265,7 +278,7 @@ answer = "0.104",
 "0.50",
 answer = "1.6") )} else {'\\null'}`
 \greyboxlines{2}
-10. Construct a numerical summary table (see Table\ \@ref(tab:StrokeSymptomsSummary)).
+10. Construct a numerical summary table by completing Table\ \@ref(tab:StrokeSymptomsSummary).
 
 
 
@@ -482,27 +495,31 @@ if( knitr::is_html_output() ) {
 \greyboxlines{2}
 2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
 \greyboxlines{2}
-3. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
+3. Compute the percentage of college students in the population that have received two or more concussions.
+\greyboxlines{2}
+4. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
 \greyboxlines{2}
-4. Among **non-athletes**, compute the odds of receiving two or more concussions.
+5. Among **non-athletes**, compute the odds of receiving two or more concussions.
    Interpret what this means.
 \greyboxlines{2}
-5. Among **soccer players**, compute the odds of receiving two or more concussions.
+6. Among **soccer players**, compute the odds of receiving two or more concussions.
    Interpret what this means.
 \greyboxlines{2}
-6. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
+7. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
 \greyboxlines{2}
-7. Create a table of **column** percentages.
+8. Create a table of **column** percentages.
    What do these tell you?
 \greyboxlines{4}
-8. Create a table of **row** percentages.
+9. Create a table of **row** percentages.
    What do these tell you?
 \greyboxlines{4}
-9. Which one of these tables is probably more sensible?
+10. Which one of these tables is probably more sensible?
    Why?
+\greyboxlines{2}
+11. What did you learn from this study?
 \greyboxlines{2}
 
 
@@ -643,6 +660,7 @@ legend("top",
                   "Non-athlete") )
 ```
 
+
 ## Working with odds {#WorkingWithOdds}
 
 
@@ -654,7 +672,7 @@ legend("top",
 
 
 
-## **Drills**: Computational exercises {#Chapter4Drills}
+## **Optional drills**: Computational exercises {#Chapter4Drills}
 
 *(Answers appear in Sect. \@ref(Lecture4Answers))*
 

@@ -314,18 +314,19 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 1. Type of student:nominal (with three levels).
    Number of concussions: *ordinal* (with three levels).
 2. $45\div 240 = 18.75$\% of all college students in the sample have received one concussion.
-3. Not sure which is best; they do different things.
+3. We cannot calculate this as we **do not** have a population; we only have a sample.
+4. Not sure which is best; they do different things.
    I'd probably prefer\ (c) (bottom left graph).
-4. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
+5. Odds (non-athlete receiving 2+ concussions) is $21\div(81 - 21) = 21\div 60 = 0.35$.
    Non-athletes are $0.35$ times as likely to receive two or more concussions than fewer than two.
 	 Or: For every $100$ students with fewer than two concussions, there are $35$ with two or more.
-5. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
+6. Odds (soccer player receiving 2+ concussions) is $13\div(63 - 13) = 13\div 50 = 0.26$.
 	 Soccer players are $0.26$ times more likely to receive two or more concussions than fewer than two concussions.
-6. OR: $0.35 \div 0.26$, or about $1.35$.
+7. OR: $0.35 \div 0.26$, or about $1.35$.
 	 The odds of a non-athlete receiving two or more concussions is about $1.35$ times the odds of a soccer player receiving two or more concussions (that is, smaller odds for soccer players).
-7. Not given.
 8. Not given.
-9. The better table is probably row percentages: the percentages of each type of students with given number of concussions.
+9. Not given.
+10. The better table is probably row percentages: the percentages of each type of students with given number of concussions.
 
 
 ### Answers for Sect.\ \@ref(WorkingWithOdds) {.unlisted .unnumbered}
@@ -431,31 +432,37 @@ if( knitr::is_html_output() ) {
 	 The standard deviation of the difference is *not* the difference between the individual standard deviations.
 	 A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
 	 Note that there is a sample size of\ $0$ for the difference!
+2. The RQ is about a *discrepancy* in proportions, or *odds*, but these are not present in the table.
+   
+<!--
 2. A few issues:
    Five decimal places: That's accuracy to $0.00001$ of a millimetre per second (I don't think so...).
 	 There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
 	 The *differences* between the two brands.
-
+-->
 
 ### Answers for Sect.\ \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
 
 1. A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
+<!--
 2. A few issues: this is not a *summary*: this shows the burn-time of every individual candle, and makes it hard to compare *means* (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
   In addition: the largest value is over $70\mins$! Do a *quick* project!
-		
+-->
+2. Reasonably good! 
+   The label on the vertical axis is a bit misleading: it is the *number* of students; some wear grey-scale clothing and some do not.
 3. A few issues: Compares just two numbers (means) using lots of ink; no indication of *variation* in the data; a boxplot (or dotchart) would be appropriate.
 
 
 ### Answers for Sect.\ \@ref(UnderstandCorrelations) {.unlisted .unnumbered}
 
-1. **Plot\ 1**: $0.94$ (correlation\ **D**);
+1. Correlation is inappropriate for **Plot\ 4** (non-linear) and **Plot\ 5** (non-linear).
+2. **Plot\ 1**: $0.94$ (correlation\ **D**);
    **Plot\ 2**: $-0.95$ (correlation\ **A**); 
    **Plot\ 3**: $0.12$ (correlation\ **B**);
    **Plot\ 6**: $0.75$ (correlation\ **C**).  
-   Correlation is inappropriate for Plot\ 4 (non-linear) and Plot\ 5 (non-linear).
-2. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
-3.   Examples of direction in **Plot\ 2**: any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
-4. **Plot\ 1**: $88.4$%;
+3. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
+4. Examples of direction in **Plot\ 2**: any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
+5. **Plot\ 1**: $88.4$%;
    **Plot\ 2**: $90.3$%;
    **Plot\ 3**: $1.4$%; 
    **Plot\ 6**: $56.3$%.
@@ -697,25 +704,18 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
 
-$H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
-Here, $n = 35$ and $\hat{p} = 12/35 = 0.3428571$.
-Then,  
-\[
-   \text{s.e.}(\hat{p}) 
-   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
-\]
-(make sure to use $p$ not $\hat{p}$ in the standard error calculation for the test!), and so  
-\[
-   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
-\]
-This is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
+1. $H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
+2. $\hat{p} = 12/35 = 0.3428571$.
+3. $\text{s.e.}(\hat{p}) 
+   = \sqrt{0.3 \times 0.7/35} = 0.07745967$.
+  (Make sure to use $p$ not $\hat{p}$ in the standard error calculation for the test!)
+4. $z = (0.3428571 - 0.3)/0.07745967 = 0.553$.
+5. The $z$-value is very small---less than one standard deviation from the mean---so the $P$-value will be quite large:
+   'The data present no evidence ($z = 0.55$; $P > 0.05$) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).'
+   (For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
+6. For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
+   For *external validity*, the sample must be a random sample of Swedish programmers. 
 
-'The data present no evidence ($z = 0.55$; $P$ large) that computer programmers are more likely to wear contact lenses ($\hat{p} = 0.342$; approx. $95$% CI from $0.182$ to $0.503$).'
-
-For *statistical validity*, we require that the number of people *with* and *without* contact lenses to be at least\ $5$, which is true ($12$ and $23$ respectively).
-For *external validity*, the sample must be a random sample of Swedish programmers. 
-
-(For the CI, remember to use $\hat{p}$ in the standard error calculation: $\text{s.e.}(\hat{p}) = 0.0802329$.)
 
 
 ### Answers for Sect.\ \@ref(HTOneMean-A) {.unlisted .unnumbered}

@@ -453,7 +453,7 @@ Your tutor *may* decide to do this activity.
 
 
 
-## **Drills**: Computational exercises {#Chapter6Drills}
+## **Optional drills**: Computational exercises {#Chapter6Drills}
 
 *(Answers appear in Sect. \@ref(Lecture6Answers))*
 
