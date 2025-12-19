@@ -53,7 +53,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
                       "Repeated-measures",
                       "Correlational") )} else {'Descriptive, relational, repeated-measures or correlational?'}`
 \greyboxlines{1}
-2.  What *type* of RQ is this? 
+2.  What is the *purpose* this RQ? 
     Explain.\tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
         						  "Estimation", 
