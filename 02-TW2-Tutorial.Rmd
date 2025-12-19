@@ -75,21 +75,24 @@ Consider this RQ  [@walters2018factors]:
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Self-selecting", 
                       "Systematic",
-                      "Convenience") )} else {'\\null'}`
+                      "Convenience",
+                      "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
     What is the *best* description of this sampling method?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
                       answer = "Multi-stage", 
                       "Systematic",
-                      "Stratified") )} else {'\\null'}`
+                      "Stratified",
+                      "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
 5. Identify the best description of this sampling method:
-  The researchers stood outside a busy shopping centre, and surveyed every ninth person who entered.
+  The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      answer = "Systematic", 
+                      "Systematic", 
                       "Simple random sample",
-                      "Stratified") )} else {'\\null'}`
+                      "Stratified",
+                      answer = "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
 
 :::
