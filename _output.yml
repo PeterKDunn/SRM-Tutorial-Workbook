@@ -10,7 +10,6 @@ bookdown::gitbook:
     - js/fold.js
     - html/includeme.html
     - html/google_analytics.html
-    - js/examplefold.js
     after_body:
     - html/copyright.html
     - include/webex.js
