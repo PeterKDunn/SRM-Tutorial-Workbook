@@ -77,6 +77,12 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 
 
 
+## Class discussion {#TW8-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: Confidence intervals are more informative than $P$-values.
+:::
+
 
 
 ## The decision-making process {#DecisionMakingProcess}

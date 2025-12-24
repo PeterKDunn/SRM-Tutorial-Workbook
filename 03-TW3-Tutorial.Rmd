@@ -84,14 +84,14 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 :::
 
 ::: {.webex-check .webex-box}
-A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults undergo a sleep study.
+In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop], $n = 60$ adults underwent a sleep study.
 `r if( knitr::is_html_output() ) {
   'The data are shown in Fig.\\ \\@ref(fig:OSADT).'
 } else {
   'Part of the data are shown in Table\\ \\@ref(tab:OSAKable).'
 }
 `
-(REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
+(REI is the Respiratory Event Index; REI under\ $5$ refers to no sleep apnoea; REI of $30$\ or over refers to severe sleep apnoea.)
 
 
 1. How would you *classify* the variable `Age`? \tightlist
@@ -125,6 +125,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 5. What did you learn from this study?
 \greyboxlines{1}
 :::
+
 
 `r if (knitr::is_latex_output()) '<!--'`
 `r webexercises::hide()`
@@ -177,6 +178,15 @@ if( knitr::is_html_output() ) {
               caption = "The Obstructive sleep apnoea data set.")
 }
 ```
+
+
+## Class discussion {#TW3-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: Two datasets can have the same numerical summaries but tell very different stories.
+:::
+
+
 
 
 ## Using the calculator statistics mode for a small data set {#StatsMode}

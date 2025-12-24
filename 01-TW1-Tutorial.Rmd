@@ -121,6 +121,14 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 
+## Class discussion {#TW1-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: In *this* course, in *this* semester, what percentage of students are female?
+:::
+
+
+
 ## Research process {#ResearchProcess}
 
 <iframe src="https://usc.h5p.com/content/1291014841891101839/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

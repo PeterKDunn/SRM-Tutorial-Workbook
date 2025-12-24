@@ -109,6 +109,12 @@ Consider this RQ  [@walters2018factors]:
 
 
 
+## Class discussion {#TW2-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: A larger sample is always better than smaller sample.
+:::
+
 
 ## Study design {#StudyDesign}
 
@@ -246,8 +252,6 @@ knitr::include_graphics("images/Crossword-Week2.png")
 
 
 
-\pagebreak
-
 
 ## Assessing reports {#AssessReport}
 
@@ -336,7 +340,6 @@ The study reports that the biggest contributors to spermidine intakes were:
 \greyboxlines{1}
 
 
-\pagebreak
 
 ## Planning a research study {#PlanStudy2}
 

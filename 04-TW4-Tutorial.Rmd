@@ -178,6 +178,15 @@ if( knitr::is_html_output() ) {
 ```
 
 
+
+## Class discussion {#TW4-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: The raw data is more useful than a graphical summary.
+:::
+
+
+
 ## Percentages and odds {#PercentOddsStroke}
 
 In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data in Table\ \@ref(tab:Stroke) were collected.

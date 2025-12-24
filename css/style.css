@@ -58,6 +58,14 @@ body {
   background: #f0f5f5 5px center/3em no-repeat; 
 }
 
+.discussBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #f0f5f5;
+  background: #f0f5f5 5px center/3em no-repeat; 
+}
+
 .thinkBox {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
@@ -116,6 +124,9 @@ body {
 }
 .think {
   background-image: url("../icons/iconmonstr-light-bulb-2-240.png");
+}
+.discuss {
+  background-image: url("../icons/iconmonstr-speech-bubble-26-240.png");
 }
 .drill {
   background-image: url("../icons/iconmonstr-pencil-9-240.png");

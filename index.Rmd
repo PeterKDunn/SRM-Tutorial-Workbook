@@ -167,12 +167,16 @@ This icon flags questions that have *video solutions* in the online book: a narr
 These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
 :::
 
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+These call-outs are optional discussion topics that your tutor *may* choose to use in tutorials.
+:::
+
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These call-outs highlight **optional** questions, that you might like to do in personal study.
+These call-outs highlight **optional** questions, that you might like to complete for personal study.
 :::
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These call-outs highlight drill questions, for practicing some of the mathematical computations.
+These call-outs highlight drill questions, for practising some of the mathematical computations.
 :::
 
 

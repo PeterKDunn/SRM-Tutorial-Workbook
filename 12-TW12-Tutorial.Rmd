@@ -30,7 +30,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
-## Quick revision {#QuickRevision-Tutorial11}
+## Quick revision {#QuickRevision-Tutorial12}
 
 
 ::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
@@ -94,6 +94,15 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 `r webexercises::unhide()`
 `r if (knitr::is_latex_output()) '-->'`
 
+
+
+
+
+## Class discussion {#TW12-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: The values of $y$ (the data) and $\hat{y}$ (the model predictions) should be as close as possible.
+:::
 
 
 ## Understanding correlations and regression {#UnderstandCorrelationsRegressions}

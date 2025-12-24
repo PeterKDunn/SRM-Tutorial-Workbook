@@ -54,6 +54,14 @@ Another student computes the approximate $95$%\ CI for the mean first-crack stre
 
 
 
+
+## Class discussion {#TW11-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: A 'statistically significant' result means a real discrepancy or effect.
+:::
+
+
 ## Critiquing past students' reports 1 {#CritiqueReports1}
 
 The extracts below are from an actual student Project Report.

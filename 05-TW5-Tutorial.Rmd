@@ -140,6 +140,13 @@ boxplot(Width ~ Location,
 
 
 
+## Class discussion {#TW5-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: A badly designed experiment with lots of data is worse than a small, well-designed one.
+:::
+
+
 
 ## Critiquing students' numerical summaries {#CritiqueStudentSummaries}
 

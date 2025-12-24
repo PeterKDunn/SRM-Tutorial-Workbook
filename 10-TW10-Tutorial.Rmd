@@ -81,6 +81,15 @@ Statements\ 2 and\ 4 are **both* consistent with the information (small $P$-valu
 `r if (knitr::is_latex_output()) '-->'`
 
 
+
+## Class discussion {#TW10-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: When comparing two groups, is it better to focus on differences in *proportions*, *odds*, or *percentages*?
+:::
+
+
+
 ## Consistency {#Consistency}
 
 Suppose a researcher asked the RQ:

@@ -104,6 +104,14 @@ webexercises::torf( FALSE) }`
 `r if (knitr::is_latex_output()) '-->'`
 
 
+
+## Class discussion {#TW6-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: Outliers should always be removed from a dataset before analysis.
+:::
+
+
 ## Normal distributions and IQs {#NormalIQs}
 
 Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.

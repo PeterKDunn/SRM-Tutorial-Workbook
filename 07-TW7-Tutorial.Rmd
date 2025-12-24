@@ -75,6 +75,11 @@ We **strongly** recommend trying these *Quick revision* questions **before** you
 
 
 
+## Class discussion {#TW7-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from.
+:::
 
 
 ## Concepts {#ConceptsMatches}
