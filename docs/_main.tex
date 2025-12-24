@@ -131,6 +131,7 @@
 %\usepackage{caption} % Reformat captions
 \usepackage[font={small,it}]{caption}
 \usepackage{multirow}
+\usepackage{wrapfig}
 \usepackage{stackengine} % For sometimes stacking things on top of each other (used in table, in the selecting-a-test chapter)
 \renewcommand\stacktype{L}
 \def\stackalignment{l}
@@ -471,6 +472,34 @@
   }  
   
   
+%%% Discuss Box
+\definecolor{DiscussColour}{rgb}{1,1,1}
+\newtcolorbox{discusscolourbox}{
+  colback=DiscussColour,
+  colframe=DiscussColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{discussBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{discusscolourbox}
+  \item
+  }
+  {
+  \end{discusscolourbox}
+  \end{itemize}
+  }  
+  
+  
+  
 %%% PreClass box
 \definecolor{PreClassColour}{rgb}{0.973, 0.945, 0.922}
 \newtcolorbox{preclasscolourbox}{
@@ -655,7 +684,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: December 14, 2025}
+\date{Last updated: December 24, 2025}
 
 \begin{document}
 \maketitle
@@ -878,13 +907,18 @@ These call-outs highlight common mistakes or warnings, about (for example) a par
 
 \end{importantBox}
 
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+These call-outs are optional discussion topics that your tutor \emph{may} choose to use in tutorials.
+
+\end{discussBox}
+
 \begin{optionalBox}{iconmonstr-help-4-240.png}
-These call-outs highlight \textbf{optional} questions, that you might like to do in personal study.
+These call-outs highlight \textbf{optional} questions, that you might like to complete for personal study.
 
 \end{optionalBox}
 
 \begin{drillBox}{iconmonstr-pencil-9-240.png}
-These call-outs highlight drill questions, for practicing some of the mathematical computations.
+These call-outs highlight drill questions, for practising some of the mathematical computations.
 
 \end{drillBox}
 
@@ -1015,6 +1049,8 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial1}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -1032,19 +1068,23 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  What \emph{type} of RQ is this? \tightlist
+  What \emph{type} of RQ is this?
+  Explain.\tightlist
   Descriptive, relational, repeated-measures or correlational?
   \greyboxlines{1}
 \item
-  What \emph{type} of RQ is this? \tightlist
+  What is the \emph{purpose} this RQ?
+  Explain.\tightlist
   Estimation or decision-making?
   \greyboxlines{1}
 \item
-  Is an \emph{intervention} present?\tightlist
+  Is an \emph{intervention} present?
+  Explain.\tightlist
   \null
   \greyboxlines{1}
 \item
   What is the \emph{outcome} in this RQ?
+  Explain.
   \null
   \greyboxlines{1}
 \item
@@ -1053,10 +1093,12 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
   \greyboxlines{1}
 \item
   What is the \emph{unit of analysis}?
+  Explain.
   \null
   \greyboxlines{1}
 \item
   What is the \emph{unit of observation}?
+  Explain.
   \null
   \greyboxlines{1}
 \item
@@ -1065,6 +1107,13 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
   \null
   \greyboxlines{1}
 \end{enumerate}
+
+\section{Class discussion}\label{TW1-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: In \emph{this} course, in \emph{this} semester, what percentage of students are female?
+
+\end{discussBox}
 
 \section{Research process}\label{ResearchProcess}
 
@@ -1100,7 +1149,7 @@ As a result, the owner decides to conduct a study of his customers.
     \greyboxlines{2}
   \end{enumerate}
 \item
-  Develop your own RQ to answer the café owner's question, by describing P, O, C and I (where relevant).
+  Develop your own RQ to answer the café owner's question, by carefully and precisely describing P, O, C and I (where relevant).
   \greyboxlines{3}
 \item
   Make notes about \emph{how} the café owner could gather data to answer the RQ.
@@ -1181,6 +1230,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     Students at an American college.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
 \item
   Which one of these is most likely the \emph{outcome} in the study?
 
@@ -1196,6 +1254,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     The difference between the times taken, between those texting and those not texting.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
 \item
   Which one of these is most likely the \emph{comparison} in the study?
 
@@ -1211,6 +1278,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     Between those using and not using a mobile phone.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
 \item
   Which one of these is most likely the \emph{intervention} in the study?
 
@@ -1226,6 +1302,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     The phone.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
 \item
   What is the \emph{explanatory variable}?
 
@@ -1241,6 +1326,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     The walking speed.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
 \item
   What is the \emph{response variable}?
 
@@ -1256,6 +1350,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     The time taken to walk \(50\,\text{m}\).
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{6}
+\tightlist
 \item
   Which one of these is most likely the \emph{unit of observation} in the study?
 
@@ -1271,6 +1374,15 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \item
     Minutes.
   \end{enumerate}
+\end{enumerate}
+
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
 \item
   Which one of these is most likely the \emph{unit of analysis} in the study?
 
@@ -1288,6 +1400,9 @@ Answer the questions that follow, \textbf{explaining} the reason for your choice
   \end{enumerate}
 \end{enumerate}
 
+Explain why the other options are \emph{incorrect}.
+\greyboxlines{2}
+
 \section{Creating research questions and studies}\label{CreateRQs}
 
 Consider the following scenario:
@@ -1300,13 +1415,13 @@ I suppose we'll all start feeling stressed soon.'\\
 `Ah,' Jane said, `I had better buy more teabags then.'\\
 \strut ~
 
-`Tea bags? Why?' asked Nim, not unreasonably.\\
+`Tea bags? Why?' asked Nim, eyebrows raised.\\
 \strut ~
 
 `Everyone knows that Earl Grey tea relaxes students\ldots{}' said Jane dreamily.\\
 \strut ~
 
-`How do you know?' Nim said, unintentionally aggressive.\\
+`How do you know that?' Nim said.\\
 \strut ~
 
 `It \emph{does},' snapped Jane.
@@ -1315,7 +1430,7 @@ I suppose we'll all start feeling stressed soon.'\\
 ~
 \end{quote}
 
-Nim considers studying Jane's assertion as a \textbf{feasible} and \textbf{practical} SCI110 project.
+Nim considers studying Jane's assertion as the basis for a \textbf{feasible} and \textbf{practical} SCI110 project.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1411,14 +1526,14 @@ $\phantom{0}\phantom{0}7.5$ & $\phantom{0}8.0$ & $\phantom{0}11.2$ & $\phantom{0
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  What is the unit of analysis: the test, the board, each measurement, kilonewtons, or something else?
+  What is the unit of analysis: the test, the board, the Janka hardness, each measurement, kilonewtons, or something else?
   Explain your answer.
   \greyboxlines{2}
 \item
-  How many units of analysis are there?
+  \emph{How many} units of analysis are there?
   \greyboxlines{1}
 \item
-  How many units of observation are there?
+  \emph{How many} units of observation are there?
   \greyboxlines{1}
 \item
   Suppose the measurements were all taken from \(10\)~\emph{different} places on the \emph{same} board (rather than from five different boards).
@@ -1481,23 +1596,23 @@ to help you understand some of the words used in the content.
 \textbf{Across}
 \begin{enumerate}\tightlist
   \item[\textbf{4.}] 
-  The first step in the research process is to \verb|____| the research question (3)  
+  The first step in the research process is to \verb|___| the research question (3)  
   \item[\textbf{5.}]
-  RQs in which groups are compared numerically are called \verb|____| (10)  
+  RQs in which groups are compared numerically are called \verb|__________| (10)  
   \item[\textbf{6.}]
-  `Conceptual' and `Operational' are types of \verb|____| (11)  
+  `Conceptual' and `Operational' are different types of \verb|___________| (11)  
   \item[\textbf{8.}]
-  RQs may be decision making-type RQs or \verb|____|-type RQs (10)  
+  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
   \item[\textbf{9.}]
   The type of research where data are \emph{not} summarised using numerical methods (11)  
   \item[\textbf{11.}]
-  Research is used to provide \verb|____|-based answers to RQs (8)  
+  Research is used to provide \verb|________|-based answers to RQs (8)  
   \item[\textbf{13.}]
-  The sample size is the number of \verb|____| of analysis (5)  
+  The sample size is the number of \verb|_____| of analysis (5)  
   \item[\textbf{14.}]
   What we do with the data to find an answer to the RQ (7)  
   \item[\textbf{15.}]
-  A confounding variable, but is not measured or recorded, is a \verb|____| variable (7)
+  A confounding variable, but is not measured or recorded, is a \verb|_______| variable (7)
 
 \end{enumerate}
 
@@ -1512,9 +1627,9 @@ to help you understand some of the words used in the content.
   \item[\textbf{3.}]
   The second step in the research process (6)  
   \item[\textbf{7.}]
-  After designing a study, the next step is to \verb|____| the data (7)  
+  After designing a study, the next step is to \verb|_______| the data (7)  
   \item[\textbf{10.}]
-  Independent collections of units of observations are called unit of \verb|____| (8)
+  Independent collections of units of observations are called unit of \verb|________| (8)
   \item[\textbf{12.}]
   The collected information to answer the RQ is called \verb|____| (4)  
 
@@ -1571,6 +1686,13 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
+\begin{tipBox}{iconmonstr-info-6-240.png}
+You should bring your calculator to tutorials from next week onwards.
+
+\end{tipBox}
+
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial2}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -1616,20 +1738,27 @@ What factors are preventing the adoption of household solar technologies in Sant
   \greyboxlines{1}
 \item
   Identify the best description of this sampling method:
-  The researchers stood outside a busy shopping centre, and surveyed every ninth person who entered.
+  The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
   \null
   \greyboxlines{1}
 \end{enumerate}
 
+\section{Class discussion}\label{TW2-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: A larger sample is always better than smaller sample.
+
+\end{discussBox}
+
 \section{Study design}\label{StudyDesign}
 
-A student group was studying this RQ (which is \textbf{not} appropriate for the SCI110 Project):
+A student group was studying this RQ (which is \textbf{not} appropriate for the SCI110 Project; Task 2):
 
 \begin{quote}
 Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?
 \end{quote}
 
-Explain \emph{why}, according to the \emph{Guidelines}, this RQ is not appropriate for Task~2.
+Explain \emph{why}, according to the \emph{Guidelines}, this RQ is \emph{not} appropriate for Task~2.
 \greyboxlines{2}
 
 The students gave the following information about their study.
@@ -1642,7 +1771,7 @@ Explain \textbf{why} each of these statements is \textbf{incorrect}.
   ``The design is observational, as we cannot manipulate each person's serum cholesterol.''
   \greyboxlines{2}
 \item
-  ``The Outcome is `\emph{the average serum cholesterol concentration for smokers and non-smokers}'.''
+  ``The Outcome is \emph{the average serum cholesterol concentration for smokers and non-smokers}.''
   \greyboxlines{2}
 \item
   ``The study is not externally valid, as the results may not apply to all people in the world.''
@@ -1651,13 +1780,13 @@ Explain \textbf{why} each of these statements is \textbf{incorrect}.
   ``The response variable is \emph{serum cholesterol}.''
   \greyboxlines{2}
 \item
-  ``In this experiment, the population is `\emph{Australians}'.''
+  ``In this experiment, the population is \emph{Australians}.''
   \greyboxlines{2}
 \item
   ``The data file will have two columns: one for smokers, and one for non-smokers.''
   \greyboxlines{2}
 \item
-  ``\,`\emph{Whether or not the person owns a cat}' is likely to be a confounding variable.''
+  ``\emph{Whether or not the person owns a cat} is likely to be a confounding variable.''
   \greyboxlines{2}
 \item
   ``The \emph{observer effect} is not relevant, as the participants will know they are involved in a study.''
@@ -1711,13 +1840,13 @@ The primary outcome was a change in the Fugl-Meyer score at \(12\)~weeks, as com
   \item[\textbf{5.}] 
   Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
   \item[\textbf{6.}]
-  Patients were assigned \verb|____| to the type of therapy received (8)  
+  Patients were assigned \verb|________| to the type of therapy received (8)  
   \item[\textbf{11.}]
-  This type of study is called a \verb|____| study (12)  
+  This type of study is called a \verb|____________| study (12)  
   \item[\textbf{12.}]
   A lovely place to relax, with sand and surf (5)
   \item[\textbf{13.}]
-  The size of the \verb|____| is $127$ (6)
+  The size of the \verb|______| is $127$ (6)
 \end{enumerate}
 
 \newcolumn
@@ -1726,15 +1855,15 @@ The primary outcome was a change in the Fugl-Meyer score at \(12\)~weeks, as com
 
 \begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  When individuals change their behaviour if they think they are being observed: the \verb|____| effect (9)
+  When individuals change their behaviour if they think they are being observed: the \verb|_________| effect (9)
   \item[\textbf{2.}]
-  The evaluators were unaware of the group the patient was in; they were \verb|____| to the treatment (5)
+  The evaluators were unaware of the group the patient was in; they were \verb|_____| to the treatment (5)
   \item[\textbf{4.}]
-  Informed consent ensures the study is \verb|____| (7)
+  Informed consent ensures the study is \verb|_______| (7)
   \item[\textbf{7.}]
-  The treatment of `usual care' would be considered to be the \verb|____| group (7)
+  The treatment of `usual care' would be considered to be the \verb|_______| group (7)
   \item[\textbf{8.}]
-  The type of therapy is called the \verb|____| (9)
+  The type of therapy is called the \verb|_________| (9)
   \item[\textbf{9.}]
   The research question is of this type (10)
   \item[\textbf{10.}]
@@ -1742,21 +1871,20 @@ The primary outcome was a change in the Fugl-Meyer score at \(12\)~weeks, as com
 \end{enumerate}
 \end{multicols}
 
-\pagebreak
-
 \section{Assessing reports}\label{AssessReport}
 
 A report in \emph{The Sydney Morning Herald} (\citeproc{ref-data:Berry:AgedCheese}{Berry 2016}) was entitled `Aged cheese could help you age well'.
-Based on this information, answer the following questions.
+The research was based partly on a study of mice, and partly on a study of people.
+Based on this headline, answer the following questions.
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  What are reasonable suggestions for the outcome and response variable? \tightlist
+  What are reasonable suggestions for the outcome and response variable, given this headline? \tightlist
   \greyboxlines{2}
 \item
-  What are reasonable suggestions for the comparison and explanatory variable?
+  What are reasonable suggestions for the comparison and explanatory variable, given this headline?
   \greyboxlines{2}
 \item
   Would you expect the study to be observational or experimental?
@@ -1774,7 +1902,6 @@ Control mice drank normal water.
 \end{quote}
 
 The researchers then found that the addition of spermidine `\,``significantly extended'' the {[}average{]} lifespan of the mice\ldots{}'.
-
 Based on this information, answer the following questions.
 
 \begin{enumerate}
@@ -1821,7 +1948,7 @@ Based on this information, answer the following questions.
   Explain.
   \greyboxlines{2}
 \item
-  Are the following variables likely to be extraneous variables, confounding variables, or neither?
+  Are the following variables likely to be extraneous variables, control variables, confounding variables, or none of these?
   \textbf{Explain.}
 
   \begin{enumerate}
@@ -1841,7 +1968,7 @@ Based on this information, answer the following questions.
   \end{enumerate}
 \end{enumerate}
 
-The newspaper article is based on a research paper (\citeproc{ref-eisenberg2016cardioprotection}{Eisenberg et al. 2016}), in which the diets of more than \(800\) Italians were recorded in~1995, 2000 and~2005.
+The newspaper article is based on a research paper (\citeproc{ref-eisenberg2016cardioprotection}{Eisenberg et al. 2016}), in which the diets of more than \(800\) Italians were recorded in~1995, 2000 and~2005 for the study of people.
 From 1995 to~2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
 
 Those with the highest spermidine intakes had a \(40\)\% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes.
@@ -1856,8 +1983,23 @@ Those with the highest spermidine intakes also had a significantly lower risk of
   \greyboxlines{1}
 \end{enumerate}
 
-The study reports that the biggest contributor to spermidine intakes was wholemeal foods (accounting for \(13.4\)\% of intake), apples and pears (\(13.3\)\%), salad (\(9.8\)\%), vegetable sprouts (\(7.3\)\%) and potatoes (\(6.4\)\%).
-Aged cheese appeared in the list in sixth place (\(2.9\)\% of intake).
+The study reports that the biggest contributors to spermidine intakes were:
+
+\begin{itemize}
+\tightlist
+\item
+  wholemeal foods (accounting for \(13.4\)\% of intake);
+\item
+  apples and pears (\(13.3\)\%),
+\item
+  salad (\(9.8\)\%),
+\item
+  vegetable sprouts (\(7.3\)\%), and
+\item
+  potatoes (\(6.4\)\%).
+\item
+  aged cheese (\(2.9\)\%).
+\end{itemize}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -1868,12 +2010,13 @@ Aged cheese appeared in the list in sixth place (\(2.9\)\% of intake).
   Explain.
   \greyboxlines{2}
 \item
-  Is a cause-and-effect relationship reasonable?
+  Is the cause-and-effect relationship, as implied in the article headline, reasonable?
   Explain.
   \greyboxlines{2}
+\item
+  What did you learn from this study?
+  \greyboxlines{1}
 \end{enumerate}
-
-\pagebreak
 
 \section{Planning a research study}\label{PlanStudy2}
 
@@ -2009,6 +2152,8 @@ For example:
 
 \end{tipBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial3}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -2016,8 +2161,9 @@ We \textbf{strongly} recommend trying these \emph{Quick revision} questions \tex
 
 \end{preClassBox}
 
-A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome (\citeproc{ref-carvalho2020stop}{de Carvalho et al. 2020}) had \(n = 60\) adults undergo a sleep study.
+In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome (\citeproc{ref-carvalho2020stop}{de Carvalho et al. 2020}), \(n = 60\) adults underwent a sleep study.
 Part of the data are shown in Table~\ref{tab:OSAKable}.
+(REI is the Respiratory Event Index; REI under~\(5\) refers to no sleep apnoea; REI of \(30\)~or over refers to severe sleep apnoea.)
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2033,6 +2179,13 @@ Part of the data are shown in Table~\ref{tab:OSAKable}.
 \item
   How would you \emph{classify} the variable \texttt{BMI}? \tightlist
   \null
+  \greyboxlines{1}
+\item
+  How would you \emph{classify} the variable \texttt{REI}? \tightlist
+  \null
+  \greyboxlines{1}
+\item
+  What did you learn from this study?
   \greyboxlines{1}
 \end{enumerate}
 
@@ -2062,9 +2215,16 @@ $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
 \end{tabular}
 \end{table}
 
+\section{Class discussion}\label{TW3-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: Two datasets can have the same numerical summaries but tell very different stories.
+
+\end{discussBox}
+
 \section{Using the calculator statistics mode for a small data set}\label{StatsMode}
 
-The data in Table~\ref{tab:PolyTable} give the usage, in tonnes, of polythene by eight UK cosmetic companies (\citeproc{ref-gilchrist2000regression}{Gilchrist 2000}).
+Table~\ref{tab:PolyTable} shows the polythene usage, in tonnes, by eight UK cosmetic companies (\citeproc{ref-gilchrist2000regression}{Gilchrist 2000}).
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2180,7 +2340,7 @@ Your tutor will have information.
 
 \section{Interpreting graphs}\label{InterpretingGraphs}
 
-A study of Weddell seals (\citeproc{ref-data:Bryden1984:WeddellSeals}{Bryden et al. 1984}) measured, among other things, body length.
+A study of Weddell seals (\citeproc{ref-data:Bryden1984:WeddellSeals}{Bryden et al. 1984}) measured, among other things, the seal body length.
 A histogram of the body length of \(90\)~female seals is shown in Fig.~\ref{fig:Bryden1984Fig3b}.
 
 \begin{enumerate}
@@ -2195,6 +2355,9 @@ A histogram of the body length of \(90\)~female seals is shown in Fig.~\ref{fig:
 \item
   Critique the graph.
   \greyboxlines{3}
+\item
+  Write a one-sentence summary of the body length of female Weddell seals suitable for a publicity brochure.
+  \greyboxlines{2}
 \end{enumerate}
 
 \begin{figure}[hbtp]
@@ -2206,7 +2369,7 @@ A histogram of the body length of \(90\)~female seals is shown in Fig.~\ref{fig:
 \caption{A histogram of the body length of female Weddell seals}\label{fig:Bryden1984Fig3b}
 \end{figure}
 
-\section{\texorpdfstring{\textbf{Drills}: computational exercises}{Drills: computational exercises}}\label{Chapter3Drills}
+\section{\texorpdfstring{\textbf{Optional drills}: computational exercises}{Optional drills: computational exercises}}\label{Chapter3Drills}
 
 \emph{(Answers appear in Sect. \ref{Lecture3Answers})}
 
@@ -2456,7 +2619,7 @@ The Week~4 content is essential for:
 \item
   \textbf{Task~2A}, which requires you to \emph{suggest appropriate numerical summaries, and suggest appropriate graphs};
 \item
-  \textbf{Task~2B}, which requires you to \emph{produce appropriate numerical summaries and produce appropriate graphs};
+  \textbf{Task~2B}, which requires you to \emph{produce and interpret appropriate numerical summaries and produce and interpret appropriate graphs};
 \item
   \textbf{Quiz~2}, which includes questions about \emph{numerical summaries and graphs}; and
 \item
@@ -2485,6 +2648,8 @@ You should bring your calculator to tutorials from this week onwards.
 
 \end{tipBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial4}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -2494,6 +2659,7 @@ We \textbf{strongly} recommend trying these \emph{Quick revision} questions \tex
 
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome (\citeproc{ref-carvalho2020stop}{de Carvalho et al. 2020}) had \(n = 60\) adults (\(27\)~females; \(33\)~males) undergo a sleep study.
 Part of the data are in Table~\ref{tab:OSAKable3}.
+(REI is the Respiratory Event Index; an REI under~\(5\) refers to no sleep apnoea; an REI of \(30\)~or over refers to severe sleep apnoea.)
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -2521,7 +2687,19 @@ Part of the data are in Table~\ref{tab:OSAKable3}.
   In the sample of \(n = 60\), what are the \textbf{odds} that an individual is female?
   \null
   \greyboxlines{1}
+\item
+  Use the jamovi output in Fig.~\ref{fig:OSAoutput} to find the mean of \emph{Gender}, and explain what this mean.
+  \greyboxlines{3}
 \end{enumerate}
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.75\linewidth]{SoftwareImages/OSADescriptive} 
+
+}
+
+\caption{A numerical summary of the OSA data: jamovi}\label{fig:OSAoutput}
+\end{figure}
 
 \begin{table}
 \centering
@@ -2548,6 +2726,13 @@ $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\section{Class discussion}\label{TW4-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: The raw data is more useful than a graphical summary.
+
+\end{discussBox}
 
 \section{Percentages and odds}\label{PercentOddsStroke}
 
@@ -2606,7 +2791,7 @@ Females & 97 & 39\\
   \null
   \greyboxlines{2}
 \item
-  Construct a numerical summary table (see Table~\ref{tab:StrokeSymptomsSummary}).
+  Construct a numerical summary table by completing Table~\ref{tab:StrokeSymptomsSummary}.
 \end{enumerate}
 
 \begin{table}
@@ -2690,6 +2875,9 @@ Non-athletes & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\p
   Compute the percentage of college students in the \emph{sample} that have received exactly one concussion.
   \greyboxlines{2}
 \item
+  Compute the percentage of college students in the population that have received two or more concussions.
+  \greyboxlines{2}
+\item
   Many possible graphs exists to display the data; four are shown in Fig.~\ref{fig:SoccerGraph}.
   What is the main message from each graph?
   Which graph do you think is best?
@@ -2717,6 +2905,9 @@ Non-athletes & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\p
 \item
   Which one of these tables is probably more sensible?
   Why?
+  \greyboxlines{2}
+\item
+  What did you learn from this study?
   \greyboxlines{2}
 \end{enumerate}
 
@@ -2783,7 +2974,7 @@ Of these \(433\)~bridges, \(36\)~bridges collapsed due to deterioration, and \(8
   \end{enumerate}
 \end{enumerate}
 
-\section{\texorpdfstring{\textbf{Drills}: Computational exercises}{Drills: Computational exercises}}\label{Chapter4Drills}
+\section{\texorpdfstring{\textbf{Optional drills}: Computational exercises}{Optional drills: Computational exercises}}\label{Chapter4Drills}
 
 \emph{(Answers appear in Sect. \ref{Lecture4Answers})}
 
@@ -2999,6 +3190,8 @@ Take careful note of which chapters are covered in this tutorial!
 
 \end{readBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial5}
 
 Lunn and McNeil (\citeproc{ref-others:lunn:cida}{1991}) compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
@@ -3055,9 +3248,12 @@ Since the third bar has a height of \(4\), the median breadth is \(4\,\text{mm}\
   \null
   \greyboxlines{1}
 \item
-  What would be measured if the difference between the mean breadths was defined as \(\mu_A - \mu_B\)?
+  If the difference was defined as \(\mu_A - \mu_B\), what does this \emph{measure}?
   \null
   \greyboxlines{2}
+\item
+  What did you learn from this study?
+  \greyboxlines{1}
 \end{enumerate}
 
 \begin{figure}[hbtp]
@@ -3068,6 +3264,13 @@ Since the third bar has a height of \(4\), the median breadth is \(4\,\text{mm}\
 
 \caption{A boxplot of the breadth of jellyfish at two sites.}\label{fig:JellyfishBoxplots}
 \end{figure}
+
+\section{Class discussion}\label{TW5-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: A badly designed experiment with lots of data is worse than a small, well-designed one.
+
+\end{discussBox}
 
 \section{Critiquing students' numerical summaries}\label{CritiqueStudentSummaries}
 
@@ -3102,23 +3305,23 @@ You don't know what `standard error' means yet, so don't worry about that column
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{1}
 \item
-  Critique the numerical summary in Fig.~\ref{fig:StudentsNumSumB}, a screenshot from a student Project Report.
-  (You don't know what `standard error' means yet, so don't worry about that column.)
+  Critique the numerical summary in Fig.~\ref{fig:StudentsNumSumChiA}, a screenshot from a student Project Report.
   Identify ways to improve the numerical summary.
 
-  The RQ is `\emph{What is the difference between the mean burn rates of generic and brand-name sparklers?}'
+  The RQ is `\emph{Is there a difference between the proportions of drink orders that are for coffee (rather than non-coffee) comparing the morning and the afternoon?}'
 \end{enumerate}
-
-\greyboxlines{4}
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.6\linewidth]{ProjectImages/StudentResults2} 
+{\centering \includegraphics[width=1\linewidth]{ProjectImages/NumericalSummaryChi2} 
 
 }
 
-\caption{A numerical summary from a student Project.}\label{fig:StudentsNumSumB}
+\caption{A numerical summary from a student Project.}\label{fig:StudentsNumSumChiA}
 \end{figure}
+
+Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task~2B.
+\greyboxlines{4}
 
 \section{Critiquing students' graphs}\label{CritiqueStudentGraphs1}
 
@@ -3147,18 +3350,18 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \setcounter{enumi}{1}
 \tightlist
 \item
-  Critique the graph in Fig.~\ref{fig:StudentsGraphsB}, a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
+  Critique the graph in Fig.~\ref{fig:StudentsGraphsChiB}, a screenshot from a student Project Report comparing the percentage of students at UniSC wearing grey-scale clothing between females and males.
 \end{enumerate}
 
 \greyboxlines{4}
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.75\linewidth]{ProjectImages/DodgyBar} 
+{\centering \includegraphics[width=0.75\linewidth]{ProjectImages/GraphicalSummaryChi2} 
 
 }
 
-\caption{A graph from a student Project.}\label{fig:StudentsGraphsB}
+\caption{A graph from a student Project.}\label{fig:StudentsGraphsChiB}
 \end{figure}
 
 \begin{enumerate}
@@ -3181,6 +3384,9 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \caption{A graph from a student Project.}\label{fig:StudentsGraphsC}
 \end{figure}
 
+Make some notes about important things you learnt from this activity, to remember when creating your graphs for Task~2B.
+\greyboxlines{4}
+
 \section{Understanding correlations}\label{UnderstandCorrelations}
 
 Answer the following questions, referring to Fig.~\ref{fig:GuessesCorr}.
@@ -3197,11 +3403,14 @@ The four correlation coefficients \(r\) are:
 \endgroup{}
 \end{table}
 
-For two plots, a correlation is not suitable.
-
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
+\item
+  For two plots, a correlation is not suitable.
+  Which two?
+  Explain your answer.
+  \greyboxlines{2}
 \item
   Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
   \greyboxlines{3}
@@ -3450,6 +3659,8 @@ Appendices~\ref{ZTablesNEG} and~\ref{ZTablesPOS}.
 
 \end{tipBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial6}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -3468,25 +3679,33 @@ are rated as having a GVM between \(10.7\) and \(26.0\)~tonnes (depending on the
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  What is the \(z\)-score for the lower limit of \(10.7\)~tonnes? \tightlist
+  What is the \(z\)-score for the lightest truck of \(10.7\)~tonnes? \tightlist
   \null
   \greyboxlines{2}
 \item
-  What is the \(z\)-score for the upper limit of \(26.0\)~tonnes?
+  What is the \(z\)-score for the heaviest truck of \(26.0\)~tonnes?
   \null
   \greyboxlines{2}
 \item
-  What does a \emph{negative} \(z\)-score mean?
+  What does a \emph{negative} \(z\)-score mean in this context?
   \null
   \greyboxlines{2}
 \item
   \textbf{True} or \textbf{false}:
   A standard error measures the size of the difference between the \textbf{sample} proportion and the \textbf{population} proportion.
+  Explain.
 \end{enumerate}
+
+\section{Class discussion}\label{TW6-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: Outliers should always be removed from a dataset before analysis.
+
+\end{discussBox}
 
 \section{Normal distributions and IQs}\label{NormalIQs}
 
-Standard IQs in current use are designed so that the IQ scores of the \emph{population} have a normal distribution with a mean of~\(100\), and a standard deviation of~\(15\).
+Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the \emph{population} have a normal distribution with a mean of~\(100\), and a standard deviation of~\(15\).
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3627,10 +3846,21 @@ Explain the difference between the meaning of the \textbf{first two} statements.
 
 \section{Random coin tosses}\label{RandomCardDraws}
 
+\begin{wrapfigure}[5]{R}{.25\textwidth} % The first optional input is the number of lines allowed for the image to be placed in
+  \centering%
+  \vspace{-30pt}% This removes some white space
+  \includegraphics[width=.24\textwidth]{QRcodes/RandomOrgCoinToss.png}%
+\end{wrapfigure}
+
+In this activity, we see an example of a sampling distribution that can be described by a normal distribution.
+
 Use
-the website \url{https://www.random.org/coins/}
+the website \url{https://www.random.org/coins/} (you can use the QR code to get there quickly)
 to flip \textbf{ten} Australian one-dollar coins at random (see Fig.~\ref{fig:CoinTosser}).
-(Click \emph{Games} from the top, then \emph{Coin flipper}, then select the options to toss \(10\) coins, and use an Australian \$1 coin.)
+Click \emph{Games} from the top, then \emph{Coin flipper}, then select the options to toss \(10\) coins, and use an Australian \$1 coin.)
+
+Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete
+Table~\ref{tab:CoinDataTable}.
 
 \begin{figure}[hbtp]
 
@@ -3640,9 +3870,6 @@ to flip \textbf{ten} Australian one-dollar coins at random (see Fig.~\ref{fig:Co
 
 \caption{Using the online random coin-tosser}\label{fig:CoinTosser}
 \end{figure}
-
-Repeat this process numerous times (if you are in a class, each student can repeat the process numerous times so you get a large number of tosses), and complete
-Table~\ref{tab:CoinDataTable}.
 
 \begin{table}
 \centering
@@ -3688,15 +3915,16 @@ Table~\ref{tab:CoinDataTable}.
   How would you describe the histogram?
   \greyboxlines{4}
 \item
-  I did the same thing, but I repeated the process of tossing \(10\) coins \(400\) times.
+  I also `tossed' \(10\)~coins, but repeated this random process \(400\)~times.
   My histogram is shown in Fig.~\ref{fig:HistCoinToss}.
   How would you describe the histogram?
   \greyboxlines{2}
 \item
   Sketch the theoretical \emph{sampling distribution} of the sampling proportion.
+  What does this sketch show you?
   \greyboxlines{4}
 \item
-  How would this \emph{sampling distribution} change if we looked the proportion of heads in \(50\) tosses of a coin?
+  How would this \emph{sampling distribution} change if we looked the proportion of heads in \(50\)~tosses of a coin (rather than \(10\)~tosses)?
   \greyboxlines{2}
 \end{enumerate}
 
@@ -3755,6 +3983,12 @@ The daily SOI has an approximate normal distribution, and is designed to have a 
 \item
   The SOI is \emph{greater} than what value about~\(35\)\% of the time?
   \greyboxlines{2}
+\item
+  What is the probability that the daily SOI exceeds~\(55\)?
+  \greyboxlines{2}
+\item
+  The SOI is \emph{greater} than what value about~\(50\)\% of the time?
+  \greyboxlines{2}
 \end{enumerate}
 
 \chapter{Teaching Week 7: tutorial}\label{Lecture7}
@@ -3807,6 +4041,8 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial7}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -3828,6 +4064,13 @@ We \textbf{strongly} recommend trying these \emph{Quick revision} questions \tex
   True or false: A 95\% confidence interval will contain approximately 95\% of the observations.
 \end{enumerate}
 
+\section{Class discussion}\label{TW7-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: If we have \emph{greater} confidence in our answer, we would expect to have a \emph{smaller} range of values to choose from.
+
+\end{discussBox}
+
 \section{Concepts}\label{ConceptsMatches}
 
 Claire and Jake were wondering about the mean number of matches in a box.
@@ -3840,8 +4083,8 @@ An average of \(45\) matches per box.
 They purchased a carton containing \(25\)~boxes of matches, and Jake counted the number of matches in \emph{one} of those \(25\)~boxes.
 There was \(44\)~matches.
 
-`Oh wow. Just wow.' said Jake.
-`They lie. There's only \(44\)~matches in this box.'
+``Oh wow. Just wow\ldots{}'' said Jake.
+``They lie. There's only \(44\)~matches in this box.''
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3850,16 +4093,17 @@ There was \(44\)~matches.
   How would you clarify Jake's confusion?\tightlist
   \greyboxlines{2}
 \item
-  Then, they counted the number of matches in \emph{each} of the twenty-five boxes.
+  Then, Jake and Claire counted the number of matches in \emph{each} of the twenty-five boxes.
   Claire found that the mean number of matches per box was \(44.9\)~matches, and the standard deviation was \(0.124\).
 
-  Jake notes that the mean is \(44.9\)~matches per box, and says: `You can't have \(0.9\) of a match. That's dumb.'
+  Jake says, ``A mean of \(44.9\)~matches per box?
+  You can't have \(0.9\) of a match!
+  That's dumb.''
   How would you respond?
   \greyboxlines{2}
 \item
-  `Wow!' said Jake.
-  `The claim is \(45\)~matches per box on average, but the mean really is \(44.9\)!
-  They're liars! Liar, liar, pants on\ldots{}'
+  ``The claim is \(45\)~matches per box on average, but the mean really is \(44.9\)!'' said Jake.
+  ``They're liars! Liar, liar, pants on\ldots{}''
 
   Identify the two concepts that Jake is confusing.
   How would you clarify Jake's confusion?
@@ -3868,22 +4112,23 @@ There was \(44\)~matches.
   What two broad reasons could explain why the sample mean is \emph{not} \(45\)?
   \greyboxlines{2}
 \item
-  `Come on, Jake,' said Claire.
-  `As if the mean will be \emph{exactly} \(45\) in a sample every single time.
-  Let's work out the confidence interval.'
+  Claire says, ``The mean won't be \emph{exactly} \(45\) in every sample of \(25\) boxes!
+  Let's work out the confidence interval.''
 
   Why does Claire think a CI is needed?
   What will it tell them?
   \greyboxlines{2}
 \item
-  What is an approximate \(95\)\% confidence interval for the mean for Claire's sample?
+  Compute an approximate \(95\)\% confidence interval for the mean for Claire's sample.
   \greyboxlines{2}
 \item
-  `Aha---I told you so! They \emph{are} absolutely lying!
-  Your confidence interval doesn't even include their mean of \(45\)!' said Jake.
-  `The manufacturer \emph{must} be lying!'
+  ``Aha---I told you so!\\
+  They \emph{are} absolutely lying!
+  Your confidence interval doesn't even include their mean of \(45\)!'' said Jake.
+  ``The manufacturer \emph{must} be lying!
+  I'm calling my lawyer!''
 
-  Is Jake correct?
+  Is Jake correct that the manufacturer \emph{must} be lying?
   Why or why not?
   What does the CI \emph{mean}?
   \greyboxlines{2}
@@ -4065,7 +4310,7 @@ A summary of the diameters of a sample of \(125\) of Eagle Boys' large pizzas is
   \greyboxlines{2}
 \end{enumerate}
 
-\section{\texorpdfstring{\textbf{Drills}: Computational exercises}{Drills: Computational exercises}}\label{Chapter6Drills}
+\section{\texorpdfstring{\textbf{Optional drills}: Computational exercises}{Optional drills: Computational exercises}}\label{Chapter6Drills}
 
 \emph{(Answers appear in Sect. \ref{Lecture6Answers})}
 
@@ -4158,6 +4403,8 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
+\pagebreak
+
 \section{Quick revision}\label{QuickRevision-Tutorial8}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
@@ -4179,6 +4426,13 @@ We \textbf{strongly} recommend trying these \emph{Quick revision} questions \tex
   True or false:
   The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
 \end{enumerate}
+
+\section{Class discussion}\label{TW8-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: Confidence intervals are more informative than \(P\)-values.
+
+\end{discussBox}
 
 \section{The decision-making process}\label{DecisionMakingProcess}
 
@@ -4266,11 +4520,30 @@ Statistica.com,
 
 Suppose a group of \(35\)~Swedish computer programmers at a large company includes \(12\)~that wear contact lenses.
 Is there evidence in this sample that a \emph{greater} proportion of Swedish programmers wear contact lenses at this company, compared to the general Swedish population?
-Conduct a test, then write a conclusion (including a CI).
-\greyboxlines{5}
 
-What assumptions are needed for this test to be statistically valid, and externally valid?
-\greyboxlines{2}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Write the hypotheses for conducting the appropriate hypothesis test.
+  \greyboxlines{2}
+\item
+  Compute the value of the appropriate sample statistic.
+  \greyboxlines{2}
+\item
+  Compute the value of the appropriate standard error of the statistic.
+  What does this value \emph{mean}?
+  \greyboxlines{2}
+\item
+  Compute the value of the appropriate test statistic.
+  \greyboxlines{3}
+\item
+  Write a conclusion (including a CI).
+  \greyboxlines{5}
+\item
+  What assumptions are needed for this test to be statistically valid, and externally valid?
+  \greyboxlines{2}
+\end{enumerate}
 
 \section{Tests for one mean}\label{HTOneMean-A}
 
@@ -4419,10 +4692,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
-\begin{tipBox}{iconmonstr-info-6-240.png}
-Some of this week's content may be needed for your Task~2B.
-
-\end{tipBox}
+\pagebreak
 
 \section{Quick revision}\label{QuickRevision-Tutorial9}
 
@@ -4431,7 +4701,6 @@ We \textbf{strongly} recommend trying these \emph{Quick revision} questions \tex
 
 \end{preClassBox}
 
-Researchers studied the impact of a gluten-free diet (needed by coeliacs) on dental cavities (\citeproc{ref-khalaf2020caries}{Khalaf et al. 2020}).
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
@@ -4491,6 +4760,13 @@ An \emph{exact} \(95\)\%~CI is given as for the difference is \(-2.32\) to \(2.7
 \end{enumerate}
 
 \greyboxlines{2}
+
+\section{Class discussion}\label{TW9-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: If the mean of Group~A is \(\bar{x}_1 = 12.0\,\text{cm}\) and the mean of Group~B is \(\bar{x}_2 = 14.2\,\text{cm}\), then the two means are clearly different.
+
+\end{discussBox}
 
 \section{Matching RQs and hypotheses}\label{MatchRQHypothesis}
 
@@ -4640,6 +4916,9 @@ For this type of amputee, is the mean 2MWT \textbf{improved} (i.e., longer dista
   Is it reasonable to assume the assumptions are satisfied?
   How does Fig.~\ref{fig:2MWTHisto} help, if at all?
   \greyboxlines{2}
+\item
+  What did you learn from this study?
+  \greyboxlines{2}
 \end{enumerate}
 
 \begin{figure}[hbtp]
@@ -4653,20 +4932,20 @@ For this type of amputee, is the mean 2MWT \textbf{improved} (i.e., longer dista
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics{09-TW9-Tutorial_files/figure-latex/2MWTHisto-1} 
-
-}
-
-\caption{Histogram of differences for the increases in 2MWT with implant.}\label{fig:2MWTHisto}
-\end{figure}
-
-\begin{figure}[hbtp]
-
 {\centering \includegraphics[width=0.95\linewidth]{ArticleImages/Guirao2017-SPSSoutput-blind} 
 
 }
 
 \caption{Output from SPSS for the 2MWT example, partially edited.}\label{fig:2MWTSPSS}
+\end{figure}
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics{09-TW9-Tutorial_files/figure-latex/2MWTHisto-1} 
+
+}
+
+\caption{Histogram of differences for the increases in 2MWT with implant.}\label{fig:2MWTHisto}
 \end{figure}
 
 \section{CI and test for the ruler-drop}\label{PlanStudy7}
@@ -4682,7 +4961,7 @@ For rats, is the mean lifetime \emph{shorter} for rats on a \emph{free-choice} d
 \end{quote}
 
 Berger et al. (\citeproc{ref-data:Berger1988:RatsData}{1988}) compared the lifetime of rats on a healthy, restricted diet (\(106\)~rats) and on a free-eating diet (\(89\)~rats).
-The data set is large, so we only show an extract of the data (Fig.~\ref{fig:RatLifetimesDatajamovi}).
+The data set is large, so only an extract of the data is shown (Fig.~\ref{fig:RatLifetimesDatajamovi}).
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -4718,8 +4997,7 @@ The data set is large, so we only show an extract of the data (Fig.~\ref{fig:Rat
     If we repeated everything many times, \(95\)\% of the CIs constructed would contain the difference between the population means.
   \end{enumerate}
 \item
-  The above statement communicating the CI isn't perfect.
-  Why not?
+  The best statement above for communicating the CI is missing an important piece of information.
   Write an improved statement communicating the CI.
   \greyboxlines{2}
 \item
@@ -4755,7 +5033,7 @@ The data set is large, so we only show an extract of the data (Fig.~\ref{fig:Rat
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.27\linewidth]{SoftwareImages/RatLivesData-jamovi} 
+{\centering \includegraphics[width=0.27\linewidth]{SoftwareImages/RatLivesData-jamovi} \includegraphics[width=0.26\linewidth]{SoftwareImages/RatLivesData-jamovi2} 
 
 }
 
@@ -4934,10 +5212,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 \end{readBox}
 
-\begin{tipBox}{iconmonstr-info-6-240.png}
-Some of this week's content may be needed for your Task~2B.
-
-\end{tipBox}
+\pagebreak
 
 \section{Quick revision}\label{QuickRevision-Tutorial10}
 
@@ -4951,6 +5226,7 @@ She uses \(50\)~different sites, allocating the two grasses at random to the sit
 
 After \(12\)~months, the ecologist records whether the soil salinity at each site has improved, and hence computes the \emph{odds} that each grass will improve the salinity.
 She finds a statistically significant difference between the odds in the two groups.
+
 Which of these statements is \emph{consistent} with this conclusion?
 
 \begin{enumerate}
@@ -4969,6 +5245,13 @@ Which of these statements is \emph{consistent} with this conclusion?
 
 How would the other statements be interpreted then?
 \greyboxlines{4}
+
+\section{Class discussion}\label{TW10-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, or \emph{percentages}?
+
+\end{discussBox}
 
 \section{Consistency}\label{Consistency}
 
@@ -5258,7 +5541,7 @@ For each of the following scenarios:
 \begin{enumerate}
 \def\labelenumi{\alph{enumi}.}
 \item
-  determine the appropriate method of analysis (if none are appropriate, identify the correct analysis):
+  determine the appropriate method of analysis (if none are appropriate, say so then identify the correct analysis):
 
   \begin{enumerate}
   \def\labelenumii{\roman{enumii}.}
@@ -5401,7 +5684,14 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
-\section{Confidence intervals}\label{CIConcrete}
+\pagebreak
+
+\section{Quick revision}\label{QuickRevision-Tutorial11}
+
+\begin{preClassBox}{iconmonstr-home-7-240.png}
+We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+
+\end{preClassBox}
 
 In a study of high strength--high ductile concrete, Ranade et al. (\citeproc{ref-data:Ranada2015:Concrete}{2015}) measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
 
@@ -5410,17 +5700,28 @@ Under a strain rate of \(10\,\text{s}^{-1}\), the \(n = 6\) concrete samples pro
 One student computes the approximate \(95\)\%~CI for the mean first-crack strength as \(12.4\pm 2.8\,\text{MPa}\).
 Another student computes the approximate \(95\)\%~CI for the mean first-crack strength as \(12.4\pm (2\times 2.8)\), or from~\(6.8\) to~\(18.0\,\text{MPa}\).
 
+\emph{Both} students are incorrect.
+
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \emph{Both} students are incorrect.
-  Explain \emph{why} the students are incorrect, and explain what they actually have calculated instead.
+  Explain \emph{why} Student~1 is incorrect, and explain what the student actually calculated.
+  \greyboxlines{4}
+\item
+  Explain \emph{why} Student~2 is incorrect, and explain what the student actually calculated.
   \greyboxlines{4}
 \item
   Compute the correct (approximate) \(95\)\%~CI.
   \greyboxlines{4}
 \end{enumerate}
+
+\section{Class discussion}\label{TW11-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: A `statistically significant' result means a real discrepancy or effect.
+
+\end{discussBox}
 
 \section{Critiquing past students' reports 1}\label{CritiqueReports1}
 
@@ -5501,7 +5802,7 @@ The data for success and failure at insertion is given in Table \ref{tab:AirwayT
   Write the hypotheses to be tested.
   \greyboxlines{4}
 \item
-  Use the software output in Fig.~\ref{fig:Tanagawa1998jamoviCrossTabs}) to test the hypotheses.
+  Use the software output in Fig.~\ref{fig:Tanagawa1998jamoviCrossTabs} to test the hypotheses.
   Write a proper conclusion to communicate the results.
   \greyboxlines{4}
 \item
@@ -5635,7 +5936,9 @@ You will learn and practice the content associated with these chapters of the \h
 
 \end{readBox}
 
-\section{Quick revision}\label{QuickRevision-Tutorial11}
+\pagebreak
+
+\section{Quick revision}\label{QuickRevision-Tutorial12}
 
 \begin{preClassBox}{iconmonstr-home-7-240.png}
 We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
@@ -5675,6 +5978,13 @@ In autumn, the correlation coefficient was given as \(r = 0.931\).
   What does this mean?
   \null
 \end{enumerate}
+
+\section{Class discussion}\label{TW12-Class-Discussion}
+
+\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
+\textbf{Discuss}: The values of \(y\) (the data) and \(\hat{y}\) (the model predictions) should be as close as possible.
+
+\end{discussBox}
 
 \section{Understanding correlations and regression}\label{UnderstandCorrelationsRegressions}
 
@@ -6254,6 +6564,8 @@ Answers implied by H5P.
 \item
   \(45\div 240 = 18.75\)\% of all college students in the sample have received one concussion.
 \item
+  We cannot calculate this as we \textbf{do not} have a population; we only have a sample.
+\item
   Not sure which is best; they do different things.
   I'd probably prefer~(c) (bottom left graph).
 \item
@@ -6387,21 +6699,24 @@ Total & 93 & 664 & 757\\
   A standard deviation cannot be negative. (Same applies to standard errors, but we aren't there yet.)
   Note that there is a sample size of~\(0\) for the difference!
 \item
-  A few issues:
-  Five decimal places: That's accuracy to \(0.00001\) of a millimetre per second (I don't think so\ldots).
-  There is no numerical measures of the most important thing and the thing the RQ (presumably) concerns:
-  The \emph{differences} between the two brands.
+  The RQ is about a \emph{discrepancy} in proportions, or \emph{odds}, but these are not present in the table.
 \end{enumerate}
 
 \subsection*{Answers for Sect.~\ref{CritiqueStudentGraphs1}}\label{answers-for-sect.-refcritiquestudentgraphs1}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
+  \textless!--
 \item
   A few issues: this is not a \emph{summary}: this shows the burn-time of every individual candle, and makes it hard to compare \emph{means} (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
   In addition: the largest value is over \(70\,\text{mins}\)! Do a \emph{quick} project!
+  --\textgreater{}
+\item
+  Reasonably good!
+  The label on the vertical axis is a bit misleading: it is the \emph{number} of students; some wear grey-scale clothing and some do not.
 \item
   A few issues: Compares just two numbers (means) using lots of ink; no indication of \emph{variation} in the data; a boxplot (or dotchart) would be appropriate.
 \end{enumerate}
@@ -6412,11 +6727,12 @@ Total & 93 & 664 & 757\\
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
+  Correlation is inappropriate for \textbf{Plot~4} (non-linear) and \textbf{Plot~5} (non-linear).
+\item
   \textbf{Plot~1}: \(0.94\) (correlation~\textbf{D});
   \textbf{Plot~2}: \(-0.95\) (correlation~\textbf{A});
   \textbf{Plot~3}: \(0.12\) (correlation~\textbf{B});
   \textbf{Plot~6}: \(0.75\) (correlation~\textbf{C}).\\
-  Correlation is inappropriate for Plot~4 (non-linear) and Plot~5 (non-linear).
 \item
   Examples of the direction in \textbf{Plot~1}: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
 \item
@@ -6770,25 +7086,27 @@ Answers implied by H5P.
 
 \subsection*{Answers for Sect.~\ref{HTOneProportionA}}\label{answers-for-sect.-refhtoneproportiona}
 
-\(H_0\): \(p = 0.3\) and \(H_1\): \(p > 0.3\).
-Here, \(n = 35\) and \(\hat{p} = 12/35 = 0.3428571\).
-Then,\\
-\[
-   \text{s.e.}(\hat{p}) 
-   = \sqrt{\frac{0.3 \times 0.7}{35}} = 0.07745967,
-\]
-(make sure to use \(p\) not \(\hat{p}\) in the standard error calculation for the test!), and so\\
-\[
-   z = \frac{0.3428571 - 0.3}{0.07745967} = 0.553. 
-\]
-This is very small---less than one standard deviation from the mean---so the \(P\)-value will be quite large:
-
-`The data present no evidence (\(z = 0.55\); \(P\) large) that computer programmers are more likely to wear contact lenses (\(\hat{p} = 0.342\); approx. \(95\)\% CI from \(0.182\) to \(0.503\)).'
-
-For \emph{statistical validity}, we require that the number of people \emph{with} and \emph{without} contact lenses to be at least~\(5\), which is true (\(12\) and \(23\) respectively).
-For \emph{external validity}, the sample must be a random sample of Swedish programmers.
-
-(For the CI, remember to use \(\hat{p}\) in the standard error calculation: \(\text{s.e.}(\hat{p}) = 0.0802329\).)
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(H_0\): \(p = 0.3\) and \(H_1\): \(p > 0.3\).
+\item
+  \(\hat{p} = 12/35 = 0.3428571\).
+\item
+  \(\text{s.e.}(\hat{p})
+  = \sqrt{0.3 \times 0.7/35} = 0.07745967\).
+  (Make sure to use \(p\) not \(\hat{p}\) in the standard error calculation for the test!)
+\item
+  \(z = (0.3428571 - 0.3)/0.07745967 = 0.553\).
+\item
+  The \(z\)-value is very small---less than one standard deviation from the mean---so the \(P\)-value will be quite large:
+  `The data present no evidence (\(z = 0.55\); \(P > 0.05\)) that computer programmers are more likely to wear contact lenses (\(\hat{p} = 0.342\); approx. \(95\)\% CI from \(0.182\) to \(0.503\)).'
+  (For the CI, remember to use \(\hat{p}\) in the standard error calculation: \(\text{s.e.}(\hat{p}) = 0.0802329\).)
+\item
+  For \emph{statistical validity}, we require that the number of people \emph{with} and \emph{without} contact lenses to be at least~\(5\), which is true (\(12\) and \(23\) respectively).
+  For \emph{external validity}, the sample must be a random sample of Swedish programmers.
+\end{enumerate}
 
 \subsection*{Answers for Sect.~\ref{HTOneMean-A}}\label{answers-for-sect.-refhtonemean-a}
 
@@ -7127,28 +7445,6 @@ Did not use artifical limb & 0.525 & 1.11 & 40\\
 \(n = (2\times 7.145\div 0.5)^2 = 816.8\), so use guesses from \(817\)~students.
 
 \section{Answer: TW 11 tutorial}\label{Lecture11Answers}
-
-\subsection*{Answers for Sect.~\ref{CIConcrete}}\label{answers-for-sect.-refciconcrete}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Both students are incorrect as they used \(s\) rather than \(\text{s.e.}(\bar{x})\).
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Student~A:
-    This is an approximate \(68\)\%~CI for the values of individual concrete samples, not for the mean, \textbf{assuming the individual first-crack strengths have an approximate normal distribution}.
-  \item
-    Student~B:
-    This is an approximate \(95\)\%~CI for the values of individual concrete samples, not for the mean, \textbf{assuming the individual first-crack strengths are approximately normally distributed}.
-  \end{itemize}
-\item
-  We need to use the \emph{standard error} because the question asks about a sample mean\ldots{} and standard errors tells us how much the sample means are likely to vary.
-  \(12.4\pm(2\times 2.8\div\sqrt{6})\), or \(12.4\pm 2.286\,\text{MPa}\), or from \(10.11\) to~\(14.69\,\text{MPa}\).
-\end{enumerate}
 
 \subsection*{Answers for Sect.~\ref{CritiqueReports1}}\label{answers-for-sect.-refcritiquereports1}
 
@@ -7541,37 +7837,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 8 0 8 9 7 & 7 1 1 8 0 & 9 8 0 5 1 & 7 0 4 7 5 & 6 1 5 6 7\\
-Row B & 5 7 3 7 7 & 4 4 0 6 1 & 9 3 0 2 3 & 8 4 8 3 9 & 6 7 6 7 4\\
-Row C & 4 9 7 1 8 & 3 4 9 0 8 & 6 3 1 0 8 & 9 2 1 0 3 & 9 3 6 3 7\\
-Row D & 5 4 0 6 3 & 2 9 3 3 8 & 9 7 3 3 6 & 4 6 2 1 8 & 4 5 6 1 5\\
-Row E & 9 5 6 4 5 & 6 1 2 1 2 & 4 3 4 8 1 & 5 4 5 4 7 & 8 9 6 9 7\\
+Row A & 6 4 1 3 8 & 6 2 4 1 2 & 2 4 2 2 8 & 2 5 5 0 8 & 9 0 0 6 1\\
+Row B & 3 0 3 4 3 & 6 1 8 6 5 & 4 5 9 9 1 & 6 7 7 3 9 & 7 9 3 0 0\\
+Row C & 6 3 8 0 2 & 1 9 3 4 2 & 1 1 2 9 9 & 6 4 1 3 7 & 0 8 8 5 0\\
+Row D & 5 9 0 1 4 & 0 4 5 8 5 & 7 6 5 3 3 & 2 3 0 7 5 & 0 1 7 0 7\\
+Row E & 0 2 4 6 8 & 0 3 2 0 8 & 3 1 1 2 4 & 9 0 1 6 3 & 8 0 9 7 5\\
 \addlinespace
-Row F & 5 5 0 5 2 & 4 3 0 5 5 & 5 6 4 8 5 & 7 2 7 6 3 & 1 3 4 7 8\\
-Row G & 0 3 5 9 5 & 8 3 5 5 3 & 7 2 5 0 1 & 6 6 7 8 6 & 1 3 6 6 6\\
-Row H & 3 8 9 6 0 & 9 5 2 2 1 & 7 1 7 3 3 & 5 5 8 8 8 & 3 8 4 1 3\\
-Row I & 0 8 9 3 8 & 4 7 0 6 5 & 6 7 9 0 5 & 8 3 0 7 0 & 7 1 4 7 0\\
-Row J & 2 9 0 8 8 & 9 4 5 0 7 & 5 8 6 0 2 & 8 5 6 4 9 & 5 8 1 5 6\\
+Row F & 2 6 5 9 5 & 2 5 2 5 5 & 4 0 0 9 8 & 7 4 3 3 8 & 7 3 2 3 6\\
+Row G & 9 3 3 5 5 & 1 3 5 0 0 & 1 3 7 1 2 & 3 2 8 1 1 & 9 4 4 2 2\\
+Row H & 0 6 2 0 2 & 1 4 9 5 4 & 0 8 5 3 7 & 2 9 9 0 6 & 2 5 8 3 9\\
+Row I & 3 2 6 8 0 & 2 7 1 6 9 & 3 3 8 4 3 & 1 1 3 0 5 & 3 8 7 0 4\\
+Row J & 6 6 8 4 7 & 5 1 3 4 1 & 8 0 3 8 3 & 2 7 1 1 9 & 2 4 0 9 8\\
 \addlinespace
-Row K & 3 2 6 9 3 & 2 4 0 3 6 & 5 3 4 1 7 & 5 8 3 6 0 & 6 0 5 0 9\\
-Row L & 9 0 8 1 8 & 8 4 6 1 6 & 2 3 4 5 5 & 6 7 1 0 3 & 1 2 2 4 2\\
-Row M & 1 5 4 2 3 & 0 0 3 8 8 & 6 6 7 3 2 & 3 4 6 6 8 & 0 4 8 7 2\\
-Row N & 2 3 1 8 8 & 5 8 7 6 9 & 0 1 8 2 4 & 4 4 5 0 9 & 9 0 7 6 6\\
-Row O & 6 0 8 7 5 & 4 1 5 1 8 & 9 5 8 2 5 & 2 9 2 3 6 & 9 9 7 7 9\\
+Row K & 8 3 5 9 2 & 2 3 8 3 1 & 7 7 9 1 6 & 4 2 0 0 0 & 8 2 0 5 3\\
+Row L & 6 3 4 3 9 & 2 1 8 0 6 & 5 5 9 8 2 & 0 7 8 0 1 & 5 0 8 0 2\\
+Row M & 1 3 3 0 3 & 6 1 1 0 9 & 4 0 8 2 1 & 4 3 5 9 0 & 8 4 3 3 0\\
+Row N & 0 6 7 1 0 & 1 9 8 1 0 & 4 9 5 2 3 & 6 0 9 0 9 & 5 4 2 6 4\\
+Row O & 3 1 8 7 2 & 3 8 2 8 8 & 9 0 2 7 5 & 1 4 0 0 9 & 8 3 8 4 2\\
 \addlinespace
-Row P & 5 1 9 3 6 & 9 6 1 7 1 & 4 7 8 6 3 & 2 5 7 0 8 & 2 6 4 2 0\\
-Row Q & 4 2 8 8 0 & 7 7 7 2 1 & 2 3 0 6 9 & 8 3 5 2 8 & 1 9 3 6 2\\
-Row R & 9 8 5 8 1 & 5 2 5 6 8 & 2 8 1 4 8 & 9 1 0 0 6 & 8 1 6 5 0\\
-Row S & 0 4 9 1 0 & 9 3 9 7 8 & 8 1 5 9 4 & 0 0 3 3 6 & 8 7 8 9 1\\
-Row T & 6 9 7 6 2 & 0 9 2 6 9 & 7 0 1 1 3 & 3 9 0 2 7 & 4 1 5 3 3\\
+Row P & 5 8 1 6 1 & 4 5 7 6 0 & 3 4 3 3 4 & 1 9 4 1 0 & 9 0 0 4 9\\
+Row Q & 7 7 1 4 8 & 4 2 7 0 5 & 1 1 5 6 6 & 2 2 9 1 1 & 6 6 2 2 7\\
+Row R & 0 7 5 6 3 & 1 9 8 1 4 & 0 8 4 2 2 & 8 1 4 5 1 & 9 7 5 7 8\\
+Row S & 1 2 8 4 6 & 3 9 3 5 5 & 4 3 0 5 7 & 3 5 1 5 2 & 7 1 2 9 4\\
+Row T & 8 5 6 6 5 & 6 4 0 7 1 & 2 0 0 8 6 & 0 0 6 3 1 & 3 5 7 1 7\\
 \addlinespace
-Row U & 1 7 0 6 6 & 9 5 8 7 3 & 2 9 3 7 4 & 2 5 6 3 5 & 0 5 5 0 5\\
-Row V & 3 1 9 2 2 & 2 0 2 2 9 & 5 9 0 8 1 & 9 9 4 4 5 & 4 3 0 5 0\\
-Row W & 0 0 5 9 4 & 8 3 7 1 4 & 3 1 4 8 0 & 8 0 5 4 4 & 5 8 0 3 0\\
-Row X & 5 7 8 7 1 & 8 9 0 6 9 & 5 7 2 1 9 & 6 8 5 0 4 & 2 8 6 4 7\\
-Row Y & 7 7 2 7 9 & 8 3 0 1 9 & 3 9 6 5 9 & 6 7 0 8 4 & 0 6 2 5 9\\
+Row U & 9 7 5 7 3 & 5 8 6 7 5 & 4 9 3 8 2 & 2 7 5 5 1 & 6 7 4 5 9\\
+Row V & 4 0 3 0 7 & 9 5 3 8 6 & 4 9 3 7 7 & 4 9 9 4 2 & 1 4 8 9 9\\
+Row W & 3 0 3 2 6 & 2 3 7 9 5 & 1 5 0 4 3 & 3 5 2 9 4 & 5 3 5 1 6\\
+Row X & 1 3 2 6 9 & 4 2 5 0 3 & 9 2 2 1 6 & 6 9 9 8 3 & 8 5 7 4 3\\
+Row Y & 9 3 4 1 7 & 4 9 0 0 9 & 3 1 1 4 3 & 5 7 8 5 4 & 0 8 5 4 9\\
 \addlinespace
-Row Z & 4 1 9 5 7 & 9 9 9 6 0 & 8 7 7 1 6 & 8 2 2 7 2 & 5 2 9 8 2\\
+Row Z & 2 1 4 5 6 & 2 6 8 3 3 & 4 4 8 7 8 & 1 2 7 1 9 & 3 8 2 4 1\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -7860,7 +8156,7 @@ Australian Bureau of Statistics. How {A}ustralians measure up {[}Internet{]}. {A
 Barkley JE, Lepp A. Cellular telephone use during free-living walking significantly reduces average walking speed. {BMC} Research Notes. 2016;9(195):1--5.
 
 \bibitem[\citeproctext]{ref-package:webex}
-Barr D, DeBruine L. Webexercises: Create interactive web exercises in 'r markdown' (formerly 'webex') {[}Internet{]}. 2021. Available from: \href{https://github.com/psyteachr/webexercises}{https://github.com/psyteachr/webexercises.}
+Barr D, DeBruine L. Webexercises: Create interactive web exercises in '{R Markdown}' (formerly 'webex') {[}Internet{]}. 2021. Available from: \href{https://github.com/psyteachr/webexercises}{https://github.com/psyteachr/webexercises.}
 
 \bibitem[\citeproctext]{ref-bartlett1935contingency}
 Bartlett MS. Contingency table interactions. Supplement to the Journal of the Royal Statistical Society. JSTOR; 1935;2(2):248--52.
@@ -7890,7 +8186,7 @@ Dunn PK. Assessing claims made by a pizza chain. Journal of Statistical Educatio
 Eisenberg T, Abdellatif M, Schroeder S, Primessnig U, Stekovic S, Pendl T, et al. Cardioprotection and lifespan extension by the natural polyamine spermidine. Nature Medicine. Nature Publishing Group US New York; 2016;22(12):1428--38.
 
 \bibitem[\citeproctext]{ref-package:viridis}
-Garnier S, Ross N, Rudis R, Camargo AP, Sciaini M, Scherer C. {viridis(Lite)} - colorblind-friendly color maps for r {[}Internet{]}. 2024. Available from: \href{https://sjmgarnier.github.io/viridis/}{https://sjmgarnier.github.io/viridis/.}
+Garnier S, Ross N, Rudis R, Camargo AP, Sciaini M, Scherer C. {viridis(Lite)} - colorblind-friendly color maps for {R} {[}Internet{]}. 2024. Available from: \href{https://sjmgarnier.github.io/viridis/}{https://sjmgarnier.github.io/viridis/.}
 
 \bibitem[\citeproctext]{ref-data:Gausche200:Endotracheal}
 Gausche M, Lewis RJ, Stratton SJ, Haynes BE, Gunter CS, Goodrich SM, et al. Effect of out-of-hospital pediatric endotracheal intubation on survival and neurological outcome: A controlled clinical trial. Journal of the {A}merican Medical Association. 2000;283(6):783--90.
@@ -7915,9 +8211,6 @@ Ingenbleek Y, McCully KS. Vegetarianism produces subclinical malnutrition, hyper
 
 \bibitem[\citeproctext]{ref-data:jaworowska2012:determination}
 Jaworowska A, Blackham T, Stevenson L, Davies IG. Determination of salt content in hot takeaway meals in the {U}nited {K}ingdom. Appetite. 2012;59(2):517--22.
-
-\bibitem[\citeproctext]{ref-khalaf2020caries}
-Khalaf ME, Akbar A, Alkhubaizi Q, Qudeimat M. Caries among adult patients with controlled celiac disease: A cross-sectional study. Special Care in Dentistry. Wiley Online Library; 2020;40(5):457--63.
 
 \bibitem[\citeproctext]{ref-khan2018alien}
 Khan I, Navie S, George D, O'Donnell C, Adkins SW. Alien and native plant seed dispersal by vehicles. Austral Ecology. Wiley Online Library; 2018;43(1):76--88.
@@ -7953,7 +8246,7 @@ Pamphlett R. Exposure to environmental toxins and the risk of sporadic motor neu
 Pleasant GD, Dabbert CB, Mitchell RB. Nesting ecology and survival of scaled quail in the southern high plains of {T}exas. The Journal of Wildlife Managament. 2006;70(3):632--40.
 
 \bibitem[\citeproctext]{ref-Software:Rsoftware}
-R Core Team. R: A language and environment for statistical computing {[}Internet{]}. Vienna, Austria: R Foundation for Statistical Computing; 2018. Available from: \href{https://www.R-project.org/}{https://www.R-project.org/.}
+R Core Team. {R}: A language and environment for statistical computing {[}Internet{]}. Vienna, Austria: R Foundation for Statistical Computing; 2018. Available from: \href{https://www.R-project.org/}{https://www.R-project.org/.}
 
 \bibitem[\citeproctext]{ref-data:Ranada2015:Concrete}
 Ranade R, Li VC, Heard WF. Tensile rate effects in high strength-high ductility concrete. Cement and Concrete Research. 2015;68:94--104.

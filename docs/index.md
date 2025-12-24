@@ -5,7 +5,7 @@ author: "Peter K. Dunn"
 geometry: margin=27mm
 description: "TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)"
 cover-image: "images/cover-Tutorial.png"
-date: "Last updated: December 14, 2025"
+date: "Last updated: December 24, 2025"
 bibliography: ["ReferenceList.bib"]
 #biblio-style: plain
 csl: journal-of-applied-animal-science.csl
@@ -75,9 +75,9 @@ fontsize: 11pt
 
 
 This book has been prepared for use with the book 
-\textit{Scientific Research and Methodology},
+[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/),
 to be used in the course *Science Research Methods* at the
-University of the Sunshine Coast (UniSC).
+[University of the Sunshine Coast (UniSC)](https://www.usc.edu.au).
 
 This course is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
 It introduces the whole research process,
@@ -95,7 +95,7 @@ In the online version, some answers are implied by working through the online ex
 
 Most of this book can be read without relying on any specific statistical software.
 However, some parts explicitly mention and refer to 
-jamovi
+[jamovi](https://www.jamovi.org/)
 [@Software:jamovi]. 
 jamovi is *free* to download and use.
 
@@ -141,19 +141,23 @@ This icon flags questions that have *video solutions* in the online book: a narr
 These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
 :::
 
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+These call-outs are optional discussion topics that your tutor *may* choose to use in tutorials.
+:::
+
 :::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
-These call-outs highlight **optional** questions, that you might like to do in personal study.
+These call-outs highlight **optional** questions, that you might like to complete for personal study.
 :::
 
 ::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These call-outs highlight drill questions, for practicing some of the mathematical computations.
+These call-outs highlight drill questions, for practising some of the mathematical computations.
 :::
 
 
 ## How this book was made {-}
 
 This book was made using **R** [@Software:Rsoftware], and the **bookdown** package [@Software:Rbookdown], based on 
-Markdown syntax,
+[Markdown](https://en.wikipedia.org/wiki/Markdown) syntax,
 using **knitr** [@package:knitr].
 Numerous other **R** packages were used, including:
 
@@ -167,13 +171,13 @@ All of this software is *free* and open source.
 Other resources used include:
 
 * The online quizzes are embedded using 
-H5P
+[H5P](https://h5p.org)
  iframes.
 * Icons are from 
-**iconmonstr**,
+[**iconmonstr**](https://iconmonstr.com/),
  and are freely available.
 * The cover for the book was made using a free image with 
-Canva.
+[Canva](https://www.canva.com/).
 
 
 

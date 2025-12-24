@@ -1,0 +1,391 @@
+# Teaching Week 2: tutorial {#Lecture2}
+
+
+::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
+You will learn to:
+
+* design quantitative research studies to answer RQs.
+* use and understand the language used in research.
+:::
+
+
+::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
+The Week\ 2 content is essential for:
+
+* **Task\ 2A**, which is largely about the *research design* for answering your own RQ;
+* **Quiz\ 1**, which includes questions about *research design*; and
+* the **Exam**, which will contain questions about *research design*.
+:::
+
+
+::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
+You will learn and practice the content associated with these chapters of the [textbook](https://peterkdunn.github.io/SRM-Textbook/):
+
+* [Chapter 5 (Ethics in research)](https://peterkdunn.github.io/SRM-Textbook/Ethics.html).
+* [Chapter 6 (External validity: sampling)](https://peterkdunn.github.io/SRM-Textbook/Sampling.html).
+* [Chapter 7 (Internal validity)](https://peterkdunn.github.io/SRM-Textbook/DesignInternal.html).
+* [Chapter 8 (Research design limitations)](https://peterkdunn.github.io/SRM-Textbook/Interpretation.html).
+:::
+
+
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+You should bring your calculator to tutorials from next week onwards.
+:::
+
+
+
+\pagebreak
+
+
+
+## Quick revision {#QuickRevision-Tutorial2}
+
+
+::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
+We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+:::
+
+::: {.webex-check .webex-box}
+Consider this RQ  [@walters2018factors]: 
+
+> What factors are preventing the adoption of household solar technologies in Santiago [Chile]?'
+
+1. For this RQ, what is the *Population*? \tightlist
+<div class='webex-radiogroup' id='radio_GWJSEHSWAF'><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Households</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Households in Chile</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value="answer"></input> <span>Households in Santiago</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Solar technologies</span></label></div>
+
+\greyboxlines{1}
+2.  The study will be *externally valid* if:
+<div class='webex-radiogroup' id='radio_DUPIAJGNAK'><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all households in the world</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all solar technologies</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value="answer"></input> <span>the sample is representative of all households in Santiago</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all households in Chile</span></label></div>
+
+<!--
+   * the sample is representative of all households in the world.
+   * the sample is representative of all solar technologies.
+   * the sample is representative of all households in Santiago.
+   * the sample is representative of all households in Chile.
+-->
+3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
+    What is the *best* description of this sampling method?
+<div class='webex-radiogroup' id='radio_YVRJQKRJTB'><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value="answer"></input> <span>Self-selecting</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>Convenience</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>None of the other answers are correct</span></label></div>
+
+\greyboxlines{1}
+4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
+    What is the *best* description of this sampling method?
+<div class='webex-radiogroup' id='radio_ABNYSRDSCX'><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value="answer"></input> <span>Multi-stage</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>Stratified</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>None of the other answers are correct</span></label></div>
+
+\greyboxlines{1}
+5. Identify the best description of this sampling method:
+  The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
+<div class='webex-radiogroup' id='radio_BLOKZMHSDF'><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Simple random sample</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Stratified</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value="answer"></input> <span>None of the other answers are correct</span></label></div>
+
+\greyboxlines{1}
+
+:::
+
+
+
+
+<div class='webex-solution'><button>Solution</button>
+
+1. The RQ states that only households in Santiago will be studied.
+1. External validity means that the sample represents the intended population (i.e., households in Santiago).
+1. Since people only return the survey if they *want* to, this is self-selecting.
+1. There are multiple stages of *random* selection, so this is multi-stage.
+
+</div>
+
+
+
+
+
+## Class discussion {#TW2-Class-Discussion}
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
+**Discuss**: A larger sample is always better than smaller sample.
+:::
+
+
+## Study design {#StudyDesign}
+
+A student group was studying this RQ (which is **not** appropriate for the SCI110 Project; Task 2):
+
+> Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?
+
+Explain *why*, according to the *Guidelines*, this RQ is *not* appropriate for Task\ 2.
+\greyboxlines{2}
+
+The students gave the following information about their study.
+Explain **why** each of these statements is **incorrect**.
+
+1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
+\greyboxlines{2}
+1. "The Outcome is *the average serum cholesterol concentration for smokers and non-smokers*."
+\greyboxlines{2}
+1. "The study is not externally valid, as the results may not apply to all people in the world."
+\greyboxlines{2}
+1. "The response variable is *serum cholesterol*."
+\greyboxlines{2}
+1. "In this experiment, the population is *Australians*."
+\greyboxlines{2}
+1. "The data file will have two columns: one for smokers, and one for non-smokers."
+\greyboxlines{2}
+1. "*Whether or not the person owns a cat* is likely to be a confounding variable."
+\greyboxlines{2}
+1. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
+\greyboxlines{2}
+
+
+
+## Language {#LanguageReport}
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+
+<img src="Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg" width="30%" style="float:right; padding:10px" />
+
+
+
+Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are studying robotics to assist these patients.
+Read the description (line breaks added for clarity) of one such study [@data:Lo2010:RobotAssistance], then complete the crossword 
+below
+regarding this information.
+
+> In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$\ months or more after a stroke, we randomly assigned $49$\ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$\ to receive usual care.  
+> &nbsp;
+>
+> Therapy consisted of $36$ $1$-hour sessions over [...] $12$\ weeks. 
+> The primary outcome was a change in motor function [...] at $12$\ weeks...  
+> &nbsp;
+>
+> We recruited veterans from four participating VA medical centers who were $18$\ years of age or older and had long-term, moderate-to-severe motor impairment of an upper limb from a stroke that had occurred at least $6$ months before enrollment.  
+> &nbsp;
+>
+> Such impairment was defined as a score of\ $7$ to\ $38$ on the Fugl-Meyer Assessment of Sensorimotor Recovery after Stroke, a scale with scores for upper-limb impairment ranging from\ $0$ (no function) to\ $66$ (normal function). 
+> All patients provided written informed consent.
+> Patients were randomly assigned to receive robot-assisted therapy, intensive comparison therapy, or usual care...  
+> &nbsp;
+>
+> Trained evaluators who were unaware of study-group assignments assessed patients\ $6$, $12$, $24$, and $36$\ weeks after randomization.
+> The primary outcome was a change in the Fugl-Meyer score at $12$\ weeks, as compared with the baseline value...
+
+
+<iframe src="https://usc.h5p.com/content/1291418096383708349/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+<!-- <script src="https://www.puzzlefast.com/en/puzzles/2020032904325184E/embed-script?width=650px&height=1300px" type="text/javascript"></script> -->
+
+<!--     <iframe border="0" src="https://crosswordlabs.com/embed/2020-05-24-264?clue_height=300" height="950" style="flex:1; width:100%; padding:5px 0px 0 5px; border:3px solid black; "></iframe> -->
+<!--     <a target="_blank" style="align-self:center; font-size:12px; color:black; padding-top:10px; text-decoration:none;text-align:center" href="https://crosswordlabs.com">Crossword Puzzle Maker</a> -->
+
+
+<!-- PASSCODE:: SCI10 -->
+<!-- I added the  height="800" -->
+<!-- I deleted the enclosing <div> ... </div> -->
+
+
+\pagebreak
+
+
+
+
+<!--
+\begin{multicols}{2}\small
+\textbf{Across}
+
+\begin{enumerate}\tightlist
+  \item[\textbf{3.}]
+  The number of groups being compared (5)  
+  \item[\textbf{5.}] 
+  Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
+  \item[\textbf{6.}]
+  Patients were assigned \verb|________| to the type of therapy received (8)  
+  \item[\textbf{11.}]
+  This type of study is called a \verb|____________| study (12)  
+  \item[\textbf{12.}]
+  A lovely place to relax, with sand and surf (5)
+  \item[\textbf{13.}]
+  The size of the \verb|______| is $127$ (6)
+\end{enumerate}
+
+\newcolumn
+
+\textbf{Down}
+
+\begin{enumerate}\tightlist
+  \item[\textbf{1.}]
+  When individuals change their behaviour if they think they are being observed: the \verb|_________| effect (9)
+  \item[\textbf{2.}]
+  The evaluators were unaware of the group the patient was in; they were \verb|_____| to the treatment (5)
+  \item[\textbf{4.}]
+  Informed consent ensures the study is \verb|_______| (7)
+  \item[\textbf{7.}]
+  The treatment of `usual care' would be considered to be the \verb|_______| group (7)
+  \item[\textbf{8.}]
+  The type of therapy is called the \verb|_________| (9)
+  \item[\textbf{9.}]
+  The research question is of this type (10)
+  \item[\textbf{10.}]
+  Riddle: Feed me, I live; water me, I die (4)
+\end{enumerate}
+\end{multicols}
+-->
+
+
+
+
+## Assessing reports {#AssessReport}
+
+A report in *The Sydney Morning Herald* [@data:Berry:AgedCheese] was entitled 'Aged cheese could help you age well'.
+The research was based partly on a study of mice, and partly on a study of people. 
+Based on this headline, answer the following questions.
+
+1. What are reasonable suggestions for the outcome and response variable, given this headline? \tightlist
+\greyboxlines{2}
+2. What are reasonable suggestions for the comparison and explanatory variable, given this headline? 
+\greyboxlines{2}
+3. Would you expect the study to be observational or experimental?
+   Explain.
+\greyboxlines{2}
+  
+Below is an extract from the newspaper article about the mice study that formed part of the research.
+
+> Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study... \null
+> In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
+> the team supplemented the drinking water of mice with spermidine. 
+> Control mice drank normal water.
+
+The researchers then found that the addition of spermidine '"significantly extended" the [average] lifespan of the mice...'.
+Based on this information, answer the following questions.
+
+4. What are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
+\greyboxlines{2}
+5. What are reasonable suggestions for the comparison and explanatory variable? 
+\greyboxlines{2}
+6. Is the study observational or experimental?
+   Explain.
+\greyboxlines{2}
+7. Does the newspaper headline appear reasonable?
+\greyboxlines{1}
+8. Why do the researchers give some mice plain drinking water?
+\greyboxlines{2}
+
+Below is an extract from the newspaper article for the human study that formed part of the research.
+
+> ... the researchers surveyed $800$ Italians about their diet and found that those who reported a higher intake of spermidine had lower blood pressure...
+
+Based on this information, answer the following questions.
+
+9. What are reasonable suggestions for the outcome and response variable for the human study? \tightlist
+\greyboxlines{2}
+10. What *type* of RQ is suggested: relational, correlational or repeated-measures? 
+\greyboxlines{1}
+11. Is the study observational or experimental?
+    Explain.
+\greyboxlines{2}
+12. Are the following variables likely to be extraneous variables, control variables, confounding variables, or none of these? 
+    **Explain.**
+
+    a. The sex of the person. 
+	  b. The number of siblings.
+	  c. The distance to the nearest hospital.
+	  d. The amount of exercise per week by the person.
+    e. Whether their father had heart problems.
+\greyboxlines{5}
+
+The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the study of people.
+From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
+
+Those with the highest spermidine intakes had a $40$% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes. 
+Those with the highest spermidine intakes also had a significantly lower risk of *any* heart disease, compared to those with the lowest spermidine intakes.
+
+13. Does the newspaper headline appear consistent with the research article?
+\greyboxlines{1}
+
+The study reports that the biggest contributors to spermidine intakes were:
+
+* wholemeal foods (accounting for $13.4$% of intake);
+* apples and pears ($13.3$%), 
+* salad ($9.8$%), 
+* vegetable sprouts ($7.3$%), and 
+* potatoes ($6.4$%).
+* aged cheese ($2.9$%).
+
+14. Based on this information, do you agree with, or not agree with, the newspaper article headline?
+    Explain.
+\greyboxlines{2}
+15. Is the cause-and-effect relationship, as implied in the article headline, reasonable? 
+    Explain.
+\greyboxlines{2}
+16. What did you learn from this study?
+\greyboxlines{1}
+
+
+
+## Planning a research study {#PlanStudy2}
+
+Your tutor will have
+information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1292525075807919739)
+
+
+
+<!-- Documentation tool?? -->
+
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+This activity is very important for your Project.
+:::
+
+
+## Study design features {#StudyFeatures}
+
+
+<!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
+<!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+
+<img src="Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg" width="30%" style="float:right; padding:10px" />
+
+
+
+A study [@data:Truswell1992:crisps] compared the health benefits of crisps ('potato chips') when fried in canola oil or palmolein.
+The article states (line breaks added):
+
+> Recently canola oil crisps have appeared in the market with the implication that their lower proportion of saturated fatty acids would have beneficial effects on plasma cholesterol.  
+> &nbsp;
+>
+> We decided to examine this experimentally... a major manufacturer agreed to fry batches of potato crisps in canola oil or the conventional palmolein for a human trial. 
+> This provided an opportunity for us to run a double blind crossover trial.  
+>
+> --- @data:Truswell1992:crisps
+
+Part of the protocol  for the study is given below:
+
+> Subjects were asked to eat about a third of the day's crisps at the beginning of each meal and then, in the rest of their diets, to eat foods that were low to moderate in fat from a list of such foods...  
+> &nbsp;
+>
+> The crisps were supplied in plain bags, unmarked except for two code characters: 'T4' or 'B9' in 1990 and 'D5' or 'GS' in 1991. 
+> Until the end of the experiment, the type of oil was known only by the food scientist who prepared the crisps.  
+> &nbsp;
+>
+> In 1990, $21$ subjects ($12$ men, $9$ women) completed the $5$\ week experiment. 
+> They were randomly allocated to take palmolein ('B9') or canola ('T4') crisps for the first $3$ weeks, then (without a washout period) changed over to the other type, canola or palmolein for another $2$ weeks. 
+> Thus half the subjects ate (new) canola crisps for $3$ weeks and the (usual) palmolein crisps for the next $2$ weeks.  
+> &nbsp;
+>
+> The other half of the subjects ate palmolein crisps for $3$ weeks and canola crisps for the next $2$ weeks. 
+> The first week of the $3$ weeks served as an adjustment period. 
+> Fasting venous bloods were taken once at the start (usual diet), then for the last $3$ mornings of both the first and second experimental periods.
+>
+> --- @data:Truswell1992:crisps
+
+1. Explain how random *allocation* is used (and why), if at all.
+\greyboxlines{2}
+2. Explain how the impact of the Hawthorne effect has been minimised.
+\greyboxlines{2}
+3. Explain how the impact of the observer effect has been minimised.
+\greyboxlines{2}
+4. Would the carry-over effect play a role? Explain.
+\greyboxlines{2}
+5. Describe the blinding that is used.
+\greyboxlines{2}
+
