@@ -1,5 +1,12 @@
-# Thoughts for teaching {#NonOptionalAnswers}
+<!--
+   THIS FILE IS CALLED FROM 24-TutorialContainer.Rmd:
+   it is included (biot very gracefully) in HTML but not LaTeX.
+-->
+# Thoughts for teaching {#TeachingThoughts}
 
+<!-- 
+  THIS CODE allows the space following the text to be the link to the Teaching resources 
+-->
 Some information for tutors only.
 `r if (knitr::is_html_output()) {
    '[<span style="color: white;">.</span>](#TutorInfo)'
