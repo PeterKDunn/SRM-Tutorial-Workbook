@@ -24,13 +24,6 @@ fontsize: 11pt
 ---
 
 
-<!-- SET THE TITLE ACCORDING TO WHETHER STUDENT OR TUTOR EDITION-->
-
-
-\pagebreak
-
-
-
 
 # Preface {-}
 

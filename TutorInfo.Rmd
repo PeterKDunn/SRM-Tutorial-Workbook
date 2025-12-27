@@ -1,17 +1,9 @@
-<!--
-   THIS FILE IS CALLED FROM 24-TutorialContainer.Rmd:
-   it is included (but not very gracefully) in HTML but not LaTeX.
--->
 # Thoughts for teaching {#TeachingThoughts}
 
-<!-- 
-  THIS CODE allows the space following the text to be the link to the Teaching resources 
+<!--
+   THIS FILE IS CALLED FROM 24-TutorialContainer.Rmd:
+   it is included if tutorVersion (as defined in R/setup.R) is TRUE 
 -->
-Some information for tutors only.
-`r if (knitr::is_html_output()) {
-   '[<span style="color: white;">.</span>](#TutorInfo)'
-}`
-
 
 
 
@@ -500,11 +492,11 @@ If students use the *wrong* standard deviation button, they will get $\sigma = s
 You can have groups answer each part separately, then share their explanations with the class.
 You may wish to quiz the students about means and IQRs too.
 
-For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummary).
+For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummaryAns).
 ```
 
 
-```{r NumericalSummary, echo=FALSE}
+```{r NumericalSummaryAns, echo=FALSE}
 NumSum <- array( dim = c(4, 4))
 
 colnames(NumSum) <- c("A", "B", "C", "D")
@@ -785,13 +777,11 @@ If you have collect data from each person left and right hand (to study the aver
 ```
 
 
-```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center" }
+```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center", out.wodth='50%' }
 include_graphics("SoftwareImages/RulerDropData.png")
 ```
  
  
-
-
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
