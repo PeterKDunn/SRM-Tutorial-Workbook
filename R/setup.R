@@ -14,6 +14,20 @@ library("htmlwidgets")
 library("varhandle")
 library("readr") # For Cafe
 
+
+
+### What type?
+tutorVersion <- TRUE  
+    ### TRUE: Make tutor version with answers and tutor suggestions
+    ### FALSE: Student version
+book_title <- if (tutorVersion) {
+  "Science Research Methods: Tutorials INSTRUCTOR EDITION"
+} else {
+  "Science Research Methods: Tutorials"
+}
+
+
+
 # set global chunk options
 options(formatR.arrow = TRUE,
         width = 90)

@@ -1,4 +1,9 @@
 
+<!--
 ```{r, child = if (knitr::is_html_output()) {'TutorInfo.Rmd'}}
 ```
+-->
 
+
+```{r, child = if (tutorVersion) {'TutorInfo.Rmd'}}
+```

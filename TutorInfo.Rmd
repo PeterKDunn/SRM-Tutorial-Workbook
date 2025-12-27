@@ -1,6 +1,6 @@
 <!--
    THIS FILE IS CALLED FROM 24-TutorialContainer.Rmd:
-   it is included (biot very gracefully) in HTML but not LaTeX.
+   it is included (but not very gracefully) in HTML but not LaTeX.
 -->
 # Thoughts for teaching {#TeachingThoughts}
 
@@ -263,7 +263,6 @@ Sometimes we need to assume answers or just state that we don't know.
 
 ### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
 
-```{block2, type="rmdTutorInfo"}
 The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
 
@@ -337,7 +336,7 @@ Some points:
     If more, what (single) number to report: the slowest? fastest? median? mean?
   - What if the catchers fails to catch the ruler: have another go? or just their bad luck, and they miss a measurement?
   - Can we manage Hawthorne (no), observer effect (ask which hand is dominant *after* collecting data), etc.
-* For example, we may decide to toss a coin to start (Heads: start with left; Tails: start with right), then alternate to have three tries each hand.
+* For example, we may decide to toss a coin to start (*Heads*: start with left; *Tails*: start with right), then alternate to have three tries each hand.
   Report the median for each hand. 
   *After* the toss, ask which hand is dominant.
 
@@ -349,7 +348,6 @@ Notes:
   But this activity often takes me about an hour, so we collect data next week.
 
 **Save the protocol!**
-```
 
 
 

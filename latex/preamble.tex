@@ -41,6 +41,11 @@
 \setfloatlocations{table}{hbtp}
 
 
+
+  
+  
+  
+  
 %%% Box for writing answers
 \usepackage{calc} 
 \newlength{\greyboxheight}
@@ -370,7 +375,7 @@
   
   
 %%% Discuss Box
-\definecolor{DiscussColour}{rgb}{1,1,1}
+\definecolor{DiscussColour}{rgb}{0.95,0.95,0.95}
 \newtcolorbox{discusscolourbox}{
   colback=DiscussColour,
   colframe=DiscussColour,
@@ -455,7 +460,7 @@
 
 %%% TUTOR INFO BOXES
 \newenvironment{rmdTutorInfo}
-  {\begin{rmdblock}{iconmonstr-school-7-240}}
+  {\begin{rmdblock}{iconmonstr-school-15-240}}
   {\end{rmdblock}}
   
 %%% END: CALL-OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -465,7 +470,6 @@
 \makeatletter
 \renewenvironment{quote}
                {\list{}{\vspace{-0.5em}\begin{kframe}\small%
-                        \itemindent    \listparindent
                         \rightmargin   \leftmargin
                         \parsep        \z@ \@plus\p@}%
                 \item\relax}

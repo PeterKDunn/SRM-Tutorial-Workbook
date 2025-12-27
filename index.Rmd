@@ -1,5 +1,6 @@
 ---
-title: "Science Research Methods: Tutorials"
+#title: "Science Research Methods: Tutorials"
+title: "`r book_title`"
 subtitle:  "An introduction to quantitative research and statistics"
 author: "Peter K. Dunn"
 geometry: margin=27mm
@@ -9,7 +10,7 @@ date: "Last updated: `r  format(Sys.time(), '%B %d, %Y')`"
 bibliography: ["ReferenceList.bib"]
 #biblio-style: plain
 csl: journal-of-applied-animal-science.csl
-link-citations: yes  
+link-citations: yes
 documentclass: krantz
 classoption: krantz2
 site: bookdown::bookdown_site
@@ -21,6 +22,13 @@ colorlinks: yes
 #lof: no
 fontsize: 11pt
 ---
+
+
+<!-- SET THE TITLE ACCORDING TO WHETHER STUDENT OR TUTOR EDITION-->
+
+
+\pagebreak
+
 
 
 
