@@ -10,6 +10,8 @@ clean:
 - packages.bib
 - bookdown.bbl
 delete_merged_file: no
+# NOTE: Chapter 24 (TUTOR ANSWERS) inserted optionally at the END of 23-ImageCredits.Rmd
+# Inclusion of this tutor-ony info is controlled in R/setup.R (and only happens for PDF version anyway)
 rmd_files:
 - index.Rmd
 - 01-TW1-Tutorial.Rmd
@@ -28,7 +30,6 @@ rmd_files:
 - 21-Tables.Rmd
 - 22-Symbols.Rmd
 - 23-ImageCredits.Rmd
-- 24-TutorInfoContainer.Rmd
 - 25-References.Rmd
 language:
   label:

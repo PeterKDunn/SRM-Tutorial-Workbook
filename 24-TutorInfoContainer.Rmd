@@ -1,3 +1,0 @@
-
-```{r, child = if (tutorVersion & is_latex_output()) {'TutorInfo.Rmd'}}
-```
