@@ -33,66 +33,47 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial12}
 
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 A study of how weeds spread [@khan2018alien] studied various factors about vehicles that might carry seeds.
 The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
 
 In autumn, the correlation coefficient was given as $r = 0.931$.
 
 1. In this study, what variable would be the $x$-variable? \tightlist  
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("The number of seeds", 
-          answer = "The grams of mud",
-          "The season") )} else {'\\null'}`
 \greyboxlines{1}
 2. In this study, what variable would be the $y$-variable?
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "The number of seeds", 
-          "The grams of mud",
-          "The season") )} else {'\\null'}`
 \greyboxlines{1}
 3. What is the value of $R^2$?
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "86.7%", 
-          "93.1%",
-          "96.5%") )} else {'\\null'}`
 \greyboxlines{1}
-4. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. If 700&nbsp;g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c(answer = "380", 
-          "96422",
-          "-104") )} else {'\\null'}`
+4. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. 
+   If $700\\gs$ of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
 \greyboxlines{2}
 5. In this regression equation, the slope means:
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("Each seed is associated with 137.4 extra grams of mud on average",
-          "Each seed is associated with 0.3459 extra grams of mud on average",
-	        "Each 1g of mud is associated with 137.4 extra seeds on average",
-          answer = "Each 1g of mud is associated with 0.3459 extra seeds on average") )} else {'\\null'}`
 \greyboxlines{2}
 6. The $P$-value for the regression slope was $0.002$. 
    What does this mean?
-`r if( knitr::is_html_output() ) {
-   webexercises::longmcq( c("The slope is 0.002",
-          answer = "The slope is unlikely to be non-zero simply by chance",
-	        "There is evidence that the mean number of seeds is different than the mean grams of mud") )} else {'\\null'}`
+\greyboxlines{2}
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
 1. The $y$-variable is the number of seeds.
 1. $R^2 = (0.931^2) = 0.86676$, or about $86.7$%.
-1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
+1. Using $x = 700$, we would have: $\\hat{y} = 137.4 + (0.3459\\times 700) = 380$ seeds.
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+:::
+")
+}
+```  
 
 
 

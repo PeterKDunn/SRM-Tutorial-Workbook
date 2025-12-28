@@ -50,11 +50,11 @@ These Tables can be found in the textbook appendices, and in this document in
 ## Quick revision {#QuickRevision-Tutorial6}
 
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
 For the simulation, they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution, with a mean of $13$\ tonnes and a standard deviation of $1.3$\ tonnes.
 
@@ -67,41 +67,30 @@ The
 are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the configuration; in 2024). 
 
 1. What is the $z$-score for the lightest truck of $10.7$\ tonnes? \tightlist
-`r if( knitr::is_html_output() ) {
-webexercises::mcq( c("1.77",
-answer = "-1.77", 
-"-0.7",
-"0.7") )} else {'\\null'}`
 \greyboxlines{2}
 1. What is the $z$-score for the heaviest truck of $26.0$\ tonnes?
-`r if( knitr::is_html_output() ) {
-webexercises::mcq( c(answer ="10",
-"-10", 
-"-16",
-"16") )} else {'\\null'}`
 \greyboxlines{2}
 1. What does a *negative* $z$-score mean in this context?
-`r if( knitr::is_html_output() ) {
-webexercises::mcq( c("There has been an error",
-"The mass is larger than average",
-answer = "The mass is lower than average",
-"The mass is a negative number, which is impossible") )} else {'\\null'}`
 \greyboxlines{2}
 1. **True** or **false**:
    A standard error measures the size of the difference between the **sample** proportion and the **population** proportion.
    Explain.
-`r if( knitr::is_html_output() ) {
-webexercises::torf( FALSE) }`
+\greyboxlines{2}
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-1. $z = (10.7 - 13)\div 1.3 = -1.77$.
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
 1. $z = (26.0 -13)/1.3 = 10$.
 1. A *negative* $z$-score means that the value is *less than* the **mean**.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+1. False.
+:::
+")
+}
+```  
 
 
 

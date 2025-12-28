@@ -37,12 +37,12 @@ Take careful note of which chapters are covered in this tutorial!
 
 ## Quick revision {#QuickRevision-Tutorial10}
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$\ different sites, allocating the two grasses at random to the sites ($25$\ sites for each grass).
 
@@ -52,33 +52,24 @@ She finds a statistically significant difference between the odds in the two gro
 Which of these statements is *consistent* with this conclusion?
 
 1. The $\text{OR} = 4.1$ and $P = 0.36$. \tightlist 
-   `r if( knitr::is_html_output() ) {webexercises::longmcq(
-    c(         "Consistent with conclusion",
-      answer = "NOT consistent with conclusion"))}`
-2. The $\text{OR} = 4.1$ and $P = 0.0001$.  
-   `r if( knitr::is_html_output() ) {webexercises::longmcq(
-    c(answer = "Consistent with conclusion",
-               "NOT consistent with conclusion"))}`
-3. The $\text{OR} = 0.91$ and $P = 0.36$.  
-   `r if( knitr::is_html_output() ) {webexercises::longmcq(
-    c(         "Consistent with conclusion",
-      answer = "NOT consistent with conclusion"))}`
+2. The $\text{OR} = 4.1$ and $P = 0.0001$.
+3. The $\text{OR} = 0.91$ and $P = 0.36$.
 4. The $\text{OR} = 0.91$ and $P = 0.0001$.  
-   `r if( knitr::is_html_output() ) {webexercises::longmcq(
-    c(answer = "Consistent with conclusion",
-               "NOT consistent with conclusion"))}`
-\greyboxlines{4}
-
+\greyboxlines{3}
 How would the other statements be interpreted then?
-\greyboxlines{4}
+\greyboxlines{3}
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
-Statements\ 2 and\ 4 are **both* consistent with the information (small $P$-value).
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-value).
+:::
+")
+}
+```  
 
 
 

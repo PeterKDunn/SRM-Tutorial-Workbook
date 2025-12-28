@@ -79,11 +79,11 @@ For example:
 data(OSA)
 ```
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop], $n = 60$ adults underwent a sleep study.
 `r if( knitr::is_html_output() ) {
   'The data are shown in Fig.\\ \\@ref(fig:OSADT).'
@@ -93,50 +93,33 @@ In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carv
 `
 (REI is the Respiratory Event Index; REI under\ $5$ refers to no sleep apnoea; REI of $30$\ or over refers to severe sleep apnoea.)
 
-
 1. How would you *classify* the variable `Age`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  answer = "Quantitative: continuous",
-                      "Qualitative: nominal",
-                      "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
 2. How would you *classify* the variable `Gender`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  "Quantitative: continuous",
-                      answer = "Qualitative: nominal",
-                      "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
 3. How would you *classify* the variable `BMI`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  answer = "Quantitative: continuous",
-                      "Qualitative: nominal",
-                      "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
 4. How would you *classify* the variable `REI`? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Quantitative: discrete", 
-		                  answer = "Quantitative: continuous",
-                      "Qualitative: nominal",
-                      "Qualitative: ordinal") )} else {'\\null'}`
 \greyboxlines{1}
 5. What did you learn from this study?
 \greyboxlines{1}
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. *Age* is quantitative continuous. 
    (Values are rounded down to the nearest year for convenience, but the *variable* is continuous.
    The age of babies, for example, if often quoted in days, weeks or months.)
 2. Qualitative nominal.
 3. Quantitative continuous.
-
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+4. Quantitative continuous.
+:::
+")
+}
+```  
 
 
 ```{r OSAKable, echo=FALSE, warnings=FALSE}

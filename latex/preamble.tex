@@ -410,7 +410,7 @@
   coltext=black,
   boxsep=5pt,
   arc=4pt}
-\newenvironment{preClassBox}[1]
+\newenvironment{startClassBox}[1]
   {\small
   \begin{itemize}[leftmargin=.5in]
   \renewcommand{\labelitemi}{
@@ -429,6 +429,35 @@
   } 
 
   
+  
+%%% PreClass box
+\definecolor{StartClassAnswersColour}{rgb}{0.973, 0.945, 0.922}
+\newtcolorbox{startclassanswercolourbox}{
+  colback=StartClassAnswersColour,
+  colframe=StartClassAnswersColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{startClassAnswersBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{startclassanswercolourbox}
+  \item
+  }
+  {
+  \end{startclassanswercolourbox}
+  \end{itemize}
+  } 
+
+  
+
 
 %%% Chapter-to-read boxes
 \definecolor{ReadColour}{rgb}{0.938, 0.957, 0.957}

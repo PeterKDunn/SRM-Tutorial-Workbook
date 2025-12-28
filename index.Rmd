@@ -152,9 +152,10 @@ These call-out show how the content links to the course assessment.
 These call-outs indicate the relevant chapter of the textbook to read.
 :::
 
-:::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-These call-outs highlight questions to be completed **before your tutorial**.
+:::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These call-outs highlight questions to be completed at the start of each tutorial, as a class.
 :::
+
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 These call-outs offer helpful information.

@@ -36,75 +36,49 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 Consider this RQ (based on @data:jaworowska2012:determination): 
 
 > For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
 
-1.  What *type* of RQ is this? 
-    Explain.\tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						  "Descriptive", 
-                      answer = "Relational",
-                      "Repeated-measures",
-                      "Correlational") )} else {'Descriptive, relational, repeated-measures or correlational?'}`
+1.  What *type* of RQ is this? \tightlist
+    Descriptive, relational, repeated-measures or correlational?
+    Explain.
 \greyboxlines{1}
-2.  What is the *purpose* this RQ? 
-    Explain.\tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						  "Estimation", 
-                      answer = "Decision-making") )} else {'Estimation or decision-making?'}`
+2.  What is the *purpose* this RQ? \tightlist
+    Estimation or decision-making?
+    Explain. 
 \greyboxlines{1}
 3. Is an *intervention* present? 
-   Explain.\tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						  "Yes", 
-                      answer = "No") )} else {'\\null'}`
 \greyboxlines{1}
 4. What is the *outcome* in this RQ?
-   Explain.
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "The amount of salt in each meal",
-        						   answer = "The average amount of salt", 
-                      "The average amount of salt in Chinese and Indian take-away meals",
-                      "London take-away restaurants") )} else {'\\null'}`
+   Explain. 
 \greyboxlines{1}
 5. What is the *response variable*?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "The average amount of salt", 
-                      answer = "The amount of salt in each meal",
-                      "The type of London take-away restaurant") )} else {'\\null'}`
 \greyboxlines{1}
 6. What is the *unit of analysis*?
-   Explain.
-`r if( knitr::is_html_output() ) {  webexercises::longmcq( c(
-        						   "Each restaurant", 
-                       "Each meal",
-                       answer = "We need more information about how the data were collected") )} else {'\\null'}`
+   Explain. 
 \greyboxlines{1}
 7. What is the *unit of observation*?
-   Explain.
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "Each restaurant", 
-                      answer = "Each meal",
-                      "It's hard to know: we need more information about how the data were collected") )} else {'\\null'}`
+   Explain. 
 \greyboxlines{1}
 8. The article states (p. 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
-   What *type* of definition is this?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-        						   "Operational ", 
-                      answer = "Conceptual") )} else {'\\null'}`
+   What *type* of definition is this? 
 \greyboxlines{1}
 :::
 
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
+
+
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **Relational**: there is a comparison (between Chinese and Indian meals).
 1. **No**: the researchers did not determine whether a meal was Chinese or Indian.
 1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
@@ -115,9 +89,11 @@ Consider this RQ (based on @data:jaworowska2012:determination):
    Or it may be the individual meals. *We need more information.* 
 1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
 1. Conceptual: it defines what a word or term means.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
-
+:::
+")
+}
+```  
+  
 
 
 

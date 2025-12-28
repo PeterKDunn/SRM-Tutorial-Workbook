@@ -57,8 +57,8 @@ OSA <- structure(list(ID = 1:60, Age = c(21L, 24L, 26L, 39L, 21L, 29L,
 ```
 
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
 ::: {.webex-check .webex-box}

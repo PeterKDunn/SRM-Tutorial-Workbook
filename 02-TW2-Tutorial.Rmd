@@ -41,71 +41,46 @@ You should bring your calculator to tutorials from next week onwards.
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 Consider this RQ  [@walters2018factors]: 
 
 > What factors are preventing the adoption of household solar technologies in Santiago [Chile]?'
 
 1. For this RQ, what is the *Population*? \tightlist
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Households", 
-		      "Households in Chile",
-                      answer = "Households in Santiago",
-                      "Solar technologies") )} else {'\\null'}`
 \greyboxlines{1}
-2. `r if( knitr::is_latex_output() ) {'Select the correct option:'}` The study will be *externally valid* if:
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "the sample is representative of all households in the world",
-		      "the sample is representative of all solar technologies",
-                      answer = "the sample is representative of all households in Santiago",
-                      "the sample is representative of all households in Chile") )}`
-`r if (knitr::is_html_output()) {'<!--'}`
+2. The study will be *externally valid* if:
    * the sample is representative of all households in the world.
    * the sample is representative of all solar technologies.
    * the sample is representative of all households in Santiago.
    * the sample is representative of all households in Chile.
-`r if (knitr::is_html_output()) {'-->'}`
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
     What is the *best* description of this sampling method?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      answer = "Self-selecting", 
-                      "Systematic",
-                      "Convenience",
-                      "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
     What is the *best* description of this sampling method?
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      answer = "Multi-stage", 
-                      "Systematic",
-                      "Stratified",
-                      "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
 5. Identify the best description of this sampling method:
   The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c(
-                      "Systematic", 
-                      "Simple random sample",
-                      "Stratified",
-                      answer = "None of the other answers are correct") )} else {'\\null'}`
 \greyboxlines{1}
-
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The RQ states that only households in Santiago will be studied.
 1. External validity means that the sample represents the intended population (i.e., households in Santiago).
 1. Since people only return the survey if they *want* to, this is self-selecting.
 1. There are multiple stages of *random* selection, so this is multi-stage.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+:::
+")
+}
+```  
 
 
 

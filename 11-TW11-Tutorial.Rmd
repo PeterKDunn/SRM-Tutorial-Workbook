@@ -32,8 +32,8 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial11}
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
 In a study of high strength--high ductile concrete, @data:Ranada2015:Concrete measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.

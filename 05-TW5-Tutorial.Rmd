@@ -42,7 +42,7 @@ Take careful note of which chapters are covered in this tutorial!
 ## Quick revision {#QuickRevision-Tutorial5}
 
 
-::: {.webex-check .webex-box}
+::: {.webex-box}
 @others:lunn:cida compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
@@ -91,14 +91,8 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
    Describe and compare the breadths of the jellyfish.
 \greyboxlines{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
-`r if( knitr::is_html_output() ) {webexercises::mcq( c(
-        						  answer = "The Site A box", 
-                      "The Site B box") )} else {'\\null'}`
 \greyboxlines{1}
 5. If the difference was defined as $\mu_A - \mu_B$, what does this *measure*?
-`r if( knitr::is_html_output() ) {webexercises::mcq( c(
-        						  answer = "How much larger the mean for Site A was compared to Site B", 
-                      "How much larger the mean for Site B was compared to Site A") )} else {'\\null'}`
 \greyboxlines{2}
 6. What did you learn from this study?
 \greyboxlines{1}
@@ -128,14 +122,19 @@ boxplot(Width ~ Location,
 :::
 
 
-`r if (knitr::is_latex_output()) '<!--'`
-`r webexercises::hide()`
+```{r conditional-text, echo=FALSE, results='asis'}
+if ( (tutorVersion & is_latex_output()) ) {
+    cat("
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
+1. The sample is small, so hard to be certain: *Average* about\\ $10\\mms$; data from about\\ $6$ to\\ $16\\mms$; slightly right skewed; no outliers.
 1. Discuss in class.
-1. The sample is small, so hard to be certain: *Average* about $10$\ mm; data from about $6$ to $16$\ mm; slightly right skewed; no outliers.
-1. Discuss in class.
-1. Discuss in class.
-`r webexercises::unhide()`
-`r if (knitr::is_latex_output()) '-->'`
+1. Site\\ A.
+1. How much larger the mean breath is for Site\\ A jellyfish, compared to Site\\ B jellyfish.
+:::
+")
+}
+```  
 
 
 

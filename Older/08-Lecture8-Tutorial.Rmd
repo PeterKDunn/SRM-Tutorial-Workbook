@@ -23,8 +23,8 @@ In this chapter, you will learn and practice the content associated with these c
 
 ## Quick revision {#QuickRevision-Tutorial8}
 
-::: {.preClassBox .preClass data-latex="{iconmonstr-home-7-240.png}"}
-We **strongly** recommend trying these *Quick revision* questions **before** your tutorial.
+::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+These questions may be answered during an all-class activity.
 :::
 
 ::: {.webex-check .webex-box}
