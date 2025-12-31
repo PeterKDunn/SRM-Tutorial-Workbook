@@ -33,7 +33,7 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial12}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
 
@@ -61,20 +61,6 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 :::
 
 
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
-1. The $y$-variable is the number of seeds.
-1. $R^2 = (0.931^2) = 0.86676$, or about $86.7$%.
-1. Using $x = 700$, we would have: $\\hat{y} = 137.4 + (0.3459\\times 700) = 380$ seeds.
-1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
-:::
-")
-}
-```  
-
 
 
 
@@ -84,6 +70,8 @@ if ( (tutorVersion & is_latex_output()) ) {
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: The values of $y$ (the data) and $\hat{y}$ (the model predictions) should be as close as possible.
 :::
+\mentiQuestion
+
 
 
 ## Understanding correlations and regression {#UnderstandCorrelationsRegressions}

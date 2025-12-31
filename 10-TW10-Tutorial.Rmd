@@ -37,9 +37,11 @@ Take careful note of which chapters are covered in this tutorial!
 
 ## Quick revision {#QuickRevision-Tutorial10}
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 
 ::: {.webex-box}
@@ -59,17 +61,6 @@ Which of these statements is *consistent* with this conclusion?
 How would the other statements be interpreted then?
 \greyboxlines{3}
 :::
-
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-value).
-:::
-")
-}
-```  
 
 
 

@@ -30,7 +30,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You should bring your calculator to tutorials from next week onwards.
+You should bring your calculator to tutorials from **next** week onwards.
 :::
 
 
@@ -41,9 +41,11 @@ You should bring your calculator to tutorials from next week onwards.
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 Consider this RQ  [@walters2018factors]: 
@@ -63,24 +65,10 @@ Consider this RQ  [@walters2018factors]:
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
     What is the *best* description of this sampling method?
 \greyboxlines{1}
-5. Identify the best description of this sampling method:
-  The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
+5. Suppose the researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
+    What is the *best* description of this sampling method?
 \greyboxlines{1}
 :::
-
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. The RQ states that only households in Santiago will be studied.
-1. External validity means that the sample represents the intended population (i.e., households in Santiago).
-1. Since people only return the survey if they *want* to, this is self-selecting.
-1. There are multiple stages of *random* selection, so this is multi-stage.
-:::
-")
-}
-```  
 
 
 
@@ -329,7 +317,7 @@ Your tutor will have
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-This activity is very important for your Project.
+This activity is very important for helping with your Project.
 :::
 
 

@@ -16,7 +16,7 @@ The Week\ 1 content is essential for:
 
 * **Task\ 2A**, where you need to *write your own RQ*;
 * **Quiz\ 1**, which includes questions about *writing RQs and RQ components*; and
-* the **Exam**, which will contain questions about *RQs*
+* the **Exam**, which will contain questions about *RQs and RQ components*.
 :::
 
 
@@ -36,9 +36,11 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 Consider this RQ (based on @data:jaworowska2012:determination): 
@@ -54,6 +56,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
     Explain. 
 \greyboxlines{1}
 3. Is an *intervention* present? 
+   If so, what is it?
 \greyboxlines{1}
 4. What is the *outcome* in this RQ?
    Explain. 
@@ -71,29 +74,6 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 \greyboxlines{1}
 :::
 
-
-
-
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. **Relational**: there is a comparison (between Chinese and Indian meals).
-1. **No**: the researchers did not determine whether a meal was Chinese or Indian.
-1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
-1. A variable is measured on an **individual**; in this case, the amount of salt in the individual meals.
-1. The **unit of analysis** depends on how the data were collected.  
-   Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.  
-   Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
-   Or it may be the individual meals. *We need more information.* 
-1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
-1. Conceptual: it defines what a word or term means.
-:::
-")
-}
-```  
-  
 
 
 
@@ -268,7 +248,7 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     a. All university students.
     b. Female university students about to do an exam.
     c. UniSC students.
-    d. Queensland university students.      	 
+    d. Queensland university students.
 2. Identify an *outcome* that Nim can measure to answer the research question.
    Justify your answer.
 \greyboxlines{3}

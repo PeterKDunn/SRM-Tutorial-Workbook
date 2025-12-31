@@ -50,9 +50,11 @@ These Tables can be found in the textbook appendices, and in this document in
 ## Quick revision {#QuickRevision-Tutorial6}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 A new method for evaluating bridge loads [@obrien2018probabilistic] used a simulation to compare the new method to an existing method.
@@ -78,19 +80,6 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 \greyboxlines{2}
 :::
 
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
-1. $z = (26.0 -13)/1.3 = 10$.
-1. A *negative* $z$-score means that the value is *less than* the **mean**.
-1. False.
-:::
-")
-}
-```  
 
 
 

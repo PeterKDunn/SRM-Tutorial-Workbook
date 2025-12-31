@@ -41,8 +41,6 @@
 \setfloatlocations{table}{hbtp}
 
 
-
-  
   
   
   
@@ -65,7 +63,9 @@
     valign=center,
     colback=white,
     left=4pt,
-    right=4pt, top=4pt, bottom=4pt,
+    right=4pt, 
+    top=4pt, 
+    bottom=4pt,
     before skip=4pt,
     after skip=4pt
   ]
@@ -73,7 +73,6 @@
 }{%
   \end{tcolorbox}
 }
-
 \newcommand{\greyboxlines}[1]{\noindent\begin{greybox}{#1}\end{greybox}}
 
 
@@ -170,9 +169,13 @@
   
 
 %%% START: CALL OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
+% ROADMAP type: 
+% - Objective, 
+% - Assessment, 
+% - Text references
+
 %%% Objectives boxes
-\definecolor{ObjColour}{rgb}{0.926, 0.910, 0.980}
+\definecolor{ObjColour}{rgb}{0.878, 0.820, 0.980}
 \newtcolorbox{objectivescolourbox}{
   colback=ObjColour,
   colframe=ObjColour,
@@ -201,7 +204,7 @@
   
   
 %%% Link to Assessment boxes
-\definecolor{AssessmentColour}{rgb}{0.926, 0.910, 0.980}
+\definecolor{AssessmentColour}{rgb}{0.878, 0.820, 0.980}
 \newtcolorbox{assessmentcolourbox}{
   colback=AssessmentColour,
   colframe=AssessmentColour,
@@ -228,9 +231,222 @@
 
 
 
+%%% Chapter-to-read boxes
+\definecolor{ReadColour}{rgb}{0.878, 0.820, 0.980}
+\newtcolorbox{readcolourbox}{
+  colback=ReadColour,
+  colframe=ReadColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+  
+\newenvironment{readBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{readcolourbox}
+  \item
+  }
+  {
+  \end{readcolourbox}
+  \end{itemize}
+  }  
+
+
+
+% ACTIVITY TYPE:
+% - Tutorial starts
+% - Drill questions
+% - Optional questions
+% - Discussion
+
+%%% Menti Question command for margin
+\newcommand{\mentiQuestion}{\marginpar{\hfill\includegraphics[width=0.5\marginparwidth]{./icons/iconmonstr-computer-6-240.png}}}
+
+
+%%% PreClass box
+\definecolor{PreClassColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{preclasscolourbox}{
+  colback=PreClassColour,
+  colframe=PreClassColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{startClassBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{preclasscolourbox}
+  \item
+  }
+  {
+  \end{preclasscolourbox}
+  \end{itemize}
+  } 
+
+%%% PreClass *answers* box
+\definecolor{StartClassAnswersColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{startclassanswercolourbox}{
+  colback=StartClassAnswersColour,
+  colframe=StartClassAnswersColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{startClassAnswersBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{startclassanswercolourbox}
+  \item
+  }
+  {
+  \end{startclassanswercolourbox}
+  \end{itemize}
+  } 
+
+  
+%%% Drill box
+\definecolor{DrillColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{drillcolourbox}{
+  colback=DrillColour,
+  colframe=DrillColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{drillBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{drillcolourbox}
+  \item
+  }
+  {
+  \end{drillcolourbox}
+  \end{itemize}
+  }  
+  
+  
+
+
+
+%%% Optional boxes
+\definecolor{OptionalColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{optionalcolourbox}{
+  colback=OptionalColour,
+  colframe=OptionalColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+
+  
+\newenvironment{optionalBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{optionalcolourbox}
+  \item
+  }
+  {
+  \end{optionalcolourbox}
+  \end{itemize}
+  }  
+  
+  
+%%% Discuss Box
+\definecolor{DiscussColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{discusscolourbox}{
+  colback=DiscussColour,
+  colframe=DiscussColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{discussBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{discusscolourbox}
+  \item
+  }
+  {
+  \end{discusscolourbox}
+  \end{itemize}
+  }  
+
+
+
+
+% SUPPORT type
+% - Common mistakes/warnings
+% - Tips
+% - Video solutions
+
+
+%%% Important Box
+\definecolor{ImportantColour}{rgb}{0.996, 0.863, 0.761}
+\newtcolorbox{importantcolourbox}{
+  colback=ImportantColour,
+  colframe=ImportantColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{importantBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{importantcolourbox}
+  \item
+  }
+  {
+  \end{importantcolourbox}
+  \end{itemize}
+  }  
+  
+  
 
 %%% Tip boxes
-\definecolor{TipColour}{rgb}{0.938, 0.957, 0.957}
+\definecolor{TipColour}{rgb}{0.996, 0.863, 0.761}
 \newtcolorbox{tipcolourbox}{
   colback=TipColour,
   colframe=TipColour,
@@ -259,38 +475,9 @@
 
 
 
-%%% Optional boxes
-\definecolor{OptionalColour}{rgb}{0.938, 0.957, 0.957}
-\newtcolorbox{optionalcolourbox}{
-  colback=OptionalColour,
-  colframe=OptionalColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-
-  
-\newenvironment{optionalBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{optionalcolourbox}
-  \item
-  }
-  {
-  \end{optionalcolourbox}
-  \end{itemize}
-  }  
-  
-  
   
 %%% VideoSolution box
-\definecolor{VideoColour}{rgb}{0.973, 0.945, 0.922}
+\definecolor{VideoColour}{rgb}{0.996, 0.863, 0.761}
 \newtcolorbox{videosolutionscolourbox}{
   colback=VideoColour,
   colframe=VideoColour,
@@ -318,179 +505,17 @@
   
     
   
-%%% Drill box
-\definecolor{DrillColour}{rgb}{0.996, 0.945, 0.898}
-\newtcolorbox{drillcolourbox}{
-  colback=DrillColour,
-  colframe=DrillColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{drillBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{drillcolourbox}
-  \item
-  }
-  {
-  \end{drillcolourbox}
-  \end{itemize}
-  }  
-  
-  
 
-
-%%% Important Box
-\definecolor{ImportantColour}{rgb}{0.996, 0.934, 0.898}
-\newtcolorbox{importantcolourbox}{
-  colback=ImportantColour,
-  colframe=ImportantColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{importantBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{importantcolourbox}
-  \item
-  }
-  {
-  \end{importantcolourbox}
-  \end{itemize}
-  }  
-  
-  
-%%% Discuss Box
-\definecolor{DiscussColour}{rgb}{0.95,0.95,0.95}
-\newtcolorbox{discusscolourbox}{
-  colback=DiscussColour,
-  colframe=DiscussColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{discussBox}[1]
-  {
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{discusscolourbox}
-  \item
-  }
-  {
-  \end{discusscolourbox}
-  \end{itemize}
-  }  
-  
-  
-  
-%%% PreClass box
-\definecolor{PreClassColour}{rgb}{0.973, 0.945, 0.922}
-\newtcolorbox{preclasscolourbox}{
-  colback=PreClassColour,
-  colframe=PreClassColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{startClassBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{preclasscolourbox}
-  \item
-  }
-  {
-  \end{preclasscolourbox}
-  \end{itemize}
-  } 
-
-  
-  
-%%% PreClass box
-\definecolor{StartClassAnswersColour}{rgb}{0.973, 0.945, 0.922}
-\newtcolorbox{startclassanswercolourbox}{
-  colback=StartClassAnswersColour,
-  colframe=StartClassAnswersColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{startClassAnswersBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{startclassanswercolourbox}
-  \item
-  }
-  {
-  \end{startclassanswercolourbox}
-  \end{itemize}
-  } 
 
   
 
-
-%%% Chapter-to-read boxes
-\definecolor{ReadColour}{rgb}{0.938, 0.957, 0.957}
-\newtcolorbox{readcolourbox}{
-  colback=ReadColour,
-  colframe=ReadColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-  
-\newenvironment{readBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{readcolourbox}
-  \item
-  }
-  {
-  \end{readcolourbox}
-  \end{itemize}
-  }  
-
-
-%%% TUTOR INFO BOXES
+%%% TUTOR-ONLY INFO BOXES
 \newenvironment{rmdTutorInfo}
   {\begin{rmdblock}{iconmonstr-school-15-240}}
   {\end{rmdblock}}
+  
+  
+
   
 %%% END: CALL-OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

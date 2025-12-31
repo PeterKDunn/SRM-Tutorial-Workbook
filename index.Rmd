@@ -137,37 +137,32 @@ Many of the data sets used in this book are available in the **R** package `SRMD
 
 The call-outs used in this book have meanings:
 
+- Call-outs to **orient** your study in the big picture:
+
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 These call-outs introduce the objectives for the sections of the book.
 :::
-
 
 ::: {.assessmentBox .assessment data-latex="{iconmonstr-text-check-list-lined-240.png}"}
 These call-out show how the content links to the course assessment.
 :::
 
-
-
 :::: {.readBox .read data-latex="{iconmonstr-school-15-240.png}"}
 These call-outs indicate the relevant chapter of the textbook to read.
 :::
 
-:::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+
+
+- Call-outs to indicate things **to do**:
+
+:::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These call-outs highlight questions to be completed at the start of each tutorial, as a class.
 :::
 
-
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-These call-outs offer helpful information.
+::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
+These call-outs highlight drill questions, for practising some of the mathematical computations.
 :::
 
-::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
-This icon flags questions that have *video solutions* in the online book: a narrator works through the question, explaining the solution.
-:::
-
-:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
-:::
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 These call-outs are optional discussion topics that your tutor *may* choose to use in tutorials.
@@ -177,8 +172,25 @@ These call-outs are optional discussion topics that your tutor *may* choose to u
 These call-outs highlight **optional** questions, that you might like to complete for personal study.
 :::
 
-::: {.drillBox .drill data-latex="{iconmonstr-pencil-9-240.png}"}
-These call-outs highlight drill questions, for practising some of the mathematical computations.
+`r if (knitr::is_html_output()) '<!--'`
+Questions with this icon in the margin (TUTOR VERSIONS ONLY) have MentiMeter availability.
+\mentiQuestion 
+`r if (knitr::is_html_output()) '-->'`
+
+
+
+- Call-outs that offer **support**:
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+:::
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+These call-outs offer helpful information.
+:::
+
+::: {.videoSolutionBox .videoSolution data-latex="{iconmonstr-youtube-10-240.png}"}
+This icon flags questions that have *video solutions* in the online book: a narrator works through the question, explaining the solution.
 :::
 
 

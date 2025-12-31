@@ -79,9 +79,11 @@ For example:
 data(OSA)
 ```
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop], $n = 60$ adults underwent a sleep study.
@@ -105,21 +107,6 @@ In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carv
 \greyboxlines{1}
 :::
 
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. *Age* is quantitative continuous. 
-   (Values are rounded down to the nearest year for convenience, but the *variable* is continuous.
-   The age of babies, for example, if often quoted in days, weeks or months.)
-2. Qualitative nominal.
-3. Quantitative continuous.
-4. Quantitative continuous.
-:::
-")
-}
-```  
 
 
 ```{r OSAKable, echo=FALSE, warnings=FALSE}
@@ -228,7 +215,7 @@ if( knitr::is_html_output() ) {
 
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-Most calculators have **two buttons** that compute the standard deviation: one if the data are a sample, and one if the data are a population.
+Most calculators have **two buttons** that compute the standard deviation when in **Statistics Mode**: one computes the standard deviation if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.  
 \  
   
@@ -251,6 +238,9 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 
 ## Understanding histograms {#UnderstandingHistograms}
+
+
+\mentiQuestion
 
 
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -394,6 +384,7 @@ if( knitr::is_html_output() ) {
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR.
+\greyboxlines{4}
    
 
 

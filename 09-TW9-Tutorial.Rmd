@@ -36,9 +36,11 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial9}
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
@@ -114,29 +116,6 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 \greyboxlines{2}
 :::
 
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\\ CI.
-   (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
-1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
-1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
-1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
-   So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
-1. **TRUE**. Remember that all hypotheses are about population parameters, and have an 'equals to' in there somewhere (the 'no difference, no change, no relationship' position).
-1. **FALSE**. The hypothesis is about population parameters ($\\mu$), which is good.  
-   But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
-1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\\ because the *population* means are different.  
-   We don't know *which* one of these reasons is the reason here.
-1. How much larger the mean number of cavities are for coeliacs.
-1. When both sample sizes are larger than\\ $25$, the CI is statistically vaid.
-   Since both sample are only *just* smaller than\\ $25$, the test is *probably* statistically valid.
-:::
-")
-}
-```  
 
 
 

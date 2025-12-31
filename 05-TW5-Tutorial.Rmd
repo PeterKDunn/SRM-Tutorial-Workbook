@@ -42,6 +42,13 @@ Take careful note of which chapters are covered in this tutorial!
 ## Quick revision {#QuickRevision-Tutorial5}
 
 
+
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
+These questions may be answered during an all-class activity.
+:::
+\mentiQuestion
+
+
 ::: {.webex-box}
 @others:lunn:cida compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
@@ -121,20 +128,6 @@ boxplot(Width ~ Location,
 ```
 :::
 
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
-1. The sample is small, so hard to be certain: *Average* about\\ $10\\mms$; data from about\\ $6$ to\\ $16\\mms$; slightly right skewed; no outliers.
-1. Discuss in class.
-1. Site\\ A.
-1. How much larger the mean breath is for Site\\ A jellyfish, compared to Site\\ B jellyfish.
-:::
-")
-}
-```  
 
 
 

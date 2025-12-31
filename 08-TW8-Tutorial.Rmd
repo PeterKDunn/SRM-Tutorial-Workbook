@@ -38,9 +38,11 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial8}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 ::: {.webex-box}
 1. True or false: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
@@ -55,23 +57,6 @@ These questions may be answered during an all-class activity.
    The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
 \greyboxlines{1}
 :::
-
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
-   In loose terms, a hypothesis test quantifies how much evidence there is in the *sample* to support the alternative hypothesis about the *population*.
-1. **TRUE**. Hypothesis are always about the *unknown* vaues of *population* parameters.
-1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
-1. **TRUE**.
-1. **TRUE**.
-:::
-")
-}
-```  
-
 
 
 

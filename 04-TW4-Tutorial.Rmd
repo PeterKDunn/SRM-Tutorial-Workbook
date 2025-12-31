@@ -47,9 +47,11 @@ data(OSA)
 ```
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+\mentiQuestion
+
 
 
 ::: {.webex-box}
@@ -79,22 +81,6 @@ Median, mean, odds, or standard deviation.
 \greyboxlines{3}
 :::
 
-
-```{r conditional-text, echo=FALSE, results='asis'}
-if ( (tutorVersion & is_latex_output()) ) {
-    cat("
-::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
-1. Variation is measured using standard deviation or IQR.
-1. The average value (of a quantitative variable) can be described using a mean or a median.
-1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
-1. $27/60\times 100 = 45$%.
-1. $27/33 = 0.8181$.
-1. The *mean* is silly, and meaningless, for qualitative variables!
-:::
-")
-}
-```  
 
 
 

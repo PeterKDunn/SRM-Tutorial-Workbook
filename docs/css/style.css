@@ -5,14 +5,14 @@ body {
 /* My environments */
 
 
-
+/* ROADMAP boxes */
 .objectivesBox {
   font-size: small;
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ede9fb;
-  background: #ede9fb 5px center/3em no-repeat; 
+  border: 2px solid #E0D1FA;
+  background: #E0D1FA 5px center/3em no-repeat; 
 }
 
 .assessmentBox {
@@ -20,8 +20,8 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ede9fb;
-  background: #ede9fb 5px center/3em no-repeat; 
+  border: 2px solid #E0D1FA;
+  background: #E0D1FA 5px center/3em no-repeat; 
 }
 
 .readBox {
@@ -29,76 +29,74 @@ body {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ede9fb;
-  background: #ede9fb 5px center/3em no-repeat; 
+  border: 2px solid #E0D1FA;
+  background: #E0D1FA 5px center/3em no-repeat; 
 }
 
 
-.importantBox {
+/* ACTIVITY boxes */
+
+.startClassBox {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #ffefe6;
-  background: #ffefe6 5px center/3em no-repeat; 
-}
-
-.tipBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f7ffe6;
-  background: #f7ffe6 5px center/3em no-repeat; 
-}
-
-.optionalBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f0f5f5;
-  background: #f0f5f5 5px center/3em no-repeat; 
-}
-
-.discussBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f0f5f5;
-  background: #f0f5f5 5px center/3em no-repeat; 
-}
-
-.thinkBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f7ffe6;
-  background: #f7ffe6 5px center/3em no-repeat; 
-}
-
-
-
-.preClassBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f9f2ec;
-  background: #f9f2ec 5px center/3em no-repeat; 
-}
-
-.videoSolutionBox {
-  padding: 1em 1em 1em 4em;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  border: 2px solid #f9f2ec;
-  background: #f9f2ec 5px center/3em no-repeat; 
+  border: 2px solid #DEEFBE;
+  background: #DEEFBE 5px center/3em no-repeat; 
 }
 
 .drillBox {
   padding: 1em 1em 1em 4em;
   margin-bottom: 10px;
   margin-top: 10px;
-  border: 2px solid #f9f2ec;
-  background: #f9f2ec 5px center/3em no-repeat; 
+  border: 2px solid #DEEFBE;
+  background: #DEEFBE 5px center/3em no-repeat; 
 }
+
+.optionalBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #DEEFBE;
+  background: #DEEFBE 5px center/3em no-repeat; 
+}
+
+.discussBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #DEEFBE;
+  background: #DEEFBE 5px center/3em no-repeat; 
+}
+
+
+
+/* SUPPORT boxes */
+
+.importantBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #FEDCC2;
+  background: #FEDCC2 5px center/3em no-repeat; 
+}
+
+.tipBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #FEDCC2;
+  background: #FEDCC2 5px center/3em no-repeat; 
+}
+
+
+.videoSolutionBox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border: 2px solid #FEDCC2;
+  background: #FEDCC2 5px center/3em no-repeat; 
+}
+
 
 
 
@@ -134,29 +132,15 @@ body {
 .videoSolution {
   background-image: url("../icons/iconmonstr-youtube-10-240.png");
 }
-.preClass {
-  background-image: url("../icons/iconmonstr-home-7-240.png");
+.preClassAnswer {
+  background-image: url("../icons/iconmonstr-checkbox-5-240.png");
 }
 .progress {
   background-image: url("../icons/iconmonstr-arrow-32-240.png");
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.startClass {
+  background-image: url("../icons/iconmonstr-computer-6-240.png");
+}
 
 
 
