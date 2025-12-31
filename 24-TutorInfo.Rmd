@@ -9,7 +9,7 @@
 
 ## Tutor information {#TutorInfo .unlisted .unnumbered}
 
-This Appendix contains some thoughts on teaching in the tutorial.
+This Appendix contains some thoughts on teaching in the tutorial, and answers to the *Quick Revision* questions.
 
 * [Thoughts on *Class Discussions*](#ClassDiscussions) (which appear in most tutorials).
 * [Thoughts](#Lecture1ThoughtsForTutors) for Teaching Week\ \@ref(Lecture1) Tutorial.
@@ -26,7 +26,7 @@ This Appendix contains some thoughts on teaching in the tutorial.
 * [Thoughts](#Lecture12ThoughtsForTutors) for Teaching Week\ \@ref(Lecture12) Tutorial.
 
 
-## Tutor guidelines for in-class discussions {#ClassDiscussions .unlisted .unnumbered}
+## Thoughts on *Class Discussions* {#ClassDiscussions .unlisted .unnumbered}
 
 Most teaching weeks include an *optional* class discussion.
 These discussions hopefully will, across the various discussions, help to:
@@ -40,12 +40,12 @@ These discussions hopefully will, across the various discussions, help to:
 
 Here is one framework for how to **facilitate** a discussion:
 
-1. Pose the question (1 minute)
+1. Pose the question ($1$\ minute)
   - Display or read the discussion question.
   - Emphasise that the discussion is about *reasoning*, not correctness.
     In fact, there may not *be* a correct answer.
 
-2. Think–Pair–Share
+2. Think–Pair–Share (say, $5$ to\ $10$ minutes)
 
   - **Think:** Students reflect individually (say, 30--60 seconds).
   - **Pair/Group:** Students discuss in small groups or pairs (2--4 minutes).
@@ -55,7 +55,7 @@ Here is one framework for how to **facilitate** a discussion:
     - Invite contrasting views without framing them as "for vs against".
     - Write key points on the board if helpful.
 
-3. Consolidation (2--3 minutes)
+3. Consolidation ($2$ to\ $3$ minutes)
 
   - Summarise the *range of perspectives*.
   - Highlight what the discussion reveals about that week's topic.
@@ -92,6 +92,22 @@ General tips:
 <!-- Lecture1ThoughtsForTutors -->
 
 [**Return to index of tutor information.**](#TutorInfo)
+
+### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. **Relational**: there is a comparison (between Chinese and Indian meals).
+1. Decision-making.
+1. **No**: the researchers did not determine whether a meal was Chinese or Indian.
+1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
+1. A variable is measured on an **individual**; in this case, the amount of salt in the individual meals.
+1. The **unit of analysis** depends on how the data were collected.  
+   Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.  
+   Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
+   Or it may be the individual meals. *We need more information.* 
+1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
+1. Conceptual: it defines what a word or term means.
+:::
 
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
@@ -169,6 +185,17 @@ Then let the groups share their answers with another group(s).
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
+
+### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. The RQ states that only households in Santiago will be studied.
+1. External validity means that the sample represents the intended population (i.e., households in Santiago).
+1. Since people only return the survey if they *want* to, this is *self-selecting* (or, equivalently, *voluntary response*).
+1. There are multiple stages of *random* selection, so this is multi-stage.
+1. It is a *little* bit like *systematic*... but is at a supermarket only. 
+   So perhaps it could be described as a systematic sample from a non-random sample (i.e., a combination). 
+:::
 
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
@@ -376,6 +403,18 @@ Students could use as jamovi or the *Stats* mode on a calculator, for example.
 ```
 
 
+### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. *Age* is quantitative continuous. 
+   (Values are rounded down to the nearest year for convenience, but the *variable* is continuous.
+   The age of babies, for example, if often quoted in days, weeks or months.)
+2. Qualitative nominal.
+3. Quantitative continuous.
+4. Quantitative continuous.
+:::
+
+
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
@@ -567,6 +606,21 @@ Then compute the differences (automatically; see me if unsure), and then show th
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
+### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
+1. Variation is measured using standard deviation or IQR.
+1. The average value (of a quantitative variable) can be described using a mean or a median.
+1. Percentages or odds can be used to numerically summarise a qualitative variable like *gender*.
+1. $27/60\times 100 = 45$%.
+1. $27/33 = 0.8181$.
+1. The *mean* is silly, and meaningless, for qualitative variables!
+:::
+
+
+
+
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -575,7 +629,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 This discussion helps students:
 
-- Think carefully about what "useful" means in different contexts.
+- Think carefully about what 'useful' means in different contexts.
 - Understand *why we summarise data*.
 - Recognise that *raw data* and *visual summaries* are complementary.
 - Avoid the idea that one representation is universally superior
@@ -653,6 +707,15 @@ Time permitting, you could:
 [**Return to index of tutor information.**](#TutorInfo)
 
 
+### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
+1. The sample is small, so hard to be certain: *Average* about\\ $10\\mms$; data from about\\ $6$ to\\ $16\\mms$; slightly right skewed; no outliers.
+1. Discuss in class.
+1. Site\\ A.
+1. How much larger the mean breath is for Site\\ A jellyfish, compared to Site\\ B jellyfish.
+:::
 
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
@@ -777,7 +840,7 @@ If you have collect data from each person left and right hand (to study the aver
 ```
 
 
-```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center", out.wodth='50%' }
+```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center", out.width='50%' }
 include_graphics("SoftwareImages/RulerDropData.png")
 ```
  
@@ -795,6 +858,15 @@ include_graphics("SoftwareImages/RulerDropData.png")
 
 [**Return to index of tutor information.**](TutorInfo.html)
 
+
+### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
+1. $z = (26.0 -13)/1.3 = 10$.
+1. A *negative* $z$-score means that the value is *less than* the **mean**.
+1. **FALSE**.
+:::
 
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
@@ -940,6 +1012,22 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 
 
+### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. **FALSE**. 
+   A CI is an interval which probably contains the **population** value. 
+   We already know the **sample** value... we don't need an interval for it.
+1. **FALSE**. 
+   Confidence intervals can be any percentage (though $90$%, $95$% and $99$% CIs are the most common, and $95$% easily the most common of all).
+1. **FALSE**.
+   A *standard deviation* is a measure of variation in the *individuals*; a *standard error* is a measure of how much a sample summary value (such as the sample mean, or sample proportion) varies between samples.
+1. **TRUE**.
+1. **FALSE**. 
+   A CI is an interval that is likely to contain the unknown value of the *parameter*, not a certain percentage of the observations.
+:::
+
+
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
@@ -1033,6 +1121,19 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 
 
 ## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors .unlisted .unnumbered}
+
+
+
+### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
+   In loose terms, a hypothesis test quantifies how much evidence there is in the *sample* to support the alternative hypothesis about the *population*.
+1. **TRUE**. Hypothesis are always about the *unknown* vaues of *population* parameters.
+1. **FALSE**. Alternative hypotheses may be one- or two-tailed, but it does **not** depend on the *data*; it depends on the RQ. 
+1. **TRUE**.
+1. **TRUE**.
+:::
 
 
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
@@ -1135,6 +1236,27 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 
 
+### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\\ CI.
+   (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
+1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
+1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
+1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
+   So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
+1. **TRUE**. Remember that all hypotheses are about population parameters, and have an 'equals to' in there somewhere (the 'no difference, no change, no relationship' position).
+1. **FALSE**. The hypothesis is about population parameters ($\\mu$), which is good.  
+   But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
+1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\\ because the *population* means are different.  
+   We don't know *which* one of these reasons is the reason here.
+1. How much larger the mean number of cavities are for coeliacs.
+1. When both sample sizes are larger than\\ $25$, the CI is statistically vaid.
+   Since both sample sizes are only *just* smaller than\\ $25$, the test is *probably* statistically valid.
+:::
+
+
+
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -1234,6 +1356,14 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
+
+### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-value).
+:::
+
+
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -1305,6 +1435,18 @@ Ideally, explicitly **connect** to:
 [**Return to index of tutor information.**](TutorInfo.html)
 
 
+
+
+### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+Student\ 1:
+Not using the standard error; hence, **if** the *data* have a normal distribution, this is an interval that contains about $68$% of the *data*.
+
+Student\ 2:
+Not using the standard error; hence, **if** the *data* have a normal distribution, this is an interval that contains about $95$% of the *data*.
+
+Correct: $95$% CI for the *mean* is $12.4\pm (2\times 2.8/sqrt{6})$, or from\ $10.11$ to\ $14.69\MPas$. :::
 
 
 
@@ -1406,6 +1548,19 @@ Regression and correlation are not the same thing!
 ## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors .unlisted .unnumbered}
 
 
+
+### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted .unnumbered}
+
+::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
+1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
+1. The $y$-variable is the number of seeds.
+1. $R^2 = (0.931^2) = 0.86676$, or about $86.7$%.
+1. Using $x = 700$, we would have: $\\hat{y} = 137.4 + (0.3459\\times 700) = 380$ seeds.
+1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
+1. There is evidence that the slope is non-zero in the population.
+:::
+
+
 ### Thoughts on Class Discussion {.unlisted .unnumbered}
 
 
@@ -1467,6 +1622,7 @@ Ideally, explicitly **connect** to:
 
 - Residual analysis and model evaluation.
 - Predictive performance and cross-validation.
+:::
 
 
 [**Return to index of tutor information.**](TutorInfo.html)

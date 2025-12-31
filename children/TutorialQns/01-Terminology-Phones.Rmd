@@ -47,7 +47,7 @@ Answer the questions that follow, **explaining** the reason for your choices.
 
 		
 3. Which one of these is most likely the *comparison* in the study?
-    a. Between the way subjects were using their phone (talking; texting; not at all).
+    a. Between the ways that subjects were using their phone (talking; texting; not at all).
     b. Between those walking slowly and those walking quickly.
     c. Between those walking and those not walking.
     d. Between those using and not using a mobile phone.

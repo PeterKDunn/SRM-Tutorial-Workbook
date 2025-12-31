@@ -226,6 +226,7 @@ Answers implied by H5P.
 2. Dotchart.  
    (Too much data for a useful stem-and-leaf plot probably.)
 3. Better with a title; some more labelled tick marks would be better.
+4. Part of this discussion can be about what information is needed on a publicity brochure.
 
 
 ### Answers for Sect.\ \@ref(Chapter3Drills) {.unlisted .unnumbered}
