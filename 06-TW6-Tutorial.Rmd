@@ -53,7 +53,9 @@ These Tables can be found in the textbook appendices, and in this document in
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}
@@ -92,6 +94,9 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 
 ## Normal distributions and IQs {#NormalIQs}
 
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
 Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
 
 
@@ -166,6 +171,9 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 
 ## Probability {#Probability2}
 
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
 For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
 (**Note:** You are not asked to *compute* the probability.)
 
@@ -241,7 +249,7 @@ Repeat this process numerous times (if you are in a class, each student can repe
 
 
 
-```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser", fig.align="center", out.width='35%'}
+```{r CoinTosser, echo=FALSE, fig.cap="Using the online random coin-tosser.", fig.align="center", out.width='35%'}
 knitr::include_graphics("images/CoinToss.jpg")
 ```
 
@@ -269,13 +277,13 @@ CoinData[, 1] <- c("0.0 (0 heads)",
 
 if( knitr::is_latex_output() ) {
   CoinData[2, 1] <- "0.1 (1 head)\\phantom{0} "
-  
+  CoinData[12, 1] <- "\\textbf{Number of tosses:}"
   kable(CoinData,
         format = "latex",
         longtable = FALSE,
         booktabs = TRUE,
         escape = FALSE, # For latex to work in \rightarrow
-        linesep = c( rep("\\addlinespace\\addlinespace\\hline", 11) ), # Add a bit of space between all rows. 
+        linesep = c( rep("\\addlinespace\\addlinespace\\hline", 13) ), # Add a bit of space between all rows. 
         caption = "Tossing coins.",
         align = c("r", "r"))   %>%
     kable_styling(full_width = FALSE, 

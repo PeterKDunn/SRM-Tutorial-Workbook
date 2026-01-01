@@ -44,7 +44,9 @@ You should bring your calculator to tutorials from **next** week onwards.
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}

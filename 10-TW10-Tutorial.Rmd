@@ -40,7 +40,9 @@ Take careful note of which chapters are covered in this tutorial!
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 
@@ -600,7 +602,7 @@ knitr::include_graphics("SoftwareImages/Singh2016-ChiSq-jamovi.png")
 
 
 
-## Identify the correct test {#IdentifyCorrectAnalyses}
+## Identify the correct analysis {#IdentifyCorrectAnalyses}
 
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/10-IdentifyAnalysis.Rmd '}

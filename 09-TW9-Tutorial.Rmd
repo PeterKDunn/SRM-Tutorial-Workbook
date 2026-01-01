@@ -39,7 +39,9 @@ You will learn and practice the content associated with these chapters of the [t
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}
@@ -329,9 +331,9 @@ The data set is large, so only an extract of the data is shown (Fig.\ \@ref(fig:
 
    
 
-```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example.", fig.align="center", out.width=c('27%', '26%')}
+```{r RatLifetimesDatajamovi, echo=FALSE, fig.show="hold", fig.cap="Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data).", fig.align="center", out.width=c('27%', '10%','26%')}
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi.png")
-
+knitr::include_graphics("images/SPACER.png")
 knitr::include_graphics("SoftwareImages/RatLivesData-jamovi2.png")
 ```
 

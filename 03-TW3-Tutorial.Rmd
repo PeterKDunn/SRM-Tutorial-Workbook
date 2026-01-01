@@ -82,7 +82,9 @@ data(OSA)
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}
@@ -239,8 +241,9 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 ## Understanding histograms {#UnderstandingHistograms}
 
-
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

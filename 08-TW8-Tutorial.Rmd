@@ -41,7 +41,9 @@ You will learn and practice the content associated with these chapters of the [t
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
 \mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}
@@ -181,8 +183,11 @@ points(x = 12,
 ```
 
 
-## $P$-values {#PValues}
+## Approximate $P$-values {#PValues}
 
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
 Assuming the tests are statistically valid, what is the approximate $P$-value for a *two*-tailed $t$-test if:
 
 1. $t = -2.14$.

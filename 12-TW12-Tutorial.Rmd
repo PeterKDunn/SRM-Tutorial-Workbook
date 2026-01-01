@@ -36,6 +36,9 @@ You will learn and practice the content associated with these chapters of the [t
 ::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
 
 
 ::: {.webex-box}
@@ -70,7 +73,6 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: The values of $y$ (the data) and $\hat{y}$ (the model predictions) should be as close as possible.
 :::
-\mentiQuestion
 
 
 
