@@ -93,21 +93,6 @@ $(document).ready(function() {
   gtag('config', 'G-2XVTLVFP0R');
 </script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $examplefolds = $(".exampleExtra");
-  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
-  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
-  $(".example-fold-blck").toggle();  // fold all blocks
-  $(".example-fold-btn").on("click", function() {  // add onClick event
-    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
-    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
-  })
-});
-
-</script>
-
-
 
 
 
@@ -261,7 +246,7 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.3</b> The decision-making process</a></li>
 <li class="chapter" data-level="8.4" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.4</b> Test for one proportion</a></li>
 <li class="chapter" data-level="8.5" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.5</b> Tests for one mean</a></li>
-<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> <span class="math inline">\(P\)</span>-values</a></li>
+<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> Approximate <span class="math inline">\(P\)</span>-values</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
 <ul>
@@ -284,7 +269,7 @@ div.csl-indent {
 <li class="chapter" data-level="10.3" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.3</b> Consistency</a></li>
 <li class="chapter" data-level="10.4" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.4</b> CI and test for odds ratios</a></li>
 <li class="chapter" data-level="10.5" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.5</b> CIs and tests for ORs</a></li>
-<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct analysis</a></li>
 <li class="chapter" data-level="10.7" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.7</b> Sample size calculations</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
@@ -337,7 +322,6 @@ div.csl-indent {
 <li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
 </ul></li>
 <li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
-<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
@@ -374,7 +358,7 @@ div.csl-indent {
 <ul>
 <li><strong>Task 2A</strong>, where you need to <em>write your own RQ</em>;</li>
 <li><strong>Quiz 1</strong>, which includes questions about <em>writing RQs and RQ components</em>; and</li>
-<li>the <strong>Exam</strong>, which will contain questions about <em>RQs</em></li>
+<li>the <strong>Exam</strong>, which will contain questions about <em>RQs and RQ components</em>.</li>
 </ul>
 </div>
 <div class="readBox read">

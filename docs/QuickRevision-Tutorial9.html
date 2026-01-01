@@ -93,21 +93,6 @@ $(document).ready(function() {
   gtag('config', 'G-2XVTLVFP0R');
 </script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $examplefolds = $(".exampleExtra");
-  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
-  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
-  $(".example-fold-blck").toggle();  // fold all blocks
-  $(".example-fold-btn").on("click", function() {  // add onClick event
-    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
-    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
-  })
-});
-
-</script>
-
-
 
 
 
@@ -261,7 +246,7 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.3</b> The decision-making process</a></li>
 <li class="chapter" data-level="8.4" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.4</b> Test for one proportion</a></li>
 <li class="chapter" data-level="8.5" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.5</b> Tests for one mean</a></li>
-<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> <span class="math inline">\(P\)</span>-values</a></li>
+<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> Approximate <span class="math inline">\(P\)</span>-values</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
 <ul>
@@ -284,7 +269,7 @@ div.csl-indent {
 <li class="chapter" data-level="10.3" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.3</b> Consistency</a></li>
 <li class="chapter" data-level="10.4" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.4</b> CI and test for odds ratios</a></li>
 <li class="chapter" data-level="10.5" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.5</b> CIs and tests for ORs</a></li>
-<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct analysis</a></li>
 <li class="chapter" data-level="10.7" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.7</b> Sample size calculations</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
@@ -337,7 +322,6 @@ div.csl-indent {
 <li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
 </ul></li>
 <li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
-<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
@@ -361,10 +345,10 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="QuickRevision-Tutorial9" class="section level2 hasAnchor" number="9.1">
 <h2><span class="header-section-number">9.1</span> Quick revision<a href="QuickRevision-Tutorial9.html#QuickRevision-Tutorial9" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="preClassBox preClass">
-<p>We <strong>strongly</strong> recommend trying these <em>Quick revision</em> questions <strong>before</strong> your tutorial.</p>
+<div class="startClassBox startClass">
+<p>These questions may be answered during an all-class activity.</p>
 </div>
-<div class="webex-check webex-box">
+<div class="webex-box">
 <p>Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.</p>
 <table>
@@ -445,71 +429,32 @@ Difference
 <ol style="list-style-type: decimal">
 <li>Using the <span class="math inline">\(68\)</span>--<span class="math inline">\(95\)</span>--<span class="math inline">\(99.7\)</span> rule gives a slightly different CI.
 Why?
-<div id="radio_PJXIRPFVHD" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_PJXIRPFVHD" value=""></input> <span>The researchers made a calculation error.</span></label><label><input type="radio" autocomplete="off" name="radio_PJXIRPFVHD" value="answer"></input> <span>The researchers calculated an exact <span class="math inline">\(95\)</span>% CI (not an approximate <span class="math inline">\(95\)</span>% CI).</span></label><label><input type="radio" autocomplete="off" name="radio_PJXIRPFVHD" value=""></input> <span>The statistical validity conditions are not met.</span></label>
-</div></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
+</li>
 <li>True or false:
 The difference is computed as the number of DMFT for coeliacs minus non-coeliacs.
-<select class='webex-select'><option value='blank'></option><option value='answer'>TRUE</option><option value=''>FALSE</option></select></li>
+</li>
 <li>True or false:
 One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible.
-<select class='webex-select'><option value='blank'></option><option value=''>TRUE</option><option value='answer'>FALSE</option></select></li>
+</li>
 <li>We are <span class="math inline">\(95\)</span>% confident that the difference between the population means is:
-<div id="radio_URNHNVDDMT" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_URNHNVDDMT" value=""></input> <span>Larger for coeliacs</span></label><label><input type="radio" autocomplete="off" name="radio_URNHNVDDMT" value=""></input> <span>Smaller for coeliacs</span></label><label><input type="radio" autocomplete="off" name="radio_URNHNVDDMT" value="answer"></input> <span>Between 2.32 higher for non-coeliacs to 2.76 higher for coeliacs.</span></label><label><input type="radio" autocomplete="off" name="radio_URNHNVDDMT" value=""></input> <span>Between 2.76 higher for non-coeliacs to 2.32 higher for coeliacs.</span></label>
-</div></li>
-</ol>
-<ol start="5" style="list-style-type: decimal">
+</li>
 <li>True or false:
 The <em>null</em> hypothesis is <span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu_{C} - \mu_{NC} = 0\)</span>.
-<select class='webex-select'><option value='blank'></option><option value='answer'>TRUE</option><option value=''>FALSE</option></select></li>
+</li>
 <li>True or false:
 The <em>alternative</em> hypothesis is <span class="math inline">\(H_0\)</span>: <span class="math inline">\(\mu_{C} - \mu_{NC} &gt; 0\)</span>.
-<select class='webex-select'><option value='blank'></option><option value=''>TRUE</option><option value='answer'>FALSE</option></select></li>
+</li>
 <li>True or false:
 Since the two sample means are different, we reject the null hypothesis.
-<select class='webex-select'><option value='blank'></option><option value=''>TRUE</option><option value='answer'>FALSE</option></select></li>
+</li>
 <li>Suppose the difference between the means was computed as <span class="math inline">\(\mu_C - \mu_{NC}\)</span>.
 What does this <em>measure</em>?
-<div id="radio_ZXTNOUUMIF" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_ZXTNOUUMIF" value=""></input> <span>How much larger the mean number of cavities are for non-coeliacs</span></label><label><input type="radio" autocomplete="off" name="radio_ZXTNOUUMIF" value="answer"></input> <span>How much larger the mean number of cavities are for coeliacs</span></label>
-</div></li>
-</ol>
-<ol start="9" style="list-style-type: decimal">
+</li>
 <li>Both samples sizes are less than <span class="math inline">\(25\)</span>.
 What does this mean for the statistical validity of the CI?
-<div id="radio_NPPOIRBRSR" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_NPPOIRBRSR" value=""></input> <span>The CI is worthless</span></label><label><input type="radio" autocomplete="off" name="radio_NPPOIRBRSR" value="answer"></input> <span>The CI will probably be statistically valid, as both sample sizes are just smaller than 25</span></label><label><input type="radio" autocomplete="off" name="radio_NPPOIRBRSR" value=""></input> <span>If the sample is a random sample, the CI will still be statistically valid</span></label>
-</div></li>
+</li>
 </ol>
 </div>
-<div class="webex-solution">
-<button>
-Solution
-</button>
-<ol style="list-style-type: decimal">
-<li>The researchers used an exact <span class="math inline">\(95\)</span>%CI, which gives very similar answers to using an approximate <span class="math inline">\(95\)</span>% CI.
-(The <span class="math inline">\(68\)</span>--<span class="math inline">\(95\)</span>--<span class="math inline">\(99.7\)</span> rule gives approximate multipliers only.)</li>
-<li><strong>TRUE</strong>. If we take the <em>coeliac</em> mean minus the <em>non-coeliac</em> mean, we would have <span class="math inline">\(8.39 - 8.17 = 0.22\)</span>, which is what is given in the table.</li>
-<li><strong>FALSE</strong>. The CI is for the <em>difference</em> in the DMFT. The value is <strong>not</strong> about the <em>number</em> of teeth; it is about the <em>difference</em> in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.</li>
-<li>The <em>positive</em> value of <span class="math inline">\(2.76\)</span> means (as we saw in the first Quick Revision question) that coeliacs have a mean of <span class="math inline">\(2.76\)</span> more DMFT.<br />
-So the <em>negative</em> value of <span class="math inline">\(-2.32\)</span> means that <em>non</em>-coeliacs have a mean of <span class="math inline">\(2.32\)</span> more DMFT.</li>
-<li><strong>TRUE</strong>. Remember that all hypotheses are about population parameters, and have an "equals to" in there somewhere (the "no difference, no change, no relationship" position).</li>
-<li><strong>FALSE</strong>. The hypothesis is about population parameters (<span class="math inline">\(\mu\)</span>), which is good.<br />
-But the actual question was only about studying the difference, which suggests a <em>two</em>-tailed alternative hypothesis (not a <em>one</em>-tailed alternative hypothesis as given).</li>
-<li><strong>FALSE</strong>. The <em>sample</em> means could be different for one of two reasons: (a) the population means are actually the same, but the <em>sample means</em> are just different due to sampling variation; or (b) because the <em>population</em> means are different.<br />
-We don't know <em>which</em> one of these reasons is the reason here.</li>
-<li>How much larger the mean number of cavities are for coeliacs.</li>
-<li>When both sample sizes are larger than <span class="math inline">\(25\)</span>, the CI is statistically vaid.
-Since both sample are only <em>just</em> smaller than <span class="math inline">\(25\)</span>, the test is <em>probably</em> statistically valid.</li>
-</ol>
-</div>
-<iframe src="https://www.ferendum.com/en/embeded.php?pregunta_ID=1265024&amp;sec_digit=1323639114&amp;embeded_digit=1520489507" style="width:100%; height:400px; overflow: auto; background: #B3919133" frameBorder="0">
-</iframe>
-<p><BR>
-<A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A></p>
 </div>
 <hr><div class="footer"><span style="color: gray; font-size:0.7em">Copyright &copy; Peter K. Dunn, 2025</span></div>
 <script>

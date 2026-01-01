@@ -93,21 +93,6 @@ $(document).ready(function() {
   gtag('config', 'G-2XVTLVFP0R');
 </script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $examplefolds = $(".exampleExtra");
-  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
-  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
-  $(".example-fold-blck").toggle();  // fold all blocks
-  $(".example-fold-btn").on("click", function() {  // add onClick event
-    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
-    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
-  })
-});
-
-</script>
-
-
 
 
 
@@ -261,7 +246,7 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.3</b> The decision-making process</a></li>
 <li class="chapter" data-level="8.4" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.4</b> Test for one proportion</a></li>
 <li class="chapter" data-level="8.5" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.5</b> Tests for one mean</a></li>
-<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> <span class="math inline">\(P\)</span>-values</a></li>
+<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> Approximate <span class="math inline">\(P\)</span>-values</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
 <ul>
@@ -284,7 +269,7 @@ div.csl-indent {
 <li class="chapter" data-level="10.3" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.3</b> Consistency</a></li>
 <li class="chapter" data-level="10.4" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.4</b> CI and test for odds ratios</a></li>
 <li class="chapter" data-level="10.5" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.5</b> CIs and tests for ORs</a></li>
-<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct analysis</a></li>
 <li class="chapter" data-level="10.7" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.7</b> Sample size calculations</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
@@ -337,7 +322,6 @@ div.csl-indent {
 <li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
 </ul></li>
 <li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
-<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
@@ -361,63 +345,36 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="QuickRevision-Tutorial2" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> Quick revision<a href="QuickRevision-Tutorial2.html#QuickRevision-Tutorial2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="preClassBox preClass">
-<p>We <strong>strongly</strong> recommend trying these <em>Quick revision</em> questions <strong>before</strong> your tutorial.</p>
+<div class="startClassBox startClass">
+<p>These questions may be answered during an all-class activity.</p>
 </div>
-<div class="webex-check webex-box">
+<!--
+\mentiQuestion
+-->
+<div class="webex-box">
 <p>Consider this RQ <span class="citation">(<a href="#ref-walters2018factors">Walters et al. 2018</a>)</span>:</p>
 <blockquote>
 <p>What factors are preventing the adoption of household solar technologies in Santiago [Chile]?'</p>
 </blockquote>
 <ol style="list-style-type: decimal">
 <li>For this RQ, what is the <em>Population</em>?
-<div id="radio_GWJSEHSWAF" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Households</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Households in Chile</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value="answer"></input> <span>Households in Santiago</span></label><label><input type="radio" autocomplete="off" name="radio_GWJSEHSWAF" value=""></input> <span>Solar technologies</span></label>
-</div></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
+</li>
 <li>The study will be <em>externally valid</em> if:
-<div id="radio_DUPIAJGNAK" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all households in the world</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all solar technologies</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value="answer"></input> <span>the sample is representative of all households in Santiago</span></label><label><input type="radio" autocomplete="off" name="radio_DUPIAJGNAK" value=""></input> <span>the sample is representative of all households in Chile</span></label>
-</div></li>
-</ol>
-<!--
-   * the sample is representative of all households in the world.
-   * the sample is representative of all solar technologies.
-   * the sample is representative of all households in Santiago.
-   * the sample is representative of all households in Chile.
--->
-<ol start="3" style="list-style-type: decimal">
+<ul>
+<li>the sample is representative of all households in the world.</li>
+<li>the sample is representative of all solar technologies.</li>
+<li>the sample is representative of all households in Santiago.</li>
+<li>the sample is representative of all households in Chile.</li>
+</ul></li>
 <li>Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to.
 What is the <em>best</em> description of this sampling method?
-<div id="radio_YVRJQKRJTB" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value="answer"></input> <span>Self-selecting</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>Convenience</span></label><label><input type="radio" autocomplete="off" name="radio_YVRJQKRJTB" value=""></input> <span>None of the other answers are correct</span></label>
-</div></li>
-</ol>
-<ol start="4" style="list-style-type: decimal">
+</li>
 <li>Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets.
 What is the <em>best</em> description of this sampling method?
-<div id="radio_ABNYSRDSCX" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value="answer"></input> <span>Multi-stage</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>Stratified</span></label><label><input type="radio" autocomplete="off" name="radio_ABNYSRDSCX" value=""></input> <span>None of the other answers are correct</span></label>
-</div></li>
-</ol>
-<ol start="5" style="list-style-type: decimal">
-<li>Identify the best description of this sampling method:
-The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
-<div id="radio_BLOKZMHSDF" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Systematic</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Simple random sample</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value=""></input> <span>Stratified</span></label><label><input type="radio" autocomplete="off" name="radio_BLOKZMHSDF" value="answer"></input> <span>None of the other answers are correct</span></label>
-</div></li>
-</ol>
-</div>
-<div class="webex-solution">
-<button>
-Solution
-</button>
-<ol style="list-style-type: decimal">
-<li>The RQ states that only households in Santiago will be studied.</li>
-<li>External validity means that the sample represents the intended population (i.e., households in Santiago).</li>
-<li>Since people only return the survey if they <em>want</em> to, this is self-selecting.</li>
-<li>There are multiple stages of <em>random</em> selection, so this is multi-stage.</li>
+</li>
+<li>Suppose the researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
+What is the <em>best</em> description of this sampling method?
+</li>
 </ol>
 </div>
 </div>

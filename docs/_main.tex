@@ -144,8 +144,6 @@
 \setfloatlocations{table}{hbtp}
 
 
-
-  
   
   
   
@@ -168,7 +166,9 @@
     valign=center,
     colback=white,
     left=4pt,
-    right=4pt, top=4pt, bottom=4pt,
+    right=4pt, 
+    top=4pt, 
+    bottom=4pt,
     before skip=4pt,
     after skip=4pt
   ]
@@ -176,7 +176,6 @@
 }{%
   \end{tcolorbox}
 }
-
 \newcommand{\greyboxlines}[1]{\noindent\begin{greybox}{#1}\end{greybox}}
 
 
@@ -273,9 +272,13 @@
   
 
 %%% START: CALL OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
+% ROADMAP type: 
+% - Objective, 
+% - Assessment, 
+% - Text references
+
 %%% Objectives boxes
-\definecolor{ObjColour}{rgb}{0.926, 0.910, 0.980}
+\definecolor{ObjColour}{rgb}{0.878, 0.820, 0.980}
 \newtcolorbox{objectivescolourbox}{
   colback=ObjColour,
   colframe=ObjColour,
@@ -304,7 +307,7 @@
   
   
 %%% Link to Assessment boxes
-\definecolor{AssessmentColour}{rgb}{0.926, 0.910, 0.980}
+\definecolor{AssessmentColour}{rgb}{0.878, 0.820, 0.980}
 \newtcolorbox{assessmentcolourbox}{
   colback=AssessmentColour,
   colframe=AssessmentColour,
@@ -331,9 +334,222 @@
 
 
 
+%%% Chapter-to-read boxes
+\definecolor{ReadColour}{rgb}{0.878, 0.820, 0.980}
+\newtcolorbox{readcolourbox}{
+  colback=ReadColour,
+  colframe=ReadColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+  
+\newenvironment{readBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{readcolourbox}
+  \item
+  }
+  {
+  \end{readcolourbox}
+  \end{itemize}
+  }  
+
+
+
+% ACTIVITY TYPE:
+% - Tutorial starts
+% - Drill questions
+% - Optional questions
+% - Discussion
+
+%%% Menti Question command for margin
+\newcommand{\mentiQuestion}{\marginpar{\hfill\framebox{\includegraphics[width=0.5\marginparwidth]{./icons/iconmonstr-computer-6-240.png}}}}
+
+
+%%% PreClass box
+\definecolor{PreClassColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{preclasscolourbox}{
+  colback=PreClassColour,
+  colframe=PreClassColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{startClassBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{preclasscolourbox}
+  \item
+  }
+  {
+  \end{preclasscolourbox}
+  \end{itemize}
+  } 
+
+%%% PreClass *answers* box
+\definecolor{StartClassAnswersColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{startclassanswercolourbox}{
+  colback=StartClassAnswersColour,
+  colframe=StartClassAnswersColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{startClassAnswersBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{startclassanswercolourbox}
+  \item
+  }
+  {
+  \end{startclassanswercolourbox}
+  \end{itemize}
+  } 
+
+  
+%%% Drill box
+\definecolor{DrillColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{drillcolourbox}{
+  colback=DrillColour,
+  colframe=DrillColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{drillBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{drillcolourbox}
+  \item
+  }
+  {
+  \end{drillcolourbox}
+  \end{itemize}
+  }  
+  
+  
+
+
+
+%%% Optional boxes
+\definecolor{OptionalColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{optionalcolourbox}{
+  colback=OptionalColour,
+  colframe=OptionalColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+
+  
+\newenvironment{optionalBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{optionalcolourbox}
+  \item
+  }
+  {
+  \end{optionalcolourbox}
+  \end{itemize}
+  }  
+  
+  
+%%% Discuss Box
+\definecolor{DiscussColour}{rgb}{0.871, 0.937, 0.745}
+\newtcolorbox{discusscolourbox}{
+  colback=DiscussColour,
+  colframe=DiscussColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{discussBox}[1]
+  {
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{discusscolourbox}
+  \item
+  }
+  {
+  \end{discusscolourbox}
+  \end{itemize}
+  }  
+
+
+
+
+% SUPPORT type
+% - Common mistakes/warnings
+% - Tips
+% - Video solutions
+
+
+%%% Important Box
+\definecolor{ImportantColour}{rgb}{0.996, 0.863, 0.761}
+\newtcolorbox{importantcolourbox}{
+  colback=ImportantColour,
+  colframe=ImportantColour,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\newenvironment{importantBox}[1]
+  {\small
+  \begin{itemize}[leftmargin=.5in]
+  \renewcommand{\labelitemi}{
+    \raisebox{-.4\height}[0pt][0pt]{
+      {\setkeys{Gin}{width=1.5em,keepaspectratio}
+        \includegraphics{icons/#1}\qquad}
+    }
+  }
+  \setlength{\fboxsep}{1em}
+  \begin{importantcolourbox}
+  \item
+  }
+  {
+  \end{importantcolourbox}
+  \end{itemize}
+  }  
+  
+  
 
 %%% Tip boxes
-\definecolor{TipColour}{rgb}{0.938, 0.957, 0.957}
+\definecolor{TipColour}{rgb}{0.996, 0.863, 0.761}
 \newtcolorbox{tipcolourbox}{
   colback=TipColour,
   colframe=TipColour,
@@ -362,38 +578,9 @@
 
 
 
-%%% Optional boxes
-\definecolor{OptionalColour}{rgb}{0.938, 0.957, 0.957}
-\newtcolorbox{optionalcolourbox}{
-  colback=OptionalColour,
-  colframe=OptionalColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-
-  
-\newenvironment{optionalBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{optionalcolourbox}
-  \item
-  }
-  {
-  \end{optionalcolourbox}
-  \end{itemize}
-  }  
-  
-  
   
 %%% VideoSolution box
-\definecolor{VideoColour}{rgb}{0.973, 0.945, 0.922}
+\definecolor{VideoColour}{rgb}{0.996, 0.863, 0.761}
 \newtcolorbox{videosolutionscolourbox}{
   colback=VideoColour,
   colframe=VideoColour,
@@ -421,150 +608,17 @@
   
     
   
-%%% Drill box
-\definecolor{DrillColour}{rgb}{0.996, 0.945, 0.898}
-\newtcolorbox{drillcolourbox}{
-  colback=DrillColour,
-  colframe=DrillColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{drillBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{drillcolourbox}
-  \item
-  }
-  {
-  \end{drillcolourbox}
-  \end{itemize}
-  }  
-  
-  
 
-
-%%% Important Box
-\definecolor{ImportantColour}{rgb}{0.996, 0.934, 0.898}
-\newtcolorbox{importantcolourbox}{
-  colback=ImportantColour,
-  colframe=ImportantColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{importantBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{importantcolourbox}
-  \item
-  }
-  {
-  \end{importantcolourbox}
-  \end{itemize}
-  }  
-  
-  
-%%% Discuss Box
-\definecolor{DiscussColour}{rgb}{0.95,0.95,0.95}
-\newtcolorbox{discusscolourbox}{
-  colback=DiscussColour,
-  colframe=DiscussColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{discussBox}[1]
-  {
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{discusscolourbox}
-  \item
-  }
-  {
-  \end{discusscolourbox}
-  \end{itemize}
-  }  
-  
-  
-  
-%%% PreClass box
-\definecolor{PreClassColour}{rgb}{0.973, 0.945, 0.922}
-\newtcolorbox{preclasscolourbox}{
-  colback=PreClassColour,
-  colframe=PreClassColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-\newenvironment{preClassBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{preclasscolourbox}
-  \item
-  }
-  {
-  \end{preclasscolourbox}
-  \end{itemize}
-  } 
 
   
 
-%%% Chapter-to-read boxes
-\definecolor{ReadColour}{rgb}{0.938, 0.957, 0.957}
-\newtcolorbox{readcolourbox}{
-  colback=ReadColour,
-  colframe=ReadColour,
-  coltext=black,
-  boxsep=5pt,
-  arc=4pt}
-  
-\newenvironment{readBox}[1]
-  {\small
-  \begin{itemize}[leftmargin=.5in]
-  \renewcommand{\labelitemi}{
-    \raisebox{-.4\height}[0pt][0pt]{
-      {\setkeys{Gin}{width=1.5em,keepaspectratio}
-        \includegraphics{icons/#1}\qquad}
-    }
-  }
-  \setlength{\fboxsep}{1em}
-  \begin{readcolourbox}
-  \item
-  }
-  {
-  \end{readcolourbox}
-  \end{itemize}
-  }  
-
-
-%%% TUTOR INFO BOXES
+%%% TUTOR-ONLY INFO BOXES
 \newenvironment{rmdTutorInfo}
   {\begin{rmdblock}{iconmonstr-school-15-240}}
   {\end{rmdblock}}
+  
+  
+
   
 %%% END: CALL-OUTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -670,7 +724,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdftitle={Science Research Methods: Tutorials INSTRUCTOR EDITION},
+  pdftitle={Science Research Methods: Tutorials},
   pdfauthor={Peter K. Dunn},
   colorlinks=true,
   linkcolor={Maroon},
@@ -679,7 +733,7 @@
   urlcolor={Blue},
   pdfcreator={LaTeX via pandoc}}
 
-\title{Science Research Methods: Tutorials INSTRUCTOR EDITION}
+\title{Science Research Methods: Tutorials}
 \usepackage{etoolbox}
 \makeatletter
 \providecommand{\subtitle}[1]{% add subtitle to \maketitle
@@ -688,7 +742,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: December 27, 2025}
+\date{Last updated: January 01, 2026}
 
 \begin{document}
 \maketitle
@@ -800,8 +854,6 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\pagebreak
-
 \chapter*{Preface}\label{preface}
 
 
@@ -878,6 +930,12 @@ Many of the data sets used in this book are available in the \textbf{R} package 
 
 The call-outs used in this book have meanings:
 
+\begin{itemize}
+\tightlist
+\item
+  Call-outs to \textbf{orient} your study in the big picture:
+\end{itemize}
+
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 These call-outs introduce the objectives for the sections of the book.
 
@@ -893,25 +951,21 @@ These call-outs indicate the relevant chapter of the textbook to read.
 
 \end{readBox}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-These call-outs highlight questions to be completed \textbf{before your tutorial}.
+\begin{itemize}
+\tightlist
+\item
+  Call-outs to indicate things \textbf{to do}:
+\end{itemize}
 
-\end{preClassBox}
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These call-outs highlight questions to be completed at the start of each tutorial, as a class.
 
-\begin{tipBox}{iconmonstr-info-6-240.png}
-These call-outs offer helpful information.
+\end{startClassBox}
 
-\end{tipBox}
+\begin{drillBox}{iconmonstr-pencil-9-240.png}
+These call-outs highlight drill questions, for practising some of the mathematical computations.
 
-\begin{videoSolutionBox}{iconmonstr-youtube-10-240.png}
-This icon flags questions that have \emph{video solutions} in the online book: a narrator works through the question, explaining the solution.
-
-\end{videoSolutionBox}
-
-\begin{importantBox}{iconmonstr-warning-8-240.png}
-These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
-
-\end{importantBox}
+\end{drillBox}
 
 \begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
 These call-outs are optional discussion topics that your tutor \emph{may} choose to use in tutorials.
@@ -923,10 +977,29 @@ These call-outs highlight \textbf{optional} questions, that you might like to co
 
 \end{optionalBox}
 
-\begin{drillBox}{iconmonstr-pencil-9-240.png}
-These call-outs highlight drill questions, for practising some of the mathematical computations.
+Questions with this icon in the margin (TUTOR VERSIONS ONLY) have MentiMeter availability.
+\mentiQuestion 
 
-\end{drillBox}
+\begin{itemize}
+\tightlist
+\item
+  Call-outs that offer \textbf{support}:
+\end{itemize}
+
+\begin{importantBox}{iconmonstr-warning-8-240.png}
+These call-outs highlight common mistakes or warnings, about (for example) a particular concept or about using a formula.
+
+\end{importantBox}
+
+\begin{tipBox}{iconmonstr-info-6-240.png}
+These call-outs offer helpful information.
+
+\end{tipBox}
+
+\begin{videoSolutionBox}{iconmonstr-youtube-10-240.png}
+This icon flags questions that have \emph{video solutions} in the online book: a narrator works through the question, explaining the solution.
+
+\end{videoSolutionBox}
 
 \section*{How this book was made}\label{how-this-book-was-made}
 
@@ -1032,7 +1105,7 @@ The Week~1 content is essential for:
 \item
   \textbf{Quiz~1}, which includes questions about \emph{writing RQs and RQ components}; and
 \item
-  the \textbf{Exam}, which will contain questions about \emph{RQs}
+  the \textbf{Exam}, which will contain questions about \emph{RQs and RQ components}.
 \end{itemize}
 
 \end{assessmentBox}
@@ -1059,10 +1132,10 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial1}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 Consider this RQ (based on Jaworowska et al. (\citeproc{ref-data:jaworowska2012:determination}{2012})):
 
@@ -1074,43 +1147,37 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  What \emph{type} of RQ is this?
-  Explain.\tightlist
+  What \emph{type} of RQ is this? \tightlist
   Descriptive, relational, repeated-measures or correlational?
+  Explain.
   \greyboxlines{1}
 \item
-  What is the \emph{purpose} this RQ?
-  Explain.\tightlist
+  What is the \emph{purpose} this RQ? \tightlist
   Estimation or decision-making?
+  Explain.
   \greyboxlines{1}
 \item
   Is an \emph{intervention} present?
-  Explain.\tightlist
-  \null
+  If so, what is it?
   \greyboxlines{1}
 \item
   What is the \emph{outcome} in this RQ?
   Explain.
-  \null
   \greyboxlines{1}
 \item
   What is the \emph{response variable}?
-  \null
   \greyboxlines{1}
 \item
   What is the \emph{unit of analysis}?
   Explain.
-  \null
   \greyboxlines{1}
 \item
   What is the \emph{unit of observation}?
   Explain.
-  \null
   \greyboxlines{1}
 \item
   The article states (p.~518) that ``a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery''.
   What \emph{type} of definition is this?
-  \null
   \greyboxlines{1}
 \end{enumerate}
 
@@ -1276,7 +1343,7 @@ Explain why the other options are \emph{incorrect}.
   \def\labelenumii{\alph{enumii}.}
   \tightlist
   \item
-    Between the way subjects were using their phone (talking; texting; not at all).
+    Between the ways that subjects were using their phone (talking; texting; not at all).
   \item
     Between those walking slowly and those walking quickly.
   \item
@@ -1457,7 +1524,7 @@ Nim considers studying Jane's assertion as the basis for a \textbf{feasible} and
   \item
     UniSC students.
   \item
-    Queensland university students.\\
+    Queensland university students.
   \end{enumerate}
 \item
   Identify an \emph{outcome} that Nim can measure to answer the research question.
@@ -1693,7 +1760,7 @@ You will learn and practice the content associated with these chapters of the \h
 \end{readBox}
 
 \begin{tipBox}{iconmonstr-info-6-240.png}
-You should bring your calculator to tutorials from next week onwards.
+You should bring your calculator to tutorials from \textbf{next} week onwards.
 
 \end{tipBox}
 
@@ -1701,10 +1768,10 @@ You should bring your calculator to tutorials from next week onwards.
 
 \section{Quick revision}\label{QuickRevision-Tutorial2}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 Consider this RQ (\citeproc{ref-walters2018factors}{Walters et al. 2018}):
 
@@ -1714,12 +1781,12 @@ What factors are preventing the adoption of household solar technologies in Sant
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   For this RQ, what is the \emph{Population}? \tightlist
-  \null
   \greyboxlines{1}
 \item
-  Select the correct option: The study will be \emph{externally valid} if:
+  The study will be \emph{externally valid} if:
 
   \begin{itemize}
   \tightlist
@@ -1735,17 +1802,14 @@ What factors are preventing the adoption of household solar technologies in Sant
 \item
   Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to.
   What is the \emph{best} description of this sampling method?
-  \null
   \greyboxlines{1}
 \item
   Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets.
   What is the \emph{best} description of this sampling method?
-  \null
   \greyboxlines{1}
 \item
-  Identify the best description of this sampling method:
-  The researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
-  \null
+  Suppose the researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
+  What is the \emph{best} description of this sampling method?
   \greyboxlines{1}
 \end{enumerate}
 
@@ -2030,7 +2094,7 @@ Your tutor will have
 information.
 
 \begin{tipBox}{iconmonstr-info-6-240.png}
-This activity is very important for your Project.
+This activity is very important for helping with your Project.
 
 \end{tipBox}
 
@@ -2162,10 +2226,10 @@ For example:
 
 \section{Quick revision}\label{QuickRevision-Tutorial3}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome (\citeproc{ref-carvalho2020stop}{de Carvalho et al. 2020}), \(n = 60\) adults underwent a sleep study.
 Part of the data are shown in Table~\ref{tab:OSAKable}.
@@ -2176,19 +2240,15 @@ Part of the data are shown in Table~\ref{tab:OSAKable}.
 \tightlist
 \item
   How would you \emph{classify} the variable \texttt{Age}? \tightlist
-  \null
   \greyboxlines{1}
 \item
   How would you \emph{classify} the variable \texttt{Gender}? \tightlist
-  \null
   \greyboxlines{1}
 \item
   How would you \emph{classify} the variable \texttt{BMI}? \tightlist
-  \null
   \greyboxlines{1}
 \item
   How would you \emph{classify} the variable \texttt{REI}? \tightlist
-  \null
   \greyboxlines{1}
 \item
   What did you learn from this study?
@@ -2259,7 +2319,7 @@ $\phantom{0}\phantom{0}\phantom{0}8.001$ & $\phantom{0}\phantom{0}29.400$ & $\ph
 \end{table}
 
 \begin{importantBox}{iconmonstr-warning-8-240.png}
-Most calculators have \textbf{two buttons} that compute the standard deviation: one if the data are a sample, and one if the data are a population.
+Most calculators have \textbf{two buttons} that compute the standard deviation when in \textbf{Statistics Mode}: one computes the standard deviation if the data are a sample, and one if the data are a population.
 In practice, data are almost \emph{never} a population.\\
 \strut ~
 
@@ -2473,6 +2533,7 @@ $167.9$ & $177.5$ & $162.5$ & $172.5$ & $166.7$ & $175.0$ & $157.9$\\
     Without using a calculator, find the \textbf{median} of the data.
   \item
     Compute the IQR.
+    \greyboxlines{4}
   \end{enumerate}
 \end{enumerate}
 
@@ -2658,10 +2719,10 @@ You should bring your calculator to tutorials from this week onwards.
 
 \section{Quick revision}\label{QuickRevision-Tutorial4}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome (\citeproc{ref-carvalho2020stop}{de Carvalho et al. 2020}) had \(n = 60\) adults (\(27\)~females; \(33\)~males) undergo a sleep study.
 Part of the data are in Table~\ref{tab:OSAKable3}.
@@ -2675,23 +2736,18 @@ Part of the data are in Table~\ref{tab:OSAKable3}.
   Median, mean, odds, or standard deviation.
 \item
   What might be an \textbf{appropriate} way to numerically describe the amount of \emph{variation} in the ages of participants?
-  \null
   \greyboxlines{1}
 \item
   What might be an \textbf{appropriate} way to numerically describe the average Respiratory Event Index (REI) of participants?
-  \null
   \greyboxlines{1}
 \item
   What might be an \textbf{appropriate} way to numerically describe the gender of the participants?
-  \null
   \greyboxlines{1}
 \item
   In the sample of \(n = 60\), what \textbf{percentage} of individuals are females?
-  \null
   \greyboxlines{1}
 \item
   In the sample of \(n = 60\), what are the \textbf{odds} that an individual is female?
-  \null
   \greyboxlines{1}
 \item
   Use the jamovi output in Fig.~\ref{fig:OSAoutput} to find the mean of \emph{Gender}, and explain what this mean.
@@ -3200,6 +3256,11 @@ Take careful note of which chapters are covered in this tutorial!
 
 \section{Quick revision}\label{QuickRevision-Tutorial5}
 
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
+
+\end{startClassBox}
+
 Lunn and McNeil (\citeproc{ref-others:lunn:cida}{1991}) compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.~\ref{fig:JellyfishHist}.
 
@@ -3251,11 +3312,9 @@ Since the third bar has a height of \(4\), the median breadth is \(4\,\text{mm}\
   \greyboxlines{3}
 \item
   Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.~\ref{fig:JellyfishHist})?
-  \null
   \greyboxlines{1}
 \item
   If the difference was defined as \(\mu_A - \mu_B\), what does this \emph{measure}?
-  \null
   \greyboxlines{2}
 \item
   What did you learn from this study?
@@ -3460,8 +3519,6 @@ The data are shown in Fig.~\ref{fig:Orthoses}.
 
 \caption{The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System).}\label{fig:Orthoses}
 \end{figure}
-
-\pagebreak
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -3669,10 +3726,10 @@ Appendices~\ref{ZTablesNEG} and~\ref{ZTablesPOS}.
 
 \section{Quick revision}\label{QuickRevision-Tutorial6}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 A new method for evaluating bridge loads (\citeproc{ref-obrien2018probabilistic}{O'Brien et al. 2018}) used a simulation to compare the new method to an existing method.
 For the simulation, they modelled the gross vehicle mass (GVM) of trucks as having a normal distribution, with a mean of \(13\)~tonnes and a standard deviation of \(1.3\)~tonnes.
@@ -3686,20 +3743,18 @@ are rated as having a GVM between \(10.7\) and \(26.0\)~tonnes (depending on the
 \tightlist
 \item
   What is the \(z\)-score for the lightest truck of \(10.7\)~tonnes? \tightlist
-  \null
   \greyboxlines{2}
 \item
   What is the \(z\)-score for the heaviest truck of \(26.0\)~tonnes?
-  \null
   \greyboxlines{2}
 \item
   What does a \emph{negative} \(z\)-score mean in this context?
-  \null
   \greyboxlines{2}
 \item
   \textbf{True} or \textbf{false}:
   A standard error measures the size of the difference between the \textbf{sample} proportion and the \textbf{population} proportion.
   Explain.
+  \greyboxlines{2}
 \end{enumerate}
 
 \section{Class discussion}\label{TW6-Class-Discussion}
@@ -3874,7 +3929,7 @@ Table~\ref{tab:CoinDataTable}.
 
 }
 
-\caption{Using the online random coin-tosser}\label{fig:CoinTosser}
+\caption{Using the online random coin-tosser.}\label{fig:CoinTosser}
 \end{figure}
 
 \begin{table}
@@ -3908,7 +3963,7 @@ Table~\ref{tab:CoinDataTable}.
 \addlinespace\addlinespace\hline
 1.0 (10 heads) & \\
 \addlinespace\addlinespace\hline
- & \\
+\textbf{Number of tosses:} & \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -4051,23 +4106,29 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial7}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   True or false: A \emph{confidence interval} is used to find an interval that probably (but not certainly) contains the \emph{sample} value. \tightlist
+  \greyboxlines{1}
 \item
   True or false: All \emph{confidence interval} are \(95\)\% confidence intervals.
+  \greyboxlines{1}
 \item
   True or false: A \emph{standard error} is calculated from population data, but a \emph{standard deviation} is calculated from sample data.
+  \greyboxlines{1}
 \item
   True or false: CIs answers estimation-type RQs.
+  \greyboxlines{1}
 \item
   True or false: A 95\% confidence interval will contain approximately 95\% of the observations.
+  \greyboxlines{1}
 \end{enumerate}
 
 \section{Class discussion}\label{TW7-Class-Discussion}
@@ -4413,24 +4474,30 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial8}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   True or false: Hypothesis tests are used to \emph{prove} or \emph{disprove} the null hypothesis. \tightlist
+  \greyboxlines{1}
 \item
   True or false: Hypothesis are always written in terms of population parameters.
+  \greyboxlines{1}
 \item
   True or false: Alternative hypotheses may be one- or two-tailed, depending on the \textbf{data}.
+  \greyboxlines{1}
 \item
   True or false: Hypotheses should be constructed without any knowledge of the data.
+  \greyboxlines{1}
 \item
   True or false:
   The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
+  \greyboxlines{1}
 \end{enumerate}
 
 \section{Class discussion}\label{TW8-Class-Discussion}
@@ -4625,7 +4692,7 @@ For Eagle Boys' pizzas, is mean diameter actually \(12\) inches, or not?
 \caption{Histogram for the diameter of Eagle Boys' large pizzas. The cross represents the claimed diameter of $12$ inches.}\label{fig:PizzaHistoHT}
 \end{figure}
 
-\section{\texorpdfstring{\(P\)-values}{P-values}}\label{PValues}
+\section{\texorpdfstring{Approximate \(P\)-values}{Approximate P-values}}\label{PValues}
 
 Assuming the tests are statistically valid, what is the approximate \(P\)-value for a \emph{two}-tailed \(t\)-test if:
 
@@ -4702,10 +4769,10 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial9}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
@@ -4731,41 +4798,43 @@ An \emph{exact} \(95\)\%~CI is given as for the difference is \(-2.32\) to \(2.7
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   Using the \(68\)--\(95\)--\(99.7\) rule gives a slightly different CI.
   Why?
-  \null
   \greyboxlines{2}
 \item
   True or false:
   The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
+  \greyboxlines{1}
 \item
   True or false:
   One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible.
+  \greyboxlines{1}
 \item
   We are \(95\)\% confident that the difference between the population means is:
-  \null
   \greyboxlines{2}
 \item
   True or false:
   The \emph{null} hypothesis is \(H_0\): \(\mu_{C} - \mu_{NC} = 0\).
+  \greyboxlines{1}
 \item
   True or false:
   The \emph{alternative} hypothesis is \(H_0\): \(\mu_{C} - \mu_{NC} > 0\).
+  \greyboxlines{1}
 \item
   True or false:
   Since the two sample means are different, we reject the null hypothesis.
+  \greyboxlines{1}
 \item
   Suppose the difference between the means was computed as \(\mu_C - \mu_{NC}\).
   What does this \emph{measure}?
-  \null
   \greyboxlines{2}
 \item
   Both samples sizes are less than \(25\).
   What does this mean for the statistical validity of the CI?
+  \greyboxlines{2}
 \end{enumerate}
-
-\greyboxlines{2}
 
 \section{Class discussion}\label{TW9-Class-Discussion}
 
@@ -5039,11 +5108,11 @@ The data set is large, so only an extract of the data is shown (Fig.~\ref{fig:Ra
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.27\linewidth]{SoftwareImages/RatLivesData-jamovi} \includegraphics[width=0.26\linewidth]{SoftwareImages/RatLivesData-jamovi2} 
+{\centering \includegraphics[width=0.27\linewidth]{SoftwareImages/RatLivesData-jamovi} \includegraphics[width=0.1\linewidth]{images/SPACER} \includegraphics[width=0.26\linewidth]{SoftwareImages/RatLivesData-jamovi2} 
 
 }
 
-\caption{Part of the data for the rat lifetime example.}\label{fig:RatLifetimesDatajamovi}
+\caption{Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data).}\label{fig:RatLifetimesDatajamovi}
 \end{figure}
 
 \begin{figure}[hbtp]
@@ -5222,10 +5291,10 @@ Take careful note of which chapters are covered in this tutorial!
 
 \section{Quick revision}\label{QuickRevision-Tutorial10}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass~A) to a native grass (Grass~B).
 She uses \(50\)~different sites, allocating the two grasses at random to the sites (\(25\)~sites for each grass).
@@ -5237,6 +5306,7 @@ Which of these statements is \emph{consistent} with this conclusion?
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   The \(\text{OR} = 4.1\) and \(P = 0.36\). \tightlist 
 \item
@@ -5244,13 +5314,11 @@ Which of these statements is \emph{consistent} with this conclusion?
 \item
   The \(\text{OR} = 0.91\) and \(P = 0.36\).
 \item
-  The \(\text{OR} = 0.91\) and \(P = 0.0001\).
+  The \(\text{OR} = 0.91\) and \(P = 0.0001\).\\
+  \greyboxlines{3}
+  How would the other statements be interpreted then?
+  \greyboxlines{3}
 \end{enumerate}
-
-\greyboxlines{4}
-
-How would the other statements be interpreted then?
-\greyboxlines{4}
 
 \section{Class discussion}\label{TW10-Class-Discussion}
 
@@ -5540,7 +5608,7 @@ Did not use artifical limb &  &  & \\
 \caption{The jamovi output for the question on lower-limb amputees.}\label{fig:limbsOutputjamovi}
 \end{figure}
 
-\section{Identify the correct test}\label{IdentifyCorrectAnalyses}
+\section{Identify the correct analysis}\label{IdentifyCorrectAnalyses}
 
 For each of the following scenarios:
 
@@ -5694,10 +5762,10 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial11}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 In a study of high strength--high ductile concrete, Ranade et al. (\citeproc{ref-data:Ranada2015:Concrete}{2015}) measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
 
@@ -5946,10 +6014,10 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial12}
 
-\begin{preClassBox}{iconmonstr-home-7-240.png}
-We \textbf{strongly} recommend trying these \emph{Quick revision} questions \textbf{before} your tutorial.
+\begin{startClassBox}{iconmonstr-rocket-20-240.png}
+These questions may be answered during an all-class activity.
 
-\end{preClassBox}
+\end{startClassBox}
 
 A study of how weeds spread (\citeproc{ref-khan2018alien}{Khan et al. 2018}) studied various factors about vehicles that might carry seeds.
 The researchers found a correlation between the number of grams of mud on a vehicle and the number of seeds carried by the vehicle.
@@ -5961,28 +6029,24 @@ In autumn, the correlation coefficient was given as \(r = 0.931\).
 \tightlist
 \item
   In this study, what variable would be the \(x\)-variable? \tightlist  
-  \null
   \greyboxlines{1}
 \item
   In this study, what variable would be the \(y\)-variable?
-  \null
   \greyboxlines{1}
 \item
   What is the value of \(R^2\)?
-  \null
   \greyboxlines{1}
 \item
-  The regression equation is given as \(\hat{y} = 137.4 + 0.3459x\). If 700~g of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
-  \null
+  The regression equation is given as \(\hat{y} = 137.4 + 0.3459x\).
+  If \(700\\gs\) of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
   \greyboxlines{2}
 \item
   In this regression equation, the slope means:
-  \null
   \greyboxlines{2}
 \item
   The \(P\)-value for the regression slope was \(0.002\).
   What does this mean?
-  \null
+  \greyboxlines{2}
 \end{enumerate}
 
 \section{Class discussion}\label{TW12-Class-Discussion}
@@ -6477,6 +6541,8 @@ Answers implied by H5P.
   (Too much data for a useful stem-and-leaf plot probably.)
 \item
   Better with a title; some more labelled tick marks would be better.
+\item
+  Part of this discussion can be about what information is needed on a publicity brochure.
 \end{enumerate}
 
 \subsection*{Answers for Sect.~\ref{Chapter3Drills}}\label{answers-for-sect.-refchapter3drills}
@@ -7843,37 +7909,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 3 8 0 0 0 & 7 0 5 3 9 & 4 1 7 4 7 & 6 5 7 6 8 & 1 4 3 5 4\\
-Row B & 1 7 5 6 9 & 1 9 0 0 9 & 6 1 1 6 6 & 2 1 5 4 0 & 0 1 1 1 0\\
-Row C & 6 2 7 2 6 & 9 4 3 2 5 & 9 6 1 8 1 & 4 5 6 6 2 & 1 1 4 3 6\\
-Row D & 3 6 8 9 4 & 9 0 3 0 7 & 5 1 6 5 2 & 3 3 8 1 9 & 9 9 2 2 8\\
-Row E & 5 9 4 7 1 & 8 5 8 7 2 & 5 0 3 5 5 & 7 3 6 8 3 & 4 2 4 3 8\\
+Row A & 0 2 4 3 6 & 0 3 2 4 9 & 7 2 0 9 2 & 8 9 7 9 5 & 6 4 5 4 9\\
+Row B & 1 3 9 5 2 & 8 7 0 1 0 & 6 9 3 0 7 & 0 1 8 7 6 & 0 1 6 7 2\\
+Row C & 2 2 6 8 0 & 2 1 7 6 2 & 8 3 9 0 0 & 9 1 1 4 6 & 9 7 2 8 7\\
+Row D & 2 2 4 5 0 & 9 4 8 6 3 & 3 7 4 6 5 & 1 0 1 6 5 & 3 4 3 6 3\\
+Row E & 1 7 4 9 2 & 2 8 4 0 9 & 3 4 1 1 6 & 8 4 5 5 2 & 0 1 0 9 2\\
 \addlinespace
-Row F & 4 6 8 7 9 & 2 3 7 8 0 & 1 9 0 9 6 & 7 5 5 3 7 & 9 8 7 1 6\\
-Row G & 9 1 7 4 0 & 4 3 9 3 1 & 2 6 5 4 2 & 6 8 9 9 1 & 0 3 3 4 7\\
-Row H & 6 1 2 5 2 & 5 2 8 7 2 & 9 5 6 3 3 & 0 0 9 6 7 & 5 5 2 6 2\\
-Row I & 6 8 4 5 2 & 9 5 6 8 2 & 2 3 0 4 3 & 1 6 9 0 0 & 9 2 5 7 6\\
-Row J & 8 4 2 1 7 & 5 5 3 2 9 & 3 0 2 3 0 & 2 1 4 6 2 & 2 4 8 3 8\\
+Row F & 2 8 5 2 0 & 0 0 6 5 9 & 5 9 2 3 8 & 1 5 4 7 4 & 0 0 1 9 9\\
+Row G & 6 3 9 4 7 & 6 8 3 5 6 & 1 3 1 1 2 & 1 9 2 5 9 & 8 1 6 7 6\\
+Row H & 0 3 0 2 0 & 0 3 6 4 1 & 4 4 7 9 4 & 0 9 9 4 7 & 2 1 5 6 7\\
+Row I & 8 0 1 1 8 & 4 4 6 2 4 & 4 1 5 1 6 & 3 9 2 6 7 & 5 7 2 1 6\\
+Row J & 2 8 6 7 0 & 6 5 9 4 3 & 2 8 4 3 0 & 5 9 2 7 0 & 2 6 5 6 0\\
 \addlinespace
-Row K & 3 3 9 8 9 & 2 1 1 9 9 & 4 0 9 4 8 & 1 1 7 1 6 & 4 3 3 4 3\\
-Row L & 9 2 2 6 0 & 4 0 6 8 3 & 6 5 3 6 4 & 0 4 8 5 1 & 0 6 5 8 3\\
-Row M & 3 1 6 8 6 & 2 2 0 4 0 & 8 2 4 9 0 & 8 4 2 5 0 & 7 3 6 1 8\\
-Row N & 0 4 9 8 1 & 7 6 3 2 1 & 5 1 9 5 0 & 5 1 4 8 9 & 6 0 0 1 1\\
-Row O & 7 7 6 8 5 & 8 7 5 1 4 & 7 8 9 1 9 & 6 9 1 6 0 & 3 2 3 3 8\\
+Row K & 5 7 0 0 2 & 3 3 7 8 6 & 6 0 5 9 5 & 1 4 8 3 7 & 8 5 9 5 9\\
+Row L & 1 7 5 7 3 & 9 7 8 3 5 & 0 8 8 7 8 & 9 7 1 5 2 & 6 5 3 0 0\\
+Row M & 9 6 1 9 9 & 3 9 0 9 4 & 3 6 4 3 5 & 2 9 0 0 2 & 0 8 5 4 9\\
+Row N & 6 1 9 7 5 & 9 2 7 2 6 & 9 2 4 2 5 & 4 2 2 8 9 & 1 8 6 7 8\\
+Row O & 0 4 7 9 2 & 1 5 3 6 2 & 5 3 0 8 1 & 1 0 5 9 3 & 3 3 7 4 5\\
 \addlinespace
-Row P & 0 5 2 9 1 & 4 9 0 4 2 & 0 3 6 8 5 & 6 9 5 8 5 & 3 4 0 1 8\\
-Row Q & 9 8 9 9 4 & 0 1 7 4 7 & 4 8 4 7 1 & 9 1 1 9 6 & 2 8 3 9 3\\
-Row R & 6 1 5 1 0 & 7 1 9 4 3 & 2 3 6 6 4 & 9 7 8 9 0 & 8 5 1 8 8\\
-Row S & 6 0 5 5 8 & 8 4 5 4 2 & 0 2 6 8 8 & 7 3 4 3 3 & 5 5 2 0 5\\
-Row T & 1 5 4 5 0 & 4 9 2 6 9 & 1 2 3 8 3 & 8 0 1 2 2 & 1 5 9 9 4\\
+Row P & 2 4 8 1 6 & 1 2 4 2 3 & 8 5 9 7 5 & 0 7 8 3 4 & 2 1 6 3 1\\
+Row Q & 9 0 3 2 3 & 3 8 5 0 9 & 2 4 5 8 2 & 6 8 2 1 9 & 1 4 8 7 7\\
+Row R & 5 4 2 7 2 & 9 1 7 4 3 & 8 4 9 2 1 & 9 0 5 4 1 & 2 5 3 0 7\\
+Row S & 1 3 4 0 9 & 1 3 4 8 5 & 4 3 7 8 5 & 3 4 8 7 8 & 6 5 6 9 8\\
+Row T & 3 2 3 4 4 & 1 3 2 6 5 & 9 1 1 4 1 & 6 8 9 2 6 & 3 4 1 8 4\\
 \addlinespace
-Row U & 8 7 4 2 0 & 7 3 7 0 6 & 2 9 5 6 9 & 7 1 0 9 5 & 3 9 5 2 7\\
-Row V & 7 6 5 2 6 & 4 7 3 4 7 & 4 1 9 2 5 & 9 9 0 2 8 & 0 3 7 2 2\\
-Row W & 3 0 3 4 2 & 2 5 2 0 0 & 7 8 7 3 9 & 9 9 6 9 5 & 7 1 5 9 0\\
-Row X & 5 5 0 8 1 & 9 2 7 6 9 & 2 8 9 9 9 & 3 7 9 0 6 & 1 3 7 6 3\\
-Row Y & 3 6 8 3 1 & 0 7 4 7 9 & 4 6 9 7 1 & 2 7 9 7 2 & 0 6 3 8 7\\
+Row U & 6 4 8 8 6 & 2 9 9 5 3 & 7 5 4 7 1 & 4 6 7 6 2 & 3 2 1 4 9\\
+Row V & 1 5 0 4 0 & 9 9 3 4 4 & 1 2 7 3 3 & 0 3 2 7 2 & 6 6 6 8 0\\
+Row W & 7 8 7 4 3 & 4 3 9 9 4 & 3 6 2 5 9 & 6 3 2 8 4 & 5 8 7 0 2\\
+Row X & 2 9 6 7 3 & 3 5 5 9 0 & 5 3 0 2 7 & 9 9 3 2 7 & 3 2 2 3 7\\
+Row Y & 9 3 5 4 2 & 2 6 7 5 3 & 5 8 4 3 3 & 7 8 6 0 5 & 1 0 5 4 0\\
 \addlinespace
-Row Z & 7 2 4 3 7 & 0 0 3 7 6 & 3 6 6 6 7 & 1 2 1 1 9 & 9 3 9 8 3\\
+Row Z & 9 6 3 9 8 & 5 0 0 8 9 & 8 6 9 3 2 & 8 7 4 9 5 & 1 0 3 4 6\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -8144,2076 +8210,6 @@ $\pm$ & Plus-or-minus (give-or-take) & Sect.~22.3\\
 \end{tabular}
 \endgroup{}
 \end{table}
-
-\chapter{Thoughts for teaching}\label{TeachingThoughts}
-
-Some information for tutors only.
-
-\section*{Tutor information}\label{TutorInfo}
-
-This Appendix contains some thoughts on teaching in the tutorial.
-
-\begin{itemize}
-\tightlist
-\item
-  \hyperref[ClassDiscussions]{Thoughts on \emph{Class Discussions}} (which appear in most tutorials).
-\item
-  \hyperref[Lecture1ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture1} Tutorial.
-\item
-  \hyperref[Lecture2ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture2} Tutorial.
-\item
-  \hyperref[Lecture3ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture3} Tutorial.
-\item
-  \hyperref[Lecture4ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture4} Tutorial.
-\item
-  \hyperref[Lecture5ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture5} Tutorial.
-\item
-  \hyperref[Lecture6ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture6} Tutorial.
-\item
-  \hyperref[Lecture7ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture7} Tutorial.
-\item
-  \hyperref[Lecture8ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture8} Tutorial.
-\item
-  \hyperref[Lecture9ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture9} Tutorial
-\item
-  \hyperref[Lecture10ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture10} Tutorial.
-\item
-  \hyperref[Lecture11ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture11} Tutorial.
-\item
-  \hyperref[Lecture12ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture12} Tutorial.
-\end{itemize}
-
-\section*{Tutor guidelines for in-class discussions}\label{ClassDiscussions}
-
-Most teaching weeks include an \emph{optional} class discussion.
-These discussions hopefully will, across the various discussions, help to:
-
-\begin{itemize}
-\tightlist
-\item
-  Develop students' \emph{statistical reasoning} rather than just technical skills.
-\item
-  Demonstrate that statistics is more than just calculations.
-\item
-  Expose \emph{common misconceptions}.
-\item
-  Encourage students to \emph{think statistically}.
-\item
-  Normalise the idea that \emph{context matters in statistics}.
-\item
-  Sometimes, emphasise that there is \emph{not always a single correct answer}.
-\end{itemize}
-
-Here is one framework for how to \textbf{facilitate} a discussion:
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Pose the question (1 minute)
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  Display or read the discussion question.
-\item
-  Emphasise that the discussion is about \emph{reasoning}, not correctness.
-  In fact, there may not \emph{be} a correct answer.
-\end{itemize}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{1}
-\tightlist
-\item
-  Think--Pair--Share
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{Think:} Students reflect individually (say, 30--60 seconds).
-\item
-  \textbf{Pair/Group:} Students discuss in small groups or pairs (2--4 minutes).
-\item
-  \textbf{Share}: Whole-class discussion (3--5 minutes).
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Ask groups to \emph{share} one idea or concern.
-  \item
-    Ask groups to summarise the discussion in \textbf{one sentence}.
-  \item
-    Invite contrasting views without framing them as ``for vs against''.
-  \item
-    Write key points on the board if helpful.
-  \end{itemize}
-\end{itemize}
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\setcounter{enumi}{2}
-\tightlist
-\item
-  Consolidation (2--3 minutes)
-\end{enumerate}
-
-\begin{itemize}
-\tightlist
-\item
-  Summarise the \emph{range of perspectives}.
-\item
-  Highlight what the discussion reveals about that week's topic.
-\item
-  Explicitly connect back to lectures or upcoming material.
-\item
-  Ask: \emph{``What would you want to know next?''}.
-\item
-  Revisit the question briefly at the end of class.
-\end{itemize}
-
-General tips:
-
-\begin{itemize}
-\tightlist
-\item
-  Emphasise productive contribution.
-\item
-  Identifying \emph{assumptions} when appropriate.
-\item
-  Asking clarifying questions.
-\item
-  Using \emph{examples}, even informal ones.
-\item
-  Avoid turning the discussion into a lecture.
-\item
-  Avoid signalling a ``correct'' answer (if it exists) too early.
-\item
-  Avoid letting one person or view dominate.
-\item
-  If students ask: \emph{``What's the right answer?''}, you can reply something like: `In statistics, the answer often depends on the context; let's focus on when each idea might apply.'
-\item
-  If discussion is quiet or stalls, use prompts such as:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Can anyone think of a situation where this might not hold?
-  \item
-    What assumption are we making here?
-  \item
-    How would this change with a different sample size?
-  \end{itemize}
-\item
-  If discussion becomes opinion-based, gently redirect:
-
-  \begin{itemize}
-  \tightlist
-  \item
-    What data or evidence would help answer that?
-  \item
-    What statistical idea from this week relates to that point?
-  \end{itemize}
-\end{itemize}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 1 tutorial}\label{Lecture1ThoughtsForTutors}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: In \emph{this} course, in \emph{this} semester, what percentage of students are female?
-
-\end{discussBox}
-
-\begin{itemize}
-\tightlist
-\item
-  Ask students to guess the percentage of males or females in SCI110 \emph{this} semester.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Some will make an estimate using the people in their own tutorial: is this a good guesstimate?
-  \item
-    Why or why not?
-  \end{itemize}
-\item
-  Reveal that about \(65\)\% of UniSC students are female.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Does this change their guess?
-  \end{itemize}
-\item
-  Then reveal the \emph{Fun Survey} results from the last \(10\) years or so.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Have students comment on the closeness or otherwise of their guesses to this percentage.
-  \end{itemize}
-\item
-  Then reveal the survey results for the \emph{current} semester.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Have students comment on the closeness or otherwise of their guesses to this percentage.
-  \end{itemize}
-\item
-  Point out that the survey results are not from everyone enrolled in SCI110 this semester.
-
-  \begin{itemize}
-  \tightlist
-  \item
-    How close do they think the survey percentages are to the true percentage?
-  \item
-    Within \(1\)\%? \(5\)\% \(10\)\% of the true value?
-  \item
-    How many would we need in our sample to get a percentage to within \(1\)\% either side of the true percentage?
-  \item
-    What if (say) males were less likely to answer the survey than females?
-  \item
-    Does the voluntary-response aspect cause you to doubt the accuracy and precision of the answers?
-  \end{itemize}
-\item
-  How could you ensure that the sample results were as close as possible to the true answers?
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{CreateRQs}}\label{thoughts-on-sect.-refcreaterqs}
-
-\begin{rmdTutorInfo}
-One way to manage this: arrange students into groups, and have each group discuss the answers separately.
-Then have each group share their answer with the class and discuss.
-
-Or: have one person from each of Group~1, 2 and~3 form new groups (all containing someone from each group) to discuss the parts.
-
-The last two parts of this question can be done by groups separately, then have the groups share with other groups.
-
-\emph{Encourage and promote student discussion and debate about the answers.}
-The point is that there are many possible options, all of which are acceptable, and all of which lead to different RQs.
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Note that Jane's actual assertion in the last sentence explicitly refers to ``people'', though the context really is (UniSC?) students as she asserts earlier.
-  Encourage this discussion!
-\item
-  In some ways, the answer is not important.
-  But clearly stating what you are doing is important!
-\item
-  Again, many options are possible.
-  Some options for comparing to Earl Grey tea:
-  coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
-\item
-  ``Between before and after drinking Earl Grey tea'' is a \emph{within-individuals} comparison, \emph{not a between-individuals comparison} because everyone in the population (sample) is treated the same way.
-  There are not two groups in the population being compared.
-\end{enumerate}
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{Units}}\label{thoughts-on-sect.-refunits}
-
-\begin{rmdTutorInfo}
-Encourage and promote student discussion and debate about the answers, within and then between groups.
-Then let the groups share their answers with another group(s).
-\end{rmdTutorInfo}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 2 tutorial}\label{Lecture2ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-1}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: A larger sample is always better than smaller sample.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Distinguish \emph{accuracy} and \emph{precision}.
-\item
-  Distinguish \emph{internal} and \emph{external} validity.
-\item
-  Recognise that \emph{more data does not fix bad design}.
-\end{itemize}
-
-You could introduce by asking:
-
-\begin{quote}
-At first glance this may sound obviously true.
-Let's unpack when it \emph{is} true, and when it might \emph{not} be true.
-\end{quote}
-
-Many students initially may \textbf{agree} with the statement, saying:
-
-\begin{itemize}
-\tightlist
-\item
-  More data is more accurate.
-\item
-  Larger samples are more `reliable'.
-\end{itemize}
-
-Note that larger samples:
-
-\begin{itemize}
-\tightlist
-\item
-  Reduce \textbf{random variation}.
-\item
-  Narrow \textbf{confidence intervals} and increase precision.
-\item
-  Increase \textbf{power} to detect effects (though we don't discuss \emph{power} explicitly).
-\item
-  Produce more stable estimates \emph{if the sample is random}.
-\end{itemize}
-
-However, larger samples
-
-\begin{itemize}
-\tightlist
-\item
-  May still produce \emph{biased samples} (e.g., convenience samples).
-\item
-  May produce systematic errors (e.g., non-response bias).
-\item
-  Have ethical, cost, and/or feasibility constraints.
-\end{itemize}
-
-Use these \textbf{prompts} to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What if the sample is large but non-random?
-\item
-  Can increasing the sample size fix a bad survey question?
-\item
-  Would \(10\) randomly-chosen observations ever be better than \(1\,000\) non-randomly chosen observations?
-\item
-  Is there a point where more data stops being useful?
-\end{itemize}
-
-Possible \textbf{misconceptions} you may meet:
-
-\begin{itemize}
-\tightlist
-\item
-  Large samples guarantee representativeness.
-\item
-  Small samples are automatically useless.
-\item
-  Confusing \textbf{precision} with \textbf{accuracy}
-\end{itemize}
-
-If these arise, acknowledge them and redirect:
-
-\begin{quote}
-What assumption are we making about how the data were collected?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Larger samples reduce randomness (improve external validity), but they don't fix bias or poor design (internal validity).
-Sample size is important, but it's only one part of good research.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Sampling methods.
-\item
-  Study design.
-\item
-  Upcoming topics on variability and inference.
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{LanguageReport}}\label{thoughts-on-sect.-reflanguagereport}
-
-\begin{rmdTutorInfo}
-Remind students that there is a \emph{Glossary} in the textbook!
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{AssessReport}}\label{thoughts-on-sect.-refassessreport}
-
-\begin{rmdTutorInfo}
-For newspaper articles, remember that the \emph{reporting} may not be very good, even though the \emph{research} itself may be good.
-Sometimes we need to assume answers or just state that we don't know.
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{PlanStudy2}}\label{thoughts-on-sect.-refplanstudy2}
-
-The purpose of this question is to get students thinking about \emph{study design} for Assessment Task~2A.
-It is \textbf{very important}!
-
-I have prepared a H5P artefact for you to use, thinking mostly of \textbf{online tutorials}:
-
-\textbf{In online classes}, you can \textbf{talk} about the issues, rather than \textbf{do} the study, or use the above.
-
-There are many correct ways to do this activity.
-However, for many reasons, we suggest following the suggestions here in the end (though having students suggest other ideas first is a great idea too).
-
-You could show the \emph{Project Proposal} form on the overhead screen, and get the students to work through it one page at a time.
-
-It is easier to measure reaction time using an app or website on a smartphone\ldots{} but \textbf{do not do so}.
-The \emph{purpose} of this activity is \textbf{not} getting the reaction times, but to think about planning a study.
-Using the ruler drop as the activity allows a \emph{lot} of opportunities to talk about many of the issues in study design and data collection, which \textbf{is} the purpose of this activty.
-
-\textbf{Resources}: Rulers.
-
-We \emph{plan} a study that we will continue next week (i.e., collect the data).
-The whole class will do the same study, and contribute data.
-
-\textbf{We will compare the `average ruler reaction time' for students after using their dominant and non-dominant hands}.
-Being a little vague at this stage:
-
-\begin{itemize}
-\tightlist
-\item
-  \textbf{P}opulation: Could be SCI110 students, UniSC students, \ldots{}
-\item
-  \textbf{O}utcome: The average amount that the dominant hand is faster than the non-dominant hand
-\item
-  \textbf{C}: None.
-\item
-  \textbf{I}ntervention: None.
-\end{itemize}
-
-Seeing that there is no C is important!
-This is a relational RQ, with a within-individuals comparison (there are not two subsets being compared).
-
-As a result, \textbf{a Task~2 project like this is not permitted}.
-
-Some points:
-
-\begin{itemize}
-\tightlist
-\item
-  To begin, state that we will compare left-hand reaction `time' to right-hand reaction `time'.
-  This is not the best idea, as some people and left-handed and some are right-handed, and it is better is to compare dominant and non-dominant hands.
-  But start like this, and lead a discussion that encourages students to come to this realisation.
-\item
-  Initially tell them what you want in very general terms (``we'll measure the reaction time in left and right hands''), and tell them to \emph{Go!}
-  They'll probably all start measuring without any planning.
-  So let them go for one or two minutes, then pull them up and start ranting and raving: ``\emph{What about the planning process that we've been learning about!?}''
-  Even observe and then tell the student how different groups were doing things differently to make your point.
-\item
-  Then have the students discuss planning as a class.
-  Form a class consensus on how to proceed, and \textbf{keep a record of what the class decides}.
-  You will actually \textbf{collect} this data, either this week or next weeks (probably more likely), so also be practical!
-\item
-  You may like to prepare a Word document with this info (during class time; ask a student to be the scribe), then over the following weeks as we compile more about the study (e.g., numerical and graphical summaries) add to this Word document.
-\item
-  Things to decide upon (some are arbitrary; some will have better answers than others):
-
-  \begin{itemize}
-  \tightlist
-  \item
-    How do we decide which hand goes first?
-  \item
-    How will we determine the \emph{dominant hand}?
-    (Perhaps easiest: hand we write with.)
-  \item
-    What if someone is ambidexterous, or only has one arm?
-    (Use exclusion criteria!)
-  \item
-    How will be grab the ruler?
-    Anyway we like, or with index finger and thumb?
-  \item
-    How do we measure the reaction time on the ruler?
-    What is grabbing finger/thumb is not horizontal exactly?
-    Top of thumb?
-  \item
-    Where will we start the ruler relative to fingers?
-  \item
-    When will we release the ruler?
-    After (say) \(3\) seconds?
-    After a random time?
-  \item
-    Will catchers be sitting or standing?
-  \item
-    What of the catcher drops their hand while catching?
-    (Maybe arm should rest on a table?)
-  \item
-    How far apart should fingers be?
-  \item
-    Just one catch per hand, or more?
-    If more, what (single) number to report: the slowest? fastest? median? mean?
-  \item
-    What if the catchers fails to catch the ruler: have another go? or just their bad luck, and they miss a measurement?
-  \item
-    Can we manage Hawthorne (no), observer effect (ask which hand is dominant \emph{after} collecting data), etc.
-  \end{itemize}
-\item
-  For example, we may decide to toss a coin to start (\emph{Heads}: start with left; \emph{Tails}: start with right), then alternate to have three tries each hand.
-  Report the median for each hand.
-  \emph{After} the toss, ask which hand is dominant.
-\end{itemize}
-
-Notes:
-
-\begin{itemize}
-\tightlist
-\item
-  The unit of analysis is the \emph{person}, and each person gets two units of observation.
-  Remember: jamovi and SPSS like data arranged with one unit of analysis (i.e.~person in this case) per row.
-\item
-  If you have time, you can collect the data in class.
-  But this activity often takes me about an hour, so we collect data next week.
-\end{itemize}
-
-\textbf{Save the protocol!}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 3 tutorial}\label{Lecture3ThoughtsForTutors}
-
-\subsection*{A note on calculators}\label{a-note-on-calculators}
-
-\begin{rmdTutorInfo}
-At present, exams are online.
-This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadsheet or jamovi) I guess.
-We have no way of knowing anyway.
-
-For that reason, you may wish to reconsider how this is taught.
-Nonetheless, I think that learning to use a calculator for simple calculations is a useful skill.
-Using the \textbf{Stats} mode can also be useful.
-
-There \emph{will} be a question in the exam where students are expected to compute a mean and/or standard deviation, so finding a quick way (i.e., not by hand) is important (and you \textbf{can tell the students this}).
-Students could use as jamovi or the \emph{Stats} mode on a calculator, for example.
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-2}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: Two datasets can have the same numerical summaries but tell very different stories.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Appreciate the purpose and limits of \textbf{numerical summaries}.
-\item
-  Understand why \textbf{graphs are essential} alongside data.
-\item
-  Recognise how distribution matters.
-\item
-  Avoid over-reliance on a small set of summary statistics.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-If two datasets have the same mean and standard deviation, do they describe the same data?\\
-What might still be different?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  If the summaries are the same, the data must be similar.
-\item
-  The mean captures the centre, so it's enough.
-\item
-  Graphs just make things look nicer.
-\end{itemize}
-
-Some may assume summaries fully describe data; encourage them to think about \textbf{centre, spread, shape, and unusual values}.
-
-Numerical summaries:
-
-\begin{itemize}
-\tightlist
-\item
-  Provide concise descriptions of centre and spread, etc.
-\item
-  Allow quick comparisons between datasets.
-\item
-  Assist with further statistical analysis.
-\item
-  Do not show \textbf{distribution shape}
-\item
-  Can hide \textbf{outliers or clusters}
-\item
-  May mask skewness or multimodality.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What features of data can't be seen from the mean and standard deviation?
-\item
-  How could two datasets with the same summaries look very different?
-\item
-  When might numerical summaries be misleading?
-\item
-  How do graphs \emph{complement} numerical summaries?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  The mean represents a ``typical'' value in all situations.
-\item
-  One summary statistic can describe a dataset.
-\item
-  Graphs are optional extras.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What does the \emph{distribution} actually look like?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Numerical summaries give useful but limited information.
-Graphical summaries reveal structure, patterns, and anomalies.
-Good data analysis uses both.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  One-variable quantitative summaries.
-\item
-  Histograms, boxplots, dot plots, etc.
-\item
-  Data collection and classification choices
-\end{itemize}
-
-Time permitting, you could:
-
-\begin{itemize}
-\tightlist
-\item
-  Show two datasets with identical summaries but different graphs (see below).
-\item
-  Ask students to choose the most informative graph for a given dataset.
-\end{itemize}
-
-A \textbf{small example}:
-
-\begin{itemize}
-\item
-  Dataset A: 6, 8, 9, 10, 11, 12, 13, 14, 16
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Roughly symmetric
-  \item
-    Values spread fairly evenly
-  \item
-    No obvious outliers
-  \end{itemize}
-\item
-  Dataset B: 2, 6, 9, 10, 11, 14, 17, 20, 20
-
-  \begin{itemize}
-  \tightlist
-  \item
-    Strong clustering around the centre
-  \item
-    Extreme values at both ends
-  \end{itemize}
-\end{itemize}
-
-For both datasets:
-
-\begin{itemize}
-\tightlist
-\item
-  \(n = 9\);
-\item
-  \(\bar{x} = 11\); and
-\item
-  \(s = 4.47\).
-\end{itemize}
-
-You could ask two groups of students to compute the statistics for the two group, and a third group to draw a 2D dotchart (on the whiteboard in a F2F class).
-
-\subsection*{Thoughts on Sect. \ref{StatsMode}}\label{thoughts-on-sect.-refstatsmode}
-
-\begin{rmdTutorInfo}
-You may like to suggest that students search on YouTube for some tutorials on using their calculator's \textbf{Statistics Mode}.
-
-The Course Outline indicates that a calculator is needed.
-Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there.
-You can perhaps direct students to work with other students having similar calculators.
-
-If students use the \emph{wrong} standard deviation button, they will get \(\sigma = s = 1485.919327\)~tonnes in error.
-\textbf{This is one important outcome of this question: that students know what button to press \emph{on their calculator} to get the sample standard deviation.}
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{UnderstandingVariation}}\label{thoughts-on-sect.-refunderstandingvariation}
-
-\begin{rmdTutorInfo}
-You can have groups answer each part separately, then share their explanations with the class.
-You may wish to quiz the students about means and IQRs too.
-
-For your info only (note the means and medians are very similar), see Table~\ref{tab:NumericalSummary}.
-\end{rmdTutorInfo}
-
-\begin{table}
-\centering
-\caption{\label{tab:NumericalSummary}Some statistics from the graphs}
-\centering
-\begin{tabular}[t]{>{}lrrrr}
-\toprule
-\textbf{ } & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D}\\
-\midrule
-\textbf{Std devs} & 7.04 & 5.90 & 5.10 & 2.84\\
-\textbf{IQRs} & 12.10 & 7.96 & 5.82 & 4.71\\
-\textbf{Medians} & 27.13 & 25.19 & 20.07 & 45.03\\
-\textbf{Means} & 27.15 & 25.26 & 21.49 & 44.95\\
-\bottomrule
-\end{tabular}
-\end{table}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Sect. \ref{PlanStudy3}}\label{thoughts-on-sect.-refplanstudy3}
-
-\begin{rmdTutorInfo}
-Following on from the ruler-drop planning activity from Week~2 (Sect.~\ref{PlanStudy2}): use the protocol established then, and have students actually collect data.
-
-I suggest starting jamovi.
-(Remember: each unit of analysis (student) is a row; the columns will be \texttt{Dom} and \texttt{NonDom} hand timings),
-Show students how to set up the variables, and have them come to the computer and enter their own data.
-
-Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences) and some numerical summary information.
-
-\textbf{Save the data!}
-\end{rmdTutorInfo}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 4 tutorial}\label{Lecture4ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-3}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: The raw data is more useful than a graphical summary.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Think carefully about what ``useful'' means in different contexts.
-\item
-  Understand \emph{why we summarise data}.
-\item
-  Recognise that \emph{raw data} and \emph{visual summaries} are complementary.
-\item
-  Avoid the idea that one representation is universally superior
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-When we say something is \emph{useful}\ldots{} useful for what?
-Think about who is using the data and what they want to do with it.
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Raw data allows you to see everything.
-\item
-  Graphs hide information.
-\item
-  Graphs are quicker to understand.
-\end{itemize}
-
-Some will treat usefulness as absolute; encourage them to think about \emph{purpose} and \emph{audience}.
-
-\textbf{Raw data} is more useful for:
-
-\begin{itemize}
-\tightlist
-\item
-  Checking for \emph{errors, outliers, or unusual values}.
-\item
-  Reproducibility and transparency.
-\item
-  Small datasets where individual observations matter.
-\item
-  Re-analysis, alternative summaries, or new research questions.
-\end{itemize}
-
-\textbf{Graphical summaries} are more useful for:
-
-\begin{itemize}
-\tightlist
-\item
-  Quickly identifying \emph{patterns, trends, and anomalies}.
-\item
-  Communicating results to others.
-\item
-  Comparing distributions or groups.
-\item
-  Reducing cognitive load for large datasets.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  Useful for \emph{whom}: the analyst, a decision-maker, or the public?
-\item
-  Could you work effectively with \(1\,000\) raw values and no graph?
-\item
-  What kinds of information are easier to see in a graph than in raw data?
-\item
-  When would you need to go back to the raw data after seeing a graph?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  Raw data is always more informative.
-\item
-  Graphs necessarily distort the data.
-\item
-  Confusing \textbf{detail} with \textbf{insight}
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What task are we trying to do, and which representation supports that task best?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Raw data and graphical summaries are useful in different ways.
-Raw data supports checking and flexibility, while graphs support understanding and communication.
-Good statistical practice uses both.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  One-variable numerical and graphical summaries.
-\item
-  Choosing graphs based on purpose.
-\item
-  Communicating data responsibly.
-\end{itemize}
-
-Time permitting, you could:
-
-\begin{itemize}
-\tightlist
-\item
-  Show the same dataset in raw form and as a plot; ask what each reveals.
-\item
-  Ask students how their answer changes as the dataset grows larger.
-\end{itemize}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 5 tutorial}\label{Lecture5ThoughtsForTutors}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-4}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: A badly designed experiment with lots of data is worse than a small, well-designed one.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Distinguish \emph{research design} (internal validity) from \emph{sample size} (external validity) and other issues.
-\item
-  Understand the impact of \emph{confounding}.
-\item
-  Recognise that more data does not fix poor design.
-\item
-  Appreciate trade-offs between \emph{precision}, \emph{accuracy} and \emph{validity}.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-Imagine two studies answering the same question; one study has lots of data but poor research design, the other study has very little data but is carefully designed.\\
-Which would you trust more, and why?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  More data must be better.
-\item
-  Small studies can't be trusted.
-\item
-  Bad design can be fixed with enough data.
-\end{itemize}
-
-Some will focus only on sample size; encourage them to think about \emph{what kind of error} each study is vulnerable to.
-
-\textbf{Badly designed studies} are problematic because
-
-\begin{itemize}
-\tightlist
-\item
-  Bias does not disappear with larger samples.
-\item
-  Confounding can produce precise but \emph{wrong} estimates.
-\item
-  Measurement error is repeated at scale.
-\item
-  Results may be misleading yet appear very convincing.
-\end{itemize}
-
-\textbf{Small, well-designed studies} are valuable because
-
-\begin{itemize}
-\tightlist
-\item
-  They can provide \textbf{unbiased} estimates.
-\item
-  Assumptions and procedures are clearer.
-\item
-  Results are easier to interpret.
-\item
-  They are often appropriate for pilot or feasibility studies.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  Can more data fix bias or confounding?
-\item
-  Which is more dangerous: a noisy estimate or a precise but biased one?
-\item
-  In what situations would a small study still be useful?
-\item
-  When might a large, messy dataset still be worth analysing?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  Large samples guarantee correctness.
-\item
-  Small studies are automatically useless.
-\item
-  Precision and accuracy mean the same thing.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What type of error are we worried about here: random error or systematic error?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Sample size impacts precision; sampling type impacts acuracy; research design impacts validity.
-A large amount of bad data can give very confident wrong answers, while a small, well-designed study can still be informative.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Sampling and study design.
-\item
-  Bias, confounding, and measurement error.
-\item
-  The distinction between precision and validity.
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{QuickRevision-Tutorial5}}\label{thoughts-on-sect.-refquickrevision-tutorial5}
-
-\begin{rmdTutorInfo}
-With \(22\) observations, the median is halfway between the \(11\)th and \(12\)th ordered observations (observation number \((22 + 1)/2 = 11.5\)): both be in the second bar, so the median is somewhere between \(8\) and \(10\)~mm (we cannot be sure based on the histogram, as information is lost).
-If they understand the histogram, they should also see that the smallest breadth is about \(6\)~mm, so a median of \(4\)~mm makes no sense.
-
-If you have the time: \textbf{Ask} \emph{how} to explain why they are wrong, and \textbf{ask approximately what the median would be}.
-\end{rmdTutorInfo}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Sect. \ref{CritiqueStudentGraphs1}}\label{thoughts-on-sect.-refcritiquestudentgraphs1}
-
-\begin{rmdTutorInfo}
-Have students work in groups, and then share their answers.
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{PlanStudy4}}\label{thoughts-on-sect.-refplanstudy4}
-
-\begin{rmdTutorInfo}
-This activity follows on from the ruler-drop planning activity from Week~2 (Sect.~\ref{PlanStudy2}) and the data collection (Sect.~\ref{PlanStudy3}.
-Use jamovi and the data file to create the numerical summary.
-
-You can save this info to add to later if you wish.
-
-In this activity, have students actually collect the data (quickly), according to the plan prepared in Sect.~\ref{PlanStudy2}, at least as best as you can.
-
-The data themselves aren't actually that important: it is more about \emph{using} the data to show how to
-
-\begin{itemize}
-\tightlist
-\item
-  enter the data into software;
-\item
-  draw graphs; and
-\item
-  compute numerical summaries.
-\end{itemize}
-
-They are \textbf{not} meant to become experts in the software, but it useful for them to see.
-
-I suggest having students enter their data into jamovi (Fig.~\ref{fig:RulerDrop-jamovi}), and then you show them how to do some basic stuff.
-
-If you have collect data from each person left and right hand (to study the average difference between left and right hand reaction, for instance), remember that the unit of analysis is the \emph{person}, and each person gets two units of observation: jamovi and SPSS like data arranged with one unit of analysis (i.e.~person in this case) per row
-(Fig.~\ref{fig:RulerDrop-jamovi}).
-\end{rmdTutorInfo}
-
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=12.11in]{SoftwareImages/RulerDropData} 
-
-}
-
-\caption{Data entered in jamovi for the ruler-drop study}\label{fig:RulerDrop-jamovi}
-\end{figure}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 6 tutorial}\label{Lecture6ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-5}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: Outliers should always be removed from a dataset before analysis.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Understand the role of \emph{outliers} in data analysis.
-\item
-  Recognise that removal is \emph{context-dependent}.
-\item
-  Learn to distinguish between \emph{errors} and \emph{true extreme values}.
-\item
-  Avoid blindly cleaning data without justification.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-When you see outliers in your data, should you always remove them?
-What could happen if you do, or if you don't?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Yes, outliers distort or bias results.
-\item
-  No, all data should be kept.
-\item
-  Only remove obvious mistakes.
-\end{itemize}
-
-Some may confuse \textbf{extremes} with \textbf{errors}.
-Remember: \emph{any} rule for declaring outliers is arbitrary!
-
-Reasons to consider \textbf{removing} outliers:
-
-\begin{itemize}
-\tightlist
-\item
-  They result from measurement or data entry errors.
-\item
-  They disproportionately affect means and some statistical tests.
-\item
-  They may obscure patterns in the main body of data.
-\end{itemize}
-
-Reasons to \textbf{keep} outliers:
-
-\begin{itemize}
-\tightlist
-\item
-  They may reflect true variation or rare but important phenomena.
-\item
-  Incorrectly removing them can bias results.
-\item
-  Robust statistical methods can accommodate them.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  How can you tell if an extreme value is an error or genuine observation?
-\item
-  What impact do outliers have on different summary statistics?
-\item
-  Can removing outliers sometimes mislead your conclusions?
-\end{itemize}
-
-If it comes up, make students aware that other (robust; nonparametric) methods can be used instead of removing data.
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  All outliers are mistakes.
-\item
-  Removing outliers always improves results.
-\item
-  Outliers don't carry useful information.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-Consider the \emph{reason} for the outlier: is it an error, or does it reflect real variation?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Outliers should not be removed automatically.
-Their treatment depends on context, the type of analysis, and whether they represent real variation or errors.
-Thoughtful consideration and transparency are key.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Data cleaning and pre-processing.
-\item
-  Choice of summary statistics and models.
-\item
-  Ethical reporting of data handling.
-\end{itemize}
-
-Time permitting, you could show examples where removing outliers changes conclusions.
-
-\href{https://bookdown.org/pkaldunn/SRM-Textbook/SummariseQuantData.html?q=outliers\#SummaryOutliers}{Section 11.8.4 of the textbook} says:
-
-\begin{quote}
-Managing outliers depends on why they occur (Dunn and Smyth (2018), p.~138):
-
-\begin{itemize}
-\tightlist
-\item
-  the outlier is clearly a mistake (e.g., an age of \(222\)).
-  If the mistake cannot be fixed (e.g., the completed questionnaire form is lost), the observation can be deleted.
-  Similarly, if the outlier comes from an error or mistake in the data collection (e.g., too much fertiliser was accidentally applied), the observation can be deleted.
-\item
-  the outlier represents a different population.
-  Suppose an outlier is identified in a study of students, corresponding to a student aged~\(65\).
-  If the next oldest student in the data is aged~\(39\), the outlier can be removed, since it belongs to a different population (`students aged over~\(40\)') than the other observations (`students aged~\(40\) and under').
-  The remaining observations can be analysed, but the results only apply to students aged under~\(40\) (which should be clearly communicated).
-\item
-  the reason for the outlier is unknown.
-  In these cases, discarding outliers routinely is not recommended; the outliers are probably real observations that are just as valid as the others.
-  Perhaps a different analysis is necessary (e.g., using medians rather than means).
-  Furthermore, very large datasets are expected to have a small number of observations identified as outliers using the above arbitrary rules.
-\end{itemize}
-
-In all cases, whenever observations are removed from a dataset, this should be clearly explained and documented.
-
---- \emph{Scientific Research and Methodology}, p.~138.
-\end{quote}
-
-\subsection*{Thoughts on Sect. \ref{NormalHeights}}\label{thoughts-on-sect.-refnormalheights}
-
-\begin{rmdTutorInfo}
-Encourage drawing diagrams!
-A common error: plugging numbers into calculators wrongly, and effectively computing \(z = x - (\mu/\sigma)\) rather than \(z = (x - \mu)/\sigma\).
-
-Notice that students cannot be very accurate using the \(68\)--\(95\)--\(99.7\) rule, which is one of the points to be made: only a guess can be made, but using \(z\)-scores leads to more accurate answers.
-\end{rmdTutorInfo}
-
-\begin{rmdTutorInfo}
-\textbf{You could have a discussion about rounding.}
-Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{RandomCardDraws}}\label{thoughts-on-sect.-refrandomcarddraws}
-
-\begin{rmdTutorInfo}
-Since samples are easy to generate, you can have each group/person in class generate a few simulations.
-On the whiteboard, you can tally these, and produce a histogram.
-Obviously, the more sets of \(10\) you can generate, the better\ldots{} and the webpage is fast\ldots{} but don't take \emph{too} long doing so.
-
-One purpose is to show students about \emph{sampling variation}: not every set of \(10\) tosses produces the same value.
-The main purpose is to demonstrate what we mean by a sampling distribution: the distribution that shows how a sample statistic varies from sample to sample.
-After drawing the histogram from your classes data, you may wish to point out where certain groups' \(\hat{p}\) values are located.
-\end{rmdTutorInfo}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 7 tutorial}\label{Lecture7ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-6}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: If we have \emph{greater} confidence in our answer, we would expect to have a \emph{smaller} range of values to choose from.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Clarify what ``confidence'' means in statistics.
-\item
-  Connect \textbf{confidence level} with \textbf{interval width}.
-\item
-  Distinguish \emph{confidence} from \emph{precision}.
-\item
-  Avoid common misinterpretations of confidence intervals.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-When we say we are `more confident', what exactly do we mean?
-Does it mean we know the answer more precisely, or something else?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Greater confidence should mean a narrower interval.
-\item
-  More certainty means less spread.
-\item
-  A wider range feels less confident.
-\end{itemize}
-
-Some will confuse \emph{confidence} with \emph{precision}; encourage them to separate these ideas.
-Reasons students may think this is \textbf{true} include:
-
-\begin{itemize}
-\tightlist
-\item
-  Higher certainty intuitively feels like tighter bounds.
-\item
-  Everyday language uses ``confidence'' to mean precision.
-\item
-  Narrow intervals appear more informative.
-\end{itemize}
-
-However:
-
-\begin{itemize}
-\tightlist
-\item
-  Increasing the \textbf{confidence level} (e.g.~\(90\)\% to \(95\)\%) increases interval width.
-\item
-  Increasing \textbf{sample size} reduces interval width.
-\item
-  Reducing variability reduces interval width.
-\item
-  Confidence level and precision are controlled by different mechanisms.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What changes when we go from a \(90\)\%~CI to a \(95\)\%~CI?
-\item
-  Can we be more confident \emph{and} more precise at the same time?
-\item
-  What would you change to get a narrower interval \emph{without} lowering confidence?
-\item
-  Why might wider intervals be more honest?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  Higher confidence means greater accuracy.
-\item
-  Confidence level controls precision.
-\item
-  A narrow interval must be correct.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What do we have to trade off when choosing a confidence level?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-In statistics, confidence and precision are not the same thing.
-Greater confidence means we are more likely to capture the true value, but this usually requires a wider range of plausible values.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Confidence intervals for means and proportions.
-\item
-  The role of sample size and variability.
-\item
-  Interpretation of confidence levels.
-\end{itemize}
-
-Time permitting, you could:
-
-\begin{itemize}
-\tightlist
-\item
-  Compare two confidence intervals with different confidence levels (or use \href{https://bookdown.org/pkaldunn/SRM-Textbook/CIOneProportion.html\#fig:CIWidthsMany2}{the textbook animation}).
-\item
-  Ask how sample size could change the conclusion.
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{CIPropBVM}}\label{thoughts-on-sect.-refcipropbvm}
-
-\begin{rmdTutorInfo}
-\textbf{Students commonly forget the square root} when computing \(\text{s.e.}(\hat{p})\), and some just have trouble with the maths anyway.
-Furthermore, \textbf{the calculators may use scientific notation} to display the results from some calculations (e.g.~\(2.2894\times 10^{-2}\) or \(2.2894^{-2}\) as it displays on some calculators); many students will have no idea what's going on.
-\end{rmdTutorInfo}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 8 tutorial}\label{Lecture8ThoughtsForTutors}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-7}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: Confidence intervals are more informative than \(P\)-values.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Compare what information confidence intervals and \(P\)-values provide.
-\item
-  Understand the limits of \href{https://bookdown.org/pkaldunn/SRM-Textbook/MoreAboutTests.html\#AboutPvalues}{\emph{binary decision-making}}.
-\item
-  Connect statistical results to \textbf{practical interpretation}.
-\item
-  Avoid treating inference as a single number.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-Suppose I tell you only a \(P\)-value, and nothing else.
-What do you still not know about the result?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  \(P\)-values tell you whether something is statistically significant.
-  (You can follow with: What do you mean by `statistically significant?')
-\item
-  Confidence intervals show the range of possible values.
-\item
-  \(P\)-values are simpler and easier to interpret.
-\end{itemize}
-
-Some will focus on ease rather than information; encourage them to think about \emph{what questions each tool answers}.
-
-CIs are informative because they:
-
-\begin{itemize}
-\tightlist
-\item
-  Show the \textbf{range of plausible values} for a parameter.
-\item
-  Convey \textbf{precision and uncertainty}.
-\item
-  Allow assessment of \textbf{practical significance}.
-\item
-  Can be used to make comparisons across studies.
-\end{itemize}
-
-\(P\)-values are informative because they:
-
-\begin{itemize}
-\tightlist
-\item
-  Provide evidence against a null hypothesis.
-\item
-  Support formal hypothesis testing.
-\item
-  Are familiar and widely reported.
-\item
-  Offer a quick summary for decision rules.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What can a confidence interval tell you that a \(P\)-value cannot?
-\item
-  Can a result be statistically significant but practically unimportant?
-\item
-  Can two studies have the same \(P\)-value but very different confidence intervals?
-\item
-  When might a \(P\)-value still be useful?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  A small \(P\)-value means a \emph{large} effect, or an \emph{important} effect.
-\item
-  Confidence intervals contain the true value with \(95\)\% probability (though we do kind-of do this\ldots).
-\item
-  One method should completely replace the other.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What question are we trying to answer: ``Is there evidence?'' or ``How large is the effect?''
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-\(P\)-values answer a narrow question about evidence against a null hypothesis.\\
-Confidence intervals provide richer information about effect size and uncertainty.\\
-Used together, they give a more complete picture.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Hypothesis testing vs estimation
-\item
-  Interpretation of confidence intervals
-\item
-  Reporting statistical results responsibly
-\end{itemize}
-
-Time permitting, you could:
-
-\begin{itemize}
-\tightlist
-\item
-  Show two results with the same \(P\)-value but different confidence intervals
-\item
-  Ask students which result they would trust more, and why
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{PValues}}\label{thoughts-on-sect.-refpvalues}
-
-\begin{rmdTutorInfo}
-We only need to use the \(68\)--\(95\)--\(99.7\) rule.
-The one-tailed \(P\)-values are \emph{half} of the two-tailed \(P\)-values.
-\end{rmdTutorInfo}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 9 tutorial}\label{Lecture9ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-8}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: If the mean of Group~A is \(\bar{x}_1 = 12.0\,\text{cm}\) and the mean of Group~B is \(\bar{x}_2 = 14.2\,\text{cm}\), then the two means are clearly different.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Understand that \textbf{observed differences} do not automatically imply statistical significance.
-\item
-  Connect \textbf{mean differences} to \textbf{variability and sample size}.
-\item
-  Recognise the importance of \textbf{confidence intervals and hypothesis tests}.
-\item
-  Avoid over-interpreting raw summary statistics.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-Two groups have means \(12.0\,\text{cm}\) and \(14.2\,\text{cm}\).
-Can we conclude there is a difference?
-What else do we need to know?''
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  The difference of \(2.2\,\text{cm}\) seems obvious!
-\item
-  Means alone tell the story.
-\item
-  We don't need any more calculations.
-\end{itemize}
-
-Some may ignore \textbf{spread and sample size}; encourage them to think about \textbf{uncertainty}.
-Some will confuse \emph{sample} means and \emph{population} means.
-
-The sample means are obviously different\ldots{} but RQs are about \emph{population} means.
-The differences between the sample means may due to:
-
-\begin{itemize}
-\tightlist
-\item
-  Large \textbf{within-group variability} that can make the difference uninformative.
-\item
-  Small sample sizes that can produce \textbf{unstable estimates}.
-\item
-  Overlapping \textbf{confidence intervals} that indicate uncertainty.
-\item
-  Chance.
-\end{itemize}
-
-Of course, the difference between the sample means \emph{might} indicate a difference between the population means:
-
-\begin{itemize}
-\tightlist
-\item
-  Low variability and sufficiently large samples.
-\item
-  Statistical tests confirm significance.
-\item
-  Effect size is meaningful in context.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What else would you need to decide if the difference is real in the population?
-\item
-  How does variability affect our confidence in this difference?
-\item
-  Could a small sample exaggerate the observed difference?
-\item
-  How might confidence intervals or hypothesis tests help?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  A difference between sample means implies a difference between population means.
-\item
-  Sample means alone provide the full story.
-\item
-  Larger differences are always more important.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-What role does variability and sample size play in interpreting these means?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-Observed differences in sample means are suggestive, but not conclusive.
-We need to consider variability, sample size, and use confidence intervals or statistical tests to decide if the difference is meaningful.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Hypothesis testing for two means.
-\item
-  Confidence intervals for group differences.
-\item
-  Importance of considering variability and sample size.
-\end{itemize}
-
-Time permitting, you could:
-
-\begin{itemize}
-\tightlist
-\item
-  Compare two datasets with the same mean difference but different variability.
-\item
-  Ask students to interpret confidence intervals for the difference between means.
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{PlanStudy7}}\label{thoughts-on-sect.-refplanstudy7}
-
-\begin{rmdTutorInfo}
-If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
-
-In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative \emph{difference}) means.
-\end{rmdTutorInfo}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 10 tutorial}\label{Lecture10ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-9}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, or \emph{percentages}?
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Understand different ways of \textbf{quantifying group differences} for comparing qualitative variables.
-\item
-  Recognise that \textbf{choice of measure depends} on context but are ultimately the same.
-\item
-  Practice \textbf{selecting an appropriate and consistent analysis} for a research question.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-Imagine you want to compare two treatments on whether patients improve.
-Should you look at the difference in proportions, the odds, or percentages?
-Why?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Differences in proportions are easier to understand.
-\item
-  It depends on which measure is statistically significant.
-\end{itemize}
-
-Differences in \textbf{proportions} are effectively the same as differences in \textbf{percentages} (percentages are proportions multiplied by~\(100\)), and:
-
-\begin{itemize}
-\tightlist
-\item
-  Are often easier to understand.
-\item
-  Are useful for reporting to a general audience.
-\end{itemize}
-
-However, we teach inference for the difference in \textbf{odds} (or using \textbf{odds ratios}), since this is useful:
-
-\begin{itemize}
-\tightlist
-\item
-  For adjusting for confounders (in later courses for some students).
-\item
-  For logistic regression models.
-\item
-  When outcomes are rare.
-\end{itemize}
-
-\textbf{In SCI110}, the main issue is to \textbf{keep consistency} between the RQ, hypothesis and the conclusions.
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  How does sample size affect confidence intervals for each measure?
-\item
-  How would your choice change if the outcome is rare vs common?
-\item
-  What measure would be easier to communicate to non-statisticians?
-\item
-  How do CIs help interpret practical importance, not just significance?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  Odds and proportions are much the same.
-  They are different, but conclusions will have the same meaning (apart from a few edge cases we don't need to worry about).
-\end{itemize}
-
-If these arise, redirect with the ideas of \textbf{consistency}.
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-The choice between differences in proportions, odds and perecentages depends on context, and the research question.
-Confidence intervals, hypothesis tests, and sample size planning should guide the analysis.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Confidence intervals and hypothesis tests for ORs and differences in proportions.
-\item
-  Sample size estimation.
-\item
-  Selecting the most appropriate analysis for a given scenario.
-\end{itemize}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 11 tutorial}\label{Lecture11ThoughtsForTutors}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-10}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: A `statistically significant' result means a real discrepancy or effect.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Understand what \textbf{statistical significance} actually means and measures.
-\item
-  Distinguish between \textbf{evidence against the null} and \textbf{practical reality}.
-\item
-  Recognise the effects of \textbf{sample size, variability, and research design}.
-\item
-  Avoid over-interpreting \(P\)-values as `proof' of truth.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-If a result is statistically significant, does that guarantee there is a discrepancy or effect in the population?
-What does `significant' mean in statistical terms?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Yes, significant means the effect really exists.
-\item
-  Maybe, but it could be a fluke.
-\item
-  Significance implies importance.
-\end{itemize}
-
-Some may confuse \textbf{significance} with \textbf{magnitude or reality}; encourage them to separate these concepts.
-
-Statistical significance indicates:
-
-\begin{itemize}
-\tightlist
-\item
-  Evidence against a null hypothesis, however small the discrepancy is.
-\item
-  The observed data is unlikely under the null, assuming all assumptions hold.
-\item
-  That chance alone is an unlikely explanation, \textbf{given the model}.
-\end{itemize}
-
-Statistical significance does \textbf{not} necessarily indicate:
-
-\begin{itemize}
-\tightlist
-\item
-  That the effect is practically or scientifically important.
-\item
-  That the effect is guaranteed to exist in the population.
-\item
-  That the estimate is accurate or free from bias.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  Could a very small effect be statistically significant with a large sample?
-\item
-  Could a large effect fail to reach significance with a small sample?
-\item
-  How do variability and study design influence significance?
-\item
-  How could confidence intervals provide a fuller picture?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  `Statistical significance' is the same as `a discrepancy in the population'.
-\item
-  `Non-statistical significant' is the same as `no discrepancy in the population'.
-\item
-  \(P\)-values tell the probability that the null hypothesis is true.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-Statistical significance only quantifies how consistent the data are with the null hypothesis, not whether the effect is real in practice.
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-A statistically significant result suggests the data are unlikely under the null hypothesis, but it does not prove a discrepancy in the population. or practically important effect.
-Always consider effect size, uncertainty, and context alongside \(P\)-values.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Hypothesis testing.
-\item
-  Confidence intervals and effect size.
-\item
-  Responsible interpretation of \(P\)-values.
-\end{itemize}
-
-\subsection*{Thoughts on Sect. \ref{InterpretRegressions}}\label{thoughts-on-sect.-refinterpretregressions}
-
-\begin{rmdTutorInfo}
-If you count the dots on the scatterplot, you won't find \(n = 38\) dots, because of \emph{overplotting}.
-For example, there are two Corolla's from 2006 selling for \$9500.
-
-If you have time, you can ask students about this, and even ask for suggestions to improve this (such as jittering).
-
-\textbf{Note}: since all the cars in the sample are second-hand, technically the results only generalise to second-hand cars, so that \(b_0\) really is the estimated price of a second-hand 2014 Corolla.
-\end{rmdTutorInfo}
-
-\subsection*{Thoughts on Sect. \ref{RegressionCorrelation}}\label{thoughts-on-sect.-refregressioncorrelation}
-
-\begin{rmdTutorInfo}
-The point is that the same regression line can be associated with a high correlation, or a poor correlation.\\
-Regression and correlation are not the same thing!
-\end{rmdTutorInfo}
-
-\hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
-
-\section*{Thoughts on Teaching Week 12 tutorial}\label{Lecture12ThoughtsForTutors}
-
-\subsection*{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-11}
-
-\begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: The values of \(y\) (the data) and \(\hat{y}\) (the model predictions) should be as close as possible.
-
-\end{discussBox}
-
-This discussion helps students:
-
-\begin{itemize}
-\tightlist
-\item
-  Understand the concept of \textbf{model fit}.
-\item
-  Recognise that almost perfect agreement between~\(y\) and~\(\hat{y}\) is not always realistic or desirable.
-\end{itemize}
-
-You could introduce by asking
-
-\begin{quote}
-Should a model always try to make its predictions exactly match the observed data?
-What are the potential benefits and pitfalls of alnost perfect agreement between~\(y\) and~\(\hat{y}\)?
-\end{quote}
-
-You may find students start by saying:
-
-\begin{itemize}
-\tightlist
-\item
-  Yes, closer predictions are always better.
-\item
-  A model should exactly match the data to be useful.
-\item
-  Small differences don't matter if the overall pattern is captured.
-\end{itemize}
-
-Some may ignore \textbf{overfitting}; encourage thinking about \textbf{generalisation}.
-
-Close predictions \emph{are} `good':
-
-\begin{itemize}
-\tightlist
-\item
-  Smaller residuals indicate better representation of the data.
-\item
-  Improves predictive accuracy for similar data.
-\item
-  Supports more reliable estimates of trends or relationships.
-\end{itemize}
-
-But closer predictions are \emph{not always better}:
-
-\begin{itemize}
-\tightlist
-\item
-  Overfitting can capture random noise rather than, or in addition to, the true signal.
-\item
-  The model may perform poorly on new data, and the understanding of the relationship gained from the model, may be poor for the above reason.
-\item
-  Some deviation is expected due to inherent variability.
-\end{itemize}
-
-Use these prompts to move the discussion forward:
-
-\begin{itemize}
-\tightlist
-\item
-  What happens if a model \emph{exactly} fits the training data?
-\item
-  When is it better to accept some difference between \(y\) and \(\hat{y}\)?
-\end{itemize}
-
-Common \textbf{misconceptions}:
-
-\begin{itemize}
-\tightlist
-\item
-  Closer predictions always mean a better model.
-\item
-  Zero residuals indicate a perfect model.
-\item
-  Overfitting is harmless if predictions match the data.
-\end{itemize}
-
-If these arise, redirect with:
-
-\begin{quote}
-Should our goal be perfect agreement on existing data, or good performance on new data and understanding the relationship between the variables?
-\end{quote}
-
-\textbf{Summarise} with something like:
-
-\begin{quote}
-We want model predictions to be close to observed values, but not at the cost of overfitting.
-Good models balance accuracy with generalisability.
-\end{quote}
-
-Ideally, explicitly \textbf{connect} to:
-
-\begin{itemize}
-\tightlist
-\item
-  Residual analysis and model evaluation.
-\item
-  Predictive performance and cross-validation.
-\end{itemize}
-
-\href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
 
 \begin{footnotesize}
 

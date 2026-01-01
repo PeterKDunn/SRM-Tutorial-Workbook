@@ -93,21 +93,6 @@ $(document).ready(function() {
   gtag('config', 'G-2XVTLVFP0R');
 </script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $examplefolds = $(".exampleExtra");
-  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
-  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
-  $(".example-fold-blck").toggle();  // fold all blocks
-  $(".example-fold-btn").on("click", function() {  // add onClick event
-    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
-    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
-  })
-});
-
-</script>
-
-
 
 
 
@@ -261,7 +246,7 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.3</b> The decision-making process</a></li>
 <li class="chapter" data-level="8.4" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.4</b> Test for one proportion</a></li>
 <li class="chapter" data-level="8.5" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.5</b> Tests for one mean</a></li>
-<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> <span class="math inline">\(P\)</span>-values</a></li>
+<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> Approximate <span class="math inline">\(P\)</span>-values</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
 <ul>
@@ -284,7 +269,7 @@ div.csl-indent {
 <li class="chapter" data-level="10.3" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.3</b> Consistency</a></li>
 <li class="chapter" data-level="10.4" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.4</b> CI and test for odds ratios</a></li>
 <li class="chapter" data-level="10.5" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.5</b> CIs and tests for ORs</a></li>
-<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct analysis</a></li>
 <li class="chapter" data-level="10.7" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.7</b> Sample size calculations</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
@@ -337,7 +322,6 @@ div.csl-indent {
 <li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
 </ul></li>
 <li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
-<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
@@ -361,7 +345,10 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="QuickRevision-Tutorial5" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Quick revision<a href="QuickRevision-Tutorial5.html#QuickRevision-Tutorial5" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="webex-check webex-box">
+<div class="startClassBox startClass">
+<p>These questions may be answered during an all-class activity.</p>
+</div>
+<div class="webex-box">
 <p><span class="citation">Lunn and McNeil (<a href="#ref-others:lunn:cida">1991</a>)</span> compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig. <a href="QuickRevision-Tutorial5.html#fig:JellyfishHist">5.1</a>.</p>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:JellyfishHist"></span>
@@ -393,10 +380,8 @@ Since the third bar has a height of <span class="math inline">\(4\)</span>, the 
 Describe and compare the breadths of the jellyfish.
 </li>
 <li>Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig. <a href="QuickRevision-Tutorial5.html#fig:JellyfishHist">5.1</a>)?
-<select class='webex-select'><option value='blank'></option><option value='answer'>The Site A box</option><option value=''>The Site B box</option></select>
 </li>
 <li>If the difference was defined as <span class="math inline">\(\mu_A - \mu_B\)</span>, what does this <em>measure</em>?
-<select class='webex-select'><option value='blank'></option><option value='answer'>How much larger the mean for Site A was compared to Site B</option><option value=''>How much larger the mean for Site B was compared to Site A</option></select>
 </li>
 <li>What did you learn from this study?
 </li>
@@ -407,17 +392,6 @@ Describe and compare the breadths of the jellyfish.
 FIGURE 5.2: A boxplot of the breadth of jellyfish at two sites.
 </p>
 </div>
-</div>
-<div class="webex-solution">
-<button>
-Solution
-</button>
-<ol style="list-style-type: decimal">
-<li>Discuss in class.</li>
-<li>The sample is small, so hard to be certain: <em>Average</em> about <span class="math inline">\(10\)</span> mm; data from about <span class="math inline">\(6\)</span> to <span class="math inline">\(16\)</span> mm; slightly right skewed; no outliers.</li>
-<li>Discuss in class.</li>
-<li>Discuss in class.</li>
-</ol>
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>

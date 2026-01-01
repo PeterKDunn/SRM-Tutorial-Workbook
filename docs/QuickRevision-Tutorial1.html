@@ -93,21 +93,6 @@ $(document).ready(function() {
   gtag('config', 'G-2XVTLVFP0R');
 </script>
 
-<script type="text/javascript">
-$(document).ready(function() {
-  $examplefolds = $(".exampleExtra");
-  $examplefolds.wrapInner("<div class=\"example-fold-blck\">"); // wrap a div container around content
-  $examplefolds.prepend("<button class=\"example-fold-btn\" style=\"border-style=solid; border-color: black; padding: 12px 25px; font-size: larger; background-color=LightSlateGrey\">Extra example: Show</button>");  // add a button
-  $(".example-fold-blck").toggle();  // fold all blocks
-  $(".example-fold-btn").on("click", function() {  // add onClick event
-    $(this).text($(this).text() === "Extra example: Hide" ? "Extra example: Show" : "Extra example: Hide");  // if the text equals "Extra example: Hide", change it to "Extra example: Show"or else to "Extra example: Hide" 
-    $(this).next(".example-fold-blck").toggle("linear");  // "swing" is the default easing function. This can be further customized in its speed or the overall animation itself.
-  })
-});
-
-</script>
-
-
 
 
 
@@ -261,7 +246,7 @@ div.csl-indent {
 <li class="chapter" data-level="8.3" data-path="DecisionMakingProcess.html"><a href="DecisionMakingProcess.html"><i class="fa fa-check"></i><b>8.3</b> The decision-making process</a></li>
 <li class="chapter" data-level="8.4" data-path="HTOneProportionA.html"><a href="HTOneProportionA.html"><i class="fa fa-check"></i><b>8.4</b> Test for one proportion</a></li>
 <li class="chapter" data-level="8.5" data-path="HTOneMean-A.html"><a href="HTOneMean-A.html"><i class="fa fa-check"></i><b>8.5</b> Tests for one mean</a></li>
-<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> <span class="math inline">\(P\)</span>-values</a></li>
+<li class="chapter" data-level="8.6" data-path="PValues.html"><a href="PValues.html"><i class="fa fa-check"></i><b>8.6</b> Approximate <span class="math inline">\(P\)</span>-values</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="Lecture9.html"><a href="Lecture9.html"><i class="fa fa-check"></i><b>9</b> Teaching Week 9: tutorial</a>
 <ul>
@@ -284,7 +269,7 @@ div.csl-indent {
 <li class="chapter" data-level="10.3" data-path="Consistency.html"><a href="Consistency.html"><i class="fa fa-check"></i><b>10.3</b> Consistency</a></li>
 <li class="chapter" data-level="10.4" data-path="OddsSoftware.html"><a href="OddsSoftware.html"><i class="fa fa-check"></i><b>10.4</b> CI and test for odds ratios</a></li>
 <li class="chapter" data-level="10.5" data-path="TestsForORs.html"><a href="TestsForORs.html"><i class="fa fa-check"></i><b>10.5</b> CIs and tests for ORs</a></li>
-<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct test</a></li>
+<li class="chapter" data-level="10.6" data-path="IdentifyCorrectAnalyses.html"><a href="IdentifyCorrectAnalyses.html"><i class="fa fa-check"></i><b>10.6</b> Identify the correct analysis</a></li>
 <li class="chapter" data-level="10.7" data-path="RoomWidthCISampleSize.html"><a href="RoomWidthCISampleSize.html"><i class="fa fa-check"></i><b>10.7</b> Sample size calculations</a></li>
 </ul></li>
 <li class="chapter" data-level="11" data-path="Lecture11.html"><a href="Lecture11.html"><i class="fa fa-check"></i><b>11</b> Teaching Week 11: Tutorial</a>
@@ -337,7 +322,6 @@ div.csl-indent {
 <li class="chapter" data-level="C.6" data-path="OtherSymbols.html"><a href="OtherSymbols.html"><i class="fa fa-check"></i><b>C.6</b> Other symbols and abbreviations used</a></li>
 </ul></li>
 <li class="chapter" data-level="D" data-path="Image-Credits.html"><a href="Image-Credits.html"><i class="fa fa-check"></i><b>D</b> Appendix: Image credits</a></li>
-<li class="chapter" data-level="E" data-path="NonOptionalAnswers.html"><a href="NonOptionalAnswers.html"><i class="fa fa-check"></i><b>E</b> Thoughts for teaching</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://bookdown.org" target="_blank">Published with bookdown</a></li>
@@ -361,85 +345,43 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="QuickRevision-Tutorial1" class="section level2 hasAnchor" number="1.1">
 <h2><span class="header-section-number">1.1</span> Quick revision<a href="QuickRevision-Tutorial1.html#QuickRevision-Tutorial1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<div class="preClassBox preClass">
-<p>We <strong>strongly</strong> recommend trying these <em>Quick revision</em> questions <strong>before</strong> your tutorial.</p>
+<div class="startClassBox startClass">
+<p>These questions may be answered during an all-class activity.</p>
 </div>
-<div class="webex-check webex-box">
+<!--
+\mentiQuestion
+-->
+<div class="webex-box">
 <p>Consider this RQ (based on <span class="citation">Jaworowska et al. (<a href="#ref-data:jaworowska2012:determination">2012</a>)</span>):</p>
 <blockquote>
 <p>For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?</p>
 </blockquote>
 <ol style="list-style-type: decimal">
 <li>What <em>type</em> of RQ is this?
+Descriptive, relational, repeated-measures or correlational?
 Explain.
-<div id="radio_TVEVDNXOKF" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_TVEVDNXOKF" value=""></input> <span>Descriptive</span></label><label><input type="radio" autocomplete="off" name="radio_TVEVDNXOKF" value="answer"></input> <span>Relational</span></label><label><input type="radio" autocomplete="off" name="radio_TVEVDNXOKF" value=""></input> <span>Repeated-measures</span></label><label><input type="radio" autocomplete="off" name="radio_TVEVDNXOKF" value=""></input> <span>Correlational</span></label>
-</div></li>
-</ol>
-<ol start="2" style="list-style-type: decimal">
+</li>
 <li>What is the <em>purpose</em> this RQ?
+Estimation or decision-making?
 Explain.
-<div id="radio_IKCSXKXTLX" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_IKCSXKXTLX" value=""></input> <span>Estimation</span></label><label><input type="radio" autocomplete="off" name="radio_IKCSXKXTLX" value="answer"></input> <span>Decision-making</span></label>
-</div></li>
-</ol>
-<ol start="3" style="list-style-type: decimal">
+</li>
 <li>Is an <em>intervention</em> present?
-Explain.
-<div id="radio_HALVJKLCRV" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_HALVJKLCRV" value=""></input> <span>Yes</span></label><label><input type="radio" autocomplete="off" name="radio_HALVJKLCRV" value="answer"></input> <span>No</span></label>
-</div></li>
-</ol>
-<ol start="4" style="list-style-type: decimal">
+If so, what is it?
+</li>
 <li>What is the <em>outcome</em> in this RQ?
 Explain.
-<div id="radio_KGISHKCRQN" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_KGISHKCRQN" value=""></input> <span>The amount of salt in each meal</span></label><label><input type="radio" autocomplete="off" name="radio_KGISHKCRQN" value="answer"></input> <span>The average amount of salt</span></label><label><input type="radio" autocomplete="off" name="radio_KGISHKCRQN" value=""></input> <span>The average amount of salt in Chinese and Indian take-away meals</span></label><label><input type="radio" autocomplete="off" name="radio_KGISHKCRQN" value=""></input> <span>London take-away restaurants</span></label>
-</div></li>
-</ol>
-<ol start="5" style="list-style-type: decimal">
+</li>
 <li>What is the <em>response variable</em>?
-<div id="radio_RTRKLXBNGT" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_RTRKLXBNGT" value=""></input> <span>The average amount of salt</span></label><label><input type="radio" autocomplete="off" name="radio_RTRKLXBNGT" value="answer"></input> <span>The amount of salt in each meal</span></label><label><input type="radio" autocomplete="off" name="radio_RTRKLXBNGT" value=""></input> <span>The type of London take-away restaurant</span></label>
-</div></li>
-</ol>
-<ol start="6" style="list-style-type: decimal">
+</li>
 <li>What is the <em>unit of analysis</em>?
 Explain.
-<div id="radio_NLXDFWAKXT" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_NLXDFWAKXT" value=""></input> <span>Each restaurant</span></label><label><input type="radio" autocomplete="off" name="radio_NLXDFWAKXT" value=""></input> <span>Each meal</span></label><label><input type="radio" autocomplete="off" name="radio_NLXDFWAKXT" value="answer"></input> <span>We need more information about how the data were collected</span></label>
-</div></li>
-</ol>
-<ol start="7" style="list-style-type: decimal">
+</li>
 <li>What is the <em>unit of observation</em>?
 Explain.
-<div id="radio_FMKNJJXWSJ" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_FMKNJJXWSJ" value=""></input> <span>Each restaurant</span></label><label><input type="radio" autocomplete="off" name="radio_FMKNJJXWSJ" value="answer"></input> <span>Each meal</span></label><label><input type="radio" autocomplete="off" name="radio_FMKNJJXWSJ" value=""></input> <span>It's hard to know: we need more information about how the data were collected</span></label>
-</div></li>
-</ol>
-<ol start="8" style="list-style-type: decimal">
+</li>
 <li>The article states (p. 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
 What <em>type</em> of definition is this?
-<div id="radio_OGLYCENSVM" class="webex-radiogroup">
-<label><input type="radio" autocomplete="off" name="radio_OGLYCENSVM" value=""></input> <span>Operational </span></label><label><input type="radio" autocomplete="off" name="radio_OGLYCENSVM" value="answer"></input> <span>Conceptual</span></label>
-</div></li>
-</ol>
-</div>
-<div class="webex-solution">
-<button>
-Solution
-</button>
-<ol style="list-style-type: decimal">
-<li><strong>Relational</strong>: there is a comparison (between Chinese and Indian meals).</li>
-<li><strong>No</strong>: the researchers did not determine whether a meal was Chinese or Indian.</li>
-<li>The <strong>Outcome</strong> refers to something quantitatively measured in a <strong>group</strong> (such as an average or percentage) that is the outcome or result of the comparison.</li>
-<li>A variable is measured on an <strong>individual</strong>; in this case, the amount of salt in the individual meals.</li>
-<li>The <strong>unit of analysis</strong> depends on how the data were collected.<br />
-Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.<br />
-Or perhaps restaurant <em>chains</em> were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.<br />
-Or it may be the individual meals. <em>We need more information.</em></li>
-<li>The <strong>unit of observation</strong> is the meal, as the salt content must be assessed from each individual meal.</li>
-<li>Conceptual: it defines what a word or term means.</li>
+</li>
 </ol>
 </div>
 </div>
