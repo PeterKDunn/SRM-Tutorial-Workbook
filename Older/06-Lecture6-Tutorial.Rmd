@@ -34,7 +34,7 @@ These Tables can be found in the textbook appendices, and in this document in
 ## Quick revision {#QuickRevision-Tutorial6}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
 

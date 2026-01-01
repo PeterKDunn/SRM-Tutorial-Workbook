@@ -24,7 +24,7 @@ Something from this week's content **will** be needed for your Task 2B.
 ## Quick revision {#QuickRevision-Tutorial10}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
 

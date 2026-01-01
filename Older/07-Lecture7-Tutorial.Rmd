@@ -23,7 +23,7 @@ In this chapter, you will learn and practice the content associated with these c
 ## Quick revision {#QuickRevision-Tutorial7}
 
 
-::: {.startClassBox .preClass data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
 These questions may be answered during an all-class activity.
 :::
 
