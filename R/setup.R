@@ -17,9 +17,9 @@ library("readr") # For Cafe
 
 
 ### What type?
-tutorVersion <- TRUE  
-    ### TRUE: Make tutor version with answers and tutor suggestions
-    ### FALSE: Student version
+#tutorVersion <- TRUE      ### TRUE: Make tutor version with answers and tutor suggestions, etc.
+tutorVersion <- FALSE     ### FALSE: Student version
+
 book_title <- if (tutorVersion) {
   "Science Research Methods: Tutorials INSTRUCTOR EDITION"
 } else {

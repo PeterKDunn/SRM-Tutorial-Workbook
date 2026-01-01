@@ -1,3 +1,7 @@
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
+
 A tutor has recorded the marks (as a percentage) for all students in her four classes for an assignment.
 All classes have $30$\ students.
 The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).

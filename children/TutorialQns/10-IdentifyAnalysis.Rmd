@@ -1,3 +1,6 @@
+`r if (!tutorVersion) '<!--'`
+\mentiQuestion
+`r if (!tutorVersion) '-->'`
 For each of the following scenarios:
 
 a. determine the appropriate method of analysis (if none are appropriate, say so then identify the correct analysis):

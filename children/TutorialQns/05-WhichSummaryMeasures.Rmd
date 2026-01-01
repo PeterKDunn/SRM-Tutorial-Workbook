@@ -1,5 +1,3 @@
-\pagebreak
-
 1. How many quantitative *continuous* variable(s) appear in the data set?
    Which are they?
 \greyboxlines{2}
