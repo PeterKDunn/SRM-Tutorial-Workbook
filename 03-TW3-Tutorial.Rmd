@@ -75,17 +75,17 @@ For example:
 
 ## Quick revision {#QuickRevision-Tutorial3}
 
+
+`r if (!tutorVersion) '<!--'`
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
+`r if (!tutorVersion) '-->'`
+
+
 ```{r echo = FALSE}
 data(OSA)
 ```
-
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
-`r if (!tutorVersion) '<!--'`
-\mentiQuestion
-`r if (!tutorVersion) '-->'`
-
 
 ::: {.webex-box}
 In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop], $n = 60$ adults underwent a sleep study.
@@ -242,7 +242,9 @@ You are probably pressing the incorrect button to get the standard deviation.
 ## Understanding histograms {#UnderstandingHistograms}
 
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
 
 

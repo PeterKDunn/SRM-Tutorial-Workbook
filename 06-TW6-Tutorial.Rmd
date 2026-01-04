@@ -50,11 +50,11 @@ These Tables can be found in the textbook appendices, and in this document in
 ## Quick revision {#QuickRevision-Tutorial6}
 
 
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
+
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
 
 
@@ -94,9 +94,13 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 
 ## Normal distributions and IQs {#NormalIQs}
 
+
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
+
 Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
 
 
@@ -171,9 +175,13 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 
 ## Probability {#Probability2}
 
+
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
+
 For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
 (**Note:** You are not asked to *compute* the probability.)
 

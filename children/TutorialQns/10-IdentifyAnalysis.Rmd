@@ -1,6 +1,10 @@
+
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
+
 For each of the following scenarios:
 
 a. determine the appropriate method of analysis (if none are appropriate, say so then identify the correct analysis):

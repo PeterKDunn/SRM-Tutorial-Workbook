@@ -32,10 +32,6 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial11}
 
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
-
 In a study of high strength--high ductile concrete, @data:Ranada2015:Concrete measured (among other things) the load required to create the first visible cracks in concrete samples under various strains rates.
 
 Under a strain rate of $10\secs^{-1}$, the $n = 6$ concrete samples produced a **mean** first-crack strength of $12.4\MPas$ with a **standard deviation** of $2.8\MPas$.

@@ -267,7 +267,36 @@
 % - Discussion
 
 %%% Menti Question command for margin
-\newcommand{\mentiQuestion}{\marginpar{\hfill\framebox{\includegraphics[width=0.5\marginparwidth]{./icons/iconmonstr-computer-6-240.png}}}}
+%\newcommand{\mentiQuestion}{\marginpar{\hfill\framebox{\includegraphics[width=0.5\marginparwidth]{./icons/iconmonstr-computer-6-240.png}}}}
+\newenvironment{mentiQuestion}
+{%
+  \marginpar{%
+    \ifodd\value{page}
+      \hspace*{-10pt}% odd pages: pull LEFT
+    \else
+      \hspace*{25pt}% even pages: push RIGHT
+    \fi
+    \framebox{%
+      \includegraphics[width=0.5\marginparwidth]{icons/iconmonstr-computer-3-240.png}%
+    }%
+  }%
+}
+{}%%% Menti Question command
+%\usepackage{etoolbox}
+%\newcommand{\mentiQuestion}{%
+%  \marginpar{%
+%    \hfill
+%    \framebox{%
+%      \includegraphics[width=0.5\marginparwidth]{icons/iconmonstr-computer-6-240.png}%
+%    }%
+%  }%
+%}
+
+
+%%% Hook Pandoc div
+%\BeforeBeginEnvironment{startClassBox}{\mentiQuestion}
+
+
 
 
 %%% PreClass box

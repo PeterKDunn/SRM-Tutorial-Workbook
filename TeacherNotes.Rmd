@@ -1,0 +1,23 @@
+---
+title: "Teacher Notes"
+output:
+  bookdown::html_document2:
+    toc: false
+    self_contained: true
+---
+
+
+
+```{r child="24-TutorInfo.Rmd"}
+```
+
+
+
+<!--
+```r
+rmarkdown::render(
+  input = "TeacherNotes.Rmd",
+  output_file = "docs/
+)
+```
+-->

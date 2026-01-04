@@ -1,6 +1,9 @@
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
+
 
 A tutor has recorded the marks (as a percentage) for all students in her four classes for an assignment.
 All classes have $30$\ students.

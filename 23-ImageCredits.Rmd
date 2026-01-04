@@ -1,5 +1,4 @@
 `r if (knitr::is_latex_output()) '<!--'`
-
 # Appendix: Image credits {#Image-Credits}
 
 The sources of the images used in the online version of this book 
@@ -17,15 +16,16 @@ are listed
 
 ```{r, child = if (knitr::is_html_output()) './children/ImageCreditList.Rmd'}
 ```
-
-
-
-
 `r if (knitr::is_latex_output()) '-->'`
 
 
-<!-- INSERT CHAPTER 24 CONDITIONALLY: TutorInfo -->
 
+
+<!--    -------------------------------------------------    -->
+<!--     CHAPTER 24: THOUGHTS FOR TEACHING (24-TutorInfo)    -->
+<!--     - Insert here (conditionally): TutorInfo            -->
+<!--     - Insert if we are creating tutor version in PDF    -->
+<!--    --------------------------------------------------   -->
 
 ```{r, child = if (tutorVersion & is_latex_output()) {'24-TutorInfo.Rmd'}}
 ```

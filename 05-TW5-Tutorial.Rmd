@@ -42,12 +42,10 @@ Take careful note of which chapters are covered in this tutorial!
 ## Quick revision {#QuickRevision-Tutorial5}
 
 
-
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
 
 
@@ -426,8 +424,11 @@ Your tutor will have information.
 ## Which summary measures to use {#WhichSummaryToUse}
 
 `r if (!tutorVersion) '<!--'`
-\mentiQuestion
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
+
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.

@@ -39,3 +39,19 @@ pcregrep --color='auto' -n "[\x80-\xFF]" *.Rmd
 #     fig.width=7 (inches) and fig.height = 5 (inches) 
 #  
 
+### STUDENT VERSION
+#   set  tutorVersion <- TRUE  in  setup.R
+bookdown::render_book(
+  "index.Rmd",
+  output_format = "bookdown::gitbook",
+  output_dir = "docs"
+)
+
+### TUTOR VERSION
+#   set  tutorVersion <- TRUE  in  setup.R
+bookdown::render_book(
+  "index.Rmd",
+  output_format = "bookdown::gitbook",
+  output_dir = "docs/tas"
+)
+

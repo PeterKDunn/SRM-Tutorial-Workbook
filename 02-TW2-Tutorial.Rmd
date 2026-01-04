@@ -41,13 +41,12 @@ You should bring your calculator to tutorials from **next** week onwards.
 
 ## Quick revision {#QuickRevision-Tutorial2}
 
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
-`r if (!tutorVersion) '<!--'`
-\mentiQuestion
-`r if (!tutorVersion) '-->'`
 
+`r if (!tutorVersion) '<!--'`
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
+`r if (!tutorVersion) '-->'`
 
 ::: {.webex-box}
 Consider this RQ  [@walters2018factors]: 

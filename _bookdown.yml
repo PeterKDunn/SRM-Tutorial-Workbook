@@ -30,6 +30,7 @@ rmd_files:
 - 21-Tables.Rmd
 - 22-Symbols.Rmd
 - 23-ImageCredits.Rmd
+# 24-TutorInfo:  24-TutorInfo.Rmd conditionally inserted at the end of Chapter 23 (23-ImageCredits.Rmd)
 - 25-References.Rmd
 language:
   label:

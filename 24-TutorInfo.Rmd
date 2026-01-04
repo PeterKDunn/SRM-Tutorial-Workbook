@@ -841,7 +841,7 @@ If you have collect data from each person left and right hand (to study the aver
 
 
 ```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center", out.width='50%' }
-include_graphics("SoftwareImages/RulerDropData.png")
+knitr::include_graphics("SoftwareImages/RulerDropData.png")
 ```
  
  

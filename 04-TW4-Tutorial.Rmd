@@ -42,17 +42,17 @@ You should bring your calculator to tutorials from this week onwards.
 
 ## Quick revision {#QuickRevision-Tutorial4}
 
+
+`r if (!tutorVersion) '<!--'`
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
+`r if (!tutorVersion) '-->'`
+
+
 ```{r echo = FALSE}
 data(OSA)
 ```
-
-
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
-:::
-`r if (!tutorVersion) '<!--'`
-\mentiQuestion
-`r if (!tutorVersion) '-->'`
 
 
 
