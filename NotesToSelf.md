@@ -52,6 +52,6 @@ bookdown::render_book(
 bookdown::render_book(
   "index.Rmd",
   output_format = "bookdown::gitbook",
-  output_dir = "docs/tas"
+  output_dir = "docs/tutors"
 )
 
