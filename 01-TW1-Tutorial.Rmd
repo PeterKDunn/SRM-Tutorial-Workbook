@@ -36,11 +36,10 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-
 `r if (!tutorVersion) '<!--'`
-<div class="mentiQuestion">
-  <a href="https://www.mentimeter.com/app/folder/2244819" class="menti-click-area" target="_blank"></a>
-</div>
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
+:::
 `r if (!tutorVersion) '-->'`
 
 

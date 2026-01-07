@@ -36,12 +36,11 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-::: {.startClassBox .startClass data-latex="{iconmonstr-rocket-20-240.png}"}
-These questions may be answered during an all-class activity.
+
+::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+\null
 :::
-<!--
-\mentiQuestion
--->
+
 
 
 ::: {.webex-box}
