@@ -198,6 +198,63 @@ body {
 
 
 
+<style>
+/* 1. The container must allow the icon to float outside it */
+.mentiQuestion {
+  position: relative;
+  display: block;
+}
+
+/* 2. Style the clickable area so it has physical dimensions */
+.menti-click-area {
+  display: inline-block;
+  position: absolute;
+  left: -50px; /* Moves it into the left margin */
+  top: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+/* 3. The Icon: Ensure the path to your PNG is correct */
+.menti-click-area::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("iconmonstr-computer-6-240.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* Fallback color if image is missing */
+  background-color: rgba(0,0,0,0.05); 
+  border-radius: 4px;
+}
+
+/* 4. Hover effect to prove it is clickable */
+.menti-click-area:hover {
+  filter: brightness(1.2);
+  transform: scale(1.1);
+}
+
+/* 5. Mobile adjustment: don't hide the icon if there is no margin */
+@media (max-width: 768px) {
+  .menti-click-area {
+    position: static;
+    margin-bottom: 10px;
+  }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
 
 p.caption {
   color: #777;
