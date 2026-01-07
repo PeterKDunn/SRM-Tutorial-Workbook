@@ -42,11 +42,11 @@ Take careful note of which chapters are covered in this tutorial!
 ## Quick revision {#QuickRevision-Tutorial5}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
 \null
 :::
-
+-->
 
 
 ::: {.webex-box}
@@ -270,11 +270,11 @@ Your tutor will have information.
 
 ## Which summary measures to use {#WhichSummaryToUse}
 
-
+<!--
 ::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
 \null
 :::
-
+-->
 
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 

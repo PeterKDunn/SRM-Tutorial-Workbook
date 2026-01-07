@@ -37,12 +37,12 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial1}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
 <a href="[https://www.mentimeter.com/app/folder/2244819](https://www.mentimeter.com/app/folder/2244819)" class="menti-click-area"></a>
 \null
 :::
-
+-->
 
 ::: {.webex-box}
 Consider this RQ (based on @data:jaworowska2012:determination): 
