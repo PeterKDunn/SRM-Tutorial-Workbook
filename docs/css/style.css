@@ -138,119 +138,9 @@ body {
 .progress {
   background-image: url("../icons/iconmonstr-arrow-32-240.png");
 }
-
-
-
-
-
-
-
-/* 1. Position the menti container relative to the text block */
-.mentiQuestion {
-  position: relative;
-  height: 0; /* Prevents the empty div from taking up vertical space */
+.startClass {
+  background-image: url("../icons/iconmonstr-rocket-20-240.png");
 }
-
-/* 2. Style the clickable link area */
-.menti-click-area {
-  display: block;
-  position: absolute;
-  left: -60px;   /* Moves the icon to the left of the main text area */
-  top: 10px;
-  width: 45px;   /* Width of your icon */
-  height: 45px;  /* Height of your icon */
-  z-index: 100;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-/* 3. Inject the Icon via CSS */
-.menti-click-area::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-image: url("icons/iconmonstr-computer-3-240-BLUE.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-/* 4. Ensure the webex-box (the text) doesn't overlap the icon on small screens */
-/* If your page has margins, the icon will sit in the margin. 
-   If not, we add padding to the container below it. */
-.webex-box {
-  margin-left: 0; /* Adjust this if you want the whole box shifted */
-  position: relative;
-}
-
-/* Optional: Add a hover effect to the icon */
-.menti-click-area:hover {
-  transform: scale(1.1);
-  transition: transform 0.2s ease-in-out;
-}
-
-
-
-
-
-
-
-
-
-<style>
-/* 1. The container must allow the icon to float outside it */
-.mentiQuestion {
-  position: relative;
-  display: block;
-}
-
-/* 2. Style the clickable area so it has physical dimensions */
-.menti-click-area {
-  display: inline-block;
-  position: absolute;
-  left: -50px; /* Moves it into the left margin */
-  top: 0;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  z-index: 999;
-}
-
-/* 3. The Icon: Ensure the path to your PNG is correct */
-.menti-click-area::after {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 40px;
-  background-image: url("iconmonstr-computer-6-240.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  /* Fallback color if image is missing */
-  background-color: rgba(0,0,0,0.05); 
-  border-radius: 4px;
-}
-
-/* 4. Hover effect to prove it is clickable */
-.menti-click-area:hover {
-  filter: brightness(1.2);
-  transform: scale(1.1);
-}
-
-/* 5. Mobile adjustment: don't hide the icon if there is no margin */
-@media (max-width: 768px) {
-  .menti-click-area {
-    position: static;
-    margin-bottom: 10px;
-  }
-}
-</style>
-
-
-
-
-
-
 
 
 
@@ -376,13 +266,10 @@ button.fold-btn{  /* Question with potential answers: button */
 
 /* TUTOR ONLY icons */
 .inline-icon {
-  width: 4em;
-  max-width: none;
-  display: inline-block;
+  width: 1.1em;
   vertical-align: baseline;
+  margin-right: 0.35em;
 }
-
-
 
 /* Space out the entries in the reference list */
 .csl-entry {
