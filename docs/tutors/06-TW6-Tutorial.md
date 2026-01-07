@@ -166,23 +166,23 @@ For the following, indicate *how* you could estimate the probability (classical;
 (**Note:** You are not asked to *compute* the probability.)
 
 1. The probability that a given UniSC student lives in Nambour.\tightlist  
-<div class='webex-radiogroup' id='radio_NABPPWAUGY'><label><input type="radio" autocomplete="off" name="radio_NABPPWAUGY" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_NABPPWAUGY" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_NABPPWAUGY" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_RQANIYPOKE'><label><input type="radio" autocomplete="off" name="radio_RQANIYPOKE" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_RQANIYPOKE" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_RQANIYPOKE" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 2. The probability that a given Nambour resident is a UniSC student.
-<div class='webex-radiogroup' id='radio_IJPXDDLWSF'><label><input type="radio" autocomplete="off" name="radio_IJPXDDLWSF" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_IJPXDDLWSF" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_IJPXDDLWSF" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_DVBFLEIYGN'><label><input type="radio" autocomplete="off" name="radio_DVBFLEIYGN" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_DVBFLEIYGN" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_DVBFLEIYGN" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 3. The probability that Labor wins the next federal election.
-<div class='webex-radiogroup' id='radio_TAIFFKELFH'><label><input type="radio" autocomplete="off" name="radio_TAIFFKELFH" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_TAIFFKELFH" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_TAIFFKELFH" value="answer"></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_HEQVMXACES'><label><input type="radio" autocomplete="off" name="radio_HEQVMXACES" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_HEQVMXACES" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_HEQVMXACES" value="answer"></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 4. The probability that you will throw a dart and hit the bullseye.
-<div class='webex-radiogroup' id='radio_FFIRFNCNPT'><label><input type="radio" autocomplete="off" name="radio_FFIRFNCNPT" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_FFIRFNCNPT" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_FFIRFNCNPT" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_SNKFSOYOKM'><label><input type="radio" autocomplete="off" name="radio_SNKFSOYOKM" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SNKFSOYOKM" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SNKFSOYOKM" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 5. The probability that a roulette wheel spins a $33$.
-<div class='webex-radiogroup' id='radio_LKUZIIKENW'><label><input type="radio" autocomplete="off" name="radio_LKUZIIKENW" value="answer"></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_LKUZIIKENW" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_LKUZIIKENW" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_QIWLEZXJEY'><label><input type="radio" autocomplete="off" name="radio_QIWLEZXJEY" value="answer"></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_QIWLEZXJEY" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_QIWLEZXJEY" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 
