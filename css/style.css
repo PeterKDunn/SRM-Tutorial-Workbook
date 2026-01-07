@@ -140,22 +140,47 @@ body {
 }
 
 
-/* right-side computer icon */
+
+
+
+
+
+/* Ensure the container can hold the absolute child */
 .mentiQuestion {
   position: relative;
+  display: block;
+  min-height: 5.5em; /* Ensures the container is tall enough for the icon */
 }
 
-.mentiQuestion::after {
-  content: "";
+/* The clickable icon itself */
+.menti-click-area {
   position: absolute;
   right: 0.75em;
   top: 50%;
   transform: translateY(-50%);
   width: 5em;
   height: 5em;
+  
+  /* Your specific icon */
   background: url("../icons/iconmonstr-computer-3-240-BLUE.png") no-repeat center;
   background-size: contain;
+  
+  /* Makes it behave like a link */
+  display: block;
+  cursor: pointer;
+  z-index: 999;
 }
+
+/* Optional hover state to show it is clickable */
+.menti-click-area:hover {
+  filter: brightness(1.2);
+}
+
+
+
+
+
+
 
 
 
