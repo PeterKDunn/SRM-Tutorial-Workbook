@@ -145,36 +145,51 @@ body {
 
 
 
-/* Ensure the container can hold the absolute child */
+/* 1. Position the menti container relative to the text block */
 .mentiQuestion {
   position: relative;
-  display: block;
-  min-height: 5.5em; /* Ensures the container is tall enough for the icon */
+  height: 0; /* Prevents the empty div from taking up vertical space */
 }
 
-/* The clickable icon itself */
+/* 2. Style the clickable link area */
 .menti-click-area {
-  position: absolute;
-  right: 0.75em;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 5em;
-  height: 5em;
-  
-  /* Your specific icon */
-  background: url("../icons/iconmonstr-computer-3-240-BLUE.png") no-repeat center;
-  background-size: contain;
-  
-  /* Makes it behave like a link */
   display: block;
+  position: absolute;
+  left: -60px;   /* Moves the icon to the left of the main text area */
+  top: 10px;
+  width: 45px;   /* Width of your icon */
+  height: 45px;  /* Height of your icon */
+  z-index: 100;
   cursor: pointer;
-  z-index: 999;
+  text-decoration: none;
 }
 
-/* Optional hover state to show it is clickable */
-.menti-click-area:hover {
-  filter: brightness(1.2);
+/* 3. Inject the Icon via CSS */
+.menti-click-area::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url("iconmonstr-computer-6-240.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
+
+/* 4. Ensure the webex-box (the text) doesn't overlap the icon on small screens */
+/* If your page has margins, the icon will sit in the margin. 
+   If not, we add padding to the container below it. */
+.webex-box {
+  margin-left: 0; /* Adjust this if you want the whole box shifted */
+  position: relative;
+}
+
+/* Optional: Add a hover effect to the icon */
+.menti-click-area:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
 
 
 

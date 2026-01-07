@@ -39,7 +39,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 `r if (!tutorVersion) '<!--'`
 ::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
-<a href="[https://your-link-here.com](https://your-link-here.com)" class="menti-click-area"></a>
+<a href="[https://www.mentimeter.com/app/folder/2244819](https://www.mentimeter.com/app/folder/2244819)" class="menti-click-area"></a>
 \null
 :::
 `r if (!tutorVersion) '-->'`
