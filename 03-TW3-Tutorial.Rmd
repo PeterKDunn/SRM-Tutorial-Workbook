@@ -77,7 +77,7 @@ For example:
 
 
 `r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 \null
 :::
 `r if (!tutorVersion) '-->'`
@@ -242,7 +242,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 ## Understanding histograms {#UnderstandingHistograms}
 
 `r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 \null
 :::
 `r if (!tutorVersion) '-->'`

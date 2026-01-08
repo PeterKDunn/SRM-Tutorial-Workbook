@@ -43,9 +43,10 @@ You should bring your calculator to tutorials from **next** week onwards.
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 \null
 :::
+
 
 
 ::: {.webex-box}

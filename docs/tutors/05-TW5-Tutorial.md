@@ -43,7 +43,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 \null
 :::
 
@@ -271,7 +271,7 @@ Your tutor will have information.
 ## Which summary measures to use {#WhichSummaryToUse}
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 \null
 :::
 

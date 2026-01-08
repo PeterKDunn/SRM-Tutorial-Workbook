@@ -188,7 +188,7 @@ This icon flags questions that have *video solutions* in the online book: a narr
 `r if (!tutorVersion) '<!--'` 
 ### Call-outs for *tutors only* {-}
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-6-240.png}"}
+::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
 Questions with this icon beside them have MentiMeter availability.
 :::
 `r if (!tutorVersion) '-->'`
