@@ -138,9 +138,33 @@ body {
 .progress {
   background-image: url("../icons/iconmonstr-arrow-32-240.png");
 }
-.startClass {
-  background-image: url("../icons/iconmonstr-rocket-20-240.png");
+
+
+
+
+
+
+
+.mentiQuestion {
+  position: relative;
+  min-height: 6em; 
 }
+
+.menti-link {
+  position: absolute;
+  right: 0.75em;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 5em;
+  height: 5em;
+  display: block;
+  z-index: 999;
+}
+
+
+
+
+
 
 
 
@@ -266,10 +290,13 @@ button.fold-btn{  /* Question with potential answers: button */
 
 /* TUTOR ONLY icons */
 .inline-icon {
-  width: 1.1em;
+  width: 4em;
+  max-width: none;
+  display: inline-block;
   vertical-align: baseline;
-  margin-right: 0.35em;
 }
+
+
 
 /* Space out the entries in the reference list */
 .csl-entry {
