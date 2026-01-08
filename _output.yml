@@ -55,6 +55,7 @@ bookdown::pdf_book:
   - -V
   - papersize=A4
   - --top-level-division=chapter
+  - --lua-filter=menti.lua
   toc_depth: 2
   toc_unnumbered: no
   toc_appendix: yes
