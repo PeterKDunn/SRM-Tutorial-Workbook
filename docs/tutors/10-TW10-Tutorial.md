@@ -80,7 +80,7 @@ Suppose a researcher asked the RQ:
 > For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
 
 1. Which would be the appropriate null hypothesis?
-<div class='webex-radiogroup' id='radio_QZDUQQREMU'><label><input type="radio" autocomplete="off" name="radio_QZDUQQREMU" value="answer"></input> <span>The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_QZDUQQREMU" value=""></input> <span>The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_QZDUQQREMU" value=""></input> <span>Either of the above</span></label></div>
+<div class='webex-radiogroup' id='radio_DWBDILOWEG'><label><input type="radio" autocomplete="off" name="radio_DWBDILOWEG" value="answer"></input> <span>The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_DWBDILOWEG" value=""></input> <span>The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_DWBDILOWEG" value=""></input> <span>Either of the above</span></label></div>
 
 <!--
    a. The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles.
@@ -88,7 +88,7 @@ Suppose a researcher asked the RQ:
    c. Either of the above.
 -->
 2. Which would be the appropriate CI to produce?
-<div class='webex-radiogroup' id='radio_XMMDUUYNFW'><label><input type="radio" autocomplete="off" name="radio_XMMDUUYNFW" value="answer"></input> <span>A CI for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_XMMDUUYNFW" value=""></input> <span>A CI for the difference in proportions</span></label><label><input type="radio" autocomplete="off" name="radio_XMMDUUYNFW" value=""></input> <span>Either of the above</span></label></div>
+<div class='webex-radiogroup' id='radio_GYSTITIYKJ'><label><input type="radio" autocomplete="off" name="radio_GYSTITIYKJ" value="answer"></input> <span>A CI for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_GYSTITIYKJ" value=""></input> <span>A CI for the difference in proportions</span></label><label><input type="radio" autocomplete="off" name="radio_GYSTITIYKJ" value=""></input> <span>Either of the above</span></label></div>
 
 <!--
    a. A CI for the odds ratio.
@@ -96,7 +96,7 @@ Suppose a researcher asked the RQ:
    c. Either of the above.
 -->
 3. Which would be the appropriate hypothesis test?
-<div class='webex-radiogroup' id='radio_XNJAOIWBZT'><label><input type="radio" autocomplete="off" name="radio_XNJAOIWBZT" value=""></input> <span>A hypothesis tests for the difference between proportions</span></label><label><input type="radio" autocomplete="off" name="radio_XNJAOIWBZT" value="answer"></input> <span>A hypothesis tests for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_XNJAOIWBZT" value=""></input> <span>Either of the above</span></label></div>
+<div class='webex-radiogroup' id='radio_SMUBFTVQKC'><label><input type="radio" autocomplete="off" name="radio_SMUBFTVQKC" value=""></input> <span>A hypothesis tests for the difference between proportions</span></label><label><input type="radio" autocomplete="off" name="radio_SMUBFTVQKC" value="answer"></input> <span>A hypothesis tests for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_SMUBFTVQKC" value=""></input> <span>Either of the above</span></label></div>
 
 <!--
    a. A hypothesis tests for the difference between proportions.

@@ -1,15 +1,16 @@
 function Div(el)
+  -- Match the class you used: .mentiQuestion
   if el.classes:includes('mentiQuestion') then
-    -- Get the image path and the target URL
-    local icon_path = "../icons/iconmonstr-computer-3-240-BLUE.png"
-    local url = "https://www.mentimeter.com/app/folder/2244819"
     
     if FORMAT:match 'html' then
-      -- Inject a link element at the end of the div for HTML
-      local link_icon = pandoc.RawBlock('html', 
-        '<a href="' .. url .. '" target="_blank" class="menti-link"></a>')
-      el.content:insert(link_icon)
+      -- We insert a 'span' or 'anchor' that the CSS can grab
+      -- Using a RawInline to ensure it's literal HTML
+      local link_html = '<a href="https://www.menti.com" target="_blank" class="menti-link"></a>'
+      
+      -- Insert this at the beginning of the div content
+      table.insert(el.content, 1, pandoc.RawBlock('html', link_html))
     end
+    
   end
   return el
 end
