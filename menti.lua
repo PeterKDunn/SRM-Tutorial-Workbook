@@ -1,7 +1,7 @@
 function Div(el)
   if el.classes:includes('mentiQuestion') then
     -- Get the image path and the target URL
-    local icon_path = "icons/iconmonstr-computer-3-240-BLUE.png"
+    local icon_path = "../icons/iconmonstr-computer-3-240-BLUE.png"
     local url = "https://www.mentimeter.com/app/folder/2244819"
     
     if FORMAT:match 'html' then
