@@ -2,7 +2,7 @@ function Div(el)
   if el.classes:includes('mentiQuestion') then
     if FORMAT:match 'html' then
       -- Path relative to your final HTML files
-      local img_path = "icons/iconmonstr-computer-3-240-BLUE.png"
+      local img_path = "../icons/iconmonstr-computer-3-240-BLUE.png"
       local url = "https://www.menti.com"
       
       local link_html = '<a href="' .. url .. '" target="_blank" class="menti-link">' ..
