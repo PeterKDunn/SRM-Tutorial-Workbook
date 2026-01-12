@@ -627,6 +627,7 @@ legend("top",
                   "Non-athlete") )
 ```
 
+\pagebreak
 
 ## Working with odds {#WorkingWithOdds}
 

@@ -26,6 +26,137 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 * [Thoughts](#Lecture12ThoughtsForTutors) for Teaching Week\ \@ref(Lecture12) Tutorial.
 
 
+
+## WHAT I NEED ATO DO:
+
+### 1. Create Poll Template
+
+1. Log in to your Mentimeter account.
+2. Click **Create Presentation** → give it a clear name, e.g.  
+   `Week 3 – Sampling Bias`.
+3. Add your poll questions:
+   - Multiple Choice
+   - Word Cloud
+   - Scales / ranking (optional)
+4. Save the presentation as a **template**:
+   - Click **File → Save as Template** (optional, depending on Mentimeter version)
+   - This allows reuse each trimester.
+
+---
+
+### 2. Start a Session
+
+1. From the template, click **Present** → **Start Session**.
+2. Choose **Quick Start / Audience-Paced / Live** (default: Live).
+3. Mentimeter generates:
+   - A **unique URL** for this session
+   - A **QR code** pointing to the session
+4. **Save the QR code** for TAs:
+   - Export the QR code as an image
+   - Name it: `Week3_Poll_QR.png`
+
+---
+
+### 3. Distribute the QR Code
+
+- Place the QR code in a **TA-only Canvas page** or slide deck
+- Do **not** publish to students
+- This ensures:
+  - Students can only access via the QR code shown in class
+  - No early access
+
+---
+
+### 4. Run the Poll
+
+- The session **stays open** for all tutorial slots that week
+- Students from any tutorial can scan the QR and submit
+- Results are **aggregated across all classes**
+
+---
+
+### 5. After Class / Week
+
+1. Export results if needed:
+   - Click **File → Export Results**
+   - Format: CSV / Excel
+2. Archive the session if desired
+3. For next week:
+   - Create a **new session** from the same template
+   - Generate new QR code
+
+
+
+
+
+
+
+## NEWEST VERSION: Thoughts on Class Discussions
+
+**Prepare for Class**
+
+- Ensure you have the **week’s QR code** ready:
+  - From instructor Canvas page or slide deck
+- Ensure projector / screen is ready for students to see the QR
+
+**Display the Poll**
+
+1. Open the week’s Mentimeter session (or show QR image)
+2. Project the **QR code** on the screen
+3. Instruct students: 'Please scan the QR code and answer the questions for this week’s poll.'
+4. Wait 30--60 seconds for all students to respond
+
+**Show Results Live**
+
+- Mentimeter updates **live charts automatically**
+- Project the results to the class
+- Discuss trends:
+  - Highlight majority/minority choices
+  - Use as discussion starter
+- No further TA input needed
+
+**After Tutorial**
+
+- Nothing to do
+- Responses are stored automatically in Mentimeter
+- Instructor can download/export later if needed
+
+
+
+
+
+## NEW VERSION: Thoughst on Class Discussions; probably outdated
+
+
+**Purpose**:
+These polls are quick check-in questions to see how students are thinking and to spark discussion. 
+
+**What you need before class**:
+Nothing; everything is Canvas.
+
+**During class**:
+
+1. Tell students to *open* the poll:
+'Please open the Week X tutorial page (QR on screen?) and answer the poll question at the top. Take about 30 seconds.'
+
+2. *View* the results once most students seem to have responded.
+Refresh the page, Open the Results / Reports view (depending on LMS)
+(*Note*: Results may include responses from other classes earlier in the week.)
+
+3. Use the results to *prompt discussion*:
+   Examples:
+
+  - 'Most people chose B; why?'
+  - 'Interesting split here. Who chose A?'
+  - 'This is a common misconception; let's unpack it.'
+
+4. *Move on*:
+Continue with the tutorial
+
+
+
+
+
 ## Thoughts on *Class Discussions* {#ClassDiscussions .unlisted .unnumbered}
 
 Most teaching weeks include an *optional* class discussion.

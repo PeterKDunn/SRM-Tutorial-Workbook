@@ -7,6 +7,9 @@
 3. How many quantitative *nominal* variable(s) appear in the data set?
    Which are they?
 \greyboxlines{2}
+    
+\pagebreak
+
 4. What statistics could be used to *numerically* summarise the variable **Age**?
     a. Odds.
     b. Standard deviation.
@@ -17,7 +20,6 @@
     b. Standard deviation.
     c. Percentage.
     d. Mean.
-\pagebreak
 6. What statistics could be used to *numerically* summarise the variable **GMFCS**?
     a. Odds.
     b. Standard deviation.

@@ -272,7 +272,7 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
 \greyboxlines{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
-\greyboxlines{3}
+\greyboxlines{2}
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
 \greyboxlines{2}
 
@@ -344,7 +344,7 @@ if( knitr::is_html_output() ) {
 4. Suppose the measurements were all taken from $10$\ *different* places on the *same* board (rather than from five different boards).
    How many units of analysis are there now?
    Explain your answer.
-\greyboxlines{3}
+\greyboxlines{2}
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
 \greyboxlines{2}
 

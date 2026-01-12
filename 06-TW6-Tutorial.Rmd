@@ -144,12 +144,17 @@ The values quoted are the population means\ $\mu$ and standard deviations\ $\sig
 knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 ```
 
+\pagebreak 
+
 4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
    **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
    (Hint: Draw a picture!)
 \greyboxlines{4}
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
 \greyboxlines{3}
+
+\pagebreak
+
 6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
    (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
 \greyboxlines{4}

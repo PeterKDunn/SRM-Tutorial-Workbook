@@ -92,11 +92,17 @@ knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}',
 ```
 
 
-This book has been prepared for use with the book 
+This book has been prepared for use with the online textbook 
 `r if (knitr::is_latex_output()) {
    '\\textit{Scientific Research and Methodology}'
 } else {
    '[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/)'
+}`
+(which is also available as a traditional
+`r if (knitr::is_latex_output()) {
+   'paper-based textbook)'
+} else {
+   '[paper-based textbook)](https://www.taylorfrancis.com/books/mono/10.1201/9781003394938/scientific-research-methodology-peter-dunn)'
 }`,
 to be used in the course *Science Research Methods* at the
 `r if (knitr::is_latex_output()) {

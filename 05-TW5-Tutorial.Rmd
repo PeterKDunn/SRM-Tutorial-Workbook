@@ -202,7 +202,6 @@ Make some notes about important things you learnt from this activity, to remembe
 In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
 
 1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
-
 \greyboxlines{4}
 
 
@@ -225,7 +224,6 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 
 
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsChiB), a screenshot from a student Project Report comparing the percentage of students at UniSC wearing grey-scale clothing between females and males.
-
 \greyboxlines{4}
 
 
@@ -237,7 +235,6 @@ knitr::include_graphics("ProjectImages/GraphicalSummaryChi2.png")
 
 3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
-
 \greyboxlines{4}
 
 ```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}

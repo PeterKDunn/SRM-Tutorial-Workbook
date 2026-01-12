@@ -27,5 +27,5 @@ are listed
 <!--     - Insert if we are creating tutor version in PDF    -->
 <!--    --------------------------------------------------   -->
 
-```{r, child = if (tutorVersion & is_latex_output()) {'24-TutorInfo.Rmd'}}
+```{r, child = if (tutorVersion) {'24-TutorInfo.Rmd'}}
 ```
