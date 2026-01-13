@@ -1,4 +1,4 @@
-# Teaching Week 5: tutorial {#Lecture5}
+# Teaching Week 5 tutorial {#Lecture5}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -43,7 +43,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -159,7 +159,7 @@ You don't know what 'standard error' means yet, so don't worry about that column
 -->
 
 Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task\ 2B.
-\greyboxlines{4}
+\greyboxlines{3}
 
 
 
@@ -172,7 +172,6 @@ Make some notes about important things you learnt from this activity, to remembe
 In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
 
 1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
-
 \greyboxlines{4}
 
 
@@ -197,7 +196,6 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 
 
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsChiB), a screenshot from a student Project Report comparing the percentage of students at UniSC wearing grey-scale clothing between females and males.
-
 \greyboxlines{4}
 
 
@@ -210,7 +208,6 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 
 3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
-
 \greyboxlines{4}
 
 <div class="figure" style="text-align: center">
@@ -271,7 +268,7 @@ Your tutor will have information.
 ## Which summary measures to use {#WhichSummaryToUse}
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 

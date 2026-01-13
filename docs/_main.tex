@@ -146,7 +146,6 @@
 
   
   
-  
 %%% Box for writing answers
 \usepackage{calc} 
 \newlength{\greyboxheight}
@@ -157,6 +156,7 @@
   \setlength{\greyboxheight}{2.3\baselineskip * #1}%
 }
 \newenvironment{greybox}[1]{%
+  \nopagebreak
   \setgreyboxheight{#1}%
   \begin{tcolorbox}[
     colframe=gray!30!black,
@@ -175,6 +175,8 @@
 \vspace*{\greyboxheight} % force the box to have that height visually
 }{%
   \end{tcolorbox}
+  \goodbreak
+  %\filbreak % filbreak encourages a break here
 }
 \newcommand{\greyboxlines}[1]{\noindent\begin{greybox}{#1}\end{greybox}}
 
@@ -372,19 +374,19 @@
 %%% Menti Question command for margin
 %\newcommand{\mentiQuestion}{\marginpar{\hfill\framebox{\includegraphics[width=0.5\marginparwidth]{./icons/iconmonstr-computer-6-240.png}}}}
 \newenvironment{mentiQuestion}
-{%
-  \marginpar{%
+{\marginpar{%
     \ifodd\value{page}
       \hspace*{-10pt}% odd pages: pull LEFT
     \else
       \hspace*{25pt}% even pages: push RIGHT
     \fi
     \framebox{%
-      \includegraphics[width=0.5\marginparwidth]{icons/iconmonstr-computer-3-240.png}%
+      \includegraphics[width=0.5\marginparwidth]{icons/iconmonstr-computer-3-240-BLUE.png}%
     }%
   }%
 }
-{}%%% Menti Question command
+{}
+%%% Menti Question command
 %\usepackage{etoolbox}
 %\newcommand{\mentiQuestion}{%
 %  \marginpar{%
@@ -729,6 +731,23 @@
 \AtBeginDocument{\let\maketitle\relax}
 
 
+% Set headers to just be chapters
+\AtBeginDocument{%
+  \pagestyle{fancy}
+  \fancyhf{}
+  
+  \renewcommand{\chaptermark}[1]{%
+    \markboth{#1}{}%
+  }
+  
+  \renewcommand{\sectionmark}[1]{%
+    \markright{#1}%
+  }
+}
+
+
+
+
 % Taken from: https://bookdown.org/yihui/rmarkdown-cookbook/multi-column.html
 \newenvironment{cols}[1][]{}{}
 
@@ -771,7 +790,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: January 04, 2026}
+\date{Last updated: January 13, 2026}
 
 \begin{document}
 \maketitle
@@ -924,8 +943,10 @@
 \newcommand{\ys}{\,\text{y}}
 \newcommand{\vs}{\,\text{V}}
 
-This book has been prepared for use with the book
-\textit{Scientific Research and Methodology},
+This book has been prepared for use with the online textbook
+\textit{Scientific Research and Methodology}
+(which is also available as a traditional
+paper-based textbook, from (for example) \url{https://www.routledge.com}),
 to be used in the course \emph{Science Research Methods} at the
 University of the Sunshine Coast (UniSC).
 
@@ -1016,7 +1037,7 @@ This icon flags questions that have \emph{video solutions} in the online book: a
 \subsection*{\texorpdfstring{Call-outs for \emph{tutors only}}{Call-outs for tutors only}}\label{call-outs-for-tutors-only}
 
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 Questions with this icon beside them have MentiMeter availability.
 
 \end{mentiQuestion}
@@ -1096,7 +1117,7 @@ Chapman \& Hall.
 
 \mainmatter
 
-\chapter{Teaching Week 1: tutorial}\label{Lecture1}
+\chapter{Teaching Week 1 tutorial}\label{Lecture1}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -1152,7 +1173,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial1}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -1587,7 +1608,7 @@ Nim considers studying Jane's assertion as the basis for a \textbf{feasible} and
 \item
   List any necessary word or terms that need operational or conceptual definitions.
   (You do not need to \emph{give} the definitions.)
-  \greyboxlines{3}
+  \greyboxlines{2}
 \item
   Using this research question, identify the response and explanatory variables, and hence the data that \emph{needs} to be collected to answer the question.
   \greyboxlines{2}
@@ -1633,7 +1654,7 @@ $\phantom{0}\phantom{0}7.5$ & $\phantom{0}8.0$ & $\phantom{0}11.2$ & $\phantom{0
   Suppose the measurements were all taken from \(10\)~\emph{different} places on the \emph{same} board (rather than from five different boards).
   How many units of analysis are there now?
   Explain your answer.
-  \greyboxlines{3}
+  \greyboxlines{2}
 \item
   Comment on the amount of variation \emph{between} the boards compared to the amount of variation \emph{within} boards.
   \greyboxlines{2}
@@ -1730,7 +1751,7 @@ to help you understand some of the words used in the content.
 \end{itemize}
 \end{multicols}
 
-\chapter{Teaching Week 2: tutorial}\label{Lecture2}
+\chapter{Teaching Week 2 tutorial}\label{Lecture2}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -1789,7 +1810,7 @@ You should bring your calculator to tutorials from \textbf{next} week onwards.
 
 \section{Quick revision}\label{QuickRevision-Tutorial2}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -2029,6 +2050,7 @@ Based on this information, answer the following questions.
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{8}
+\tightlist
 \item
   What are reasonable suggestions for the outcome and response variable for the human study? \tightlist
   \greyboxlines{2}
@@ -2039,6 +2061,13 @@ Based on this information, answer the following questions.
   Is the study observational or experimental?
   Explain.
   \greyboxlines{2}
+\end{enumerate}
+
+\pagebreak
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{11}
 \item
   Are the following variables likely to be extraneous variables, control variables, confounding variables, or none of these?
   \textbf{Explain.}
@@ -2056,7 +2085,7 @@ Based on this information, answer the following questions.
     The amount of exercise per week by the person.
   \item
     Whether their father had heart problems.
-    \greyboxlines{5}
+    \greyboxlines{4}
   \end{enumerate}
 \end{enumerate}
 
@@ -2110,15 +2139,17 @@ The study reports that the biggest contributors to spermidine intakes were:
   \greyboxlines{1}
 \end{enumerate}
 
-\section{Planning a research study}\label{PlanStudy2}
+\nopagebreak
 
-Your tutor will have
-information.
+\section{Planning a research study}\label{PlanStudy2}
 
 \begin{tipBox}{iconmonstr-info-6-240.png}
 This activity is very important for helping with your Project.
 
 \end{tipBox}
+
+Your tutor will have
+information.
 
 \section{Study design features}\label{StudyFeatures}
 
@@ -2177,7 +2208,7 @@ Fasting venous bloods were taken once at the start (usual diet), then for the la
   \greyboxlines{2}
 \end{enumerate}
 
-\chapter{Teaching Week 3: tutorial}\label{Lecture3}
+\chapter{Teaching Week 3 tutorial}\label{Lecture3}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -2248,7 +2279,7 @@ For example:
 
 \section{Quick revision}\label{QuickRevision-Tutorial3}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -2354,7 +2385,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 \section{Understanding centre and variation}\label{UnderstandingVariation}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -2396,7 +2427,7 @@ The corresponding histograms are shown in Fig.~\ref{fig:VariationHistograms}.
 
 \section{Understanding histograms}\label{UnderstandingHistograms}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -2692,7 +2723,7 @@ The cost of the batteries, at the time of publication (05~September, 2012), was:
 
 \end{tipBox}
 
-\chapter{Teaching Week 4: tutorial}\label{Lecture4}
+\chapter{Teaching Week 4 tutorial}\label{Lecture4}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -2754,7 +2785,7 @@ You should bring your calculator to tutorials from this week onwards.
 
 \section{Quick revision}\label{QuickRevision-Tutorial4}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -3018,6 +3049,8 @@ Non-athletes & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\p
 \caption{Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete.}\label{fig:SoccerGraph}
 \end{figure}
 
+\pagebreak
+
 \section{Working with odds}\label{WorkingWithOdds}
 
 A study (\citeproc{ref-data:montalvo2020:retrospective}{Montalvo et al. 2020}) examined \(433\)~bridge collapses.
@@ -3229,7 +3262,7 @@ Of the \(380\)~SMND cases, \(60\) had worked with metal in the past; of the \(37
   \greyboxlines{4}
 \end{enumerate}
 
-\chapter{Teaching Week 5: tutorial}\label{Lecture5}
+\chapter{Teaching Week 5 tutorial}\label{Lecture5}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -3292,7 +3325,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 \section{Quick revision}\label{QuickRevision-Tutorial5}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -3423,7 +3456,7 @@ You don't know what `standard error' means yet, so don't worry about that column
 \end{figure}
 
 Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task~2B.
-\greyboxlines{4}
+\greyboxlines{3}
 
 \section{Critiquing students' graphs}\label{CritiqueStudentGraphs1}
 
@@ -3434,9 +3467,8 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \tightlist
 \item
   Critique the graph in Fig.~\ref{fig:StudentsGraphsA}, a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
+  \greyboxlines{4}
 \end{enumerate}
-
-\greyboxlines{4}
 
 \begin{figure}[hbtp]
 
@@ -3453,9 +3485,8 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \tightlist
 \item
   Critique the graph in Fig.~\ref{fig:StudentsGraphsChiB}, a screenshot from a student Project Report comparing the percentage of students at UniSC wearing grey-scale clothing between females and males.
+  \greyboxlines{4}
 \end{enumerate}
-
-\greyboxlines{4}
 
 \begin{figure}[hbtp]
 
@@ -3473,9 +3504,8 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \item
   Critique the graph in Fig.~\ref{fig:StudentsGraphsC}, a screenshot from a student Project Report comparing the `mean dissolve' time (they probably meant `mean \emph{dissolving} time') of Panadol in room temperature and cold water.
   Identify ways to improve the graph.
+  \greyboxlines{4}
 \end{enumerate}
-
-\greyboxlines{4}
 
 \begin{figure}[hbtp]
 
@@ -3542,7 +3572,7 @@ Your tutor will have information.
 
 \section{Which summary measures to use}\label{WhichSummaryToUse}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -3578,6 +3608,14 @@ The data are shown in Fig.~\ref{fig:Orthoses}.
   How many quantitative \emph{nominal} variable(s) appear in the data set?
   Which are they?
   \greyboxlines{2}
+\end{enumerate}
+
+\pagebreak
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
 \item
   What statistics could be used to \emph{numerically} summarise the variable \textbf{Age}?
 
@@ -3607,7 +3645,6 @@ The data are shown in Fig.~\ref{fig:Orthoses}.
     Percentage.
   \item
     Mean.
-    \pagebreak
   \end{enumerate}
 \item
   What statistics could be used to \emph{numerically} summarise the variable \textbf{GMFCS}?
@@ -3702,7 +3739,7 @@ The data are shown in Fig.~\ref{fig:Orthoses}.
   \end{enumerate}
 \end{enumerate}
 
-\chapter{Teaching Week 6: tutorial}\label{Lecture6}
+\chapter{Teaching Week 6 tutorial}\label{Lecture6}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -3769,7 +3806,7 @@ Appendices~\ref{ZTablesNEG} and~\ref{ZTablesPOS}.
 
 \section{Quick revision}\label{QuickRevision-Tutorial6}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -3810,7 +3847,7 @@ are rated as having a GVM between \(10.7\) and \(26.0\)~tonnes (depending on the
 
 \section{Normal distributions and IQs}\label{NormalIQs}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -3876,9 +3913,12 @@ The values quoted are the population means~\(\mu\) and standard deviations~\(\si
 \caption{Part of the ABS report on heights of Australians.}\label{fig:Ht}
 \end{figure}
 
+\pagebreak
+
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \setcounter{enumi}{3}
+\tightlist
 \item
   Heights have an approximate normal (bell-shape) distribution, so the \(68\)--\(95\)--\(99.7\) rule applies.\\
   \textbf{Using the \(68\)--\(95\)--\(99.7\) rule}, \emph{roughly} estimate the percentage of people of your age and gender that are \emph{shorter} than you.
@@ -3887,6 +3927,13 @@ The values quoted are the population means~\(\mu\) and standard deviations~\(\si
 \item
   Using \textbf{the normal distribution tables} in the Appendix, together with the information from \textbf{Fig.~\ref{fig:Ht}}, compute the percentage of people of your age and gender that are \emph{shorter} than you.
   \greyboxlines{3}
+\end{enumerate}
+
+\pagebreak
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
 \item
   Using the \(68\)--\(95\)--\(99.7\) rule, the middle \(95\)\% of \emph{females \(18\)~and over} are within what height range?
   (For this group, the mean is \(\mu = 161.4\,\text{cm}\), and the standard deviation is \(\sigma = 6.7\,\text{cm}\), drawn from Fig.~\ref{fig:Ht}.)
@@ -3924,7 +3971,7 @@ The values quoted are the population means~\(\mu\) and standard deviations~\(\si
 
 \section{Probability}\label{Probability2}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -4108,7 +4155,7 @@ The daily SOI has an approximate normal distribution, and is designed to have a 
   \greyboxlines{2}
 \end{enumerate}
 
-\chapter{Teaching Week 7: tutorial}\label{Lecture7}
+\chapter{Teaching Week 7 tutorial}\label{Lecture7}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -4162,7 +4209,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial7}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -4473,7 +4520,7 @@ Compute the standard error in these situations:
 Will the CIs be statistically valid in the above situations?
 \greyboxlines{3}
 
-\chapter{Teaching Week 8: tutorial}\label{Lecture8}
+\chapter{Teaching Week 8 tutorial}\label{Lecture8}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -4531,7 +4578,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial8}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -4752,7 +4799,7 @@ For Eagle Boys' pizzas, is mean diameter actually \(12\) inches, or not?
 
 \section{\texorpdfstring{Approximate \(P\)-values}{Approximate P-values}}\label{PValues}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -4783,7 +4830,7 @@ Assuming the tests are statistically valid, what is the approximate \(P\)-value 
 How would your answers change if these \(t\)-scores came from a \emph{one-tailed} test?
 \greyboxlines{2}
 
-\chapter{Teaching Week 9: tutorial}\label{Lecture9}
+\chapter{Teaching Week 9 tutorial}\label{Lecture9}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -4833,7 +4880,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial9}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -5299,7 +5346,7 @@ Differences & $\phantom{0}51.59$ &  &  & $19.612$\\
 \end{tabular}
 \end{table}
 
-\chapter{Teaching Week 10: tutorial}\label{Lecture10}
+\chapter{Teaching Week 10 tutorial}\label{Lecture10}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -5356,7 +5403,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 \section{Quick revision}\label{QuickRevision-Tutorial10}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -5389,7 +5436,7 @@ Which of these statements is \emph{consistent} with this conclusion?
 \section{Class discussion}\label{TW10-Class-Discussion}
 
 \begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, or \emph{percentages}?
+\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, \emph{odds ratios}, or \emph{percentages}?
 
 \end{discussBox}
 
@@ -5676,7 +5723,7 @@ Did not use artifical limb &  &  & \\
 
 \section{Identify the correct analysis}\label{IdentifyCorrectAnalyses}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -5784,7 +5831,7 @@ Suppose the Professor wanted to try the study again with another groups of stude
 What size sample would Prof.~Lewis need?
 \greyboxlines{4}
 
-\chapter{Teaching Week 11: Tutorial}\label{Lecture11}
+\chapter{Teaching Week 11 tutorial}\label{Lecture11}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -5938,6 +5985,7 @@ The data for success and failure at insertion is given in Table \ref{tab:AirwayT
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
+\tightlist
 \item
   Define~\(p\) as the population proportion of successful attempts at insertion. \tightlist
   Write the hypotheses to be tested.
@@ -5952,7 +6000,6 @@ The data for success and failure at insertion is given in Table \ref{tab:AirwayT
   \greyboxlines{2}
 \item
   The study was designed to enable medics to choose the best airway device.
-
   Would you recommend EGTA or LM?
   Why?
   Would you like any more information before making your choice?
@@ -6031,7 +6078,7 @@ From a study comparing how well sports-playing students can estimate distance co
   \greyboxlines{4}
 \end{itemize}
 
-\chapter{Teaching Week 12: Tutorial}\label{Lecture12}
+\chapter{Teaching Week 12 tutorial}\label{Lecture12}
 
 \begin{objectivesBox}{iconmonstr-target-4-240.png}
 
@@ -6081,7 +6128,7 @@ You will learn and practice the content associated with these chapters of the \h
 
 \section{Quick revision}\label{QuickRevision-Tutorial12}
 
-\begin{mentiQuestion}{iconmonstr-computer-6-240.png}
+\begin{mentiQuestion}
 
 \null
 
@@ -6297,36 +6344,36 @@ Some are fully worked, and some are only brief solutions.
 \begin{itemize}
 \tightlist
 \item
-  Answers: Tutorial~\ref{Lecture1} (Teaching Week~1): Sect.~\ref{Lecture1Answers}.
+  Answers for Tutorial~\ref{Lecture1} (Teaching Week~1): Sect.~\ref{Lecture1Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture2} (Teaching Week~2): Sect.~\ref{Lecture2Answers}.
+  Answers for Tutorial~\ref{Lecture2} (Teaching Week~2): Sect.~\ref{Lecture2Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture3} (Teaching Week~3): Sect.~\ref{Lecture3Answers}.
+  Answers for Tutorial~\ref{Lecture3} (Teaching Week~3): Sect.~\ref{Lecture3Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture4} (Teaching Week~4): Sect.~\ref{Lecture4Answers}.
+  Answers for Tutorial~\ref{Lecture4} (Teaching Week~4): Sect.~\ref{Lecture4Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture5} (Teaching Week~5): Sect.~\ref{Lecture5Answers}.
+  Answers for Tutorial~\ref{Lecture5} (Teaching Week~5): Sect.~\ref{Lecture5Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture6} (Teaching Week~6): Sect.~\ref{Lecture6Answers}.
+  Answers for Tutorial~\ref{Lecture6} (Teaching Week~6): Sect.~\ref{Lecture6Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture7} (Teaching Week~7): Sect.~\ref{Lecture7Answers}.
+  Answers for Tutorial~\ref{Lecture7} (Teaching Week~7): Sect.~\ref{Lecture7Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture8} (Teaching Week~8): Sect.~\ref{Lecture8Answers}.
+  Answers for Tutorial~\ref{Lecture8} (Teaching Week~8): Sect.~\ref{Lecture8Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture9} (Teaching Week~9): Sect.~\ref{Lecture9Answers}.
+  Answers for Tutorial~\ref{Lecture9} (Teaching Week~9): Sect.~\ref{Lecture9Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture10} (Teaching Week~10): Sect.~\ref{Lecture10Answers}.
+  Answers for Tutorial~\ref{Lecture10} (Teaching Week~10): Sect.~\ref{Lecture10Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture11} (Teaching Week~11): Sect.~\ref{Lecture11Answers}.
+  Answers for Tutorial~\ref{Lecture11} (Teaching Week~11): Sect.~\ref{Lecture11Answers}.
 \item
-  Answers: Tutorial~\ref{Lecture12} (Teaching Week~12): Sect.~\ref{Lecture12Answers}.
+  Answers for Tutorial~\ref{Lecture12} (Teaching Week~12): Sect.~\ref{Lecture12Answers}.
 \end{itemize}
 
 \begin{footnotesize}
 
-\section{Answer: TW 1 tutorial}\label{Lecture1Answers}
+\section{Answers for TW 1 tutorial}\label{Lecture1Answers}
 
-\subsection*{Answer for Sect.~\ref{ResearchProcess}}\label{answer-for-sect.-refresearchprocess}
+\subsection*{Answers for Sect.~\ref{ResearchProcess}}\label{answers-for-sect.-refresearchprocess}
 
 \textbf{Ask} the question.
 \textbf{Design} the study.
@@ -6438,7 +6485,7 @@ Answers implied by H5P.
 Observational.
 Quasi-experimental (the classes are determined by the \emph{students}, but the lecturer decides which class gets which treatment).
 
-\section{Answer: TW 2 tutorial}\label{Lecture2Answers}
+\section{Answers for TW 2 tutorial}\label{Lecture2Answers}
 
 \subsection*{Answers for Sect.~\ref{StudyDesign}}\label{answers-for-sect.-refstudydesign}
 
@@ -6546,7 +6593,7 @@ beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; ra
   Subjects and researchers blinded.
 \end{enumerate}
 
-\section{Answer: TW 3 tutorial}\label{Lecture3Answers}
+\section{Answers for TW 3 tutorial}\label{Lecture3Answers}
 
 \subsection*{Answers for Sect.~\ref{StatsMode}}\label{answers-for-sect.-refstatsmode}
 
@@ -6605,7 +6652,7 @@ Answers implied by H5P.
   Female Weddell: about \(260\)--\(270\,\text{cm}\) long, vary from about \(200\) to \(310\,\text{cm}\).
   Slight negative skewness; possible small outlier at about \(170\)--\(180\,\text{cm}\).
 \item
-  Dotchart.\\
+  Dotchart.
   (Too much data for a useful stem-and-leaf plot probably.)
 \item
   Better with a title; some more labelled tick marks would be better.
@@ -6666,7 +6713,7 @@ Answers implied by H5P.
   At the time of the study, the Ultracell batteries were substantially cheaper, and hence much better value.
 \end{enumerate}
 
-\section{Answer: TW 4 tutorial}\label{Lecture4Answers}
+\section{Answers for TW 4 tutorial}\label{Lecture4Answers}
 
 \subsection*{Answers for Sect.~\ref{PercentOddsStroke}}\label{answers-for-sect.-refpercentoddsstroke}
 
@@ -6825,7 +6872,7 @@ Total & 93 & 664 & 757\\
 \end{tabular}
 \end{table}
 
-\section{Answer: TW 5 tutorial}\label{Lecture5Answers}
+\section{Answers for TW 5 tutorial}\label{Lecture5Answers}
 
 \subsection*{Answers for Sect.~\ref{CritiqueStudentSummaries}}\label{answers-for-sect.-refcritiquestudentsummaries}
 
@@ -6872,7 +6919,7 @@ Total & 93 & 664 & 757\\
   \textbf{Plot~1}: \(0.94\) (correlation~\textbf{D});
   \textbf{Plot~2}: \(-0.95\) (correlation~\textbf{A});
   \textbf{Plot~3}: \(0.12\) (correlation~\textbf{B});
-  \textbf{Plot~6}: \(0.75\) (correlation~\textbf{C}).\\
+  \textbf{Plot~6}: \(0.75\) (correlation~\textbf{C}).
 \item
   Examples of the direction in \textbf{Plot~1}: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
 \item
@@ -6941,7 +6988,7 @@ Answers implied by H5P.
   \end{itemize}
 \end{enumerate}
 
-\section{Answer: TW 6 tutorial}\label{Lecture6Answers}
+\section{Answers for TW 6 tutorial}\label{Lecture6Answers}
 
 \subsection*{Answers for Sect.~\ref{NormalIQs}}\label{answers-for-sect.-refnormaliqs}
 
@@ -7002,13 +7049,12 @@ In addition, the proportion of the population with an IQ \textbf{above} \(85\) i
 
 \subsection*{Answers for Sect.~\ref{Probability2}}\label{answers-for-sect.-refprobability2}
 
-Answers embedded.
-
-Relative frequency.
-Relative frequency.
-Subjective.
-Relative frequency.
-Classical.
+Answers embedded:
+relative frequency;
+relative frequency;
+subjective;
+relative frequency;
+classical.
 
 \subsection*{Answers for Sect.~\ref{RandomCardDraws}}\label{answers-for-sect.-refrandomcarddraws}
 
@@ -7054,7 +7100,7 @@ Classical.
   So, the \(z\)-score is \(0.385\), so that the SOI values is \(x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85\).
 \end{enumerate}
 
-\section{Answer: TW 7 tutorial}\label{Lecture7Answers}
+\section{Answers for TW 7 tutorial}\label{Lecture7Answers}
 
 \subsection*{Answers for Sect.~\ref{ConceptsMatches}}\label{answers-for-sect.-refconceptsmatches}
 
@@ -7205,7 +7251,7 @@ All statistically valid.
 \textbf{Note}: If you calculator gives an answer something like \texttt{1.875\ E-03} or similar, it is using \textbf{scientific notation}.
 It means \(1.875\times 10^{-3}\), or \(0.001875\).
 
-\section{Answer: TW 8 tutorial}\label{Lecture8Answers}
+\section{Answers for TW 8 tutorial}\label{Lecture8Answers}
 
 \subsection*{Answers for Sect.~\ref{DecisionMakingProcess}}\label{answers-for-sect.-refdecisionmakingprocess}
 
@@ -7287,14 +7333,13 @@ Answers implied by H5P.
 \subsection*{Answers for Sect.~\ref{PValues}}\label{answers-for-sect.-refpvalues}
 
 Use the \(68\)--\(95\)--\(99.7\) rule to \emph{approximate} the \(P\)-values:
-
 \emph{Less than} \(0.05\); Greater than \(0.05\);
 \emph{Less than} \(0.003\);
 Greater than \(0.05\);
 Greater than \(0.05\);
 Very small.
 
-\section{Answer: TW 9 tutorial}\label{Lecture9Answers}
+\section{Answers for TW 9 tutorial}\label{Lecture9Answers}
 
 \subsection*{Answers for Sect.~\ref{MatchRQHypothesis}}\label{answers-for-sect.-refmatchrqhypothesis}
 
@@ -7448,12 +7493,11 @@ Moderate evidence of a mean difference (approx. \(95\)\%~CI: \(0.066\) to~\(1.20
 Using summary table: \(t = (51.59 - 0)/19.612 = 2.63\), so \(P\)-value will be smaller than \(0.05\) (based on \(68\)--\(95\)--\(99.7\) rule).
 Strong evidence of a difference between the mean reaction times; approx. \(95\)\%~CI: \(12.37\) to~\(90.81\,\text{s}\) slower (i.e., greater) with phone.
 
-\section{Answer: TW 10 tutorial}\label{Lecture10Answers}
+\section{Answers for TW 10 tutorial}\label{Lecture10Answers}
 
 \subsection*{Answers for Sect.~\ref{Consistency}}\label{answers-for-sect.-refconsistency}
 
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
-
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
 
 \subsection*{Answers for Sect.~\ref{OddsSoftware}}\label{answers-for-sect.-refoddssoftware}
@@ -7584,7 +7628,7 @@ Did not use artifical limb & 0.525 & 1.11 & 40\\
 
 \(n = (2\times 7.145\div 0.5)^2 = 816.8\), so use guesses from \(817\)~students.
 
-\section{Answer: TW 11 tutorial}\label{Lecture11Answers}
+\section{Answers for TW 11 tutorial}\label{Lecture11Answers}
 
 \subsection*{Answers for Sect.~\ref{CritiqueReports1}}\label{answers-for-sect.-refcritiquereports1}
 
@@ -7678,7 +7722,7 @@ For casual golfers, is the \emph{mean} distance travelled by a golf ball the sam
   Again, what was tested doesn't help answer the RQ.
 \end{itemize}
 
-\section{Answer: TW 12 tutorial}\label{Lecture12Answers}
+\section{Answers for TW 12 tutorial}\label{Lecture12Answers}
 
 \subsection*{Answers for Sect.~\ref{UnderstandCorrelationsRegressions}}\label{answers-for-sect.-refunderstandcorrelationsregressions}
 
@@ -7977,37 +8021,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 1 1 3 1 8 & 2 8 6 1 4 & 5 0 9 4 4 & 0 8 3 4 3 & 2 7 3 7 8\\
-Row B & 9 5 9 6 0 & 2 6 4 2 1 & 7 2 3 8 3 & 4 4 0 2 8 & 6 5 8 2 6\\
-Row C & 2 1 8 2 1 & 0 4 0 3 4 & 8 7 2 5 4 & 4 2 3 2 7 & 1 8 2 7 5\\
-Row D & 8 5 2 8 4 & 0 2 0 1 8 & 9 7 7 3 3 & 3 2 2 9 5 & 6 8 2 2 7\\
-Row E & 5 6 2 8 0 & 0 5 6 6 1 & 5 0 5 0 1 & 3 2 5 7 9 & 5 3 3 6 6\\
+Row A & 9 3 3 4 3 & 1 0 4 4 0 & 6 1 5 1 7 & 5 1 7 6 5 & 4 4 0 6 8\\
+Row B & 0 6 4 3 6 & 8 8 1 8 2 & 7 1 6 5 6 & 1 0 8 0 0 & 9 3 0 2 1\\
+Row C & 5 2 8 0 0 & 0 1 0 1 4 & 9 0 1 1 0 & 0 6 7 4 7 & 0 0 6 8 4\\
+Row D & 6 2 5 7 9 & 0 9 3 5 0 & 1 8 8 1 9 & 2 0 6 0 3 & 4 1 7 6 9\\
+Row E & 7 0 4 6 3 & 6 4 6 5 2 & 7 7 9 8 6 & 9 2 8 9 4 & 0 6 6 7 6\\
 \addlinespace
-Row F & 4 9 5 2 1 & 9 7 6 1 8 & 9 6 8 7 5 & 6 2 7 3 7 & 2 5 1 5 9\\
-Row G & 5 7 2 1 4 & 5 6 7 5 3 & 9 1 2 8 3 & 1 6 8 2 1 & 3 2 8 2 8\\
-Row H & 5 0 0 3 1 & 1 6 4 1 7 & 3 5 8 8 6 & 5 3 5 2 1 & 2 8 9 0 8\\
-Row I & 7 6 0 4 1 & 7 0 0 0 3 & 2 9 3 7 3 & 5 6 2 4 0 & 8 7 8 4 3\\
-Row J & 4 0 5 3 0 & 1 9 6 6 7 & 7 4 9 9 3 & 3 3 1 6 6 & 1 9 3 9 6\\
+Row F & 9 6 0 0 9 & 2 3 4 4 4 & 5 7 8 3 9 & 2 9 5 5 4 & 6 5 9 7 7\\
+Row G & 5 5 2 0 0 & 9 6 9 9 3 & 0 4 0 1 5 & 7 2 3 4 1 & 3 5 1 6 1\\
+Row H & 8 7 7 9 4 & 4 0 0 1 5 & 1 7 2 8 6 & 7 9 0 3 8 & 9 3 7 7 0\\
+Row I & 1 0 7 3 5 & 3 7 5 4 9 & 8 3 6 6 9 & 2 3 4 2 1 & 7 5 2 9 9\\
+Row J & 6 1 9 9 0 & 9 8 7 3 2 & 4 3 0 0 6 & 3 4 2 9 2 & 6 9 3 9 3\\
 \addlinespace
-Row K & 3 5 0 9 7 & 9 7 9 8 3 & 8 9 8 4 1 & 9 4 5 4 3 & 6 3 5 0 9\\
-Row L & 7 8 0 4 6 & 1 7 8 2 5 & 3 8 4 2 9 & 8 4 0 6 5 & 0 4 2 1 5\\
-Row M & 6 9 9 9 3 & 2 7 5 6 8 & 2 6 8 2 1 & 9 1 7 4 8 & 4 6 8 8 1\\
-Row N & 1 4 0 4 9 & 8 0 8 2 6 & 8 0 7 0 9 & 7 7 1 7 7 & 3 9 8 1 7\\
-Row O & 9 2 1 5 6 & 2 1 5 5 1 & 3 4 9 0 4 & 7 5 5 9 1 & 5 3 4 0 8\\
+Row K & 7 8 6 4 4 & 8 3 3 7 9 & 6 4 2 7 9 & 7 4 0 0 5 & 8 1 3 2 8\\
+Row L & 8 7 5 0 9 & 5 6 4 7 9 & 6 3 5 7 0 & 4 5 7 2 2 & 9 4 4 2 7\\
+Row M & 0 4 6 4 9 & 2 1 4 8 0 & 8 5 3 5 9 & 8 4 1 2 0 & 6 3 1 3 3\\
+Row N & 2 9 3 0 3 & 8 8 8 4 9 & 3 0 6 4 9 & 3 5 1 7 3 & 6 0 8 4 8\\
+Row O & 5 0 6 6 3 & 8 3 8 8 5 & 0 9 0 8 4 & 5 6 5 3 2 & 8 7 8 9 9\\
 \addlinespace
-Row P & 7 6 9 4 0 & 1 8 6 6 1 & 6 0 7 2 2 & 8 3 4 1 4 & 8 2 9 9 8\\
-Row Q & 7 5 7 5 6 & 5 1 9 0 9 & 0 5 2 9 5 & 3 9 5 2 3 & 9 8 2 5 2\\
-Row R & 1 5 0 5 9 & 3 4 6 9 0 & 9 9 1 6 5 & 8 7 9 0 9 & 6 5 1 4 8\\
-Row S & 3 2 7 5 4 & 0 1 3 9 8 & 6 4 4 5 0 & 8 6 5 5 4 & 5 0 7 3 4\\
-Row T & 6 9 9 1 6 & 3 4 0 5 4 & 0 6 9 0 8 & 6 8 1 8 5 & 1 4 4 3 3\\
+Row P & 6 0 9 2 8 & 1 7 1 4 0 & 3 4 7 4 6 & 6 1 3 3 6 & 5 7 8 6 9\\
+Row Q & 6 0 7 7 3 & 0 5 4 4 7 & 4 9 2 3 0 & 2 4 1 5 3 & 3 6 4 8 0\\
+Row R & 8 4 1 6 1 & 7 0 9 5 1 & 0 2 0 4 7 & 8 1 5 2 2 & 1 3 9 5 5\\
+Row S & 1 6 1 2 8 & 0 0 5 5 2 & 8 4 2 3 1 & 9 0 4 6 8 & 0 3 0 9 5\\
+Row T & 7 8 6 6 9 & 8 5 1 8 3 & 2 2 8 7 3 & 5 8 4 2 2 & 6 1 6 2 7\\
 \addlinespace
-Row U & 2 6 1 9 1 & 2 6 3 7 8 & 9 1 2 8 1 & 4 4 9 6 6 & 5 9 0 8 9\\
-Row V & 3 0 8 2 1 & 8 2 1 5 7 & 6 0 4 2 6 & 8 0 8 8 6 & 8 0 2 8 9\\
-Row W & 2 7 6 2 7 & 2 0 7 1 4 & 9 3 0 2 2 & 1 4 7 2 8 & 9 4 0 0 5\\
-Row X & 6 2 7 0 9 & 5 8 4 6 5 & 2 9 9 6 0 & 5 5 3 3 4 & 5 0 9 4 9\\
-Row Y & 6 5 4 4 5 & 3 7 9 6 2 & 0 5 1 3 0 & 8 8 7 8 8 & 0 3 0 5 5\\
+Row U & 8 7 1 8 0 & 4 2 7 4 7 & 3 9 9 6 7 & 4 6 0 9 1 & 5 5 5 7 6\\
+Row V & 1 5 1 5 7 & 1 4 3 7 0 & 9 8 2 4 9 & 4 4 1 2 1 & 7 5 2 7 0\\
+Row W & 3 9 7 1 7 & 7 0 6 4 6 & 9 0 7 9 3 & 3 0 7 7 4 & 8 3 0 7 5\\
+Row X & 0 2 3 4 5 & 7 5 0 3 4 & 9 5 3 2 5 & 9 0 0 1 1 & 9 0 2 7 4\\
+Row Y & 3 9 1 2 2 & 6 1 6 0 0 & 8 4 3 1 2 & 5 3 5 3 4 & 5 5 8 3 7\\
 \addlinespace
-Row Z & 6 6 4 4 9 & 7 6 0 7 4 & 6 2 8 3 1 & 5 5 9 5 8 & 8 5 0 2 2\\
+Row Z & 6 5 4 1 4 & 5 7 7 8 3 & 2 0 7 4 1 & 6 6 8 4 8 & 1 0 6 8 3\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -8314,6 +8358,252 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 \item
   \hyperref[Lecture12ThoughtsForTutors]{Thoughts} for Teaching Week~\ref{Lecture12} Tutorial.
 \end{itemize}
+
+\section{WHAT I NEED ATO DO:}\label{what-i-need-ato-do}
+
+\subsection{1. Create Poll Template}\label{create-poll-template}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Log in to your Mentimeter account.
+\item
+  Click \textbf{Create Presentation} → give it a clear name, e.g.\\
+  \texttt{Week\ 3\ –\ Sampling\ Bias}.
+\item
+  Add your poll questions:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Multiple Choice
+  \item
+    Word Cloud
+  \item
+    Scales / ranking (optional)
+  \end{itemize}
+\item
+  Save the presentation as a \textbf{template}:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Click \textbf{File → Save as Template} (optional, depending on Mentimeter version)
+  \item
+    This allows reuse each trimester.
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{2. Start a Session}\label{start-a-session}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  From the template, click \textbf{Present} → \textbf{Start Session}.
+\item
+  Choose \textbf{Quick Start / Audience-Paced / Live} (default: Live).
+\item
+  Mentimeter generates:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A \textbf{unique URL} for this session
+  \item
+    A \textbf{QR code} pointing to the session
+  \end{itemize}
+\item
+  \textbf{Save the QR code} for TAs:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Export the QR code as an image
+  \item
+    Name it: \texttt{Week3\_Poll\_QR.png}
+  \end{itemize}
+\end{enumerate}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{3. Distribute the QR Code}\label{distribute-the-qr-code}
+
+\begin{itemize}
+\tightlist
+\item
+  Place the QR code in a \textbf{TA-only Canvas page} or slide deck
+\item
+  Do \textbf{not} publish to students
+\item
+  This ensures:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Students can only access via the QR code shown in class
+  \item
+    No early access
+  \end{itemize}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{4. Run the Poll}\label{run-the-poll}
+
+\begin{itemize}
+\tightlist
+\item
+  The session \textbf{stays open} for all tutorial slots that week
+\item
+  Students from any tutorial can scan the QR and submit
+\item
+  Results are \textbf{aggregated across all classes}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{5. After Class / Week}\label{after-class-week}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Export results if needed:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Click \textbf{File → Export Results}
+  \item
+    Format: CSV / Excel
+  \end{itemize}
+\item
+  Archive the session if desired
+\item
+  For next week:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Create a \textbf{new session} from the same template
+  \item
+    Generate new QR code
+  \end{itemize}
+\end{enumerate}
+
+\section{NEWEST VERSION: Thoughts on Class Discussions}\label{newest-version-thoughts-on-class-discussions}
+
+\textbf{Prepare for Class}
+
+\begin{itemize}
+\tightlist
+\item
+  Ensure you have the \textbf{week's QR code} ready:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    From instructor Canvas page or slide deck
+  \end{itemize}
+\item
+  Ensure projector / screen is ready for students to see the QR
+\end{itemize}
+
+\textbf{Display the Poll}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open the week's Mentimeter session (or show QR image)
+\item
+  Project the \textbf{QR code} on the screen
+\item
+  Instruct students: `Please scan the QR code and answer the questions for this week's poll.'
+\item
+  Wait 30--60 seconds for all students to respond
+\end{enumerate}
+
+\textbf{Show Results Live}
+
+\begin{itemize}
+\tightlist
+\item
+  Mentimeter updates \textbf{live charts automatically}
+\item
+  Project the results to the class
+\item
+  Discuss trends:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Highlight majority/minority choices
+  \item
+    Use as discussion starter
+  \end{itemize}
+\item
+  No further TA input needed
+\end{itemize}
+
+\textbf{After Tutorial}
+
+\begin{itemize}
+\tightlist
+\item
+  Nothing to do
+\item
+  Responses are stored automatically in Mentimeter
+\item
+  Instructor can download/export later if needed
+\end{itemize}
+
+\section{NEW VERSION: Thoughst on Class Discussions; probably outdated}\label{new-version-thoughst-on-class-discussions-probably-outdated}
+
+\textbf{Purpose}:
+These polls are quick check-in questions to see how students are thinking and to spark discussion.
+
+\textbf{What you need before class}:
+Nothing; everything is Canvas.
+
+\textbf{During class}:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Tell students to \emph{open} the poll:
+  `Please open the Week X tutorial page (QR on screen?) and answer the poll question at the top. Take about 30 seconds.'
+\item
+  \emph{View} the results once most students seem to have responded.
+  Refresh the page, Open the Results / Reports view (depending on LMS)
+  (\emph{Note}: Results may include responses from other classes earlier in the week.)
+\item
+  Use the results to \emph{prompt discussion}:
+  Examples:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  `Most people chose B; why?'
+\item
+  `Interesting split here. Who chose A?'
+\item
+  `This is a common misconception; let's unpack it.'
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \emph{Move on}:
+  Continue with the tutorial
+\end{enumerate}
 
 \section*{\texorpdfstring{Thoughts on \emph{Class Discussions}}{Thoughts on Class Discussions}}\label{ClassDiscussions}
 

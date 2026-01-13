@@ -1,6 +1,6 @@
 \mainmatter
 
-# Teaching Week 1: tutorial {#Lecture1}
+# Teaching Week 1 tutorial {#Lecture1}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 You will learn to:
@@ -37,7 +37,7 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial1}
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -261,7 +261,7 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
 \greyboxlines{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
-\greyboxlines{3}
+\greyboxlines{2}
 10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
 \greyboxlines{2}
 
@@ -323,7 +323,7 @@ Five floorboards had two hardness measurements taken on *each* board  (units pro
 4. Suppose the measurements were all taken from $10$\ *different* places on the *same* board (rather than from five different boards).
    How many units of analysis are there now?
    Explain your answer.
-\greyboxlines{3}
+\greyboxlines{2}
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
 \greyboxlines{2}
 

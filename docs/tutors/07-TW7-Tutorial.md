@@ -1,4 +1,4 @@
-# Teaching Week 7: tutorial {#Lecture7}
+# Teaching Week 7 tutorial {#Lecture7}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -37,7 +37,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 

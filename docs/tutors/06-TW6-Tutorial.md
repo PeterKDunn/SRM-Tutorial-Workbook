@@ -1,4 +1,4 @@
-# Teaching Week 6: tutorial {#Lecture6}
+# Teaching Week 6 tutorial {#Lecture6}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -48,7 +48,7 @@ Appendices\ \@ref(ZTablesOnline)\ and\ \@ref(ZTablesOnlineBackwards), and Append
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -88,7 +88,7 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -124,12 +124,17 @@ The values quoted are the population means\ $\mu$ and standard deviations\ $\sig
 <p class="caption">(\#fig:Ht)Part of the ABS report on heights of Australians.</p>
 </div>
 
+\pagebreak 
+
 4. Heights have an approximate normal (bell-shape) distribution, so the $68$--$95$--$99.7$ rule applies.  
    **Using the $68$--$95$--$99.7$ rule**, *roughly* estimate the percentage of people of your age and gender that are *shorter* than you.
    (Hint: Draw a picture!)
 \greyboxlines{4}
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
 \greyboxlines{3}
+
+\pagebreak
+
 6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
    (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
 \greyboxlines{4}
@@ -157,7 +162,7 @@ The values quoted are the population means\ $\mu$ and standard deviations\ $\sig
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -166,23 +171,23 @@ For the following, indicate *how* you could estimate the probability (classical;
 (**Note:** You are not asked to *compute* the probability.)
 
 1. The probability that a given UniSC student lives in Nambour.\tightlist  
-<div class='webex-radiogroup' id='radio_YGKDVDIFWN'><label><input type="radio" autocomplete="off" name="radio_YGKDVDIFWN" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_YGKDVDIFWN" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_YGKDVDIFWN" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_ODMWTHSOWL'><label><input type="radio" autocomplete="off" name="radio_ODMWTHSOWL" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_ODMWTHSOWL" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_ODMWTHSOWL" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 2. The probability that a given Nambour resident is a UniSC student.
-<div class='webex-radiogroup' id='radio_JREFHSYUWZ'><label><input type="radio" autocomplete="off" name="radio_JREFHSYUWZ" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_JREFHSYUWZ" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_JREFHSYUWZ" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_JKIPEWLRNP'><label><input type="radio" autocomplete="off" name="radio_JKIPEWLRNP" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_JKIPEWLRNP" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_JKIPEWLRNP" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 3. The probability that Labor wins the next federal election.
-<div class='webex-radiogroup' id='radio_VNGEYDZPPT'><label><input type="radio" autocomplete="off" name="radio_VNGEYDZPPT" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_VNGEYDZPPT" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_VNGEYDZPPT" value="answer"></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_SVYJTUAGTF'><label><input type="radio" autocomplete="off" name="radio_SVYJTUAGTF" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SVYJTUAGTF" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SVYJTUAGTF" value="answer"></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 4. The probability that you will throw a dart and hit the bullseye.
-<div class='webex-radiogroup' id='radio_IBMHUYRQTC'><label><input type="radio" autocomplete="off" name="radio_IBMHUYRQTC" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_IBMHUYRQTC" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_IBMHUYRQTC" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_BBBAGKPLDV'><label><input type="radio" autocomplete="off" name="radio_BBBAGKPLDV" value=""></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_BBBAGKPLDV" value="answer"></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_BBBAGKPLDV" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 5. The probability that a roulette wheel spins a $33$.
-<div class='webex-radiogroup' id='radio_UOHOXIXXQT'><label><input type="radio" autocomplete="off" name="radio_UOHOXIXXQT" value="answer"></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_UOHOXIXXQT" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_UOHOXIXXQT" value=""></input> <span>Subjective approach.</span></label></div>
+<div class='webex-radiogroup' id='radio_SSMVJRLQQT'><label><input type="radio" autocomplete="off" name="radio_SSMVJRLQQT" value="answer"></input> <span>Classical approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SSMVJRLQQT" value=""></input> <span>Relative frequency approach.</span></label><label><input type="radio" autocomplete="off" name="radio_SSMVJRLQQT" value=""></input> <span>Subjective approach.</span></label></div>
 
 \greyboxlines{1}
 

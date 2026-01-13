@@ -1,4 +1,4 @@
-# Teaching Week 11: Tutorial  {#Lecture11}
+# Teaching Week 11 tutorial  {#Lecture11}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 You will learn to:
@@ -138,8 +138,7 @@ The data for success and failure at insertion is given in Table \@ref(tab:Airway
 3. Are the results likely to be statistically valid? 
    Explain.
 \greyboxlines{2}
-4. The study was designed to enable medics to choose the best airway device.  
-
+4. The study was designed to enable medics to choose the best airway device.
    Would you recommend EGTA or LM?
    Why?
    Would you like any more information before making your choice?

@@ -1,4 +1,4 @@
-# Teaching Week 12: Tutorial  {#Lecture12}
+# Teaching Week 12 tutorial  {#Lecture12}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 You will learn to:
@@ -33,7 +33,7 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial12}
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 

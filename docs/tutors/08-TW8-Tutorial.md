@@ -1,4 +1,4 @@
-# Teaching Week 8: tutorial  {#Lecture8}
+# Teaching Week 8 tutorial  {#Lecture8}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -39,7 +39,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -165,7 +165,7 @@ We would like to test the company's claim, and ask the RQ:
 ## Approximate $P$-values {#PValues}
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 

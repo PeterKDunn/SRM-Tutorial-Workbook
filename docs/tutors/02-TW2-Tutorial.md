@@ -1,4 +1,4 @@
-# Teaching Week 2: tutorial {#Lecture2}
+# Teaching Week 2 tutorial {#Lecture2}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -43,7 +43,7 @@ You should bring your calculator to tutorials from **next** week onwards.
 
 
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 
@@ -259,6 +259,9 @@ Based on this information, answer the following questions.
 11. Is the study observational or experimental?
     Explain.
 \greyboxlines{2}
+
+\pagebreak
+
 12. Are the following variables likely to be extraneous variables, control variables, confounding variables, or none of these? 
     **Explain.**
 
@@ -267,7 +270,7 @@ Based on this information, answer the following questions.
 	  c. The distance to the nearest hospital.
 	  d. The amount of exercise per week by the person.
     e. Whether their father had heart problems.
-\greyboxlines{5}
+\greyboxlines{4}
 
 The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the study of people.
 From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
@@ -297,8 +300,14 @@ The study reports that the biggest contributors to spermidine intakes were:
 \greyboxlines{1}
 
 
+\nopagebreak
+
 
 ## Planning a research study {#PlanStudy2}
+
+::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
+This activity is very important for helping with your Project.
+:::
 
 Your tutor will have
 information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1292525075807919739)
@@ -307,10 +316,6 @@ information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1
 
 <!-- Documentation tool?? -->
 
-
-::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-This activity is very important for helping with your Project.
-:::
 
 
 ## Study design features {#StudyFeatures}

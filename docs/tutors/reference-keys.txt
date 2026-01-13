@@ -64,6 +64,8 @@ tab:ArtLimbMortalityANS
 tab:ArtLimbSummaryANS
 fig:unnamed-chunk-7
 tab:unnamed-chunk-7
+tab:NumericalSummaryAns
+fig:RulerDrop-jamovi
 Lecture1
 QuickRevision-Tutorial1
 TW1-Class-Discussion
@@ -193,3 +195,12 @@ FormulasSampleSize
 FormulasOther
 OtherSymbols
 Image-Credits
+TeachingThoughts
+what-i-need-ato-do
+create-poll-template
+start-a-session
+distribute-the-qr-code
+run-the-poll
+after-class-week
+newest-version-thoughts-on-class-discussions
+new-version-thoughst-on-class-discussions-probably-outdated

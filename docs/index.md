@@ -6,7 +6,7 @@ author: "Peter K. Dunn"
 geometry: margin=27mm
 description: "TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)"
 cover-image: "images/cover-Tutorial.png"
-date: "Last updated: January 08, 2026"
+date: "Last updated: January 13, 2026"
 bibliography: ["ReferenceList.bib"]
 #biblio-style: plain
 csl: journal-of-applied-animal-science.csl
@@ -78,8 +78,10 @@ params:
 
 
 
-This book has been prepared for use with the book 
-[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/),
+This book has been prepared for use with the online textbook 
+[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/)
+(which is also available as a traditional
+[paper-based textbook)](https://www.taylorfrancis.com/books/mono/10.1201/9781003394938/scientific-research-methodology-peter-dunn),
 to be used in the course *Science Research Methods* at the
 [University of the Sunshine Coast (UniSC)](https://www.usc.edu.au).
 
@@ -162,7 +164,7 @@ This icon flags questions that have *video solutions* in the online book: a narr
 <!-- 
 ### Call-outs for *tutors only* {-}
 
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 Questions with this icon beside them have MentiMeter availability.
 :::
 -->

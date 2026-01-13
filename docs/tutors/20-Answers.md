@@ -6,28 +6,28 @@
 This Appendix contains answers to *most* (not all) exercises.
 Some are fully worked, and some are only brief solutions.
 
-* Answers: Tutorial\ \@ref(Lecture1) (Teaching Week\ 1): Sect.\ \@ref(Lecture1Answers).
-* Answers: Tutorial\ \@ref(Lecture2) (Teaching Week\ 2): Sect.\ \@ref(Lecture2Answers).
-* Answers: Tutorial\ \@ref(Lecture3) (Teaching Week\ 3): Sect.\ \@ref(Lecture3Answers).
-* Answers: Tutorial\ \@ref(Lecture4) (Teaching Week\ 4): Sect.\ \@ref(Lecture4Answers).
-* Answers: Tutorial\ \@ref(Lecture5) (Teaching Week\ 5): Sect.\ \@ref(Lecture5Answers).
-* Answers: Tutorial\ \@ref(Lecture6) (Teaching Week\ 6): Sect.\ \@ref(Lecture6Answers).
-* Answers: Tutorial\ \@ref(Lecture7) (Teaching Week\ 7): Sect.\ \@ref(Lecture7Answers).
-* Answers: Tutorial\ \@ref(Lecture8) (Teaching Week\ 8): Sect.\ \@ref(Lecture8Answers).
-* Answers: Tutorial\ \@ref(Lecture9) (Teaching Week\ 9): Sect.\ \@ref(Lecture9Answers).
-* Answers: Tutorial\ \@ref(Lecture10) (Teaching Week\ 10): Sect.\ \@ref(Lecture10Answers).
-* Answers: Tutorial\ \@ref(Lecture11) (Teaching Week\ 11): Sect.\ \@ref(Lecture11Answers).
-* Answers: Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
+* Answers for Tutorial\ \@ref(Lecture1) (Teaching Week\ 1): Sect.\ \@ref(Lecture1Answers).
+* Answers for Tutorial\ \@ref(Lecture2) (Teaching Week\ 2): Sect.\ \@ref(Lecture2Answers).
+* Answers for Tutorial\ \@ref(Lecture3) (Teaching Week\ 3): Sect.\ \@ref(Lecture3Answers).
+* Answers for Tutorial\ \@ref(Lecture4) (Teaching Week\ 4): Sect.\ \@ref(Lecture4Answers).
+* Answers for Tutorial\ \@ref(Lecture5) (Teaching Week\ 5): Sect.\ \@ref(Lecture5Answers).
+* Answers for Tutorial\ \@ref(Lecture6) (Teaching Week\ 6): Sect.\ \@ref(Lecture6Answers).
+* Answers for Tutorial\ \@ref(Lecture7) (Teaching Week\ 7): Sect.\ \@ref(Lecture7Answers).
+* Answers for Tutorial\ \@ref(Lecture8) (Teaching Week\ 8): Sect.\ \@ref(Lecture8Answers).
+* Answers for Tutorial\ \@ref(Lecture9) (Teaching Week\ 9): Sect.\ \@ref(Lecture9Answers).
+* Answers for Tutorial\ \@ref(Lecture10) (Teaching Week\ 10): Sect.\ \@ref(Lecture10Answers).
+* Answers for Tutorial\ \@ref(Lecture11) (Teaching Week\ 11): Sect.\ \@ref(Lecture11Answers).
+* Answers for Tutorial\ \@ref(Lecture12) (Teaching Week\ 12): Sect.\ \@ref(Lecture12Answers).
 
 
 ```{=latex}
 \begin{footnotesize}
 ```
 
-## Answer: TW 1 tutorial {#Lecture1Answers}
+## Answers for TW 1 tutorial {#Lecture1Answers}
 
 
-### Answer for Sect.\ \@ref(ResearchProcess) {.unlisted .unnumbered}
+### Answers for Sect.\ \@ref(ResearchProcess) {.unlisted .unnumbered}
 
 **Ask** the question.
 **Design** the study.
@@ -120,7 +120,7 @@ Observational.
 Quasi-experimental (the classes are determined by the *students*, but the lecturer decides which class gets which treatment).
 
 
-## Answer: TW 2 tutorial {#Lecture2Answers}
+## Answers for TW 2 tutorial {#Lecture2Answers}
 
 ### Answers for Sect.\ \@ref(StudyDesign) {.unlisted .unnumbered}
 
@@ -182,7 +182,7 @@ beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; ra
 
 
 
-## Answer: TW 3 tutorial {#Lecture3Answers}
+## Answers for TW 3 tutorial {#Lecture3Answers}
 
 ### Answers for Sect.\ \@ref(StatsMode) {.unlisted .unnumbered}
 
@@ -223,7 +223,7 @@ Answers implied by H5P.
 
 1. Female Weddell: about $260$--$270\cms$ long, vary from about $200$ to $310\cms$.
    Slight negative skewness; possible small outlier at about $170$--$180\cms$.
-2. Dotchart.  
+2. Dotchart.
    (Too much data for a useful stem-and-leaf plot probably.)
 3. Better with a title; some more labelled tick marks would be better.
 4. Part of this discussion can be about what information is needed on a publicity brochure.
@@ -295,7 +295,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 
 
-## Answer: TW 4 tutorial {#Lecture4Answers}
+## Answers for TW 4 tutorial {#Lecture4Answers}
 
 ### Answers for Sect.\ \@ref(PercentOddsStroke) {.unlisted .unnumbered}
 
@@ -412,7 +412,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 
 
-## Answer: TW 5 tutorial {#Lecture5Answers}
+## Answers for TW 5 tutorial {#Lecture5Answers}
 
 ### Answers for Sect.\ \@ref(CritiqueStudentSummaries) {.unlisted .unnumbered}
 
@@ -448,7 +448,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 2. **Plot\ 1**: $0.94$ (correlation\ **D**);
    **Plot\ 2**: $-0.95$ (correlation\ **A**); 
    **Plot\ 3**: $0.12$ (correlation\ **B**);
-   **Plot\ 6**: $0.75$ (correlation\ **C**).  
+   **Plot\ 6**: $0.75$ (correlation\ **C**).
 3. Examples of the direction in **Plot\ 1**: any two variables moderately positively correlated, such as height and weight, distance lived from university and travel time, etc.
 4. Examples of direction in **Plot\ 2**: any two variables moderately negatively correlated, such as hours of weekly exercise and body weight, number of SCI110 tutorial missed and final mark, etc.
 5. **Plot\ 1**: $88.4$%;
@@ -485,7 +485,7 @@ Answers implied by H5P.
 
  
 
-## Answer: TW 6 tutorial {#Lecture6Answers}
+## Answers for TW 6 tutorial {#Lecture6Answers}
 
 ### Answers for Sect.\ \@ref(NormalIQs) {.unlisted .unnumbered}
 
@@ -526,13 +526,12 @@ In addition, the proportion of the population with an IQ **above** $85$ is about
 
 ### Answers for Sect.\ \@ref(Probability2) {.unlisted .unnumbered}
 
-Answers embedded.
-
-Relative frequency.
-Relative frequency.
-Subjective.
-Relative frequency.
-Classical.
+Answers embedded:
+relative frequency;
+relative frequency;
+subjective;
+relative frequency;
+classical.
 
 
 ### Answers for Sect.\ \@ref(RandomCardDraws) {.unlisted .unnumbered}
@@ -571,7 +570,7 @@ Classical.
 
 
 
-## Answer: TW 7 tutorial {#Lecture7Answers}
+## Answers for TW 7 tutorial {#Lecture7Answers}
 
 ### Answers for Sect.\ \@ref(ConceptsMatches) {.unlisted .unnumbered}
 
@@ -679,7 +678,7 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 
 
-## Answer: TW 8 tutorial {#Lecture8Answers}
+## Answers for TW 8 tutorial {#Lecture8Answers}
 
 ### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
 
@@ -735,7 +734,6 @@ Answers implied by H5P.
 ### Answers for Sect.\ \@ref(PValues) {.unlisted .unnumbered}
 
 Use the $68$--$95$--$99.7$ rule to *approximate* the $P$-values:
-
 *Less than* $0.05$; Greater than $0.05$;
 *Less than* $0.003$;
 Greater than $0.05$;
@@ -746,7 +744,7 @@ Very small.
 
 
 
-## Answer: TW 9 tutorial {#Lecture9Answers}
+## Answers for TW 9 tutorial {#Lecture9Answers}
 
 ### Answers for Sect.\ \@ref(MatchRQHypothesis) {.unlisted .unnumbered}
 
@@ -856,13 +854,12 @@ Strong evidence of a difference between the mean reaction times; approx. $95$%\ 
 
 
 
-## Answer: TW 10 tutorial {#Lecture10Answers}
+## Answers for TW 10 tutorial {#Lecture10Answers}
 
 
 ### Answers for Sect.\ \@ref(Consistency) {.unlisted .unnumbered}
 
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
-
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
 
 
@@ -1055,7 +1052,7 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 
 
-## Answer: TW 11 tutorial {#Lecture11Answers}
+## Answers for TW 11 tutorial {#Lecture11Answers}
 
 <!--
 ### Answers for Sect.\ \@ref(CIConcrete) {.unlisted .unnumbered}
@@ -1142,7 +1139,7 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 
 
-## Answer: TW 12 tutorial {#Lecture12Answers}
+## Answers for TW 12 tutorial {#Lecture12Answers}
 
 ### Answers for Sect.\ \@ref(UnderstandCorrelationsRegressions) {.unlisted .unnumbered}
 
