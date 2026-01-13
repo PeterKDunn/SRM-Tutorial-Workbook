@@ -43,7 +43,6 @@
 
   
   
-  
 %%% Box for writing answers
 \usepackage{calc} 
 \newlength{\greyboxheight}
@@ -54,6 +53,7 @@
   \setlength{\greyboxheight}{2.3\baselineskip * #1}%
 }
 \newenvironment{greybox}[1]{%
+  \nopagebreak
   \setgreyboxheight{#1}%
   \begin{tcolorbox}[
     colframe=gray!30!black,
@@ -72,6 +72,8 @@
 \vspace*{\greyboxheight} % force the box to have that height visually
 }{%
   \end{tcolorbox}
+  \goodbreak
+  %\filbreak % filbreak encourages a break here
 }
 \newcommand{\greyboxlines}[1]{\noindent\begin{greybox}{#1}\end{greybox}}
 
@@ -623,4 +625,21 @@
 \date{Last update: \today}
 \let\oldmaketitle\maketitle
 \AtBeginDocument{\let\maketitle\relax}
+
+
+% Set headers to just be chapters
+\AtBeginDocument{%
+  \pagestyle{fancy}
+  \fancyhf{}
+  
+  \renewcommand{\chaptermark}[1]{%
+    \markboth{#1}{}%
+  }
+  
+  \renewcommand{\sectionmark}[1]{%
+    \markright{#1}%
+  }
+}
+
+
 
