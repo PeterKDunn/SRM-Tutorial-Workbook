@@ -1,4 +1,4 @@
-# Teaching Week 5: tutorial {#Lecture5}
+# Teaching Week 5 tutorial {#Lecture5}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
@@ -189,7 +189,7 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 -->
 
 Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task\ 2B.
-\greyboxlines{4}
+\greyboxlines{3}
 
 
 

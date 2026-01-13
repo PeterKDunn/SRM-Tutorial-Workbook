@@ -1,4 +1,4 @@
-# Teaching Week 12: Tutorial  {#Lecture12}
+# Teaching Week 12 tutorial  {#Lecture12}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 You will learn to:

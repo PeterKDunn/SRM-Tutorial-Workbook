@@ -100,7 +100,7 @@ This book has been prepared for use with the online textbook
 }`
 (which is also available as a traditional
 `r if (knitr::is_latex_output()) {
-   'paper-based textbook)'
+   'paper-based textbook, from (for example) \\url{https://www.routledge.com})'
 } else {
    '[paper-based textbook)](https://www.taylorfrancis.com/books/mono/10.1201/9781003394938/scientific-research-methodology-peter-dunn)'
 }`,

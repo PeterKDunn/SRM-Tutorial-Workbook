@@ -1,4 +1,4 @@
-# Teaching Week 9: tutorial  {#Lecture9}
+# Teaching Week 9 tutorial  {#Lecture9}
 
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}

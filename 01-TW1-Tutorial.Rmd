@@ -1,6 +1,6 @@
 \mainmatter
 
-# Teaching Week 1: tutorial {#Lecture1}
+# Teaching Week 1 tutorial {#Lecture1}
 
 ::: {.objectivesBox .objectives data-latex="{iconmonstr-target-4-240.png}"}
 You will learn to:
