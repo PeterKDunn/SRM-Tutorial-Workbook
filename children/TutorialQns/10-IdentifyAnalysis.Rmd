@@ -1,6 +1,6 @@
 
 `r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 `r if (!tutorVersion) '-->'`

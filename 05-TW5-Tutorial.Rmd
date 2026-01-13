@@ -43,7 +43,7 @@ Take careful note of which chapters are covered in this tutorial!
 
 
 `r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 `r if (!tutorVersion) '-->'`
@@ -421,7 +421,7 @@ Your tutor will have information.
 ## Which summary measures to use {#WhichSummaryToUse}
 
 `r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex="{iconmonstr-computer-3-240-BLUE.png}"}
+::: {.mentiQuestion data-latex=""}
 \null
 :::
 `r if (!tutorVersion) '-->'`

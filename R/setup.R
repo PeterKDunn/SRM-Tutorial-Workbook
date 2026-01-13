@@ -17,8 +17,8 @@ library("readr") # For Cafe
 
 
 ### What type?
-#tutorVersion <- TRUE      ### TRUE: Make tutor version with answers and tutor suggestions, etc.
-tutorVersion <- FALSE     ### FALSE: Student version
+tutorVersion <- TRUE      ### TRUE: Make tutor version with answers and tutor suggestions, etc.
+#tutorVersion <- FALSE     ### FALSE: Student version
 if (tutorVersion) {
   cat("\\tutorVersiontrue\n")
 } else {
