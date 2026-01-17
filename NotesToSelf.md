@@ -44,7 +44,7 @@ pcregrep --color='auto' -n "[\x80-\xFF]" *.Rmd
 #   set  tutorVersion <- FALSE  in  setup.R
 bookdown::render_book(
   "index.Rmd",
-  output_format = "bookdown::gitbook",
+  output_format = "bookdown::gitbook", # or: "bookdown::pdf_book:"
   output_dir = "docs"
 )
 
@@ -53,7 +53,7 @@ bookdown::render_book(
 #   set  tutorVersion <- TRUE  in  setup.R
 bookdown::render_book(
   "index.Rmd",
-  output_format = "bookdown::gitbook",
+  output_format = "bookdown::gitbook", # or: "bookdown::pdf_book"
   output_dir = "docs/tutors"
 )
 
