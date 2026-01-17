@@ -1,127 +1,6 @@
 
-# Appendix: Image credits {#Image-Credits}
-
-The sources of the images used in the online version of this book 
-(in accordance with the terms of 
-[Unsplash](https://unsplash.com/license),
-[Pixabay](https://pixabay.com/service/license/)
-and 
-[Pexels](https://www.pexels.com/license/))
-are listed
-below.
-
-
-
-* Image of the softdrinks (Sect. \@ref(FormingRQs)):
-  Photo by 
-  [PhotoMIX Company](https://www.pexels.com/@wdnet?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-  from 
-  [Pexels](https://www.pexels.com/photo/beer-bubble-celebration-cocktail-104509/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of a man drinking coffee (Sect. \@ref(CreateRQs)):
-  Photo by
-  [nappy](https://www.pexels.com/@nappy?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
-  from 
-  [Pexels](https://www.pexels.com/photo/man-sitting-in-front-of-round-table-while-sipping-from-white-ceramic-mug-936019/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of bamboo (Sect. \@ref(Units); Sect. \@ref(StatsMode)):
-  Photo by 
-  [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/bamboo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-* Image of arm (Sect. \@ref(LanguageReport)):
-  Photo by
-  [ThisisEngineering](https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/robotic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText")
-
-* Image of chips (Sect. \@ref(StudyFeatures)):
-  Photo by 
-  [Emiliano Vittoriosi](https://unsplash.com/@emilianovittoriosi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/crisps?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-* Image of girl heading a soccer ball (Sect. \@ref(TwoWayTables)):
-  Photo by 
-  [Pixabay](https://www.pexels.com/@pixabay)
-  on
-  [Pexels](https://www.pexels.com/photo/action-active-activity-adolescent-264384/)
-
-* Image of jellyfish (Sect. \@ref(#QuickRevision-Tutorial4)):
-  Photo by 
-  [Jeffrey Hamilton](https://unsplash.com/@pistos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/jellyfish?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-* Image of matchbox (Sect. \@ref(ConceptsMatches)):
-  Photo by 
-  [John Finkelstein](https://www.pexels.com/@john-finkelstein-680076?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-  from 
-  [Pexels](https://www.pexels.com/photo/redheads-matches-handy-pack-1602905/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of a pizza (Sect. \@ref(HTOneMean-A); Sect. \@ref(CIPizzas)):
-  Photo by 
-  [Aurélien Lemasson-Théobald](https://unsplash.com/@aurel__lens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/pizza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-
-* Image of a rat (Sect. \@ref(CIRatLifetimes)):
-  Photo by 
-  [Alexas Fotos](https://www.pexels.com/@alexasfotos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-  from 
-  [Pexels](https://www.pexels.com/photo/brown-rat-eating-food-2189599/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of ventilation (e.g., Sect. \@ref(CIPropBVM)):
-  Photo by 
-  [Thomas G.](https://pixabay.com/users/tho-ge-113537/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444) 
-  from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444)
-
-* Image of a girl with thumbs down (Sect. \@ref(OddsSoftware)):
-  Photo by 
-  [Thomas Park](https://unsplash.com/@thomascpark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/silly?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-* Image of amputee (Sect. \@ref(CIImplant)):
-  Photo by 
-  [ShotPot](https://www.pexels.com/@shotpot?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-  from 
-  [Pexels](https://www.pexels.com/photo/man-in-red-t-shirt-and-black-shorts-standing-on-treadmill-4046557/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of a sub sandwich (Sect. \@ref(MatchRQHypothesis)):
-  Photo by
-  [Raphael Nogueira](https://unsplash.com/@phaelnogueira?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/sub?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  
-* Image of athlete with artificial limb (Sect. \@ref(TestsForORs)):
-  Photo by 
-  [Anna Shvets](https://www.pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
-  from 
-  [Pexels](https://www.pexels.com/photo/happy-woman-with-leg-prosthesis-on-stadium-5068676/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
-
-* Image of a car (Sect. \@ref(InterpretRegressions)):
-  Photo by 
-  [Angga Pratama](https://unsplash.com/@negative1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on
-  [Unsplash](https://unsplash.com/s/photos/toyota?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-
-* Image of concrete cracking (Sect. \@ref(CIConcrete)):
-  Photo by 
-  [Andrew Buchanan](https://unsplash.com/@photoart2018?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  on 
-  [Unsplash](https://unsplash.com/s/photos/concrete-crack?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
-  
-
-
-
-
-
-
 <!--    -------------------------------------------------    -->
-<!--     CHAPTER 24: THOUGHTS FOR TEACHING (24-TutorInfo)    -->
+<!--     CHAPTER 23: THOUGHTS FOR TEACHING (23-TutorInfo)    -->
 <!--     - Insert here (conditionally): TutorInfo            -->
 <!--     - Insert if we are creating tutor version in PDF    -->
 <!--    --------------------------------------------------   -->
@@ -140,6 +19,7 @@ below.
 
 This Appendix contains some thoughts on teaching in the tutorial, and answers to the *Quick Revision* questions.
 
+* [Details on using Mentimeter questions](#MentiQuestions) (which appear in most tutorials).
 * [Thoughts on *Class Discussions*](#ClassDiscussions) (which appear in most tutorials).
 * [Thoughts](#Lecture1ThoughtsForTutors) for Teaching Week\ \@ref(Lecture1) Tutorial.
 * [Thoughts](#Lecture2ThoughtsForTutors) for Teaching Week\ \@ref(Lecture2) Tutorial.
@@ -156,137 +36,61 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 
 
 
-## WHAT I NEED ATO DO:
-
-### 1. Create Poll Template
-
-1. Log in to your Mentimeter account.
-2. Click **Create Presentation** → give it a clear name, e.g.  
-   `Week 3 – Sampling Bias`.
-3. Add your poll questions:
-   - Multiple Choice
-   - Word Cloud
-   - Scales / ranking (optional)
-4. Save the presentation as a **template**:
-   - Click **File → Save as Template** (optional, depending on Mentimeter version)
-   - This allows reuse each trimester.
-
----
-
-### 2. Start a Session
-
-1. From the template, click **Present** → **Start Session**.
-2. Choose **Quick Start / Audience-Paced / Live** (default: Live).
-3. Mentimeter generates:
-   - A **unique URL** for this session
-   - A **QR code** pointing to the session
-4. **Save the QR code** for TAs:
-   - Export the QR code as an image
-   - Name it: `Week3_Poll_QR.png`
-
----
-
-### 3. Distribute the QR Code
-
-- Place the QR code in a **TA-only Canvas page** or slide deck
-- Do **not** publish to students
-- This ensures:
-  - Students can only access via the QR code shown in class
-  - No early access
-
----
-
-### 4. Run the Poll
-
-- The session **stays open** for all tutorial slots that week
-- Students from any tutorial can scan the QR and submit
-- Results are **aggregated across all classes**
-
----
-
-### 5. After Class / Week
-
-1. Export results if needed:
-   - Click **File → Export Results**
-   - Format: CSV / Excel
-2. Archive the session if desired
-3. For next week:
-   - Create a **new session** from the same template
-   - Generate new QR code
+## Details on using Mentimeter questions {#MentiQuestions}
 
 
+### General comments on Mentis {.unlisted}
+
+- **MentiMeter** allows in-class interactive activities, that I hope will help boost student engagement, in both online and on-campus tutorials.
+- **MentiMeter** activities will also hopefully create some discussions (engagement) in class.
+- The *Quick Revision* questions have all been converted to Mentis; some other tutorial questions have also be converted to Mentis.
+- Using the Mentis are **optional**, but if you use them I am interested in your feedback.
+
+::: {.mentiQuestion data-latex=""}
+Questions with Mentis are flagged in the PDF and HTML tutorial books with this icon.
+You can click this icon in the HTML version of the *Tutorial Workbook*, and the MentiMeter page for SCI110 will open.
+You can then find the Menti in the appropriate Teaching Week folder.
+:::
 
 
+### Accessing Mentis {.unlisted}
+
+- **Preparation**: 
+  MentiMeter questions are already prepared; you just need to *use* them.
+- **Access**: 
+  Unfortunately (and this is just the way MentiMeter works), once I share the Mentis with you so that you can use them  in tutorials, you will also have **Edit** access.
+  **Please do not edit the Mentis** (without my approval) as this impacts everyone.
+- **Re-use**: 
+  Any given Menti is used across all tutorials: this is the only way I could figure out to make things work when we have lots of tutorials, some running at the same time, without lots of extra work.
 
 
+### Using Mentis in tutorials {.unlisted}
 
-## NEWEST VERSION: Thoughts on Class Discussions
+*Display* the Mentis to the class  by:
 
-**Prepare for Class**
-
-- Ensure you have the **week’s QR code** ready:
-  - From instructor Canvas page or slide deck
-- Ensure projector / screen is ready for students to see the QR
-
-**Display the Poll**
-
-1. Open the week’s Mentimeter session (or show QR image)
-2. Project the **QR code** on the screen
-3. Instruct students: 'Please scan the QR code and answer the questions for this week’s poll.'
-4. Wait 30--60 seconds for all students to respond
-
-**Show Results Live**
-
-- Mentimeter updates **live charts automatically**
-- Project the results to the class
-- Discuss trends:
-  - Highlight majority/minority choices
-  - Use as discussion starter
-- No further TA input needed
-
-**After Tutorial**
-
-- Nothing to do
-- Responses are stored automatically in Mentimeter
-- Instructor can download/export later if needed
-
-
-
-
-
-## NEW VERSION: Thoughst on Class Discussions; probably outdated
-
-
-**Purpose**:
-These polls are quick check-in questions to see how students are thinking and to spark discussion. 
-
-**What you need before class**:
-Nothing; everything is Canvas.
-
-**During class**:
-
-1. Tell students to *open* the poll:
-'Please open the Week X tutorial page (QR on screen?) and answer the poll question at the top. Take about 30 seconds.'
-
-2. *View* the results once most students seem to have responded.
-Refresh the page, Open the Results / Reports view (depending on LMS)
-(*Note*: Results may include responses from other classes earlier in the week.)
-
-3. Use the results to *prompt discussion*:
-   Examples:
-
+- Go to the [SCI110 Menti](https://www.mentimeter.com/app/folder/2889277) page (by, for example, clicking the icon on the HMTL version).
+- Select the appropriate folder (they are organised by Teaching Week).
+- Click the appropriate Menti.
+- Click **Start presentation** in the top right corner.
+- Students then join by:
+  - Scanning the QR code; or
+  - Going to \url{menti.com} and entering the code displayed at the top of the screen.
+- Keep advancing to the *next* slide, press **Next slide** on the bottom left corner.
+- Students then respond as they wish, when they are ready.
+- When relevant, the **Next slide**  changes to **Show results**... which displays the results.
+- The results will be displayed for *all* responses, across all classes, up to the point you click to display responses.
+- Click again to display the correct answer.
+- Discuss the responses with the class; for example:
   - 'Most people chose B; why?'
   - 'Interesting split here. Who chose A?'
   - 'This is a common misconception; let's unpack it.'
 
-4. *Move on*:
-Continue with the tutorial
+
+[**Return to index of tutor information.**](#TutorInfo)
 
 
 
-
-
-## Thoughts on *Class Discussions* {#ClassDiscussions .unlisted .unnumbered}
+## Thoughts on *Class Discussions* {#ClassDiscussions}
 
 Most teaching weeks include an *optional* class discussion.
 These discussions hopefully will, across the various discussions, help to:
@@ -300,10 +104,11 @@ These discussions hopefully will, across the various discussions, help to:
 
 Here is one framework for how to **facilitate** a discussion:
 
-1. Pose the question ($1$\ minute)
-  - Display or read the discussion question.
-  - Emphasise that the discussion is about *reasoning*, not correctness.
-    In fact, there may not *be* a correct answer.
+  1. Pose the question ($1$\ minute)
+  
+    - Display or read the discussion question.
+    - Emphasise that the discussion is about *reasoning*, not correctness.
+      In fact, there may not *be* a correct answer.
 
 2. Think–Pair–Share (say, $5$ to\ $10$ minutes)
 
@@ -347,13 +152,11 @@ General tips:
 
 
 
-## Thoughts on Teaching Week 1 tutorial  {#Lecture1ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 1 tutorial  {#Lecture1ThoughtsForTutors}
 
 <!-- Lecture1ThoughtsForTutors -->
 
-[**Return to index of tutor information.**](#TutorInfo)
-
-### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **Relational**: there is a comparison (between Chinese and Indian meals).
@@ -370,7 +173,7 @@ General tips:
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -396,9 +199,9 @@ General tips:
 * How could you ensure that the sample results were as close as possible to the true answers?
 
 
-### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CreateRQs) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">One way to manage this: arrange students into groups, and have each group discuss the answers separately.
+One way to manage this: arrange students into groups, and have each group discuss the answers separately.
 Then have each group share their answer with the class and discuss.
 	
 Or: have one person from each of Group\ 1, 2 and\ 3 form new groups (all containing someone from each group) to discuss the parts.
@@ -417,17 +220,13 @@ The point is that there are many possible options, all of which are acceptable, 
    coffee; hot water; black tea; nothing at all; anything else but Early Grey; etc.
 4. "Between before and after drinking Earl Grey tea" is a *within-individuals* comparison, *not a between-individuals comparison* because everyone in the population (sample) is treated the same way.
    There are not two groups in the population being compared.
-</div>\EndKnitrBlock{rmdTutorInfo}
-    
-    
 
 
 
-### Thoughts on Sect. \@ref(Units) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(Units) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Encourage and promote student discussion and debate about the answers, within and then between groups.
-Then let the groups share their answers with another group(s).</div>\EndKnitrBlock{rmdTutorInfo}
-
+Encourage and promote student discussion and debate about the answers, within and then between groups.
+Then let the groups share their answers with another group(s).
 
 
 [**Return to index of tutor information.**](#TutorInfo)
@@ -437,12 +236,10 @@ Then let the groups share their answers with another group(s).</div>\EndKnitrBlo
 
 
 
-## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
+## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors}
 
 
-### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The RQ states that only households in Santiago will be studied.
@@ -454,7 +251,7 @@ Then let the groups share their answers with another group(s).</div>\EndKnitrBlo
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A larger sample is always better than smaller sample.
@@ -519,20 +316,24 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(LanguageReport) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Remind students that there is a *Glossary* in the textbook!</div>\EndKnitrBlock{rmdTutorInfo}
-
-
-
-### Thoughts on Sect. \@ref(AssessReport) {.unlisted .unnumbered}
-
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
-Sometimes we need to assume answers or just state that we don't know.</div>\EndKnitrBlock{rmdTutorInfo}
+\BeginKnitrBlock{rmdTutorInfo}
+Remind students that there is a *Glossary* in the textbook!
+\EndKnitrBlock{rmdTutorInfo}
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(AssessReport) {.unlisted}
+
+\BeginKnitrBlock{rmdTutorInfo}
+For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
+Sometimes we need to assume answers or just state that we don't know.
+\EndKnitrBlock{rmdTutorInfo}
+
+
+
+### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted}
 
 The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
@@ -632,16 +433,15 @@ Notes:
 
 
 
-## Thoughts on Teaching Week 3 tutorial {#Lecture3ThoughtsForTutors .unlisted .unnumbered}
-
-
+## Thoughts on Teaching Week 3 tutorial {#Lecture3ThoughtsForTutors}
 
 <!-- Lecture3ThoughtsForTutors -->
 
-### A note on calculators {.unlisted .unnumbered}
+### A note on calculators {.unlisted}
 
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">At present, exams are online.
+\BeginKnitrBlock{rmdTutorInfo}
+At present, exams are online.
 This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadsheet or jamovi) I guess. 
 We have no way of knowing anyway. 
 
@@ -650,10 +450,11 @@ Nonetheless, I think that learning to use a calculator for simple calculations i
 Using the **Stats** mode can also be useful.
 
 There *will* be a question in the exam where students are expected to compute a mean and/or standard deviation, so finding a quick way (i.e., not by hand) is important (and you **can tell the students this**).
-Students could use as jamovi or the *Stats* mode on a calculator, for example.</div>\EndKnitrBlock{rmdTutorInfo}
+Students could use as jamovi or the *Stats* mode on a calculator, for example.
+\EndKnitrBlock{rmdTutorInfo}
 
 
-### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. *Age* is quantitative continuous. 
@@ -666,7 +467,7 @@ Students could use as jamovi or the *Stats* mode on a calculator, for example.</
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: Two datasets can have the same numerical summaries but tell very different stories.
@@ -757,10 +558,11 @@ For both datasets:
 You could ask two groups of students to compute the statistics for the two group, and a third group to draw a 2D dotchart (on the whiteboard in a F2F class).
 
 
-### Thoughts on Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(StatsMode) {.unlisted}
 
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
+\BeginKnitrBlock{rmdTutorInfo}
+You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
 
 The Course Outline indicates that a calculator is needed.
 Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
@@ -768,61 +570,35 @@ You can perhaps direct students to work with other students having similar calcu
 
 
 If students use the *wrong* standard deviation button, they will get $\sigma = s = 1485.919327$\ tonnes in error.
-**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**</div>\EndKnitrBlock{rmdTutorInfo}
+**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
+\EndKnitrBlock{rmdTutorInfo}
 
 
 
 
-### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">You can have groups answer each part separately, then share their explanations with the class.
+You can have groups answer each part separately, then share their explanations with the class.
 You may wish to quiz the students about means and IQRs too.
 
-For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummaryAns).</div>\EndKnitrBlock{rmdTutorInfo}
+For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummaryAns).
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:NumericalSummaryAns)(\#tab:NumericalSummaryAns)Some statistics from the graphs</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;font-weight: bold;">  </th>
-   <th style="text-align:right;font-weight: bold;"> A </th>
-   <th style="text-align:right;font-weight: bold;"> B </th>
-   <th style="text-align:right;font-weight: bold;"> C </th>
-   <th style="text-align:right;font-weight: bold;"> D </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Std devs </td>
-   <td style="text-align:right;"> 7.04 </td>
-   <td style="text-align:right;"> 5.90 </td>
-   <td style="text-align:right;"> 5.10 </td>
-   <td style="text-align:right;"> 2.84 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> IQRs </td>
-   <td style="text-align:right;"> 12.10 </td>
-   <td style="text-align:right;"> 7.96 </td>
-   <td style="text-align:right;"> 5.82 </td>
-   <td style="text-align:right;"> 4.71 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Medians </td>
-   <td style="text-align:right;"> 27.13 </td>
-   <td style="text-align:right;"> 25.19 </td>
-   <td style="text-align:right;"> 20.07 </td>
-   <td style="text-align:right;"> 45.03 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Means </td>
-   <td style="text-align:right;"> 27.15 </td>
-   <td style="text-align:right;"> 25.26 </td>
-   <td style="text-align:right;"> 21.49 </td>
-   <td style="text-align:right;"> 44.95 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:NumericalSummaryAns)Some statistics from the graphs}
+\centering
+\begin{tabular}[t]{>{}lrrrr}
+\toprule
+\textbf{ } & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D}\\
+\midrule
+\textbf{Std devs} & 7.04 & 5.90 & 5.10 & 2.84\\
+\textbf{IQRs} & 12.10 & 7.96 & 5.82 & 4.71\\
+\textbf{Medians} & 27.13 & 25.19 & 20.07 & 45.03\\
+\textbf{Means} & 27.15 & 25.26 & 21.49 & 44.95\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -836,9 +612,9 @@ For your info only (note the means and medians are very similar), see Table\ \@r
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
+Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
 
 I suggest starting jamovi.
 (Remember: each unit of analysis (student) is a row; the columns will be `Dom` and `NonDom` hand timings),
@@ -846,19 +622,16 @@ Show students how to set up the variables, and have them come to the computer an
 
 Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences) and some numerical summary information.
 
-**Save the data!**</div>\EndKnitrBlock{rmdTutorInfo}
+**Save the data!**
 
 
 
 [**Return to index of tutor information.**](#TutorInfo)
 
 
-## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
@@ -873,7 +646,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: The raw data is more useful than a graphical summary.
@@ -953,13 +726,10 @@ Time permitting, you could:
 
 
 
-## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors}
 
 
-[**Return to index of tutor information.**](#TutorInfo)
-
-
-### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
@@ -970,7 +740,7 @@ Time permitting, you could:
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A badly designed experiment with lots of data is worse than a small, well-designed one.
@@ -1041,13 +811,12 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(QuickRevision-Tutorial5) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(QuickRevision-Tutorial5) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
+With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
 If they understand the histogram, they should also see that the smallest breadth is about $6$\ mm, so a median of $4$\ mm makes no sense.  
 
-If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.</div>\EndKnitrBlock{rmdTutorInfo}
-
+If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1055,17 +824,15 @@ If you have the time: **Ask**  *how* to explain why they are wrong, and **ask ap
 
 
 
-### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Have students work in groups, and then share their answers.</div>\EndKnitrBlock{rmdTutorInfo}
-
-
+Have students work in groups, and then share their answers.
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">This activity follows on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)) and the data collection (Sect.\ \@ref(PlanStudy3).
+This activity follows on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)) and the data collection (Sect.\ \@ref(PlanStudy3).
 Use jamovi and the data file to create the numerical summary.
 
 You can save this info to add to later if you wish.
@@ -1083,13 +850,17 @@ They are **not** meant to become experts in the software, but it useful for them
 I suggest having students enter their data into jamovi (Fig.\ \@ref(fig:RulerDrop-jamovi)), and then you show them how to do some basic stuff.
 
 If you have collect data from each person left and right hand (to study the average difference between left and right hand reaction, for instance), remember that the unit of analysis is the *person*, and each person gets two units of observation: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row
- (Fig.\ \@ref(fig:RulerDrop-jamovi)).</div>\EndKnitrBlock{rmdTutorInfo}
+ (Fig.\ \@ref(fig:RulerDrop-jamovi)).
 
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/RulerDropData.png" alt="Data entered in jamovi for the ruler-drop study" width="50%" />
-<p class="caption">(\#fig:RulerDrop-jamovi)Data entered in jamovi for the ruler-drop study</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.5\linewidth]{SoftwareImages/RulerDropData} 
+
+}
+
+\caption{Data entered in jamovi for the ruler-drop study}(\#fig:RulerDrop-jamovi)
+\end{figure}
  
  
 
@@ -1101,12 +872,9 @@ If you have collect data from each person left and right hand (to study the aver
 
 
 
-## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
@@ -1116,7 +884,7 @@ If you have collect data from each person left and right hand (to study the aver
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**:  Outliers should always be removed from a dataset before analysis.
@@ -1210,29 +978,32 @@ Time permitting, you could show examples where removing outliers changes conclus
 
 
 
-### Thoughts on Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(NormalHeights) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Encourage drawing diagrams!
-A common error: plugging numbers into calculators wrongly, and effectively computing $z = x - (\mu/\sigma)$ rather than $z = (x - \mu)/\sigma$.
+* Encourage drawing diagrams!
+* A common error: plugging numbers into calculators wrongly, and effectively computing $z = x - (\mu/\sigma)$ rather than $z = (x - \mu)/\sigma$.
 
-Notice that students cannot be very accurate using the $68$--$95$--$99.7$ rule, which is one of the points to be made: only a guess can be made, but using $z$-scores leads to more accurate answers.</div>\EndKnitrBlock{rmdTutorInfo}
-
-
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">**You could have a discussion about rounding.**
-Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?</div>\EndKnitrBlock{rmdTutorInfo}
+Notice that students cannot be very accurate using the $68$--$95$--$99.7$ rule, which is one of the points to be made: only a guess can be made, but using $z$-scores leads to more accurate answers.
 
 
 
-### Thoughts on Sect. \@ref(RandomCardDraws) {.unlisted .unnumbered}
+\BeginKnitrBlock{rmdTutorInfo}
+**You could have a discussion about rounding.**
+Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
+\EndKnitrBlock{rmdTutorInfo}
 
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Since samples are easy to generate, you can have each group/person in class generate a few simulations.
+
+### Thoughts on Sect. \@ref(RandomCardDraws) {.unlisted}
+
+
+Since samples are easy to generate, you can have each group/person in class generate a few simulations.
 On the whiteboard, you can tally these, and produce a histogram.
 Obviously, the more sets of $10$ you can generate, the better... and the webpage is fast... but don't take *too* long doing so.
 
 One purpose is to show students about *sampling variation*: not every set of $10$ tosses produces the same value.
 The main purpose is to demonstrate what we mean by a sampling distribution: the distribution that shows how a sample statistic varies from sample to sample.
-After drawing the histogram from your classes data, you may wish to point out where certain groups' $\hat{p}$ values are located.</div>\EndKnitrBlock{rmdTutorInfo}
+After drawing the histogram from your classes data, you may wish to point out where certain groups' $\hat{p}$ values are located.
 
 
 
@@ -1246,14 +1017,9 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 
 
-## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-
-### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **FALSE**. 
@@ -1270,7 +1036,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from.
@@ -1345,12 +1111,12 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">**Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
-Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.</div>\EndKnitrBlock{rmdTutorInfo}
-
-
+\BeginKnitrBlock{rmdTutorInfo}
+**Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
+Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.
+\EndKnitrBlock{rmdTutorInfo}
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1359,11 +1125,9 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 
 
 
-## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors}
 
-
-
-### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
@@ -1375,7 +1139,7 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: Confidence intervals are more informative than $P$-values.
@@ -1453,11 +1217,10 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PValues) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">We only need to use the $68$--$95$--$99.7$ rule.
-The one-tailed $P$-values are *half* of the two-tailed $P$-values.</div>\EndKnitrBlock{rmdTutorInfo}
-
+We only need to use the $68$--$95$--$99.7$ rule.
+The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1467,13 +1230,9 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.</div>\EndKnit
 
 
 
-## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\\ CI.
@@ -1494,7 +1253,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.</div>\EndKnit
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: If the mean of Group\ A is $\bar{x}_1 = 12.0\cms$ and the mean of Group\ B is $\bar{x}_2 = 14.2\cms$, then the two means are clearly different.
@@ -1572,12 +1331,11 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
+If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
 
-In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.</div>\EndKnitrBlock{rmdTutorInfo}
-
+In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1586,20 +1344,16 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 
 
 
-## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-value).
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: When comparing two groups, is it better to focus on differences in *proportions*, *odds*, or *percentages*?
@@ -1665,14 +1419,9 @@ Ideally, explicitly **connect** to:
 
 
 
-## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors}
 
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
-
-### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 Student\ 1:
@@ -1685,7 +1434,7 @@ Correct: $95$% CI for the *mean* is $12.4\pm (2\times 2.8/sqrt{6})$, or from\ $1
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A 'statistically significant' result means a real discrepancy or effect.
@@ -1754,21 +1503,22 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">If you count the dots on the scatterplot, you won't find $n = 38$ dots, because of *overplotting*.
+If you count the dots on the scatterplot, you won't find $n = 38$ dots, because of *overplotting*.
 For example, there are two Corolla's from 2006 selling for $9500.
 
 If you have time, you can ask students about this, and even ask for suggestions to improve this (such as jittering).
 
 
-**Note**: since all the cars in the sample are second-hand, technically the results only generalise to second-hand cars, so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.</div>\EndKnitrBlock{rmdTutorInfo}
+**Note**: since all the cars in the sample are second-hand, technically the results only generalise to second-hand cars, so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.
 
 
-### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">The point is that the same regression line can be associated with a high correlation, or a poor correlation.  
-Regression and correlation are not the same thing!</div>\EndKnitrBlock{rmdTutorInfo}
+The point is that the same regression line can be associated with a high correlation, or a poor correlation.  
+Regression and correlation are not the same thing!
+
 
 [**Return to index of tutor information.**](#TutorInfo)
 
@@ -1776,11 +1526,9 @@ Regression and correlation are not the same thing!</div>\EndKnitrBlock{rmdTutorI
 
 
 
-## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors}
 
-
-
-### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
@@ -1792,7 +1540,7 @@ Regression and correlation are not the same thing!</div>\EndKnitrBlock{rmdTutorI
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -1857,5 +1605,26 @@ Ideally, explicitly **connect** to:
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
+
+
+
+
+
+
+<!--
+# Appendix: Image credits {#Image-Credits}
+
+The sources of the images used in the online version of this book 
+(in accordance with the terms of 
+[Unsplash](https://unsplash.com/license),
+[Pixabay](https://pixabay.com/service/license/)
+and 
+[Pexels](https://www.pexels.com/license/))
+are listed
+in the online book.
+
+
+-->
+
 
 

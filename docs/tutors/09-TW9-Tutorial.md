@@ -47,41 +47,22 @@ You will learn and practice the content associated with these chapters of the [t
 Some of the summary information regarding the number of decayed, missing and filled teeth (DMFT) is shown below.
 The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 
-<table>
-<caption>(\#tab:Coeliac)Coeliacs and dental cavities.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;font-weight: bold;">   </th>
-   <th style="text-align:center;font-weight: bold;"> Sample size </th>
-   <th style="text-align:center;font-weight: bold;"> Mean </th>
-   <th style="text-align:center;font-weight: bold;"> Standard deviation </th>
-   <th style="text-align:center;font-weight: bold;"> Standard error </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Coeliac (C) </td>
-   <td style="text-align:center;"> 23 </td>
-   <td style="text-align:center;"> 8.39 </td>
-   <td style="text-align:center;"> 4.4 </td>
-   <td style="text-align:center;"> 0.92 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Non-coeliac (NC) </td>
-   <td style="text-align:center;"> 23 </td>
-   <td style="text-align:center;"> 8.17 </td>
-   <td style="text-align:center;"> 4.1 </td>
-   <td style="text-align:center;"> 0.86 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Difference </td>
-   <td style="text-align:center;">  </td>
-   <td style="text-align:center;"> 0.22 </td>
-   <td style="text-align:center;">  </td>
-   <td style="text-align:center;"> 1.3 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:Coeliac)Coeliacs and dental cavities.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lcccc}
+\toprule
+\textbf{ } & \textbf{Sample size} & \textbf{Mean} & \textbf{Standard deviation} & \textbf{Standard error}\\
+\midrule
+Coeliac (C) & 23 & 8.39 & 4.4 & 0.92\\
+Non-coeliac (NC) & 23 & 8.17 & 4.1 & 0.86\\
+\midrule
+Difference &  & 0.22 &  & 1.3\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
@@ -129,22 +110,66 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg" width="30%" style="float:right; padding:10px" />
+\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash} 
+-->
 
 
 
-Match the RQs with the appropriate *null hypothesis* (where the symbols are defined as expected).
 
 <iframe src="https://usc.h5p.com/content/1291042384744155759/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-Now, match the RQs with the appropriate *alternative hypothesis* (where the symbols are defined as expected).
+
 
 <iframe src="https://usc.h5p.com/content/1291042402737889249/embed" width="900" height="600" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 
+
+In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis*.
+In this question, $p$ represents the proportion of subs shorter than $12$-inches one longer than $12$-inches as appropriate, and $\mu$ represents the mean length of a sub.
+
+
+Then, match the RQs with the appropriate *alternative hypothesis*.
+
+
+\begin{table}
+\centering
+\caption{(\#tab:SubwayHyp)Match RQs with the null (and then the alternative) hypotheses.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{0.68\textwidth}>{\raggedright\arraybackslash}p{0.3\textwidth}}
+\toprule
+\textbf{Research question} & \textbf{Hypothesis}\\
+\midrule
+1. At Subway, is the mean length of a 12-inch sub really 12 inches? & A. $p_\textrm{white} - p_\textrm{wholemeal} = 0$\\
+\addlinespace
+2. At Subway, is the mean length of a 12-inch sub \emph{different} for white & B. $\mu_\textrm{white} - \mu_\textrm{wholemeal} = 0$\\
+\addlinespace
+~ ~  and wholemeal subs? & C. $\mu_\textrm{white} = \mu_\textrm{wholemeal} = 12$\\
+\addlinespace
+3. At Subway, is the proportion of 12-inch subs that are shorter than & D. $\bar{x}_\textrm{white} - \bar{x}_\textrm{wholemeal} = 0$\\
+\addlinespace
+~ ~ 12 inches \emph{different} for white and wholemeal subs? & E. $\bar{x}_\textrm{white} = \bar{x}_\textrm{wholemeal} = 12$\\
+\addlinespace
+4. At Subway, is the mean length of a 12-inch sub \emph{longer} for white & F. $\mu = 12$\\
+\addlinespace
+~ ~ and wholemeal subs? & G. $\mu_\textrm{white} - \mu_\textrm{wholmeal} \ne 0$\\
+\addlinespace
+ & H. $p_\textrm{white} = p_\textrm{wholemeal} < 12$\\
+\addlinespace
+ & I. $\mu \ne 12$\\
+\addlinespace
+ & J. $\bar{x} \ne 12$\\
+\addlinespace
+ & K. $p_\textrm{white} - p_\textrm{wholemeal} \ne 0$\\
+\addlinespace
+ & L. $\mu_{\text{white}} - \mu_{\text{wholemeal}} > 0$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -154,9 +179,10 @@ Now, match the RQs with the appropriate *alternative hypothesis* (where the symb
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/pexels-shotpot-4046557.jpg" width="35%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.35\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-shotpot-4046557} 
+-->
 
 @data:Guirao2017:amputees examined the difference between $2$-minute walk test score (2MWT) for $10$\ patients before *and* after receiving a prosthetic implant.
 (The 2MWT measures how far participants can walk in two minutes, in metres.)
@@ -167,10 +193,14 @@ The researchers asked:
 > For this type of amputee, is the mean 2MWT **improved** (i.e., longer distances walked) after using the implant?	
 
 
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/Guirao2017-Table2.png" alt="Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres." width="70%" />
-<p class="caption">(\#fig:Guirao2MWT)Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ArticleImages/Guirao2017-Table2} 
+
+}
+
+\caption{Two-minute Walk Times (2MWT) for $10$ patients with implants (With Imp) and without implants (Without Imp), in metres.}(\#fig:Guirao2MWT)
+\end{figure}
 
 
 1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
@@ -228,22 +258,34 @@ The researchers asked:
 20. What did you learn from this study?
 \greyboxlines{2}
 
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/TwoMinuteWalk-edit.png" alt="Output from jamovi for the 2MWT example, partially edited." width="100%" />
-<p class="caption">(\#fig:2MWTjamovi)Output from jamovi for the 2MWT example, partially edited.</p>
-</div>
+\begin{figure}[hbtp]
 
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/Guirao2017-SPSSoutput-blind.png" alt="Output from SPSS for the 2MWT example, partially edited." width="95%" />
-<p class="caption">(\#fig:2MWTSPSS)Output from SPSS for the 2MWT example, partially edited.</p>
-</div>
+{\centering \includegraphics[width=1\linewidth]{ArticleImages/TwoMinuteWalk-edit} 
+
+}
+
+\caption{Output from jamovi for the 2MWT example, partially edited.}(\#fig:2MWTjamovi)
+\end{figure}
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.95\linewidth]{ArticleImages/Guirao2017-SPSSoutput-blind} 
+
+}
+
+\caption{Output from SPSS for the 2MWT example, partially edited.}(\#fig:2MWTSPSS)
+\end{figure}
 
 
 
-<div class="figure" style="text-align: center">
-<img src="09-TW9-Tutorial_files/figure-html/2MWTHisto-1.png" alt="Histogram of differences for the increases in 2MWT with implant." width="480" />
-<p class="caption">(\#fig:2MWTHisto)Histogram of differences for the increases in 2MWT with implant.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics{09-TW9-Tutorial_files/figure-latex/2MWTHisto-1} 
+
+}
+
+\caption{Histogram of differences for the increases in 2MWT with implant.}(\#fig:2MWTHisto)
+\end{figure}
 
 	
 	
@@ -258,9 +300,10 @@ Your tutor *may* decide to do this activity.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/pexels-alexas-fotos-2189599.jpg" width="35%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.35\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-alexas-fotos-2189599} 
+-->
 
 
 Researchers were interested in the impact of diet on the lifetime of rats:
@@ -314,22 +357,34 @@ The data set is large, so only an extract of the data is shown (Fig.\ \@ref(fig:
 
    
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/RatLivesData-jamovi.png" alt="Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data)." width="27%" /><img src="images/SPACER.png" alt="Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data)." width="10%" /><img src="SoftwareImages/RatLivesData-jamovi2.png" alt="Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data)." width="26%" />
-<p class="caption">(\#fig:RatLifetimesDatajamovi)Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data).</p>
-</div>
+\begin{figure}[hbtp]
 
-<div class="figure" style="text-align: center">
-<img src="09-TW9-Tutorial_files/figure-html/RatsBoxErrorbar-1.png" alt="Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data." width="80%" />
-<p class="caption">(\#fig:RatsBoxErrorbar)Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.</p>
-</div>
+{\centering \includegraphics[width=0.27\linewidth]{SoftwareImages/RatLivesData-jamovi} \includegraphics[width=0.1\linewidth]{images/SPACER} \includegraphics[width=0.26\linewidth]{SoftwareImages/RatLivesData-jamovi2} 
+
+}
+
+\caption{Part of the data for the rat lifetime example (left: the start of the data; right: the end of the data).}(\#fig:RatLifetimesDatajamovi)
+\end{figure}
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.8\linewidth]{09-TW9-Tutorial_files/figure-latex/RatsBoxErrorbar-1} 
+
+}
+
+\caption{Boxplot (left panel) and error-bar chart (right panel) for the rat lifetime data.}(\#fig:RatsBoxErrorbar)
+\end{figure}
 
 
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/RatLivesOutput-jamovi.png" alt="The jamovi output summarising the rat lifetimes data." width="100%" />
-<p class="caption">(\#fig:Berger1988SummaryHTjamovi1)The jamovi output summarising the rat lifetimes data.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{SoftwareImages/RatLivesOutput-jamovi} 
+
+}
+
+\caption{The jamovi output summarising the rat lifetimes data.}(\#fig:Berger1988SummaryHTjamovi1)
+\end{figure}
 
 
 ##  **Optional questions** {#OptionalTW9}
@@ -353,10 +408,14 @@ The data are too large to show here, but use the jamovi output (Fig.\ \@ref(fig:
 
 
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/JumpingOutput.png" alt="The jamovi output summarising the jumping data." width="100%" />
-<p class="caption">(\#fig:JumpingDatajamovi)The jamovi output summarising the jumping data.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{SoftwareImages/JumpingOutput} 
+
+}
+
+\caption{The jamovi output summarising the jumping data.}(\#fig:JumpingDatajamovi)
+\end{figure}
 
 
 
@@ -378,45 +437,46 @@ Use the information in Table\ \@ref(tab:PhoneSummary) to answer this RQ:
 Be sure to include an approximate $95$%\ CI as well as the hypothesis test results.
 
 
+\begin{table} \centering \centering\caption{(\#tab:PhoneDataTable)Reaction times (in milliseconds) for students using, and not using, mobile phones while driving.}
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7f6149665697b2d0c6f2" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7f6149665697b2d0c6f2">{"x":{"filter":"none","vertical":false,"caption":"<caption>Reaction times (in milliseconds) for students using, and not using, mobile phones, while driving.<\/caption>","fillContainer":false,"data":[[636,623,615,672,601,600,542,554,543,520,609,559,595,565,573,554,626,501,574,468,578,560,525,647,456,688,679,960,558,482,527,536],[557,572,457,489,532,506,648,485,610,444,626,626,426,585,487,436,642,476,586,565,617,528,578,472,485,539,523,479,535,603,512,449]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Reaction time: using phone<\/th>\n      <th>Reaction time: not using phone<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"columnDefs":[{"className":"dt-right","targets":[0,1]},{"name":"Use phone","targets":0},{"name":"Not using phone","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{ccccccc}
+\toprule
+\multicolumn{7}{c}{\textbf{Reaction time: using phone}} \\
+\cmidrule(l{3pt}r{3pt}){1-7}
+$636$ & $600$ & $609$ & $554$ & $578$ & $688$ & $527$\\
+$623$ & $542$ & $559$ & $626$ & $560$ & $679$ & $536$\\
+$615$ & $554$ & $595$ & $501$ & $525$ & $960$ & \\
+$672$ & $543$ & $565$ & $574$ & $647$ & $558$ & \\
+$601$ & $520$ & $573$ & $468$ & $456$ & $482$ & \\
+\bottomrule
+\end{tabular} \quad\quad 
+\begin{tabular}[t]{ccccccc}
+\toprule
+\multicolumn{7}{c}{\textbf{Reaction time: not using phone}} \\
+\cmidrule(l{3pt}r{3pt}){1-7}
+$557$ & $506$ & $626$ & $436$ & $617$ & $539$ & $512$\\
+$572$ & $648$ & $626$ & $642$ & $528$ & $523$ & $449$\\
+$457$ & $485$ & $426$ & $476$ & $578$ & $479$ & \\
+$489$ & $610$ & $585$ & $586$ & $472$ & $535$ & \\
+$532$ & $444$ & $487$ & $565$ & $485$ & $603$ & \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-<table>
-<caption>(\#tab:PhoneSummary)Summary information for the reaction-time data.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;font-weight: bold;">   </th>
-   <th style="text-align:center;font-weight: bold;"> Mean </th>
-   <th style="text-align:center;font-weight: bold;"> Sample size </th>
-   <th style="text-align:center;font-weight: bold;"> Std dev. </th>
-   <th style="text-align:center;font-weight: bold;"> Std error </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Using phone </td>
-   <td style="text-align:center;"> $533.59$ </td>
-   <td style="text-align:center;"> $32$ </td>
-   <td style="text-align:center;"> $65.36$ </td>
-   <td style="text-align:center;"> $11.554$ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Not using phone </td>
-   <td style="text-align:center;"> $585.19$ </td>
-   <td style="text-align:center;"> $32$ </td>
-   <td style="text-align:center;"> $89.65$ </td>
-   <td style="text-align:center;"> $15.847$ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Differences </td>
-   <td style="text-align:center;"> $\phantom{0}51.59$ </td>
-   <td style="text-align:center;">  </td>
-   <td style="text-align:center;">  </td>
-   <td style="text-align:center;"> $19.612$ </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+
+\caption{(\#tab:PhoneSummary)Summary information for the reaction-time data.}
+\centering
+\begin{tabular}[t]{lcccc}
+\toprule
+\textbf{ } & \textbf{Mean} & \textbf{Sample size} & \textbf{Std dev.} & \textbf{Std error}\\
+\midrule
+Using phone & $533.59$ & $32$ & $65.36$ & $11.554$\\
+Not using phone & $585.19$ & $32$ & $89.65$ & $15.847$\\
+\midrule
+Differences & $\phantom{0}51.59$ &  &  & $19.612$\\
+\bottomrule
+\end{tabular}
+\end{table}
 

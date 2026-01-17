@@ -368,46 +368,27 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 
 
-
-<video src="Solutions//SMND.mp4" controls width="810" height="1080" align="middle" frameborder="0" title="SMND Solution" allowfullscreen></video>
-
 1. Backwards.
 1. See Table\ \@ref(tab:SMNDAnswerTable).
 2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
 3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
 
 
-<table>
-<caption>(\#tab:SMNDAnswerTable)SMND cases, and whether they had worked with metals.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Worked with metals </th>
-   <th style="text-align:right;"> Did not work with metals </th>
-   <th style="text-align:right;"> Total </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> SMND cases </td>
-   <td style="text-align:right;"> 60 </td>
-   <td style="text-align:right;"> 320 </td>
-   <td style="text-align:right;"> 380 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Controls </td>
-   <td style="text-align:right;"> 33 </td>
-   <td style="text-align:right;"> 344 </td>
-   <td style="text-align:right;"> 377 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Total </td>
-   <td style="text-align:right;"> 93 </td>
-   <td style="text-align:right;"> 664 </td>
-   <td style="text-align:right;"> 757 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:SMNDAnswerTable)SMND cases, and whether they had worked with metals.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lrrr}
+\toprule
+\textbf{ } & \textbf{Worked with metals} & \textbf{Did not work with metals} & \textbf{Total}\\
+\midrule
+SMND cases & 60 & 320 & 380\\
+Controls & 33 & 344 & 377\\
+Total & 93 & 664 & 757\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -546,10 +527,6 @@ classical.
 
 
 
-
-
-
-<video src="Solutions//SOI.mp4" controls width="810" height="1080" align="middle" frameborder="0" title="SOI Solution" allowfullscreen></video>
 
 
 2. $z = (20 - 0)/10 = 2$. 
@@ -876,72 +853,41 @@ If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hyp
 9. $P = 0.717$; no evidence of a difference between boys and girls.
 
 
-<table>
-<caption>(\#tab:MatTable)Maturation data table.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Late </th>
-   <th style="text-align:right;"> Not late </th>
-   <th style="text-align:right;"> Total </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Males </td>
-   <td style="text-align:right;"> 352 </td>
-   <td style="text-align:right;"> 2512 </td>
-   <td style="text-align:right;"> 2864 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Females </td>
-   <td style="text-align:right;"> 336 </td>
-   <td style="text-align:right;"> 2328 </td>
-   <td style="text-align:right;"> 2664 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Total </td>
-   <td style="text-align:right;"> 688 </td>
-   <td style="text-align:right;"> 4840 </td>
-   <td style="text-align:right;"> 5528 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:MatTable)Maturation data table.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lrrr}
+\toprule
+\textbf{ } & \textbf{Late} & \textbf{Not late} & \textbf{Total}\\
+\midrule
+Males & 352 & 2512 & 2864\\
+Females & 336 & 2328 & 2664\\
+Total & 688 & 4840 & 5528\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
 
-<table>
-<caption>(\#tab:MatNumSummary)Numerical summary table for maturation data.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Prop late </th>
-   <th style="text-align:right;"> Odds late </th>
-   <th style="text-align:right;"> Sample size </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Males </td>
-   <td style="text-align:right;"> 0.123 </td>
-   <td style="text-align:right;"> 0.1401 </td>
-   <td style="text-align:right;"> 2864 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Females </td>
-   <td style="text-align:right;"> 0.126 </td>
-   <td style="text-align:right;"> 0.1443 </td>
-   <td style="text-align:right;"> 2664 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> Diff: -0.003 </td>
-   <td style="text-align:right;"> OR: 0.971 </td>
-   <td style="text-align:right;">  </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:MatNumSummary)Numerical summary table for maturation data.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lrrr}
+\toprule
+\textbf{ } & \textbf{Prop late} & \textbf{Odds late} & \textbf{Sample size}\\
+\midrule
+Males & 0.123 & 0.1401 & 2864\\
+Females & 0.126 & 0.1443 & 2664\\
+\midrule\\
+ & Diff: -0.003 & OR: 0.971 & \\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 ### Answers for Sect.\ \@ref(TestsForORs) {.unlisted .unnumbered}
@@ -961,70 +907,40 @@ Some answers embedded.
 
 
 
-<table>
-<caption>(\#tab:ArtLimbMortalityANS)Five-year mortality for artifical limb users.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Alive </th>
-   <th style="text-align:right;"> Dead </th>
-   <th style="text-align:right;"> Total </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Used art. limb </td>
-   <td style="text-align:right;"> 49 </td>
-   <td style="text-align:right;"> 16 </td>
-   <td style="text-align:right;"> 65 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Did not use art. limb </td>
-   <td style="text-align:right;"> 21 </td>
-   <td style="text-align:right;"> 19 </td>
-   <td style="text-align:right;"> 40 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Total </td>
-   <td style="text-align:right;"> 70 </td>
-   <td style="text-align:right;"> 35 </td>
-   <td style="text-align:right;"> 105 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:ArtLimbMortalityANS)Five-year mortality for artifical limb users.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lrrr}
+\toprule
+\textbf{ } & \textbf{Alive} & \textbf{Dead} & \textbf{Total}\\
+\midrule
+Used art. limb & 49 & 16 & 65\\
+Did not use art. limb & 21 & 19 & 40\\
+\midrule\\
+Total & 70 & 35 & 105\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
-<table>
-<caption>(\#tab:ArtLimbSummaryANS)Five-year mortality and use of an artificial limb: Numerical summary.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;">   </th>
-   <th style="text-align:right;"> Proportion alive after 5 years </th>
-   <th style="text-align:right;"> Odds alive after 5 years </th>
-   <th style="text-align:right;"> Sample size </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> Use artificial limb </td>
-   <td style="text-align:right;"> 0.754 </td>
-   <td style="text-align:right;"> 3.06 </td>
-   <td style="text-align:right;"> 65 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Did not use artifical limb </td>
-   <td style="text-align:right;"> 0.525 </td>
-   <td style="text-align:right;"> 1.11 </td>
-   <td style="text-align:right;"> 40 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;">  </td>
-   <td style="text-align:right;"> Diff in percentages: 22.9 </td>
-   <td style="text-align:right;"> OR: 2.771 </td>
-   <td style="text-align:right;"> 626 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:ArtLimbSummaryANS)Five-year mortality and use of an artificial limb: Numerical summary.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{lrrr}
+\toprule
+\textbf{ } & \textbf{Proportion alive after 5 years} & \textbf{Odds alive after 5 years} & \textbf{Sample size}\\
+\midrule
+Use artificial limb & 0.754 & 3.06 & 65\\
+Did not use artifical limb & 0.525 & 1.11 & 40\\
+\midrule\\
+ & Diff in percentages: 22.9 & OR: 2.771 & 626\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 ### Answers for Sect.\ \@ref(IdentifyCorrectAnalyses) {.unlisted .unnumbered}
@@ -1039,9 +955,6 @@ Some answers embedded.
 ### Answers for Sect.\ \@ref(RoomWidthCISampleSize) {.unlisted .unnumbered}
 
 
-
-
-<video src="Solutions//RoomWidthSS.mp4" controls width="810" height="1080" align="middle" frameborder="0" title="Room-width-Sample-Size Solution" allowfullscreen></video>
 
 
 $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
@@ -1094,10 +1007,6 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 ### Answers for Sect.\ \@ref(ORAirways) {.unlisted .unnumbered}
 
-
-
-
-<video src="Solutions//AirwaysHT.mp4" controls width="810" height="1080" align="middle" frameborder="0" title="Airway-device test Solution" allowfullscreen></video>
 
 
 
@@ -1187,10 +1096,14 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 ### Answers for Sect.\ \@ref(RegressionCorrelation) {.unlisted .unnumbered}
 
-<div class="figure" style="text-align: center">
-<img src="20-Answers_files/figure-html/unnamed-chunk-7-1.png" alt="Plots giving different correlations." width="100%" />
-<p class="caption">(\#fig:unnamed-chunk-7)Plots giving different correlations.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{20-Answers_files/figure-latex/unnamed-chunk-7-1} 
+
+}
+
+\caption{Plots giving different correlations.}(\#fig:unnamed-chunk-7)
+\end{figure}
 
 
 

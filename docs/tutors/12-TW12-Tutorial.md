@@ -87,10 +87,14 @@ On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationshi
 \greyboxlines{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="12-TW12-Tutorial_files/figure-html/Guesses-1.png" alt="Six different scatterplots." width="85%" />
-<p class="caption">(\#fig:Guesses)Six different scatterplots.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.85\linewidth]{12-TW12-Tutorial_files/figure-latex/Guesses-1} 
+
+}
+
+\caption{Six different scatterplots.}(\#fig:Guesses)
+\end{figure}
 
 
 ## Interpreting regressions {#InterpretRegressions}
@@ -98,14 +102,15 @@ On *each* scatterplot in Fig.\ \@ref(fig:Guesses) for which a linear relationshi
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/angga-pratama-8xZuFxi0On4-unsplash.jpg" width="40%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.4\linewidth,style="float:right; padding:10px"]{Illustrations/angga-pratama-8xZuFxi0On4-unsplash} 
+-->
 
 
 I was wondering about how the age of second-hand cars impact their price.
 On 25\ June, 2014, I searched
-[Gum Tree](https://www.gumtree.com.au),
+Gum Tree,
 for `Toyota Corolla` in the 'Cars, Vans \& Utes' category.
 The age and the price of each (second-hand) car was recorded from the first two pages of results that were returned.
 
@@ -114,17 +119,21 @@ I then restricted the data to cars $15$ years old or younger
 I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
 
 
-<div class="figure" style="text-align: center">
-<img src="12-TW12-Tutorial_files/figure-html/CorollasPriceAge-1.png" alt="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$)." width="60%" />
-<p class="caption">(\#fig:CorollasPriceAge)The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.6\linewidth]{12-TW12-Tutorial_files/figure-latex/CorollasPriceAge-1} 
+
+}
+
+\caption{The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against age ($n = 38$).}(\#fig:CorollasPriceAge)
+\end{figure}
 
 
 1. Describe the relationship displayed in the graph in words. \tightlist
 \greyboxlines{2}
 2. What else could influence the price of a second-hand Corollas? 
 \greyboxlines{3}
-3. From the scatterplot, draw (if you can) or estimate by eye an approximation of the regression line.
+3. With a ruler or another straight edge (such as a book), draw an estimate of the regression line on the scatterplot.
 4. On the scatterplot, locate a seven-year-old Corolla selling for $15\,000.
    Would this be cheap or expensive?
 \greyboxlines{2}
@@ -167,21 +176,33 @@ I then produced the scatterplot in Fig.\ \@ref(fig:CorollasPriceAge).
 \greyboxlines{2}
 
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/Corollas-Correlation-jamovi.png" alt="The jamovi correlation output, analysing the Corolla data." width="57%" />
-<p class="caption">(\#fig:CorollasPriceAgeCorrelationjamovi)The jamovi correlation output, analysing the Corolla data.</p>
-</div>
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/Corollas-Regression-jamovi.png" alt="The jamovi regression output, analysing the Corolla data." width="60%" />
-<p class="caption">(\#fig:CorollasPriceAgeRegressionjamovi)The jamovi regression output, analysing the Corolla data.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.57\linewidth]{SoftwareImages/Corollas-Correlation-jamovi} 
+
+}
+
+\caption{The jamovi correlation output, analysing the Corolla data.}(\#fig:CorollasPriceAgeCorrelationjamovi)
+\end{figure}
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.6\linewidth]{SoftwareImages/Corollas-Regression-jamovi} 
+
+}
+
+\caption{The jamovi regression output, analysing the Corolla data.}(\#fig:CorollasPriceAgeRegressionjamovi)
+\end{figure}
 
 
 
-<div class="figure" style="text-align: center">
-<img src="12-TW12-Tutorial_files/figure-html/CorollasPriceYear-1.png" alt="The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n = 38$)." width="60%" />
-<p class="caption">(\#fig:CorollasPriceYear)The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n = 38$).</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.6\linewidth]{12-TW12-Tutorial_files/figure-latex/CorollasPriceYear-1} 
+
+}
+
+\caption{The price of second-hand Toyota Corollas as advertised on Gum Tree on 25 June 2014 plotted against the year of manufacture ($n = 38$).}(\#fig:CorollasPriceYear)
+\end{figure}
 
 
 ## Regression and correlation {#RegressionCorrelation}

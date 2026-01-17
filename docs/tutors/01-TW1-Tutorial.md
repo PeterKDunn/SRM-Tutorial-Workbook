@@ -92,6 +92,17 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 
+Organise the steps of the research process (Fig. \@ref(fig:SixStepsToOrder)) into the usual order in which they are used.
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.5\linewidth]{01-TW1-Tutorial_files/figure-latex/SixStepsToOrder-1} 
+
+}
+
+\caption{The six basic steps in research: what is the usual order in which they are  used?}(\#fig:SixStepsToOrder)
+\end{figure}
+
 
 
 
@@ -136,51 +147,27 @@ As a result, the owner decides to conduct a study of his customers.
 Explain the *fundamental differences* between the following pairs of often-confused terms (Table\ \@ref(tab:SimilarTerms)), highlighting the important differences.
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:SimilarTerms)Distinguish the similar terms.</caption>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> Hypothesis </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 1 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Research question </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Relational RQ </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 2 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Repeated-measures RQ </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Response variable </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 3 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Explanatory variable </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Response variable </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 4 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Outcome </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Observational study </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 5 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Experimental study </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Quasi-experiment </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 6 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> True experiment </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Conceptual definition </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 7 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Operational definition </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> Unit of observation </td>
-   <td style="text-align:center;font-weight: bold;"> $\blacktriangleleft$ Pair 8 $\blacktriangleright$ </td>
-   <td style="text-align:left;"> Unit of analysis </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:SimilarTerms)Distinguish the similar terms.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{r>{}cl}
+\toprule
+Hypothesis & \textbf{$\blacktriangleleft$ Pair 1 $\blacktriangleright$} & Research question\\
+Relational RQ & \textbf{$\blacktriangleleft$ Pair 2 $\blacktriangleright$} & Repeated-measures RQ\\
+\addlinespace
+Response variable & \textbf{$\blacktriangleleft$ Pair 3 $\blacktriangleright$} & Explanatory variable\\
+Response variable & \textbf{$\blacktriangleleft$ Pair 4 $\blacktriangleright$} & Outcome\\
+\addlinespace
+Observational study & \textbf{$\blacktriangleleft$ Pair 5 $\blacktriangleright$} & Experimental study\\
+Quasi-experiment & \textbf{$\blacktriangleleft$ Pair 6 $\blacktriangleright$} & True experiment\\
+\addlinespace
+Conceptual definition & \textbf{$\blacktriangleleft$ Pair 7 $\blacktriangleright$} & Operational definition\\
+Unit of observation & \textbf{$\blacktriangleleft$ Pair 8 $\blacktriangleright$} & Unit of analysis\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -193,6 +180,112 @@ Explain the *fundamental differences* between the following pairs of often-confu
 
 
 
+	
+The use of mobile phones has changed peoples' behaviour.
+@data:Barkley2016:Phones examined how the use of mobile phones impacts walking speed.
+Read the following information from the research article (p.\ 2, 3):
+
+> The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
+> &nbsp;
+>
+> Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus.  
+> &nbsp;
+>
+> We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone [...]
+> The walkway was straight, had limited ingress and egress, and was simple to navigate.  
+> &nbsp;
+>
+> All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
+> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
+> &nbsp;
+> 
+> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.  
+> &nbsp;
+>
+> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
+
+
+Answer the questions that follow, **explaining** the reason for your choices.
+**Make sure you explain why the other options are incorrect.**
+
+1. Which one of these is most likely the *population* under study?
+    a. Phones.
+    b. People.
+    c. People at an American college.
+    d. Students at an American college.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+2. Which one of these is most likely the *outcome* in the study?
+    a. The way subjects were using their phone.
+    b. The time taken to walk $50$\ m.
+    c. The **average** time taken to walk $50$\ m.
+    d. The difference between the times taken, between those texting and those not texting.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+		
+3. Which one of these is most likely the *comparison* in the study?
+    a. Between the ways that subjects were using their phone (talking; texting; not at all).
+    b. Between those walking slowly and those walking quickly.
+    c. Between those walking and those not walking.
+    d. Between those using and not using a mobile phone.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+		
+4. Which one of these is most likely the *intervention* in the study?
+    a. The way subjects were using their phones.
+    b. The timing of the walk.
+    c. There is no intervention.
+    d. The phone.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+		
+5. What is the *explanatory variable*?
+    a. The phone.
+    b. The way that the phone is being used.
+	  c. The **average** time to walk $50\ms$.
+    d. The walking speed.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+				
+6. What is the *response variable*?
+    a. The differences between the times taken.
+    b. The way subjects were using the phone.
+    c. The **average** time to walk $50\ms$.
+    d. The time taken to walk $50\ms$.
+    
+Explain why the other options are *incorrect*.
+\greyboxlines{2}
+
+
+7. Which one of these is most likely the *unit of observation* in the study?
+    a. The phone.
+    b. *Individual* subjects.
+    c. *Groups* of subjects.
+    d. Minutes.
+    
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+		
+8. Which one of these is most likely the *unit of analysis* in the study?
+    a. The phone.
+    b. *Individual* subjects.
+    c. *Groups* of subjects.
+    d. Minutes.
+
+  Explain why the other options are *incorrect*.
+  \greyboxlines{2}
+
+
 
 
 ## Creating research questions and studies {#CreateRQs}
@@ -200,9 +293,10 @@ Explain the *fundamental differences* between the following pairs of often-confu
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/pexels-nappy-936019.jpg" width="40%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.4\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-nappy-936019} 
+-->
 
 
 Consider the following scenario:
@@ -272,9 +366,10 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/chuttersnap-BofgeVFG-_w-unsplash.jpg" width="30%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/chuttersnap-BofgeVFG-_w-unsplash} 
+-->
 
 
 Bamboo is a fast-growing, strong grass often used for environmentally-friendly building practices.
@@ -284,34 +379,20 @@ The *Janka hardness*^[The force required to embed an $11.28\mms$ steel ball into
 Five floorboards had two hardness measurements taken on *each* board  (units probably kilonewtons; Table\ \@ref(tab:JankaBoards)).
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:JankaBoards)Two Janka hardness measurements from five different bamboo boards</caption>
- <thead>
-  <tr>
-   <th style="text-align:right;font-weight: bold;"> Board 1 </th>
-   <th style="text-align:right;font-weight: bold;"> Board 2 </th>
-   <th style="text-align:right;font-weight: bold;"> Board 3 </th>
-   <th style="text-align:right;font-weight: bold;"> Board 4 </th>
-   <th style="text-align:right;font-weight: bold;"> Board 5 </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:right;"> 10.5 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 11.5 </td>
-   <td style="text-align:right;"> 10.3 </td>
-   <td style="text-align:right;"> 10.2 </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 7.5 </td>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 11.2 </td>
-   <td style="text-align:right;"> 9.9 </td>
-   <td style="text-align:right;"> 9.3 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:JankaBoards)Two Janka hardness measurements from five different bamboo boards..}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{ccccc}
+\toprule
+\textbf{Board 1} & \textbf{Board 2} & \textbf{Board 3} & \textbf{Board 4} & \textbf{Board 5}\\
+\midrule
+$\phantom{0}10.5$ & $\phantom{0}8.0$ & $\phantom{0}11.5$ & $\phantom{0}10.3$ & $\phantom{0}10.2$\\
+$\phantom{0}\phantom{0}7.5$ & $\phantom{0}8.0$ & $\phantom{0}11.2$ & $\phantom{0}\phantom{0}9.9$ & $\phantom{0}\phantom{0}9.3$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 1. What is the unit of analysis: the test, the board, the Janka hardness, each measurement, kilonewtons, or something else? 
    Explain your answer.
@@ -345,6 +426,23 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 
 
 
+1. A lecturer wishes to compare the average blood alcohol concentrations (BAC) of students in two of her classes.
+   She measures the BAC of students in two of her Monday morning classes.  
+
+   What *type* of study is this: observational, true experimental, quasi-experimental?
+   Explain.
+
+2. A lecturer wishes to compare the average BAC of students in two of her classes, 
+   to determine if knowing in advance leads to different average BAC.  
+
+   She informs one class on a Friday that she will be measuring BAC in students on a Monday morning, 
+   but does not tell another of her Friday classes.  
+
+   What type of study is this: observational, true experimental, quasi-experimental?
+   Explain.
+	 
+
+  
 
 
 
@@ -355,7 +453,7 @@ These questions are **optional**; e.g., if you need more practice, or you are st
 ### **(Optional)**  Terminology {#TerminologyLect1}
 
 Complete the crossword
-below
+in Fig. \@ref(fig:Crossword-Week1-Terminology)
 to help you understand some of the words used in the content.
 
 
@@ -365,10 +463,17 @@ to help you understand some of the words used in the content.
 <iframe src="https://usc.h5p.com/content/1291418275333983599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{images/Crossword-Week1} 
+
+}
+
+\caption{A crossword to complete.}(\#fig:Crossword-Week1-Terminology)
+\end{figure}
 
 
 
-<!--
 \begin{multicols}{2}\small
 
 \textbf{Across}
@@ -413,7 +518,7 @@ to help you understand some of the words used in the content.
 
 \end{itemize}
 \end{multicols}
--->
+
 
 
 

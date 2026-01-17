@@ -106,28 +106,20 @@ A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices use
 
 The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
 
-<table>
-<caption>(\#tab:AirwayTab)Data from the airways study.</caption>
- <thead>
-  <tr>
-   <th style="text-align:left;font-weight: bold;">   </th>
-   <th style="text-align:right;font-weight: bold;"> Succeed </th>
-   <th style="text-align:right;font-weight: bold;"> Fail </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Esophageal gastric tube airway (EGTA) </td>
-   <td style="text-align:right;"> 545 </td>
-   <td style="text-align:right;"> 49 </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Laryngeal mask (LM) </td>
-   <td style="text-align:right;"> 2701 </td>
-   <td style="text-align:right;"> 315 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:AirwayTab)Data from the airways study.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}lrr}
+\toprule
+\textbf{ } & \textbf{Succeed} & \textbf{Fail}\\
+\midrule
+\textbf{Esophageal gastric tube airway (EGTA)} & 545 & 49\\
+\textbf{Laryngeal mask (LM)} & 2701 & 315\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 1. Define\ $p$ as the population proportion of successful attempts at insertion. \tightlist
    Write the hypotheses to be tested.
@@ -147,10 +139,14 @@ The data for success and failure at insertion is given in Table \@ref(tab:Airway
 
 
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/Tanagawa1998jamoviCrossTabs.png" alt="The jamovi output for the table from Tanagawa and Shigematsu (1998)." width="55%" />
-<p class="caption">(\#fig:Tanagawa1998jamoviCrossTabs)The jamovi output for the table from Tanagawa and Shigematsu (1998).</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.55\linewidth]{SoftwareImages/Tanagawa1998jamoviCrossTabs} 
+
+}
+
+\caption{The jamovi output for the table from Tanagawa and Shigematsu (1998).}(\#fig:Tanagawa1998jamoviCrossTabs)
+\end{figure}
 
 
 ## Critiquing past students' reports 3 {#CritiqueReports3}
@@ -174,10 +170,14 @@ From a study comparing the size of lilly pilly leaves on different sides of the 
 \greyboxlines{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/BreeTable.png" alt="A table from a student project." width="70%" />
-<p class="caption">(\#fig:BreeTable)A table from a student project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/BreeTable} 
+
+}
+
+\caption{A table from a student project.}(\#fig:BreeTable)
+\end{figure}
 
 
 

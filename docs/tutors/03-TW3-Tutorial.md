@@ -33,7 +33,7 @@ You will learn and practice the content associated with these chapters of the [t
 You should bring your calculator to tutorials from this week onwards.
 :::
 
-
+<!--
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 You can search on YouTube for tutorials on using your calculator's **Statistics Mode**.
 Here are some links that may prove useful.
@@ -47,21 +47,21 @@ Here are some links that may prove useful.
 In YouTube, I searched for `"statistics" "mean" "standard deviation"` together with the calculator make and model; for example:  
 `"statistics" "mean" "standard deviation" Casio fx82`
 :::
+-->
 
 
 
-<!--
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 You can search on YouTube for tutorials on using your calculator's **Statistics Mode**.
 For example:
 
 `"statistics" "mean" "standard deviation" Casio fx82`
 :::
--->
 
 
 
-For example, see the embedded video below for help in using the Casio fx82:
+
+
 
 <div style="text-align:center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/PiJ9B7L7V2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -87,7 +87,7 @@ For example, see the embedded video below for help in using the Casio fx82:
 
 ::: {.webex-box}
 In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop], $n = 60$ adults underwent a sleep study.
-The data are shown in Fig.\ \@ref(fig:OSADT).
+Part of the data are shown in Table\ \@ref(tab:OSAKable).
 (REI is the Respiratory Event Index; REI under\ $5$ refers to no sleep apnoea; REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. How would you *classify* the variable `Age`? \tightlist
@@ -104,17 +104,33 @@ The data are shown in Fig.\ \@ref(fig:OSADT).
 
 
 
+\begin{table}
+\centering
+\caption{(\#tab:OSAKable)Part of the obstructive sleep apnoea data set ($n = 60$).}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{ccccc}
+\toprule
+\textbf{Age} & \textbf{Gender} & \textbf{BMI} & \textbf{Neck circumference (cm)} & \textbf{REI}\\
+\midrule
+21 & Male & 20.3 & 37 & 46\\
+24 & Male & 24.1 & 40.5 & 19.3\\
+26 & Male & 25.2 & 38 & 12.4\\
+39 & Female & 40.8 & 41 & 58.6\\
+21 & Female & 35 & 37 & 12.7\\
+\addlinespace
+29 & Male & 29.2 & 41 & 38.8\\
+20 & Male & 25.8 & 42 & 24.4\\
+21 & Male & 20.9 & 37 & 7\\
+19 & Female & 20.5 & 32 & 37.6\\
+27 & Male & 22.4 & 39 & 21.7\\
+\addlinespace
+$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
-<div class="figure" style="text-align: center">
-
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7efa0d00d97337567863" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7efa0d00d97337567863">{"x":{"filter":"none","vertical":false,"caption":"<caption>The Obstructive sleep apnoea data set.<\/caption>","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],[21,24,26,39,21,29,20,21,19,27,29,25,20,53,31,22,21,28,19,18,18,36,36,38,18,24,21,18,33,19,23,31,29,23,35,27,28,20,29,38,22,56,50,24,36,44,25,49,18,19,27,31,21,22,20,29,35,22,28,32],["Male","Male","Male","Female","Female","Male","Male","Male","Female","Male","Female","Male","Female","Male","Male","Male","Female","Female","Female","Female","Male","Female","Female","Male","Female","Male","Male","Male","Male","Male","Female","Male","Male","Male","Female","Female","Male","Male","Female","Male","Female","Female","Female","Male","Male","Female","Female","Female","Male","Male","Male","Male","Female","Male","Female","Male","Male","Female","Female","Female"],[20.3,24.1,25.2,40.8,35,29.2,25.8,20.9,20.5,22.4,24.4,20.5,30.5,27.3,32.6,37.2,29.9,36.5,27.7,27.1,19.5,36.8,39.9,20.3,28.6,21.8,31.9,29.2,32,27,25.6,18.7,32.5,24.7,35.6,31.1,24.8,23.9,36.8,34.6,28,29.2,31.4,38.3,26,34.3,27,30.6,21.6,37.6,35.4,24.2,19.3,27.1,31.5,33.8,31.2,26,36.9,22.1],[37,40.5,38,41,37,41,42,37,32,39,37.5,38,39,44.5,46.5,43,34,37,34,36,39,41,37,38,38,36,40,41,46,42,40.3,38,47,38,36,36,44,43,40.5,45,40,38,40,43,41,38,40,40,38,48,46,39,35.5,48,41,47,47,39,40,40],[46,19.3,12.4,58.6,12.7,38.8,24.4,7,37.6,21.7,7.3,32.4,61.3,25.1,42.2,53.6,13.9,22.6,15.6,8.699999999999999,18.5,40.7,25.4,11.3,13.6,59.4,26.2,31,47.1,13,17.5,17.7,45.4,73.3,19.7,23.4,13.9,16.9,13.4,54.2,19.9,16.5,58.1,29.3,41.5,48.8,32.8,19.4,15.8,26.8,31.6,60.4,15.7,22.5,18,97.90000000000001,22.4,16.8,66.09999999999999,19.1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Age<\/th>\n      <th>Gender<\/th>\n      <th>BMI<\/th>\n      <th>Neck<\/th>\n      <th>REI<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"scrollY":true,"ordering":false,"columnDefs":[{"className":"dt-right","targets":[1,3,4,5]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Age","targets":1},{"name":"Gender","targets":2},{"name":"BMI","targets":3},{"name":"Neck","targets":4},{"name":"REI","targets":5}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
-
-<p class="caption">(\#fig:OSADT)The obstructive sleep apnoea data set</p>
-</div>
 
 
 ## Class discussion {#TW3-Class-Discussion}
@@ -139,21 +155,17 @@ Table\ \@ref(tab:PolyTable) shows the polythene usage, in tonnes, by eight UK co
 3. Without using a calculator, find the **IQR** of the data.
 \greyboxlines{2}
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:PolyTable)The amount of polythene (in tonnes) used by a sample of eight UK cosmetic companies.</caption>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> $\phantom{0}\phantom{0}\phantom{0}8.001$ </td>
-   <td style="text-align:left;"> $\phantom{0}\phantom{0}29.400$ </td>
-   <td style="text-align:left;"> $\phantom{0}266.532$ </td>
-   <td style="text-align:left;"> $4298.700$ </td>
-   <td style="text-align:left;"> $\phantom{0}\phantom{0}94.500$ </td>
-   <td style="text-align:left;"> $2547.300$ </td>
-   <td style="text-align:left;"> $\phantom{0}676.200$ </td>
-   <td style="text-align:left;"> $\phantom{0}\phantom{0}\phantom{0}0.000$ </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:PolyTable)The amount of polythene (in tonnes) used by a sample of eight UK cosmetic companies.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{llllllll}
+\toprule
+$\phantom{0}\phantom{0}\phantom{0}8.001$ & $\phantom{0}\phantom{0}29.400$ & $\phantom{0}266.532$ & $4298.700$ & $\phantom{0}\phantom{0}94.500$ & $2547.300$ & $\phantom{0}676.200$ & $\phantom{0}\phantom{0}\phantom{0}0.000$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -177,6 +189,40 @@ You are probably pressing the incorrect button to get the standard deviation.
 
 
 
+::: {.mentiQuestion data-latex=""}
+\null
+:::
+
+
+
+A tutor has recorded the marks (as a percentage) for all students in her four classes for an assignment.
+All classes have $30$\ students.
+The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
+
+1. In which class would the median be the *largest*?
+   Why?
+\greyboxlines{2}
+2. In which class would the median be the *smallest*?
+   Why?
+\greyboxlines{2}
+3. In which class would the standard deviation be the *largest*?
+   Why?
+\greyboxlines{2}
+4. In which class would the standard deviation be the *smallest*?
+   Why?
+\greyboxlines{2}
+
+
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.9\linewidth]{03-TW3-Tutorial_files/figure-latex/VariationHistograms-1} 
+
+}
+
+\caption{Histogram of marks for four classes.}(\#fig:VariationHistograms)
+\end{figure}
+
 
 
 
@@ -196,6 +242,27 @@ You are probably pressing the incorrect button to get the standard deviation.
 :::
 
 
+
+
+Consider the four histograms in Fig.\ \@ref(fig:FourHistograms).
+Which histogram is most likely to describe the *shape* of the following data?
+Why?
+
+1. The time that students remain in the examination room for a **short** or **easy** two-hour examination.
+2. The heights of female students at UniSC.
+3. The *starting* salaries of new science graduates employed full-time.
+4. The volume of drink in $375\mls$ cans of soft drink.
+5. The time that students remain in the examination room for a **hard** or **long** two-hour examination.
+
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.8\linewidth]{03-TW3-Tutorial_files/figure-latex/FourHistograms-1} 
+
+}
+
+\caption{Four histograms; what \textbf{shape} is appropriate for which scenario?}(\#fig:FourHistograms)
+\end{figure}
 
 
 
@@ -222,10 +289,14 @@ A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig
 \greyboxlines{2}
 
 
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/Bryden1984-Figure3b.png" alt="A histogram of the body length of female Weddell seals" width="55%" />
-<p class="caption">(\#fig:Bryden1984Fig3b)A histogram of the body length of female Weddell seals</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.55\linewidth]{ArticleImages/Bryden1984-Figure3b} 
+
+}
+
+\caption{A histogram of the body length of female Weddell seals}(\#fig:Bryden1984Fig3b)
+\end{figure}
 
 
 
@@ -250,20 +321,17 @@ If you need help, please **ask**.
 
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:AISTable)The heights (in metres) of female tennis players at the AIS.</caption>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> $167.9$ </td>
-   <td style="text-align:left;"> $177.5$ </td>
-   <td style="text-align:left;"> $162.5$ </td>
-   <td style="text-align:left;"> $172.5$ </td>
-   <td style="text-align:left;"> $166.7$ </td>
-   <td style="text-align:left;"> $175.0$ </td>
-   <td style="text-align:left;"> $157.9$ </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:AISTable)The heights (in metres) of female tennis players at the AIS.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lllllll}
+\toprule
+$167.9$ & $177.5$ & $162.5$ & $172.5$ & $166.7$ & $175.0$ & $157.9$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -280,18 +348,17 @@ If you need help, please **ask**.
 \greyboxlines{2}
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:MORTable)The MOR (in MPa) for five bamboo boards.</caption>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> 99.2 </td>
-   <td style="text-align:left;"> 111.2 </td>
-   <td style="text-align:left;"> 97.6 </td>
-   <td style="text-align:left;"> 101.1 </td>
-   <td style="text-align:left;"> 104 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:MORTable)The MOR (in MPa) for five bamboo boards.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lllll}
+\toprule
+99.2 & 111.2 & 97.6 & 101.1 & 104\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -303,22 +370,17 @@ If you need help, please **ask**.
    
 
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:AISTable2)The percentage body fat of female swimmers at the AIS.</caption>
-<tbody>
-  <tr>
-   <td style="text-align:left;"> 14.52 </td>
-   <td style="text-align:left;"> 11.47 </td>
-   <td style="text-align:left;"> 17.71 </td>
-   <td style="text-align:left;"> 18.48 </td>
-   <td style="text-align:left;"> 11.22 </td>
-   <td style="text-align:left;"> 13.61 </td>
-   <td style="text-align:left;"> 12.78 </td>
-   <td style="text-align:left;"> 11.85 </td>
-   <td style="text-align:left;"> 13.35 </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:AISTable2)The percentage body fat of female swimmers at the AIS.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{lllllllll}
+\toprule
+14.52 & 11.47 & 17.71 & 18.48 & 11.22 & 13.61 & 12.78 & 11.85 & 13.35\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 	
@@ -339,39 +401,21 @@ A test on the lifetime of batteries [@data:ALDIBatteryTesting] compared the time
 
 The times (in hours) for nine Energizer Max batteries and nine ALDI brand batteries (Ultracell) are shown in Table\ \@ref(tab:BattTable).
 
-<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
-<caption>(\#tab:BattTable)The times taken for batteries to go from $1.5\vs$ to $1.0\vs$, in hours)</caption>
-<tbody>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Energizer </td>
-   <td style="text-align:left;"> $7.58$ </td>
-   <td style="text-align:left;"> $7.46$ </td>
-   <td style="text-align:left;"> $7.46$ </td>
-   <td style="text-align:left;"> $7.59$ </td>
-   <td style="text-align:left;"> $7.46$ </td>
-   <td style="text-align:left;"> $7.52$ </td>
-   <td style="text-align:left;"> $6.83$ </td>
-   <td style="text-align:left;"> $6.89$ </td>
-   <td style="text-align:left;"> $7.45$ </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;font-weight: bold;"> Ultracell </td>
-   <td style="text-align:left;"> $7.50$ </td>
-   <td style="text-align:left;"> $7.48$ </td>
-   <td style="text-align:left;"> $7.47$ </td>
-   <td style="text-align:left;"> $7.48$ </td>
-   <td style="text-align:left;"> $7.48$ </td>
-   <td style="text-align:left;"> $7.41$ </td>
-   <td style="text-align:left;"> $7.47$ </td>
-   <td style="text-align:left;"> $6.96$ </td>
-   <td style="text-align:left;"> $7.48$ </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:BattTable)The times taken for batteries to go from $1.5\vs$ to $1.0\vs$, in hours.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{>{}llllllllll}
+\toprule
+\textbf{Energizer} & $7.58$ & $7.46$ & $7.46$ & $7.59$ & $7.46$ & $7.52$ & $6.83$ & $6.89$ & $7.45$\\
+\textbf{Ultracell} & $7.50$ & $7.48$ & $7.47$ & $7.48$ & $7.48$ & $7.41$ & $7.47$ & $6.96$ & $7.48$\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
-1. The type of research study is  
-<div class='webex-radiogroup' id='radio_FNEOGIWLSR'><label><input type="radio" autocomplete="off" name="radio_FNEOGIWLSR" value=""></input> <span>a true experimental.</span></label><label><input type="radio" autocomplete="off" name="radio_FNEOGIWLSR" value=""></input> <span>a quasi-experimental study.</span></label><label><input type="radio" autocomplete="off" name="radio_FNEOGIWLSR" value="answer"></input> <span>an observational study.</span></label></div>
+1. Is the type of research study a true experimental, quasi-experimental, or observational study?
 
    Justify your answer. \tightlist
 \greyboxlines{2}
@@ -379,21 +423,21 @@ The times (in hours) for nine Energizer Max batteries and nine ALDI brand batter
 \greyboxlines{2}
 3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
    a. Compute the mean times for the *Energizer* batteries (to two decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.01' size='4' data-answer='["7.36"]'/>
+   
    a. Compute the standard deviation of the *Energizer* battery times (to three decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.001' size='5' data-answer='["0.289",".289"]'/>
+   
    a. Compute the mean times for the *Ultracell* batteries (to two decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.01' size='4' data-answer='["7.41"]'/>
+   
    a. Compute the standard deviation of the *Ultracell* battery times (to three decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.01' size='5' data-answer='["0.172",".172"]'/>
+   
 \greyboxlines{4}
 4. Explain what these calculations tell you.
 \greyboxlines{2}
 5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
    a. Compute the median of the *Energizer* batteries (to two decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.01' size='4' data-answer='["7.46"]'/>
+   
    b. Compute the median of the *Ultracell* batteries (to two decimal places).
-   <input class='webex-solveme nospaces' data-tol='0.01' size='4' data-answer='["7.48"]'/>
+   
 \greyboxlines{3}
 6. Determine (and justify) if the mean or median would be a more appropriate measure of centre.
 \greyboxlines{2}
