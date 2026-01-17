@@ -11,6 +11,7 @@
 
 This Appendix contains some thoughts on teaching in the tutorial, and answers to the *Quick Revision* questions.
 
+* [Details on using Mentimeter questions](#MentiQuestions) (which appear in most tutorials).
 * [Thoughts on *Class Discussions*](#ClassDiscussions) (which appear in most tutorials).
 * [Thoughts](#Lecture1ThoughtsForTutors) for Teaching Week\ \@ref(Lecture1) Tutorial.
 * [Thoughts](#Lecture2ThoughtsForTutors) for Teaching Week\ \@ref(Lecture2) Tutorial.
@@ -27,137 +28,61 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 
 
 
-## WHAT I NEED ATO DO:
-
-### 1. Create Poll Template
-
-1. Log in to your Mentimeter account.
-2. Click **Create Presentation** → give it a clear name, e.g.  
-   `Week 3 – Sampling Bias`.
-3. Add your poll questions:
-   - Multiple Choice
-   - Word Cloud
-   - Scales / ranking (optional)
-4. Save the presentation as a **template**:
-   - Click **File → Save as Template** (optional, depending on Mentimeter version)
-   - This allows reuse each trimester.
-
----
-
-### 2. Start a Session
-
-1. From the template, click **Present** → **Start Session**.
-2. Choose **Quick Start / Audience-Paced / Live** (default: Live).
-3. Mentimeter generates:
-   - A **unique URL** for this session
-   - A **QR code** pointing to the session
-4. **Save the QR code** for TAs:
-   - Export the QR code as an image
-   - Name it: `Week3_Poll_QR.png`
-
----
-
-### 3. Distribute the QR Code
-
-- Place the QR code in a **TA-only Canvas page** or slide deck
-- Do **not** publish to students
-- This ensures:
-  - Students can only access via the QR code shown in class
-  - No early access
-
----
-
-### 4. Run the Poll
-
-- The session **stays open** for all tutorial slots that week
-- Students from any tutorial can scan the QR and submit
-- Results are **aggregated across all classes**
-
----
-
-### 5. After Class / Week
-
-1. Export results if needed:
-   - Click **File → Export Results**
-   - Format: CSV / Excel
-2. Archive the session if desired
-3. For next week:
-   - Create a **new session** from the same template
-   - Generate new QR code
+## Details on using Mentimeter questions {#MentiQuestions}
 
 
+### General comments on Mentis {.unlisted .unnumbered}
+
+- **MentiMeter** allows in-class interactive activities, that I hope will help boost student engagement, in both online and on-campus tutorials.
+- **MentiMeter** activities will also hopefully create some discussions (engagement) in class.
+- The *Quick Revision* questions have all been converted to Mentis; some other tutorial questions have also be converted to Mentis.
+- Using the Mentis are **optional**.
+
+::: {.mentiQuestion data-latex=""}
+Questions with Mentis are flagged in the PDF and HTML tutorial books with this icon.
+You can click this icon in the HTML version of the *Tutorial Workbook*, and the MentiMeter page for SCI110 will open.
+You can then find the Menti in the appropriate Teaching Week folder.
+:::
 
 
+### Accessing Mentis {.unlisted .unnumbered}
+
+- **Preparation**: 
+  MentiMeter questions are already prepared; you just need to *use* them.
+- **Access**: 
+  Unfortunately (and this is just the way MentiMeter works), once I share the Mentis with you so that you can use them  in tutorials, you will also have **Edit** access.
+  **Please do not edit the Mentis** (without my approval) as this impacts everyone.
+- **Re-use**: 
+  Any given Menti is used across all tutorials: this is the only way I could figure out to make things work when we have lots of tutorials, some running at the same time, without lots of extra work.
 
 
+### Using Mentis in tutorials {.unlisted .unnumbered}
 
-## NEWEST VERSION: Thoughts on Class Discussions
+*Display* the Mentis to the class  by:
 
-**Prepare for Class**
-
-- Ensure you have the **week’s QR code** ready:
-  - From instructor Canvas page or slide deck
-- Ensure projector / screen is ready for students to see the QR
-
-**Display the Poll**
-
-1. Open the week’s Mentimeter session (or show QR image)
-2. Project the **QR code** on the screen
-3. Instruct students: 'Please scan the QR code and answer the questions for this week’s poll.'
-4. Wait 30--60 seconds for all students to respond
-
-**Show Results Live**
-
-- Mentimeter updates **live charts automatically**
-- Project the results to the class
-- Discuss trends:
-  - Highlight majority/minority choices
-  - Use as discussion starter
-- No further TA input needed
-
-**After Tutorial**
-
-- Nothing to do
-- Responses are stored automatically in Mentimeter
-- Instructor can download/export later if needed
-
-
-
-
-
-## NEW VERSION: Thoughst on Class Discussions; probably outdated
-
-
-**Purpose**:
-These polls are quick check-in questions to see how students are thinking and to spark discussion. 
-
-**What you need before class**:
-Nothing; everything is Canvas.
-
-**During class**:
-
-1. Tell students to *open* the poll:
-'Please open the Week X tutorial page (QR on screen?) and answer the poll question at the top. Take about 30 seconds.'
-
-2. *View* the results once most students seem to have responded.
-Refresh the page, Open the Results / Reports view (depending on LMS)
-(*Note*: Results may include responses from other classes earlier in the week.)
-
-3. Use the results to *prompt discussion*:
-   Examples:
-
+- Going to the SCI110 Menti page (click the icon on the HMTL version).
+- Select the appropriate folder (they are organised by Teaching Week).
+- Click the appropriate Menti.
+- Click **Start presentation** in the top right corner.
+- Students then join by:
+  - Scanning the QR code; or
+  - Going to \url{menti.com} and entering the code displayed at the top of the screen.
+- Keep advancing to the *next* slide, press **Next slide** on the bottom left corner.
+- Students then respond as they wish, when they are ready.
+- When relevant, the **Next slide**  changes to **Show results**... which displays the results.
+- The results will be displayed for *all* responses, across all classes, up to the point you click to display responses.
+- Click again to display the correct answer.
+- Discuss the responses with the class; for example:
   - 'Most people chose B; why?'
   - 'Interesting split here. Who chose A?'
   - 'This is a common misconception; let's unpack it.'
 
-4. *Move on*:
-Continue with the tutorial
+
+[**Return to index of tutor information.**](#TutorInfo)
 
 
 
-
-
-## Thoughts on *Class Discussions* {#ClassDiscussions .unlisted .unnumbered}
+## Thoughts on *Class Discussions* {#ClassDiscussions}
 
 Most teaching weeks include an *optional* class discussion.
 These discussions hopefully will, across the various discussions, help to:
@@ -218,11 +143,9 @@ General tips:
 
 
 
-## Thoughts on Teaching Week 1 tutorial  {#Lecture1ThoughtsForTutors .unlisted .unnumbered}
+## Thoughts on Teaching Week 1 tutorial  {#Lecture1ThoughtsForTutors}
 
 <!-- Lecture1ThoughtsForTutors -->
-
-[**Return to index of tutor information.**](#TutorInfo)
 
 ### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted .unnumbered}
 
@@ -312,9 +235,7 @@ Then let the groups share their answers with another group(s).
 
 
 
-## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
+## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors}
 
 
 ### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted .unnumbered}
@@ -511,9 +432,7 @@ Notes:
 
 
 
-## Thoughts on Teaching Week 3 tutorial {#Lecture3ThoughtsForTutors .unlisted .unnumbered}
-
-
+## Thoughts on Teaching Week 3 tutorial {#Lecture3ThoughtsForTutors}
 
 <!-- Lecture3ThoughtsForTutors -->
 
@@ -732,10 +651,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 [**Return to index of tutor information.**](#TutorInfo)
 
 
-## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
+## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted .unnumbered}
 
@@ -832,10 +748,7 @@ Time permitting, you could:
 
 
 
-## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors .unlisted .unnumbered}
-
-
-[**Return to index of tutor information.**](#TutorInfo)
+## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors}
 
 
 ### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted .unnumbered}
@@ -985,10 +898,7 @@ knitr::include_graphics("SoftwareImages/RulerDropData.png")
 
 
 
-## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
+## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted .unnumbered}
 
@@ -1136,12 +1046,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 
 
-## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
+## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted .unnumbered}
 
@@ -1251,9 +1156,7 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 
 
 
-## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors .unlisted .unnumbered}
-
-
+## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted .unnumbered}
 
@@ -1361,11 +1264,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 
 
-## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
+## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted .unnumbered}
 
@@ -1482,11 +1381,7 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 
 
 
-## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
+## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted .unnumbered}
 
@@ -1561,12 +1456,7 @@ Ideally, explicitly **connect** to:
 
 
 
-## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors .unlisted .unnumbered}
-
-[**Return to index of tutor information.**](TutorInfo.html)
-
-
-
+## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted .unnumbered}
 
@@ -1676,9 +1566,7 @@ Regression and correlation are not the same thing!
 
 
 
-## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors .unlisted .unnumbered}
-
-
+## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors}
 
 ### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted .unnumbered}
 
