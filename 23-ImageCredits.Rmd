@@ -1,3 +1,16 @@
+
+<!--    -------------------------------------------------    -->
+<!--     CHAPTER 23: THOUGHTS FOR TEACHING (23-TutorInfo)    -->
+<!--     - Insert here (conditionally): TutorInfo            -->
+<!--     - Insert if we are creating tutor version in PDF    -->
+<!--    --------------------------------------------------   -->
+
+```{r, child = if (tutorVersion) {'23-TutorInfo.Rmd'}}
+```
+
+
+
+
 `r if (knitr::is_latex_output()) '<!--'`
 # Appendix: Image credits {#Image-Credits}
 
@@ -20,12 +33,3 @@ are listed
 
 
 
-
-<!--    -------------------------------------------------    -->
-<!--     CHAPTER 24: THOUGHTS FOR TEACHING (24-TutorInfo)    -->
-<!--     - Insert here (conditionally): TutorInfo            -->
-<!--     - Insert if we are creating tutor version in PDF    -->
-<!--    --------------------------------------------------   -->
-
-```{r, child = if (tutorVersion) {'24-TutorInfo.Rmd'}}
-```

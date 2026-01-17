@@ -36,7 +36,7 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 - **MentiMeter** allows in-class interactive activities, that I hope will help boost student engagement, in both online and on-campus tutorials.
 - **MentiMeter** activities will also hopefully create some discussions (engagement) in class.
 - The *Quick Revision* questions have all been converted to Mentis; some other tutorial questions have also be converted to Mentis.
-- Using the Mentis are **optional**.
+- Using the Mentis are **optional**, but if you use them I am interested in your feedback.
 
 ::: {.mentiQuestion data-latex=""}
 Questions with Mentis are flagged in the PDF and HTML tutorial books with this icon.
@@ -60,7 +60,7 @@ You can then find the Menti in the appropriate Teaching Week folder.
 
 *Display* the Mentis to the class  by:
 
-- Going to the SCI110 Menti page (click the icon on the HMTL version).
+- Go to the [SCI110 Menti](https://www.mentimeter.com/app/folder/2889277) page (by, for example, clicking the icon on the HMTL version).
 - Select the appropriate folder (they are organised by Teaching Week).
 - Click the appropriate Menti.
 - Click **Start presentation** in the top right corner.
@@ -96,10 +96,11 @@ These discussions hopefully will, across the various discussions, help to:
 
 Here is one framework for how to **facilitate** a discussion:
 
-1. Pose the question ($1$\ minute)
-  - Display or read the discussion question.
-  - Emphasise that the discussion is about *reasoning*, not correctness.
-    In fact, there may not *be* a correct answer.
+  1. Pose the question ($1$\ minute)
+  
+    - Display or read the discussion question.
+    - Emphasise that the discussion is about *reasoning*, not correctness.
+      In fact, there may not *be* a correct answer.
 
 2. Think–Pair–Share (say, $5$ to\ $10$ minutes)
 
