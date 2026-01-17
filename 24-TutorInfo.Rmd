@@ -31,7 +31,7 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 ## Details on using Mentimeter questions {#MentiQuestions}
 
 
-### General comments on Mentis {.unlisted .unnumbered}
+### General comments on Mentis {.unlisted}
 
 - **MentiMeter** allows in-class interactive activities, that I hope will help boost student engagement, in both online and on-campus tutorials.
 - **MentiMeter** activities will also hopefully create some discussions (engagement) in class.
@@ -45,7 +45,7 @@ You can then find the Menti in the appropriate Teaching Week folder.
 :::
 
 
-### Accessing Mentis {.unlisted .unnumbered}
+### Accessing Mentis {.unlisted}
 
 - **Preparation**: 
   MentiMeter questions are already prepared; you just need to *use* them.
@@ -56,7 +56,7 @@ You can then find the Menti in the appropriate Teaching Week folder.
   Any given Menti is used across all tutorials: this is the only way I could figure out to make things work when we have lots of tutorials, some running at the same time, without lots of extra work.
 
 
-### Using Mentis in tutorials {.unlisted .unnumbered}
+### Using Mentis in tutorials {.unlisted}
 
 *Display* the Mentis to the class  by:
 
@@ -147,7 +147,7 @@ General tips:
 
 <!-- Lecture1ThoughtsForTutors -->
 
-### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial1) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **Relational**: there is a comparison (between Chinese and Indian meals).
@@ -164,7 +164,7 @@ General tips:
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
@@ -190,9 +190,8 @@ General tips:
 * How could you ensure that the sample results were as close as possible to the true answers?
 
 
-### Thoughts on Sect. \@ref(CreateRQs) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CreateRQs) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 One way to manage this: arrange students into groups, and have each group discuss the answers separately.
 Then have each group share their answer with the class and discuss.
 	
@@ -213,19 +212,12 @@ The point is that there are many possible options, all of which are acceptable, 
 4. "Between before and after drinking Earl Grey tea" is a *within-individuals* comparison, *not a between-individuals comparison* because everyone in the population (sample) is treated the same way.
    There are not two groups in the population being compared.
 
-```
-    
-    
 
 
+### Thoughts on Sect. \@ref(Units) {.unlisted}
 
-### Thoughts on Sect. \@ref(Units) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
 Encourage and promote student discussion and debate about the answers, within and then between groups.
 Then let the groups share their answers with another group(s).
-```
-
 
 
 [**Return to index of tutor information.**](#TutorInfo)
@@ -238,7 +230,7 @@ Then let the groups share their answers with another group(s).
 ## Thoughts on Teaching Week 2 tutorial {#Lecture2ThoughtsForTutors}
 
 
-### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial2) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The RQ states that only households in Santiago will be studied.
@@ -250,7 +242,7 @@ Then let the groups share their answers with another group(s).
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A larger sample is always better than smaller sample.
@@ -315,7 +307,7 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(LanguageReport) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(LanguageReport) {.unlisted}
 
 ```{block2, type="rmdTutorInfo"}
 Remind students that there is a *Glossary* in the textbook!
@@ -323,7 +315,7 @@ Remind students that there is a *Glossary* in the textbook!
 
 
 
-### Thoughts on Sect. \@ref(AssessReport) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(AssessReport) {.unlisted}
 
 ```{block2, type="rmdTutorInfo"}
 For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
@@ -332,7 +324,7 @@ Sometimes we need to assume answers or just state that we don't know.
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy2) {.unlisted}
 
 The purpose of this question is to get students thinking about *study design* for Assessment Task\ 2A.
 It is **very important**!
@@ -436,7 +428,7 @@ Notes:
 
 <!-- Lecture3ThoughtsForTutors -->
 
-### A note on calculators {.unlisted .unnumbered}
+### A note on calculators {.unlisted}
 
 
 ```{block2, type="rmdTutorInfo"}
@@ -453,7 +445,7 @@ Students could use as jamovi or the *Stats* mode on a calculator, for example.
 ```
 
 
-### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. *Age* is quantitative continuous. 
@@ -466,7 +458,7 @@ Students could use as jamovi or the *Stats* mode on a calculator, for example.
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: Two datasets can have the same numerical summaries but tell very different stories.
@@ -557,7 +549,7 @@ For both datasets:
 You could ask two groups of students to compute the statistics for the two group, and a third group to draw a 2D dotchart (on the whiteboard in a F2F class).
 
 
-### Thoughts on Sect. \@ref(StatsMode) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(StatsMode) {.unlisted}
 
 
 ```{block2, type="rmdTutorInfo"}
@@ -575,14 +567,12 @@ If students use the *wrong* standard deviation button, they will get $\sigma = s
 
 
 
-### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(UnderstandingVariation) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 You can have groups answer each part separately, then share their explanations with the class.
 You may wish to quiz the students about means and IQRs too.
 
 For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummaryAns).
-```
 
 
 ```{r NumericalSummaryAns, echo=FALSE}
@@ -632,9 +622,8 @@ kable(NumSum,
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy3) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 Following on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)): use the protocol established then, and have students actually collect data.
 
 I suggest starting jamovi.
@@ -644,7 +633,6 @@ Show students how to set up the variables, and have them come to the computer an
 Then compute the differences (automatically; see me if unsure), and then show them how to produce an appropriate graph (e.g., histogram of differences) and some numerical summary information.
 
 **Save the data!**
-```
 
 
 
@@ -653,7 +641,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 ## Thoughts on Teaching Week 4 tutorial {#Lecture4ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial4) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. *Age* is quantitative, so odds are not appropriate (odds are used with qualitative data).
@@ -668,7 +656,7 @@ Then compute the differences (automatically; see me if unsure), and then show th
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: The raw data is more useful than a graphical summary.
@@ -751,7 +739,7 @@ Time permitting, you could:
 ## Thoughts on Teaching Week 5 tutorial {#Lecture5ThoughtsForTutors}
 
 
-### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
@@ -762,7 +750,7 @@ Time permitting, you could:
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A badly designed experiment with lots of data is worse than a small, well-designed one.
@@ -833,15 +821,12 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(QuickRevision-Tutorial5) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(QuickRevision-Tutorial5) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 With $22$ observations, the median is halfway between the $11$th and $12$th ordered observations (observation number $(22 + 1)/2 = 11.5$): both be in the second bar,  so the median is somewhere between $8$ and $10$\ mm (we cannot be sure based on the histogram, as information is lost).
 If they understand the histogram, they should also see that the smallest breadth is about $6$\ mm, so a median of $4$\ mm makes no sense.  
 
 If you have the time: **Ask**  *how* to explain why they are wrong, and **ask approximately what the median would be**.
-```
-
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -849,19 +834,14 @@ If you have the time: **Ask**  *how* to explain why they are wrong, and **ask ap
 
 
 
-### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CritiqueStudentGraphs1) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 Have students work in groups, and then share their answers.
-```
 
 
 
+### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted}
 
-
-### Thoughts on Sect. \@ref(PlanStudy4) {.unlisted .unnumbered}
-
-```{block2, type="rmdTutorInfo"}
 This activity follows on from the ruler-drop planning activity from Week\ 2 (Sect.\ \@ref(PlanStudy2)) and the data collection (Sect.\ \@ref(PlanStudy3).
 Use jamovi and the data file to create the numerical summary.
 
@@ -881,7 +861,6 @@ I suggest having students enter their data into jamovi (Fig.\ \@ref(fig:RulerDro
 
 If you have collect data from each person left and right hand (to study the average difference between left and right hand reaction, for instance), remember that the unit of analysis is the *person*, and each person gets two units of observation: jamovi and SPSS like data arranged with one unit of analysis (i.e. person in this case) per row
  (Fig.\ \@ref(fig:RulerDrop-jamovi)).
-```
 
 
 ```{r, RulerDrop-jamovi, echo=FALSE, fig.cap = "Data entered in jamovi for the ruler-drop study", fig.align = "center", out.width='50%' }
@@ -900,7 +879,7 @@ knitr::include_graphics("SoftwareImages/RulerDropData.png")
 
 ## Thoughts on Teaching Week 6 tutorial {#Lecture6ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
@@ -910,7 +889,7 @@ knitr::include_graphics("SoftwareImages/RulerDropData.png")
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**:  Outliers should always be removed from a dataset before analysis.
@@ -1004,14 +983,13 @@ Time permitting, you could show examples where removing outliers changes conclus
 
 
 
-### Thoughts on Sect. \@ref(NormalHeights) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(NormalHeights) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
-Encourage drawing diagrams!
-A common error: plugging numbers into calculators wrongly, and effectively computing $z = x - (\mu/\sigma)$ rather than $z = (x - \mu)/\sigma$.
+* Encourage drawing diagrams!
+* A common error: plugging numbers into calculators wrongly, and effectively computing $z = x - (\mu/\sigma)$ rather than $z = (x - \mu)/\sigma$.
 
 Notice that students cannot be very accurate using the $68$--$95$--$99.7$ rule, which is one of the points to be made: only a guess can be made, but using $z$-scores leads to more accurate answers.
-```
+
 
 
 ```{block2, type="rmdTutorInfo"}
@@ -1021,10 +999,9 @@ Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
 
 
 
-### Thoughts on Sect. \@ref(RandomCardDraws) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(RandomCardDraws) {.unlisted}
 
 
-```{block2, type="rmdTutorInfo"}
 Since samples are easy to generate, you can have each group/person in class generate a few simulations.
 On the whiteboard, you can tally these, and produce a histogram.
 Obviously, the more sets of $10$ you can generate, the better... and the webpage is fast... but don't take *too* long doing so.
@@ -1032,7 +1009,6 @@ Obviously, the more sets of $10$ you can generate, the better... and the webpage
 One purpose is to show students about *sampling variation*: not every set of $10$ tosses produces the same value.
 The main purpose is to demonstrate what we mean by a sampling distribution: the distribution that shows how a sample statistic varies from sample to sample.
 After drawing the histogram from your classes data, you may wish to point out where certain groups' $\hat{p}$ values are located.
-```
 
 
 
@@ -1048,7 +1024,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 ## Thoughts on Teaching Week 7 tutorial {#Lecture7ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial7) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **FALSE**. 
@@ -1065,7 +1041,7 @@ After drawing the histogram from your classes data, you may wish to point out wh
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from.
@@ -1140,14 +1116,12 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted}
 
 ```{block2, type="rmdTutorInfo"}
 **Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
 Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.
 ```
-
-
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1158,7 +1132,7 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 
 ## Thoughts on Teaching Week 8 tutorial {#Lecture8ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial8) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. **FALSE**. Hypothesis testing does not **prove** anything; we cannot prove anything about the *population* by studying just one of the many possible *samples*. 
@@ -1170,7 +1144,7 @@ Furthermore, **the calculators may use scientific notation** to display the resu
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: Confidence intervals are more informative than $P$-values.
@@ -1248,13 +1222,10 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(PValues) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PValues) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 We only need to use the $68$--$95$--$99.7$ rule.
 The one-tailed $P$-values are *half* of the two-tailed $P$-values.
-```
-
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1266,7 +1237,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 ## Thoughts on Teaching Week 9 tutorial {#Lecture9ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\\ CI.
@@ -1287,7 +1258,7 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: If the mean of Group\ A is $\bar{x}_1 = 12.0\cms$ and the mean of Group\ B is $\bar{x}_2 = 14.2\cms$, then the two means are clearly different.
@@ -1365,14 +1336,11 @@ Time permitting, you could:
 
 
 
-### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(PlanStudy7) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 If you wish, you can conduct a hypothesis test for the ruler-drop (using jamovi).
 
 In particular, if you get a negative number for one (or both) of the CI limits, you can discuss what the negative number (i.e., negative *difference*) means.
-```
-
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1383,14 +1351,14 @@ In particular, if you get a negative number for one (or both) of the CI limits, 
 
 ## Thoughts on Teaching Week 10 tutorial {#Lecture10ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial10) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-value).
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: When comparing two groups, is it better to focus on differences in *proportions*, *odds*, or *percentages*?
@@ -1458,7 +1426,7 @@ Ideally, explicitly **connect** to:
 
 ## Thoughts on Teaching Week 11 tutorial {#Lecture11ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial11) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 Student\ 1:
@@ -1471,7 +1439,7 @@ Correct: $95$% CI for the *mean* is $12.4\pm (2\times 2.8/sqrt{6})$, or from\ $1
 
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 **Discuss**: A 'statistically significant' result means a real discrepancy or effect.
@@ -1540,9 +1508,8 @@ Ideally, explicitly **connect** to:
 
 
 
-### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(InterpretRegressions) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 If you count the dots on the scatterplot, you won't find $n = 38$ dots, because of *overplotting*.
 For example, there are two Corolla's from 2006 selling for $9500.
 
@@ -1550,15 +1517,13 @@ If you have time, you can ask students about this, and even ask for suggestions 
 
 
 **Note**: since all the cars in the sample are second-hand, technically the results only generalise to second-hand cars, so that $b_0$ really is the estimated price of a second-hand 2014 Corolla.
-```
 
 
-### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted .unnumbered}
+### Thoughts on Sect. \@ref(RegressionCorrelation) {.unlisted}
 
-```{block2, type="rmdTutorInfo"}
 The point is that the same regression line can be associated with a high correlation, or a poor correlation.  
 Regression and correlation are not the same thing!
-```
+
 
 [**Return to index of tutor information.**](#TutorInfo)
 
@@ -1568,7 +1533,7 @@ Regression and correlation are not the same thing!
 
 ## Thoughts on Teaching Week 12 tutorial {#Lecture12ThoughtsForTutors}
 
-### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted .unnumbered}
+### [Quick Revision](#QuickRevision-Tutorial12) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
@@ -1580,7 +1545,7 @@ Regression and correlation are not the same thing!
 :::
 
 
-### Thoughts on Class Discussion {.unlisted .unnumbered}
+### Thoughts on Class Discussion {.unlisted}
 
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
