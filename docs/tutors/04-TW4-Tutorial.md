@@ -43,11 +43,11 @@ You should bring your calculator to tutorials from this week onwards.
 ## Quick revision {#QuickRevision-Tutorial4}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 

@@ -47,11 +47,11 @@ Appendices\ \@ref(ZTablesNEG) and\ \@ref(ZTablesPOS).
 
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 ::: {.webex-box}
@@ -87,11 +87,11 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 ## Normal distributions and IQs {#NormalIQs}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 Standard IQs in current use (despite their flaws) are designed so that the IQ scores of the *population* have a normal distribution with a mean of\ $100$, and a standard deviation of\ $15$.
 
@@ -181,11 +181,11 @@ ________cm.
 ## Probability {#Probability2}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 For the following, indicate *how* you could estimate the probability (classical; relative frequency; subjective) in these situations.
 (**Note:** You are not asked to *compute* the probability.)

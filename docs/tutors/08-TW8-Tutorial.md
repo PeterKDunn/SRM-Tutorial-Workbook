@@ -38,11 +38,11 @@ You will learn and practice the content associated with these chapters of the [t
 ## Quick revision {#QuickRevision-Tutorial8}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 ::: {.webex-box}
@@ -232,11 +232,11 @@ We would like to test the company's claim, and ask the RQ:
 
 ## Approximate $P$-values {#PValues}
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 Assuming the tests are statistically valid, what is the approximate $P$-value for a *two*-tailed $t$-test if:
 

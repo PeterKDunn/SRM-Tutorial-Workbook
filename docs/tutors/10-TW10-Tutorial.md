@@ -37,11 +37,11 @@ Take careful note of which chapters are covered in this tutorial!
 
 ## Quick revision {#QuickRevision-Tutorial10}
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 
@@ -317,11 +317,11 @@ Did not use artifical limb &  &  & \\
 
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 For each of the following scenarios:
 

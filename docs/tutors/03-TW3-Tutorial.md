@@ -76,11 +76,11 @@ For example:
 ## Quick revision {#QuickRevision-Tutorial3}
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 
@@ -188,11 +188,11 @@ You are probably pressing the incorrect button to get the standard deviation.
 <iframe src="https://usc.h5p.com/content/1290996647109217689/embed" width="1088" height="909" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 A tutor has recorded the marks (as a percentage) for all students in her four classes for an assignment.
@@ -228,11 +228,11 @@ The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
 ## Understanding histograms {#UnderstandingHistograms}
 
-
+<!--
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
-
+-->
 
 
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
