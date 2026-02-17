@@ -1,4 +1,4 @@
-book_filename: "tutorials_student"
+book_filename: "TutorialWorkbookStudent"
 new_session: yes
 repo: https://github.com/PeterKDunn/SRM-Tutorial-Workbook
 before_chapter_script:
