@@ -31,6 +31,12 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
+::: {.mentiQuestion data-latex=""}
+\null
+:::
+
+
+
 \pagebreak
 
 

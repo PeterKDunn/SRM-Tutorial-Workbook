@@ -43,7 +43,7 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 
 - **MentiMeter** allows in-class interactive activities, that I hope will help boost student engagement, in both online and on-campus tutorials.
 - **MentiMeter** activities will also hopefully create some discussions (engagement) in class.
-- The *Quick Revision* questions have all been converted to Mentis; some other tutorial questions have also be converted to Mentis.
+- The *Quick Revision* questions have all been converted to Mentis (and answers now hidden from students); some other tutorial questions have also be converted to Mentis.
 - Using the Mentis are **optional**, but if you use them I am interested in your feedback.
 
 ::: {.mentiQuestion data-latex=""}
@@ -59,9 +59,9 @@ You can then find the Menti in the appropriate Teaching Week folder.
   MentiMeter questions are already prepared; you just need to *use* them.
 - **Access**: 
   Unfortunately (and this is just the way MentiMeter works), once I share the Mentis with you so that you can use them  in tutorials, you will also have **Edit** access.
+- **Versions**:
+  Each Menti has four versions (so that tutorials at the same time have independent versions); choose the one for your campus or online.
   **Please do not edit the Mentis** (without my approval) as this impacts everyone.
-- **Re-use**: 
-  Any given Menti is used across all tutorials: this is the only way I could figure out to make things work when we have lots of tutorials, some running at the same time, without lots of extra work.
 
 
 ### Using Mentis in tutorials {.unlisted}
@@ -80,10 +80,12 @@ You can then find the Menti in the appropriate Teaching Week folder.
 - When relevant, the **Next slide**  changes to **Show results**... which displays the results.
 - The results will be displayed for *all* responses, across all classes, up to the point you click to display responses.
 - Click again to display the correct answer.
-- Discuss the responses with the class; for example:
-  - 'Most people chose B; why?'
-  - 'Interesting split here. Who chose A?'
-  - 'This is a common misconception; let's unpack it.'
+
+*Discuss* the responses with the class; for example:
+
+- 'Most people chose B; why?'
+- 'Interesting split here. Why do think someone would choose A?'
+- 'This is a common misconception; let's unpack it.'
 
 
 [**Return to index of tutor information.**](#TutorInfo)
@@ -104,11 +106,11 @@ These discussions hopefully will, across the various discussions, help to:
 
 Here is one framework for how to **facilitate** a discussion:
 
-  1. Pose the question ($1$\ minute)
+1. Pose the question ($1$\ minute)
   
-    - Display or read the discussion question.
-    - Emphasise that the discussion is about *reasoning*, not correctness.
-      In fact, there may not *be* a correct answer.
+  - Display or read the discussion question.
+  - Emphasise that the discussion is about *reasoning*, not correctness.
+    In fact, there may not *be* a correct answer.
 
 2. Think–Pair–Share (say, $5$ to\ $10$ minutes)
 
@@ -125,16 +127,16 @@ Here is one framework for how to **facilitate** a discussion:
   - Summarise the *range of perspectives*.
   - Highlight what the discussion reveals about that week's topic.
   - Explicitly connect back to lectures or upcoming material.
-  - Ask: *"What would you want to know next?"*.
-  - Revisit the question briefly at the end of class.
+  - Ask probing questions; for example, *"What would you want to know next?"*.
+  - Revisit the question briefly at the end of class, if appropriate.
 
 
 General tips:
 
 - Emphasise productive contribution.
-- Identifying *assumptions* when appropriate.
+- Identify *assumptions*, when appropriate.
 - Asking clarifying questions.
-- Using *examples*, even informal ones.
+- Use *examples*, even informal ones.
 - Avoid turning the discussion into a lecture.
 - Avoid signalling a "correct" answer (if it exists) too early.
 - Avoid letting one person or view dominate.
@@ -292,6 +294,8 @@ Use these **prompts** to move the discussion forward:
 - Can increasing the sample size fix a bad survey question?
 - Would $10$ randomly-chosen observations ever be better than $1\,000$ non-randomly chosen observations?
 - Is there a point where more data stops being useful?
+
+A **good example** appears in Example\ 6.5 in the textbook (about Canadian school children).
 
 Possible **misconceptions** you may meet:
 
@@ -732,11 +736,11 @@ Time permitting, you could:
 ### [Quick Revision](#QuickRevision-Tutorial5) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. Neither is correct; $4$\\ is the median height of the bars... which is meaningless.
-1. The sample is small, so hard to be certain: *Average* about\\ $10\\mms$; data from about\\ $6$ to\\ $16\\mms$; slightly right skewed; no outliers.
+1. Neither is correct; $4$\ is the median height of the bars... which is meaningless.
+1. The sample is small, so hard to be certain: *Average* about\ $10\mms$; data from about\ $6$ to\ $16\mms$; slightly right skewed; no outliers.
 1. Discuss in class.
-1. Site\\ A.
-1. How much larger the mean breath is for Site\\ A jellyfish, compared to Site\\ B jellyfish.
+1. Site\ A.
+1. How much larger the mean breath is for Site\ A jellyfish, compared to Site\ B jellyfish.
 :::
 
 
@@ -877,7 +881,7 @@ If you have collect data from each person left and right hand (to study the aver
 ### [Quick Revision](#QuickRevision-Tutorial6) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. $z = (10.7 - 13)\\div 1.3 = -1.77$.
+1. $z = (10.7 - 13)\div 1.3 = -1.77$.
 1. $z = (26.0 -13)/1.3 = 10$.
 1. A *negative* $z$-score means that the value is *less than* the **mean**.
 1. **FALSE**.
@@ -1235,20 +1239,27 @@ The one-tailed $P$-values are *half* of the two-tailed $P$-values.
 ### [Quick Revision](#QuickRevision-Tutorial9) answers {.unlisted}
 
 ::: {.startClassAnswersBox .preClass data-latex='{iconmonstr-checkbox-5-240.png}'}
-1. The researchers used an exact $95$%CI, which gives very similar answers to using an approximate $95$%\\ CI.
+1. The researchers used an exact $95$%\ CI, which gives very similar answers to using an approximate $95$%\ CI.
    (The $68$--$95$--$99.7$ rule gives approximate multipliers only.)
-1. **TRUE**. If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
-1. **FALSE**. The CI is for the *difference* in the DMFT. The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
+1. **TRUE**. 
+   If we take the *coeliac* mean minus the *non-coeliac* mean, we would have $8.39 - 8.17 = 0.22$, which is what is given in the table.
+1. **FALSE**. 
+   The CI is for the *difference* in the DMFT. 
+   The value is **not** about the *number* of teeth; it is about the *difference* in the number of teeth between coeliacs and non-coeliacs. 
+   A negative value is fine if we understand what the CI is estimating.
 1. The *positive* value of $2.76$ means (as we saw in the first Quick Revision question) that coeliacs have a mean of $2.76$ more DMFT.  
    So the *negative* value of $-2.32$ means that *non*-coeliacs have a mean of $2.32$ more DMFT.
-1. **TRUE**. Remember that all hypotheses are about population parameters, and have an 'equals to' in there somewhere (the 'no difference, no change, no relationship' position).
-1. **FALSE**. The hypothesis is about population parameters ($\\mu$), which is good.  
+1. **TRUE**. 
+   Remember that all hypotheses are about population parameters, and have an 'equals to' in there somewhere (the 'no difference, no change, no relationship' position).
+1. **FALSE**. 
+   The hypothesis is about population parameters ($\mu$), which is good.  
    But the actual question was only about studying the difference, which suggests a *two*-tailed alternative hypothesis (not a *one*-tailed alternative hypothesis as given).
-1. **FALSE**. The *sample* means could be different for one of two reasons: (a)\\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\\ because the *population* means are different.  
+1. **FALSE**. 
+   The *sample* means could be different for one of two reasons: (a)\ the population means are actually the same, but the *sample means* are just different due to sampling variation; or (b)\ because the *population* means are different.  
    We don't know *which* one of these reasons is the reason here.
 1. How much larger the mean number of cavities are for coeliacs.
-1. When both sample sizes are larger than\\ $25$, the CI is statistically vaid.
-   Since both sample sizes are only *just* smaller than\\ $25$, the test is *probably* statistically valid.
+1. When both sample sizes are larger than\ $25$, the CI is statistically vaid.
+   Since both sample sizes are only *just* smaller than\ $25$, the test is *probably* statistically valid.
 :::
 
 
@@ -1356,7 +1367,7 @@ Statements\ 2 and\ 4 are **both** consistent with the information (small $P$-val
 ### Thoughts on Class Discussion {.unlisted}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: When comparing two groups, is it better to focus on differences in *proportions*, *odds*, or *percentages*?
+**Discuss**: When comparing two groups, is it better to focus on differences in *proportions*, *odds*, *odds ratios*, or *percentages*?
 :::
 
 This discussion helps students:
@@ -1430,7 +1441,8 @@ Not using the standard error; hence, **if** the *data* have a normal distributio
 Student\ 2:
 Not using the standard error; hence, **if** the *data* have a normal distribution, this is an interval that contains about $95$% of the *data*.
 
-Correct: $95$% CI for the *mean* is $12.4\pm (2\times 2.8/sqrt{6})$, or from\ $10.11$ to\ $14.69\MPas$. :::
+Correct: $95$% CI for the *mean* is $12.4\pm (2\times 2.8\sqrt{6})$, or from\ $10.11$ to\ $14.69\MPas$. 
+:::
 
 
 
@@ -1534,7 +1546,7 @@ Regression and correlation are not the same thing!
 1. The $x$-variable (potentially) helps explains the values of the other variables... so the $x$-variable will be the number of grams of mud. 
 1. The $y$-variable is the number of seeds.
 1. $R^2 = (0.931^2) = 0.86676$, or about $86.7$%.
-1. Using $x = 700$, we would have: $\\hat{y} = 137.4 + (0.3459\\times 700) = 380$ seeds.
+1. Using $x = 700$, we would have: $\hat{y} = 137.4 + (0.3459\times 700) = 380$ seeds.
 1. The *slope* (which is $0.3459$) is how much the average value of $y$ changes (the number of seeds) when the value of $x$ (the amount of mud) increases by one.
 1. There is evidence that the slope is non-zero in the population.
 :::
