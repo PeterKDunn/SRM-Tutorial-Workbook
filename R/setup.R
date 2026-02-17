@@ -19,10 +19,11 @@ library("readr") # For Cafe
 ### What type?
 #tutorVersion <- TRUE      ### TRUE: Make tutor version with answers and tutor suggestions, etc.
 tutorVersion <- FALSE     ### FALSE: Student version
+
 if (tutorVersion) {
-  cat("\\tutorVersiontrue\n")
+  writeLines("\\tutorVersiontrue",  "setup_flags.tex")
 } else {
-  cat("\\tutorVersionfalse\n")
+  writeLines("\\tutorVersionfalse", "setup_flags.tex")
 }
 
 book_title <- if (tutorVersion) {
