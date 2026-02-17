@@ -685,12 +685,12 @@ The aim of the study was to determine if, on average, students could correctly g
 
 
 To answer the RQ, a group of $n = 44$ students were asked to estimate the width of the lecture hall to the nearest metre (data provided by Prof. Lewis).
-The data are given in Table\ \@ref(tab:Guesses).  
+The data are given in Table\ \@ref(tab:GuessesRoom).  
    
 The data were entered into software, producing the output in Fig. \@ref(fig:LengthsHallOutputjamovi1) (jamovi).
 
 
-```{r Guesses, echo=FALSE}
+```{r GuessesRoom, echo=FALSE}
 GuessTab <- array( dim = c(3, 15) )
 
 GuessTab[1, ] <- c(8,  9, 10, 10, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 13)
