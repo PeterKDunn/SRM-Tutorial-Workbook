@@ -42,11 +42,11 @@ You should bring your calculator to tutorials from **next** week onwards.
 ## Quick revision {#QuickRevision-Tutorial2}
 
 
-<!--
+
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
--->
+
 
 
 ::: {.webex-box}

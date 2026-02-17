@@ -32,11 +32,11 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial12}
 
-<!--
+
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
--->
+
 
 
 ::: {.webex-box}

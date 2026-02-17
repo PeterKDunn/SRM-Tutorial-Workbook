@@ -30,11 +30,11 @@ You will learn and practice the content associated with these chapters of the [t
 :::
 
 
-<!--
+
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
--->
+
 
 
 \pagebreak
@@ -42,11 +42,11 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## Quick revision {#QuickRevision-Tutorial1}
 
-<!--
+
 ::: {.mentiQuestion data-latex=""}
 \null
 :::
--->
+
 
 
 ::: {.webex-box}

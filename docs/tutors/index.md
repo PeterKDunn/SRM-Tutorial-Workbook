@@ -1,6 +1,6 @@
 ---
 #title: "Science Research Methods: Tutorials"
-title: "Science Research Methods: Tutorials"
+title: "Science Research Methods: Tutorials INSTRUCTOR EDITION"
 subtitle:  "An introduction to quantitative research and statistics"
 author: "Peter K. Dunn"
 geometry: margin=27mm
@@ -161,13 +161,13 @@ This icon flags questions that have *video solutions* in the online book: a narr
 :::
 
 
-<!-- 
+ 
 ### Call-outs for *tutors only* {-}
 
 ::: {.mentiQuestion data-latex=""}
 Questions with this icon beside them have MentiMeter availability.
 :::
--->
+
 
 
 
