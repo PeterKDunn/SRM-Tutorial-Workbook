@@ -14,17 +14,7 @@ library("htmlwidgets")
 library("varhandle")
 library("readr") # For Cafe
 
-
-
-### What type?
-#tutorVersion <- TRUE      ### TRUE: Make tutor version with answers and tutor suggestions, etc.
-tutorVersion <- FALSE     ### FALSE: Student version
-
-if (tutorVersion) {
-  writeLines("\\tutorVersiontrue",  "setup_flags.tex")
-} else {
-  writeLines("\\tutorVersionfalse", "setup_flags.tex")
-}
+tutorVersion <- Sys.getenv("TUTOR_VERSION") == "TRUE"
 
 book_title <- if (tutorVersion) {
   "Science Research Methods: Tutorials INSTRUCTOR EDITION"
@@ -32,6 +22,11 @@ book_title <- if (tutorVersion) {
   "Science Research Methods: Tutorials"
 }
 
+if (tutorVersion) {
+  writeLines("\\tutorVersiontrue",  "setup_flags.tex")
+} else {
+  writeLines("\\tutorVersionfalse", "setup_flags.tex")
+}
 
 
 # set global chunk options

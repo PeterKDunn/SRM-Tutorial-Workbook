@@ -1,5 +1,5 @@
 book_filename: "TutorialWorkbookTutor"
-output_dir: docs
+output_dir: docs/tutors
 new_session: yes
 repo: https://github.com/PeterKDunn/SRM-Tutorial-Workbook
 before_chapter_script:

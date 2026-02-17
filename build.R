@@ -1,30 +1,24 @@
 library(bookdown)
 
 args <- commandArgs(trailingOnly = TRUE)
-
-version <- args[1]   # "student" or "tutor"
-format  <- args[2]   # "gitbook" or "pdf"
+version <- args[1]   # student / tutor
+format  <- args[2]   # gitbook / pdf
 
 stopifnot(version %in% c("student", "tutor"))
 stopifnot(format  %in% c("gitbook", "pdf"))
 
-tutorVersion <- version == "tutor"
+# >>> THIS LINE IS THE FIX <<<
+Sys.setenv(TUTOR_VERSION = ifelse(version == "tutor", "TRUE", "FALSE"))
 
-cfg  <- if (tutorVersion) "_bookdown_tutor.yml" else "_bookdown_student.yml"
-out  <- if (tutorVersion) "docs/tutors" else "docs"
+# Load setup AFTER setting flag
+source("R/setup.R")
 
-# LaTeX flags
-writeLines(if (tutorVersion) "\\tutorVersiontrue" else "\\tutorVersionfalse",
-           "setup_flags.tex")
+cfg  <- if (version == "tutor") "_bookdown_tutor.yml" else "_bookdown_student.yml"
+out  <- if (version == "tutor") "docs/tutors" else "docs"
 
-# Output format override
-fmt <- switch(format,
-              gitbook = "bookdown::gitbook",
-              pdf     = "bookdown::pdf_book")
+fmt <- if (format == "gitbook") "bookdown::gitbook" else "bookdown::pdf_book"
 
-render_book(
-  "index.Rmd",
-  config_file = cfg,
-  output_format = fmt,
-  output_dir = out
-)
+render_book("index.Rmd",
+            config_file = cfg,
+            output_format = fmt,
+            output_dir = out)
