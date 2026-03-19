@@ -110,7 +110,8 @@
 %  \thm@preskip=8pt plus 2pt minus 4pt
 %  \thm@postskip=\thm@preskip
 %}
-
+\newif\iftutorVersion
+\input{setup_flags.tex} % Load the flag for tutor/student version
 
 %%
 \usepackage{booktabs}
@@ -790,7 +791,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: January 17, 2026}
+\date{Last updated: February 17, 2026}
 
 \begin{document}
 \maketitle
@@ -1168,6 +1169,12 @@ You will learn and practice the content associated with these chapters of the \h
 \end{itemize}
 
 \end{readBox}
+
+\begin{mentiQuestion}
+
+\null
+
+\end{mentiQuestion}
 
 \pagebreak
 
@@ -6896,11 +6903,6 @@ Total & 93 & 664 & 757\\
 \tightlist
 \item
   A few issues: vertical axis is not labelled (presumably burn time in seconds); horizontal axis is not labelled (we have no way of knowing what is happening there.)
-  \textless!--
-\item
-  A few issues: this is not a \emph{summary}: this shows the burn-time of every individual candle, and makes it hard to compare \emph{means} (which is the RQ); why is every bar labelled, which just adds unnecessary clutter; fonts are hard too read (small); a boxplot (or dotchart) would be the appropriate graph.
-  In addition: the largest value is over \(70\,\text{mins}\)! Do a \emph{quick} project!
-  --\textgreater{}
 \item
   Reasonably good!
   The label on the vertical axis is a bit misleading: it is the \emph{number} of students; some wear grey-scale clothing and some do not.
@@ -8021,37 +8023,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 5 9 8 3 8 & 7 1 7 8 3 & 5 2 4 1 2 & 4 0 9 9 9 & 3 2 1 2 2\\
-Row B & 9 8 4 4 4 & 3 8 1 6 2 & 3 9 7 0 3 & 5 7 5 0 0 & 2 1 3 8 5\\
-Row C & 8 6 3 8 2 & 1 5 6 2 9 & 7 7 8 8 0 & 3 9 6 4 5 & 5 9 1 4 9\\
-Row D & 6 0 6 6 2 & 4 3 0 0 3 & 3 7 7 9 1 & 2 9 3 9 4 & 5 5 9 2 5\\
-Row E & 8 1 9 1 4 & 8 8 4 5 0 & 0 0 0 4 4 & 5 5 3 2 6 & 4 8 4 0 1\\
+Row A & 2 6 4 4 4 & 5 0 6 6 7 & 1 8 7 7 8 & 8 3 7 5 4 & 0 4 6 9 6\\
+Row B & 9 2 0 8 9 & 5 3 4 9 7 & 7 0 7 4 3 & 1 7 4 5 2 & 6 8 6 0 9\\
+Row C & 0 1 0 0 0 & 4 1 3 8 8 & 5 2 7 8 5 & 5 2 5 7 8 & 8 5 9 9 8\\
+Row D & 8 1 1 5 0 & 3 3 6 1 2 & 6 2 0 3 2 & 5 4 9 0 2 & 9 2 3 6 9\\
+Row E & 2 7 0 3 6 & 3 6 6 1 1 & 3 2 2 5 4 & 7 6 0 3 1 & 7 1 7 4 3\\
 \addlinespace
-Row F & 9 4 3 7 5 & 3 4 9 3 8 & 2 8 5 2 6 & 0 2 8 0 6 & 4 8 5 0 7\\
-Row G & 9 1 6 9 9 & 7 7 6 4 4 & 2 1 9 4 0 & 2 8 3 5 4 & 1 5 6 4 8\\
-Row H & 2 0 4 0 4 & 8 9 7 2 6 & 6 1 8 5 7 & 8 5 4 9 2 & 9 5 0 5 3\\
-Row I & 3 7 2 4 0 & 4 2 1 4 1 & 1 1 7 0 8 & 6 3 0 1 7 & 2 8 9 0 9\\
-Row J & 9 3 5 4 0 & 4 9 8 0 2 & 6 9 1 5 9 & 7 2 1 9 5 & 8 8 3 2 7\\
+Row F & 5 7 2 7 9 & 7 1 5 4 5 & 6 3 9 0 8 & 4 8 7 2 6 & 2 0 9 2 7\\
+Row G & 5 7 5 0 0 & 5 3 8 4 6 & 8 5 6 9 8 & 7 8 6 3 4 & 0 8 2 9 6\\
+Row H & 1 9 8 0 0 & 4 2 7 0 3 & 8 0 4 4 7 & 8 4 8 7 5 & 7 4 1 8 9\\
+Row I & 6 9 7 0 4 & 2 8 8 2 3 & 4 9 0 8 0 & 6 9 9 0 8 & 7 4 2 9 7\\
+Row J & 3 2 3 4 7 & 6 2 5 2 1 & 0 1 0 5 7 & 8 8 3 5 4 & 6 0 8 3 0\\
 \addlinespace
-Row K & 9 6 2 2 8 & 9 7 0 3 2 & 7 6 4 0 7 & 1 6 5 6 5 & 3 9 7 6 8\\
-Row L & 8 6 2 9 2 & 1 3 4 4 9 & 3 5 2 8 1 & 9 0 7 4 8 & 4 0 6 1 3\\
-Row M & 9 0 4 8 2 & 1 7 8 1 4 & 0 4 6 8 3 & 5 0 9 8 0 & 3 0 6 4 5\\
-Row N & 4 9 6 0 4 & 2 8 5 3 3 & 2 9 2 6 4 & 3 6 4 5 6 & 3 8 7 4 6\\
-Row O & 2 6 0 5 5 & 9 6 4 8 9 & 7 6 6 9 7 & 2 3 0 2 8 & 1 5 7 8 1\\
+Row K & 3 0 8 7 8 & 7 5 5 4 0 & 0 9 5 4 4 & 6 3 0 5 1 & 0 1 9 6 9\\
+Row L & 3 0 2 9 0 & 4 9 6 4 4 & 0 7 0 0 5 & 9 3 0 5 2 & 0 1 0 6 6\\
+Row M & 2 2 4 5 6 & 8 3 7 0 5 & 9 5 7 9 1 & 6 3 6 9 9 & 6 3 8 2 6\\
+Row N & 7 6 4 3 1 & 4 5 7 4 2 & 6 9 0 8 2 & 9 2 3 3 1 & 9 1 4 3 1\\
+Row O & 4 3 9 3 7 & 5 5 0 1 9 & 3 4 3 5 8 & 7 6 4 4 3 & 5 3 4 8 1\\
 \addlinespace
-Row P & 5 6 2 5 0 & 6 1 7 0 1 & 2 2 8 2 4 & 3 0 3 2 0 & 7 0 0 8 6\\
-Row Q & 9 3 9 1 6 & 7 7 1 9 8 & 3 2 3 2 9 & 4 8 6 4 9 & 7 2 5 6 9\\
-Row R & 0 2 6 3 6 & 4 5 9 9 9 & 5 6 2 4 0 & 8 4 6 4 6 & 6 0 4 9 0\\
-Row S & 4 5 0 3 6 & 2 5 7 1 2 & 5 2 2 1 7 & 9 2 7 4 2 & 1 2 1 4 2\\
-Row T & 5 6 4 4 0 & 4 5 6 3 1 & 1 9 3 2 4 & 0 2 0 4 0 & 6 7 3 3 1\\
+Row P & 6 4 1 0 3 & 5 0 5 7 3 & 9 7 6 5 5 & 0 5 7 0 3 & 6 9 8 8 0\\
+Row Q & 4 9 8 4 9 & 2 5 9 5 7 & 9 9 9 4 5 & 6 3 7 0 0 & 6 6 2 8 4\\
+Row R & 1 4 5 6 6 & 6 3 6 0 4 & 0 7 2 7 0 & 6 8 7 5 3 & 9 2 5 3 8\\
+Row S & 4 5 1 6 8 & 8 8 8 7 6 & 4 4 8 2 9 & 3 0 3 4 1 & 9 9 9 9 9\\
+Row T & 5 6 8 2 8 & 8 1 9 7 2 & 7 1 2 6 8 & 1 5 4 7 2 & 9 5 3 8 3\\
 \addlinespace
-Row U & 6 6 3 4 7 & 8 3 7 7 2 & 9 5 6 5 7 & 5 0 2 7 8 & 6 8 2 6 7\\
-Row V & 5 6 7 0 3 & 9 0 8 7 4 & 9 1 4 3 9 & 8 5 8 3 4 & 5 6 6 5 8\\
-Row W & 4 1 1 4 7 & 5 0 4 4 3 & 3 1 2 6 2 & 0 7 1 5 2 & 3 6 1 9 8\\
-Row X & 3 8 2 5 7 & 0 3 0 0 4 & 9 2 7 1 1 & 5 3 3 0 1 & 2 1 2 7 7\\
-Row Y & 9 5 9 6 7 & 0 5 1 6 9 & 1 9 6 2 1 & 2 8 7 4 5 & 7 0 7 7 0\\
+Row U & 8 4 0 8 5 & 6 5 5 5 0 & 5 6 6 3 0 & 7 8 0 3 2 & 8 8 4 7 5\\
+Row V & 1 1 9 1 7 & 9 0 6 8 1 & 4 3 0 9 7 & 8 5 1 8 6 & 9 7 1 9 6\\
+Row W & 1 0 6 2 2 & 8 4 2 2 7 & 5 5 1 4 4 & 9 4 4 2 2 & 4 5 8 1 7\\
+Row X & 5 8 7 1 6 & 1 5 1 4 9 & 1 0 7 3 4 & 6 1 0 8 3 & 0 8 3 9 9\\
+Row Y & 4 6 2 2 2 & 8 7 1 9 0 & 6 3 6 7 4 & 6 0 2 8 7 & 8 6 2 1 3\\
 \addlinespace
-Row Z & 8 6 1 3 4 & 9 4 5 6 2 & 8 0 6 4 7 & 4 8 8 1 6 & 4 3 8 1 3\\
+Row Z & 2 6 0 9 4 & 6 5 6 8 8 & 7 8 9 8 8 & 3 6 1 3 4 & 5 3 8 7 6\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -8372,7 +8374,7 @@ This Appendix contains some thoughts on teaching in the tutorial, and answers to
 \item
   \textbf{MentiMeter} activities will also hopefully create some discussions (engagement) in class.
 \item
-  The \emph{Quick Revision} questions have all been converted to Mentis; some other tutorial questions have also be converted to Mentis.
+  The \emph{Quick Revision} questions have all been converted to Mentis (and answers now hidden from students); some other tutorial questions have also be converted to Mentis.
 \item
   Using the Mentis are \textbf{optional}, but if you use them I am interested in your feedback.
 \end{itemize}
@@ -8394,10 +8396,10 @@ You can then find the Menti in the appropriate Teaching Week folder.
 \item
   \textbf{Access}:
   Unfortunately (and this is just the way MentiMeter works), once I share the Mentis with you so that you can use them in tutorials, you will also have \textbf{Edit} access.
-  \textbf{Please do not edit the Mentis} (without my approval) as this impacts everyone.
 \item
-  \textbf{Re-use}:
-  Any given Menti is used across all tutorials: this is the only way I could figure out to make things work when we have lots of tutorials, some running at the same time, without lots of extra work.
+  \textbf{Versions}:
+  Each Menti has four versions (so that tutorials at the same time have independent versions); choose the one for your campus or online.
+  \textbf{Please do not edit the Mentis} (without my approval) as this impacts everyone.
 \end{itemize}
 
 \subsection{Using Mentis in tutorials}\label{using-mentis-in-tutorials}
@@ -8434,18 +8436,18 @@ You can then find the Menti in the appropriate Teaching Week folder.
   The results will be displayed for \emph{all} responses, across all classes, up to the point you click to display responses.
 \item
   Click again to display the correct answer.
-\item
-  Discuss the responses with the class; for example:
+\end{itemize}
 
-  \begin{itemize}
-  \tightlist
-  \item
-    `Most people chose B; why?'
-  \item
-    `Interesting split here. Who chose A?'
-  \item
-    `This is a common misconception; let's unpack it.'
-  \end{itemize}
+\emph{Discuss} the responses with the class; for example:
+
+\begin{itemize}
+\tightlist
+\item
+  `Most people chose B; why?'
+\item
+  `Interesting split here. Why do think someone would choose A?'
+\item
+  `This is a common misconception; let's unpack it.'
 \end{itemize}
 
 \hyperref[TutorInfo]{\textbf{Return to index of tutor information.}}
@@ -8480,11 +8482,14 @@ Here is one framework for how to \textbf{facilitate} a discussion:
   Pose the question (\(1\)~minute)
 \end{enumerate}
 
-\begin{verbatim}
-- Display or read the discussion question.
-- Emphasise that the discussion is about *reasoning*, not correctness.
-  In fact, there may not *be* a correct answer.
-\end{verbatim}
+\begin{itemize}
+\tightlist
+\item
+  Display or read the discussion question.
+\item
+  Emphasise that the discussion is about \emph{reasoning}, not correctness.
+  In fact, there may not \emph{be} a correct answer.
+\end{itemize}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -8533,9 +8538,9 @@ Here is one framework for how to \textbf{facilitate} a discussion:
 \item
   Explicitly connect back to lectures or upcoming material.
 \item
-  Ask: \emph{``What would you want to know next?''}.
+  Ask probing questions; for example, \emph{``What would you want to know next?''}.
 \item
-  Revisit the question briefly at the end of class.
+  Revisit the question briefly at the end of class, if appropriate.
 \end{itemize}
 
 General tips:
@@ -8545,11 +8550,11 @@ General tips:
 \item
   Emphasise productive contribution.
 \item
-  Identifying \emph{assumptions} when appropriate.
+  Identify \emph{assumptions}, when appropriate.
 \item
   Asking clarifying questions.
 \item
-  Using \emph{examples}, even informal ones.
+  Use \emph{examples}, even informal ones.
 \item
   Avoid turning the discussion into a lecture.
 \item
@@ -8815,6 +8820,8 @@ Use these \textbf{prompts} to move the discussion forward:
 \item
   Is there a point where more data stops being useful?
 \end{itemize}
+
+A \textbf{good example} appears in Example~6.5 in the textbook (about Canadian school children).
 
 Possible \textbf{misconceptions} you may meet:
 
@@ -9415,15 +9422,15 @@ Time permitting, you could:
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Neither is correct; \(4\)\textbackslash{} is the median height of the bars\ldots{} which is meaningless.
+  Neither is correct; \(4\)~is the median height of the bars\ldots{} which is meaningless.
 \item
-  The sample is small, so hard to be certain: \emph{Average} about\textbackslash{} \(10\\mms\); data from about\textbackslash{} \(6\) to\textbackslash{} \(16\\mms\); slightly right skewed; no outliers.
+  The sample is small, so hard to be certain: \emph{Average} about~\(10\,\text{mm}\); data from about~\(6\) to~\(16\,\text{mm}\); slightly right skewed; no outliers.
 \item
   Discuss in class.
 \item
-  Site\textbackslash{} A.
+  Site~A.
 \item
-  How much larger the mean breath is for Site\textbackslash{} A jellyfish, compared to Site\textbackslash{} B jellyfish.
+  How much larger the mean breath is for Site~A jellyfish, compared to Site~B jellyfish.
 \end{enumerate}
 
 \end{startClassAnswersBox}
@@ -9611,7 +9618,7 @@ If you have collect data from each person left and right hand (to study the aver
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  \(z = (10.7 - 13)\\div 1.3 = -1.77\).
+  \(z = (10.7 - 13)\div 1.3 = -1.77\).
 \item
   \(z = (26.0 -13)/1.3 = 10\).
 \item
@@ -10139,28 +10146,35 @@ The one-tailed \(P\)-values are \emph{half} of the two-tailed \(P\)-values.
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  The researchers used an exact \(95\)\%CI, which gives very similar answers to using an approximate \(95\)\%\textbackslash{} CI.
+  The researchers used an exact \(95\)\%~CI, which gives very similar answers to using an approximate \(95\)\%~CI.
   (The \(68\)--\(95\)--\(99.7\) rule gives approximate multipliers only.)
 \item
-  \textbf{TRUE}. If we take the \emph{coeliac} mean minus the \emph{non-coeliac} mean, we would have \(8.39 - 8.17 = 0.22\), which is what is given in the table.
+  \textbf{TRUE}.
+  If we take the \emph{coeliac} mean minus the \emph{non-coeliac} mean, we would have \(8.39 - 8.17 = 0.22\), which is what is given in the table.
 \item
-  \textbf{FALSE}. The CI is for the \emph{difference} in the DMFT. The value is \textbf{not} about the \emph{number} of teeth; it is about the \emph{difference} in the number of teeth between coeliacs and non-coeliacs. A negative value is fine if we understand what the CI is estimating.
+  \textbf{FALSE}.
+  The CI is for the \emph{difference} in the DMFT.
+  The value is \textbf{not} about the \emph{number} of teeth; it is about the \emph{difference} in the number of teeth between coeliacs and non-coeliacs.
+  A negative value is fine if we understand what the CI is estimating.
 \item
   The \emph{positive} value of \(2.76\) means (as we saw in the first Quick Revision question) that coeliacs have a mean of \(2.76\) more DMFT.\\
   So the \emph{negative} value of \(-2.32\) means that \emph{non}-coeliacs have a mean of \(2.32\) more DMFT.
 \item
-  \textbf{TRUE}. Remember that all hypotheses are about population parameters, and have an `equals to' in there somewhere (the `no difference, no change, no relationship' position).
+  \textbf{TRUE}.
+  Remember that all hypotheses are about population parameters, and have an `equals to' in there somewhere (the `no difference, no change, no relationship' position).
 \item
-  \textbf{FALSE}. The hypothesis is about population parameters (\(\\mu\)), which is good.\\
+  \textbf{FALSE}.
+  The hypothesis is about population parameters (\(\mu\)), which is good.\\
   But the actual question was only about studying the difference, which suggests a \emph{two}-tailed alternative hypothesis (not a \emph{one}-tailed alternative hypothesis as given).
 \item
-  \textbf{FALSE}. The \emph{sample} means could be different for one of two reasons: (a)\textbackslash{} the population means are actually the same, but the \emph{sample means} are just different due to sampling variation; or (b)\textbackslash{} because the \emph{population} means are different.\\
+  \textbf{FALSE}.
+  The \emph{sample} means could be different for one of two reasons: (a)~the population means are actually the same, but the \emph{sample means} are just different due to sampling variation; or (b)~because the \emph{population} means are different.\\
   We don't know \emph{which} one of these reasons is the reason here.
 \item
   How much larger the mean number of cavities are for coeliacs.
 \item
-  When both sample sizes are larger than\textbackslash{} \(25\), the CI is statistically vaid.
-  Since both sample sizes are only \emph{just} smaller than\textbackslash{} \(25\), the test is \emph{probably} statistically valid.
+  When both sample sizes are larger than~\(25\), the CI is statistically vaid.
+  Since both sample sizes are only \emph{just} smaller than~\(25\), the test is \emph{probably} statistically valid.
 \end{enumerate}
 
 \end{startClassAnswersBox}
@@ -10317,7 +10331,7 @@ Statements~2 and~4 are \textbf{both} consistent with the information (small \(P\
 \subsection{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-9}
 
 \begin{discussBox}{iconmonstr-speech-bubble-26-240.png}
-\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, or \emph{percentages}?
+\textbf{Discuss}: When comparing two groups, is it better to focus on differences in \emph{proportions}, \emph{odds}, \emph{odds ratios}, or \emph{percentages}?
 
 \end{discussBox}
 
@@ -10426,14 +10440,15 @@ Ideally, explicitly \textbf{connect} to:
 \subsection{\texorpdfstring{\hyperref[QuickRevision-Tutorial11]{Quick Revision} answers}{Quick Revision answers}}\label{quick-revision-answers-10}
 
 \begin{startClassAnswersBox}{iconmonstr-checkbox-5-240.png}
-
 Student~1:
 Not using the standard error; hence, \textbf{if} the \emph{data} have a normal distribution, this is an interval that contains about \(68\)\% of the \emph{data}.
 
 Student~2:
 Not using the standard error; hence, \textbf{if} the \emph{data} have a normal distribution, this is an interval that contains about \(95\)\% of the \emph{data}.
 
-Correct: \(95\)\% CI for the \emph{mean} is \(12.4\pm (2\times 2.8/sqrt{6})\), or from~\(10.11\) to~\(14.69\,\text{MPa}\). :::
+Correct: \(95\)\% CI for the \emph{mean} is \(12.4\pm (2\times 2.8\sqrt{6})\), or from~\(10.11\) to~\(14.69\,\text{MPa}\).
+
+\end{startClassAnswersBox}
 
 \subsection{Thoughts on Class Discussion}\label{thoughts-on-class-discussion-10}
 
@@ -10584,7 +10599,7 @@ Regression and correlation are not the same thing!
 \item
   \(R^2 = (0.931^2) = 0.86676\), or about \(86.7\)\%.
 \item
-  Using \(x = 700\), we would have: \(\\hat{y} = 137.4 + (0.3459\\times 700) = 380\) seeds.
+  Using \(x = 700\), we would have: \(\hat{y} = 137.4 + (0.3459\times 700) = 380\) seeds.
 \item
   The \emph{slope} (which is \(0.3459\)) is how much the average value of \(y\) changes (the number of seeds) when the value of \(x\) (the amount of mud) increases by one.
 \item
@@ -10698,9 +10713,8 @@ Ideally, explicitly \textbf{connect} to:
   Residual analysis and model evaluation.
 \item
   Predictive performance and cross-validation.
+  :::
 \end{itemize}
-
-\end{startClassAnswersBox}
 
 \href{TutorInfo.html}{\textbf{Return to index of tutor information.}}
 
@@ -10709,7 +10723,7 @@ Ideally, explicitly \textbf{connect} to:
 \chapter*{References}\label{references}
 
 
-\protect\phantomsection\label{refs}
+\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
 \bibitem[\citeproctext]{ref-agresti2007statistics}
 Agresti A, Franklin CA. Statistics: {T}he art and science of learning from data. Third. Pearson Education Limited; 2007.

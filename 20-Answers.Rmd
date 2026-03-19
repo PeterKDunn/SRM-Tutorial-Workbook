@@ -1146,19 +1146,6 @@ $n = (2\times 7.145\div 0.5)^2 = 816.8$, so use guesses from $817$\ students.
 
 ## Answers for TW 11 tutorial {#Lecture11Answers}
 
-<!--
-### Answers for Sect.\ \@ref(CIConcrete) {.unlisted .unnumbered}
-
-1. Both students are incorrect as they used $s$ rather than $\text{s.e.}(\bar{x})$.
-   * Student\ A:
-     This is an approximate $68$%\ CI for the values of individual concrete samples, not for the mean, **assuming the individual first-crack strengths have an approximate normal distribution**.
-    * Student\ B:
-      This is an approximate $95$%\ CI for the values of individual concrete samples, not for the mean, **assuming the individual first-crack strengths are approximately normally distributed**.
-2.  We need to use the *standard error* because the question asks about a sample mean... and standard errors tells us how much the sample means are likely to vary.
-    $12.4\pm(2\times 2.8\div\sqrt{6})$, or $12.4\pm 2.286\MPas$, or from $10.11$ to\ $14.69\MPas$.
--->
-
-
 ### Answers for Sect.\ \@ref(CritiqueReports1) {.unlisted .unnumbered}
 
 * **Research question:** use *mean* distance.

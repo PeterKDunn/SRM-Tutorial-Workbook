@@ -1,0 +1,42 @@
+book_filename: "TutorialWorkbookTutor"
+output_dir: docs/tutors
+new_session: yes
+repo: https://github.com/PeterKDunn/SRM-Tutorial-Workbook
+before_chapter_script:
+- R/setup.R
+- R/NormalDistributions.R
+- R/webex.R
+- R/pad.R
+clean:
+- packages.bib
+- bookdown.bbl
+delete_merged_file: no
+# NOTE: Chapter 24 (TUTOR ANSWERS) inserted optionally at the END of 23-ImageCredits.Rmd
+# Inclusion of this tutor-ony info is controlled in R/setup.R (and only happens for PDF version anyway)
+rmd_files:
+- index.Rmd
+- 01-TW1-Tutorial.Rmd
+- 02-TW2-Tutorial.Rmd
+- 03-TW3-Tutorial.Rmd
+- 04-TW4-Tutorial.Rmd
+- 05-TW5-Tutorial.Rmd
+- 06-TW6-Tutorial.Rmd
+- 07-TW7-Tutorial.Rmd
+- 08-TW8-Tutorial.Rmd
+- 09-TW9-Tutorial.Rmd
+- 10-TW10-Tutorial.Rmd
+- 11-TW11-Tutorial.Rmd
+- 12-TW12-Tutorial.Rmd
+- 20-Answers.Rmd
+- 21-Tables.Rmd
+- 22-Symbols.Rmd
+- 23-ImageCredits.Rmd
+# 24-TutorInfo:  24-TutorInfo.Rmd conditionally inserted at the end of Chapter 23 (23-ImageCredits.Rmd)
+- 25-References.Rmd
+language:
+  label:
+    lem: 'Think '
+    fig: 'FIGURE '
+    tab: 'TABLE '
+    ui:
+      edit: Edit

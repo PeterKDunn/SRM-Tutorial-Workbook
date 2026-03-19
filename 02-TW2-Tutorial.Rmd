@@ -97,13 +97,13 @@ Explain **why** each of these statements is **incorrect**.
 \greyboxlines{2}
 1. "The Outcome is *the average serum cholesterol concentration for smokers and non-smokers*."
 \greyboxlines{2}
-1. "The study is not externally valid, as the results may not apply to all people in the world."
+1. "The study is *not* externally valid, as the results may not apply to all people in the world."
 \greyboxlines{2}
 1. "The response variable is *serum cholesterol*."
 \greyboxlines{2}
 1. "In this experiment, the population is *Australians*."
 \greyboxlines{2}
-1. "The data file will have two columns: one for smokers, and one for non-smokers."
+1. "The data file will have two columns: one with serum cholesterol concentration for smokers, and one with serum cholesterol concentration for non-smokers."
 \greyboxlines{2}
 1. "*Whether or not the person owns a cat* is likely to be a confounding variable."
 \greyboxlines{2}
@@ -150,6 +150,8 @@ regarding this information.
 >
 > Trained evaluators who were unaware of study-group assignments assessed patients\ $6$, $12$, $24$, and $36$\ weeks after randomization.
 > The primary outcome was a change in the Fugl-Meyer score at $12$\ weeks, as compared with the baseline value...
+>
+> --- @data:Lo2010:RobotAssistance
 
 
 <iframe src="https://usc.h5p.com/content/1291418096383708349/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

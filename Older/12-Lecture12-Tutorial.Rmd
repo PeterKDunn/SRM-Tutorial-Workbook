@@ -45,9 +45,6 @@ Another student computes the approximate $95$% CI for the mean first-crack stren
 
 
 
-
-
-
 ## Critiquing past students' reports 1 {#CritiqueReports1}
 
 The extracts below are from an actual student Project Report.
