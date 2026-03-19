@@ -299,7 +299,7 @@ If you need help, please **ask**.
 :::
 
 
-1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in metres [@telford1991sex].
+1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in centimetres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
 \greyboxlines{2}
    b. Without using a calculator, find the **median** of the data.
@@ -319,7 +319,7 @@ AISTab <- array( "",
                  dim = c(1, length(Hts)) )
 
 AISTab[1, ] <- Hts
-AIScap <- "The heights (in metres) of female tennis players at the AIS."
+AIScap <- "The heights (in centimetres) of female tennis players at the AIS."
 
 if( knitr::is_latex_output() ) {
   kable( pad(AISTab,
@@ -385,7 +385,7 @@ if( knitr::is_html_output() ) {
 
 
 
-3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
+3. The data in Table\ \@ref(tab:AISTable2) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the IQR.
