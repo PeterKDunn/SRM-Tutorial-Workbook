@@ -338,7 +338,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or $91.7$%.
 5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or $11.0$.
 6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or $18.9$%.
-7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or $0.234$.
+7. The odds of a bridge collapsing due to collisions is *82* divided by *351*, or $0.234$.
 8. The odds of an event cannot be larger than one: *FALSE*.
 9. The odds of an event cannot be smaller than one. *FALSE*.
 10. The following statement is true: *c. Odds cannot be negative*
