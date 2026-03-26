@@ -371,8 +371,10 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 1. Backwards.
 1. See Table\ \@ref(tab:SMNDAnswerTable).
-2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
-3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
+2. $60/320 = 0.1875$.
+   A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
+3. $33/344 = 0.096$.  
+   A worker without SMND is $0.096$ times as likely to worked with metals than to have not worked with metals,  
 
 
 ```{r echo=FALSE, SMNDAnswerTable}
