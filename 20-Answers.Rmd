@@ -506,10 +506,13 @@ Answers implied by H5P.
 Answers embedded.
 Some answers:
 
-**1.** In order from left to right: $70$; $85$; $100$; $115$; $130$.
-**3.** $30$ points above the mean.
-**4.** Two standard deviations above the mean.
-**5.** About $2.5$%.
+1. (No picture).
+2. $130 - 100 = 30$ points above the mean.
+3. Two standard deviations above the mean.
+4. (No picture.)
+5. $-15$; that is, $15$ IQ points *below* the mean.
+6. $z = -1$; that is, one standard deviation *below* the mean. 
+7. About $68$%.
 
 A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
 Using the **68**--$95$--$99.7$ rule, the proportion of the population with an IQ less than $85$ is about **32**%. 
@@ -577,7 +580,8 @@ classical.
    This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
 8. The $z$-score is $0.385$ from Appendix\ 3 in the textbook, remembering that the area to the *left* would be $0.650$ (draw a diagram!). 
    So, the $z$-score is $0.385$, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
-
+9. $z = -4.5$; from a picture of the normal distribution, the probability that $z$ is greater than $-4.5$ is practically (but not exactly) $100$%: the SOI is practically *always* larger than\ $55$.
+10. Draw a picture of a normal distribution: half the SOI values are bigger than\ $0$, and half are smaller than\ $0$.
 
 
 
