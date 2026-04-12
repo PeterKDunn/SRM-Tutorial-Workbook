@@ -503,9 +503,8 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(NormalIQs) {.unlisted .unnumbered}
 
-Answers embedded.
-Some answers:
 
+`r if (knitr::is_html_output()) '<!--'`
 1. (No picture).
 2. $130 - 100 = 30$ points above the mean.
 3. Two standard deviations above the mean.
@@ -513,10 +512,25 @@ Some answers:
 5. $-15$; that is, $15$ IQ points *below* the mean.
 6. $z = -1$; that is, one standard deviation *below* the mean. 
 7. About $68$%.
+`r if (knitr::is_html_output()) '-->'`
 
-A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
+`r if (knitr::is_latex_output()) '<!--'`
+Answers embedded.
+
+Some answers:
+
+1. In order: $70, 85, 100, 115, 130$.
+3. $30$.
+4. $2$.
+5. Using the $68$--$95$--$99.7$ rule: about $2.5$%.
+7. A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
 Using the **68**--$95$--$99.7$ rule, the proportion of the population with an IQ less than $85$ is about **32**%. 
 In addition, the proportion of the population with an IQ **above** $85$ is about **68**%.
+8. 'Intelligent', but not an absolute genius: a reasonably large percentage of the population has a larger IQ than\ $110$. 
+9. $-15$ (i.e., 15 points below the mean).
+10. $-1$ (i.e. one standard deviation below the mean).
+11. About $32$%.
+`r if (knitr::is_latex_output()) '-->'`
 
 
 ### Answers for Sect.\ \@ref(NormalHeights) {.unlisted .unnumbered}
