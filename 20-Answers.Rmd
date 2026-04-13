@@ -511,7 +511,7 @@ Answers implied by H5P.
 4. (No picture.)
 5. $-15$; that is, $15$ IQ points *below* the mean.
 6. $z = -1$; that is, one standard deviation *below* the mean. 
-7. About $68$%.
+7. About $84$%.
 `r if (knitr::is_html_output()) '-->'`
 
 `r if (knitr::is_latex_output()) '<!--'`
@@ -529,7 +529,7 @@ In addition, the proportion of the population with an IQ **above** $85$ is about
 8. 'Intelligent', but not an absolute genius: a reasonably large percentage of the population has a larger IQ than\ $110$. 
 9. $-15$ (i.e., 15 points below the mean).
 10. $-1$ (i.e. one standard deviation below the mean).
-11. About $32$%.
+11. About $84$%.
 `r if (knitr::is_latex_output()) '-->'`
 
 
