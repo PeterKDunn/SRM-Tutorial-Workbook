@@ -6,7 +6,7 @@ author: "Peter K. Dunn"
 geometry: margin=27mm
 description: "TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)"
 cover-image: "images/cover-Tutorial.png"
-date: "Last updated: April 13, 2026"
+date: "Last updated: April 23, 2026"
 bibliography: ["ReferenceList.bib"]
 #biblio-style: plain
 csl: journal-of-applied-animal-science.csl
