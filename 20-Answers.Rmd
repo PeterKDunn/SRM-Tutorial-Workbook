@@ -752,7 +752,7 @@ Answers implied by H5P.
 1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
 1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.022092$.
 1. $t = (11.486-12)/0.022092 = -23.3$.
-1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
+1. The $t$-score is *huge* (and negative), so the $P$-value is *very* small.
    (Two-tailed $P<0.001$ from the table or from software.)
 1. Very strong evidence exists in the sample ($t = -23.3$$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
    $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
