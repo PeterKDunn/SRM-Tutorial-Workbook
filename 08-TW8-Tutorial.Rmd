@@ -48,7 +48,7 @@ You will learn and practice the content associated with these chapters of the [t
 ::: {.webex-box}
 1. True or false: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
 \greyboxlines{1}
-1. True or false: Hypothesis are always written in terms of population parameters. 
+1. True or false: Hypotheses are always written in terms of population parameters. 
 \greyboxlines{1}
 1. True or false: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
 \greyboxlines{1}
