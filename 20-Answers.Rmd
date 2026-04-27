@@ -650,6 +650,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 2. $\hat{p} = 123/404 = 0.304455$.
 3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (i.e., it is lower).
 	Or: For every $100$ that die, about $44$ survive.
+	 The **proportion**: About\ $30.4$ of every\ $100$ patients survive.
 4. No: sampling variation!
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1 - 0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about $0.023$.  
    A definition can be found in the textbook *Glossary*. 
