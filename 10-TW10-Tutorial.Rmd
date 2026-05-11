@@ -315,11 +315,11 @@ if( knitr::is_html_output() ) {
 #  MaturationSumm[3,2] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
 
   MaturationSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                            tol = 0.1, 
+                                            tol = 0.001, 
                                             width = 6, 
                                             answer = round(352 / 2864, 3) )
   MaturationSumm[2, 1] <- webexercises::fitb(num = TRUE, 
-                                            tol = 0.1, 
+                                            tol = 0.001, 
                                             width = 6, 
                                             answer = round(336 / 2664, 3) )
 
@@ -334,7 +334,7 @@ if( knitr::is_html_output() ) {
 
   MaturationSumm[3, 1] <- paste("Diff:",
                            webexercises::fitb(num = TRUE, 
-                                            tol = 0.0025, 
+                                            tol = 0.002, 
                                             width = 6, 
                                             answer = round( (352 / 2864) - (336 / 2664), 3) ) )
   MaturationSumm[3, 2] <- paste("OR:",
