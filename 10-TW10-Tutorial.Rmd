@@ -49,7 +49,7 @@ Take careful note of which chapters are covered in this tutorial!
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$\ different sites, allocating the two grasses at random to the sites ($25$\ sites for each grass).
 
-After $12$\ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+After $12$\ months, the ecologist records whether the soil salinity at each site has changed, and hence computes the *odds* that each grass will change the salinity.
 She finds a statistically significant difference between the odds in the two groups.
 
 Which of these statements is *consistent* with this conclusion?
