@@ -75,6 +75,15 @@ How would the other statements be interpreted then?
 
 ## Consistency {#Consistency}
 
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+Consistency between the RQ, hypotheses, the CI,  the hypothesis test, and the results is important.
+For example: if the RQ is written in terms of *proportions*, then the hypotheses, CI and so forth should also be written in terms of *proportions*.
+
+In addition: explaining exactly what the statistic and the CI are estimating (the **parameter**) is **very** important.
+:::
+
+
 Suppose a researcher asked the RQ:
 
 > For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
@@ -109,6 +118,12 @@ Suppose a researcher asked the RQ:
    b. A hypothesis tests for the odds ratio.
    c. Either of the above.
 `r if( knitr::is_html_output() ) {'-->'}`
+4. Suppose the sample odds ratio is found to be $0.51$. 
+   Explain very clearly what this odds ratio **means** in context.
+5. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.17$.
+   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
+6. Suppose the CI is found to be $0.23$ to $1.1$. 
+   Explain **very clearly** what this CI **means** in context.
 
    
 ## CI and test for odds ratios {#OddsSoftware}

@@ -900,6 +900,29 @@ with(ReactionTime,
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
 
+4. The *odds ratio* here means, from the RQ
+$$
+  \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
+$$
+  So the odds of someone receiving mosquito bites when sitting near a citronella candle is $0.41$ times the odds for those sitting near a wax candle (i.e., is lower).
+5. $0.51\times 2.17 = 1.1$.
+6. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.23$ and $1.1$ times the odds for those sitting near a wax candle (i.e., is lower).
+
+
+<!--
+Based on (artificial):
+
+|      | Bites | No bites  | Total  |
+|------|-------------------|--------|
+| Cit  |   22  | 20        | 42     |
+| Wax  |   52  | 24        | 76     |
+
+Odds(bites): 1.1 (Cit)
+Odds(bites): 2.17 (Wax)
+OR: 0.51
+CI: 0.234 - 1.10
+-->
+
 
 ### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
 
