@@ -49,7 +49,7 @@ Take careful note of which chapters are covered in this tutorial!
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$\ different sites, allocating the two grasses at random to the sites ($25$\ sites for each grass).
 
-After $12$\ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+After $12$\ months, the ecologist records whether the soil salinity at each site has changed, and hence computes the *odds* that each grass will change the salinity.
 She finds a statistically significant difference between the odds in the two groups.
 
 Which of these statements is *consistent* with this conclusion?
@@ -74,6 +74,15 @@ How would the other statements be interpreted then?
 
 
 ## Consistency {#Consistency}
+
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+Consistency between the RQ, hypotheses, the CI,  the hypothesis test, and the results is important.
+For example: if the RQ is written in terms of *proportions*, then the hypotheses, CI and so forth should also be written in terms of *proportions*.
+
+In addition: explaining exactly what the statistic and the CI are estimating (the **parameter**) is **very** important.
+:::
+
 
 Suppose a researcher asked the RQ:
 
@@ -109,6 +118,12 @@ Suppose a researcher asked the RQ:
    b. A hypothesis tests for the odds ratio.
    c. Either of the above.
 `r if( knitr::is_html_output() ) {'-->'}`
+4. Suppose the sample odds ratio is found to be $0.51$. 
+   Explain very clearly what this odds ratio **means** in context.
+5. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.17$.
+   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
+6. Suppose the CI is found to be $0.23$ to $1.1$. 
+   Explain **very clearly** what this CI **means** in context.
 
    
 ## CI and test for odds ratios {#OddsSoftware}
@@ -315,11 +330,11 @@ if( knitr::is_html_output() ) {
 #  MaturationSumm[3,2] <- webexercises::fitb(num=TRUE, tol=0.001, width=6, answer=579 )
 
   MaturationSumm[1, 1] <- webexercises::fitb(num = TRUE, 
-                                            tol = 0.1, 
+                                            tol = 0.001, 
                                             width = 6, 
                                             answer = round(352 / 2864, 3) )
   MaturationSumm[2, 1] <- webexercises::fitb(num = TRUE, 
-                                            tol = 0.1, 
+                                            tol = 0.001, 
                                             width = 6, 
                                             answer = round(336 / 2664, 3) )
 
@@ -334,7 +349,7 @@ if( knitr::is_html_output() ) {
 
   MaturationSumm[3, 1] <- paste("Diff:",
                            webexercises::fitb(num = TRUE, 
-                                            tol = 0.0025, 
+                                            tol = 0.002, 
                                             width = 6, 
                                             answer = round( (352 / 2864) - (336 / 2664), 3) ) )
   MaturationSumm[3, 2] <- paste("OR:",

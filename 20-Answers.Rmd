@@ -650,6 +650,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 2. $\hat{p} = 123/404 = 0.304455$.
 3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (i.e., it is lower).
 	Or: For every $100$ that die, about $44$ survive.
+	 The **proportion**: About\ $30.4$ of every\ $100$ patients survive.
 4. No: sampling variation!
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1 - 0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about $0.023$.  
    A definition can be found in the textbook *Glossary*. 
@@ -752,7 +753,7 @@ Answers implied by H5P.
 1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
 1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.022092$.
 1. $t = (11.486-12)/0.022092 = -23.3$.
-1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
+1. The $t$-score is *huge* (and negative), so the $P$-value is *very* small.
    (Two-tailed $P<0.001$ from the table or from software.)
 1. Very strong evidence exists in the sample ($t = -23.3$$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
    $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
@@ -898,6 +899,29 @@ with(ReactionTime,
 
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
+
+4. The *odds ratio* here means, from the RQ
+$$
+  \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
+$$
+  So the odds of someone receiving mosquito bites when sitting near a citronella candle is $0.41$ times the odds for those sitting near a wax candle (i.e., is lower).
+5. $0.51\times 2.17 = 1.1$.
+6. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.23$ and $1.1$ times the odds for those sitting near a wax candle (i.e., is lower).
+
+
+<!--
+Based on (artificial):
+
+|      | Bites | No bites  | Total  |
+|------|-------------------|--------|
+| Cit  |   22  | 20        | 42     |
+| Wax  |   52  | 24        | 76     |
+
+Odds(bites): 1.1 (Cit)
+Odds(bites): 2.17 (Wax)
+OR: 0.51
+CI: 0.234 - 1.10
+-->
 
 
 ### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}
