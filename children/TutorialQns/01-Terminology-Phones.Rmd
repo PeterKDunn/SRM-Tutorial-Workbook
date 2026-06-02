@@ -2,105 +2,100 @@
 	
 The use of mobile phones has changed peoples' behaviour.
 @data:Barkley2016:Phones examined how the use of mobile phones impacts walking speed.
-Read the following information from the research article (p.\ 2, 3):
-
-> The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
-> &nbsp;
->
-> Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus.  
-> &nbsp;
->
-> We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone [...]
-> The walkway was straight, had limited ingress and egress, and was simple to navigate.  
-> &nbsp;
->
-> All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
-> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
-> &nbsp;
-> 
-> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.  
-> &nbsp;
->
-> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
-
-
-Answer the questions that follow, **explaining** the reason for your choices.
+Read the following information from the research article (p.\ 2, 3), and answer the questions that follow, **explaining** the reason for your choices.
 **Make sure you explain why the other options are incorrect.**
 
-1. Which one of these is most likely the *population* under study?
-    a. Phones.
-    b. People.
-    c. People at an American college.
-    d. Students at an American college.
-    
-  Explain why the other options are *incorrect*.
-  \greyboxlines{2}
+
+> The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
 
 2. Which one of these is most likely the *outcome* in the study?
+   Explain why the other options are *incorrect*.
     a. The way subjects were using their phone.
     b. The time taken to walk $50$\ m.
     c. The **average** time taken to walk $50$\ m.
     d. The difference between the times taken, between those texting and those not texting.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
 		
 3. Which one of these is most likely the *comparison* in the study?
+   Explain why the other options are *incorrect*.
     a. Between the ways that subjects were using their phone (talking; texting; not at all).
     b. Between those walking slowly and those walking quickly.
     c. Between those walking and those not walking.
     d. Between those using and not using a mobile phone.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
-		
-4. Which one of these is most likely the *intervention* in the study?
-    a. The way subjects were using their phones.
-    b. The timing of the walk.
-    c. There is no intervention.
-    d. The phone.
-    
-  Explain why the other options are *incorrect*.
-  \greyboxlines{2}
-
 		
 5. What is the *explanatory variable*?
+   Explain why the other options are *incorrect*.
     a. The phone.
     b. The way that the phone is being used.
 	  c. The **average** time to walk $50\ms$.
     d. The walking speed.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
 				
 6. What is the *response variable*?
+   Explain why the other options are *incorrect*.
     a. The differences between the times taken.
     b. The way subjects were using the phone.
     c. The **average** time to walk $50\ms$.
     d. The time taken to walk $50\ms$.
-    
-Explain why the other options are *incorrect*.
 \greyboxlines{2}
 
+\bigskip
+
+>
+> Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus [...]  
+> &nbsp;
+>
+> The walkway was straight, had limited ingress and egress, and was simple to navigate. 
+
+
+1. Which one of these is most likely the *population* under study?
+  Explain why the other options are *incorrect*.
+    a. Phones.
+    b. People.
+    c. People at an American college.
+    d. Students at an American college.
+  \greyboxlines{2}
+
+
+4. Which one of these is most likely the *intervention* in the study?
+   Explain why the other options are *incorrect*.
+    a. The way subjects were using their phones.
+    b. The timing of the walk.
+    c. There is no intervention.
+    d. The phone.
+  \greyboxlines{2}
+
+\bigskip
+
+> All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
+> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
+> &nbsp;
+> 
+> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.
 
 7. Which one of these is most likely the *unit of observation* in the study?
+  Explain why the other options are *incorrect*.
     a. The phone.
     b. *Individual* subjects.
     c. *Groups* of subjects.
     d. Minutes.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
 		
 8. Which one of these is most likely the *unit of analysis* in the study?
+  Explain why the other options are *incorrect*.
     a. The phone.
     b. *Individual* subjects.
     c. *Groups* of subjects.
     d. Minutes.
-
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
+\bigskip
+
+> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
+
+9. What is the purpose of this feature of their research?
+  \greyboxlines{2}
