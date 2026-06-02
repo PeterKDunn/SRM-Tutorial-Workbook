@@ -114,9 +114,14 @@ There was $44$\ matches.
    Why does Claire think a CI is needed?
    What will it tell them?
 \greyboxlines{2}
-6. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
+
+
+6. Would the standard deviation of the number of matches in a box be more likely to be $0.04$\ matches, $0.4$\ matches or $4$\ matches?
+   Explain.
 \greyboxlines{2}
-7. "Aha---I told you so!  
+7. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
+\greyboxlines{2}
+8. "Aha---I told you so!
    They *are* absolutely lying!
    Your confidence interval doesn't even include their mean of $45$!" said Jake.
    "The manufacturer *must* be lying!
@@ -126,18 +131,18 @@ There was $44$\ matches.
    Why or why not?
    What does the CI *mean*?
 \greyboxlines{2}
-8. In this scenario, what does\ $\bar{x}$ represent?
+9. In this scenario, what does\ $\bar{x}$ represent?
    What is the *value* of\ $\bar{x}$?
 \greyboxlines{2}
-9. In this scenario, what does\ $\mu$ represent?
+910. In this scenario, what does\ $\mu$ represent?
    What is the *value* of\ $\mu$?
 \greyboxlines{2}
 
 
-## Standard error for a proportion {#SEproportions}
+## Standard error formulas {#SEproportions}
 
 
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/07-StdErrorProportion.Rmd'}
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/07-StdErrors.Rmd'}
 ```
 
 
@@ -239,7 +244,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 
 \greyboxlines{2}
    
-```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 3.5, out.width="70%", fig.align="center"}
+```{r PizzaHistoCI, echo=FALSE, fig.cap="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.", fig.width=6, fig.height = 3.5, out.width="65%", fig.align="center"}
 data(PizzaSize)
 
 hist( PizzaSize$DiameterInches[PizzaSize$Store == "EagleBoys"],
