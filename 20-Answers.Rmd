@@ -626,9 +626,11 @@ classical.
    This sample may just have an unusually low number of matches.
 4. Either (1)\ The manufacturer is lying; or (2)\ the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
 5. A CI gives some indication of the variation implied by the sample.
-6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+6. Probably around $0.4$\ matches.
+   (Three standard deviations either side of the mean would be about $0.4 \times 3 = 1.2$ \ matches either side of the $45$\ target, much more reasonable than any other option.)
+7. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
    So the approximate $95$%\ CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
-7. No. A $95$% CI may or may not contain the population mean.
+8. No. A $95$% CI may or may not contain the population mean.
    Of course, the manufacturer *may* indeed be lying...
    but we'd need to be cautious about making such a bold claim on just this evidence.
    Ideally, we would repeat this study a few times or take a larger sample.
@@ -636,8 +638,8 @@ classical.
 
    If we had many, many sets of $25$\ matches boxes,
    $95$% of these sets of\ $25$ would have a mean between $44.85$ and $44.95$.
-8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
-9. $\mu$ is the mean of the population; the true mean if you like.
+9. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+10. $\mu$ is the mean of the population; the true mean if you like.
    $\mu$ is *claimed* to be $45$, but the the value of $\bar{x}$ will, of course, vary.
 
 
@@ -805,7 +807,17 @@ Answers implied by H5P.
    **K**: $p_{\text{white}} - p_{\text{wholemeal}}\ne 0$.
 4. Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
    **L**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} > 0$.
-  
+   
+   
+   
+### Answers for Sect.\ \@ref(LimeTreesjamovi) {.unlisted .unnumbered}
+
+1. Mean for natural trees ($\mu_N$), minus the mean for planted trees ($\mu_P$).
+2. $\mu_N - \mu_P$.
+3. The difference between the population means could be between $2.7\cms$ larger for planted trees, to $1.5\cms$ larger for natural trees.
+4. The difference between the population means could be between $0.6\cms$ and $4.0\cms$ larger for natural trees.
+5. The difference between the population means could be between $1.6\cms$ and $4.5\cms$ larger for planted trees.
+
 
 ### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
 
@@ -904,13 +916,19 @@ with(ReactionTime,
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
 
-4. The *odds ratio* here means, from the RQ
+4. From the output, the OR is $0.508$.
+5. The *odds ratio* here means, from the RQ
 $$
   \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
 $$
-  So the odds of someone receiving mosquito bites when sitting near a citronella candle is $0.41$ times the odds for those sitting near a wax candle (i.e., is lower).
-5. $0.51\times 2.17 = 1.1$.
-6. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.23$ and $1.1$ times the odds for those sitting near a wax candle (i.e., is lower).
+5. The odds of someone receiving mosquito bites when sitting near a citronella candle is $0.51$ times the odds for those sitting near a wax candle (i.e., is lower).
+6. The difference between proportions is $p_C- p_W$.
+   In the population, the proportion of people bitten by mosquitoes is between $0.344$ higher near a **wax** candle to $0.024$ higher near a **citronella** candle.
+7. $0.51\times 2.167 = 1.1$.
+8. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.234$ times (i.e., lower) and $1.102$ times (i.e., higher) than the odds for those sitting near a wax candle.
+9. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.11$ and $0.94$ times the odds for those sitting near a wax candle (i.e., is lower).
+10.In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $1.28$ and $4.13$ times the odds for those sitting near a wax candle (i.e., is higher).
+11. The smallest expected count will be $42\times 44/118 = 15.7$, which comfortably exceeds five: the CIs are statistically valid.
 
 
 <!--
@@ -922,7 +940,7 @@ Based on (artificial):
 | Wax  |   52  | 24        | 76     |
 
 Odds(bites): 1.1 (Cit)
-Odds(bites): 2.17 (Wax)
+Odds(bites): 2.167 (Wax)
 OR: 0.51
 CI: 0.234 - 1.10
 -->
