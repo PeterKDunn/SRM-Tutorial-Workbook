@@ -71,6 +71,10 @@ Answers implied by H5P.
 **Unit of observation**: *Individual* subjects.
 **Unit of analysis**: *Individual* subjects.
 
+The purpose of taking data from every fifth individual: systematic sampling (on top of convenience sampling).
+The purpose of taking data from individuals: people in groups often behave differently to individuals, and similarly to each other (for example: if one is talking to the others, the others are more likely to not be on their phone either).
+
+
 
 ### Answers for Sect.\ \@ref(CreateRQs) {.unlisted .unnumbered}
 
@@ -110,7 +114,7 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
 
-The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; units.
+The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; dingo; emu; estimation; evidence; joey; lurking; opal; POCI; qualitative; quantitative; relational; TAS; units.
 
 
 ### Answers for Sect.\ \@ref(TypesOfStudies) {.unlisted .unnumbered}
@@ -142,7 +146,7 @@ Quasi-experimental (the classes are determined by the *students*, but the lectur
 ### Answers for Sect.\ \@ref(LanguageReport) {.unlisted .unnumbered}
 
 The answers are, in alphabetical order:
-beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; randomly; relational; sample; three; treatment.
+ACT; beach; blind; control; ethical; experimental; fire; gum; Hawthorne; help; MCG; nominal; randomly; relational; sample; three; treatment; Uluru.
 
 
 ### Answers for Sect.\ \@ref(AssessReport) {.unlisted .unnumbered}
