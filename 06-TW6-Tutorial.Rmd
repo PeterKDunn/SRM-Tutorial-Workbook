@@ -330,11 +330,11 @@ if( knitr::is_html_output() ) {
 
 
 1. Use this data to create a histogram of the proportion of heads.
-   How would you describe the histogram?
+   Describe the histogram.
 \greyboxlines{4}
 1. I also 'tossed' $10$\ coins, but repeated this random process $400$\ times.
    My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
-   How would you describe the histogram?
+   Describe the histogram.
 \greyboxlines{2}
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
    What does this sketch show you?
@@ -348,13 +348,16 @@ set.seed(8412739)
 ProbHeads <- rbinom(400, 
                     size = 10, 
                     prob = 0.5)/10
-barplot( table(ProbHeads),
+out <- barplot( table(ProbHeads),
          space = 0,
          las = 1,
          xlab = "Proportion of heads",
          ylab = "No. times observed",
          main = "The proportion of heads in\n10 tosses of a coin",
          col = plot.colour)
+axis(1, 
+     at = out[c(1, seq(2, 10, by = 2), 11)], 
+     labels = FALSE)
 ```
 
 
