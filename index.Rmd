@@ -92,13 +92,7 @@ knit_hooks$set(document = function(x) {sub('\\usepackage[]{color}',
 ```
 
 
-This book has been prepared for use with the online textbook 
-`r if (knitr::is_latex_output()) {
-   '\\textit{Scientific Research and Methodology}'
-} else {
-   '[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/)'
-}`
-(which is also available as a traditional
+This book has been prepared for use with the textbook *Scientific Research and Methodology* (available [free online](https://peterkdunn.github.io/SRM-Textbook), or as a
 `r if (knitr::is_latex_output()) {
    'paper-based textbook, from (for example) \\url{https://www.routledge.com})'
 } else {
@@ -144,7 +138,7 @@ Many of the data sets used in this book are available in the **R** package `SRMD
 
 ## Call-outs used in this book {-}
 
-The call-outs used in this book have meanings:
+The call-outs used in this book are explained below:
 
 ### Call-outs to *orient* your study {-}
 
@@ -215,8 +209,8 @@ Numerous other **R** packages were used, including:
 * **diagram** [@Rpackage:diagram] for making some diagrams. 
 * **kableExtra** [@package:kableExtra] for nicer tables.
 * **DT** [@package:DT] for displaying some data tables in the online version.
-* **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better greyscale printing.
-* **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions).
+* **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better grey-scale printing.
+* **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions) in the online version.
 
 All of this software is *free* and open source.
 Other resources used include:
@@ -235,13 +229,15 @@ Other resources used include:
    '[**iconmonstr**](https://iconmonstr.com/)'
 }`,
  and are freely available.
+ 
+<!--
 * The cover for the book was made using a free image with 
 `r if (knitr::is_latex_output()) {
    'Canva.'
 } else {
    '[Canva](https://www.canva.com/).'
 }`
-
+-->
 
 
 ## Learning outcomes {-}
@@ -267,7 +263,7 @@ In this book, you will learn to:
 ## How to cite this book {-}
 
 Peter K. Dunn (2025).
-*Scientific Research and Methodology: An introduction to quantitative research and statistics in science, engineering and health*.
+*Scientific Research and Methodology Tutorial Book: An introduction to quantitative research and statistics in science, engineering and health*.
 Chapman & Hall.
 https://peterkdunn.github.io/SRM-Tutorial-Workbook/index.html
 
