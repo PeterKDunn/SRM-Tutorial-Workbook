@@ -1,0 +1,32 @@
+
+
+Fill in the blanks in this piece of text,
+using words and phrases from Table\ \@ref(tab:Words3Table).
+
+> * Suppose I wish to see if a six-sided die is fair.  
+> * My __________ would be that the proportion of odd numbers is $0.5$.
+>   This value is a __________.   
+> * The __________ would be "the proportion of odd numbers in the sample".  
+> * We would __________ that the value of the statistic would be near $0.5$ (but maybe not exactly $0.5$).  
+> * If I roll the die $100$ times and observe **53** odd numbers, this seems __________ with what I would expect if the assumption was true.  
+> * If I roll the die $100$ times and observe **zero** odd numbers, this seems __________ with what I would expect if the assumption was true.
+
+
+```{r Words3Table, echo=FALSE}
+Words3 <- array( "", dim = c(2, 3))
+
+Words3[1, ] <- c("assumption", "consistent", "inconsistent")
+Words3[2, ] <- c("statistic", "expect", "parameter")
+
+
+if( knitr::is_latex_output() ) {
+  kable(Words3,
+      format = "latex",
+      booktab = TRUE,
+      align = "c",
+      caption = "Words and phrases to insert.") %>%
+  kable_styling(full_width = FALSE,
+                font_size = 10)}
+```
+
+
