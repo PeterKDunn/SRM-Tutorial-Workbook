@@ -71,12 +71,22 @@ You will learn and practice the content associated with these chapters of the [t
 
 ## The decision-making process {#DecisionMakingProcess}
 
-
-<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
+<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" aria-label="The decision-making process" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcess.Rmd'}
 ```
+
+
+
+## The decision-making process: dice {#DecisionMakingProcessDice}
+
+
+<iframe src="https://usc.h5p.com/content/1292918230698169809/embed" aria-label="The decision-making process: dice" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcessDice.Rmd'}
+```
+
+
 
 
 ## Test for one proportion {#HTOneProportionA}
