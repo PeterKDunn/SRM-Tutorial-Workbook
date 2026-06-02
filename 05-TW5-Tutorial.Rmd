@@ -76,7 +76,8 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 
 1. Two students are arguing about the median breadth.
-   Who is correct?  
+   Who is correct?
+   Why?  
    
 **Student\ 1** says:  
 
@@ -90,7 +91,10 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 > There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
-\greyboxlines{3}
+    a. Student 1
+    b. Student 2
+    c. Neither is corretc
+    d. Both are correct
 
 2. Describe the histogram.
 \greyboxlines{2}
@@ -99,7 +103,8 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 \greyboxlines{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
 \greyboxlines{1}
-5. If the difference was defined as $\mu_A - \mu_B$, what does this *measure*?
+5. The difference between means was defined as $\mu_A - \mu_B$.
+   What would a value of $-6.0\mms$ mean?
 \greyboxlines{2}
 6. What did you learn from this study?
 \greyboxlines{1}
