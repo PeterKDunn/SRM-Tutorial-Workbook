@@ -30,7 +30,7 @@ You will learn and practice the content associated with these chapters of the [t
 :::
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You should bring your calculator to tutorials from this week onwards.
+You should bring your calculator to tutorials **from this week onwards**.
 :::
 
 `r if( knitr::is_latex_output() ){'<!--'}`
@@ -98,13 +98,25 @@ In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carv
 (REI is the Respiratory Event Index; REI under\ $5$ refers to no sleep apnoea; REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. How would you *classify* the variable `Age`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 2. How would you *classify* the variable `Gender`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 3. How would you *classify* the variable `BMI`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 4. How would you *classify* the variable `REI`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 5. What did you learn from this study?
 \greyboxlines{1}
 :::
