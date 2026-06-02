@@ -154,6 +154,24 @@ include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
 ```
 
 
+### Interpreting jamovi output {#LimeTreesjamovi}
+
+The diameter of lime trees (in cms; called DBH (diameter at breast height)), some trees planted and some trees natural, were compared [@data:LimeTrees]. 
+Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
+
+```{r LimeTreesSummmary, echo=FALSE, fig.cap="jamovi output for comparing DBH (in cm) for two groups of lime trees,", fig.align="center", out.width="100%"}
+knitr::include_graphics("SoftwareImages/LimeTreesSummary.png")
+```
+
+1. How is the difference between the two groups defined, according to the output?
+2. What is the *parameter*?
+3. Suppose the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means.
+4. Suppose the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means.
+5. Suppose the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6)$: very carefully interpret what this means.
+
+
+
+
 ## CIs and tests for mean differences (paired data) {#CIImplant}
 
 ```{r echo=FALSE}
