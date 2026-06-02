@@ -68,18 +68,40 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
 (REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. Which of these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
-Median, mean, odds, or standard deviation.
+    a. Median
+    b. Odds
+    c. Standard deviation
+    d. Mean
 2. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
-\greyboxlines{1}
+    a. Standard deviation
+    b. Median
+    c. Mean
+    d. Odds
 3. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?
-\greyboxlines{1}
+    a. Percentage
+    b. Odds
+    c. Standard deviation
+    d. Mean
 4. What might be an **appropriate** way to numerically describe the gender of the participants?
-\greyboxlines{1}
+    a. Standard deviation
+    b. Median
+    c. IQR
+    d. Percentages
 5. In the sample of $n = 60$, what **percentage** of individuals are females?
-\greyboxlines{1}
+    a. 122
+    b. 0.82
+    c. 0.45
+    d. 45%
+    e. 55%
+    f. 0.55
 6. In the sample of $n = 60$, what are the **odds** that an individual is female?
-\greyboxlines{1}
-7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this mean.
+    a. 0.45
+    b. 45%
+    c. 122
+    d. 55%
+    e. 0.55
+    f. 0.82
+7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this means.
 \greyboxlines{3}
 :::
 
