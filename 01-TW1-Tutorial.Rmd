@@ -30,11 +30,6 @@ You will learn and practice the content associated with these chapters of the [t
 :::
 
 
-`r if (!tutorVersion) '<!--'`
-::: {.mentiQuestion data-latex=""}
-\null
-:::
-`r if (!tutorVersion) '-->'`
 
 
 \pagebreak
@@ -54,30 +49,50 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 > For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
 
-1.  What *type* of RQ is this? \tightlist
-    Descriptive, relational, repeated-measures or correlational?
-    Explain.
+1. What *type* of RQ is this?  \tightlist
+   Explain your answer, and why the other answers are incorrect.
+
+    a. Descriptive.
+    b. Relational.
+    c. Repeated-measures.
+    d. Correlational?
 \greyboxlines{1}
-2.  What is the *purpose* this RQ? \tightlist
-    Estimation or decision-making?
-    Explain. 
-\greyboxlines{1}
+2. What is the *purpose* this RQ? \tightlist
+    a. Estimation.
+    b. Decision-making?
 3. Is an *intervention* present? 
+   Explain your answer, and why the other answers are incorrect. 
    If so, what is it?
 \greyboxlines{1}
 4. What is the *outcome* in this RQ?
-   Explain. 
+   Explain your answer, and why the other answers are incorrect. 
+    a. The amount of salt in each meal.
+    b. The average amount of salt in Chinese and Indian take-away meals.
+    c. London take-away restaurants.
+    d. The average amount of salt.
 \greyboxlines{1}
 5. What is the *response variable*?
+    a. The amount of salt in each meal.
+    b. The average amount of salt in Chinese and Indian take-away meals.
+    c. London take-away restaurants.
+    d. The average amount of salt.
 \greyboxlines{1}
 6. What is the *unit of analysis*?
    Explain. 
+   a. We need more information about how the data were collected.
+   b. Each meal.
+   c. Each restaurant.
 \greyboxlines{1}
 7. What is the *unit of observation*?
    Explain. 
+   a. We need more information about how the data were collected.
+   b. Each meal.
+   c. Each restaurant.
 \greyboxlines{1}
-8. The article states (p. 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
+8. The article states (p.\ 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
    What *type* of definition is this? 
+   a. Operational.
+   b. Conceptual
 \greyboxlines{1}
 :::
 
@@ -111,7 +126,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 
 A `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner doesn't believe that his customers can taste the difference between diet and regular colas.
-As a result, the owner decides to conduct a study of his customers.
+As a result, the owner decides to study this by conducting a study of his customers.
 
 1. Two RQs that the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner is considering are given below.
    Which do you prefer, and why? \tightlist
@@ -249,7 +264,7 @@ Consider the following scenario:
 Nim considers studying Jane's assertion as the basis for a **feasible** and **practical** SCI110 project.
 
 1. Nim needs to determine a *population* to study.
-   Which of these would be a useful and practical population to use?
+   Which of these would be a useful, feasible and practical population to use?
    Or is there a different population that is 'better' to use?
    Explain.
     a. All university students.
@@ -279,7 +294,7 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
 \greyboxlines{2}
-10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
+10. Using this research question, identify the **response** and **explanatory** variables, and hence the data that *needs* to be collected to answer the question.
 \greyboxlines{2}
 
 
@@ -407,45 +422,53 @@ knitr::include_graphics("images/Crossword-Week1.png")
 
 \textbf{Across}
 \begin{enumerate}\tightlist
-  \item[\textbf{4.}] 
+  \item[\textbf{2.}]
+  The second step in the research process (6)  
+  \item[\textbf{3.}]
+  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)  
+  \item[\textbf{4.}]
+  A confounding variable, but is not measured or recorded, is a \verb|_______| variable (7)
+  \item[\textbf{5.}] 
   The first step in the research process is to \verb|___| the research question (3)  
-  \item[\textbf{5.}]
-  RQs in which groups are compared numerically are called \verb|__________| (10)  
-  \item[\textbf{6.}]
-  `Conceptual' and `Operational' are different types of \verb|___________| (11)  
-  \item[\textbf{8.}]
-  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
-  \item[\textbf{9.}]
-  The type of research where data are \emph{not} summarised using numerical methods (11)  
+  \item[\textbf{6.}] 
+  What is a baby koala called? (4)
+  \item[\textbf{8.}] 
+  What is the name of Australia's wild dog? (5)
+  \item[\textbf{9.}] 
+  What is the abbreviation for Australia's island state? (3)
   \item[\textbf{11.}]
-  Research is used to provide \verb|________|-based answers to RQs (8)  
+  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
   \item[\textbf{13.}]
-  The sample size is the number of \verb|_____| of analysis (5)  
+  What is Australia's national gemstone? (4)  
   \item[\textbf{14.}]
   What we do with the data to find an answer to the RQ (7)  
-  \item[\textbf{15.}]
-  A confounding variable, but is not measured or recorded, is a \verb|_______| variable (7)
-
+  \item[\textbf{16.}]
+  After designing a study, the next step is to \verb|_______| the data (7)  
+  \item[\textbf{18.}]
+  Independent collections of units of observations are called units of \verb|________| (8)
 \end{enumerate}
 
 \columnbreak
 
 \textbf{Down}
-\begin{itemize}\tightlist
+\begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  The acronym to remember the four components of a RQ (4)
+  The sample size is the number of \verb|_____| of analysis (5)  
   \item[\textbf{2.}]
-  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)  
+  `Conceptual' and `Operational' are different types of \verb|___________| (11)  
   \item[\textbf{3.}]
-  The second step in the research process (6)  
+  The type of research where data are \emph{not} summarised using numerical methods (11)  
   \item[\textbf{7.}]
-  After designing a study, the next step is to \verb|_______| the data (7)  
+  Research is used to provide \verb|________|-based answers to RQs (8)  
   \item[\textbf{10.}]
-  Independent collections of units of observations are called unit of \verb|________| (8)
+  RQs in which groups are compared numerically are called \verb|__________| (10)  
   \item[\textbf{12.}]
+  The acronym to remember the four components of a RQ (4)
+  \item[\textbf{15.}]
+  What bird is on the Australian coat of arms? (3)
+  \item[\textbf{17.}]
   The collected information to answer the RQ is called \verb|____| (4)  
-
-\end{itemize}
+\end{enumerate}
 \end{multicols}
 `r if (knitr::is_html_output()){'-->'}`
 
