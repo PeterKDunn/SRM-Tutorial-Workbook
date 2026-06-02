@@ -73,7 +73,7 @@ How would the other statements be interpreted then?
 
 
 
-## Consistency {#Consistency}
+## Consistency and reading output {#Consistency}
 
 
 :::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
@@ -118,14 +118,30 @@ Suppose a researcher asked the RQ:
    b. A hypothesis tests for the odds ratio.
    c. Either of the above.
 `r if( knitr::is_html_output() ) {'-->'}`
-4. Suppose the sample odds ratio is found to be $0.51$. 
-   Explain very clearly what this odds ratio **means** in context.
-5. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.17$.
-   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
-6. Suppose the CI is found to be $0.23$ to $1.1$. 
-   Explain **very clearly** what this CI **means** in context.
 
-   
+The jamovi output is shown in Fig.\ \@ref(fig:MosquitoBitesjamovi).
+
+4. What is the odds ratio?
+5. Very carefully, explain what this odds ratio **means** in context.
+6. The output also shows the difference between proportions.
+   Very carefully, explain what this difference **means** in context.
+7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
+   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
+
+```{r MosquitoBitesjamovi, echo=FALSE, fig.cap="Mosquito bites when near different types of candles.", fig.align="center", out.width="80%"}
+knitr::include_graphics("SoftwareImages/MosquitoBites.png")
+```
+
+
+8. The $95$% CI for the odds ratio is from\ $0.234$ to\ $1.102$.
+  Very carefully interpret what this means.
+9. *Suppose* the $95$% CI for the odds ratio was from\ $0.11$ to\ $0.94$.
+  Very carefully interpret what this would mean.
+10. *Suppose* the $95$% CI for the odds ratio was from\ $1.28$ to\ $4.13$.
+  Very carefully interpret what this would mean.
+11. Check that the CIs are statistically valid.
+
+
 ## CI and test for odds ratios {#OddsSoftware}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
