@@ -69,6 +69,8 @@ if( knitr::is_latex_output() ) {
                 align = "c", 
                 caption = "Coeliacs and dental cavities.") %>%
     kable_styling(font_size = 10) %>%
+    column_spec(1, 
+             bold = TRUE) %>%
     row_spec(0, 
              bold = TRUE) %>%
     row_spec(2,
@@ -154,7 +156,7 @@ include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
 ```
 
 
-### Interpreting jamovi output {#LimeTreesjamovi}
+## Interpreting jamovi output {#LimeTreesjamovi}
 
 The diameter of lime trees (in cms; called DBH (diameter at breast height)), some trees planted and some trees natural, were compared [@data:LimeTrees]. 
 Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
@@ -163,11 +165,17 @@ Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
 knitr::include_graphics("SoftwareImages/LimeTreesSummary.png")
 ```
 
-1. How is the difference between the two groups defined, according to the output?
+1. *How* is the difference between the two groups defined, according to the output?
+\greyboxlines{2}
 2. What is the *parameter*?
-3. Suppose the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means.
-4. Suppose the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means.
-5. Suppose the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6)$: very carefully interpret what this means.
+   What does this parameter *mean*?
+\greyboxlines{2}
+3. Suppose the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means in context.
+\greyboxlines{2}
+4. Suppose the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means in context.
+\greyboxlines{2}
+5. Suppose the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6)$: very carefully interpret what this means in context.
+\greyboxlines{2}
 
 
 
@@ -204,34 +212,40 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 
 1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
 \greyboxlines{2}
-2. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
+2. Given the software output in Fig.\ \@ref(fig:2MWTjamovi), how is the difference defined in jamovi?
+
+```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
+knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
+```
+
+3. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
 \greyboxlines{1}
-3. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
+4. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
 \greyboxlines{2}
-4. Explain why these data should be analysed as *paired* data.
+5. Explain why these data should be analysed as *paired* data.
 \greyboxlines{2}
-5. Compute the *changes* in 2MWT for each patient.
-6. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
+6. Compute the *changes* in 2MWT for each patient.
+7. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
 \greyboxlines{2}
-7. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
+8. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
 \greyboxlines{2}
-8. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
+9. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
 \greyboxlines{2}
-9. Explain the *meaning* of the standard error of the mean difference in this context.
+10. Explain the *meaning* of the standard error of the mean difference in this context.
 \greyboxlines{2}
-10. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
+11. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
 \greyboxlines{2}
-11. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
+12. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
 \greyboxlines{4}
-12. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
+13. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
 \greyboxlines{4}
-13. Do you think the population 2MWT changes because of the prosthetic, on average?
+14. Do you think the population 2MWT changes because of the prosthetic, on average?
 \greyboxlines{3}
-14. Which of the following is the correct null hypothesis for this RQ? \tightlist
+15. Which of the following is the correct null hypothesis for this RQ? \tightlist
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
-   What is the alternative hypothesis?
+   What is the alternative hypothesis that is **consistent with the jamovi output**?
 
     - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0$
     - $\mu_{\text{Difference}} = 0$
@@ -243,28 +257,21 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
     - $\mu_{\text{Without Implant}} < 0$
     - $\mu_{\text{With implant}} > 0$
 
-15. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
+16. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
 \greyboxlines{3}
-16. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
+17. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
 \greyboxlines{2}
-17. Write a statement that communicates the result of the test.
+18. Write a statement that communicates the result of the test.
 \greyboxlines{2}
-18. What conditions must be met for this test to be valid?
+19. What conditions must be met for this test to be valid?
 \greyboxlines{2}
-19. Is it reasonable to assume the assumptions are satisfied?
+20. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
 \greyboxlines{2}
-20. What did you learn from this study?
-\greyboxlines{2}
-
-```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
-knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
-```
 
 ```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited.", fig.align="center", out.width="95%"}
 knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
 ```
-
 
 
 ```{r 2MWTHisto, echo=FALSE, fig.height = 4, fig.width = 5, out.wdth="60%", fig.align="center", fig.cap="Histogram of differences for the increases in 2MWT with implant."}
