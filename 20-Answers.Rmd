@@ -823,31 +823,32 @@ Answers implied by H5P.
 
 
 1. How much further patients walk *with* the implant.
-2. **Repeated-measures**:
+2. Without minus With (i.e., How much further patients walk *with* the implant).
+3. **Repeated-measures**:
    Every subject has two TWMT recorded.
-3. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-4. Each measurement is measured after and before on the same subject.
-5. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+4. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+5. Each measurement is measured after and before on the same subject.
+6. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
    (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
    **Importantly, the direction should be stated somewhere.**)
-6. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
-7. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
-8. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
-9. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
-10. Almost impossible.
+7. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
+8. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
+9. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
+10. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+11. Almost impossible.
    Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
-11. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
-12. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
-13. Only *one sample of people* have been studied, so it is (as always) hard to be sure.
-14. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+12. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
+13. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
+14. Only *one sample of people* have been studied, so it is (as always) hard to be sure.
+15. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  
-15. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
-16. The differences have just been defined in the opposite directions.
+16. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+17. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-17. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
-18. The population of differences has a normal distribution, and/or $n > 25$ or so.
-19. Since $n < 25$, must assume the population of differences has a normal distribution.
+18. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
+19. The population of differences has a normal distribution, and/or $n > 25$ or so.
+20. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
    
 

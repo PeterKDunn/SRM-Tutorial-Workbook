@@ -4,7 +4,7 @@ $$
   \qquad
   \text{and}
   \qquad
-  \text{s.e.}(\bar{x}) = \frac{s}{\sqrt{n}}
+  \text{s.e.}(\bar{x}) = \frac{s}{\sqrt{n}}.
 $$
 
 1. When should each formula be used?
@@ -15,7 +15,7 @@ $$
 \greyboxlines{1}
 4. What does\ $s$ represent?
 \greyboxlines{1}
-5. What is "$\text{s.e.}$" an abbreviation for?
+5. What does "$\text{s.e.}$" represent?
 \greyboxlines{1}
 
 

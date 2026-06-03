@@ -77,8 +77,12 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 
 1. Two students are arguing about the median breadth.
    Who is correct?
-   Why?  
-   
+   Why?
+    a. Student 1
+    b. Student 2
+    c. Neither is correct
+    d. Both are correct
+
 **Student\ 1** says:  
 
 > The bars in the histogram have heights of $10$, $2$, $4$, $2$ and $4$.
@@ -91,10 +95,7 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 > There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
-    a. Student 1
-    b. Student 2
-    c. Neither is corretc
-    d. Both are correct
+\greyboxlines{2}
 
 2. Describe the histogram.
 \greyboxlines{2}
@@ -232,7 +233,7 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 \greyboxlines{4}
 
 
-```{r StudentsGraphsChiB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='75%'}
+```{r StudentsGraphsChiB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='65%'}
 knitr::include_graphics("ProjectImages/GraphicalSummaryChi2.png")
 ```
 

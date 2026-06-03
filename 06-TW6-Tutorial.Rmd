@@ -343,7 +343,7 @@ if( knitr::is_html_output() ) {
 \greyboxlines{2}
 
 
-```{r HistCoinToss, echo=FALSE, out.width='45%', fig.width=5, fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
+```{r HistCoinToss, echo=FALSE, out.width='85%', fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, 
                     size = 10, 
@@ -356,7 +356,7 @@ out <- barplot( table(ProbHeads),
          main = "The proportion of heads in\n10 tosses of a coin",
          col = plot.colour)
 axis(1, 
-     at = out[c(1, seq(2, 10, by = 2), 11)], 
+     at = out[c(1, seq(2, 10, by = 1), 11)], 
      labels = FALSE)
 ```
 

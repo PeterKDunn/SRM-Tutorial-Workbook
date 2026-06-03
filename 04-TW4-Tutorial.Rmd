@@ -196,6 +196,8 @@ if( knitr::is_latex_output() ) {
     kable_styling(font_size = 10) %>%
     row_spec(0, 
              bold = TRUE) %>%
+    column_spec(1, 
+             bold = TRUE) %>%
     add_header_above( c( " ",
                          "Dispatcher" = 1,
                          "Dispatcher" = 1),
@@ -443,6 +445,7 @@ if( knitr::is_latex_output() ) {
     column_spec(5, bold = TRUE) %>%
     row_spec(0, bold = TRUE) %>%
     row_spec(4, bold = TRUE) %>%
+    column_spec(1, bold = TRUE) %>%
     kable_styling(full_width = FALSE,
                   font_size = 10) %>%
     add_header_above( c(" " = 1,
@@ -513,7 +516,7 @@ if( knitr::is_html_output() ) {
 
 
 
-```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete.", fig.height=8.5, fig.width=5.5, out.width="75%", fig.align="center"}
+```{r SoccerGraph, echo=FALSE, fig.cap="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete.", fig.height=7.5, fig.width=5.5, out.width="75%", fig.align="center"}
 
 SP <- matrix( nrow = 3, 
               ncol = 3, 
@@ -540,7 +543,7 @@ par( mfrow = c(2,2),
      xpd = NA, # A logical value or NA. If FALSE, all plotting is clipped to the plot region, 
      # if TRUE, all plotting is clipped to the figure region, and 
      # if NA, all plotting is clipped to the device region. See also clip.
-     mar = c(3, 4, 12, 4) + 0.1 )
+     mar = c(2, 4, 11, 4) + 0.1 )
 #     mar=c(5.1, 4.1, 4.1, 9.1))
 #par(mar = c(10, 4, 4, 0.5) + 0.1,
 

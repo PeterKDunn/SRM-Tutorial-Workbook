@@ -59,7 +59,6 @@ Consider this RQ  [@walters2018factors]:
     b. Household in the world.
     c. Household in Chile.
     d. Household in Santiago.
-\greyboxlines{1}
 2. The study will be *externally valid* if:
    a. The sample is representative of all households in Santiago.
    b. The sample is representative of all households in Chile.
@@ -71,21 +70,18 @@ Consider this RQ  [@walters2018factors]:
     b. Convenience sampling.
     c. Self-selecting sampling.
     d. None of the other answers are correct.
-\greyboxlines{1}
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
     What is the *best* description of this sampling method?
     a. Stratified sampling.
     b. Systematic sampling.
     c. Multi-stage sampling.
     d. None of the other answers are correct.
-\greyboxlines{1}
 5. Suppose the researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
     What is the *best* description of this sampling method?
     a. Stratified sampling.
     b. Systematic sampling.
     c. Multi-stage sampling.
     d. None of the other answers are correct.
-\greyboxlines{1}
 :::
 
 
@@ -207,7 +203,7 @@ knitr::include_graphics("images/Crossword-Week2.png")
   Patients were assigned \verb|________| to the type of therapy received (8)  
 \end{enumerate}
 
-\newcolumn
+\columnbreak
 
 \textbf{Down}
 \begin{enumerate}\tightlist
@@ -227,7 +223,6 @@ knitr::include_graphics("images/Crossword-Week2.png")
   The number of groups being compared (5)  
   \item[\textbf{15.}]
   What is Australia's largest cricket oval? (3)
-
 \end{enumerate}
 \end{multicols}
 `r if (knitr::is_html_output()){'-->'}`

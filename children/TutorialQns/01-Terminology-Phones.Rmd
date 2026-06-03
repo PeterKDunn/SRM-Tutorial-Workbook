@@ -8,7 +8,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
 
 > The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
 
-2. Which one of these is most likely the *outcome* in the study?
+1. Which one of these is most likely the *outcome* in the study?
    Explain why the other options are *incorrect*.
     a. The way subjects were using their phone.
     b. The time taken to walk $50$\ m.
@@ -17,7 +17,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
   \greyboxlines{2}
 
 		
-3. Which one of these is most likely the *comparison* in the study?
+2. Which one of these is most likely the *comparison* in the study?
    Explain why the other options are *incorrect*.
     a. Between the ways that subjects were using their phone (talking; texting; not at all).
     b. Between those walking slowly and those walking quickly.
@@ -25,7 +25,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
     d. Between those using and not using a mobile phone.
   \greyboxlines{2}
 		
-5. What is the *explanatory variable*?
+3. What is the *explanatory variable*?
    Explain why the other options are *incorrect*.
     a. The phone.
     b. The way that the phone is being used.
@@ -33,8 +33,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
     d. The walking speed.
   \greyboxlines{2}
 
-				
-6. What is the *response variable*?
+4. What is the *response variable*?
    Explain why the other options are *incorrect*.
     a. The differences between the times taken.
     b. The way subjects were using the phone.
@@ -51,7 +50,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
 > The walkway was straight, had limited ingress and egress, and was simple to navigate. 
 
 
-1. Which one of these is most likely the *population* under study?
+5. Which one of these is most likely the *population* under study?
   Explain why the other options are *incorrect*.
     a. Phones.
     b. People.
@@ -60,7 +59,7 @@ Read the following information from the research article (p.\ 2, 3), and answer 
   \greyboxlines{2}
 
 
-4. Which one of these is most likely the *intervention* in the study?
+6. Which one of these is most likely the *intervention* in the study?
    Explain why the other options are *incorrect*.
     a. The way subjects were using their phones.
     b. The timing of the walk.

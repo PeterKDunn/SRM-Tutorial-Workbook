@@ -78,7 +78,7 @@ How would the other statements be interpreted then?
 
 :::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
 Consistency between the RQ, hypotheses, the CI,  the hypothesis test, and the results is important.
-For example: if the RQ is written in terms of *proportions*, then the hypotheses, CI and so forth should also be written in terms of *proportions*.
+For example: if the RQ is written in terms of *proportions*, then the hypotheses, CI and so forth should also be written in terms of *proportions*.\medskip
 
 In addition: explaining exactly what the statistic and the CI are estimating (the **parameter**) is **very** important.
 :::
@@ -88,7 +88,7 @@ Suppose a researcher asked the RQ:
 
 > For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
 
-1. Which would be the appropriate null hypothesis?
+1. Which would be the appropriate null hypothesis? \tightlist
 `r if( knitr::is_html_output() ) {webexercises::longmcq(
     c(answer = "The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles",
                "The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles",
@@ -121,25 +121,31 @@ Suppose a researcher asked the RQ:
 
 The jamovi output is shown in Fig.\ \@ref(fig:MosquitoBitesjamovi).
 
-4. What is the odds ratio?
-5. Very carefully, explain what this odds ratio **means** in context.
-6. The output also shows the difference between proportions.
-   Very carefully, explain what this difference **means** in context.
-7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
-   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
-
-```{r MosquitoBitesjamovi, echo=FALSE, fig.cap="Mosquito bites when near different types of candles.", fig.align="center", out.width="80%"}
+```{r MosquitoBitesjamovi, echo=FALSE, fig.cap="Mosquito bites when near different types of candles.", fig.align="center", out.width="75%"}
 knitr::include_graphics("SoftwareImages/MosquitoBites.png")
 ```
 
-
+4. What is the odds ratio? \tightlist
+\greyboxlines{1}
+5. Very carefully, explain what this odds ratio **means** in context.
+\greyboxlines{2}
+6. The output also shows the difference between proportions.
+   Very carefully, explain what this difference **means** in context.
+\greyboxlines{2}
+7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
+   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
+\greyboxlines{2}
 8. The $95$% CI for the odds ratio is from\ $0.234$ to\ $1.102$.
   Very carefully interpret what this means.
+\greyboxlines{2}
 9. *Suppose* the $95$% CI for the odds ratio was from\ $0.11$ to\ $0.94$.
   Very carefully interpret what this would mean.
+\greyboxlines{2}
 10. *Suppose* the $95$% CI for the odds ratio was from\ $1.28$ to\ $4.13$.
   Very carefully interpret what this would mean.
+\greyboxlines{2}
 11. Check that the CIs are statistically valid.
+\greyboxlines{2}
 
 
 ## CI and test for odds ratios {#OddsSoftware}
@@ -205,7 +211,9 @@ if( knitr::is_latex_output() ) {
   row_spec(3, 
            bold = TRUE) %>% # Columns headings in bold
   row_spec(2, 
-           hline_after = TRUE) 
+           hline_after = TRUE) %>%
+  column_spec(1, 
+           bold = TRUE) 
 #   column_spec(column=1, width="3cm") %>% 
 #   column_spec(column=2, width="5cm") %>%
 #   column_spec(column=3, width="5cm") %>%
@@ -286,7 +294,7 @@ if( knitr::is_html_output() ) {
    `r if (knitr::is_html_output()) '**Vote below.**'`
 
   
-```{r BoysMaturejamovi, echo=FALSE, fig.cap="The jamovi output from the maturation study", fig.align="center", out.width="50%"}
+```{r BoysMaturejamovi, echo=FALSE, fig.cap="The jamovi output from the maturation study", fig.align="center", out.width="55%"}
 knitr::include_graphics( "SoftwareImages/BoysMatureTestsCI-jamovi.png")
 ```
 
@@ -319,6 +327,8 @@ if( knitr::is_latex_output() ) {
         align=c("l", "l", "l", "r"))   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
+  column_spec(1, 
+           bold = TRUE) %>% # Columns headings in bold
   row_spec(2, 
            hline_after = TRUE) %>% # Columns headings in bold
   row_spec(0, 
@@ -436,6 +446,8 @@ if( knitr::is_latex_output() ) {
         align = "r")   %>%
    kable_styling(full_width = FALSE, 
                  font_size = 10) %>%
+  column_spec(1, 
+           bold = TRUE)  %>%
   row_spec(2, 
            hline_after = TRUE)  %>%
   row_spec(0, 
@@ -549,6 +561,8 @@ if( knitr::is_latex_output() ) {
   row_spec(2, 
            hline_after = TRUE) %>% # Columns headings in bold
   row_spec(0, 
+           bold = TRUE) %>% # Columns headings in bold
+  column_spec(1, 
            bold = TRUE) %>% # Columns headings in bold
   add_header_above( c( " " = 1, 
                        "Proportion alive" = 1, 
