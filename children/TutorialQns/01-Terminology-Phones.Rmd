@@ -1,6 +1,6 @@
 
 	
-The use of mobile phones has changed peoples' behaviour.
+The use of mobile phones has changed people's behaviour.
 @data:Barkley2016:Phones examined how the use of mobile phones impacts walking speed.
 Read the following information from the research article (p.\ 2, 3), and answer the questions that follow, **explaining** the reason for your choices.
 **Make sure you explain why the other options are incorrect.**
@@ -74,6 +74,10 @@ Read the following information from the research article (p.\ 2, 3), and answer 
 > &nbsp;
 > 
 > Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.
+> &nbsp;
+> 
+> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
+
 
 7. Which one of these is most likely the *unit of observation* in the study?
   Explain why the other options are *incorrect*.
@@ -91,10 +95,6 @@ Read the following information from the research article (p.\ 2, 3), and answer 
     c. *Groups* of subjects.
     d. Minutes.
   \greyboxlines{2}
-
-\bigskip
-
-> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
-
-9. What is the purpose of this feature of their research?
+  
+9. What is the purpose of recording walking speed for 'every fifth individual'?
   \greyboxlines{2}

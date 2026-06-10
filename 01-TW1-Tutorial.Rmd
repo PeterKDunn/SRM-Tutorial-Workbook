@@ -242,7 +242,7 @@ Consider the following scenario:
 > 'Tea bags? Why?' asked Nim, eyebrows raised.  
 > &nbsp;
 >
-> 'Everyone knows that Earl Grey tea relaxes students...' said Jane dreamily.   
+> 'Everyone knows that Earl Grey tea relaxes students...' Jane sighed.   
 > &nbsp;
 >
 > 'How do you know that?' Nim said.  
@@ -250,8 +250,6 @@ Consider the following scenario:
 >
 > 'It *does*,' snapped Jane.
 > 'Earl Grey relaxes people.'  
->  
->  &nbsp;
 
 
 Nim considers studying Jane's assertion as the basis for a **feasible** and **practical** SCI110 project.
@@ -276,13 +274,13 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
 \greyboxlines{3}
-5. Construct a well-worded *relational* research question *with an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
+5. Construct a well-worded *relational* research question *with an intervention* based on your P, O and C.
 \greyboxlines{3}
-6. *Briefly* describe an *experimental* study for answering your proposed research question.
+6. *Briefly* describe an *experimental* study for answering this proposed research question.
 \greyboxlines{3}
-7. Construct a well-worded *relational* research question *without an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
+7. Construct a well-worded *relational* research question *without an intervention* based on your P, O and C.
 \greyboxlines{3}
-8. *Briefly* describe an *observational* study for answering your proposed research question.
+8. *Briefly* describe an *observational* study for answering this proposed research question.
 \greyboxlines{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
@@ -418,27 +416,23 @@ knitr::include_graphics("images/Crossword-Week1.png")
   \item[\textbf{2.}]
   The second step in the research process (6)  
   \item[\textbf{3.}]
-  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)  
-  \item[\textbf{4.}]
-  A confounding variable, but is not measured or recorded, is a \verb|_______| variable (7)
-  \item[\textbf{5.}] 
-  The first step in the research process is to \verb|___| the research question (3)  
-  \item[\textbf{6.}] 
-  What is a baby koala called? (4)
-  \item[\textbf{8.}] 
-  What is the name of Australia's wild dog? (5)
-  \item[\textbf{9.}] 
-  What is the abbreviation for Australia's island state? (3)
-  \item[\textbf{11.}]
-  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
-  \item[\textbf{13.}]
+  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)
+  \item[\textbf{5.}]
   What is Australia's national gemstone? (4)  
-  \item[\textbf{14.}]
+  \item[\textbf{6.}]
+  Research is used to provide \verb|________|-based answers to RQs (8)  
+  \item[\textbf{7.}] 
+  The first step in the research process is to \verb|___| the research question (3)  
+  \item[\textbf{9.}]
+  RQs in which groups are compared numerically are called \verb|__________| (10)  
+  \item[\textbf{12.}]
+  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
+  \item[\textbf{15.}]
   What we do with the data to find an answer to the RQ (7)  
-  \item[\textbf{16.}]
-  After designing a study, the next step is to \verb|_______| the data (7)  
-  \item[\textbf{18.}]
-  Independent collections of units of observations are called units of \verb|________| (8)
+  \item[\textbf{16.}] 
+  What is the name of Australia's wild dog? (5)
+  \item[\textbf{17.}] 
+  What is the abbreviation for Australia's island state? (3)
 \end{enumerate}
 
 \columnbreak
@@ -446,21 +440,25 @@ knitr::include_graphics("images/Crossword-Week1.png")
 \textbf{Down}
 \begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  The sample size is the number of \verb|_____| of analysis (5)  
+  Independent collections of units of observations are called units of \verb|________| (8)
   \item[\textbf{2.}]
   `Conceptual' and `Operational' are different types of \verb|___________| (11)  
   \item[\textbf{3.}]
   The type of research where data are \emph{not} summarised using numerical methods (11)  
-  \item[\textbf{7.}]
-  Research is used to provide \verb|________|-based answers to RQs (8)  
-  \item[\textbf{10.}]
-  RQs in which groups are compared numerically are called \verb|__________| (10)  
-  \item[\textbf{12.}]
-  The acronym to remember the four components of a RQ (4)
-  \item[\textbf{15.}]
+  \item[\textbf{4.}] 
+  What is a baby koala called? (4)
+  \item[\textbf{6.}]
   What bird is on the Australian coat of arms? (3)
-  \item[\textbf{17.}]
+  \item[\textbf{8.}]
   The collected information to answer the RQ is called \verb|____| (4)  
+  \item[\textbf{10.}]
+  A confounding variable, that is not measured or recorded, is a \verb|_______| variable (7)
+  \item[\textbf{11.}]
+  After designing a study, the next step is to \verb|_______| the data (7)  
+  \item[\textbf{13.}]
+  The acronym to remember the four components of a RQ (4)
+  \item[\textbf{14.}]
+  The sample size is the number of \verb|_____| of analysis (5)
 \end{enumerate}
 \end{multicols}
 `r if (knitr::is_html_output()){'-->'}`

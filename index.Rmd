@@ -264,6 +264,5 @@ In this book, you will learn to:
 
 Peter K. Dunn (2025).
 *Scientific Research and Methodology Tutorial Book: An introduction to quantitative research and statistics in science, engineering and health*.
-Chapman & Hall.
 https://peterkdunn.github.io/SRM-Tutorial-Workbook/index.html
 
