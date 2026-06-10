@@ -341,7 +341,7 @@ if( knitr::is_html_output() ) {
 \greyboxlines{2}
 
 
-```{r HistCoinToss, echo=FALSE, out.width='75%', fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
+```{r HistCoinToss, echo=FALSE, out.width='70%', fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, 
                     size = 10, 
