@@ -274,11 +274,11 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
 \greyboxlines{3}
-5. Construct a well-worded *relational* research question *with an intervention* based on your P, O and C.
+5. Construct a well-worded *relational* research question *with an intervention* based on your P, O and\ C.
 \greyboxlines{3}
 6. *Briefly* describe an *experimental* study for answering this proposed research question.
 \greyboxlines{3}
-7. Construct a well-worded *relational* research question *without an intervention* based on your P, O and C.
+7. Construct a well-worded *relational* research question *without an intervention* based on your P, O and\ C.
 \greyboxlines{3}
 8. *Briefly* describe an *observational* study for answering this proposed research question.
 \greyboxlines{3}

@@ -88,7 +88,7 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 ## Class discussion {#TW6-Class-Discussion}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: Outliers should always be removed from a dataset before analysis.
+**Discuss**: Outliers should **always** be removed from a dataset before analysis.
 :::
 
 
@@ -153,13 +153,11 @@ knitr::include_graphics("ArticleImages/AustHtsSubWide-Measured-TOP.png")
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
 \greyboxlines{3}
 
-\pagebreak
+For the remaining parts of this question, use data for *females 18\ and over* (where the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
 
-6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
-   (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
+6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females 18\ and over* are within what height range?
 \greyboxlines{4}
-7. For this part, we want to just look at *females $18$\ and over* again.
-   Answer the following questions.
+7. Answer the following questions.
 
    a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171\cms$.
 \greyboxlines{2}
@@ -343,7 +341,7 @@ if( knitr::is_html_output() ) {
 \greyboxlines{2}
 
 
-```{r HistCoinToss, echo=FALSE, out.width='85%', fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
+```{r HistCoinToss, echo=FALSE, out.width='75%', fig.height=3, fig.align="center", fig.cap='The histogram of the proportion of heads in $10$ tosses, for $400$ repetitions.'}
 set.seed(8412739)
 ProbHeads <- rbinom(400, 
                     size = 10, 

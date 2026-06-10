@@ -2,7 +2,7 @@
 
 ### Using the $z$-score tables {.unlisted .unnumbered}
 
-Details for using these tables are provided in Sect.\ 20.6 of teh **textbook**.
+Details for using these tables are provided in Sect.\ 20.6 of the **textbook**.
 Here we give a short summary.
 
 To find the probability that\ $z$ is less than $-2.43$, follow these steps:

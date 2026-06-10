@@ -117,8 +117,6 @@ In a study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carv
     b. Qualitative ordinal
     c. Quantitative discrete
     d. Quantitative continuous
-5. What did you learn from this study?
-\greyboxlines{1}
 :::
 
 
@@ -173,7 +171,7 @@ if( knitr::is_html_output() ) {
 
 
 
-## Using the calculator statistics mode for a small data set {#StatsMode}
+## Using the calculator *Statistics Mode* for a small data set {#StatsMode}
 
 ```{r echo=FALSE}
 set.seed(2021)
@@ -229,13 +227,12 @@ if( knitr::is_html_output() ) {
 
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-Most calculators have **two buttons** that compute the standard deviation when in **Statistics Mode**: one computes the standard deviation if the data are a sample, and one if the data are a population.
+Most calculators have **two buttons** that compute the standard deviation when in *Statistics Mode*: one computes the standard deviation if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.  
 \  
   
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
-If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
-You are probably pressing the incorrect button to get the standard deviation.
+If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**: you are probably pressing the incorrect button to get the standard deviation.
 :::
 
    
@@ -263,7 +260,7 @@ You are probably pressing the incorrect button to get the standard deviation.
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
+**NOTE**: In this exercise, the first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
 :::
 
 
@@ -316,7 +313,7 @@ If you need help, please **ask**.
 \greyboxlines{2}
    b. Without using a calculator, find the **median** of the data.
 \greyboxlines{2}
-   c. Compute the IQR for the data.
+   c. Compute the **IQR** for the data.
 \greyboxlines{2}
 
 
@@ -365,7 +362,7 @@ if( knitr::is_html_output() ) {
    a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
    Justify your answer.
 \greyboxlines{2}
-   b. Use your calculator's statistics mode to compute the mean and the standard deviation.
+   b. Use your calculator's statistics mode to compute the **mean** and the **standard deviation**.
 \greyboxlines{2}
    c. Without using a calculator, find the **median** of the data.
 \greyboxlines{2}
@@ -400,7 +397,7 @@ if( knitr::is_html_output() ) {
 3. The data in Table\ \@ref(tab:AISTable2) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
-   c. Compute the IQR.
+   c. Compute the **IQR**.
 \greyboxlines{4}
    
 
@@ -490,13 +487,12 @@ if( knitr::is_html_output() ) {
 ```
 
 
-1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study?'} else {'The type of research study is  '}`
-`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`
-   Justify your answer. \tightlist
+1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study? Justify your answer.'} else {'The type of research study is  '}`
+`r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`\tightlist
 \greyboxlines{2}
 2. What are the *units of observation* and *units of analysis*?
 \greyboxlines{2}
-3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
+3. Use your calculator's *Statistics Mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
    a. Compute the mean times for the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
    a. Compute the standard deviation of the *Energizer* battery times (to three decimal places).
@@ -508,7 +504,8 @@ if( knitr::is_html_output() ) {
 \greyboxlines{4}
 4. Explain what these calculations tell you.
 \greyboxlines{2}
-5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
+5. Compute the median lifetime for each brand, explain what this tells you. 
+   (Many calculators cannot compute medians.)
    a. Compute the median of the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
    b. Compute the median of the *Ultracell* batteries (to two decimal places).
@@ -516,7 +513,7 @@ if( knitr::is_html_output() ) {
 \greyboxlines{3}
 6. Determine (and justify) if the mean or median would be a more appropriate measure of centre.
 \greyboxlines{2}
-7. Do you the average time to reach 1.0 volts is the same for each brand?
+7. Do you think that the average time to reach $1.0$\ volts is the same for each brand?
    Explain.
 \greyboxlines{2}
 8. Information about the cost of the batteries would also be important information to know (see below).

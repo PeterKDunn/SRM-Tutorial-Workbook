@@ -78,10 +78,10 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 1. Two students are arguing about the median breadth.
    Who is correct?
    Why?
-    a. Student 1
-    b. Student 2
-    c. Neither is correct
-    d. Both are correct
+    a. Student 1.
+    b. Student 2.
+    c. Neither is correct.
+    d. Both are correct.
 
 **Student\ 1** says:  
 
@@ -104,7 +104,7 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 \greyboxlines{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
 \greyboxlines{1}
-5. The difference between means was defined as $\mu_A - \mu_B$.
+5. The difference between means was defined as $\mu_A - \mu_B$ (where $\mu_A$ is the mean breadth at Site\ A, and $\mu_B$ is the mean breadth at Site\ B).
    What would a value of $-6.0\mms$ mean?
 \greyboxlines{2}
 6. What did you learn from this study?
@@ -305,7 +305,7 @@ if( knitr::is_html_output() ) {
    Which two?
    Explain your answer.
 \greyboxlines{2}
-2. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
+2. Determine which plot corresponds to which correlation coefficient.
 \greyboxlines{3}
 3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
 \greyboxlines{3}
@@ -435,7 +435,7 @@ Your tutor will have information.
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
-
+(Higher classification numbers refer to less motor function.)
 
 `r if (knitr::is_latex_output()) 'The data are shown in Fig.&nbsp;\\@ref(fig:Orthoses).'`
 

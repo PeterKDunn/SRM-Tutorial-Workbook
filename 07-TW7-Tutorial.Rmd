@@ -44,15 +44,15 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.webex-box}
-1. True or false: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
+1. **True** or **false**: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
 \greyboxlines{1}
-1. True or false: All *confidence interval* are $95$% confidence intervals.
+1. **True** or **false**: All *confidence interval* are $95$% confidence intervals.
 \greyboxlines{1}
-1. True or false: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
+1. **True** or **false**: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
 \greyboxlines{1}
-1. True or false: CIs answers estimation-type RQs.
+1. **True** or **false**: CIs answers estimation-type RQs.
 \greyboxlines{1}
-1. True or false: A 95% confidence interval will contain approximately 95% of the observations.
+1. **True** or **false**: A 95% confidence interval will contain approximately 95% of the observations.
 \greyboxlines{1}
 :::
 
@@ -61,7 +61,7 @@ You will learn and practice the content associated with these chapters of the [t
 ## Class discussion {#TW7-Class-Discussion}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from.
+**Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from (i.e., a narrower CI).
 :::
 
 
@@ -89,8 +89,8 @@ There was $44$\ matches.
 "They lie. There's only $44$\ matches in this box."
 
 
-1. Identify the two concepts that Jake is confusing. 
-   How would you clarify Jake's confusion?\tightlist
+1. Identify the two statistical concepts that Jake is confusing. 
+   How would you clarify the confusion?\tightlist
 \greyboxlines{2}
 2. Then, Jake and Claire counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
@@ -103,8 +103,8 @@ There was $44$\ matches.
 3. "The claim is $45$\ matches per box on average, but the mean really is $44.9$!" said Jake.
    "They're liars!  Liar, liar, pants on..."  
    
-   Identify the two concepts that Jake is confusing. 
-   How would you clarify Jake's confusion?
+   Identify the two statistical concepts that Jake is confusing. 
+   How would you clarify the confusion?
 \greyboxlines{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
 \greyboxlines{2}
@@ -208,7 +208,7 @@ In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
 A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi).
 
-```{r PizzaCIjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi.", fig.align="center", fig.align="center", out.width='42%'}
+```{r PizzaCIjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas.", fig.align="center", fig.align="center", out.width='42%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 ```
 
@@ -233,7 +233,7 @@ knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 \greyboxlines{4}
 10. What are the **statistical** validity conditions?
 \greyboxlines{2}
-11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
+11. Which of these conditions must we **assume** are true for this CI to be **statistically** valid?
     How does Fig.\ \@ref(fig:PizzaHistoCI) help, if at all? 
     Explain.
     

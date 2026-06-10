@@ -46,15 +46,15 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.webex-box}
-1. True or false: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
+1. **True** or **false**: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
 \greyboxlines{1}
-1. True or false: Hypotheses are always written in terms of population parameters. 
+1. **True** or **false**: Hypotheses are *always* written in terms of population parameters. 
 \greyboxlines{1}
-1. True or false: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
+1. **True** or **false**: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
 \greyboxlines{1}
-1. True or false: Hypotheses should be constructed without any knowledge of the data. 
+1. **True** or **false**: Hypotheses should be constructed without any knowledge of the data. 
 \greyboxlines{1}
-1. True or false:
+1. **True** or **false**:
    The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
 \greyboxlines{1}
 :::
@@ -137,7 +137,7 @@ We would like to test the company's claim, and ask the RQ:
 > For Eagle Boys' pizzas, is mean diameter actually $12$ inches, or not?
 
 
-```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi.", fig.align="center", out.width='40%'}
+```{r PizzaSoftwareHTjamovi, echo=FALSE, fig.cap="Summary statistics for the diameter of Eagle Boys' large pizzas.", fig.align="center", out.width='40%'}
 knitr::include_graphics( "SoftwareImages/PizzaDiameters-jamovi.png" )
 ```
 

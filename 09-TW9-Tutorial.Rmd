@@ -89,26 +89,26 @@ if( knitr::is_html_output() ) {
 ```
 
 
-An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
+An *exact* $95$%\ CI is given for the difference: $-2.32$ to $2.76$.
 
 1. Using the $68$--$95$--$99.7$ rule gives a slightly different CI.
   Why?
 \greyboxlines{2}
-2. True or false: 
+2. **True** or **false**: 
    The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
 \greyboxlines{1}
-3. True or false:
+3. **True** or **false**:
    One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
 \greyboxlines{1}
 4. We are $95$% confident that the difference between the population means is:
 \greyboxlines{2}
-5. True or false:
+5. **True** or **false**:
    The *null* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} = 0$. 
 \greyboxlines{1}
-6. True or false:
+6. **True** or **false**:
    The *alternative* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} > 0$. 
 \greyboxlines{1}
-7. True or false:
+7. **True** or **false**:
    Since the two sample means are different, we reject the null hypothesis. 
 \greyboxlines{1}
 8. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
@@ -161,20 +161,20 @@ include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
 The diameter of lime trees (in cms; called DBH (diameter at breast height)), some trees planted and some trees natural, were compared [@data:LimeTrees]. 
 Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
 
-```{r LimeTreesSummmary, echo=FALSE, fig.cap="jamovi output for comparing DBH (in cm) for two groups of lime trees,", fig.align="center", out.width="100%"}
+```{r LimeTreesSummmary, echo=FALSE, fig.cap="jamovi output for comparing DBH (in cm) for two groups of lime trees,", fig.align="center", out.width="80%"}
 knitr::include_graphics("SoftwareImages/LimeTreesSummary.png")
 ```
 
 1. *How* is the difference between the two groups defined, according to the output?
 \greyboxlines{2}
-2. What is the *parameter*?
+2. What is the *parameter* according to the output?
    What does this parameter *mean*?
 \greyboxlines{2}
-3. Suppose the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means in context.
+3. *Suppose* the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means in context.
 \greyboxlines{2}
-4. Suppose the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means in context.
+4. *Suppose* the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means in context.
 \greyboxlines{2}
-5. Suppose the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6)$: very carefully interpret what this means in context.
+5. *Suppose* the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6$: very carefully interpret what this means in context.
 \greyboxlines{2}
 
 
@@ -259,7 +259,7 @@ knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
 
 16. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
 \greyboxlines{3}
-17. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
+17. Explain why the $t$-score from jamovi is a *negative* value (Fig.\ \@ref(fig:2MWTjamovi)), but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a *positive* value.
 \greyboxlines{2}
 18. Write a statement that communicates the result of the test.
 \greyboxlines{2}

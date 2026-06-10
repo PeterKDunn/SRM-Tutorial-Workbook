@@ -30,7 +30,8 @@ xD <- rnorm(SS,
             sd = 7) # EG Heights of male students at UniSC
 
 
-par(mfrow=c(2,2))
+par(mfrow = c(2, 2),
+    mgp = c(1.5, 0, 0)) # DEFAULT: c(3, 1, 0): reduce gap between x-lab and plot
    hist(xA,
         main = "Graph A",
         xlab = "Variable",
