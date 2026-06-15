@@ -766,20 +766,20 @@ Very small.
 
 ### Answers for Sect.\ \@ref(HtestWritingConclusions) {.unlisted .unnumbered}
 
-1. *Correct*: $H_1$: $p < 0.40$ (i.e., the population proportion of students using a password manager is less than\ $0.40$, the target).
+1. *Correct*: $H_1$: $p \ne 0.40$ (i.e., the population proportion of students using AI daily is **not**\ $0.40$, the claim).
    a. 'Significant' is not appropriate in the hypothesis.
-   b. No parameter is given; the hypothesis should include (and define!) the parameter\ $p$, the proportion of students using a password manager.
-   c. The alternative is 'less than' $0.40$.
-   d. The hypothesis are **not** about the *numbers*; they are about the *proportions*.
-2. *Correct*: There is no evidence of a difference between the target proportion of\ $0.40$ and the population proportion at University\ A. 
+   b. No parameter is given; the hypothesis should include (and define!) the parameter\ $p$, the proportion of students using AI daily.
+   c. The alternative is *not equal to* $0.40$.
+   d. The hypothesis are **not** about the *numbers*; they are about *proportions*.
+2. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$, as claimed. 
    a. 'No **strong**' evidence' is wrong: there is 'no evidence'.
    b. 'No evidence of a **large** difference' is wrong: there is no evidence of a difference.
    c. The sample proportion is $\hat{p} = 29/78 = 0.372$, so this is clearly **wrong**!
-3. *Correct*: There is evidence of a difference between the target proportion and the population proportion at University\ B.
+3. *Correct*: There is evidence that the population proportion of students using AI daily is not\ $0.40$%.
    a. 'There is evidence of a **significant** difference': the use of 'significant' here is incorrect.
-   b. This is not true: we start by assuming the target proportion is being met; we don't need evidence to support it. 
+   b. This is not true: we start by assuming the claim is true; we don't need the evidence to support it. 
        There is evidence, however, to support the alternative hypothesis.
-   c. The target proportion is stated as being $0.40$, so this is clearly **wrong**!
+   c. The claimed proportion is stated as being $0.40$, so this is clearly **wrong**!
 
 
 ### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}

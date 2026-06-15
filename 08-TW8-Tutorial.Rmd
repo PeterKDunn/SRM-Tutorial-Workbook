@@ -208,40 +208,41 @@ How would your answers change if these $t$-scores came from a *one-tailed* test?
 
 ## Writing conclusions {#HtestWritingConclusions}
 
-University\ A has a goal for at least $40\%$ of its students to be using a password manager (the 'target proportion').
-To determine if the goal is being met, the university takes a sample of $78$\ students, and finds\ $29$ are using a password manager.
-Using jamovi, the $z$-score was $z = -0.515$.
+University\ A advertises that $40$% of its students are using AI daily.
+To assess the claim, the student union takes a sample of $78$\ students, and finds\ $29$ are using AI daily.
+Using software, the $z$-score was $z = -0.515$.
 
 1. Each of these alternative hypotheses is **incorrect**.
    Explain the main reason why.
    Then, write the **correct** alternative hypothesis.
    
-   a. $H_1$: The proportion of students using a password manager is significantly lower than\ $0.40$.
-   b. $H_1 < 0.40$.
-   c. $H_1$: $p > 0.40$, where $p$ is the population proportion of students using a password manager.
-   d. $H_1$: The number of students using a password manager does not meet the university's target.
+   a. $H_1$: The proportion of students using AI daily is significantly lower than\ $0.40$.
+   b. $H_1 \ne 0.40$.
+   c. $H_1$: $p < 0.40$, where\ $p$ is the population proportion of students using AI daily.
+   d. $H_1$: The number of students using AI daily is not equal to the university's claim.
 \greyboxlines{3}
+\pagebreak
 
 2. Each of these conclusions are **incorrect**.
    Explain the main reason why.
    Then, write the **correct** conclusion.
    
-   a. There is strong evidence that the proportion of students using a password manager is equal to the target proportion.
-   b. There is no evidence of a large difference between the population of students using a password manager and target proportions.
-   c. The sample proportion is $0.40$.
+   a. There is strong evidence that the proportion of students using AI daily is\ $0.40$.
+   b. There is no evidence of a large difference between the population proportion of students using AI daily and the claimed proportion.
+   c. The sample proportion is\ $0.40$.
 \greyboxlines{3}
 
-University\ B has the *same* goal.
-To determine if the goal is being met, it takes a sample of $66$\ of its students and finds\ $35$ are using a password manager.
-Using jamovi, the $z$-score was $z = 2.12$.
+University\ B makes the same claim.
+To assess the claim, the student union takes a sample of $66$\ students and finds\ $35$ are using AI daily.
+Using software, the $z$-score was $z = 2.12$.
 
 3. Each of these conclusions are **incorrect**.
    Explain the main reason why.
    Then, write the **correct** conclusion.
    
-   a. There is a evidence of a significant difference between proportion of students using a password manager and the target proportion.
-   b. There is no evidence that the target proportion is\ $0.40$.
-   c. The target proportion is not\ $0.40$.
+   a. There is evidence of a significant difference between the population proportion of students using AI daily and the claim.
+   b. There is no evidence that the claimed proportion is\ $0.40$.
+   c. The claimed proportion is not\ $0.40$.
 \greyboxlines{3}
 
 
