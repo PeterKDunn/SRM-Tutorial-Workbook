@@ -4,7 +4,7 @@ Fill in the blanks in this piece of text,
 using words and phrases from Table\ \@ref(tab:Words3Table).
 
 > * Suppose I wish to see if a six-sided die is fair.  
-> * I could assess this is many ways.
+> * I could assess this in many ways.
 >   For example, my __________ could be that the proportion of odd numbers is $0.5$.
 >   This value is a __________.   
 > * The __________ would be "the proportion of odd numbers in the sample".  
