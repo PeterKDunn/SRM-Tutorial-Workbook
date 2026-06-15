@@ -46,15 +46,15 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.webex-box}
-1. True or false: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
+1. **True** or **false**: Hypothesis tests are used to *prove* or *disprove* the null hypothesis. \tightlist
 \greyboxlines{1}
-1. True or false: Hypothesis are always written in terms of population parameters. 
+1. **True** or **false**: Hypotheses are *always* written in terms of population parameters. 
 \greyboxlines{1}
-1. True or false: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
+1. **True** or **false**: Alternative hypotheses may be one- or two-tailed, depending on the **data**. 
 \greyboxlines{1}
-1. True or false: Hypotheses should be constructed without any knowledge of the data. 
+1. **True** or **false**: Hypotheses should be constructed without any knowledge of the data. 
 \greyboxlines{1}
-1. True or false:
+1. **True** or **false**:
    The sampling distribution shows how the values of the sample statistic are likely to vary from sample to sample (when the null hypothesis is true).
 \greyboxlines{1}
 :::
@@ -69,51 +69,19 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
-## The decision-making process {#DecisionMakingProcess}
+## The decision-making process: dice {#DecisionMakingProcessDice}
 
-
-<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-
-
-### Part a
-
-Fill in the blanks in this piece of text, using words and phrases from Table\ \@ref(tab:Words1Table).
-   
-
-   
-> * The decision-making process begins with making an assumption about the population __________.  
-> * This means we know what to __________ from the sample __________.   
-> * We never know exactly what value of the statistic we will see in the sample, because of __________.   
-> * But we can have some of idea of what values are reasonable to expect.  
-> * Then we take the __________ (that is, we make the observations).  
-> * Then we __________ what the sample statistic that we observed... to the sample statistic we expected.  
-> * If what we observe is inconsistent with what was expected, then the the assumption is __________ true.  
-> * However, if what we observe is __________ with what was expected, then the the assumption is __________ true.
+<iframe src="https://usc.h5p.com/content/1292918230698169809/embed" aria-label="The decision-making process: dice" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 
 
-\begin{table}
-\centering
-\caption{(\#tab:Words1Table)Words and phrases to insert.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{ccccc}
-\toprule
-compare & probably & expect & sampling variation & consistent\\
-unlikely to be & sample & parameter & statistic & \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-
-### Part b
 
 Fill in the blanks in this piece of text,
 using words and phrases from Table\ \@ref(tab:Words3Table).
 
 > * Suppose I wish to see if a six-sided die is fair.  
-> * My __________ would be that the proportion of odd numbers is $0.5$.
+> * I could assess this is many ways.
+>   For example, my __________ could be that the proportion of odd numbers is $0.5$.
 >   This value is a __________.   
 > * The __________ would be "the proportion of odd numbers in the sample".  
 > * We would __________ that the value of the statistic would be near $0.5$ (but maybe not exactly $0.5$).  
@@ -133,6 +101,8 @@ statistic & expect & parameter\\
 \bottomrule
 \end{tabular}
 \end{table}
+
+
 
 
 
@@ -186,7 +156,7 @@ We would like to test the company's claim, and ask the RQ:
 
 }
 
-\caption{Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi.}(\#fig:PizzaSoftwareHTjamovi)
+\caption{Summary statistics for the diameter of Eagle Boys' large pizzas.}(\#fig:PizzaSoftwareHTjamovi)
 \end{figure}
 
 
@@ -252,4 +222,90 @@ Assuming the tests are statistically valid, what is the approximate $P$-value fo
 
 How would your answers change if these $t$-scores came from a *one-tailed* test?
 \greyboxlines{2}
+
+
+## Writing conclusions {#HtestWritingConclusions}
+
+University\ A has a goal for at least $40\%$ of its students to be using a password manager (the 'target proportion').
+To determine if the goal is being met, the university takes a sample of $78$\ students, and finds\ $29$ are using a password manager.
+Using jamovi, the $z$-score was $z = -0.515$.
+
+1. Each of these alternative hypotheses is **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** alternative hypothesis.
+   
+   a. $H_1$: The proportion of students using a password manager is significantly lower than\ $0.40$.
+   b. $H_1 < 0.40$.
+   c. $H_1$: $p > 0.40$, where $p$ is the population proportion of students using a password manager.
+   d. $H_1$: The number of students using a password manager does not meet the university's target.
+\greyboxlines{3}
+
+2. Each of these conclusions are **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** conclusion.
+   
+   a. There is strong evidence that the proportion of students using a password manager is equal to the target proportion.
+   b. There is no evidence of a large difference between the population of students using a password manager and target proportions.
+   c. The sample proportion is $0.40$.
+\greyboxlines{3}
+
+University\ B has the *same* goal.
+To determine if the goal is being met, it takes a sample of $66$\ of its students and finds\ $35$ are using a password manager.
+Using jamovi, the $z$-score was $z = 2.12$.
+
+3. Each of these conclusions are **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** conclusion.
+   
+   a. There is a evidence of a significant difference between proportion of students using a password manager and the target proportion.
+   b. There is no evidence that the target proportion is\ $0.40$.
+   c. The target proportion is not\ $0.40$.
+\greyboxlines{3}
+
+
+
+## **Optional questions** {#OptionalTW8}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers appear in Sect.\ \@ref(Lecture6Answers).)
+:::
+
+
+### **(Optional)**  The decision-making process {#DecisionMakingProcess}
+
+<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" aria-label="The decision-making process" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+Fill in the blanks in this piece of text, using words and phrases from Table\ \@ref(tab:Words1Table).
+   
+
+   
+> * The decision-making process begins with making an assumption about the population __________.  
+> * This means we know what to __________ from the sample __________.   
+> * We never know exactly what value of the statistic we will see in the sample, because of __________.   
+> * But we can have some of idea of what values are reasonable to expect.  
+> * Then we take the __________ (that is, we make the observations).  
+> * Then we __________ what the sample statistic that we observed... to the sample statistic we expected.  
+> * If what we observe is inconsistent with what was expected, then the the assumption is __________ true.  
+> * However, if what we observe is __________ with what was expected, then the the assumption is __________ true.
+
+
+
+\begin{table}
+\centering
+\caption{(\#tab:Words1Table)Words and phrases to insert.}
+\centering
+\fontsize{10}{12}\selectfont
+\begin{tabular}[t]{ccccc}
+\toprule
+compare & probably & expect & sampling variation & consistent\\
+unlikely to be & sample & parameter & statistic & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+
 

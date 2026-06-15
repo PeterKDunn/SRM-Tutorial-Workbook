@@ -31,11 +31,6 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 
-::: {.mentiQuestion data-latex=""}
-\null
-:::
-
-
 
 \pagebreak
 
@@ -54,31 +49,44 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 
 > For London take-away restaurants, is the average amount of salt in a Chinese meal the same as in an Indian meal?
 
-1.  What *type* of RQ is this? \tightlist
-    Descriptive, relational, repeated-measures or correlational?
-    Explain.
-\greyboxlines{1}
-2.  What is the *purpose* this RQ? \tightlist
-    Estimation or decision-making?
-    Explain. 
-\greyboxlines{1}
+1. What *type* of RQ is this?  \tightlist
+   Explain your answer, and why the other answers are incorrect.
+
+    a. Descriptive.
+    b. Relational.
+    c. Repeated-measures.
+    d. Correlational?
+2. What is the *purpose* this RQ? \tightlist
+    a. Estimation.
+    b. Decision-making?
 3. Is an *intervention* present? 
    If so, what is it?
-\greyboxlines{1}
+\greyboxlines{2}
 4. What is the *outcome* in this RQ?
-   Explain. 
-\greyboxlines{1}
+   Explain your answer, and why the other answers are incorrect. 
+    a. The amount of salt in each meal.
+    b. The average amount of salt in Chinese and Indian take-away meals.
+    c. London take-away restaurants.
+    d. The average amount of salt.
 5. What is the *response variable*?
-\greyboxlines{1}
+    a. The amount of salt in each meal.
+    b. The average amount of salt in Chinese and Indian take-away meals.
+    c. London take-away restaurants.
+    d. The average amount of salt.
 6. What is the *unit of analysis*?
    Explain. 
-\greyboxlines{1}
+   a. We need more information about how the data were collected.
+   b. Each meal.
+   c. Each restaurant.
 7. What is the *unit of observation*?
    Explain. 
-\greyboxlines{1}
-8. The article states (p. 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
+   a. We need more information about how the data were collected.
+   b. Each meal.
+   c. Each restaurant.
+8. The article states (p.\ 518) that "a takeaway meal was defined as food purchased from out of home food outlets or ordered for home delivery".
    What *type* of definition is this? 
-\greyboxlines{1}
+   a. Operational.
+   b. Conceptual
 :::
 
 
@@ -102,7 +110,7 @@ Organise the steps of the research process (Fig. \@ref(fig:SixStepsToOrder)) int
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.5\linewidth]{01-TW1-Tutorial_files/figure-latex/SixStepsToOrder-1} 
+{\centering \includegraphics[width=0.4\linewidth]{01-TW1-Tutorial_files/figure-latex/SixStepsToOrder-1} 
 
 }
 
@@ -121,7 +129,7 @@ Organise the steps of the research process (Fig. \@ref(fig:SixStepsToOrder)) int
 
 
 A café owner doesn't believe that his customers can taste the difference between diet and regular colas.
-As a result, the owner decides to conduct a study of his customers.
+As a result, the owner decides to study this by conducting a study of his customers.
 
 1. Two RQs that the café owner is considering are given below.
    Which do you prefer, and why? \tightlist
@@ -187,110 +195,104 @@ Unit of observation & \textbf{$\blacktriangleleft$ Pair 8 $\blacktriangleright$}
 
 
 	
-The use of mobile phones has changed peoples' behaviour.
+The use of mobile phones has changed people's behaviour.
 @data:Barkley2016:Phones examined how the use of mobile phones impacts walking speed.
-Read the following information from the research article (p.\ 2, 3):
-
-> The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
-> &nbsp;
->
-> Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus.  
-> &nbsp;
->
-> We hypothesized that individuals who were talking or texting on a cell phone would walk more slowly than individuals who were not using their cell phone [...]
-> The walkway was straight, had limited ingress and egress, and was simple to navigate.  
-> &nbsp;
->
-> All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
-> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
-> &nbsp;
-> 
-> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.  
-> &nbsp;
->
-> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
-
-
-Answer the questions that follow, **explaining** the reason for your choices.
+Read the following information from the research article (p.\ 2, 3), and answer the questions that follow, **explaining** the reason for your choices.
 **Make sure you explain why the other options are incorrect.**
 
-1. Which one of these is most likely the *population* under study?
-    a. Phones.
-    b. People.
-    c. People at an American college.
-    d. Students at an American college.
-    
-  Explain why the other options are *incorrect*.
-  \greyboxlines{2}
 
-2. Which one of these is most likely the *outcome* in the study?
+> The purpose of this study was to compare average walking speed [...] while individuals were holding a cell phone to their ear (*talking*), actively utilizing the phone with their hands and looking at the screen (*texting*), or not using a cell phone (*no use*).  
+
+1. Which one of these is most likely the *outcome* in the study?
+   Explain why the other options are *incorrect*.
     a. The way subjects were using their phone.
     b. The time taken to walk $50$\ m.
     c. The **average** time taken to walk $50$\ m.
     d. The difference between the times taken, between those texting and those not texting.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
 		
-3. Which one of these is most likely the *comparison* in the study?
+2. Which one of these is most likely the *comparison* in the study?
+   Explain why the other options are *incorrect*.
     a. Between the ways that subjects were using their phone (talking; texting; not at all).
     b. Between those walking slowly and those walking quickly.
     c. Between those walking and those not walking.
     d. Between those using and not using a mobile phone.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 		
-4. Which one of these is most likely the *intervention* in the study?
-    a. The way subjects were using their phones.
-    b. The timing of the walk.
-    c. There is no intervention.
-    d. The phone.
-    
-  Explain why the other options are *incorrect*.
-  \greyboxlines{2}
-
-		
-5. What is the *explanatory variable*?
+3. What is the *explanatory variable*?
+   Explain why the other options are *incorrect*.
     a. The phone.
     b. The way that the phone is being used.
 	  c. The **average** time to walk $50\ms$.
     d. The walking speed.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
-				
-6. What is the *response variable*?
+4. What is the *response variable*?
+   Explain why the other options are *incorrect*.
     a. The differences between the times taken.
     b. The way subjects were using the phone.
     c. The **average** time to walk $50\ms$.
     d. The time taken to walk $50\ms$.
-    
-Explain why the other options are *incorrect*.
 \greyboxlines{2}
+
+\bigskip
+
+>
+> Naturalistic observations were made, unbeknownst to the subjects [...] as individuals transversed a 50&nbsp;m straight walkway on an American college campus [...]  
+> &nbsp;
+>
+> The walkway was straight, had limited ingress and egress, and was simple to navigate. 
+
+
+5. Which one of these is most likely the *population* under study?
+  Explain why the other options are *incorrect*.
+    a. Phones.
+    b. People.
+    c. People at an American college.
+    d. Students at an American college.
+  \greyboxlines{2}
+
+
+6. Which one of these is most likely the *intervention* in the study?
+   Explain why the other options are *incorrect*.
+    a. The way subjects were using their phones.
+    b. The timing of the walk.
+    c. There is no intervention.
+    d. The phone.
+  \greyboxlines{2}
+
+\bigskip
+
+> All observations were made while subjects were walking in one direction (west to east) approaching the overpass where research personnel were positioned. 
+> The starting and end points to the $50\ms$ walkway were selected as they had physical landmarks (e.g., a park bench bolted to the walkway) that were easily seen by the observer.  
+> &nbsp;
+> 
+> Walking speed was recorded, via a stopwatch, as the time (seconds) it took subjects to walk from the start to end points on the $50$\ m walkway.
+> &nbsp;
+> 
+> Walking speed was recorded for every fifth individual, walking independent of others (i.e., alone), to cross the starting point on the $50$\ m walkway. 
 
 
 7. Which one of these is most likely the *unit of observation* in the study?
+  Explain why the other options are *incorrect*.
     a. The phone.
     b. *Individual* subjects.
     c. *Groups* of subjects.
     d. Minutes.
-    
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
 
 		
 8. Which one of these is most likely the *unit of analysis* in the study?
+  Explain why the other options are *incorrect*.
     a. The phone.
     b. *Individual* subjects.
     c. *Groups* of subjects.
     d. Minutes.
-
-  Explain why the other options are *incorrect*.
   \greyboxlines{2}
-
+  
+9. What is the purpose of recording walking speed for 'every fifth individual'?
+  \greyboxlines{2}
 
 
 
@@ -317,7 +319,7 @@ Consider the following scenario:
 > 'Tea bags? Why?' asked Nim, eyebrows raised.  
 > &nbsp;
 >
-> 'Everyone knows that Earl Grey tea relaxes students...' said Jane dreamily.   
+> 'Everyone knows that Earl Grey tea relaxes students...' Jane sighed.   
 > &nbsp;
 >
 > 'How do you know that?' Nim said.  
@@ -325,14 +327,12 @@ Consider the following scenario:
 >
 > 'It *does*,' snapped Jane.
 > 'Earl Grey relaxes people.'  
->  
->  &nbsp;
 
 
 Nim considers studying Jane's assertion as the basis for a **feasible** and **practical** SCI110 project.
 
 1. Nim needs to determine a *population* to study.
-   Which of these would be a useful and practical population to use?
+   Which of these would be a useful, feasible and practical population to use?
    Or is there a different population that is 'better' to use?
    Explain.
     a. All university students.
@@ -351,18 +351,18 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
 \greyboxlines{3}
-5. Construct a well-worded *relational* research question *with an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O, C and I.
+5. Construct a well-worded *relational* research question *with an intervention* based on your P, O and\ C.
 \greyboxlines{3}
-6. *Briefly* describe an *experimental* study for answering your proposed research question.
+6. *Briefly* describe an *experimental* study for answering this proposed research question.
 \greyboxlines{3}
-7. Construct a well-worded *relational* research question *without an intervention* that Nim can ask to assess Jane's assertion, clearly identifying P, O and C.
+7. Construct a well-worded *relational* research question *without an intervention* based on your P, O and\ C.
 \greyboxlines{3}
-8. *Briefly* describe an *observational* study for answering your proposed research question.
+8. *Briefly* describe an *observational* study for answering this proposed research question.
 \greyboxlines{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
 \greyboxlines{2}
-10. Using this research question, identify the response and explanatory variables, and hence the data that *needs* to be collected to answer the question.
+10. Using this research question, identify the **response** and **explanatory** variables, and hence the data that *needs* to be collected to answer the question.
 \greyboxlines{2}
 
 
@@ -484,45 +484,53 @@ to help you understand some of the words used in the content.
 
 \textbf{Across}
 \begin{enumerate}\tightlist
-  \item[\textbf{4.}] 
-  The first step in the research process is to \verb|___| the research question (3)  
+  \item[\textbf{2.}]
+  The second step in the research process (6)  
+  \item[\textbf{3.}]
+  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)
   \item[\textbf{5.}]
-  RQs in which groups are compared numerically are called \verb|__________| (10)  
+  What is Australia's national gemstone? (4)  
   \item[\textbf{6.}]
-  `Conceptual' and `Operational' are different types of \verb|___________| (11)  
-  \item[\textbf{8.}]
-  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
-  \item[\textbf{9.}]
-  The type of research where data are \emph{not} summarised using numerical methods (11)  
-  \item[\textbf{11.}]
   Research is used to provide \verb|________|-based answers to RQs (8)  
-  \item[\textbf{13.}]
-  The sample size is the number of \verb|_____| of analysis (5)  
-  \item[\textbf{14.}]
-  What we do with the data to find an answer to the RQ (7)  
+  \item[\textbf{7.}] 
+  The first step in the research process is to \verb|___| the research question (3)  
+  \item[\textbf{9.}]
+  RQs in which groups are compared numerically are called \verb|__________| (10)  
+  \item[\textbf{12.}]
+  RQs may be decision making-type RQs or \verb|__________|-type RQs (10)  
   \item[\textbf{15.}]
-  A confounding variable, but is not measured or recorded, is a \verb|_______| variable (7)
-
+  What we do with the data to find an answer to the RQ (7)  
+  \item[\textbf{16.}] 
+  What is the name of Australia's wild dog? (5)
+  \item[\textbf{17.}] 
+  What is the abbreviation for Australia's island state? (3)
 \end{enumerate}
 
 \columnbreak
 
 \textbf{Down}
-\begin{itemize}\tightlist
+\begin{enumerate}\tightlist
   \item[\textbf{1.}]
-  The acronym to remember the four components of a RQ (4)
+  Independent collections of units of observations are called units of \verb|________| (8)
   \item[\textbf{2.}]
-  The type of research where data are summarised using numerical methods (and is studied in SCI110) (12)  
+  `Conceptual' and `Operational' are different types of \verb|___________| (11)  
   \item[\textbf{3.}]
-  The second step in the research process (6)  
-  \item[\textbf{7.}]
-  After designing a study, the next step is to \verb|_______| the data (7)  
-  \item[\textbf{10.}]
-  Independent collections of units of observations are called unit of \verb|________| (8)
-  \item[\textbf{12.}]
+  The type of research where data are \emph{not} summarised using numerical methods (11)  
+  \item[\textbf{4.}] 
+  What is a baby koala called? (4)
+  \item[\textbf{6.}]
+  What bird is on the Australian coat of arms? (3)
+  \item[\textbf{8.}]
   The collected information to answer the RQ is called \verb|____| (4)  
-
-\end{itemize}
+  \item[\textbf{10.}]
+  A confounding variable, that is not measured or recorded, is a \verb|_______| variable (7)
+  \item[\textbf{11.}]
+  After designing a study, the next step is to \verb|_______| the data (7)  
+  \item[\textbf{13.}]
+  The acronym to remember the four components of a RQ (4)
+  \item[\textbf{14.}]
+  The sample size is the number of \verb|_____| of analysis (5)
+\end{enumerate}
 \end{multicols}
 
 

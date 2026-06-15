@@ -60,18 +60,40 @@ Part of the data are in Table\ \@ref(tab:OSAKable3).
 (REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. Which of these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
-Median, mean, odds, or standard deviation.
+    a. Median.
+    b. Odds.
+    c. Standard deviation.
+    d. Mean.
 2. What might be an **appropriate** way to numerically describe the amount of *variation* in the ages of participants?
-\greyboxlines{1}
+    a. Standard deviation.
+    b. Median.
+    c. Mean.
+    d. Odds.
 3. What might be an **appropriate** way to numerically describe the average  Respiratory Event Index (REI) of participants?
-\greyboxlines{1}
+    a. Percentage.
+    b. Odds.
+    c. Standard deviation.
+    d. Mean.
 4. What might be an **appropriate** way to numerically describe the gender of the participants?
-\greyboxlines{1}
+    a. Standard deviation.
+    b. Median.
+    c. IQR.
+    d. Percentages.
 5. In the sample of $n = 60$, what **percentage** of individuals are females?
-\greyboxlines{1}
+    a. 122.
+    b. 0.82.
+    c. 0.45.
+    d. 45%.
+    e. 55%.
+    f. 0.55.
 6. In the sample of $n = 60$, what are the **odds** that an individual is female?
-\greyboxlines{1}
-7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this mean.
+    a. 0.45.
+    b. 45%.
+    c. 122.
+    d. 55%.
+    e. 0.55.
+    f. 0.82.
+7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this means.
 \greyboxlines{3}
 :::
 
@@ -139,13 +161,13 @@ In a study of how well emergency dispatchers recognised signs of stroke [@oostem
 \caption{(\#tab:Stroke)How well emergency dispatchers recognised signs of stroke.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{lcc}
+\begin{tabular}[t]{>{}lcc}
 \toprule
 \multicolumn{1}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Dispatcher}} & \multicolumn{1}{c}{\textbf{Dispatcher}} \\
 \textbf{ } & \textbf{suspected stroke} & \textbf{missed stroke}\\
 \midrule
-Males & 67 & 43\\
-Females & 97 & 39\\
+\textbf{Males} & 67 & 43\\
+\textbf{Females} & 97 & 39\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -217,7 +239,7 @@ Some researchers suspect that repeatedly 'heading' the ball may impair brain fun
 
 A study [@kirkendall2001heading] was conducted to determine (p.\ 157)
 
-> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion) was present in collegiate soccer players
+> ...whether long-term or chronic neuropsychological dysfunction (i.e. concussion) was present in collegiate soccer players...
 
 Data were collected from $240$\ college students for two variables:
 
@@ -232,17 +254,17 @@ Use the study data (Table\ \@ref(tab:SoccerTable)) to answer the following quest
 \caption{(\#tab:SoccerTable)Data on concussions experienced by college students.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{lccc>{}c}
+\begin{tabular}[t]{>{}lccc>{}c}
 \toprule
 \multicolumn{1}{c}{\textbf{ }} & \multicolumn{3}{c}{\textbf{Num. concussions}} & \multicolumn{1}{c}{\textbf{ }} \\
 \cmidrule(l{3pt}r{3pt}){2-4}
 \textbf{ } & \textbf{0} & \textbf{1} & \textbf{2 or more} & \textbf{Total}\\
 \midrule
-Soccer players & $\phantom{0}45$ & $\phantom{0}\phantom{0}5$ & $\phantom{0}13$ & \textbf{$\phantom{0}63$}\\
-Non-soccer athletes & $\phantom{0}68$ & $\phantom{0}25$ & $\phantom{0}\phantom{0}3$ & \textbf{$\phantom{0}96$}\\
-Non-athletes & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\phantom{0}81$}\\
+\textbf{Soccer players} & $\phantom{0}45$ & $\phantom{0}\phantom{0}5$ & $\phantom{0}13$ & \textbf{$\phantom{0}63$}\\
+\textbf{Non-soccer athletes} & $\phantom{0}68$ & $\phantom{0}25$ & $\phantom{0}\phantom{0}3$ & \textbf{$\phantom{0}96$}\\
+\textbf{Non-athletes} & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\phantom{0}81$}\\
 \midrule
-\textbf{Total} & \textbf{$158$} & \textbf{$\phantom{0}45$} & \textbf{$\phantom{0}37$} & \textbf{\textbf{$240$}}\\
+\textbf{\textbf{Total}} & \textbf{$158$} & \textbf{$\phantom{0}45$} & \textbf{$\phantom{0}37$} & \textbf{\textbf{$240$}}\\
 \bottomrule
 \end{tabular}
 \end{table}

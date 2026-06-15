@@ -80,7 +80,7 @@ are rated as having a GVM between $10.7$ and $26.0$\ tonnes (depending on the co
 ## Class discussion {#TW6-Class-Discussion}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: Outliers should always be removed from a dataset before analysis.
+**Discuss**: Outliers should **always** be removed from a dataset before analysis.
 :::
 
 
@@ -153,13 +153,11 @@ ________cm.
 5. Using **the normal distribution tables** in the Appendix, together with the information from **Fig.\ \@ref(fig:Ht)**, compute the percentage of people of your age and gender that are *shorter* than you.
 \greyboxlines{3}
 
-\pagebreak
+For the remaining parts of this question, use data for *females 18\ and over* (where the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
 
-6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females $18$\ and over* are within what height range?
-   (For this group, the mean is $\mu = 161.4\cms$, and the standard deviation is $\sigma = 6.7\cms$, drawn from Fig.\ \@ref(fig:Ht).)
+6. Using the $68$--$95$--$99.7$ rule, the middle $95$% of *females 18\ and over* are within what height range?
 \greyboxlines{4}
-7. For this part, we want to just look at *females $18$\ and over* again.
-   Answer the following questions.
+7. Answer the following questions.
 
    a. Compute the *percentage* of females $18$\ and over that are *shorter* than $171\cms$.
 \greyboxlines{2}
@@ -282,11 +280,11 @@ Table\ \@ref(tab:CoinDataTable).
 
 
 1. Use this data to create a histogram of the proportion of heads.
-   How would you describe the histogram?
+   Describe the histogram.
 \greyboxlines{4}
 1. I also 'tossed' $10$\ coins, but repeated this random process $400$\ times.
    My histogram is shown in Fig.\ \@ref(fig:HistCoinToss).
-   How would you describe the histogram?
+   Describe the histogram.
 \greyboxlines{2}
 1. Sketch the theoretical *sampling distribution* of the sampling proportion.
    What does this sketch show you?
@@ -297,7 +295,7 @@ Table\ \@ref(tab:CoinDataTable).
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.45\linewidth]{06-TW6-Tutorial_files/figure-latex/HistCoinToss-1} 
+{\centering \includegraphics[width=0.7\linewidth]{06-TW6-Tutorial_files/figure-latex/HistCoinToss-1} 
 
 }
 

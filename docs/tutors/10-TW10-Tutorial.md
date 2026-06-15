@@ -49,7 +49,7 @@ Take careful note of which chapters are covered in this tutorial!
 An ecologist is studying two different grasses to help combat soil salinity, by comparing to a new grass (Grass\ A) to a native grass (Grass\ B).
 She uses $50$\ different sites, allocating the two grasses at random to the sites ($25$\ sites for each grass).
 
-After $12$\ months, the ecologist records whether the soil salinity at each site has improved, and hence computes the *odds* that each grass will improve the salinity.
+After $12$\ months, the ecologist records whether the soil salinity at each site has changed, and hence computes the *odds* that each grass will change the salinity.
 She finds a statistically significant difference between the odds in the two groups.
 
 Which of these statements is *consistent* with this conclusion?
@@ -58,7 +58,7 @@ Which of these statements is *consistent* with this conclusion?
 2. The $\text{OR} = 4.1$ and $P = 0.0001$.
 3. The $\text{OR} = 0.91$ and $P = 0.36$.
 4. The $\text{OR} = 0.91$ and $P = 0.0001$.  
-\greyboxlines{3}
+
 How would the other statements be interpreted then?
 \greyboxlines{3}
 :::
@@ -73,13 +73,22 @@ How would the other statements be interpreted then?
 
 
 
-## Consistency {#Consistency}
+## Consistency and reading output {#Consistency}
+
+
+:::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
+Consistency between the RQ, hypotheses, the CI,  the hypothesis test, and the results is important.
+For example: if the RQ is written in terms of *proportions*, then the hypotheses, CI and so forth should also be written in terms of *proportions*.\medskip
+
+In addition: explaining exactly what the statistic and the CI are estimating (the **parameter**) is **very** important.
+:::
+
 
 Suppose a researcher asked the RQ:
 
 > For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
 
-1. Which would be the appropriate null hypothesis?
+1. Which would be the appropriate null hypothesis? \tightlist
 \null
 
    a. The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles.
@@ -101,7 +110,40 @@ Suppose a researcher asked the RQ:
    c. Either of the above.
 
 
-   
+The jamovi output is shown in Fig.\ \@ref(fig:MosquitoBitesjamovi).
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.75\linewidth]{SoftwareImages/MosquitoBites} 
+
+}
+
+\caption{Mosquito bites when near different types of candles.}(\#fig:MosquitoBitesjamovi)
+\end{figure}
+
+4. What is the odds ratio? \tightlist
+\greyboxlines{1}
+5. Very carefully, explain what this odds ratio **means** in context.
+\greyboxlines{2}
+6. The output also shows the difference between proportions.
+   Very carefully, explain what this difference **means** in context.
+\greyboxlines{2}
+7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
+   What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
+\greyboxlines{2}
+8. The $95$% CI for the odds ratio is from\ $0.234$ to\ $1.102$.
+  Very carefully interpret what this means.
+\greyboxlines{2}
+9. *Suppose* the $95$% CI for the odds ratio was from\ $0.11$ to\ $0.94$.
+  Very carefully interpret what this would mean.
+\greyboxlines{2}
+10. *Suppose* the $95$% CI for the odds ratio was from\ $1.28$ to\ $4.13$.
+  Very carefully interpret what this would mean.
+\greyboxlines{2}
+11. Check that the CIs are statistically valid.
+\greyboxlines{2}
+
+
 ## CI and test for odds ratios {#OddsSoftware}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
@@ -137,7 +179,7 @@ Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-j
 \end{figure}
 
 
-1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.  
+1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.
    For the girls, $336$ of the $2\,664$ matured late.
    Use this information to construct a two-way table of sex against maturation time (Table\ \@ref(tab:MaturationData)).
    
@@ -146,14 +188,14 @@ Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-j
 \caption{(\#tab:MaturationData)Maturation and gender.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{lrrr}
+\begin{tabular}[t]{>{}lrrr}
 \toprule
 \textbf{ } & \textbf{Matured late} & \textbf{Did not mature late} & \textbf{Total}\\
 \midrule
-Males &  &  & \\
-Females &  &  & \\
+\textbf{Males} &  &  & \\
+\textbf{Females} &  &  & \\
 \midrule\\
-\textbf{Total} & \textbf{} & \textbf{} & \textbf{5528}\\
+\textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{5528}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -186,7 +228,7 @@ Females &  &  & \\
   
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.5\linewidth]{SoftwareImages/BoysMatureTestsCI-jamovi} 
+{\centering \includegraphics[width=0.55\linewidth]{SoftwareImages/BoysMatureTestsCI-jamovi} 
 
 }
 
@@ -201,14 +243,14 @@ Females &  &  & \\
 \caption{(\#tab:MaturationSummary)Maturation and gender: numerical summary}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{llll}
+\begin{tabular}[t]{>{}llll}
 \toprule
 \textbf{ } & \textbf{Proportion maturing late} & \textbf{Odds  maturing late} & \textbf{Sample size}\\
 \midrule
-Males &  &  & \\
-Females &  &  & \\
-\midrule\\
- & Diff.: & Odds ratio: & \\
+\textbf{Males} &  &  & \\
+\textbf{Females} &  &  & \\
+\midrule
+\textbf{} & Diff.: & Odds ratio: & \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -243,16 +285,16 @@ In addition, $65$ subjects used an artificial limb, and $40$ did not.
 \caption{(\#tab:ArtLimbMortality)Five-year mortality for artifical limb users.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{lrrr}
+\begin{tabular}[t]{>{}lrrr}
 \toprule
 \textbf{ } & \textbf{Alive} & \textbf{Dead} & \textbf{Total}\\
 \midrule
-Used artificial limb &  &  & \\
+\textbf{Used artificial limb} &  &  & \\
 \addlinespace
-Did not use artificial limb &  &  & \\
-\midrule\\
+\textbf{Did not use artificial limb} &  &  & \\
+\midrule
 \addlinespace
-\textbf{Total} & \textbf{} & \textbf{} & \textbf{105}\\
+\textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{105}\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -285,17 +327,17 @@ Did not use artificial limb &  &  & \\
 \caption{(\#tab:ArtLimbSummary)Five-year mortality and use of an artificial limb: numerical summary.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{llll}
+\begin{tabular}[t]{>{}llll}
 \toprule
 \multicolumn{1}{r}{\textbf{ }} & \multicolumn{1}{r}{\textbf{Proportion alive}} & \multicolumn{1}{r}{\textbf{Odds of being alive}} & \multicolumn{1}{r}{\textbf{Sample}} \\
 \textbf{ } & \textbf{after 5 years} & \textbf{after 5 years} & \textbf{size}\\
 \midrule
-Use artificial limb &  &  & \\
+\textbf{Use artificial limb} &  &  & \\
 \addlinespace
-Did not use artifical limb &  &  & \\
+\textbf{Did not use artifical limb} &  &  & \\
 \midrule\\
 \addlinespace
- & Diff.: & Odds ratio: & \\
+\textbf{} & Diff.: & Odds ratio: & \\
 \bottomrule
 \end{tabular}
 \end{table}

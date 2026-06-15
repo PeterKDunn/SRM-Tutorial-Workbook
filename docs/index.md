@@ -6,7 +6,7 @@ author: "Peter K. Dunn"
 geometry: margin=27mm
 description: "TUTORIALS for quantitative research in science, engineering and health (including research design, hypothesis testing and confidence intervals in common situations)"
 cover-image: "images/cover-Tutorial.png"
-date: "Last updated: May 20, 2026"
+date: "Last updated: June 15, 2026"
 bibliography: ["ReferenceList.bib"]
 #biblio-style: plain
 csl: journal-of-applied-animal-science.csl
@@ -78,9 +78,7 @@ params:
 
 
 
-This book has been prepared for use with the online textbook 
-[*Scientific Research and Methodology*](https://peterkdunn.github.io/SRM-Textbook/)
-(which is also available as a traditional
+This book has been prepared for use with the textbook *Scientific Research and Methodology* (available [free online](https://peterkdunn.github.io/SRM-Textbook), or as a
 [paper-based textbook)](https://www.taylorfrancis.com/books/mono/10.1201/9781003394938/scientific-research-methodology-peter-dunn),
 to be used in the course *Science Research Methods* at the
 [University of the Sunshine Coast (UniSC)](https://www.usc.edu.au).
@@ -114,7 +112,7 @@ Many of the data sets used in this book are available in the **R** package `SRMD
 
 ## Call-outs used in this book {-}
 
-The call-outs used in this book have meanings:
+The call-outs used in this book are explained below:
 
 ### Call-outs to *orient* your study {-}
 
@@ -181,8 +179,8 @@ Numerous other **R** packages were used, including:
 * **diagram** [@Rpackage:diagram] for making some diagrams. 
 * **kableExtra** [@package:kableExtra] for nicer tables.
 * **DT** [@package:DT] for displaying some data tables in the online version.
-* **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better greyscale printing.
-* **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions).
+* **viridis** [@package:viridis] for some colour specifications that make colours easier for those with colour-blindness, and for better grey-scale printing.
+* **webexercises** [@package:webex] for creating interactive web exercises (i.e., *Quick Revision* questions) in the online version.
 
 All of this software is *free* and open source.
 Other resources used include:
@@ -193,9 +191,11 @@ Other resources used include:
 * Icons are from 
 [**iconmonstr**](https://iconmonstr.com/),
  and are freely available.
+ 
+<!--
 * The cover for the book was made using a free image with 
 [Canva](https://www.canva.com/).
-
+-->
 
 
 ## Learning outcomes {-}
@@ -221,7 +221,6 @@ In this book, you will learn to:
 ## How to cite this book {-}
 
 Peter K. Dunn (2025).
-*Scientific Research and Methodology: An introduction to quantitative research and statistics in science, engineering and health*.
-Chapman & Hall.
+*Scientific Research and Methodology Tutorial Book: An introduction to quantitative research and statistics in science, engineering and health*.
 https://peterkdunn.github.io/SRM-Tutorial-Workbook/index.html
 

@@ -44,15 +44,15 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.webex-box}
-1. True or false: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
+1. **True** or **false**: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
 \greyboxlines{1}
-1. True or false: All *confidence interval* are $95$% confidence intervals.
+1. **True** or **false**: All *confidence interval* are $95$% confidence intervals.
 \greyboxlines{1}
-1. True or false: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
+1. **True** or **false**: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
 \greyboxlines{1}
-1. True or false: CIs answers estimation-type RQs.
+1. **True** or **false**: CIs answers estimation-type RQs.
 \greyboxlines{1}
-1. True or false: A 95% confidence interval will contain approximately 95% of the observations.
+1. **True** or **false**: A 95% confidence interval will contain approximately 95% of the observations.
 \greyboxlines{1}
 :::
 
@@ -61,7 +61,7 @@ You will learn and practice the content associated with these chapters of the [t
 ## Class discussion {#TW7-Class-Discussion}
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from.
+**Discuss**: If we have *greater*  confidence in our answer, we would expect to have a *smaller* range of values to choose from (i.e., a narrower CI).
 :::
 
 
@@ -88,8 +88,8 @@ There was $44$\ matches.
 "They lie. There's only $44$\ matches in this box."
 
 
-1. Identify the two concepts that Jake is confusing. 
-   How would you clarify Jake's confusion?\tightlist
+1. Identify the two statistical concepts that Jake is confusing. 
+   How would you clarify the confusion?\tightlist
 \greyboxlines{2}
 2. Then, Jake and Claire counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
@@ -102,8 +102,8 @@ There was $44$\ matches.
 3. "The claim is $45$\ matches per box on average, but the mean really is $44.9$!" said Jake.
    "They're liars!  Liar, liar, pants on..."  
    
-   Identify the two concepts that Jake is confusing. 
-   How would you clarify Jake's confusion?
+   Identify the two statistical concepts that Jake is confusing. 
+   How would you clarify the confusion?
 \greyboxlines{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
 \greyboxlines{2}
@@ -113,9 +113,14 @@ There was $44$\ matches.
    Why does Claire think a CI is needed?
    What will it tell them?
 \greyboxlines{2}
-6. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
+
+
+6. Would the standard deviation of the number of matches in a box be more likely to be $0.04$\ matches, $0.4$\ matches or $4$\ matches?
+   Explain.
 \greyboxlines{2}
-7. "Aha---I told you so!  
+7. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
+\greyboxlines{2}
+8. "Aha---I told you so!
    They *are* absolutely lying!
    Your confidence interval doesn't even include their mean of $45$!" said Jake.
    "The manufacturer *must* be lying!
@@ -125,30 +130,36 @@ There was $44$\ matches.
    Why or why not?
    What does the CI *mean*?
 \greyboxlines{2}
-8. In this scenario, what does\ $\bar{x}$ represent?
+9. In this scenario, what does\ $\bar{x}$ represent?
    What is the *value* of\ $\bar{x}$?
 \greyboxlines{2}
-9. In this scenario, what does\ $\mu$ represent?
+910. In this scenario, what does\ $\mu$ represent?
    What is the *value* of\ $\mu$?
 \greyboxlines{2}
 
 
-## Standard error for a proportion {#SEproportions}
+## Standard error formulas {#SEproportions}
 
 
 
-The formula for the **standard error for the sample proportion** is:  
+Two formulas for the **standard error** are:  
 $$
-  \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}.
+  \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}
+  \qquad
+  \text{and}
+  \qquad
+  \text{s.e.}(\bar{x}) = \frac{s}{\sqrt{n}}.
 $$
 
-In this formula:
-
-1. What does\ $\hat{p}$ represent?
+1. When should each formula be used?
 \greyboxlines{1}
-2. What does\ $n$ represent?
+2. What does\ $\hat{p}$ represent?
 \greyboxlines{1}
-3. What is "$\text{s.e.}$" an abbreviation for?
+3. What does\ $n$ represent?
+\greyboxlines{1}
+4. What does\ $s$ represent?
+\greyboxlines{1}
+5. What does "$\text{s.e.}$" represent?
 \greyboxlines{1}
 
 
@@ -226,7 +237,7 @@ A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is s
 
 }
 
-\caption{Summary statistics for the diameter of Eagle Boys' large pizzas; jamovi.}(\#fig:PizzaCIjamovi)
+\caption{Summary statistics for the diameter of Eagle Boys' large pizzas.}(\#fig:PizzaCIjamovi)
 \end{figure}
 
 1. What do\ $\mu$ and\ $\bar{x}$ represent in this context? \tightlist 
@@ -250,7 +261,7 @@ A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is s
 \greyboxlines{4}
 10. What are the **statistical** validity conditions?
 \greyboxlines{2}
-11. Which of these conditions must we **assume** are met for this CI to be **statistically** valid?
+11. Which of these conditions must we **assume** are true for this CI to be **statistically** valid?
     How does Fig.\ \@ref(fig:PizzaHistoCI) help, if at all? 
     Explain.
     
@@ -263,7 +274,7 @@ A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is s
    
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.7\linewidth]{07-TW7-Tutorial_files/figure-latex/PizzaHistoCI-1} 
+{\centering \includegraphics[width=0.65\linewidth]{07-TW7-Tutorial_files/figure-latex/PizzaHistoCI-1} 
 
 }
 

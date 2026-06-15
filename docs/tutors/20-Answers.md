@@ -71,6 +71,10 @@ Answers implied by H5P.
 **Unit of observation**: *Individual* subjects.
 **Unit of analysis**: *Individual* subjects.
 
+The purpose of taking data from every fifth individual: systematic sampling (on top of convenience sampling).
+The purpose of taking data from individuals: people in groups often behave differently to individuals, and similarly to each other (for example: if one is talking to the others, the others are more likely to not be on their phone either).
+
+
 
 ### Answers for Sect.\ \@ref(CreateRQs) {.unlisted .unnumbered}
 
@@ -110,7 +114,7 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(TerminologyLect1) {.unlisted .unnumbered}
 
-The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; estimation; evidence; lurking; POCI; qualitative; quantitative; relational; units.
+The answers, in alphabetical order, are: ask; analysis; analyse; collect; data; definitions; design; dingo; emu; estimation; evidence; joey; lurking; opal; POCI; qualitative; quantitative; relational; TAS; units.
 
 
 ### Answers for Sect.\ \@ref(TypesOfStudies) {.unlisted .unnumbered}
@@ -142,7 +146,7 @@ Quasi-experimental (the classes are determined by the *students*, but the lectur
 ### Answers for Sect.\ \@ref(LanguageReport) {.unlisted .unnumbered}
 
 The answers are, in alphabetical order:
-beach; blind; control; ethical; experimental; fire; Hawthorne; help; nominal; randomly; relational; sample; three; treatment.
+ACT; beach; blind; control; ethical; experimental; fire; gum; Hawthorne; help; MCG; nominal; randomly; relational; sample; three; treatment; Uluru.
 
 
 ### Answers for Sect.\ \@ref(AssessReport) {.unlisted .unnumbered}
@@ -338,7 +342,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 4. The percentage of bridges *not* collapsing due to deterioration is *397* divided by *433*, or $91.7$%.
 5. The odds of a bridge *not* collapsing due to deterioration is *397* divided by *36*, or $11.0$.
 6. The percentage of bridge collapses due to collisions is *82* divided by *433*, or $18.9$%.
-7. The odds of a bridge collapsing due to collisions is *83* divided by *351*, or $0.234$.
+7. The odds of a bridge collapsing due to collisions is *82* divided by *351*, or $0.234$.
 8. The odds of an event cannot be larger than one: *FALSE*.
 9. The odds of an event cannot be smaller than one. *FALSE*.
 10. The following statement is true: *c. Odds cannot be negative*
@@ -370,8 +374,10 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 
 1. Backwards.
 1. See Table\ \@ref(tab:SMNDAnswerTable).
-2. $60/320 = 0.1875$. A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
-3. $33/344 = 0.096$.  A worker with SMND is $0.096$ times as likely to have worked with metal than not. 
+2. $60/320 = 0.1875$.
+   A worker with SMND is $0.1875$ times as likely to have worked with metal than not. 
+3. $33/344 = 0.096$.  
+   A worker without SMND is $0.096$ times as likely to worked with metals than to have not worked with metals. 
 
 
 \begin{table}
@@ -470,17 +476,34 @@ Answers implied by H5P.
 
 ### Answers for Sect.\ \@ref(NormalIQs) {.unlisted .unnumbered}
 
+
+
+1. (No picture).
+2. $130 - 100 = 30$ points above the mean.
+3. Two standard deviations above the mean.
+4. (No picture.)
+5. $-15$; that is, $15$ IQ points *below* the mean.
+6. $z = -1$; that is, one standard deviation *below* the mean. 
+7. About $84$%.
+
+
+<!--
 Answers embedded.
+
 Some answers:
 
-**1.** In order from left to right: $70$; $85$; $100$; $115$; $130$.
-**3.** $30$ points above the mean.
-**4.** Two standard deviations above the mean.
-**5.** About $2.5$%.
-
-A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
+1. In order: $70, 85, 100, 115, 130$.
+3. $30$.
+4. $2$.
+5. Using the $68$--$95$--$99.7$ rule: about $2.5$%.
+7. A person with an IQ of $85$ has an IQ that is **15** points **below** the mean, equivalent to **1** standard deviation(s) **below** the mean IQ.
 Using the **68**--$95$--$99.7$ rule, the proportion of the population with an IQ less than $85$ is about **32**%. 
 In addition, the proportion of the population with an IQ **above** $85$ is about **68**%.
+8. 'Intelligent', but not an absolute genius: a reasonably large percentage of the population has a larger IQ than\ $110$. 
+9. $-15$ (i.e., 15 points below the mean).
+10. $-1$ (i.e. one standard deviation below the mean).
+11. About $84$%.
+-->
 
 
 ### Answers for Sect.\ \@ref(NormalHeights) {.unlisted .unnumbered}
@@ -543,7 +566,8 @@ classical.
    This corresponds to an SOI of $0 + (0.84\times 10)$, or an SOI of about $8.4$.
 8. The $z$-score is $0.385$ from Appendix\ 3 in the textbook, remembering that the area to the *left* would be $0.650$ (draw a diagram!). 
    So, the $z$-score is $0.385$, so that the SOI values is $x = \mu + (z\times\sigma) = 0 + (0.385\times 10) = 3.85$.
-
+9. $z = -4.5$; from a picture of the normal distribution, the probability that $z$ is greater than $-4.5$ is practically (but not exactly) $100$%: the SOI is practically *always* larger than\ $55$.
+10. Draw a picture of a normal distribution: half the SOI values are bigger than\ $0$, and half are smaller than\ $0$.
 
 
 
@@ -570,9 +594,11 @@ classical.
    This sample may just have an unusually low number of matches.
 4. Either (1)\ The manufacturer is lying; or (2)\ the manufacturer is *not* lying, and this sample just happens to have a smaller number of matches: (bad) luck.
 5. A CI gives some indication of the variation implied by the sample.
-6. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
+6. Probably around $0.4$\ matches.
+   (Three standard deviations either side of the mean would be about $0.4 \times 3 = 1.2$ \ matches either side of the $45$\ target, much more reasonable than any other option.)
+7. The standard error for the mean is $0.124\div\sqrt{25} = 0.0248$.
    So the approximate $95$%\ CI is: $44.9 \pm (2\times 0.0248)$, or $44.9\pm 0.0496$, or from $44.85$ to $44.95$.
-7. No. A $95$% CI may or may not contain the population mean.
+8. No. A $95$% CI may or may not contain the population mean.
    Of course, the manufacturer *may* indeed be lying...
    but we'd need to be cautious about making such a bold claim on just this evidence.
    Ideally, we would repeat this study a few times or take a larger sample.
@@ -580,8 +606,8 @@ classical.
 
    If we had many, many sets of $25$\ matches boxes,
    $95$% of these sets of\ $25$ would have a mean between $44.85$ and $44.95$.
-8. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
-9. $\mu$ is the mean of the population; the true mean if you like.
+9. $\bar{x}$ is the mean of the sample, so $\bar{x} = 44.9$.
+10. $\mu$ is the mean of the population; the true mean if you like.
    $\mu$ is *claimed* to be $45$, but the the value of $\bar{x}$ will, of course, vary.
 
 
@@ -598,6 +624,7 @@ $\displaystyle \text{s.e.}(\hat{p}) = \sqrt{ \big(\hat{p}\times(1 - \hat{p}) \bi
 2. $\hat{p} = 123/404 = 0.304455$.
 3. The **odds**: The likelihood of surviving is about $0.44$ times the probability of dying (i.e., it is lower).
 	Or: For every $100$ that die, about $44$ survive.
+	 The **proportion**: About\ $30.4$ of every\ $100$ patients survive.
 4. No: sampling variation!
 5. $\text{s.e.}(\hat{p}) = \sqrt{0.304455 \times (1 - 0.304455)/404} = \sqrt{0.00052416} = 0.022894$, or about $0.023$.  
    A definition can be found in the textbook *Glossary*. 
@@ -657,19 +684,6 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 ## Answers for TW 8 tutorial {#Lecture8Answers}
 
-### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. The decision-making process begins with making an assumption about the population **parameter**.
-   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
-   But we can have some of idea of what values are reasonable to expect.
-   Then we take the **sample** (that is, we make the observations).
-   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
-   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
-   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
-
-
 ### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
 
 1. $H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
@@ -700,7 +714,7 @@ Answers implied by H5P.
 1. Two-tailed, because the RQ asks if the diameter is $12$ inches, or not.
 1. The normal distribution has a mean of $12$, and a  standard deviation of $\text{s.e.}(\bar{x}) = 0.022092$.
 1. $t = (11.486-12)/0.022092 = -23.3$.
-1. The $t$-value is *huge* (and negative), so the $P$-value is *very* small.
+1. The $t$-score is *huge* (and negative), so the $P$-value is *very* small.
    (Two-tailed $P<0.001$ from the table or from software.)
 1. Very strong evidence exists in the sample ($t = -23.3$$; two-tailed $P$ less than $0.001$) that the population mean pizza diameter of pizzas from Eagle Boys' is less than $12$ inches (sample mean diameter: $11.49$ inches; std. dev.: $0.246$;
    $95$% CI from $11.44$ to $11.53$ inches; approximate 95% CI is $11.486\pm 0.0441$).
@@ -717,6 +731,36 @@ Greater than $0.05$;
 Greater than $0.05$;
 Very small.
 
+
+### Answers for Sect.\ \@ref(HtestWritingConclusions) {.unlisted .unnumbered}
+
+1. *Correct*: $H_1$: $p < 0.40$ (i.e., the population proportion of students using a password manager is less than\ $0.40$, the target).
+   a. 'Significant' is not appropriate in the hypothesis.
+   b. No parameter is given; the hypothesis should include (and define!) the parameter\ $p$, the proportion of students using a password manager.
+   c. The alternative is 'less than' $0.40$.
+   d. The hypothesis are **not** about the *numbers*; they are about the *proportions*.
+2. *Correct*: There is no evidence of a difference between the target proportion of\ $0.40$ and the population proportion at University\ A. 
+   a. 'No **strong**' evidence' is wrong: there is 'no evidence'.
+   b. 'No evidence of a **large** difference' is wrong: there is no evidence of a difference.
+   c. The sample proportion is $\hat{p} = 29/78 = 0.372$, so this is clearly **wrong**!
+3. *Correct*: There is evidence of a difference between the target proportion and the population proportion at University\ B.
+   a. 'There is evidence of a **significant** difference': the use of 'significant' here is incorrect.
+   b. This is not true: we start by assuming the target proportion is being met; we don't need evidence to support it. 
+       There is evidence, however, to support the alternative hypothesis.
+   c. The target proportion is stated as being $0.40$, so this is clearly **wrong**!
+
+
+### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begins with making an assumption about the population **parameter**.
+   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
+   But we can have some of idea of what values are reasonable to expect.
+   Then we take the **sample** (that is, we make the observations).
+   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
+   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
+   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
 
 
 
@@ -748,37 +792,48 @@ Answers implied by H5P.
    **K**: $p_{\text{white}} - p_{\text{wholemeal}}\ne 0$.
 4. Is the mean length of a $12$-inch sub longer for white (compared to wholemeal) subs?
    **L**: $\mu_{\text{white}} - \mu_{\text{wholemeal}} > 0$.
-  
+   
+   
+   
+### Answers for Sect.\ \@ref(LimeTreesjamovi) {.unlisted .unnumbered}
+
+1. Mean for natural trees ($\mu_N$), minus the mean for planted trees ($\mu_P$).
+2. $\mu_N - \mu_P$.
+3. The difference between the population means could be between $2.7\cms$ larger for planted trees, to $1.5\cms$ larger for natural trees.
+4. The difference between the population means could be between $0.6\cms$ and $4.0\cms$ larger for natural trees.
+5. The difference between the population means could be between $1.6\cms$ and $4.5\cms$ larger for planted trees.
+
 
 ### Answers for Sect.\ \@ref(CIImplant) {.unlisted .unnumbered}
 
 
 1. How much further patients walk *with* the implant.
-2. **Repeated-measures**:
+2. Without minus With (i.e., How much further patients walk *with* the implant).
+3. **Repeated-measures**:
    Every subject has two TWMT recorded.
-3. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
-4. Each measurement is measured after and before on the same subject.
-5. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
+4. $\mu_d$ is the mean difference in the target population; $\bar{d}$ is the mean difference in this sample.
+5. Each measurement is measured after and before on the same subject.
+6. $32$; $12$; $24$; $30$; $8$; $14$; $14$; $28$; $38$; $49$.
    (Differences in the other direction are also acceptable; it just changes the signs of these differences and so on.
    **Importantly, the direction should be stated somewhere.**)
-6. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
-7. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
-8. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
-9. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
-10. Almost impossible.
+7. It makes more sense to define directions this way, so that the difference is the *increase* in 2MWT.
+8. $\bar{d} = 24.9$; $s_d=13.03372\ms$.
+9. $\text{s.e.}(\bar{d}) = s_d/\sqrt{n} = 13.03372/\sqrt{10} = 4.121623\ms$.
+10. This is the standard deviation of the sample mean difference, a measurement of how precisely the sample mean difference measures the population mean difference.
+11. Almost impossible.
    Sample means vary every time we take a sample around the true mean difference, with a normal distribution with standard error $4.12$.
    Since we don't know $\mu$, the best we can say is that the sample mean will vary about our best guess of the population mean; in other words, the sample means vary around $24.9$ with a standard deviation of about $4.12$. 
-11. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
-12. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
-13. Only *one sample of people* have been studied, so it is (as always) hard to be sure.
-14. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
+12. Normal; mean $\mu_d$, std deviation is the standard error of $4.121$.
+13. $24.9\pm (2\times 4.121623)$, or $24.9\pm 8.243246$, or from $16.65675$ to $33.143245\ms$.
+14. Only *one sample of people* have been studied, so it is (as always) hard to be sure.
+15. $H_0$: $\mu_d = 0$, differences defined as 'with' minus 'without'. 
     $H_1$: $\mu_d > 0$ the way I defined differences.  
-15. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
-16. The differences have just been defined in the opposite directions.
+16. $t = 6.041$ and since $t$ is very large, expect $P$ to be very small.
+17. The differences have just been defined in the opposite directions.
    (Notice the $P$-values are the same.)
-17. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
-18. The population of differences has a normal distribution, and/or $n > 25$ or so.
-19. Since $n < 25$, must assume the population of differences has a normal distribution.
+18. Very strong evidence exists in the sample (paired $t = 6.041$; one-tailed $P$ less than $0.0005$) that the population mean 2MWT are higher after receiving the implant compared to without the implant (mean difference: $24.9\ms$ higher after receiving the implant; standard deviation: $13.034\ms$; $95$%\ CI from $16.66$ to $33.14\ms$).
+19. The population of differences has a normal distribution, and/or $n > 25$ or so.
+20. Since $n < 25$, must assume the population of differences has a normal distribution.
    The histogram suggests this is not unreasonable.
    
 
@@ -838,6 +893,35 @@ Strong evidence of a difference between the mean reaction times; approx. $95$%\ 
 
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
+
+4. From the output, the OR is $0.508$.
+5. The *odds ratio* here means, from the RQ
+$$
+  \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
+$$
+5. The odds of someone receiving mosquito bites when sitting near a citronella candle is $0.51$ times the odds for those sitting near a wax candle (i.e., is lower).
+6. The difference between proportions is $p_C- p_W$.
+   In the population, the proportion of people bitten by mosquitoes is between $0.344$ higher near a **wax** candle to $0.024$ higher near a **citronella** candle.
+7. $0.51\times 2.167 = 1.1$.
+8. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.234$ times (i.e., lower) and $1.102$ times (i.e., higher) than the odds for those sitting near a wax candle.
+9. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.11$ and $0.94$ times the odds for those sitting near a wax candle (i.e., is lower).
+10.In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $1.28$ and $4.13$ times the odds for those sitting near a wax candle (i.e., is higher).
+11. The smallest expected count will be $42\times 44/118 = 15.7$, which comfortably exceeds five: the CIs are statistically valid.
+
+
+<!--
+Based on (artificial):
+
+|      | Bites | No bites  | Total  |
+|------|-------------------|--------|
+| Cit  |   22  | 20        | 42     |
+| Wax  |   52  | 24        | 76     |
+
+Odds(bites): 1.1 (Cit)
+Odds(bites): 2.167 (Wax)
+OR: 0.51
+CI: 0.234 - 1.10
+-->
 
 
 ### Answers for Sect.\ \@ref(OddsSoftware) {.unlisted .unnumbered}

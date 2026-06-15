@@ -30,7 +30,7 @@ You will learn and practice the content associated with these chapters of the [t
 :::
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You should bring your calculator to tutorials from this week onwards.
+You should bring your calculator to tutorials **from this week onwards**.
 :::
 
 <!--
@@ -91,15 +91,25 @@ Part of the data are shown in Table\ \@ref(tab:OSAKable).
 (REI is the Respiratory Event Index; REI under\ $5$ refers to no sleep apnoea; REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. How would you *classify* the variable `Age`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 2. How would you *classify* the variable `Gender`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 3. How would you *classify* the variable `BMI`? \tightlist
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 4. How would you *classify* the variable `REI`? \tightlist
-\greyboxlines{1}
-5. What did you learn from this study?
-\greyboxlines{1}
+    a. Qualitative nominal
+    b. Qualitative ordinal
+    c. Quantitative discrete
+    d. Quantitative continuous
 :::
 
 
@@ -142,7 +152,7 @@ $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
 
 
 
-## Using the calculator statistics mode for a small data set {#StatsMode}
+## Using the calculator *Statistics Mode* for a small data set {#StatsMode}
 
 
 
@@ -171,13 +181,12 @@ $\phantom{0}\phantom{0}\phantom{0}8.001$ & $\phantom{0}\phantom{0}29.400$ & $\ph
 
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-Most calculators have **two buttons** that compute the standard deviation when in **Statistics Mode**: one computes the standard deviation if the data are a sample, and one if the data are a population.
+Most calculators have **two buttons** that compute the standard deviation when in *Statistics Mode*: one computes the standard deviation if the data are a sample, and one if the data are a population.
 In practice, data are almost *never* a population.  
 \  
   
 If you are using your calculator correctly, you should get (before rounding) $\bar{x} = 990.0791$ and $s = 1588.514579$.
-If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**.
-You are probably pressing the incorrect button to get the standard deviation.
+If you get $s = 1485.919327$ for the *standard deviation*, you are using your calculator incorrectly, so please **ask for help**: you are probably pressing the incorrect button to get the standard deviation.
 :::
 
    
@@ -238,7 +247,7 @@ The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 <iframe src="https://usc.h5p.com/content/1291014887759753099/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ::: {.importantBox .important data-latex="{iconmonstr-warning-8-240.png}"}
-**NOTE**: The first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
+**NOTE**: In this exercise, the first bar of the histogram is not necessarily at zero; it is the **shape** of the histogram that is of interest here: right skewed, left skewed, symmetric, etc.
 :::
 
 
@@ -311,19 +320,19 @@ If you need help, please **ask**.
 :::
 
 
-1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in metres [@telford1991sex].
+1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in centimetres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
 \greyboxlines{2}
    b. Without using a calculator, find the **median** of the data.
 \greyboxlines{2}
-   c. Compute the IQR for the data.
+   c. Compute the **IQR** for the data.
 \greyboxlines{2}
 
 
 
 \begin{table}
 \centering
-\caption{(\#tab:AISTable)The heights (in metres) of female tennis players at the AIS.}
+\caption{(\#tab:AISTable)The heights (in centimetres) of female tennis players at the AIS.}
 \centering
 \fontsize{10}{12}\selectfont
 \begin{tabular}[t]{lllllll}
@@ -342,7 +351,7 @@ $167.9$ & $177.5$ & $162.5$ & $172.5$ & $166.7$ & $175.0$ & $157.9$\\
    a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
    Justify your answer.
 \greyboxlines{2}
-   b. Use your calculator's statistics mode to compute the mean and the standard deviation.
+   b. Use your calculator's statistics mode to compute the **mean** and the **standard deviation**.
 \greyboxlines{2}
    c. Without using a calculator, find the **median** of the data.
 \greyboxlines{2}
@@ -362,10 +371,10 @@ $167.9$ & $177.5$ & $162.5$ & $172.5$ & $166.7$ & $175.0$ & $157.9$\\
 
 
 
-3. The data in Table\ \@ref(tab:AISTable) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
+3. The data in Table\ \@ref(tab:AISTable2) give the percentage body fat of $n = 9$ female swimmers at the *Australian Institute of Sport* (AIS)  [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
-   c. Compute the IQR.
+   c. Compute the **IQR**.
 \greyboxlines{4}
    
 
@@ -415,13 +424,12 @@ The times (in hours) for nine Energizer Max batteries and nine ALDI brand batter
 \end{table}
 
 
-1. Is the type of research study a true experimental, quasi-experimental, or observational study?
-
-   Justify your answer. \tightlist
+1. Is the type of research study a true experimental, quasi-experimental, or observational study? Justify your answer.
+\tightlist
 \greyboxlines{2}
 2. What are the *units of observation* and *units of analysis*?
 \greyboxlines{2}
-3. Use your calculator's *Statistics mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
+3. Use your calculator's *Statistics Mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
    a. Compute the mean times for the *Energizer* batteries (to two decimal places).
    
    a. Compute the standard deviation of the *Energizer* battery times (to three decimal places).
@@ -433,7 +441,8 @@ The times (in hours) for nine Energizer Max batteries and nine ALDI brand batter
 \greyboxlines{4}
 4. Explain what these calculations tell you.
 \greyboxlines{2}
-5. Compute the median lifetime for each brand, explain what this tells you. (Many calculators cannot compute medians.)
+5. Compute the median lifetime for each brand, explain what this tells you. 
+   (Many calculators cannot compute medians.)
    a. Compute the median of the *Energizer* batteries (to two decimal places).
    
    b. Compute the median of the *Ultracell* batteries (to two decimal places).
@@ -441,7 +450,7 @@ The times (in hours) for nine Energizer Max batteries and nine ALDI brand batter
 \greyboxlines{3}
 6. Determine (and justify) if the mean or median would be a more appropriate measure of centre.
 \greyboxlines{2}
-7. Do you the average time to reach 1.0 volts is the same for each brand?
+7. Do you think that the average time to reach $1.0$\ volts is the same for each brand?
    Explain.
 \greyboxlines{2}
 8. Information about the cost of the batteries would also be important information to know (see below).

@@ -52,39 +52,39 @@ The researchers wanted to compare the mean DMFT for coeliacs and non-coeliacs.
 \caption{(\#tab:Coeliac)Coeliacs and dental cavities.}
 \centering
 \fontsize{10}{12}\selectfont
-\begin{tabular}[t]{lcccc}
+\begin{tabular}[t]{>{}lcccc}
 \toprule
 \textbf{ } & \textbf{Sample size} & \textbf{Mean} & \textbf{Standard deviation} & \textbf{Standard error}\\
 \midrule
-Coeliac (C) & 23 & 8.39 & 4.4 & 0.92\\
-Non-coeliac (NC) & 23 & 8.17 & 4.1 & 0.86\\
+\textbf{Coeliac (C)} & 23 & 8.39 & 4.4 & 0.92\\
+\textbf{Non-coeliac (NC)} & 23 & 8.17 & 4.1 & 0.86\\
 \midrule
-Difference &  & 0.22 &  & 1.3\\
+\textbf{Difference} &  & 0.22 &  & 1.3\\
 \bottomrule
 \end{tabular}
 \end{table}
 
 
-An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
+An *exact* $95$%\ CI is given for the difference: $-2.32$ to $2.76$.
 
 1. Using the $68$--$95$--$99.7$ rule gives a slightly different CI.
   Why?
 \greyboxlines{2}
-2. True or false: 
+2. **True** or **false**: 
    The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
 \greyboxlines{1}
-3. True or false:
+3. **True** or **false**:
    One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
 \greyboxlines{1}
 4. We are $95$% confident that the difference between the population means is:
 \greyboxlines{2}
-5. True or false:
+5. **True** or **false**:
    The *null* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} = 0$. 
 \greyboxlines{1}
-6. True or false:
+6. **True** or **false**:
    The *alternative* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} > 0$. 
 \greyboxlines{1}
-7. True or false:
+7. **True** or **false**:
    Since the two sample means are different, we reject the null hypothesis. 
 \greyboxlines{1}
 8. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
@@ -129,7 +129,7 @@ An *exact* $95$%\ CI is given as for the difference is $-2.32$ to $2.76$.
 
 
 In Table\ \@ref(tab:SubwayHyp), match the RQs with the appropriate *null hypothesis*.
-In this question, $p$ represents the proportion of subs shorter than $12$-inches one longer than $12$-inches as appropriate, and $\mu$ represents the mean length of a sub.
+In this question, $p$ represents the proportion of subs shorter than $12$-inches (or longer than $12$-inches, as appropriate), and\ $\mu$ represents the mean length of a sub.
 
 
 Then, match the RQs with the appropriate *alternative hypothesis*.
@@ -173,6 +173,35 @@ Then, match the RQs with the appropriate *alternative hypothesis*.
 
 
 
+## Interpreting jamovi output {#LimeTreesjamovi}
+
+The diameter of lime trees (in cms; called DBH (diameter at breast height)), some trees planted and some trees natural, were compared [@data:LimeTrees]. 
+Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.75\linewidth]{SoftwareImages/LimeTreesSummary} 
+
+}
+
+\caption{jamovi output for comparing DBH (in cm) for two groups of lime trees,}(\#fig:LimeTreesSummmary)
+\end{figure}
+
+1. *How* is the difference between the two groups defined, according to the output?
+\greyboxlines{2}
+2. What is the *parameter* according to the output?
+   What does this parameter *mean*?
+\greyboxlines{2}
+3. *Suppose* the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means in context.
+\greyboxlines{2}
+4. *Suppose* the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means in context.
+\greyboxlines{2}
+5. *Suppose* the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6$: very carefully interpret what this means in context.
+\greyboxlines{2}
+
+
+
+
 ## CIs and tests for mean differences (paired data) {#CIImplant}
 
 
@@ -205,34 +234,45 @@ The researchers asked:
 
 1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
 \greyboxlines{2}
-2. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
+2. Given the software output in Fig.\ \@ref(fig:2MWTjamovi), how is the difference defined in jamovi?
+
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{ArticleImages/TwoMinuteWalk-edit} 
+
+}
+
+\caption{Output from jamovi for the 2MWT example, partially edited.}(\#fig:2MWTjamovi)
+\end{figure}
+
+3. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
 \greyboxlines{1}
-3. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
+4. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
 \greyboxlines{2}
-4. Explain why these data should be analysed as *paired* data.
+5. Explain why these data should be analysed as *paired* data.
 \greyboxlines{2}
-5. Compute the *changes* in 2MWT for each patient.
-6. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
+6. Compute the *changes* in 2MWT for each patient.
+7. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
 \greyboxlines{2}
-7. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
+8. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
 \greyboxlines{2}
-8. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
+9. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
 \greyboxlines{2}
-9. Explain the *meaning* of the standard error of the mean difference in this context.
+10. Explain the *meaning* of the standard error of the mean difference in this context.
 \greyboxlines{2}
-10. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
+11. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
 \greyboxlines{2}
-11. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
+12. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
 \greyboxlines{4}
-12. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
+13. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
 \greyboxlines{4}
-13. Do you think the population 2MWT changes because of the prosthetic, on average?
+14. Do you think the population 2MWT changes because of the prosthetic, on average?
 \greyboxlines{3}
-14. Which of the following is the correct null hypothesis for this RQ? \tightlist
+15. Which of the following is the correct null hypothesis for this RQ? \tightlist
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
-   What is the alternative hypothesis?
+   What is the alternative hypothesis that is **consistent with the jamovi output**?
 
     - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0$
     - $\mu_{\text{Difference}} = 0$
@@ -244,28 +284,17 @@ The researchers asked:
     - $\mu_{\text{Without Implant}} < 0$
     - $\mu_{\text{With implant}} > 0$
 
-15. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
+16. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
 \greyboxlines{3}
-16. Explain why the $t$-score from jamovi is a negative value, but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a positive value.
+17. Explain why the $t$-score from jamovi is a *negative* value (Fig.\ \@ref(fig:2MWTjamovi)), but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a *positive* value.
 \greyboxlines{2}
-17. Write a statement that communicates the result of the test.
+18. Write a statement that communicates the result of the test.
 \greyboxlines{2}
-18. What conditions must be met for this test to be valid?
+19. What conditions must be met for this test to be valid?
 \greyboxlines{2}
-19. Is it reasonable to assume the assumptions are satisfied?
+20. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
 \greyboxlines{2}
-20. What did you learn from this study?
-\greyboxlines{2}
-
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=1\linewidth]{ArticleImages/TwoMinuteWalk-edit} 
-
-}
-
-\caption{Output from jamovi for the 2MWT example, partially edited.}(\#fig:2MWTjamovi)
-\end{figure}
 
 \begin{figure}[hbtp]
 
@@ -275,7 +304,6 @@ The researchers asked:
 
 \caption{Output from SPSS for the 2MWT example, partially edited.}(\#fig:2MWTSPSS)
 \end{figure}
-
 
 
 \begin{figure}[hbtp]

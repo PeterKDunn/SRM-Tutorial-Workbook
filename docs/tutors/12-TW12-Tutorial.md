@@ -52,7 +52,7 @@ In autumn, the correlation coefficient was given as $r = 0.931$.
 3. What is the value of $R^2$?
 \greyboxlines{1}
 4. The regression equation is given as $\hat{y} = 137.4 + 0.3459x$. 
-   If $700\\gs$ of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
+   If $700\gs$ of mud is found on the car, how many seeds are predicted to be carried by the vehicle?
 \greyboxlines{2}
 5. In this regression equation, the slope means:
 \greyboxlines{2}

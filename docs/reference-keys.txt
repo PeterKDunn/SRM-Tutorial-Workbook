@@ -33,6 +33,7 @@ fig:PizzaHistoCI
 fig:PizzaSoftwareHTjamovi
 fig:PizzaHistoHT
 tab:Coeliac
+fig:LimeTreesSummmary
 fig:Guirao2MWT
 fig:2MWTjamovi
 fig:2MWTSPSS
@@ -42,6 +43,7 @@ fig:RatsBoxErrorbar
 fig:Berger1988SummaryHTjamovi1
 fig:JumpingDatajamovi
 tab:PhoneSummary
+fig:MosquitoBitesjamovi
 fig:MaturationData-jamova-SPSS
 tab:MaturationData
 fig:BoysMaturejamovi
@@ -78,7 +80,6 @@ TypesOfStudies
 TerminologyLect1
 Lecture2
 QuickRevision-Tutorial2
-TW2-Class-Discussion
 StudyDesign
 LanguageReport
 AssessReport
@@ -132,14 +133,18 @@ Chapter6Drills
 Lecture8
 QuickRevision-Tutorial8
 TW8-Class-Discussion
-DecisionMakingProcess
+DecisionMakingProcessDice
 HTOneProportionA
 HTOneMean-A
 PValues
+HtestWritingConclusions
+OptionalTW8
+DecisionMakingProcess
 Lecture9
 QuickRevision-Tutorial9
 TW9-Class-Discussion
 MatchRQHypothesis
+LimeTreesjamovi
 CIImplant
 PlanStudy7
 CIRatLifetimes

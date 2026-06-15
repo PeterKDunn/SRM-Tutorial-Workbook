@@ -30,7 +30,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
-You should bring your calculator to tutorials from **next** week onwards.
+You should bring your calculator to tutorials from **next week onwards**.
 :::
 
 
@@ -55,29 +55,33 @@ Consider this RQ  [@walters2018factors]:
 > What factors are preventing the adoption of household solar technologies in Santiago [Chile]?'
 
 1. For this RQ, what is the *Population*? \tightlist
-\greyboxlines{1}
+    a. Solar technologies.
+    b. Household in the world.
+    c. Household in Chile.
+    d. Household in Santiago.
 2. The study will be *externally valid* if:
-   * the sample is representative of all households in the world.
-   * the sample is representative of all solar technologies.
-   * the sample is representative of all households in Santiago.
-   * the sample is representative of all households in Chile.
+   a. The sample is representative of all households in Santiago.
+   b. The sample is representative of all households in Chile.
+   c. The sample is representative of all solar technologies.
+   d. The sample is representative of all households in the world.
 3.  Suppose the researchers mailed surveys to all households in Santiago, and people returned the survey if they wished to. 
     What is the *best* description of this sampling method?
-\greyboxlines{1}
+    a. Systematic sampling.
+    b. Convenience sampling.
+    c. Self-selecting sampling.
+    d. None of the other answers are correct.
 4.  Suppose the researchers randomly selected five suburbs in Santiago; then ten streets within each of these suburbs; then ten households within each of these streets. 
     What is the *best* description of this sampling method?
-\greyboxlines{1}
+    a. Stratified sampling.
+    b. Systematic sampling.
+    c. Multi-stage sampling.
+    d. None of the other answers are correct.
 5. Suppose the researchers stood outside a busy supermarket, and surveyed every ninth person who entered.
     What is the *best* description of this sampling method?
-\greyboxlines{1}
-:::
-
-
-
-## Class discussion {#TW2-Class-Discussion}
-
-::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
-**Discuss**: A larger sample is always better than smaller sample.
+    a. Stratified sampling.
+    b. Systematic sampling.
+    c. Multi-stage sampling.
+    d. None of the other answers are correct.
 :::
 
 
@@ -97,13 +101,13 @@ Explain **why** each of these statements is **incorrect**.
 \greyboxlines{2}
 1. "The Outcome is *the average serum cholesterol concentration for smokers and non-smokers*."
 \greyboxlines{2}
-1. "The study is not externally valid, as the results may not apply to all people in the world."
+1. "The study is *not* externally valid, as the results may not apply to all people in the world."
 \greyboxlines{2}
 1. "The response variable is *serum cholesterol*."
 \greyboxlines{2}
 1. "In this experiment, the population is *Australians*."
 \greyboxlines{2}
-1. "The data file will have two columns: one for smokers, and one for non-smokers."
+1. "The data file will have two columns: one with serum cholesterol concentration for smokers, and one with serum cholesterol concentration for non-smokers."
 \greyboxlines{2}
 1. "*Whether or not the person owns a cat* is likely to be a confounding variable."
 \greyboxlines{2}
@@ -145,6 +149,8 @@ regarding this information.
 >
 > Trained evaluators who were unaware of study-group assignments assessed patients\ $6$, $12$, $24$, and $36$\ weeks after randomization.
 > The primary outcome was a change in the Fugl-Meyer score at $12$\ weeks, as compared with the baseline value...
+>
+> --- @data:Lo2010:RobotAssistance
 
 
 <iframe src="https://usc.h5p.com/content/1291418096383708349/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -176,41 +182,47 @@ regarding this information.
 
 \begin{multicols}{2}\small
 \textbf{Across}
-
 \begin{enumerate}\tightlist
-  \item[\textbf{3.}]
-  The number of groups being compared (5)  
-  \item[\textbf{5.}] 
-  Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
-  \item[\textbf{6.}]
-  Patients were assigned \verb|________| to the type of therapy received (8)  
-  \item[\textbf{11.}]
-  This type of study is called a \verb|____________| study (12)  
-  \item[\textbf{12.}]
-  A lovely place to relax, with sand and surf (5)
-  \item[\textbf{13.}]
-  The size of the \verb|______| is $127$ (6)
-\end{enumerate}
-
-\newcolumn
-
-\textbf{Down}
-
-\begin{enumerate}\tightlist
-  \item[\textbf{1.}]
-  When individuals change their behaviour if they think they are being observed: the \verb|_________| effect (9)
   \item[\textbf{2.}]
+  The type of tree that koalas feed on (3)  
+  \item[\textbf{3.}]
   The evaluators were unaware of the group the patient was in; they were \verb|_____| to the treatment (5)
-  \item[\textbf{4.}]
+  \item[\textbf{5.}]
   Informed consent ensures the study is \verb|_______| (7)
   \item[\textbf{7.}]
-  The treatment of `usual care' would be considered to be the \verb|_______| group (7)
+  Canberra is in what state or territory? (3)
   \item[\textbf{8.}]
+  When individuals change their behaviour if they think they are being observed: the \verb|_________| effect (9)
+  \item[\textbf{11.}]
   The type of therapy is called the \verb|_________| (9)
-  \item[\textbf{9.}]
+  \item[\textbf{12.}]
   The research question is of this type (10)
-  \item[\textbf{10.}]
+  \item[\textbf{13.}]
   Riddle: Feed me, I live; water me, I die (4)
+  \item[\textbf{14.}]
+  Patients were assigned \verb|________| to the type of therapy received (8)  
+\end{enumerate}
+
+\columnbreak
+
+\textbf{Down}
+\begin{enumerate}\tightlist
+  \item[\textbf{1.}]
+  The size of the \verb|______| is $127$ (6)
+  \item[\textbf{3.}]
+  A lovely place to relax, with sand and surf (5)
+  \item[\textbf{4.}]
+  What is the famous rock in central Australia? (5)
+  \item[\textbf{5.}]
+  This type of study is called a \verb|____________| study (12)  
+  \item[\textbf{6.}] 
+  Ask if you need \verb|____| (e.g., in tutorial, or on the Canvas \textit{Discussions}) (4)  
+  \item[\textbf{9.}]
+  The treatment of `usual care' would be considered to be the \verb|_______| group (7)
+  \item[\textbf{10.}]
+  The number of groups being compared (5)  
+  \item[\textbf{15.}]
+  What is Australia's largest cricket oval? (3)
 \end{enumerate}
 \end{multicols}
 
@@ -234,7 +246,7 @@ Based on this headline, answer the following questions.
   
 Below is an extract from the newspaper article about the mice study that formed part of the research.
 
-> Cheese is not only delicious and nutritious, with its abundance in calcium and vitamin\ B12, it can also slow down the ageing process, according to a new study... \null
+> Cheese is not only delicious and nutritious [...] it can also slow down the ageing process, according to a new study [...] 
 > In the study published in the journal *Nature Medicine*, European researchers analysed the effect of a compound found in aged cheese (as well as legumes and whole grains) called spermidine [...]
 > the team supplemented the drinking water of mice with spermidine. 
 > Control mice drank normal water.
@@ -280,7 +292,7 @@ Based on this information, answer the following questions.
     e. Whether their father had heart problems.
 \greyboxlines{4}
 
-The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the study of people.
+The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the people-study.
 From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
 
 Those with the highest spermidine intakes had a $40$% lower risk of heart failure (both fatal and non-fatal) compared to those with the lowest spermidine intakes. 
@@ -311,14 +323,22 @@ The study reports that the biggest contributors to spermidine intakes were:
 \nopagebreak
 
 
-## Planning a research study {#PlanStudy2}
+
+
+
+## Class discussion: planning a research study {#PlanStudy2}
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 This activity is very important for helping with your Project.
 :::
 
+
+::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 Your tutor will have
  information.
+:::
+
+
 
 
 

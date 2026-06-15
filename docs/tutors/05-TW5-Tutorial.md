@@ -64,8 +64,13 @@ A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \
 
 
 1. Two students are arguing about the median breadth.
-   Who is correct?  
-   
+   Who is correct?
+   Why?
+    a. Student 1.
+    b. Student 2.
+    c. Neither is correct.
+    d. Both are correct.
+
 **Student\ 1** says:  
 
 > The bars in the histogram have heights of $10$, $2$, $4$, $2$ and $4$.
@@ -78,7 +83,7 @@ A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \
 > There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
-\greyboxlines{3}
+\greyboxlines{2}
 
 2. Describe the histogram.
 \greyboxlines{2}
@@ -87,7 +92,8 @@ A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \
 \greyboxlines{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
 \greyboxlines{1}
-5. If the difference was defined as $\mu_A - \mu_B$, what does this *measure*?
+5. The difference between means was defined as $\mu_A - \mu_B$ (where $\mu_A$ is the mean breadth at Site\ A, and $\mu_B$ is the mean breadth at Site\ B).
+   What would a value of $-6.0\mms$ mean?
 \greyboxlines{2}
 6. What did you learn from this study?
 \greyboxlines{1}
@@ -229,7 +235,7 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 
 \begin{figure}[hbtp]
 
-{\centering \includegraphics[width=0.75\linewidth]{ProjectImages/GraphicalSummaryChi2} 
+{\centering \includegraphics[width=0.65\linewidth]{ProjectImages/GraphicalSummaryChi2} 
 
 }
 
@@ -279,7 +285,7 @@ The four correlation coefficients $r$ are:
    Which two?
    Explain your answer.
 \greyboxlines{2}
-2. Determine which plot corresponds to which correlation coefficient (and for which two plots a correlation coefficient is not suitable).
+2. Determine which plot corresponds to which correlation coefficient.
 \greyboxlines{3}
 3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
 \greyboxlines{3}
@@ -316,7 +322,7 @@ Your tutor will have information.
 A study of different orthoses (orthotic devices) in children with cerebral palsy [@data:Swinnen2017:orthoses] produced the demographic data of the participants.
 [GMFCS](https://en.wikipedia.org/wiki/Gross_Motor_Function_Classification_System) is the 
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
-
+(Higher classification numbers refer to less motor function.)
 
 The data are shown in Fig.&nbsp;\@ref(fig:Orthoses).
 
@@ -342,7 +348,7 @@ The data are shown in Fig.&nbsp;\@ref(fig:Orthoses).
 2. How many qualitative *ordinal* variable(s) appear in the data set?
    Which are they?
 \greyboxlines{2}
-3. How many quantitative *nominal* variable(s) appear in the data set?
+3. How many qualitative *nominal* variable(s) appear in the data set?
    Which are they?
 \greyboxlines{2}
     
