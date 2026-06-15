@@ -161,7 +161,7 @@ include_graphics("Illustrations/raphael-nogueira-Znvxeud6sDc-unsplash.jpg")
 The diameter of lime trees (in cms; called DBH (diameter at breast height)), some trees planted and some trees natural, were compared [@data:LimeTrees]. 
 Part of the jamovi output is shown in Fig.\ \@ref(fig:LimeTreesSummmary).
 
-```{r LimeTreesSummmary, echo=FALSE, fig.cap="jamovi output for comparing DBH (in cm) for two groups of lime trees,", fig.align="center", out.width="80%"}
+```{r LimeTreesSummmary, echo=FALSE, fig.cap="jamovi output for comparing DBH (in cm) for two groups of lime trees,", fig.align="center", out.width="75%"}
 knitr::include_graphics("SoftwareImages/LimeTreesSummary.png")
 ```
 
