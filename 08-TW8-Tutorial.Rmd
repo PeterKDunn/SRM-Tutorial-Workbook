@@ -67,7 +67,7 @@ You will learn and practice the content associated with these chapters of the [t
 **Discuss**: Confidence intervals are more informative than $P$-values.
 :::
 
-
+<!--
 
 ## The decision-making process {#DecisionMakingProcess}
 
@@ -75,7 +75,7 @@ You will learn and practice the content associated with these chapters of the [t
 
 ```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcess.Rmd'}
 ```
-
+-->
 
 
 ## The decision-making process: dice {#DecisionMakingProcessDice}
@@ -214,4 +214,44 @@ Assuming the tests are statistically valid, what is the approximate $P$-value fo
 
 How would your answers change if these $t$-scores came from a *one-tailed* test?
 \greyboxlines{2}
+
+
+## Writing conclusions {#HtestWritingConclusions}
+
+University\ A has a goal for at least $40\%$ of its students to be using a password manager (the 'target proportion').
+To determine if the goal is being met, the university takes a sample of $78$\ students, and finds\ $29$ are using a password manager.
+Using jamovi, the $z$-score was $z = -0.515$.
+
+1. Each of these alternative hypotheses is **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** alternative hypothesis.
+   
+   a. $H_1$: The proportion of students using a password manager is significantly lower than\ $0.40$.
+   b. $H_1 < 0.40$.
+   c. $H_1$: $p > 0.40$, where $p$ is the population proportion of students using a password manager.
+   d. $H_1$: The number of students using a password manager does not meet the university's target.
+\greyboxlines{3}
+
+2. Each of these conclusions are **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** conclusion.
+   
+   a. There is strong evidence that the proportion of students using a password manager is equal to the target proportion.
+   b. There is no evidence of a large difference between the population of students using a password manager and target proportions.
+   c. The sample proportion is $0.40$.
+\greyboxlines{3}
+
+University\ B has the *same* goal.
+To determine if the goal is being met, it takes a sample of $66$\ of its students and finds\ $35$ are using a password manager.
+Using jamovi, the $z$-score was $z = 2.12$.
+
+3. Each of these conclusions are **incorrect**.
+   Explain the main reason why.
+   Then, write the **correct** conclusion.
+   
+   a. There is a evidence of a significant difference between proportion of students using a password manager and the target proportion.
+   b. There is no evidence that the target proportion is\ $0.40$.
+   c. The target proportion is not\ $0.40$.
+\greyboxlines{3}
+
 
