@@ -67,19 +67,9 @@ You will learn and practice the content associated with these chapters of the [t
 **Discuss**: Confidence intervals are more informative than $P$-values.
 :::
 
-<!--
-
-## The decision-making process {#DecisionMakingProcess}
-
-<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" aria-label="The decision-making process" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcess.Rmd'}
-```
--->
 
 
 ## The decision-making process: dice {#DecisionMakingProcessDice}
-
 
 <iframe src="https://usc.h5p.com/content/1292918230698169809/embed" aria-label="The decision-making process: dice" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -253,5 +243,23 @@ Using jamovi, the $z$-score was $z = 2.12$.
    b. There is no evidence that the target proportion is\ $0.40$.
    c. The target proportion is not\ $0.40$.
 \greyboxlines{3}
+
+
+
+## **Optional questions** {#OptionalTW8}
+
+
+::: {.optionalBox .optional data-latex="{iconmonstr-help-4-240.png}"}
+These questions are **optional**; e.g., if you need more practice, or you are studying for the exam.
+(Answers appear in Sect.\ \@ref(Lecture6Answers).)
+:::
+
+
+### **(Optional)**  The decision-making process {#DecisionMakingProcess}
+
+<iframe src="https://usc.h5p.com/content/1291090890943888619/embed" aria-label="The decision-making process" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+```{r, child = if (knitr::is_latex_output()) './children/TutorialQns/08-DecisionMakingProcess.Rmd'}
+```
 
 

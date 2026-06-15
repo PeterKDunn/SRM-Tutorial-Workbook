@@ -716,20 +716,6 @@ It means $1.875\times 10^{-3}$, or $0.001875$.
 
 ## Answers for TW 8 tutorial {#Lecture8Answers}
 
-<!-- 
-### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
-
-Answers implied by H5P.
-
-1. The decision-making process begins with making an assumption about the population **parameter**.
-   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
-   But we can have some of idea of what values are reasonable to expect.
-   Then we take the **sample** (that is, we make the observations).
-   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
-   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
-   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
--->
-
 ### Answers for Sect.\ \@ref(HTOneProportionA) {.unlisted .unnumbered}
 
 1. $H_0$: $p = 0.3$ and $H_1$: $p > 0.3$.
@@ -794,6 +780,19 @@ Very small.
    b. This is not true: we start by assuming the target proportion is being met; we don't need evidence to support it. 
        There is evidence, however, to support the alternative hypothesis.
    c. The target proportion is stated as being $0.40$, so this is clearly **wrong**!
+
+
+### Answers for Sect.\ \@ref(DecisionMakingProcess) {.unlisted .unnumbered}
+
+Answers implied by H5P.
+
+1. The decision-making process begins with making an assumption about the population **parameter**.
+   This means we know what to **expect** from the sample **statistic**. We never know exactly what value of the statistic we will see in the sample, because of **sampling variation**. 
+   But we can have some of idea of what values are reasonable to expect.
+   Then we take the **sample** (that is, we make the observations).
+   Then we **compare** the sample statistic that we observed... to the sample statistic we expected.
+   If what we observe is inconsistent with what was expected, then the the assumption is **unlikely to be** true.
+   However, if what we observe is **consistent** with what was expected, then the the assumption is **probably** true.
 
 
 
