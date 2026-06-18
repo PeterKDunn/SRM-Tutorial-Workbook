@@ -60,7 +60,7 @@ Which of these statements is *consistent* with this conclusion?
 4. The $\text{OR} = 0.91$ and $P = 0.0001$.  
 
 How would the other statements be interpreted then?
-\greyboxlines{3}
+\answerbox{3}
 :::
 
 
@@ -121,31 +121,31 @@ Suppose a researcher asked the RQ:
 
 The jamovi output is shown in Fig.\ \@ref(fig:MosquitoBitesjamovi).
 
-```{r MosquitoBitesjamovi, echo=FALSE, fig.cap="Mosquito bites when near different types of candles.", fig.align="center", out.width="75%"}
+```{r MosquitoBitesjamovi, echo=FALSE, fig.cap="Mosquito bites when near different types of candles.", fig.align="center", out.width="65%"}
 knitr::include_graphics("SoftwareImages/MosquitoBites.png")
 ```
 
 4. What is the odds ratio? \tightlist
-\greyboxlines{1}
+\answerbox{1}
 5. Very carefully, explain what this odds ratio **means** in context.
-\greyboxlines{2}
+\answerbox{2}
 6. The output also shows the difference between proportions.
    Very carefully, explain what this difference **means** in context.
-\greyboxlines{2}
+\answerbox{2}
 7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
    What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
-\greyboxlines{2}
+\answerbox{2}
 8. The $95$% CI for the odds ratio is from\ $0.234$ to\ $1.102$.
-  Very carefully interpret what this means.
-\greyboxlines{2}
+  Very carefully interpret what this means in context.
+\answerbox{2}
 9. *Suppose* the $95$% CI for the odds ratio was from\ $0.11$ to\ $0.94$.
-  Very carefully interpret what this would mean.
-\greyboxlines{2}
+  Very carefully interpret what this would mean in context.
+\answerbox{2}
 10. *Suppose* the $95$% CI for the odds ratio was from\ $1.28$ to\ $4.13$.
-  Very carefully interpret what this would mean.
-\greyboxlines{2}
+  Very carefully interpret what this would mean in context.
+\answerbox{2}
 11. Check that the CIs are statistically valid.
-\greyboxlines{2}
+\answerbox{2}
 
 
 ## CI and test for odds ratios {#OddsSoftware}
@@ -271,25 +271,25 @@ if( knitr::is_html_output() ) {
 
 2. What graphical summary could be used to display the information?
    Sketch this display.
-\greyboxlines{4}
+\answerbox{4}
 3. Among the boys, compute the *odds* of maturing late.
    Interpret this value.
-\greyboxlines{2}
+\answerbox{2}
 4. Among the girls, compute the *odds* of maturing late.
    Interpret this value.
-\greyboxlines{2}
+\answerbox{2}
 5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
    Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi)).
-\greyboxlines{2}
+\answerbox{2}
 6. What is the **parameter** of interest (make sure you specify the direction)?
-\greyboxlines{2}
+\answerbox{2}
 7. Write down the OR and the $95$%\ CI for the OR from the jamovi output. 
    What does it mean?
-\greyboxlines{2}
+\answerbox{2}
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
 9. Are boys generally more likely to mature later than girls? 
    Perform a hypothesis test.
-\greyboxlines{4}
+\answerbox{4}
 
    `r if (knitr::is_html_output()) '**Vote below.**'`
 
@@ -510,26 +510,27 @@ if( knitr::is_html_output() ) {
 ```
 
 2. In Table\ \@ref(tab:ArtLimbMortality), *why* is the use (or not) of artificial limbs listed in the *rows* (rather than the *columns*)?
+\answerbox{2}
 3. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
-\greyboxlines{4}
+\answerbox{4}
 4. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
-\greyboxlines{2}
+\answerbox{2}
 5. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.
-\greyboxlines{2}
+\answerbox{2}
     b. Write down the value of\ $\chi^2$.
-\greyboxlines{2}
+\answerbox{2}
     c. What $z$-score is this equivalent to?
-\greyboxlines{2}
+\answerbox{2}
     d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
-\greyboxlines{2}
+\answerbox{2}
     e. What is the exact $P$-value as reported by software?
-\greyboxlines{2}
+\answerbox{2}
     f. Write a conclusion.
-\greyboxlines{2}
+\answerbox{2}
 
 
 ```{r echo=FALSE, ArtLimbSummary}
@@ -670,7 +671,7 @@ The $44$ individual students' guesses had a standard deviation of $7.145\ms$.
 Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5\ms$.
 
 What size sample would Prof. Lewis need?
-\greyboxlines{4}
+\answerbox{4}
 
 
 

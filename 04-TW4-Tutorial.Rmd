@@ -102,7 +102,7 @@ A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalh
     e. 0.55.
     f. 0.82.
 7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this means.
-\greyboxlines{3}
+\answerbox{3}
 :::
 
 
@@ -222,53 +222,53 @@ if( knitr::is_html_output() ) {
 
 
 1. *Why* are the levels 'Male' and 'Female' placed in the rows of the table, rather than the columns?
-\greyboxlines{2}
+\answerbox{2}
 2. What proportion of patients had their stroke symptoms missed? \tightlist
-\greyboxlines{2}
+\answerbox{2}
 3. Sketch a side-by-side or stacked bar chart to display the data.
-\greyboxlines{4}
+\answerbox{4}
 4. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.391", 
 "0.609",
 "0.524",
 "0.333") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 5. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.713",
 "0.476",
 answer = "0.287", 
 "0.333") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 6. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "39.1", 
 answer = "0.642",
 "0.907",
 "0.50") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 7. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 answer = "0.402", 
 "2.49",
 "1.10",
 "1.24") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 8. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.391",
 "1.6",
 answer = "0.104",
 "0.287") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 9. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c(
 "0.63",
 "0.402",
 "0.50",
 answer = "1.6") )} else {'\\null'}`
-\greyboxlines{2}
+\answerbox{2}
 10. Construct a numerical summary table by completing Table\ \@ref(tab:StrokeSymptomsSummary).
 
 
@@ -482,37 +482,37 @@ if( knitr::is_html_output() ) {
 ```
 
 1. *Why* is the number of concussions placed in the columns of the table, rather than the rows?
-\greyboxlines{2}
+\answerbox{2}
 1. Classify the two variables.
-\greyboxlines{2}
+\answerbox{2}
 2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
-\greyboxlines{2}
+\answerbox{2}
 3. Compute the percentage of college students in the population that have received two or more concussions.
-\greyboxlines{2}
+\answerbox{2}
 4. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 5. Among **non-athletes**, compute the odds of receiving two or more concussions.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 6. Among **soccer players**, compute the odds of receiving two or more concussions.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 7. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
-\greyboxlines{2}
+\answerbox{2}
 8. Create a table of **column** percentages.
    What do these tell you?
-\greyboxlines{4}
+\answerbox{4}
 9. Create a table of **row** percentages.
    What do these tell you?
-\greyboxlines{4}
+\answerbox{4}
 10. Which one of these tables is probably more sensible?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 11. What did you learn from this study?
-\greyboxlines{2}
+\answerbox{2}
 
 
 
@@ -680,15 +680,15 @@ If you need help, please **ask**.
 1. A study of drivers [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
 
    a. What **percentage** of people use their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    b. What are the **odds** that a person uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    c. What are the **odds** that a WA resident uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    d. What are the **odds** that a NSW resident uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
-\greyboxlines{2}
+\answerbox{2}
 
 ```{r PDTable, echo=FALSE}
 PDTab <- array( dim = c(2, 2))
@@ -729,19 +729,19 @@ if( knitr::is_html_output() ) {
 
 2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
    a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    c. Compute the **percentage** of cuttings that were *long*.
-\greyboxlines{1}
+\answerbox{1}
    d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-\greyboxlines{1}
+\answerbox{1}
    f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-\greyboxlines{1}
+\answerbox{1}
    g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
-\greyboxlines{1}
+\answerbox{1}
 
 
 ```{r RSTable, echo=FALSE}
@@ -797,27 +797,27 @@ A total of $380$\ SMND cases and $377$ controls were studied.
 Of the $380$\ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
 
 1. What is the *direction* of this study?
-\greyboxlines{1}
+\answerbox{1}
 2. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
-\greyboxlines{4}
+\answerbox{4}
 3. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 4. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 5. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
    (This is an *odds ratio*.)
-\greyboxlines{2}
+\answerbox{2}
 6. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
-\greyboxlines{1}
+\answerbox{1}
 7. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-\greyboxlines{1}
+\answerbox{1}
 8. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
-\greyboxlines{1}
+\answerbox{1}
 9. Sketch a bar chart to display the data.
-\greyboxlines{4}
+\answerbox{4}
 
 
 

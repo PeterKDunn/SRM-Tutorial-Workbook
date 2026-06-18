@@ -61,7 +61,7 @@ Consider this RQ (based on @data:jaworowska2012:determination):
     b. Decision-making?
 3. Is an *intervention* present? 
    If so, what is it?
-\greyboxlines{2}
+\answerbox{2}
 4. What is the *outcome* in this RQ?
    Explain your answer, and why the other answers are incorrect. 
     a. The amount of salt in each meal.
@@ -126,11 +126,11 @@ As a result, the owner decides to study this by conducting a study of his custom
     
     a. Among my customers, is the *average* customer-taste rating (on a five-point scale) the same for diet and regular cola drinks?
     b. Among my customers, is the *percentage* of customers who prefer diet cola drinks the same as the *percentage* of customers who prefer regular cola drinks?
-\greyboxlines{2}
+\answerbox{2}
 1. Develop your own RQ to answer the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner's question, by carefully and precisely describing P, O, C and I (where relevant).
-\greyboxlines{3}
+\answerbox{3}
 1. Make notes about *how* the `r readr::parse_character( c("café"), locale = locale(encoding = "UTF-8"))` owner could gather data to answer the RQ.
-\greyboxlines{3}
+\answerbox{3}
 
 
 
@@ -264,7 +264,7 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     d. Queensland university students.
 2. Identify an *outcome* that Nim can measure to answer the research question.
    Justify your answer.
-\greyboxlines{3}
+\answerbox{3}
 3. Which of these *between-individuals comparisons* do you think Nim should use?
    Why?
     a. Between drinking Earl Grey tea and coffee.
@@ -273,20 +273,20 @@ Nim considers studying Jane's assertion as the basis for a **feasible** and **pr
     d. Between exam time and other times of the semester.
     e. Between students and non-students.
 4. Explain why 'Between before and after drinking Earl Grey tea' is a *within-individuals* comparison.
-\greyboxlines{3}
+\answerbox{3}
 5. Construct a well-worded *relational* research question *with an intervention* based on your P, O and\ C.
-\greyboxlines{3}
+\answerbox{3}
 6. *Briefly* describe an *experimental* study for answering this proposed research question.
-\greyboxlines{3}
+\answerbox{3}
 7. Construct a well-worded *relational* research question *without an intervention* based on your P, O and\ C.
-\greyboxlines{3}
+\answerbox{3}
 8. *Briefly* describe an *observational* study for answering this proposed research question.
-\greyboxlines{3}
+\answerbox{3}
 9. List any necessary word or terms that need operational or conceptual definitions. 
    (You do not need to *give* the definitions.)
-\greyboxlines{2}
+\answerbox{2}
 10. Using this research question, identify the **response** and **explanatory** variables, and hence the data that *needs* to be collected to answer the question.
-\greyboxlines{2}
+\answerbox{2}
 
 
 
@@ -348,17 +348,17 @@ if( knitr::is_html_output() ) {
 
 1. What is the unit of analysis: the test, the board, the Janka hardness, each measurement, kilonewtons, or something else? 
    Explain your answer.
-\greyboxlines{2}
+\answerbox{2}
 2. *How many* units of analysis are there?
-\greyboxlines{1}
+\answerbox{1}
 3. *How many* units of observation are there?
-\greyboxlines{1}
+\answerbox{1}
 4. Suppose the measurements were all taken from $10$\ *different* places on the *same* board (rather than from five different boards).
    How many units of analysis are there now?
    Explain your answer.
-\greyboxlines{2}
+\answerbox{2}
 5. Comment on the amount of variation *between* the boards compared to the amount of variation *within* boards.
-\greyboxlines{2}
+\answerbox{2}
 
 
 

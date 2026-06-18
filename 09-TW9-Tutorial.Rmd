@@ -93,30 +93,30 @@ An *exact* $95$%\ CI is given for the difference: $-2.32$ to $2.76$.
 
 1. Using the $68$--$95$--$99.7$ rule gives a slightly different CI.
   Why?
-\greyboxlines{2}
-2. **True** or **false**: 
-   The difference is computed as the number of DMFT for coeliacs minus non-coeliacs. \tightlist 
-\greyboxlines{1}
+\answerbox{2}
+2. **True** or **false**: \tightlist 
+   The difference is computed as the number of DMFT for coeliacs minus non-coeliacs.
+\answerbox{1}
 3. **True** or **false**:
-   One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible. 
-\greyboxlines{1}
+   One of the values for the CI is a negative value, which must be an error, since a negative number of DMFT is impossible.
+\answerbox{1}
 4. We are $95$% confident that the difference between the population means is:
-\greyboxlines{2}
+\answerbox{2}
 5. **True** or **false**:
    The *null* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} = 0$. 
-\greyboxlines{1}
+\answerbox{1}
 6. **True** or **false**:
    The *alternative* hypothesis is $H_0$: $\mu_{C} - \mu_{NC} > 0$. 
-\greyboxlines{1}
+\answerbox{1}
 7. **True** or **false**:
    Since the two sample means are different, we reject the null hypothesis. 
-\greyboxlines{1}
+\answerbox{1}
 8. Suppose the difference between the means was computed as $\mu_C - \mu_{NC}$. 
    What does this *measure*?
-\greyboxlines{2}
+\answerbox{2}
 9. Both samples sizes are less than $25$. 
    What does this mean for the statistical validity of the CI?
-\greyboxlines{2}
+\answerbox{2}
 :::
 
 
@@ -166,16 +166,16 @@ knitr::include_graphics("SoftwareImages/LimeTreesSummary.png")
 ```
 
 1. *How* is the difference between the two groups defined, according to the output?
-\greyboxlines{2}
+\answerbox{2}
 2. What is the *parameter* according to the output?
    What does this parameter *mean*?
-\greyboxlines{2}
-3. *Suppose* the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this means in context.
-\greyboxlines{2}
-4. *Suppose* the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this means in context.
-\greyboxlines{2}
-5. *Suppose* the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6$: very carefully interpret what this means in context.
-\greyboxlines{2}
+\answerbox{2}
+3. *Suppose* the $95$% CI for the difference was computed as\ $-2.7$ to\ $1.5$: very carefully interpret what this would mean in context.
+\answerbox{2}
+4. *Suppose* the $95$% CI for the difference was computed as\ $0.6$ to\ $4.0$: very carefully interpret what this would mean in context.
+\answerbox{2}
+5. *Suppose* the $95$% CI for the difference was computed as\ $-4.5$ to\ $-1.6$: very carefully interpret what this would mean in context.
+\answerbox{2}
 
 
 
@@ -211,63 +211,74 @@ knitr::include_graphics("ArticleImages/Guirao2017-Table2.png")
 
 
 1. Suppose the difference were computed as **With Imp** values *minus* the **Without Imp** values, what would this measure?
-\greyboxlines{2}
+\answerbox{2}
 2. Given the software output in Fig.\ \@ref(fig:2MWTjamovi), how is the difference defined in jamovi?
+\answerbox{2}
 
 ```{r 2MWTjamovi, echo=FALSE, fig.cap="Output from jamovi for the 2MWT example, partially edited.", fig.align="center", out.width="100%"}
 knitr::include_graphics("ArticleImages/TwoMinuteWalk-edit.png")
 ```
 
 3. What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
-\greyboxlines{1}
+\answerbox{1}
 4. What do\ $\mu_d$ and\ $\bar{d}$ represent in this context?
-\greyboxlines{2}
+\answerbox{2}
 5. Explain why these data should be analysed as *paired* data.
-\greyboxlines{2}
-6. Compute the *changes* in 2MWT for each patient.
+\answerbox{2}
+6. Compute the *changes* in 2MWT for each patient (write them to the right of the table in Fig.\ \@ref(fig:Guirao2MWT)).
 7. Although it doesn't really matter, *why* does it probably makes more sense to compute the **With Imp** values minus the **Without Imp** values?
-\greyboxlines{2}
+\answerbox{2}
 8. Using the statistics mode on your calculator, compute the sample mean difference\ $\bar{d}$ and the sample standard deviation of the differences\ $s_d$.
-\greyboxlines{2}
+\answerbox{2}
 9. Compute the standard error of the mean difference $\text{s.e.}(\bar{d})$. 
-\greyboxlines{2}
+\answerbox{2}
 10. Explain the *meaning* of the standard error of the mean difference in this context.
-\greyboxlines{2}
+\answerbox{2}
 11. If another sample of ten subjects were studied, would the same sample mean difference\ $\bar{d}$ be computed?
    How much variation would be expected in the sample mean differences found from different samples?
-\greyboxlines{2}
+\answerbox{2}
 12. Draw the approximate sampling distribution of\ $\bar{d}$ that shows how the value of\ $\bar{d}$ varies.
-\greyboxlines{4}
+\answerbox{4}
 13. Compute an approximate $95$% confidence interval for the population mean difference in 2MWT.
-\greyboxlines{4}
+\answerbox{4}
 14. Do you think the population 2MWT changes because of the prosthetic, on average?
-\greyboxlines{3}
-15. Which of the following is the correct null hypothesis for this RQ? \tightlist
+\answerbox{3}
+15. Which of the following is the correct null hypothesis? \tightlist
    **Why** are the others incorrect?
    Is the test one- or two-tailed?
    What is the alternative hypothesis that is **consistent with the jamovi output**?
 
-    - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0$
-    - $\mu_{\text{Difference}} = 0$
-    - $\mu_{\text{Difference}} > 0$
-    - $\mu_{\text{Without Implant}} = 0$
-    - $\mu_{\text{With implant}} = 0$
-    - $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} < 0$
-    - $\mu_{\text{Difference}} < 0$
-    - $\mu_{\text{Without Implant}} < 0$
-    - $\mu_{\text{With implant}} > 0$
-
+:::::: {.cols data-latex=""}
+:::: {.col data-latex="{0.4\textwidth}"}
+- $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0$
+- $\mu_{\text{Difference}} = 0$
+- $\mu_{\text{Difference}} > 0$
+- $\mu_{\text{Without Implant}} = 0$
+- $\mu_{\text{With implant}} = 0$
+::::
+:::: {.col data-latex="{0.05\textwidth}"}
+\ 
+<!-- an empty Div (with a white space), serving as
+a column separator -->
+::::
+:::: {.col data-latex="{0.4\textwidth}"}
+- $\mu_{\text{Without Implant}} - \mu_{\text{With implant}} < 0$
+- $\mu_{\text{Difference}} < 0$
+- $\mu_{\text{Without Implant}} < 0$
+- $\mu_{\text{With implant}} > 0$
+::::
+::::::
 16. Write down the value of the $t$-statistic, then estimate the $P$-value for testing the hypotheses (using Fig.\ \@ref(fig:2MWTjamovi)).
-\greyboxlines{3}
+\answerbox{3}
 17. Explain why the $t$-score from jamovi is a *negative* value (Fig.\ \@ref(fig:2MWTjamovi)), but the $t$-score from SPSS (Fig.\ \@ref(fig:2MWTSPSS)) is a *positive* value.
-\greyboxlines{2}
+\answerbox{2}
 18. Write a statement that communicates the result of the test.
-\greyboxlines{2}
+\answerbox{2}
 19. What conditions must be met for this test to be valid?
-\greyboxlines{2}
+\answerbox{2}
 20. Is it reasonable to assume the assumptions are satisfied?
     How does Fig.\ \@ref(fig:2MWTHisto) help, if at all?
-\greyboxlines{2}
+\answerbox{2}
 
 ```{r 2MWTSPSS, echo=FALSE, fig.cap="Output from SPSS for the 2MWT example, partially edited.", fig.align="center", out.width="95%"}
 knitr::include_graphics("ArticleImages/Guirao2017-SPSSoutput-blind.png")
@@ -312,14 +323,14 @@ Researchers were interested in the impact of diet on the lifetime of rats:
 The data set is large, so only an extract of the data is shown (Fig.\ \@ref(fig:RatLifetimesDatajamovi)).
 
 1. Explain why this study compares two *independent* groups. \tightlist
-\greyboxlines{2}
+\answerbox{2}
 2. Carefully define **parameter** of interest, including the *direction*.
    What does this definition of the difference measure?
-\greyboxlines{2}
+\answerbox{2}
 3. Use the jamovi output (Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1)) to prepare a numerical summary table.
-\greyboxlines{4}
+\answerbox{4}
 4. Use the jamovi output to write down the appropriate $95$%\ CI, to estimate the *difference* between the population means.
-\greyboxlines{4}
+\answerbox{4}
 5. Which of these short statements best communicates this CI? 
    **Why** are the other statements incorrect?
 
@@ -331,27 +342,27 @@ The data set is large, so only an extract of the data is shown (Fig.\ \@ref(fig:
 
 6. The best statement above for communicating the CI is missing an important piece of information. 
    Write an improved statement communicating the CI.
-\greyboxlines{2}
+\answerbox{2}
 7. Explain the difference between the *meaning* of what is displayed in the two graphs in Fig.\ \@ref(fig:RatsBoxErrorbar).
-\greyboxlines{2}
+\answerbox{2}
 8. Write down the hypotheses being tested. 
    Is this a one- or a two-tailed test? Explain.
-\greyboxlines{2}
+\answerbox{2}
 9. What are *two* possible reasons why the sample mean lifetimes of rats on the two diets are different?
-\greyboxlines{2}
+\answerbox{2}
 10. Write down the $t$-score and the appropriate $P$-value, using the output in Fig.\ \@ref(fig:Berger1988SummaryHTjamovi1) .
-\greyboxlines{3}
+\answerbox{3}
 11. Calculate the $t$-score (using the standard error as given in the output), and show it is the same value as given in the output.
-\greyboxlines{3}
+\answerbox{3}
 12. Make a conclusion, in context.
-\greyboxlines{2}
+\answerbox{2}
 13. What conditions are necessary for the CI and test to be statistically valid?
-\greyboxlines{2}
+\answerbox{2}
 14. Is it reasonable to assume these conditions are satisfied?
     How does Fig.\ \@ref(fig:RatsBoxErrorbar). help, if at all?
-\greyboxlines{2}
+\answerbox{2}
 15. What if all these rats only came from only $20$ litters?
-\greyboxlines{2}
+\answerbox{2}
 
    
 
