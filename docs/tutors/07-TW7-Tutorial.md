@@ -45,15 +45,15 @@ You will learn and practice the content associated with these chapters of the [t
 
 ::: {.webex-box}
 1. **True** or **false**: A *confidence interval* is used to find an interval that probably (but not certainly) contains the *sample* value. \tightlist
-\greyboxlines{1}
+\answerbox{1}
 1. **True** or **false**: All *confidence interval* are $95$% confidence intervals.
-\greyboxlines{1}
+\answerbox{1}
 1. **True** or **false**: A *standard error* is calculated from population data, but a *standard deviation* is calculated from sample data. 
-\greyboxlines{1}
+\answerbox{1}
 1. **True** or **false**: CIs answers estimation-type RQs.
-\greyboxlines{1}
+\answerbox{1}
 1. **True** or **false**: A 95% confidence interval will contain approximately 95% of the observations.
-\greyboxlines{1}
+\answerbox{1}
 :::
 
 
@@ -70,10 +70,9 @@ You will learn and practice the content associated with these chapters of the [t
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-john-finkelstein-1602905} 
--->
+<img src="Illustrations/pexels-john-finkelstein-1602905.jpg" alt="" width="30%" style="float:right; padding:10px" />
+
 
 
 Claire and Jake were wondering about the mean number of matches in a box.
@@ -90,7 +89,7 @@ There was $44$\ matches.
 
 1. Identify the two statistical concepts that Jake is confusing. 
    How would you clarify the confusion?\tightlist
-\greyboxlines{2}
+\answerbox{2}
 2. Then, Jake and Claire counted the number of matches in *each* of the twenty-five boxes.
    Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
    
@@ -98,28 +97,28 @@ There was $44$\ matches.
    You can't have $0.9$ of a match! 
    That's dumb."
    How would you respond?
-\greyboxlines{2}
+\answerbox{2}
 3. "The claim is $45$\ matches per box on average, but the mean really is $44.9$!" said Jake.
    "They're liars!  Liar, liar, pants on..."  
    
    Identify the two statistical concepts that Jake is confusing. 
    How would you clarify the confusion?
-\greyboxlines{2}
+\answerbox{2}
 4. What two broad reasons could explain why the sample mean is *not* $45$?
-\greyboxlines{2}
+\answerbox{2}
 5. Claire says, "The mean won't be *exactly* $45$ in every sample of $25$ boxes!
    Let's work out the confidence interval."  
    
    Why does Claire think a CI is needed?
    What will it tell them?
-\greyboxlines{2}
+\answerbox{2}
 
 
 6. Would the standard deviation of the number of matches in a box be more likely to be $0.04$\ matches, $0.4$\ matches or $4$\ matches?
    Explain.
-\greyboxlines{2}
+\answerbox{2}
 7. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
-\greyboxlines{2}
+\answerbox{2}
 8. "Aha---I told you so!
    They *are* absolutely lying!
    Your confidence interval doesn't even include their mean of $45$!" said Jake.
@@ -129,38 +128,17 @@ There was $44$\ matches.
    Is Jake correct that the manufacturer *must* be lying?
    Why or why not?
    What does the CI *mean*?
-\greyboxlines{2}
+\answerbox{2}
 9. In this scenario, what does\ $\bar{x}$ represent?
    What is the *value* of\ $\bar{x}$?
-\greyboxlines{2}
+\answerbox{2}
 910. In this scenario, what does\ $\mu$ represent?
    What is the *value* of\ $\mu$?
-\greyboxlines{2}
+\answerbox{2}
 
 
 ## Standard error formulas {#SEproportions}
 
-
-
-Two formulas for the **standard error** are:  
-$$
-  \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}
-  \qquad
-  \text{and}
-  \qquad
-  \text{s.e.}(\bar{x}) = \frac{s}{\sqrt{n}}.
-$$
-
-1. When should each formula be used?
-\greyboxlines{1}
-2. What does\ $\hat{p}$ represent?
-\greyboxlines{1}
-3. What does\ $n$ represent?
-\greyboxlines{1}
-4. What does\ $s$ represent?
-\greyboxlines{1}
-5. What does "$\text{s.e.}$" represent?
-\greyboxlines{1}
 
 
 
@@ -177,41 +155,37 @@ The BVM ('ball valve mask') method is also used.
 
 @data:Gausche200:Endotracheal examined the use of ETI for airway management of children in the out-of-hospital setting.
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.7\linewidth]{ArticleImages/Gausche2000-PartialAbstract} 
-
-}
-
-\caption{Part of the Abstract from Gausche et al. (2000).}(\#fig:Gausche2000Abstract)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="ArticleImages/Gausche2000-PartialAbstract.png" alt="Part of the Abstract from Gausche et al. (2000)." width="70%" />
+<p class="caption">(\#fig:Gausche2000Abstract)Part of the Abstract from Gausche et al. (2000).</p>
+</div>
 
 
 1. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute the sample *odds* of a patient who survived.
-\greyboxlines{2}
+\answerbox{2}
 2. For the **BVM sample**, $123$ out of the $404$\ patients survived.
    For those receiving BVM, compute an estimate of the population *proportion* of patients who survive.
-\greyboxlines{2}
+\answerbox{2}
 3. Explain the difference between the meaning of the two above calculations.
-\greyboxlines{2}
+\answerbox{2}
 4. In another sample of $404$\ patients who received the BVM treatment, would we expect to find *exactly* $123$ surviving?
    Why or why not?
-\greyboxlines{2}
+\answerbox{2}
 5. Compute the *standard error* of\ $\hat{p}$, which indicates the sampling variability in the estimate of\ $p$.
    Explain what is meant by the term 'sampling variation' in this context.
-\greyboxlines{2}
+\answerbox{2}
 6. Every time a new sample is chosen, the sample will likely yield a different value for\ $\hat{p}$.
    Sketch the distribution that shows how much the value of\ $\hat{p}$ is likely to change from one sample to the next.
-\greyboxlines{4}
+\answerbox{4}
 7. Compute an approximate $95$% confidence interval for the population proportion based on the sample proportion.
-\greyboxlines{4}
+\answerbox{4}
 8. Write a sentence communicating this confidence interval.
-\greyboxlines{3}
+\answerbox{3}
 9. If the researchers wished to estimate the true survival proportion to within give-or-take $0.01$ with $95$% confidence, would the sample size need to be *larger* or *smaller*?
-\greyboxlines{2}
+\answerbox{2}
 10. Confirm that the conditions necessary for this calculation to be statistically valid are met.
-\greyboxlines{2}
+\answerbox{2}
    
    
    
@@ -220,10 +194,9 @@ The BVM ('ball valve mask') method is also used.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.5\linewidth,style="float:right; padding:10px"]{Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash} 
--->
+<img src="Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" alt="" width="50%" style="float:right; padding:10px" />
+
 
 
 In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims) that Eagle Boys pizzas were 'Real size $12$-inch large pizzas' in an effort to out-market *Dominos Pizza*.
@@ -231,36 +204,32 @@ In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
 A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi).
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.42\linewidth]{SoftwareImages/PizzaDiameters-jamovi} 
-
-}
-
-\caption{Summary statistics for the diameter of Eagle Boys' large pizzas.}(\#fig:PizzaCIjamovi)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/PizzaDiameters-jamovi.png" alt="Summary statistics for the diameter of Eagle Boys' large pizzas." width="42%" />
+<p class="caption">(\#fig:PizzaCIjamovi)Summary statistics for the diameter of Eagle Boys' large pizzas.</p>
+</div>
 
 1. What do\ $\mu$ and\ $\bar{x}$ represent in this context? \tightlist 
-\greyboxlines{2}
+\answerbox{2}
 2. Write down the *values* of\ $\mu$ and\ $\bar{x}$.
-\greyboxlines{2}
+\answerbox{2}
 3. Write down the *values* of\ $\sigma$ and\ $s$.
-\greyboxlines{2}
+\answerbox{2}
 4. Compute the value of the standard error of the mean.
-\greyboxlines{2}
+\answerbox{2}
 5. Explain the difference in *meaning* between $s$ and $\text{s.e.}(\bar{x})$ here.
-\greyboxlines{2}
+\answerbox{2}
 6. If someone else takes a sample of $125$\ Eagle Boys pizzas, will the sample mean be $11.486$\ inches again (as it is in this sample)?
    Why or why not?
-\greyboxlines{2}
+\answerbox{2}
 7. Draw a picture of the approximate sampling distribution for\ $\bar{x}$.
-\greyboxlines{4}
+\answerbox{4}
 8. Compute an approximate $95$% confidence interval for the mean pizza diameter.
-\greyboxlines{4}
+\answerbox{4}
 9. Write a statement that communicates your $95$%\ CI for the mean pizza diameter.
-\greyboxlines{4}
+\answerbox{4}
 10. What are the **statistical** validity conditions?
-\greyboxlines{2}
+\answerbox{2}
 11. Which of these conditions must we **assume** are true for this CI to be **statistically** valid?
     How does Fig.\ \@ref(fig:PizzaHistoCI) help, if at all? 
     Explain.
@@ -270,25 +239,21 @@ A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is s
     - The population standard deviation is known.
     - The sample has a normal distribution.
 
-\greyboxlines{2}
+\answerbox{2}
    
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.65\linewidth]{07-TW7-Tutorial_files/figure-latex/PizzaHistoCI-1} 
-
-}
-
-\caption{Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.}(\#fig:PizzaHistoCI)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="07-TW7-Tutorial_files/figure-html/PizzaHistoCI-1.png" alt="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches." width="65%" />
+<p class="caption">(\#fig:PizzaHistoCI)Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.</p>
+</div>
 
 12. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
     Explain.
-\greyboxlines{2}
+\answerbox{2}
     
-<!--
+
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458369&sec_digit=776424948&embeded_digit=21580733' style='width:100%; height:500px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
--->
+
 
 
 <!-- Admin link: -->
@@ -315,15 +280,15 @@ The standard error quantifies how much the sample proportion is likely to vary f
 Compute the standard error in these situations:
 
 1. When $n = 25$ and $\hat{p} = 0.70$.
-\greyboxlines{3}
+\answerbox{3}
 1. When $n = 100$ and $\hat{p} = 0.25$.
-\greyboxlines{3}
+\answerbox{3}
 1. When $n = 32$ and $\hat{p} = 0.42$.
-\greyboxlines{3}
+\answerbox{3}
 1. When $n = 53$ and $\hat{p} = 0.814$.
-\greyboxlines{3}
+\answerbox{3}
 
 Will the CIs be statistically valid in the above situations?
-\greyboxlines{3}
+\answerbox{3}
 
 

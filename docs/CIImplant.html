@@ -374,7 +374,8 @@ FIGURE 9.2: Two-minute Walk Times (2MWT) for <span class="math inline">\(10\)</s
 <ol style="list-style-type: decimal">
 <li>Suppose the difference were computed as <strong>With Imp</strong> values <em>minus</em> the <strong>Without Imp</strong> values, what would this measure?
 </li>
-<li>Given the software output in Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>, how is the difference defined in jamovi?</li>
+<li>Given the software output in Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>, how is the difference defined in jamovi?
+</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:2MWTjamovi"></span>
 <img src="ArticleImages/TwoMinuteWalk-edit.png" alt="Output from jamovi for the 2MWT example, partially edited." width="100%" />
@@ -383,56 +384,71 @@ FIGURE 9.3: Output from jamovi for the 2MWT example, partially edited.
 </p>
 </div>
 <ol start="3" style="list-style-type: decimal">
-<li><p>What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
-</p></li>
-<li><p>What do <span class="math inline">\(\mu_d\)</span> and <span class="math inline">\(\bar{d}\)</span> represent in this context?
-</p></li>
-<li><p>Explain why these data should be analysed as <em>paired</em> data.
-</p></li>
-<li><p>Compute the <em>changes</em> in 2MWT for each patient.</p></li>
-<li><p>Although it doesn't really matter, <em>why</em> does it probably makes more sense to compute the <strong>With Imp</strong> values minus the <strong>Without Imp</strong> values?
-</p></li>
-<li><p>Using the statistics mode on your calculator, compute the sample mean difference <span class="math inline">\(\bar{d}\)</span> and the sample standard deviation of the differences <span class="math inline">\(s_d\)</span>.
-</p></li>
-<li><p>Compute the standard error of the mean difference <span class="math inline">\(\text{s.e.}(\bar{d})\)</span>.
-</p></li>
-<li><p>Explain the <em>meaning</em> of the standard error of the mean difference in this context.
-</p></li>
-<li><p>If another sample of ten subjects were studied, would the same sample mean difference <span class="math inline">\(\bar{d}\)</span> be computed?
+<li>What type of RQ is implied: descriptive, relational, repeated-measures or correlational?
+</li>
+<li>What do <span class="math inline">\(\mu_d\)</span> and <span class="math inline">\(\bar{d}\)</span> represent in this context?
+</li>
+<li>Explain why these data should be analysed as <em>paired</em> data.
+</li>
+<li>Compute the <em>changes</em> in 2MWT for each patient (write them to the right of the table in Fig. <a href="CIImplant.html#fig:Guirao2MWT">9.2</a>).</li>
+<li>Although it doesn't really matter, <em>why</em> does it probably makes more sense to compute the <strong>With Imp</strong> values minus the <strong>Without Imp</strong> values?
+</li>
+<li>Using the statistics mode on your calculator, compute the sample mean difference <span class="math inline">\(\bar{d}\)</span> and the sample standard deviation of the differences <span class="math inline">\(s_d\)</span>.
+</li>
+<li>Compute the standard error of the mean difference <span class="math inline">\(\text{s.e.}(\bar{d})\)</span>.
+</li>
+<li>Explain the <em>meaning</em> of the standard error of the mean difference in this context.
+</li>
+<li>If another sample of ten subjects were studied, would the same sample mean difference <span class="math inline">\(\bar{d}\)</span> be computed?
 How much variation would be expected in the sample mean differences found from different samples?
-</p></li>
-<li><p>Draw the approximate sampling distribution of <span class="math inline">\(\bar{d}\)</span> that shows how the value of <span class="math inline">\(\bar{d}\)</span> varies.
-</p></li>
-<li><p>Compute an approximate <span class="math inline">\(95\)</span>% confidence interval for the population mean difference in 2MWT.
-</p></li>
-<li><p>Do you think the population 2MWT changes because of the prosthetic, on average?
-</p></li>
-<li><p>Which of the following is the correct null hypothesis for this RQ?
+</li>
+<li>Draw the approximate sampling distribution of <span class="math inline">\(\bar{d}\)</span> that shows how the value of <span class="math inline">\(\bar{d}\)</span> varies.
+</li>
+<li>Compute an approximate <span class="math inline">\(95\)</span>% confidence interval for the population mean difference in 2MWT.
+</li>
+<li>Do you think the population 2MWT changes because of the prosthetic, on average?
+</li>
+<li>Which of the following is the correct null hypothesis?
 <strong>Why</strong> are the others incorrect?
 Is the test one- or two-tailed?
-What is the alternative hypothesis that is <strong>consistent with the jamovi output</strong>?</p>
+What is the alternative hypothesis that is <strong>consistent with the jamovi output</strong>?</li>
+</ol>
+<div class="cols">
+<div class="col">
 <ul>
 <li><span class="math inline">\(\mu_{\text{Without Implant}} - \mu_{\text{With implant}} = 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{Difference}} = 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{Difference}} &gt; 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{Without Implant}} = 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{With implant}} = 0\)</span></li>
+</ul>
+</div>
+<div class="col">
+<p> 
+<!-- an empty Div (with a white space), serving as
+a column separator --></p>
+</div>
+<div class="col">
+<ul>
 <li><span class="math inline">\(\mu_{\text{Without Implant}} - \mu_{\text{With implant}} &lt; 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{Difference}} &lt; 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{Without Implant}} &lt; 0\)</span></li>
 <li><span class="math inline">\(\mu_{\text{With implant}} &gt; 0\)</span></li>
-</ul></li>
-<li><p>Write down the value of the <span class="math inline">\(t\)</span>-statistic, then estimate the <span class="math inline">\(P\)</span>-value for testing the hypotheses (using Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>).
-</p></li>
-<li><p>Explain why the <span class="math inline">\(t\)</span>-score from jamovi is a <em>negative</em> value (Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>), but the <span class="math inline">\(t\)</span>-score from SPSS (Fig. <a href="CIImplant.html#fig:2MWTSPSS">9.4</a>) is a <em>positive</em> value.
-</p></li>
-<li><p>Write a statement that communicates the result of the test.
-</p></li>
-<li><p>What conditions must be met for this test to be valid?
-</p></li>
-<li><p>Is it reasonable to assume the assumptions are satisfied?
+</ul>
+</div>
+</div>
+<ol start="16" style="list-style-type: decimal">
+<li>Write down the value of the <span class="math inline">\(t\)</span>-statistic, then estimate the <span class="math inline">\(P\)</span>-value for testing the hypotheses (using Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>).
+</li>
+<li>Explain why the <span class="math inline">\(t\)</span>-score from jamovi is a <em>negative</em> value (Fig. <a href="CIImplant.html#fig:2MWTjamovi">9.3</a>), but the <span class="math inline">\(t\)</span>-score from SPSS (Fig. <a href="CIImplant.html#fig:2MWTSPSS">9.4</a>) is a <em>positive</em> value.
+</li>
+<li>Write a statement that communicates the result of the test.
+</li>
+<li>What conditions must be met for this test to be valid?
+</li>
+<li>Is it reasonable to assume the assumptions are satisfied?
 How does Fig. <a href="CIImplant.html#fig:2MWTHisto">9.5</a> help, if at all?
-</p></li>
+</li>
 </ol>
 <div class="figure" style="text-align: center"><span style="display:block;" id="fig:2MWTSPSS"></span>
 <img src="ArticleImages/Guirao2017-SPSSoutput-blind.png" alt="Output from SPSS for the 2MWT example, partially edited." width="95%" />

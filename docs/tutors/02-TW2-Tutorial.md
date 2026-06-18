@@ -92,27 +92,27 @@ A student group was studying this RQ (which is **not** appropriate for the SCI11
 > Among Australians, is the average serum cholesterol concentration different for smokers and non-smokers?
 
 Explain *why*, according to the *Guidelines*, this RQ is *not* appropriate for Task\ 2.
-\greyboxlines{2}
+\answerbox{2}
 
 The students gave the following information about their study.
 Explain **why** each of these statements is **incorrect**.
 
 1. "The design is observational, as we cannot manipulate each person's serum cholesterol."
-\greyboxlines{2}
+\answerbox{2}
 1. "The Outcome is *the average serum cholesterol concentration for smokers and non-smokers*."
-\greyboxlines{2}
+\answerbox{2}
 1. "The study is *not* externally valid, as the results may not apply to all people in the world."
-\greyboxlines{2}
+\answerbox{2}
 1. "The response variable is *serum cholesterol*."
-\greyboxlines{2}
+\answerbox{2}
 1. "In this experiment, the population is *Australians*."
-\greyboxlines{2}
+\answerbox{2}
 1. "The data file will have two columns: one with serum cholesterol concentration for smokers, and one with serum cholesterol concentration for non-smokers."
-\greyboxlines{2}
+\answerbox{2}
 1. "*Whether or not the person owns a cat* is likely to be a confounding variable."
-\greyboxlines{2}
+\answerbox{2}
 1. "The *observer effect* is not relevant, as the participants will know they are involved in a study."
-\greyboxlines{2}
+\answerbox{2}
 
 
 
@@ -121,15 +121,14 @@ Explain **why** each of these statements is **incorrect**.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash} 
--->
+<img src="Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg" alt="" width="30%" style="float:right; padding:10px" />
+
 
 
 Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are studying robotics to assist these patients.
 Read the description (line breaks added for clarity) of one such study [@data:Lo2010:RobotAssistance], then complete the crossword 
-in Fig. \@ref(fig:Crossword-Week2-Terminology)
+below
 regarding this information.
 
 > In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$\ months or more after a stroke, we randomly assigned $49$\ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$\ to receive usual care.  
@@ -170,16 +169,9 @@ regarding this information.
 \pagebreak
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.85\linewidth]{images/Crossword-Week2} 
-
-}
-
-\caption{A crossword to complete.}(\#fig:Crossword-Week2-Terminology)
-\end{figure}
 
 
+<!--
 \begin{multicols}{2}\small
 \textbf{Across}
 \begin{enumerate}\tightlist
@@ -225,7 +217,7 @@ regarding this information.
   What is Australia's largest cricket oval? (3)
 \end{enumerate}
 \end{multicols}
-
+-->
 
 
 
@@ -237,12 +229,12 @@ The research was based partly on a study of mice, and partly on a study of peopl
 Based on this headline, answer the following questions.
 
 1. What are reasonable suggestions for the outcome and response variable, given this headline? \tightlist
-\greyboxlines{2}
+\answerbox{2}
 2. What are reasonable suggestions for the comparison and explanatory variable, given this headline? 
-\greyboxlines{2}
+\answerbox{2}
 3. Would you expect the study to be observational or experimental?
    Explain.
-\greyboxlines{2}
+\answerbox{2}
   
 Below is an extract from the newspaper article about the mice study that formed part of the research.
 
@@ -255,16 +247,16 @@ The researchers then found that the addition of spermidine '"significantly exten
 Based on this information, answer the following questions.
 
 4. What are reasonable suggestions for the outcome and response variable for the mice study? \tightlist
-\greyboxlines{2}
+\answerbox{2}
 5. What are reasonable suggestions for the comparison and explanatory variable? 
-\greyboxlines{2}
+\answerbox{2}
 6. Is the study observational or experimental?
    Explain.
-\greyboxlines{2}
+\answerbox{2}
 7. Does the newspaper headline appear reasonable?
-\greyboxlines{1}
+\answerbox{1}
 8. Why do the researchers give some mice plain drinking water?
-\greyboxlines{2}
+\answerbox{2}
 
 Below is an extract from the newspaper article for the human study that formed part of the research.
 
@@ -273,12 +265,12 @@ Below is an extract from the newspaper article for the human study that formed p
 Based on this information, answer the following questions.
 
 9. What are reasonable suggestions for the outcome and response variable for the human study? \tightlist
-\greyboxlines{2}
+\answerbox{2}
 10. What *type* of RQ is suggested: relational, correlational or repeated-measures? 
-\greyboxlines{1}
+\answerbox{1}
 11. Is the study observational or experimental?
     Explain.
-\greyboxlines{2}
+\answerbox{2}
 
 \pagebreak
 
@@ -290,7 +282,7 @@ Based on this information, answer the following questions.
 	  c. The distance to the nearest hospital.
 	  d. The amount of exercise per week by the person.
     e. Whether their father had heart problems.
-\greyboxlines{4}
+\answerbox{4}
 
 The newspaper article is based on a research paper [@eisenberg2016cardioprotection], in which the diets of more than $800$ Italians were recorded in\ 1995, 2000 and\ 2005 for the people-study.
 From 1995 to\ 2010, the researchers recorded heart-related events for each subject: incidents of high blood pressure, heart failure, stroke and premature death from heart disease.
@@ -299,7 +291,7 @@ Those with the highest spermidine intakes had a $40$% lower risk of heart failur
 Those with the highest spermidine intakes also had a significantly lower risk of *any* heart disease, compared to those with the lowest spermidine intakes.
 
 13. Does the newspaper headline appear consistent with the research article?
-\greyboxlines{1}
+\answerbox{1}
 
 The study reports that the biggest contributors to spermidine intakes were:
 
@@ -312,12 +304,12 @@ The study reports that the biggest contributors to spermidine intakes were:
 
 14. Based on this information, do you agree with, or not agree with, the newspaper article headline?
     Explain.
-\greyboxlines{2}
+\answerbox{2}
 15. Is the cause-and-effect relationship, as implied in the article headline, reasonable? 
     Explain.
-\greyboxlines{2}
+\answerbox{2}
 16. What did you learn from this study?
-\greyboxlines{1}
+\answerbox{1}
 
 
 \nopagebreak
@@ -335,7 +327,7 @@ This activity is very important for helping with your Project.
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 Your tutor will have
- information.
+information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1292525075807919739)
 :::
 
 
@@ -351,10 +343,9 @@ Your tutor will have
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash} 
--->
+<img src="Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg" alt="" width="30%" style="float:right; padding:10px" />
+
 
 
 A study [@data:Truswell1992:crisps] compared the health benefits of crisps ('potato chips') when fried in canola oil or palmolein.
@@ -389,13 +380,13 @@ Part of the protocol  for the study is given below:
 > --- @data:Truswell1992:crisps
 
 1. Explain how random *allocation* is used (and why), if at all.
-\greyboxlines{2}
+\answerbox{2}
 2. Explain how the impact of the Hawthorne effect has been minimised.
-\greyboxlines{2}
+\answerbox{2}
 3. Explain how the impact of the observer effect has been minimised.
-\greyboxlines{2}
+\answerbox{2}
 4. Would the carry-over effect play a role? Explain.
-\greyboxlines{2}
+\answerbox{2}
 5. Describe the blinding that is used.
-\greyboxlines{2}
+\answerbox{2}
 

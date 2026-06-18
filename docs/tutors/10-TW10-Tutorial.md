@@ -60,7 +60,7 @@ Which of these statements is *consistent* with this conclusion?
 4. The $\text{OR} = 0.91$ and $P = 0.0001$.  
 
 How would the other statements be interpreted then?
-\greyboxlines{3}
+\answerbox{3}
 :::
 
 
@@ -89,69 +89,67 @@ Suppose a researcher asked the RQ:
 > For Australians, are the *odds* of people with mosquito bites the same for people sitting near a citronella candle as for people sitting near an ordinary wax candle?
 
 1. Which would be the appropriate null hypothesis? \tightlist
-\null
+<div class='webex-radiogroup' id='radio_NDQQGDFVTT'><label><input type="radio" autocomplete="off" name="radio_NDQQGDFVTT" value="answer"></input> <span>The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_NDQQGDFVTT" value=""></input> <span>The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles</span></label><label><input type="radio" autocomplete="off" name="radio_NDQQGDFVTT" value=""></input> <span>Either of the above</span></label></div>
 
+<!--
    a. The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles.
    b. The proportion of people being bitten by a mosquito is the same for people near citronella candles and wax candles. 
    c. Either of the above.
-
+-->
 2. Which would be the appropriate CI to produce?
-\null
+<div class='webex-radiogroup' id='radio_TJGTMSNQUR'><label><input type="radio" autocomplete="off" name="radio_TJGTMSNQUR" value="answer"></input> <span>A CI for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_TJGTMSNQUR" value=""></input> <span>A CI for the difference in proportions</span></label><label><input type="radio" autocomplete="off" name="radio_TJGTMSNQUR" value=""></input> <span>Either of the above</span></label></div>
 
+<!--
    a. A CI for the odds ratio.
    b. A CI for the difference in proportions.
    c. Either of the above.
-
+-->
 3. Which would be the appropriate hypothesis test?
-\null
+<div class='webex-radiogroup' id='radio_HZPXAWAZCU'><label><input type="radio" autocomplete="off" name="radio_HZPXAWAZCU" value=""></input> <span>A hypothesis tests for the difference between proportions</span></label><label><input type="radio" autocomplete="off" name="radio_HZPXAWAZCU" value="answer"></input> <span>A hypothesis tests for the odds ratio</span></label><label><input type="radio" autocomplete="off" name="radio_HZPXAWAZCU" value=""></input> <span>Either of the above</span></label></div>
 
+<!--
    a. A hypothesis tests for the difference between proportions.
    b. A hypothesis tests for the odds ratio.
    c. Either of the above.
-
+-->
 
 The jamovi output is shown in Fig.\ \@ref(fig:MosquitoBitesjamovi).
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.75\linewidth]{SoftwareImages/MosquitoBites} 
-
-}
-
-\caption{Mosquito bites when near different types of candles.}(\#fig:MosquitoBitesjamovi)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/MosquitoBites.png" alt="Mosquito bites when near different types of candles." width="65%" />
+<p class="caption">(\#fig:MosquitoBitesjamovi)Mosquito bites when near different types of candles.</p>
+</div>
 
 4. What is the odds ratio? \tightlist
-\greyboxlines{1}
+\answerbox{1}
 5. Very carefully, explain what this odds ratio **means** in context.
-\greyboxlines{2}
+\answerbox{2}
 6. The output also shows the difference between proportions.
    Very carefully, explain what this difference **means** in context.
-\greyboxlines{2}
+\answerbox{2}
 7. In the study, the odds that someone received a mosquito bite when a *wax* candle was being used was\ $2.167$.
    What are the odds that someone in the study received a mosquito bite when a *citronella* candle was used? 
-\greyboxlines{2}
+\answerbox{2}
 8. The $95$% CI for the odds ratio is from\ $0.234$ to\ $1.102$.
-  Very carefully interpret what this means.
-\greyboxlines{2}
+  Very carefully interpret what this means in context.
+\answerbox{2}
 9. *Suppose* the $95$% CI for the odds ratio was from\ $0.11$ to\ $0.94$.
-  Very carefully interpret what this would mean.
-\greyboxlines{2}
+  Very carefully interpret what this would mean in context.
+\answerbox{2}
 10. *Suppose* the $95$% CI for the odds ratio was from\ $1.28$ to\ $4.13$.
-  Very carefully interpret what this would mean.
-\greyboxlines{2}
+  Very carefully interpret what this would mean in context.
+\answerbox{2}
 11. Check that the CIs are statistically valid.
-\greyboxlines{2}
+\answerbox{2}
 
 
 ## CI and test for odds ratios {#OddsSoftware}
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.4\linewidth,style="float:right; padding:10px"]{Illustrations/thomas-park-qnFFfsrxzIk-unsplash} 
--->
+<img src="Illustrations/thomas-park-qnFFfsrxzIk-unsplash.jpg" alt="" width="40%" style="float:right; padding:10px" />
+
 
 
 
@@ -169,91 +167,113 @@ The researchers asked the RQ;
 Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-jamova-SPSS))
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.33\linewidth]{SoftwareImages/BoysMatureData-jamovi} 
-
-}
-
-\caption{Some of the maturation-data entered into jamovi.}(\#fig:MaturationData-jamova-SPSS)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/BoysMatureData-jamovi.png" alt="Some of the maturation-data entered into jamovi." width="33%" />
+<p class="caption">(\#fig:MaturationData-jamova-SPSS)Some of the maturation-data entered into jamovi.</p>
+</div>
 
 
 1. For the $2\,864$ males in the sample, $352$ were classified as maturing late.
    For the girls, $336$ of the $2\,664$ matured late.
    Use this information to construct a two-way table of sex against maturation time (Table\ \@ref(tab:MaturationData)).
    
-\begin{table}
-\centering
-\caption{(\#tab:MaturationData)Maturation and gender.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lrrr}
-\toprule
-\textbf{ } & \textbf{Matured late} & \textbf{Did not mature late} & \textbf{Total}\\
-\midrule
-\textbf{Males} &  &  & \\
-\textbf{Females} &  &  & \\
-\midrule\\
-\textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{5528}\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:MaturationData)Maturation and gender.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> Matured late </th>
+   <th style="text-align:right;"> Did not mature late </th>
+   <th style="text-align:right;"> Total </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Males </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["352"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["2512"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["2864"]'/> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Females </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["336"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["2328"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["2664"]'/> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Total </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["688"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["4840"]'/> </td>
+   <td style="text-align:right;"> 5528 </td>
+  </tr>
+</tbody>
+</table>
 
 
 2. What graphical summary could be used to display the information?
    Sketch this display.
-\greyboxlines{4}
+\answerbox{4}
 3. Among the boys, compute the *odds* of maturing late.
    Interpret this value.
-\greyboxlines{2}
+\answerbox{2}
 4. Among the girls, compute the *odds* of maturing late.
    Interpret this value.
-\greyboxlines{2}
+\answerbox{2}
 5. From the table, compute the odds ratio of a boy maturing late compared to a girl maturing late.
    Interpret this value, using the software output (Fig.\ \@ref(fig:BoysMaturejamovi)).
-\greyboxlines{2}
+\answerbox{2}
 6. What is the **parameter** of interest (make sure you specify the direction)?
-\greyboxlines{2}
+\answerbox{2}
 7. Write down the OR and the $95$%\ CI for the OR from the jamovi output. 
    What does it mean?
-\greyboxlines{2}
+\answerbox{2}
 8. Compile the numerical summary table for these data (Table\ \@ref(tab:MaturationSummary)).
 9. Are boys generally more likely to mature later than girls? 
    Perform a hypothesis test.
-\greyboxlines{4}
+\answerbox{4}
 
-   
+   **Vote below.**
 
   
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.55\linewidth]{SoftwareImages/BoysMatureTestsCI-jamovi} 
-
-}
-
-\caption{The jamovi output from the maturation study}(\#fig:BoysMaturejamovi)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/BoysMatureTestsCI-jamovi.png" alt="The jamovi output from the maturation study" width="55%" />
+<p class="caption">(\#fig:BoysMaturejamovi)The jamovi output from the maturation study</p>
+</div>
 
 
 (ref:MaturationSummaryCaption) Maturation and gender: numerical summary. (Enter proportions, odds and odds ratios **rounded** to **three** decimal places.)
 
-\begin{table}
-\centering
-\caption{(\#tab:MaturationSummary)Maturation and gender: numerical summary}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}llll}
-\toprule
-\textbf{ } & \textbf{Proportion maturing late} & \textbf{Odds  maturing late} & \textbf{Sample size}\\
-\midrule
-\textbf{Males} &  &  & \\
-\textbf{Females} &  &  & \\
-\midrule
-\textbf{} & Diff.: & Odds ratio: & \\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:MaturationSummary)(ref:MaturationSummaryCaption)</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> Proportion maturing late </th>
+   <th style="text-align:right;"> Odds  maturing late </th>
+   <th style="text-align:right;"> Sample size </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Males </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["0.123",".123"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["0.14",".14"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.1' size='6' data-answer='["2864"]'/> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Females </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["0.126",".126"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.001' size='6' data-answer='["0.144",".144"]'/> </td>
+   <td style="text-align:right;"> <input class='webex-solveme nospaces' data-tol='0.1' size='6' data-answer='["2664"]'/> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:right;"> Diff: <input class='webex-solveme nospaces' data-tol='0.002' size='6' data-answer='["-0.003","-.003"]'/> </td>
+   <td style="text-align:right;"> OR: <input class='webex-solveme nospaces' data-tol='0.0025' size='6' data-answer='["0.971",".971"]'/> </td>
+   <td style="text-align:right;">  </td>
+  </tr>
+</tbody>
+</table>
 
 
 ## CIs and tests for ORs {#TestsForORs}
@@ -261,10 +281,9 @@ Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-j
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
-<!--
 
-\includegraphics[width=0.35\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-anna-shvets-5068676} 
--->
+<img src="Illustrations/pexels-anna-shvets-5068676.jpg" alt="" width="35%" style="float:right; padding:10px" />
+
 
 
 @data:Singh:lowerlimb examined the mortality rates of lower-limb amputation, and factors that may be associated with mortality.
@@ -280,153 +299,109 @@ In addition, $65$ subjects used an artificial limb, and $40$ did not.
 1. After five years, $49$ people using an artificial limb were alive.
    Construct the $2\times 2$ table (Table\ \@ref(tab:ArtLimbMortality)) displaying the number of people alive or dead after five years (in columns, say) and whether or not they used an artificial limb or not (in rows).
 
-\begin{table}
-\centering
-\caption{(\#tab:ArtLimbMortality)Five-year mortality for artifical limb users.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lrrr}
-\toprule
-\textbf{ } & \textbf{Alive} & \textbf{Dead} & \textbf{Total}\\
-\midrule
-\textbf{Used artificial limb} &  &  & \\
-\addlinespace
-\textbf{Did not use artificial limb} &  &  & \\
-\midrule
-\addlinespace
-\textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{105}\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:ArtLimbMortality)Five-year mortality for artifical limb users.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> Alive </th>
+   <th style="text-align:right;"> Dead </th>
+   <th style="text-align:right;"> Total </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Used artificial limb </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["49"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["16"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["65"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Did not use artificial limb </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["21"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["19"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["40"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Total </td>
+   <td style="text-align:right;font-weight: bold;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["70"]'> </td>
+   <td style="text-align:right;font-weight: bold;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["35"]'> </td>
+   <td style="text-align:right;font-weight: bold;"> 105 </td>
+  </tr>
+</tbody>
+</table>
 
 2. In Table\ \@ref(tab:ArtLimbMortality), *why* is the use (or not) of artificial limbs listed in the *rows* (rather than the *columns*)?
+\answerbox{2}
 3. For a person using an artificial limb, compute the odds of being alive after five years.
    For a person *not* using an artificial limb, compute the odds of being alive after five years.
    Then compute the odds ratio, complete Table\ \@ref(tab:ArtLimbSummary), and carefully explain what the OR means.
-\greyboxlines{4}
+\answerbox{4}
 4. Write down the $95$%\ CI for the population OR using the software output (Fig.\ \@ref(fig:limbsOutputjamovi)). 
-\greyboxlines{2}
+\answerbox{2}
 5. Perform a hypothesis test to compare the odds of being alive after five years for both groups (Fig.\ \@ref(fig:limbsOutputjamovi)):
 
     a. Write the hypotheses.
-\greyboxlines{2}
+\answerbox{2}
     b. Write down the value of\ $\chi^2$.
-\greyboxlines{2}
+\answerbox{2}
     c. What $z$-score is this equivalent to?
-\greyboxlines{2}
+\answerbox{2}
     d. What is the approximate $P$-value using the $68$--$95$--$99.7$ rule?
-\greyboxlines{2}
+\answerbox{2}
     e. What is the exact $P$-value as reported by software?
-\greyboxlines{2}
+\answerbox{2}
     f. Write a conclusion.
-\greyboxlines{2}
+\answerbox{2}
 
 
-\begin{table}
-\centering
-\caption{(\#tab:ArtLimbSummary)Five-year mortality and use of an artificial limb: numerical summary.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}llll}
-\toprule
-\multicolumn{1}{r}{\textbf{ }} & \multicolumn{1}{r}{\textbf{Proportion alive}} & \multicolumn{1}{r}{\textbf{Odds of being alive}} & \multicolumn{1}{r}{\textbf{Sample}} \\
-\textbf{ } & \textbf{after 5 years} & \textbf{after 5 years} & \textbf{size}\\
-\midrule
-\textbf{Use artificial limb} &  &  & \\
-\addlinespace
-\textbf{Did not use artifical limb} &  &  & \\
-\midrule\\
-\addlinespace
-\textbf{} & Diff.: & Odds ratio: & \\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:ArtLimbSummary)Five-year mortality and use of an artificial limb: numerical summary.</caption>
+ <thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Proportion alive</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Odds of being alive</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Sample</div></th>
+</tr>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> after 5 years </th>
+   <th style="text-align:right;"> after 5 years </th>
+   <th style="text-align:right;"> size </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Use artificial limb </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.002" size="6" data-answer='["0.754",".754"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["3.062"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.1" size="6" data-answer='["65"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Did not use artifical limb </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.002" size="6" data-answer='["0.525",".525"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.001" size="6" data-answer='["1.105"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.1" size="6" data-answer='["40"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;">  </td>
+   <td style="text-align:right;"> Diff in proportions: <input class="webex-solveme nospaces" data-tol="0.002" size="6" data-answer='["0.229",".229"]'> </td>
+   <td style="text-align:right;"> OR:  <input class="webex-solveme nospaces" data-tol="0.005" size="6" data-answer='["2.771"]'> </td>
+   <td style="text-align:right;">  </td>
+  </tr>
+</tbody>
+</table>
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.5\linewidth]{SoftwareImages/Singh2016-ChiSq-jamovi} 
-
-}
-
-\caption{The jamovi output for the question on lower-limb amputees.}(\#fig:limbsOutputjamovi)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/Singh2016-ChiSq-jamovi.png" alt="The jamovi output for the question on lower-limb amputees." width="50%" />
+<p class="caption">(\#fig:limbsOutputjamovi)The jamovi output for the question on lower-limb amputees.</p>
+</div>
 
 
 
 ## Identify the correct analysis {#IdentifyCorrectAnalyses}
-
-
-
-
-
-::: {.mentiQuestion data-latex=""}
-\null
-:::
-
-
-For each of the following scenarios:
-
-a. determine the appropriate method of analysis (if none are appropriate, say so then identify the correct analysis):
-
-   i. A $\chi^2$ test;
-   ii. A $z$-test for comparing two proportions;
-   iii. A paired $t$-test for the mean difference;
-   iv. A two-sample $t$-test
-   v. None of the above.
-
-b. carefully define the **parameter** of interest.
-
-
-1. Populations of the scaled quail have been decreasing.
-  An observational research study [@data:pleasant:quail] examined the nests of scaled quails to determine some of the reasons for this decline.
-
-  In each nest, the researchers recorded the maximum temperature during the first $21$\ days posthatch.
-  Two groups of nests were compared: when the hen was present at $21$\ days posthatch ($n = 17$ nests), and when the hen was absent at $21$\ days posthatch ($n = 37$ nests).
-  The aim was to see if the *mean* maximum temperature was different for both groups (hen present; hen absent).
-
-  What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
-
-2. Many studies have observed an association between the presence of airborne allergens and people reporting asthma (e.g., Targonski et al., 1995). To better understand the risks of airborne allergens, a study examined the records for numerous people who died of asthma.
-
-   For each person, they recorded the sex of the person (female or male) who died of asthma, and whether they died in pollen season or non-pollen season.
-
-   The aim was to see if the **odds** of dying of of asthma in pollen season was the same for females and males.
-   
-   What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
-
-3. An experimental study [@data:VanLeit2002:ChildrenWithDisabilities]  "evaluated the impact of an 8-week psychosocial occupational therapy intervention program for mothers who have children with disabilities" (p.\ 402).
-
-   Each mother was evaluated on their satisfaction in how they are spending their time, using the (quantitative) TUA scale.
-   Mothers have their TUA score measured *before* and *after* the intervention to see if the intervention made a difference to TUA scores (on average).
-
-   What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
-
-4. A experimental study [@data:Ingenbleek2012:Vegetarianism] compared vegetarians to non-vegetarians on many criteria.
-
-   In one example, each person in the study was described as vegetarian or not, and each person's serum lipids concentration (in mmol/L) was assessed.
-
-   What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
-
-5. A study compared the proportion of females in retail working overtime, to the proportion of males on retail working overtime.
-
-   What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
-
-6. A study compared the relationship between the VO2 max (a measure of an individual of an individual physical fitness) and $3$\ km running velocity, for a set of male long-distance runners.
-
-   What is the appropriate method of analysis?
-  Carefully define the parameter of interest.
-\greyboxlines{2}
 
 
 
@@ -449,7 +424,7 @@ The $44$ individual students' guesses had a standard deviation of $7.145\ms$.
 Suppose the Professor wanted to try the study again with another groups of students, and wanted to estimate the population mean to within $0.5\ms$.
 
 What size sample would Prof. Lewis need?
-\greyboxlines{4}
+\answerbox{4}
 
 
 

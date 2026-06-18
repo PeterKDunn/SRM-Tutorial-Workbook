@@ -42,11 +42,11 @@ Another student computes the approximate $95$%\ CI for the mean first-crack stre
 *Both* students are incorrect. 
 
 1. Explain *why* Student\ 1 is incorrect, and explain what the student actually calculated.
-\greyboxlines{4}
+\answerbox{4}
 2. Explain *why* Student\ 2 is incorrect, and explain what the student actually calculated.
-\greyboxlines{4}
+\answerbox{4}
 3. Compute the correct (approximate) $95$%\ CI.
-\greyboxlines{4}
+\answerbox{4}
 
 
 
@@ -67,16 +67,16 @@ From a study comparing the mean distance an iron golf club and a wooden golf clu
 
 * **Research question**:
 	    For casual golfers, will using a metal club rather than a wooden club result in the ball travelling a further distance?
-\greyboxlines{4}
+\answerbox{4}
 * **Summaries**:
 		  The paired means are different with the iron golf club being moderately higher than the wooden club
-\greyboxlines{4}
+\answerbox{4}
 * **Results (1)**:
 		  The $95$%\ CI for the difference in distance in metres (wooden verse iron) differs from $34.74$ -- $43.25$ further for shots with the Iron
-\greyboxlines{4}
+\answerbox{4}
 * **Results (2)**:
 	    Very strong evidence exists in the paired sample (paired $t = 18.406$; $n = 50$; two tailed; $P = 0.000$) of a population mean difference between the wooden and iron golf clubs...
-\greyboxlines{4}
+\answerbox{4}
 
 
 ## Critiquing past students' reports 2 {#CritiqueReports2}
@@ -88,10 +88,10 @@ From a study comparing resting heart rates between male and female SCI110 studen
 
 * **Null hypothesis**:
       Among current UniSC students studying SCI110, male and female resting heart rates are the same.
-\greyboxlines{4}
+\answerbox{4}
 * **Results**:
 			The sample presents evidence ($\chi^2 = 30.0$; two tailed $P = 0.517$) that the mean resting heart rate does not have a significant difference between males and females (males mean: $72.6$\ bpm; females mean: $77.2$\ bpm).
-\greyboxlines{4}
+\answerbox{4}
 
 
 
@@ -106,47 +106,51 @@ A study [@data:Tanagawa:AirwayDevices] examined the choice of airway devices use
 
 The data for success and failure at insertion is given in Table \@ref(tab:AirwayTab), taken from available patient documentation.
 
-\begin{table}
-\centering
-\caption{(\#tab:AirwayTab)Data from the airways study.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lrr}
-\toprule
-\textbf{ } & \textbf{Succeed} & \textbf{Fail}\\
-\midrule
-\textbf{Esophageal gastric tube airway (EGTA)} & 545 & 49\\
-\textbf{Laryngeal mask (LM)} & 2701 & 315\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:AirwayTab)Data from the airways study.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;font-weight: bold;">   </th>
+   <th style="text-align:right;font-weight: bold;"> Succeed </th>
+   <th style="text-align:right;font-weight: bold;"> Fail </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Esophageal gastric tube airway (EGTA) </td>
+   <td style="text-align:right;"> 545 </td>
+   <td style="text-align:right;"> 49 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Laryngeal mask (LM) </td>
+   <td style="text-align:right;"> 2701 </td>
+   <td style="text-align:right;"> 315 </td>
+  </tr>
+</tbody>
+</table>
 
 1. Define\ $p$ as the population proportion of successful attempts at insertion. \tightlist
    Write the hypotheses to be tested.
-\greyboxlines{4}
+\answerbox{4}
 2. Use the software output in Fig.\ \@ref(fig:Tanagawa1998jamoviCrossTabs) to test the hypotheses.
    Write a proper conclusion to communicate the results.
-\greyboxlines{4}
+\answerbox{4}
 3. Are the results likely to be statistically valid? 
    Explain.
-\greyboxlines{2}
+\answerbox{2}
 4. The study was designed to enable medics to choose the best airway device.
    Would you recommend EGTA or LM?
    Why?
    Would you like any more information before making your choice?
    Explain.
-\greyboxlines{4}
+\answerbox{4}
 
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.55\linewidth]{SoftwareImages/Tanagawa1998jamoviCrossTabs} 
-
-}
-
-\caption{The jamovi output for the table from Tanagawa and Shigematsu (1998).}(\#fig:Tanagawa1998jamoviCrossTabs)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/Tanagawa1998jamoviCrossTabs.png" alt="The jamovi output for the table from Tanagawa and Shigematsu (1998)." width="55%" />
+<p class="caption">(\#fig:Tanagawa1998jamoviCrossTabs)The jamovi output for the table from Tanagawa and Shigematsu (1998).</p>
+</div>
 
 
 ## Critiquing past students' reports 3 {#CritiqueReports3}
@@ -158,26 +162,22 @@ From a study comparing the size of lilly pilly leaves on different sides of the 
 
 * **Research question**:
 		  Among Weeping Lily Pily trees located at the University of the Sunshine Coast, do leaves that grow on the sunrise (east) side become longer than those growing on the sunset (west) side of the tree?
-\greyboxlines{4}
+\answerbox{4}
 * **Null hypothesis**:
 		  The leaves on the east and west sides of Weeping Lily Pily trees are same, therefore no relationship exists between the sunset (east) and sunrise (west) side of the tree and leaf length.
-\greyboxlines{4}
+\answerbox{4}
 * **Results**: The table of results in Fig.\ \@ref(fig:BreeTable).
-\greyboxlines{4}
+\answerbox{4}
 * **Methods**:
 			   Chose the $5$\ trees at the university that receive both easterly and westerly sunlight conditions
 			   The $4$th leaf on the branch will be chosen $5$\ times on each side of the tree
-\greyboxlines{4}
+\answerbox{4}
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/BreeTable} 
-
-}
-
-\caption{A table from a student project.}(\#fig:BreeTable)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="ProjectImages/BreeTable.png" alt="A table from a student project." width="70%" />
+<p class="caption">(\#fig:BreeTable)A table from a student project.</p>
+</div>
 
 
 
@@ -190,14 +190,14 @@ From a study comparing how well sports-playing students can estimate distance co
 
 * **Research question**:
 		    Among UniSC Sippy Downs students, are individuals who regularly play sports have closer estimations to the actual measurement when identifying the width of a regular path compared to individuals who don't play sports regularly?
-\greyboxlines{4}
+\answerbox{4}
 * **Null hypothesis**:
 		    The Null Hypophysis for our research question is that students who play sports regularly at the UniSC Sippy down campus have an increased level of perception when it comes to estimating distances.
-\greyboxlines{4}
+\answerbox{4}
 * **Results**:
 		   This sample presents strong evidence in support of the Null Hypothesis that sport status has an affect on distance estimation (regular played sport: mean $176.36$ and non regular played sport: mean $172.34$).
-\greyboxlines{4}
+\answerbox{4}
 
 * **Discussion**:
 		    From our original research question we have concluded that it supports the Null Hypothesis as it has a large $P$-value ($0.36$: one-tailed). Therefore we have proven that playing sports regularly has an effect on the accuracy of distance estimation.
-\greyboxlines{4}
+\answerbox{4}

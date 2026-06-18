@@ -56,7 +56,7 @@ You should bring your calculator to tutorials from this week onwards.
 
 ::: {.webex-box}
 A study of obstructive sleep apnoea (OSA) in adults with Down Syndrome [@carvalho2020stop] had $n = 60$ adults ($27$\ females; $33$\ males) undergo a sleep study.
-Part of the data are in Table\ \@ref(tab:OSAKable3).
+The data are shown in Fig.\ \@ref(fig:OSADT3).
 (REI is the Respiratory Event Index; an REI under\ $5$ refers to no sleep apnoea; an REI of $30$\ or over refers to severe sleep apnoea.)
 
 1. Which of these would be an **inappropriate** numerical summary for the age of the participants? \tightlist  
@@ -94,52 +94,32 @@ Part of the data are in Table\ \@ref(tab:OSAKable3).
     e. 0.55.
     f. 0.82.
 7. Use the jamovi output in Fig.\ \@ref(fig:OSAoutput) to find the mean of *Gender*, and explain what this means.
-\greyboxlines{3}
+\answerbox{3}
 :::
 
 
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.75\linewidth]{SoftwareImages/OSADescriptive} 
-
-}
-
-\caption{A numerical summary of the OSA data: jamovi}(\#fig:OSAoutput)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/OSADescriptive.png" alt="A numerical summary of the OSA data: jamovi" width="75%" />
+<p class="caption">(\#fig:OSAoutput)A numerical summary of the OSA data: jamovi</p>
+</div>
 
 
 
 
 
-\begin{table}
-\centering
-\caption{(\#tab:OSAKable3)Part of the Obstructive Sleep Apnoea (OSA) data set.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{ccccc}
-\toprule
-\textbf{Age} & \textbf{Gender} & \textbf{BMI} & \textbf{Neck circumference (cm)} & \textbf{REI}\\
-\midrule
-21 & Male & 20.3 & 37 & 46\\
-24 & Male & 24.1 & 40.5 & 19.3\\
-26 & Male & 25.2 & 38 & 12.4\\
-39 & Female & 40.8 & 41 & 58.6\\
-21 & Female & 35 & 37 & 12.7\\
-\addlinespace
-29 & Male & 29.2 & 41 & 38.8\\
-20 & Male & 25.8 & 42 & 24.4\\
-21 & Male & 20.9 & 37 & 7\\
-19 & Female & 20.5 & 32 & 37.6\\
-27 & Male & 22.4 & 39 & 21.7\\
-\addlinespace
-$\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
-\bottomrule
-\end{tabular}
-\end{table}
 
 
+<div class="figure" style="text-align: center">
+
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-6f463c24d9602d8a6488" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-6f463c24d9602d8a6488">{"x":{"filter":"none","vertical":false,"caption":"<caption>The Obstructive sleep apnoea data set.<\/caption>","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45","46","47","48","49","50","51","52","53","54","55","56","57","58","59","60"],[21,24,26,39,21,29,20,21,19,27,29,25,20,53,31,22,21,28,19,18,18,36,36,38,18,24,21,18,33,19,23,31,29,23,35,27,28,20,29,38,22,56,50,24,36,44,25,49,18,19,27,31,21,22,20,29,35,22,28,32],["Male","Male","Male","Female","Female","Male","Male","Male","Female","Male","Female","Male","Female","Male","Male","Male","Female","Female","Female","Female","Male","Female","Female","Male","Female","Male","Male","Male","Male","Male","Female","Male","Male","Male","Female","Female","Male","Male","Female","Male","Female","Female","Female","Male","Male","Female","Female","Female","Male","Male","Male","Male","Female","Male","Female","Male","Male","Female","Female","Female"],[20.3,24.1,25.2,40.8,35,29.2,25.8,20.9,20.5,22.4,24.4,20.5,30.5,27.3,32.6,37.2,29.9,36.5,27.7,27.1,19.5,36.8,39.9,20.3,28.6,21.8,31.9,29.2,32,27,25.6,18.7,32.5,24.7,35.6,31.1,24.8,23.9,36.8,34.6,28,29.2,31.4,38.3,26,34.3,27,30.6,21.6,37.6,35.4,24.2,19.3,27.1,31.5,33.8,31.2,26,36.9,22.1],[37,40.5,38,41,37,41,42,37,32,39,37.5,38,39,44.5,46.5,43,34,37,34,36,39,41,37,38,38,36,40,41,46,42,40.3,38,47,38,36,36,44,43,40.5,45,40,38,40,43,41,38,40,40,38,48,46,39,35.5,48,41,47,47,39,40,40],[46,19.3,12.4,58.6,12.7,38.8,24.4,7,37.6,21.7,7.3,32.4,61.3,25.1,42.2,53.6,13.9,22.6,15.6,8.699999999999999,18.5,40.7,25.4,11.3,13.6,59.4,26.2,31,47.1,13,17.5,17.7,45.4,73.3,19.7,23.4,13.9,16.9,13.4,54.2,19.9,16.5,58.1,29.3,41.5,48.8,32.8,19.4,15.8,26.8,31.6,60.4,15.7,22.5,18,97.90000000000001,22.4,16.8,66.09999999999999,19.1]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Age<\/th>\n      <th>Gender<\/th>\n      <th>BMI<\/th>\n      <th>Neck<\/th>\n      <th>REI<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"scrollX":true,"scrollY":true,"ordering":false,"columnDefs":[{"className":"dt-right","targets":[1,3,4,5]},{"orderable":false,"targets":0},{"name":" ","targets":0},{"name":"Age","targets":1},{"name":"Gender","targets":2},{"name":"BMI","targets":3},{"name":"Neck","targets":4},{"name":"REI","targets":5}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
+
+<p class="caption">(\#fig:OSADT3)The Obstructive Sleep Apnoea (OSA) data set</p>
+</div>
 
 
 
@@ -156,75 +136,106 @@ $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$ & $\vdots$\\
 In a study of how well emergency dispatchers recognised signs of stroke [@oostema2018emergency], the data in Table\ \@ref(tab:Stroke) were collected.
 
 
-\begin{table}
-\centering
-\caption{(\#tab:Stroke)How well emergency dispatchers recognised signs of stroke.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lcc}
-\toprule
-\multicolumn{1}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Dispatcher}} & \multicolumn{1}{c}{\textbf{Dispatcher}} \\
-\textbf{ } & \textbf{suspected stroke} & \textbf{missed stroke}\\
-\midrule
-\textbf{Males} & 67 & 43\\
-\textbf{Females} & 97 & 39\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:Stroke)How well emergency dispatchers recognised signs of stroke.</caption>
+ <thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="1"><div style="">Dispatcher</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="1"><div style="">Dispatcher</div></th>
+</tr>
+  <tr>
+   <th style="text-align:left;font-weight: bold;">   </th>
+   <th style="text-align:center;font-weight: bold;"> suspected stroke </th>
+   <th style="text-align:center;font-weight: bold;"> missed stroke </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Males </td>
+   <td style="text-align:center;"> 67 </td>
+   <td style="text-align:center;"> 43 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Females </td>
+   <td style="text-align:center;"> 97 </td>
+   <td style="text-align:center;"> 39 </td>
+  </tr>
+</tbody>
+</table>
 
 
 1. *Why* are the levels 'Male' and 'Female' placed in the rows of the table, rather than the columns?
-\greyboxlines{2}
+\answerbox{2}
 2. What proportion of patients had their stroke symptoms missed? \tightlist
-\greyboxlines{2}
+\answerbox{2}
 3. Sketch a side-by-side or stacked bar chart to display the data.
-\greyboxlines{4}
+\answerbox{4}
 4. Of the *male* patients, what *proportion* had their stroke symptoms missed by the dispatcher?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_CFATFDROYS'><label><input type="radio" autocomplete="off" name="radio_CFATFDROYS" value="answer"></input> <span>0.391</span></label><label><input type="radio" autocomplete="off" name="radio_CFATFDROYS" value=""></input> <span>0.609</span></label><label><input type="radio" autocomplete="off" name="radio_CFATFDROYS" value=""></input> <span>0.524</span></label><label><input type="radio" autocomplete="off" name="radio_CFATFDROYS" value=""></input> <span>0.333</span></label></div>
+
+\answerbox{2}
 5. Of the *female* patients, what *proportion*  had their stroke symptoms missed by the dispatcher?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_ZIHUFZVEYU'><label><input type="radio" autocomplete="off" name="radio_ZIHUFZVEYU" value=""></input> <span>0.713</span></label><label><input type="radio" autocomplete="off" name="radio_ZIHUFZVEYU" value=""></input> <span>0.476</span></label><label><input type="radio" autocomplete="off" name="radio_ZIHUFZVEYU" value="answer"></input> <span>0.287</span></label><label><input type="radio" autocomplete="off" name="radio_ZIHUFZVEYU" value=""></input> <span>0.333</span></label></div>
+
+\answerbox{2}
 6. For the *male* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_UNAHUZLJVK'><label><input type="radio" autocomplete="off" name="radio_UNAHUZLJVK" value=""></input> <span>39.1</span></label><label><input type="radio" autocomplete="off" name="radio_UNAHUZLJVK" value="answer"></input> <span>0.642</span></label><label><input type="radio" autocomplete="off" name="radio_UNAHUZLJVK" value=""></input> <span>0.907</span></label><label><input type="radio" autocomplete="off" name="radio_UNAHUZLJVK" value=""></input> <span>0.50</span></label></div>
+
+\answerbox{2}
 7. For the *female* patients, what are the *odds* that they had their stroke symptoms missed by the dispatcher?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_DXHKZBFDDZ'><label><input type="radio" autocomplete="off" name="radio_DXHKZBFDDZ" value="answer"></input> <span>0.402</span></label><label><input type="radio" autocomplete="off" name="radio_DXHKZBFDDZ" value=""></input> <span>2.49</span></label><label><input type="radio" autocomplete="off" name="radio_DXHKZBFDDZ" value=""></input> <span>1.10</span></label><label><input type="radio" autocomplete="off" name="radio_DXHKZBFDDZ" value=""></input> <span>1.24</span></label></div>
+
+\answerbox{2}
 8. What is the *difference between the proportions* of stroke symptoms being missed by the dispatcher, comparing *males* to *females*?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_BTPKZKZDEA'><label><input type="radio" autocomplete="off" name="radio_BTPKZKZDEA" value=""></input> <span>0.391</span></label><label><input type="radio" autocomplete="off" name="radio_BTPKZKZDEA" value=""></input> <span>1.6</span></label><label><input type="radio" autocomplete="off" name="radio_BTPKZKZDEA" value="answer"></input> <span>0.104</span></label><label><input type="radio" autocomplete="off" name="radio_BTPKZKZDEA" value=""></input> <span>0.287</span></label></div>
+
+\answerbox{2}
 9. What is the *odds ratio* that a patients had their stroke symptoms missed by the dispatcher, comparing *males* to *females*?
-\null
-\greyboxlines{2}
+<div class='webex-radiogroup' id='radio_CPKLANGUXJ'><label><input type="radio" autocomplete="off" name="radio_CPKLANGUXJ" value=""></input> <span>0.63</span></label><label><input type="radio" autocomplete="off" name="radio_CPKLANGUXJ" value=""></input> <span>0.402</span></label><label><input type="radio" autocomplete="off" name="radio_CPKLANGUXJ" value=""></input> <span>0.50</span></label><label><input type="radio" autocomplete="off" name="radio_CPKLANGUXJ" value="answer"></input> <span>1.6</span></label></div>
+
+\answerbox{2}
 10. Construct a numerical summary table by completing Table\ \@ref(tab:StrokeSymptomsSummary).
 
 
 
-\begin{table}
-\centering
-\caption{(\#tab:StrokeSymptomsSummary)Numerical summary table: emergency dispatchers and missing stroke symptoms.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{l|c|c|c}
-\hline
-\multicolumn{1}{c|}{\textbf{ }} & \multicolumn{1}{c|}{\textbf{Proportion of}} & \multicolumn{1}{c|}{\textbf{Odds that}} & \multicolumn{1}{c}{\textbf{Sample}} \\
-\textbf{ } & \textbf{symptoms missed} & \textbf{symptoms missed} & \textbf{size}\\
-\hline
-Males & \null & \null & \null\\
- 
-\null & \null & \null & \vphantom{2} \null\\
-\hline
-Females & \null & \null & \null\\
- 
-\null & \null & \null & \vphantom{1} \null\\
-\hline
-\null & \multicolumn{1}{l|}{\em{Difference:\hspace{4cm}\null }} & \multicolumn{1}{l|}{\em{Odds ratio:\hspace{4cm}\null }} & \null\\
- 
-\null & \null & \null & \null\\
-\hline
-\end{tabular}
-\end{table}
+<table>
+<caption>(\#tab:StrokeSymptomsSummary)Numerical summary table: emergency dispatchers and missing stroke symptoms. Enter PROPORTIONS and ODDS to TWO decimal places.</caption>
+ <thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Proportion</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Odds</div></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: right; font-weight: bold; " colspan="1"><div style="">Sample</div></th>
+</tr>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> symptoms missed </th>
+   <th style="text-align:right;"> symptoms missed </th>
+   <th style="text-align:right;"> size </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Males </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["0.39",".39"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["0.64",".64"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" size="6" data-answer='["110"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Females </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["0.29",".29"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["0.4",".4"]'> </td>
+   <td style="text-align:right;"> <input class="webex-solveme nospaces" size="6" data-answer='["136"]'> </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-style: italic;"> \null </td>
+   <td style="text-align:right;font-style: italic;"> Difference: <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["0.1",".1"]'> </td>
+   <td style="text-align:right;font-style: italic;"> Odds ratio: <input class="webex-solveme nospaces" data-tol="0.01" size="6" data-answer='["1.6"]'> </td>
+   <td style="text-align:right;font-style: italic;"> \null </td>
+  </tr>
+</tbody>
+</table>
 
 
 ## Two-way tables {#TwoWayTables}
@@ -249,69 +260,93 @@ Data were collected from $240$\ college students for two variables:
 Use the study data (Table\ \@ref(tab:SoccerTable)) to answer the following questions.
 
 
-\begin{table}
-\centering
-\caption{(\#tab:SoccerTable)Data on concussions experienced by college students.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lccc>{}c}
-\toprule
-\multicolumn{1}{c}{\textbf{ }} & \multicolumn{3}{c}{\textbf{Num. concussions}} & \multicolumn{1}{c}{\textbf{ }} \\
-\cmidrule(l{3pt}r{3pt}){2-4}
-\textbf{ } & \textbf{0} & \textbf{1} & \textbf{2 or more} & \textbf{Total}\\
-\midrule
-\textbf{Soccer players} & $\phantom{0}45$ & $\phantom{0}\phantom{0}5$ & $\phantom{0}13$ & \textbf{$\phantom{0}63$}\\
-\textbf{Non-soccer athletes} & $\phantom{0}68$ & $\phantom{0}25$ & $\phantom{0}\phantom{0}3$ & \textbf{$\phantom{0}96$}\\
-\textbf{Non-athletes} & $\phantom{0}45$ & $\phantom{0}15$ & $\phantom{0}21$ & \textbf{$\phantom{0}81$}\\
-\midrule
-\textbf{\textbf{Total}} & \textbf{$158$} & \textbf{$\phantom{0}45$} & \textbf{$\phantom{0}37$} & \textbf{\textbf{$240$}}\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>(\#tab:SoccerTable)Data on concussions experienced by college students.</caption>
+ <thead>
+<tr>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="3"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Num. concussions</div></th>
+<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
+</tr>
+  <tr>
+   <th style="text-align:left;font-weight: bold;">   </th>
+   <th style="text-align:left;font-weight: bold;"> 0 </th>
+   <th style="text-align:left;font-weight: bold;"> 1 </th>
+   <th style="text-align:left;font-weight: bold;"> 2 or more </th>
+   <th style="text-align:left;font-weight: bold;"> Total </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Soccer players </td>
+   <td style="text-align:left;"> $\phantom{0}45$ </td>
+   <td style="text-align:left;"> $\phantom{0}\phantom{0}5$ </td>
+   <td style="text-align:left;"> $\phantom{0}13$ </td>
+   <td style="text-align:left;font-weight: bold;"> $\phantom{0}63$ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Non-soccer athletes </td>
+   <td style="text-align:left;"> $\phantom{0}68$ </td>
+   <td style="text-align:left;"> $\phantom{0}25$ </td>
+   <td style="text-align:left;"> $\phantom{0}\phantom{0}3$ </td>
+   <td style="text-align:left;font-weight: bold;"> $\phantom{0}96$ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Non-athletes </td>
+   <td style="text-align:left;"> $\phantom{0}45$ </td>
+   <td style="text-align:left;"> $\phantom{0}15$ </td>
+   <td style="text-align:left;"> $\phantom{0}21$ </td>
+   <td style="text-align:left;font-weight: bold;"> $\phantom{0}81$ </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;font-weight: bold;"> Total </td>
+   <td style="text-align:left;font-weight: bold;"> $158$ </td>
+   <td style="text-align:left;font-weight: bold;"> $\phantom{0}45$ </td>
+   <td style="text-align:left;font-weight: bold;"> $\phantom{0}37$ </td>
+   <td style="text-align:left;font-weight: bold;font-weight: bold;"> $240$ </td>
+  </tr>
+</tbody>
+</table>
 
 1. *Why* is the number of concussions placed in the columns of the table, rather than the rows?
-\greyboxlines{2}
+\answerbox{2}
 1. Classify the two variables.
-\greyboxlines{2}
+\answerbox{2}
 2. Compute the percentage of college students in the *sample* that have received exactly one concussion.
-\greyboxlines{2}
+\answerbox{2}
 3. Compute the percentage of college students in the population that have received two or more concussions.
-\greyboxlines{2}
+\answerbox{2}
 4. Many possible graphs exists to display the data; four are shown in Fig.\ \@ref(fig:SoccerGraph).
    What is the main message from each graph?
    Which graph do you think is best?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 5. Among **non-athletes**, compute the odds of receiving two or more concussions.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 6. Among **soccer players**, compute the odds of receiving two or more concussions.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 7. Compute the odds ratio comparing the odds of a non-athlete receiving two or more concussions to the odds of a soccer player receiving two or more concussions.
-\greyboxlines{2}
+\answerbox{2}
 8. Create a table of **column** percentages.
    What do these tell you?
-\greyboxlines{4}
+\answerbox{4}
 9. Create a table of **row** percentages.
    What do these tell you?
-\greyboxlines{4}
+\answerbox{4}
 10. Which one of these tables is probably more sensible?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 11. What did you learn from this study?
-\greyboxlines{2}
+\answerbox{2}
 
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.75\linewidth]{04-TW4-Tutorial_files/figure-latex/SoccerGraph-1} 
-
-}
-
-\caption{Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete.}(\#fig:SoccerGraph)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="04-TW4-Tutorial_files/figure-html/SoccerGraph-1.png" alt="Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete." width="75%" />
+<p class="caption">(\#fig:SoccerGraph)Four different graphs displaying the soccer-data. 'S' mean a soccer player; 'NS' means a non-soccer athlete; 'NA' means a non-athlete.</p>
+</div>
 
 \pagebreak
 
@@ -319,30 +354,6 @@ Use the study data (Table\ \@ref(tab:SoccerTable)) to answer the following quest
 
 
 
-A study [@data:montalvo2020:retrospective] examined $433$\ bridge collapses.
-Of these $433$\ bridges, $36$\ bridges collapsed due to deterioration, and $82$\ bridges collapsed due to a collision.
-
-1. The **percentage** of bridges collapsing due to deterioration is _____ divided by _____, or\ $8.3$%.
-2. The **odds** of a bridge collapsing due to deterioration is _____ divided by _____, or\ $0.091$.
-3. The odds of a bridge collapsing due to deterioration is\ $0.091$. 
-   What does this mean?
-
-    a. For every $100$ bridges that do collapse due to deterioration, about $9.1$ bridges do not collapse.
-    b. For every $100$ bridges that do not collapse due to deterioration, about $9.1$ bridges do collapse.
-    c. About $9$% of bridges collapse due to deterioration.
-    d. About $90$% of bridges collapse due to deterioration.
-
-4. The percentage of bridges **not** collapsing due to deterioration is _____ divided by _____, or $91.7$%.
-5. The odds of a bridge **not** collapsing due to deterioration is _____ divided by _____, or $11.0$.
-6. The percentage of bridge collapses due to collisions is _____ divided by _____, or $18.9$%.
-7. The odds of a bridge collapsing due to collisions is _____ divided by _____, or $0.234$.
-8. True or false: The odds of an event cannot be larger than one.
-9. True or false: The odds of an event cannot be smaller than one.
-10. Which **one** of the following statements is true?
-
-    a. Proportions and odds are the same thing.
-    b. Percentages must be whole numbers.
-    c. Odds cannot be negative
 
 
 <iframe src="https://usc.h5p.com/content/1291091497189826599/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -364,64 +375,80 @@ If you need help, please **ask**.
 1. A study of drivers [@data:mcevoy2006:phoneuse] in New South Wales (NSW) and Western Australia (WA) were asked if they use their phone while driving (Table \@ref(tab:PDTable)).
 
    a. What **percentage** of people use their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    b. What are the **odds** that a person uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    c. What are the **odds** that a WA resident uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    d. What are the **odds** that a NSW resident uses their phone while driving?
-\greyboxlines{1}
+\answerbox{1}
    e. What are the **odds ratio** that a person uses their phone while driving, comparing WA residents to NSW residents?
-\greyboxlines{2}
+\answerbox{2}
 
-\begin{table}
-\centering
-\caption{(\#tab:PDTable)The number of drivers who use their phone while driving.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lcc}
-\toprule
-\textbf{ } & \textbf{Uses phone} & \textbf{Does not use phone}\\
-\midrule
-\textbf{NSW} & 381 & 295\\
-\textbf{WA} & 345 & 326\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>(\#tab:PDTable)The number of drivers who use their phone while driving.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:center;"> Uses phone </th>
+   <th style="text-align:center;"> Does not use phone </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> NSW </td>
+   <td style="text-align:center;"> 381 </td>
+   <td style="text-align:center;"> 295 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> WA </td>
+   <td style="text-align:center;"> 345 </td>
+   <td style="text-align:center;"> 326 </td>
+  </tr>
+</tbody>
+</table>
 
 
 
 2. The data in Table \@ref(tab:RSTable) give the number of plum cuttings that were alive or dead, and whether the rootstock was long or short [@bartlett1935contingency].
    a. Compute the **percentage** of cuttings that were *alive* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    b. Compute the **percentage** of cuttings that were *dead* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    c. Compute the **percentage** of cuttings that were *long*.
-\greyboxlines{1}
+\answerbox{1}
    d. Compute the **odds** that a cuttings was *alive* at the end of the study.
-\greyboxlines{1}
+\answerbox{1}
    e. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *long* cuttings.
-\greyboxlines{1}
+\answerbox{1}
    f. Compute the **odds** that a cuttings was *alive* at the end of the study, only for the *short* cuttings.
-\greyboxlines{1}
+\answerbox{1}
    g. Compute the **odds ratio** that a cutting was *alive* at the end of the study, comparing the *short* cuttings to the *long* cuttings.
-\greyboxlines{1}
+\answerbox{1}
 
 
-\begin{table}
-\centering
-\caption{(\#tab:RSTable)The relationship between length and condition of plum rootstocks.}
-\centering
-\fontsize{10}{12}\selectfont
-\begin{tabular}[t]{>{}lrr}
-\toprule
-\textbf{ } & \textbf{Alive} & \textbf{Dead}\\
-\midrule
-\textbf{Long} & 240 & 240\\
-\textbf{Short} & 138 & 342\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>(\#tab:RSTable)The relationship between length and condition of plum rootstocks.</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;">   </th>
+   <th style="text-align:right;"> Alive </th>
+   <th style="text-align:right;"> Dead </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;"> Long </td>
+   <td style="text-align:right;"> 240 </td>
+   <td style="text-align:right;"> 240 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> Short </td>
+   <td style="text-align:right;"> 138 </td>
+   <td style="text-align:right;"> 342 </td>
+  </tr>
+</tbody>
+</table>
 
 
 
@@ -447,27 +474,27 @@ A total of $380$\ SMND cases and $377$ controls were studied.
 Of the $380$\ SMND cases, $60$ had worked with metal in the past; of the $377$ controls, $33$ had worked with metal in the past.
 
 1. What is the *direction* of this study?
-\greyboxlines{1}
+\answerbox{1}
 2. Construct a two-way table showing the relationship between disease group, and whether not the specific person had worked with metal, in the sample.
-\greyboxlines{4}
+\answerbox{4}
 3. Using your table, compute the *odds* that a person *with* SMND had worked with metal.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 4. Using your table, compute the *odds* that a person *without* SMND had worked with metal.
    Interpret what this means.
-\greyboxlines{2}
+\answerbox{2}
 5. How many times greater is the odds that a person *with* SMND having worked with metal, compared to the odds that a person *without* SMND having worked with metal?
    (This is an *odds ratio*.)
-\greyboxlines{2}
+\answerbox{2}
 6. Using your table, compute the *percentage* of people *with* SMND that had worked with metal.
-\greyboxlines{1}
+\answerbox{1}
 7. Using your table, compute the *percentage* of people *without* SMND that had worked with metal.
-\greyboxlines{1}
+\answerbox{1}
 8. A newspaper report states SMND rates are almost the same between those worked with metal and those who did not.
    Do you agree or disagree?
-\greyboxlines{1}
+\answerbox{1}
 9. Sketch a bar chart to display the data.
-\greyboxlines{4}
+\answerbox{4}
 
 
 
