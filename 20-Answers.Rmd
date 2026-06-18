@@ -771,11 +771,13 @@ Very small.
    b. No parameter is given; the hypothesis should include (and define!) the parameter\ $p$, the proportion of students using AI daily.
    c. The alternative is *not equal to* $0.40$.
    d. The hypothesis are **not** about the *numbers*; they are about *proportions*.
-2. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$, as claimed. 
+2. $P$ is big much larger than $0.05$.
+3. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$, as claimed. 
    a. 'No **strong**' evidence' is wrong: there is 'no evidence'.
    b. 'No evidence of a **large** difference' is wrong: there is no evidence of a difference.
    c. The sample proportion is $\hat{p} = 29/78 = 0.372$, so this is clearly **wrong**!
-3. *Correct*: There is evidence that the population proportion of students using AI daily is not\ $0.40$%.
+4. $P$ is a bit smaller than $0.05$.
+5. *Correct*: There is evidence that the population proportion of students using AI daily is not\ $0.40$%.
    a. 'There is evidence of a **significant** difference': the use of 'significant' here is incorrect.
    b. This is not true: we start by assuming the claim is true; we don't need the evidence to support it. 
        There is evidence, however, to support the alternative hypothesis.

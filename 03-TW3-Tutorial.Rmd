@@ -186,11 +186,11 @@ PT <- PT[ sample( 1:length(PT), len) ]
 Table\ \@ref(tab:PolyTable) shows the polythene usage, in tonnes, by eight UK cosmetic companies [@gilchrist2000regression].
 
 1. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of these numbers.
-\greyboxlines{2}
+\answerbox{2}
 2. Without using a calculator, find the **median** of the data.
-\greyboxlines{2}
+\answerbox{2}
 3. Without using a calculator, find the **IQR** of the data.
-\greyboxlines{2}
+\answerbox{2}
 
 ```{r PolyTable, echo=FALSE}
 
@@ -282,13 +282,13 @@ A study of Weddell seals [@data:Bryden1984:WeddellSeals] measured, among other t
 A histogram of the body length of $90$\ female seals is shown in Fig.\ \@ref(fig:Bryden1984Fig3b).
 
 1. Describe this histogram in words (average; variation; shape; outliers).
-\greyboxlines{3}
+\answerbox{3}
 2. What alternative graphical displays could be used to display these data?
-\greyboxlines{2}
+\answerbox{2}
 3. Critique the graph.
-\greyboxlines{3}
+\answerbox{3}
 4. Write a one-sentence summary of the body length of female Weddell seals suitable for a publicity brochure.
-\greyboxlines{2}
+\answerbox{2}
 
 
 ```{r Bryden1984Fig3b, echo=FALSE, fig.cap="A histogram of the body length of female Weddell seals", fig.align="center", out.width='55%'}
@@ -310,11 +310,11 @@ If you need help, please **ask**.
 
 1. The data in Table\ \@ref(tab:AISTable) give the heights of $n = 7$ female tennis players at the *Australian Institute of Sport* (AIS) in centimetres [@telford1991sex].
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
-\greyboxlines{2}
+\answerbox{2}
    b. Without using a calculator, find the **median** of the data.
-\greyboxlines{2}
+\answerbox{2}
    c. Compute the **IQR** for the data.
-\greyboxlines{2}
+\answerbox{2}
 
 
 
@@ -361,11 +361,11 @@ if( knitr::is_html_output() ) {
    The five MOR test results (in MPa) are shown in Table \@ref(tab:MORTable).
    a. Identify the type of RQ being answered: descriptive, relational, cross-sectional or correlational.
    Justify your answer.
-\greyboxlines{2}
+\answerbox{2}
    b. Use your calculator's statistics mode to compute the **mean** and the **standard deviation**.
-\greyboxlines{2}
+\answerbox{2}
    c. Without using a calculator, find the **median** of the data.
-\greyboxlines{2}
+\answerbox{2}
 
 
 ```{r MORTable, echo=FALSE}
@@ -398,7 +398,7 @@ if( knitr::is_html_output() ) {
    a. Using your calculator's *Statistics Mode*, find the **mean** and **standard deviation** of the data.
    b. Without using a calculator, find the **median** of the data.
    c. Compute the **IQR**.
-\greyboxlines{4}
+\answerbox{4}
    
 
 
@@ -489,9 +489,9 @@ if( knitr::is_html_output() ) {
 
 1. `r if( knitr::is_latex_output() ) {'Is the type of research study a true experimental, quasi-experimental, or observational study? Justify your answer.'} else {'The type of research study is  '}`
 `r if( knitr::is_html_output() ) {webexercises::longmcq( c("a true experimental.", "a quasi-experimental study.",	answer= "an observational study."))}`\tightlist
-\greyboxlines{2}
+\answerbox{2}
 2. What are the *units of observation* and *units of analysis*?
-\greyboxlines{2}
+\answerbox{2}
 3. Use your calculator's *Statistics Mode* to compute the following. (Check your answers to ensure you are using your calculator correctly.)
    a. Compute the mean times for the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.36)}`
@@ -501,24 +501,24 @@ if( knitr::is_html_output() ) {
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.41)}`
    a. Compute the standard deviation of the *Ultracell* battery times (to three decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=0.172)}`
-\greyboxlines{4}
+\answerbox{4}
 4. Explain what these calculations tell you.
-\greyboxlines{2}
+\answerbox{2}
 5. Compute the median lifetime for each brand, explain what this tells you. 
    (Many calculators cannot compute medians.)
    a. Compute the median of the *Energizer* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.46)}`
    b. Compute the median of the *Ultracell* batteries (to two decimal places).
    `r if( knitr::is_html_output() ) {webexercises::fitb(num=TRUE, tol=0.01, answer=7.48)}`
-\greyboxlines{3}
+\answerbox{3}
 6. Determine (and justify) if the mean or median would be a more appropriate measure of centre.
-\greyboxlines{2}
+\answerbox{2}
 7. Do you think that the average time to reach $1.0$\ volts is the same for each brand?
    Explain.
-\greyboxlines{2}
+\answerbox{2}
 8. Information about the cost of the batteries would also be important information to know (see below).
    What advice would you give about buying batteries based on these data?
-\greyboxlines{2}
+\answerbox{2}
 
 ::: {.tipBox .tip data-latex="{iconmonstr-info-6-240.png}"}
 The cost of the batteries, at the time of publication (05\ September, 2012), was: 

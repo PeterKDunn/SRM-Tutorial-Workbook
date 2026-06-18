@@ -95,20 +95,20 @@ out <- hist(JF$Width[JF$Location == "Dangar"],
 > There are five bars, and the middle bar is the third bar.
 > Since the third bar has a height of $4$, the median breadth is $4\mms$.  
 
-\greyboxlines{2}
+\answerbox{2}
 
 2. Describe the histogram.
-\greyboxlines{2}
+\answerbox{2}
 3. A boxplot comparing the breadths of jellyfish at Dangar Island and Salamander Bay is shown in Fig.\ \@ref(fig:JellyfishBoxplots).
    Describe and compare the breadths of the jellyfish.
-\greyboxlines{3}
+\answerbox{3}
 4. Which box in the boxplot represents the Dangar Island jellyfish (shown in Fig.\ \@ref(fig:JellyfishHist))?
-\greyboxlines{1}
+\answerbox{1}
 5. The difference between means was defined as $\mu_A - \mu_B$ (where $\mu_A$ is the mean breadth at Site\ A, and $\mu_B$ is the mean breadth at Site\ B).
    What would a value of $-6.0\mms$ mean?
-\greyboxlines{2}
+\answerbox{2}
 6. What did you learn from this study?
-\greyboxlines{1}
+\answerbox{1}
 
 
 ```{r JellyfishBoxplots, echo=FALSE, fig.cap="A boxplot of the breadth of jellyfish at two sites.", fig.align="center", out.width='50%', fig.height = 3.5, fig.width=5}
@@ -160,7 +160,7 @@ In this activity, you get to critique actual student Project submissions, so you
 You don't know what 'standard error' means yet, so don't worry about that column.
 :::
 
-\greyboxlines{4}
+\answerbox{4}
 
 
 ```{r StudentsNumSumA, echo=FALSE, fig.cap="A numerical summary from a student Project.", fig.align="center", out.width="70%"}
@@ -187,7 +187,7 @@ knitr::include_graphics("ProjectImages/NumericalSummaryChi2.png")
 
    The RQ is '*What is the difference between the mean burn rates of generic and brand-name sparklers?*'
 	 
-\greyboxlines{4}
+\answerbox{4}
 
 ```{r StudentsNumSumB, echo=FALSE, fig.cap="A numerical summary from a student Project.", fig.align="center", out.width="60%"}
 knitr::include_graphics("ProjectImages/StudentResults2.png")
@@ -195,7 +195,7 @@ knitr::include_graphics("ProjectImages/StudentResults2.png")
 -->
 
 Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task\ 2B.
-\greyboxlines{3}
+\answerbox{3}
 
 
 
@@ -208,7 +208,7 @@ Make some notes about important things you learnt from this activity, to remembe
 In this activity, you get to critique actual SCI110 Project submissions, so you can critique your own *before* submission.
 
 1. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsA), a screenshot from a student Project Report comparing the average burn time between two brands of sparklers.
-\greyboxlines{4}
+\answerbox{4}
 
 
 ```{r StudentsGraphsA, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
@@ -220,7 +220,7 @@ knitr::include_graphics("ProjectImages/BareBoxplot.png")
 <!--
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsB), a screenshot from a student Project Report comparing the average burn time of room-temperature and refrigerated candles.
 
-\greyboxlines{4}
+\answerbox{4}
 
 
 ```{r StudentsGraphsB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='75%'}
@@ -230,7 +230,7 @@ knitr::include_graphics("ProjectImages/DodgyBar.png")
 
 
 2. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsChiB), a screenshot from a student Project Report comparing the percentage of students at UniSC wearing grey-scale clothing between females and males.
-\greyboxlines{4}
+\answerbox{4}
 
 
 ```{r StudentsGraphsChiB, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='65%'}
@@ -241,7 +241,7 @@ knitr::include_graphics("ProjectImages/GraphicalSummaryChi2.png")
 
 3. Critique the graph in Fig.\ \@ref(fig:StudentsGraphsC), a screenshot from a student Project Report comparing the 'mean dissolve' time (they probably meant 'mean *dissolving* time') of Panadol in room temperature and cold water.
    Identify ways to improve the graph.
-\greyboxlines{4}
+\answerbox{4}
 
 ```{r StudentsGraphsC, echo=FALSE, fig.cap="A graph from a student Project.", fig.align="center", out.width='70%'}
 knitr::include_graphics("ProjectImages/WrongBar.png")
@@ -249,7 +249,7 @@ knitr::include_graphics("ProjectImages/WrongBar.png")
 
 
 Make some notes about important things you learnt from this activity, to remember when creating your graphs for Task\ 2B.
-\greyboxlines{4}
+\answerbox{4}
 
 
 
@@ -304,15 +304,15 @@ if( knitr::is_html_output() ) {
 1. For two plots, a correlation is not suitable.
    Which two?
    Explain your answer.
-\greyboxlines{2}
+\answerbox{2}
 2. Determine which plot corresponds to which correlation coefficient.
-\greyboxlines{3}
+\answerbox{3}
 3. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 1**.
-\greyboxlines{3}
+\answerbox{3}
 4. Think of an example of two quantitative variables that might produce a plot with a *direction* similar to **Plot 2**.
-\greyboxlines{3}
+\answerbox{3}
 5. Compute the values of $R^2$ for each plot identified in **Part\ 1** of this question.
-\greyboxlines{4}
+\answerbox{4}
 
 
 

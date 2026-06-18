@@ -27,7 +27,7 @@ b. carefully define the **parameter** of interest.
 
   What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 2. Many studies have observed an association between the presence of airborne allergens and people reporting asthma (e.g., Targonski et al., 1995). To better understand the risks of airborne allergens, a study examined the records for numerous people who died of asthma.
 
@@ -37,7 +37,7 @@ b. carefully define the **parameter** of interest.
    
    What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 3. An experimental study [@data:VanLeit2002:ChildrenWithDisabilities]  "evaluated the impact of an 8-week psychosocial occupational therapy intervention program for mothers who have children with disabilities" (p.\ 402).
 
@@ -46,7 +46,7 @@ b. carefully define the **parameter** of interest.
 
    What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 4. A experimental study [@data:Ingenbleek2012:Vegetarianism] compared vegetarians to non-vegetarians on many criteria.
 
@@ -54,19 +54,19 @@ b. carefully define the **parameter** of interest.
 
    What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 5. A study compared the proportion of females in retail working overtime, to the proportion of males on retail working overtime.
 
    What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 6. A study compared the relationship between the VO2 max (a measure of an individual of an individual physical fitness) and $3$\ km running velocity, for a set of male long-distance runners.
 
    What is the appropriate method of analysis?
   Carefully define the parameter of interest.
-\greyboxlines{2}
+\answerbox{2}
 
 
 

@@ -1,12 +1,12 @@
 1. How many quantitative *continuous* variable(s) appear in the data set?
    Which are they?
-\greyboxlines{2}
+\answerbox{2}
 2. How many qualitative *ordinal* variable(s) appear in the data set?
    Which are they?
-\greyboxlines{2}
+\answerbox{2}
 3. How many qualitative *nominal* variable(s) appear in the data set?
    Which are they?
-\greyboxlines{2}
+\answerbox{2}
     
 \pagebreak
 
