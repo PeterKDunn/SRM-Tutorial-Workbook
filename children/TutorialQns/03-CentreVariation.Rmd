@@ -11,16 +11,16 @@ The corresponding histograms are shown in Fig.\ \@ref(fig:VariationHistograms).
 
 1. In which class would the median be the *largest*?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 2. In which class would the median be the *smallest*?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 3. In which class would the standard deviation be the *largest*?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 4. In which class would the standard deviation be the *smallest*?
    Why?
-\greyboxlines{2}
+\answerbox{2}
 
 
 
