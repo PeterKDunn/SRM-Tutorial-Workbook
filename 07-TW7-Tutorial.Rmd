@@ -93,7 +93,7 @@ There was $44$\ matches.
    How would you clarify the confusion?\tightlist
 \answerbox{2}
 2. Then, Jake and Claire counted the number of matches in *each* of the twenty-five boxes.
-   Claire found that the mean number of matches per box was $44.9$\ matches, and the standard deviation was $0.124$.  
+   Claire found that the mean number of matches per box was $44.9$\ matches.  
    
    Jake says, "A mean of $44.9$\ matches per box? 
    You can't have $0.9$ of a match! 
@@ -119,7 +119,7 @@ There was $44$\ matches.
 6. Would the standard deviation of the number of matches in a box be more likely to be $0.04$\ matches, $0.4$\ matches or $4$\ matches?
    Explain.
 \answerbox{2}
-7. Compute an approximate $95$% confidence interval for the mean for Claire's sample.
+7. Compute an approximate $95$% confidence interval for the mean for Claire's sample (they computed the standard deviation as\ $0.124$).
 \answerbox{2}
 8. "Aha---I told you so!
    They *are* absolutely lying!
