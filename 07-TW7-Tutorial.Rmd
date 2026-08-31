@@ -106,9 +106,9 @@ There was $44$\ matches.
    Identify the two statistical concepts that Jake is confusing. 
    How would you clarify the confusion?
 \answerbox{2}
-4. What two broad reasons could explain why the sample mean is *not* $45$?
+4. What two broad reasons could explain why the sample mean is *not*\ $45$?
 \answerbox{2}
-5. Claire says, "The mean won't be *exactly* $45$ in every sample of $25$ boxes!
+5. Claire says, "The mean won't be *exactly*\ $45$ in every sample of $25$\ boxes!
    Let's work out the confidence interval."  
    
    Why does Claire think a CI is needed?
@@ -119,7 +119,7 @@ There was $44$\ matches.
 6. Would the standard deviation of the number of matches in a box be more likely to be $0.04$\ matches, $0.4$\ matches or $4$\ matches?
    Explain.
 \answerbox{2}
-7. Compute an approximate $95$% confidence interval for the mean for Claire's sample (they computed the standard deviation as\ $0.124$).
+7. Compute an approximate $95$%\ confidence interval for the mean for Claire's sample (they computed the standard deviation as\ $0.124$).
 \answerbox{2}
 8. "Aha---I told you so!
    They *are* absolutely lying!
