@@ -772,7 +772,7 @@ Very small.
    c. The alternative is *not equal to* $0.40$.
    d. The hypothesis are **not** about the *numbers*; they are about *proportions*.
 2. $P$ is big much larger than $0.05$.
-3. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$, as claimed. 
+3. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$. 
    a. 'No **strong**' evidence' is wrong: there is 'no evidence'.
    b. 'No evidence of a **large** difference' is wrong: there is no evidence of a difference.
    c. The sample proportion is $\hat{p} = 29/78 = 0.372$, so this is clearly **wrong**!
