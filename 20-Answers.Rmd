@@ -772,7 +772,7 @@ Very small.
    c. The alternative is *not equal to* $0.40$.
    d. The hypothesis are **not** about the *numbers*; they are about *proportions*.
 2. $P$ is big much larger than $0.05$.
-3. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$, as claimed. 
+3. *Correct*: There is no evidence that the population proportion of students using AI daily is not\ $0.40$. 
    a. 'No **strong**' evidence' is wrong: there is 'no evidence'.
    b. 'No evidence of a **large** difference' is wrong: there is no evidence of a difference.
    c. The sample proportion is $\hat{p} = 29/78 = 0.372$, so this is clearly **wrong**!
@@ -936,12 +936,15 @@ with(ReactionTime,
 If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hypothesis tests should also be about odds.
 (Similarly, if the RQ is about proportions, then the hypothesis, CI and hypothesis tests should also be about proportions.)
 
+1. The odds of a person being bitten by a mosquito is the same for people near citronella candles and wax candles.
+2. A CI for the odds ratio.
+3. A hypothesis tests for the odds ratio.
 4. From the output, the OR is $0.508$.
-5. The *odds ratio* here means, from the RQ
+5. The odds of someone receiving mosquito bites when sitting near a citronella candle is $0.51$ times the odds for those sitting near a wax candle (i.e., is lower).
+   This is because the *odds ratio* here means, from the RQ:
 $$
   \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
 $$
-5. The odds of someone receiving mosquito bites when sitting near a citronella candle is $0.51$ times the odds for those sitting near a wax candle (i.e., is lower).
 6. The difference between proportions is $p_C- p_W$.
    In the population, the proportion of people bitten by mosquitoes is between $0.344$ higher near a **wax** candle to $0.024$ higher near a **citronella** candle.
 7. $0.51\times 2.167 = 1.1$.
