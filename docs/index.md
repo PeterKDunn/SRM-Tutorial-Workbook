@@ -79,9 +79,9 @@ params:
 
 
 This book has been prepared for use with the textbook *Scientific Research and Methodology* (available [free online](https://peterkdunn.github.io/SRM-Textbook), or as a
-[paper-based textbook)](https://www.taylorfrancis.com/books/mono/10.1201/9781003394938/scientific-research-methodology-peter-dunn),
+paper-based textbook, from (for example) \url{https://www.routledge.com}),
 to be used in the course *Science Research Methods* at the
-[University of the Sunshine Coast (UniSC)](https://www.usc.edu.au).
+University of the Sunshine Coast (UniSC).
 
 This course is an introduction to quantitative research methods in the scientific, engineering and health disciplines.
 It introduces the whole research process,
@@ -99,7 +99,7 @@ In the online version, some answers are implied by working through the online ex
 
 Most of this book can be read without relying on any specific statistical software.
 However, some parts explicitly mention and refer to 
-[jamovi](https://www.jamovi.org/)
+jamovi
 [@Software:jamovi]. 
 jamovi is *free* to download and use.
 
@@ -172,7 +172,7 @@ Questions with this icon beside them have MentiMeter availability.
 ## How this book was made {-}
 
 This book was made using **R** [@Software:Rsoftware], and the **bookdown** package [@Software:Rbookdown], based on 
-[Markdown](https://en.wikipedia.org/wiki/Markdown) syntax,
+Markdown syntax,
 using **knitr** [@package:knitr].
 Numerous other **R** packages were used, including:
 
@@ -186,15 +186,15 @@ All of this software is *free* and open source.
 Other resources used include:
 
 * The online quizzes are embedded using 
-[H5P](https://h5p.org)
+H5P
  iframes.
 * Icons are from 
-[**iconmonstr**](https://iconmonstr.com/),
+**iconmonstr**,
  and are freely available.
  
 <!--
 * The cover for the book was made using a free image with 
-[Canva](https://www.canva.com/).
+Canva.
 -->
 
 

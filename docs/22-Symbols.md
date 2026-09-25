@@ -1,7 +1,7 @@
 
 # Symbols, formulas, statistics and parameters {#StatisticsAndParameters}
 
- 
+<!-- 
 The following information appears in this Appendix:
 
 * [Symbols and standard errors for confidence intervals and hypothesis testing](#Symbols)
@@ -10,14 +10,14 @@ The following information appears in this Appendix:
 * [Information for estimating sample sizes](#FormulasSampleSize)
 * [Other formulas used](#FormulasOther)
 * [Other symbols used](#SymbolsOther)
- 
+--> 
 
 
 
 ## Symbols and standard errors {#Symbols}
 
 * The following table lists the statistics used to estimate unknown population parameters. \tightlist
-* When the sampling distribution is approximately normally distributed, under appropriate statistical validity conditions, this is indicated by\ &#10004;.
+* When the sampling distribution is approximately normally distributed, under appropriate statistical validity conditions, this is indicated by\ \ding{52}.
 * The value of the mean of the sampling distribution (the *sampling mean*) is:
 
   - unknown, for *confidence intervals*.
@@ -52,120 +52,42 @@ The following information appears in this Appendix:
 (ref:SamplingDistributionRegression) Ch.\ 33
 
 
-<table>
- <thead>
-<tr>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="2"></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="3"><div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; ">Sampling distribution</div></th>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
-</tr>
-<tr>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="2"></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="1"><div style="">Parameter, and</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="1"><div style="">Normal</div></th>
-<th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; font-weight: bold; " colspan="1"><div style="">Standard</div></th>
-<th style="empty-cells: hide;border-bottom:hidden;" colspan="1"></th>
-</tr>
-  <tr>
-   <th style="text-align:left;font-weight: bold;">   </th>
-   <th style="text-align:left;font-weight: bold;"> Statistic </th>
-   <th style="text-align:center;font-weight: bold;"> sampling mean </th>
-   <th style="text-align:center;font-weight: bold;"> distn? </th>
-   <th style="text-align:center;font-weight: bold;"> error </th>
-   <th style="text-align:center;font-weight: bold;"> Ref. </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:left;vertical-align: middle !important;" rowspan="2"> Proportion </td>
-   <td style="text-align:left;vertical-align: middle !important;" rowspan="2"> $\hat{p}$ </td>
-   <td style="text-align:center;vertical-align: middle !important;" rowspan="2"> $p$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> CI: $\displaystyle \sqrt{\frac{ \hat{p} \times (1 - \hat{p})}{n}}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionPropCI) </td>
-  </tr>
-  <tr>
-   
-   
-   
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionPropHT) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Mean </td>
-   <td style="text-align:left;"> $\bar{x}$ </td>
-   <td style="text-align:center;"> $\mu$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> $\displaystyle \frac{s}{\sqrt{n}}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionXbarCI) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Mean difference </td>
-   <td style="text-align:left;"> $\bar{d}$ </td>
-   <td style="text-align:center;"> $\mu_d$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> $\displaystyle \frac{s_d}{\sqrt{n}}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionDbarCI) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Difference between means </td>
-   <td style="text-align:left;"> $\bar{x}_1 - \bar{x}_2$ </td>
-   <td style="text-align:center;"> $\mu_1 - \mu_2$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> $\displaystyle \sqrt{\text{s.e.}(\bar{x}_1)^2 + \text{s.e.}(\bar{x}_2)^2}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionTwoMeansCI) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;vertical-align: middle !important;" rowspan="2"> Difference between proportions </td>
-   <td style="text-align:left;vertical-align: middle !important;" rowspan="2"> $\hat{p}_1 - \hat{p}_2$ </td>
-   <td style="text-align:center;vertical-align: middle !important;" rowspan="2"> $p_1 - p_2$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> CI: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionTwoProps) </td>
-  </tr>
-  <tr>
-   
-   
-   
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$ using common proportion $\hat{p}$ </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionTwoProps) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Odds ratio (OR) </td>
-   <td style="text-align:left;"> Sample OR </td>
-   <td style="text-align:center;"> Pop. OR </td>
-   <td style="text-align:center;"> ✘ </td>
-   <td style="text-align:center;"> (Not given) </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionORCI) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Correlation </td>
-   <td style="text-align:left;"> $r$ </td>
-   <td style="text-align:center;"> $\rho$ </td>
-   <td style="text-align:center;"> ✘ </td>
-   <td style="text-align:center;"> (Not given) </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionCorrelationHT) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Regression: slope </td>
-   <td style="text-align:left;"> $b_1$ </td>
-   <td style="text-align:center;"> $\beta_1$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> $\text{s.e.}(b_1)$ (value from software) </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionRegression) </td>
-  </tr>
-  <tr>
-   <td style="text-align:left;"> Regression: intercept </td>
-   <td style="text-align:left;"> $b_0$ </td>
-   <td style="text-align:center;"> $\beta_0$ </td>
-   <td style="text-align:center;"> ✔ </td>
-   <td style="text-align:center;"> $\text{s.e.}(b_0)$ (value from software) </td>
-   <td style="text-align:center;"> (ref:SamplingDistributionRegression) </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering
+\caption{(\#tab:ParametersStatistics2)Sample statistics used to estimate population parameters. Some statistics have appproximately normally-distributed sampling distributions under appropriate (statistical validity) conditions, as indicated using a \ding{52}.}
+\centering
+\fontsize{8}{10}\selectfont
+\begin{tabular}[t]{>{\raggedright\arraybackslash}p{21mm}ccc>{\centering\arraybackslash}p{33mm}l}
+\toprule
+\multicolumn{2}{c}{\textbf{ }} & \multicolumn{3}{c}{\textbf{Sampling distribution}} & \multicolumn{1}{c}{\textbf{ }} \\
+\cmidrule(l{3pt}r{3pt}){3-5}
+\multicolumn{2}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Parameter, and}} & \multicolumn{1}{c}{\textbf{Normal}} & \multicolumn{1}{c}{\textbf{Standard}} & \multicolumn{1}{c}{\textbf{ }} \\
+\textbf{ } & \textbf{Statistic} & \textbf{sampling mean} & \textbf{distn?} & \textbf{error} & \textbf{Ref.}\\
+\midrule
+ &  &  &  & CI: $\displaystyle \sqrt{\frac{ \hat{p} \times (1 - \hat{p})}{n}}$ & (ref:SamplingDistributionPropCI)\\
+\cmidrule{5-6}
+\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Proportion} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ & (ref:SamplingDistributionPropHT)\\
+\cmidrule{1-6}
+Mean & $\bar{x}$ & $\mu$ & \ding{52} & $\displaystyle \frac{s}{\sqrt{n}}$ & (ref:SamplingDistributionXbarCI)\\
+\cmidrule{1-6}
+Mean difference & $\bar{d}$ & $\mu_d$ & \ding{52} & $\displaystyle \frac{s_d}{\sqrt{n}}$ & (ref:SamplingDistributionDbarCI)\\
+\cmidrule{1-6}
+Difference between means & $\bar{x}_1 - \bar{x}_2$ & $\mu_1 - \mu_2$ & \ding{52} & $\displaystyle \sqrt{\text{s.e.}(\bar{x}_1)^2 + \text{s.e.}(\bar{x}_2)^2}$ & (ref:SamplingDistributionTwoMeansCI)\\
+\cmidrule{1-6}
+ &  &  &  & CI: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$ & \\
+\cmidrule{5-5}
+\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Difference between proportions} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}_1 - \hat{p}_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p_1 - p_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & \stackunder{HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$}{using \emph{common} proportion $\hat{p}$} & \multirow{-2}{*}{\raggedright\arraybackslash (ref:SamplingDistributionTwoProps)}\\
+\cmidrule{1-6}
+Odds ratio (OR) & Sample OR & Pop. OR & \ding{55} & (Not given) & (ref:SamplingDistributionORCI)\\
+\cmidrule{1-6}
+Correlation & $r$ & $\rho$ & \ding{55} & (Not given) & (ref:SamplingDistributionCorrelationHT)\\
+\cmidrule{1-6}
+Regression: slope & $b_1$ & $\beta_1$ & \ding{52} & $\text{s.e.}(b_1)$ (value from software) & (ref:SamplingDistributionRegression)\\
+\cmidrule{1-6}
+Regression: intercept & $b_0$ & $\beta_0$ & \ding{52} & $\text{s.e.}(b_0)$ (value from software) & (ref:SamplingDistributionRegression)\\
+\bottomrule
+\end{tabular}
+\end{table}
 
 
 
@@ -204,10 +126,10 @@ The test-statistic is a $t$-score for most hypothesis tests in this book when th
 **Notes:**
 
 * If the test-statistic is a $z$-score, the $P$-value can be found using tables
-(Appendix\ \@ref(ZTablesOnline)),
+(Appendices\ \@ref(ZTablesNEG) and\ \@ref(ZTablesPOS)),
 or *approximated* using the $68$--$95$--$99.7$ rule.
 * If the test-statistic is a $t$-score, the $P$-value can be *approximated* using tables
-(Appendix\ \@ref(ZTablesOnline)),
+(Appendices\ \@ref(ZTablesNEG) and\ \@ref(ZTablesPOS)),
 or *approximated* using the $68$--$95$--$99.7$ rule (since $t$-scores are similar to $z$-scores; Sect.\ 28.4.
 * When the sampling distribution for the statistic does not have an approximate normal distribution (e.g., for ORs and correlation coefficients), *this formula does not apply* and $P$-values are taken from software when available.
 * A hypothesis test about ORs uses a $\chi^2$ test statistic.
@@ -302,80 +224,35 @@ $$
 
 (ref:SampleSize) Def.\ 2.21
 
-<table>
- <thead>
-  <tr>
-   <th style="text-align:center;font-weight: bold;"> Symbol or abbreviation </th>
-   <th style="text-align:left;font-weight: bold;"> Meaning </th>
-   <th style="text-align:center;font-weight: bold;"> Textbook reference </th>
-  </tr>
- </thead>
-<tbody>
-  <tr>
-   <td style="text-align:center;"> RQ </td>
-   <td style="text-align:left;"> Research question </td>
-   <td style="text-align:center;"> (ref:RQs) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $s$ </td>
-   <td style="text-align:left;"> Sample standard deviation </td>
-   <td style="text-align:center;"> (ref:VariationStdDev) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $\sigma$ </td>
-   <td style="text-align:left;"> Population standard deviation </td>
-   <td style="text-align:center;"> (ref:VariationStdDev) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $s_d$ </td>
-   <td style="text-align:left;"> Sample standard deviation of differences </td>
-   <td style="text-align:center;"> (ref:VariationStdDev) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $\sigma_d$ </td>
-   <td style="text-align:left;"> Population standard deviation of differences </td>
-   <td style="text-align:center;"> (ref:VariationStdDev) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $R^2$ </td>
-   <td style="text-align:left;"> R-squared </td>
-   <td style="text-align:center;"> (ref:Rsquared) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $H_0$ </td>
-   <td style="text-align:left;"> Null hypothesis </td>
-   <td style="text-align:center;"> (ref:AboutHypotheses) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $H_1$ </td>
-   <td style="text-align:left;"> Alternative hypothesis </td>
-   <td style="text-align:center;"> (ref:AboutHypotheses) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> CI </td>
-   <td style="text-align:left;"> Confidence interval </td>
-   <td style="text-align:center;"> (ref:AboutCIs) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> s.e. </td>
-   <td style="text-align:left;"> Standard error </td>
-   <td style="text-align:center;"> (ref:StandardError) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $n$ </td>
-   <td style="text-align:left;"> Sample size </td>
-   <td style="text-align:center;"> (ref:SampleSize) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $\chi^2$ </td>
-   <td style="text-align:left;"> The chi-squared test statistic </td>
-   <td style="text-align:center;"> (ref:TestStatObs) </td>
-  </tr>
-  <tr>
-   <td style="text-align:center;"> $\pm$ </td>
-   <td style="text-align:left;"> Plus-or-minus (give-or-take) </td>
-   <td style="text-align:center;"> (ref:CIpKnownp) </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering\begingroup\fontsize{9}{11}\selectfont
+
+\begin{tabular}{>{\centering\arraybackslash}p{25mm}lc}
+\toprule
+\multicolumn{1}{c}{\textbf{Symbol or}} & \multicolumn{1}{c}{\textbf{ }} & \multicolumn{1}{c}{\textbf{Textbook}} \\
+\textbf{abbreviation} & \textbf{Meaning} & \textbf{reference}\\
+\midrule
+RQ & Research question & (ref:RQs)\\
+\addlinespace
+$s$ & Sample standard deviation & (ref:VariationStdDev)\\
+$\sigma$ & Population standard deviation & (ref:VariationStdDev)\\
+\addlinespace
+$s_d$ & Sample standard deviation of differences & (ref:VariationStdDev)\\
+$\sigma_d$ & Population standard deviation of differences & (ref:VariationStdDev)\\
+\addlinespace
+$R^2$ & R-squared & (ref:Rsquared)\\
+\addlinespace
+$H_0$ & Null hypothesis & (ref:AboutHypotheses)\\
+$H_1$ & Alternative hypothesis & (ref:AboutHypotheses)\\
+\addlinespace
+CI & Confidence interval & (ref:AboutCIs)\\
+s.e. & Standard error & (ref:StandardError)\\
+$n$ & Sample size & (ref:SampleSize)\\
+\addlinespace
+$\chi^2$ & The chi-squared test statistic & (ref:TestStatObs)\\
+$\pm$ & Plus-or-minus (give-or-take) & (ref:CIpKnownp)\\
+\bottomrule
+\end{tabular}
+\endgroup{}
+\end{table}
 

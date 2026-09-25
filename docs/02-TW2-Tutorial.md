@@ -121,14 +121,15 @@ Explain **why** each of these statements is **incorrect**.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash.jpg" alt="" width="30%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/thisisengineering-raeng-sbVu5zitZt0-unsplash} 
+-->
 
 
 Patients who have suffered a stroke often have restricted limb movement, and rehabilitation therapies are studying robotics to assist these patients.
 Read the description (line breaks added for clarity) of one such study [@data:Lo2010:RobotAssistance], then complete the crossword 
-below
+in Fig. \@ref(fig:Crossword-Week2-Terminology)
 regarding this information.
 
 > In this multicenter, randomized, controlled trial involving $127$ patients with moderate-to-severe upper-limb impairment $6$\ months or more after a stroke, we randomly assigned $49$\ patients to receive intensive robot-assisted therapy, $50$ to receive intensive comparison therapy, and $28$\ to receive usual care.  
@@ -169,9 +170,16 @@ regarding this information.
 \pagebreak
 
 
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.85\linewidth]{images/Crossword-Week2} 
+
+}
+
+\caption{A crossword to complete.}(\#fig:Crossword-Week2-Terminology)
+\end{figure}
 
 
-<!--
 \begin{multicols}{2}\small
 \textbf{Across}
 \begin{enumerate}\tightlist
@@ -217,7 +225,7 @@ regarding this information.
   What is Australia's largest cricket oval? (3)
 \end{enumerate}
 \end{multicols}
--->
+
 
 
 
@@ -327,7 +335,7 @@ This activity is very important for helping with your Project.
 
 ::: {.discussBox .discuss data-latex="{iconmonstr-speech-bubble-26-240.png}"}
 Your tutor will have
-information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1292525075807919739)
+ information.
 :::
 
 
@@ -343,9 +351,10 @@ information.[<span style="color: white;">.</span>](https://usc.h5p.com/content/1
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash.jpg" alt="" width="30%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/emiliano-vittoriosi-ONQ86GlHs3c-unsplash} 
+-->
 
 
 A study [@data:Truswell1992:crisps] compared the health benefits of crisps ('potato chips') when fried in canola oil or palmolein.
