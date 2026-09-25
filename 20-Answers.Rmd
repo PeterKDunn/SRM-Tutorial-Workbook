@@ -945,7 +945,7 @@ If the RQ is about odds (and hence odds ratios), then the hypothesis, CI and hyp
 $$
   \text{OR} = \frac{\text{Odds of bites, using citronella candle}}{\text{Odds of bites, using wax candle}}.
 $$
-6. The difference between proportions is $p_C- p_W$.
+6. The difference between proportions is $p_C - p_W$.
    In the population, the proportion of people bitten by mosquitoes is between $0.344$ higher near a **wax** candle to $0.024$ higher near a **citronella** candle.
 7. $0.51\times 2.167 = 1.1$.
 8. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.234$ times (i.e., lower) and $1.102$ times (i.e., higher) than the odds for those sitting near a wax candle.
