@@ -322,18 +322,14 @@ Ideally, explicitly **connect** to:
 
 ### Thoughts on Sect. \@ref(LanguageReport) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}
-Remind students that there is a *Glossary* in the textbook!
-\EndKnitrBlock{rmdTutorInfo}
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">Remind students that there is a *Glossary* in the textbook!</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 
 ### Thoughts on Sect. \@ref(AssessReport) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}
-For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
-Sometimes we need to assume answers or just state that we don't know.
-\EndKnitrBlock{rmdTutorInfo}
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">For newspaper articles, remember that the *reporting* may not be very good, even though the *research* itself may be good.
+Sometimes we need to assume answers or just state that we don't know.</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 
@@ -444,8 +440,7 @@ Notes:
 ### A note on calculators {.unlisted}
 
 
-\BeginKnitrBlock{rmdTutorInfo}
-At present, exams are online.
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">At present, exams are online.
 This means that the need for students to use a calculator is diminished; they can use whatever they want (e.g., spreadsheet or jamovi) I guess. 
 We have no way of knowing anyway. 
 
@@ -454,8 +449,7 @@ Nonetheless, I think that learning to use a calculator for simple calculations i
 Using the **Stats** mode can also be useful.
 
 There *will* be a question in the exam where students are expected to compute a mean and/or standard deviation, so finding a quick way (i.e., not by hand) is important (and you **can tell the students this**).
-Students could use as jamovi or the *Stats* mode on a calculator, for example.
-\EndKnitrBlock{rmdTutorInfo}
+Students could use as jamovi or the *Stats* mode on a calculator, for example.</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 ### [Quick Revision](#QuickRevision-Tutorial3) answers {.unlisted}
@@ -565,8 +559,7 @@ You could ask two groups of students to compute the statistics for the two group
 ### Thoughts on Sect. \@ref(StatsMode) {.unlisted}
 
 
-\BeginKnitrBlock{rmdTutorInfo}
-You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">You may like to suggest that students search on YouTube for some tutorials on using their calculator's **Statistics Mode**.
 
 The Course Outline indicates that a calculator is needed.
 Help students as much as you can, but you cannot be expected to know how to work every type of calculator that is out there. 
@@ -574,8 +567,7 @@ You can perhaps direct students to work with other students having similar calcu
 
 
 If students use the *wrong* standard deviation button, they will get $\sigma = s = 1485.919327$\ tonnes in error.
-**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**
-\EndKnitrBlock{rmdTutorInfo}
+**This is one important outcome of this question: that students know what button to press *on their calculator* to get the sample standard deviation.**</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 
@@ -588,21 +580,48 @@ You may wish to quiz the students about means and IQRs too.
 For your info only (note the means and medians are very similar), see Table\ \@ref(tab:NumericalSummaryAns).
 
 
-\begin{table}
-\centering
-\caption{(\#tab:NumericalSummaryAns)Some statistics from the graphs}
-\centering
-\begin{tabular}[t]{>{}lrrrr}
-\toprule
-\textbf{ } & \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D}\\
-\midrule
-\textbf{Std devs} & 7.04 & 5.90 & 5.10 & 2.84\\
-\textbf{IQRs} & 12.10 & 7.96 & 5.82 & 4.71\\
-\textbf{Medians} & 27.13 & 25.19 & 20.07 & 45.03\\
-\textbf{Means} & 27.15 & 25.26 & 21.49 & 44.95\\
-\bottomrule
-\end{tabular}
-\end{table}
+<table class="table" style="width: auto !important; margin-left: auto; margin-right: auto;">
+<caption>(\#tab:NumericalSummaryAns)(\#tab:NumericalSummaryAns)Some statistics from the graphs</caption>
+ <thead>
+  <tr>
+   <th style="text-align:left;font-weight: bold;">  </th>
+   <th style="text-align:right;font-weight: bold;"> A </th>
+   <th style="text-align:right;font-weight: bold;"> B </th>
+   <th style="text-align:right;font-weight: bold;"> C </th>
+   <th style="text-align:right;font-weight: bold;"> D </th>
+  </tr>
+ </thead>
+<tbody>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Std devs </td>
+   <td style="text-align:right;"> 7.04 </td>
+   <td style="text-align:right;"> 5.90 </td>
+   <td style="text-align:right;"> 5.10 </td>
+   <td style="text-align:right;"> 2.84 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> IQRs </td>
+   <td style="text-align:right;"> 12.10 </td>
+   <td style="text-align:right;"> 7.96 </td>
+   <td style="text-align:right;"> 5.82 </td>
+   <td style="text-align:right;"> 4.71 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Medians </td>
+   <td style="text-align:right;"> 27.13 </td>
+   <td style="text-align:right;"> 25.19 </td>
+   <td style="text-align:right;"> 20.07 </td>
+   <td style="text-align:right;"> 45.03 </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;font-weight: bold;"> Means </td>
+   <td style="text-align:right;"> 27.15 </td>
+   <td style="text-align:right;"> 25.26 </td>
+   <td style="text-align:right;"> 21.49 </td>
+   <td style="text-align:right;"> 44.95 </td>
+  </tr>
+</tbody>
+</table>
 
 
 
@@ -857,14 +876,10 @@ If you have collect data from each person left and right hand (to study the aver
  (Fig.\ \@ref(fig:RulerDrop-jamovi)).
 
 
-\begin{figure}[hbtp]
-
-{\centering \includegraphics[width=0.5\linewidth]{SoftwareImages/RulerDropData} 
-
-}
-
-\caption{Data entered in jamovi for the ruler-drop study}(\#fig:RulerDrop-jamovi)
-\end{figure}
+<div class="figure" style="text-align: center">
+<img src="SoftwareImages/RulerDropData.png" alt="Data entered in jamovi for the ruler-drop study" width="50%" />
+<p class="caption">(\#fig:RulerDrop-jamovi)Data entered in jamovi for the ruler-drop study</p>
+</div>
  
  
 
@@ -991,10 +1006,8 @@ Notice that students cannot be very accurate using the $68$--$95$--$99.7$ rule, 
 
 
 
-\BeginKnitrBlock{rmdTutorInfo}
-**You could have a discussion about rounding.**
-Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?
-\EndKnitrBlock{rmdTutorInfo}
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">**You could have a discussion about rounding.**
+Is it sensible to quote to the nearest millimetre, or tenth of a millimetre?</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 
@@ -1117,10 +1130,8 @@ Time permitting, you could:
 
 ### Thoughts on Sect. \@ref(CIPropBVM) {.unlisted}
 
-\BeginKnitrBlock{rmdTutorInfo}
-**Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
-Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.
-\EndKnitrBlock{rmdTutorInfo}
+\BeginKnitrBlock{rmdTutorInfo}<div class="rmdTutorInfo">**Students commonly forget the square root** when computing $\text{s.e.}(\hat{p})$, and some just have trouble with the maths anyway.
+Furthermore, **the calculators may use scientific notation** to display the results from some calculations (e.g. $2.2894\times 10^{-2}$ or $2.2894^{-2}$ as it displays on some calculators); many students will have no idea what's going on.</div>\EndKnitrBlock{rmdTutorInfo}
 
 
 [**Return to index of tutor information.**](TutorInfo.html)
@@ -1623,7 +1634,7 @@ Ideally, explicitly **connect** to:
 
 
 
-<!--
+
 # Appendix: Image credits {#Image-Credits}
 
 The sources of the images used in the online version of this book 
@@ -1633,10 +1644,109 @@ The sources of the images used in the online version of this book
 and 
 [Pexels](https://www.pexels.com/license/))
 are listed
-in the online book.
+below.
 
 
--->
+
+* Image of the softdrinks (Sect. \@ref(FormingRQs)):
+  Photo by 
+  [PhotoMIX Company](https://www.pexels.com/@wdnet?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/beer-bubble-celebration-cocktail-104509/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a man drinking coffee (Sect. \@ref(CreateRQs)):
+  Photo by
+  [nappy](https://www.pexels.com/@nappy?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+  from 
+  [Pexels](https://www.pexels.com/photo/man-sitting-in-front-of-round-table-while-sipping-from-white-ceramic-mug-936019/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of bamboo (Sect. \@ref(Units); Sect. \@ref(StatsMode)):
+  Photo by 
+  [chuttersnap](https://unsplash.com/@chuttersnap?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/bamboo?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of arm (Sect. \@ref(LanguageReport)):
+  Photo by
+  [ThisisEngineering](https://unsplash.com/@thisisengineering?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/robotic?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText")
+
+* Image of chips (Sect. \@ref(StudyFeatures)):
+  Photo by 
+  [Emiliano Vittoriosi](https://unsplash.com/@emilianovittoriosi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/crisps?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of girl heading a soccer ball (Sect. \@ref(TwoWayTables)):
+  Photo by 
+  [Pixabay](https://www.pexels.com/@pixabay)
+  on
+  [Pexels](https://www.pexels.com/photo/action-active-activity-adolescent-264384/)
+
+* Image of jellyfish (Sect. \@ref(#QuickRevision-Tutorial4)):
+  Photo by 
+  [Jeffrey Hamilton](https://unsplash.com/@pistos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/jellyfish?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of matchbox (Sect. \@ref(ConceptsMatches)):
+  Photo by 
+  [John Finkelstein](https://www.pexels.com/@john-finkelstein-680076?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/redheads-matches-handy-pack-1602905/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a pizza (Sect. \@ref(HTOneMean-A); Sect. \@ref(CIPizzas)):
+  Photo by 
+  [Aurélien Lemasson-Théobald](https://unsplash.com/@aurel__lens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/pizza?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+
+* Image of a rat (Sect. \@ref(CIRatLifetimes)):
+  Photo by 
+  [Alexas Fotos](https://www.pexels.com/@alexasfotos?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/brown-rat-eating-food-2189599/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of ventilation (e.g., Sect. \@ref(CIPropBVM)):
+  Photo by 
+  [Thomas G.](https://pixabay.com/users/tho-ge-113537/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444) 
+  from [Pixabay](https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=6278444)
+
+* Image of a girl with thumbs down (Sect. \@ref(OddsSoftware)):
+  Photo by 
+  [Thomas Park](https://unsplash.com/@thomascpark?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/silly?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+* Image of amputee (Sect. \@ref(CIImplant)):
+  Photo by 
+  [ShotPot](https://www.pexels.com/@shotpot?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+  from 
+  [Pexels](https://www.pexels.com/photo/man-in-red-t-shirt-and-black-shorts-standing-on-treadmill-4046557/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a sub sandwich (Sect. \@ref(MatchRQHypothesis)):
+  Photo by
+  [Raphael Nogueira](https://unsplash.com/@phaelnogueira?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/sub?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  
+* Image of athlete with artificial limb (Sect. \@ref(TestsForORs)):
+  Photo by 
+  [Anna Shvets](https://www.pexels.com/@shvetsa?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) 
+  from 
+  [Pexels](https://www.pexels.com/photo/happy-woman-with-leg-prosthesis-on-stadium-5068676/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
+
+* Image of a car (Sect. \@ref(InterpretRegressions)):
+  Photo by 
+  [Angga Pratama](https://unsplash.com/@negative1?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+  on
+  [Unsplash](https://unsplash.com/s/photos/toyota?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
+
+
+
+
 
 
 
