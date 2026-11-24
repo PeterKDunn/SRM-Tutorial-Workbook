@@ -164,13 +164,13 @@ General tips:
 1. **Relational**: there is a comparison (between Chinese and Indian meals).
 1. Decision-making.
 1. **No**: the researchers did not determine whether a meal was Chinese or Indian.
-1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
 1. A variable is measured on an **individual**; in this case, the amount of salt in the individual meals.
+1. The **Outcome** refers to something quantitatively measured in a **group** (such as an average or percentage) that is the outcome or result of the comparison.
+1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
 1. The **unit of analysis** depends on how the data were collected.  
    Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.  
    Or perhaps restaurant *chains* were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.  
    Or it may be the individual meals. *We need more information.* 
-1. The **unit of observation** is the meal, as the salt content must be assessed from each individual meal.
 1. Conceptual: it defines what a word or term means.
 :::
 

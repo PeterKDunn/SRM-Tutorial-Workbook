@@ -796,7 +796,7 @@
 \makeatother
 \subtitle{An introduction to quantitative research and statistics}
 \author{Peter K. Dunn}
-\date{Last updated: September 25, 2026}
+\date{Last updated: November 24, 2026}
 
 \begin{document}
 \maketitle
@@ -1165,6 +1165,21 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
   If so, what is it?
   \answerbox{2}
 \item
+  What is the \emph{response variable}?
+
+  \begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \tightlist
+  \item
+    The amount of salt in each meal.
+  \item
+    The average amount of salt in Chinese and Indian take-away meals.
+  \item
+    London take-away restaurants.
+  \item
+    The average amount of salt.
+  \end{enumerate}
+\item
   What is the \emph{outcome} in this RQ?
   Explain your answer, and why the other answers are incorrect.
 
@@ -1181,22 +1196,7 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
     The average amount of salt.
   \end{enumerate}
 \item
-  What is the \emph{response variable}?
-
-  \begin{enumerate}
-  \def\labelenumii{\alph{enumii}.}
-  \tightlist
-  \item
-    The amount of salt in each meal.
-  \item
-    The average amount of salt in Chinese and Indian take-away meals.
-  \item
-    London take-away restaurants.
-  \item
-    The average amount of salt.
-  \end{enumerate}
-\item
-  What is the \emph{unit of analysis}?
+  What is the \emph{unit of observation}?
   Explain.
 
   \begin{enumerate}
@@ -1210,7 +1210,7 @@ For London take-away restaurants, is the average amount of salt in a Chinese mea
     Each restaurant.
   \end{enumerate}
 \item
-  What is the \emph{unit of observation}?
+  What is the \emph{unit of analysis}?
   Explain.
 
   \begin{enumerate}
@@ -4025,7 +4025,7 @@ are rated as having a GVM between \(10.7\) and \(26.0\)~tonnes (depending on the
   \answerbox{2}
 \item
   \textbf{True} or \textbf{false}:
-  A standard error measures the size of the difference between the \textbf{sample} proportion and the \textbf{population} proportion.
+  A standard error measures the difference between the value of the \textbf{sample} proportion and the value of the \textbf{population} proportion.
   Explain.
   \answerbox{2}
 \end{enumerate}
@@ -4084,7 +4084,7 @@ The values quoted are the population means~\(\mu\) and standard deviations~\(\si
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Take a wild guess: What percentage of your peers (people your age and gender) do you think would be \emph{shorter} than you?
+  \textbf{Take a wild guess}: What percentage of your peers (people your age and gender) do you think would be \emph{shorter} than you?
   \_\_\_\_\_\_\_\_\%.
 \item
   Write down your own height:
@@ -5981,7 +5981,7 @@ Part of the data are shown entered into jamovi (Fig.~\ref{fig:MaturationData-jam
 \midrule
 \textbf{Males} &  &  & \\
 \textbf{Females} &  &  & \\
-\midrule\\
+\midrule
 \textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{5528}\\
 \bottomrule
 \end{tabular}
@@ -6145,7 +6145,7 @@ In addition, \(65\) subjects used an artificial limb, and \(40\) did not.
 \textbf{Use artificial limb} &  &  & \\
 \addlinespace
 \textbf{Did not use artifical limb} &  &  & \\
-\midrule\\
+\midrule
 \addlinespace
 \textbf{} & Diff.: & Odds ratio: & \\
 \bottomrule
@@ -7166,6 +7166,8 @@ Answers implied by H5P.
 \item
   Because the gender of the person is the explanatory variable.
 \item
+  \((43+39)=\div(43+39+67+97) = 0.333\).
+\item
   (No answer.)
 \item
   \(43\div (43 + 67) \times 100 = 39.1\)\%.
@@ -7483,7 +7485,7 @@ Answers implied by H5P.
   \item
     \(z = (171 - 161.4)/6.7 = 1.43\), so the probability is \(0.9236\) or about \(92\)\%.
   \item
-    So the odds are \(92.36/(100 - 92.36) = 12.1\).
+    So the odds are \(0.9236/(1 - 0.9236) = 92.36/(100 - 92.36) = 12.1\).
   \item
     The answer is just \(1 - 0.9236 = 0.0764\) or about \(7.6\)\%.
   \item
@@ -8115,7 +8117,7 @@ Total & 688 & 4840 & 5528\\
 \midrule
 Males & 0.123 & 0.1401 & 2864\\
 Females & 0.126 & 0.1443 & 2664\\
-\midrule\\
+\midrule
  & Diff: -0.003 & OR: 0.971 & \\
 \bottomrule
 \end{tabular}
@@ -8155,7 +8157,7 @@ Some answers embedded.
 \midrule
 Used art. limb & 49 & 16 & 65\\
 Did not use art. limb & 21 & 19 & 40\\
-\midrule\\
+\midrule
 Total & 70 & 35 & 105\\
 \bottomrule
 \end{tabular}
@@ -8172,7 +8174,7 @@ Total & 70 & 35 & 105\\
 \midrule
 Use artificial limb & 0.754 & 3.06 & 65\\
 Did not use artifical limb & 0.525 & 1.11 & 40\\
-\midrule\\
+\midrule
  & Diff in percentages: 22.9 & OR: 2.771 & 626\\
 \bottomrule
 \end{tabular}
@@ -8584,37 +8586,37 @@ For $z = 5$, the probability is $0.9999997$.
 \toprule
 \textbf{ } & \textbf{Column I} & \textbf{Column II} & \textbf{Column III} & \textbf{Column IV} & \textbf{Column V}\\
 \midrule
-Row A & 7 5 9 7 7 & 4 1 8 0 0 & 8 2 2 3 6 & 5 3 4 5 9 & 8 3 9 5 4\\
-Row B & 7 9 0 5 6 & 7 4 5 7 2 & 9 6 1 4 9 & 3 3 9 6 1 & 7 1 6 2 4\\
-Row C & 8 6 1 3 2 & 3 4 8 2 9 & 0 5 3 8 6 & 7 6 6 8 7 & 3 0 2 7 4\\
-Row D & 9 4 6 3 7 & 7 6 2 7 4 & 9 1 6 3 1 & 0 0 7 1 1 & 0 7 6 4 5\\
-Row E & 4 3 2 8 9 & 5 5 2 5 1 & 4 3 5 4 8 & 7 7 4 2 1 & 9 1 9 6 1\\
+Row A & 4 0 1 9 3 & 1 2 3 3 0 & 2 7 7 3 8 & 4 8 1 8 9 & 3 3 3 7 8\\
+Row B & 7 7 3 4 7 & 5 2 4 9 6 & 8 3 2 7 3 & 8 7 5 0 3 & 9 0 6 2 4\\
+Row C & 7 8 6 3 0 & 1 0 0 8 1 & 3 7 8 5 7 & 7 2 6 1 0 & 2 3 0 8 1\\
+Row D & 4 2 9 5 8 & 5 7 0 3 9 & 5 0 3 5 1 & 7 9 3 6 1 & 3 1 7 9 6\\
+Row E & 4 2 7 9 8 & 5 0 4 0 1 & 8 9 4 2 0 & 7 3 9 3 9 & 4 5 3 3 1\\
 \addlinespace
-Row F & 0 9 2 4 3 & 3 3 4 4 6 & 0 2 7 1 1 & 7 9 0 3 7 & 9 5 4 7 8\\
-Row G & 9 3 4 6 3 & 6 3 9 6 5 & 1 0 7 7 3 & 4 5 8 6 9 & 0 8 6 0 8\\
-Row H & 0 1 6 4 6 & 8 2 3 3 0 & 5 9 0 3 2 & 5 8 8 8 6 & 9 8 6 5 5\\
-Row I & 1 9 6 5 6 & 7 7 8 0 5 & 7 7 3 7 1 & 8 3 5 1 5 & 2 9 2 3 1\\
-Row J & 4 7 6 6 4 & 1 0 6 6 1 & 2 8 1 6 2 & 2 2 3 0 7 & 0 4 6 2 1\\
+Row F & 6 0 4 4 7 & 2 7 7 2 2 & 1 1 9 7 4 & 7 7 6 3 4 & 5 9 8 6 2\\
+Row G & 1 2 1 3 1 & 3 0 4 8 3 & 2 9 7 9 6 & 4 5 0 3 9 & 2 2 6 9 9\\
+Row H & 3 4 0 3 7 & 2 8 2 1 7 & 6 9 5 8 4 & 0 4 4 0 5 & 0 0 1 0 7\\
+Row I & 3 6 5 5 5 & 3 2 0 7 4 & 2 0 0 8 4 & 2 8 0 7 2 & 2 0 0 5 2\\
+Row J & 7 5 5 5 0 & 8 6 8 9 5 & 3 4 7 8 6 & 5 2 6 3 6 & 7 3 1 3 4\\
 \addlinespace
-Row K & 0 0 0 9 7 & 5 6 9 5 9 & 0 8 0 5 6 & 1 9 8 8 2 & 7 3 0 0 4\\
-Row L & 2 6 5 6 5 & 0 9 0 3 5 & 4 4 0 6 2 & 2 2 2 5 5 & 2 7 3 8 2\\
-Row M & 3 3 3 9 5 & 3 1 3 6 0 & 2 9 2 2 8 & 2 5 3 8 5 & 5 6 7 9 3\\
-Row N & 6 4 6 5 9 & 7 3 7 5 0 & 8 2 3 3 6 & 0 7 8 7 6 & 2 0 9 2 3\\
-Row O & 4 4 0 6 1 & 2 6 4 3 9 & 3 1 8 0 8 & 1 3 7 9 2 & 8 9 7 2 3\\
+Row K & 4 5 7 1 6 & 2 4 5 8 7 & 1 1 7 8 0 & 8 5 6 2 0 & 1 5 6 9 6\\
+Row L & 0 9 6 6 1 & 5 1 8 4 9 & 9 9 9 7 6 & 3 9 2 0 5 & 1 3 2 0 3\\
+Row M & 6 4 5 5 9 & 3 8 2 8 3 & 7 6 1 8 6 & 0 1 8 1 6 & 5 5 2 4 0\\
+Row N & 4 6 0 4 1 & 5 8 3 1 3 & 8 5 8 0 9 & 6 9 6 0 4 & 3 6 0 7 1\\
+Row O & 7 5 1 8 9 & 5 1 4 0 3 & 6 6 5 4 7 & 2 7 5 2 8 & 4 2 9 5 4\\
 \addlinespace
-Row P & 6 1 9 3 0 & 3 5 6 4 3 & 2 6 9 2 1 & 0 8 4 5 5 & 1 3 3 8 6\\
-Row Q & 0 0 1 8 5 & 9 9 2 4 0 & 5 6 3 7 2 & 5 3 3 4 4 & 9 9 5 5 4\\
-Row R & 4 2 5 3 7 & 7 3 2 9 7 & 9 9 4 1 5 & 7 9 8 6 2 & 4 1 6 8 6\\
-Row S & 1 0 2 1 6 & 8 0 7 7 3 & 6 6 2 0 2 & 2 6 9 2 8 & 1 5 1 4 3\\
-Row T & 0 0 3 6 9 & 8 0 6 2 6 & 9 9 2 3 1 & 0 0 6 7 9 & 5 9 4 0 4\\
+Row P & 6 5 8 7 1 & 0 7 9 8 6 & 7 6 6 9 2 & 1 1 2 2 9 & 9 7 8 9 4\\
+Row Q & 3 0 4 1 8 & 6 5 6 9 9 & 4 0 8 4 8 & 3 4 0 9 1 & 3 2 4 6 2\\
+Row R & 3 8 4 9 2 & 7 0 2 2 2 & 3 8 2 7 0 & 9 6 3 0 7 & 0 6 6 2 5\\
+Row S & 5 2 9 9 8 & 0 1 3 9 9 & 3 8 7 9 2 & 6 6 8 5 1 & 8 9 3 0 8\\
+Row T & 8 5 6 4 6 & 9 7 0 1 6 & 0 2 6 2 4 & 3 9 1 3 2 & 5 6 2 5 9\\
 \addlinespace
-Row U & 8 3 6 6 6 & 0 8 4 7 8 & 2 6 8 0 0 & 8 1 1 5 5 & 5 9 8 3 2\\
-Row V & 9 9 1 0 9 & 3 0 3 5 9 & 3 6 4 9 8 & 7 4 4 0 3 & 0 3 8 5 2\\
-Row W & 1 7 2 1 0 & 0 6 4 6 1 & 9 7 5 8 9 & 5 2 6 4 2 & 5 5 4 4 2\\
-Row X & 4 8 9 3 6 & 1 8 1 0 0 & 4 1 8 4 9 & 6 4 7 0 9 & 9 9 1 8 5\\
-Row Y & 6 3 5 2 2 & 5 9 7 3 7 & 6 4 9 9 3 & 2 8 1 3 0 & 9 5 6 8 7\\
+Row U & 0 0 2 2 3 & 8 0 3 3 9 & 3 9 4 6 4 & 6 9 7 1 9 & 2 7 3 9 0\\
+Row V & 4 2 0 3 1 & 2 5 6 3 1 & 6 4 0 4 3 & 9 0 9 9 2 & 7 3 7 3 1\\
+Row W & 6 5 6 8 7 & 3 2 3 1 7 & 4 0 5 1 8 & 9 0 3 8 5 & 6 9 6 8 0\\
+Row X & 1 6 6 6 4 & 9 6 6 4 5 & 0 7 6 5 7 & 8 5 5 7 3 & 5 0 2 2 8\\
+Row Y & 4 2 2 2 9 & 8 9 9 7 0 & 4 5 7 0 5 & 5 2 9 4 8 & 5 0 7 3 4\\
 \addlinespace
-Row Z & 9 0 4 6 5 & 4 5 6 8 2 & 1 9 6 4 4 & 7 4 5 7 4 & 0 5 1 0 0\\
+Row Z & 5 8 2 9 3 & 5 7 0 9 7 & 1 2 6 5 5 & 3 3 4 7 7 & 6 9 4 6 7\\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -8680,7 +8682,7 @@ Row Z & 9 0 4 6 5 & 4 5 6 8 2 & 1 9 6 4 4 & 7 4 5 7 4 & 0 5 1 0 0\\
 \midrule
  &  &  &  & CI: $\displaystyle \sqrt{\frac{ \hat{p} \times (1 - \hat{p})}{n}}$ & Ch.~22\\
 \cmidrule{5-6}
-\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Proportion} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ & Ch.~26\\
+\multirow{-2}{21mm}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Proportion} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ & Ch.~26\\
 \cmidrule{1-6}
 Mean & $\bar{x}$ & $\mu$ & \ding{52} & $\displaystyle \frac{s}{\sqrt{n}}$ & Chs.~23, 27\\
 \cmidrule{1-6}
@@ -8690,7 +8692,7 @@ Difference between means & $\bar{x}_1 - \bar{x}_2$ & $\mu_1 - \mu_2$ & \ding{52}
 \cmidrule{1-6}
  &  &  &  & CI: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$ & \\
 \cmidrule{5-5}
-\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Difference between proportions} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}_1 - \hat{p}_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p_1 - p_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & \stackunder{HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$}{using \emph{common} proportion $\hat{p}$} & \multirow{-2}{*}{\raggedright\arraybackslash Ch.~31}\\
+\multirow{-2}{21mm}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Difference between proportions} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}_1 - \hat{p}_2$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p_1 - p_2$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & \stackunder{HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$}{using \emph{common} proportion $\hat{p}$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Ch.~31}\\
 \cmidrule{1-6}
 Odds ratio (OR) & Sample OR & Pop. OR & \ding{55} & (Not given) & Ch.~31\\
 \cmidrule{1-6}
@@ -9166,16 +9168,16 @@ General tips:
 \item
   \textbf{No}: the researchers did not determine whether a meal was Chinese or Indian.
 \item
+  A variable is measured on an \textbf{individual}; in this case, the amount of salt in the individual meals.
+\item
   The \textbf{Outcome} refers to something quantitatively measured in a \textbf{group} (such as an average or percentage) that is the outcome or result of the comparison.
 \item
-  A variable is measured on an \textbf{individual}; in this case, the amount of salt in the individual meals.
+  The \textbf{unit of observation} is the meal, as the salt content must be assessed from each individual meal.
 \item
   The \textbf{unit of analysis} depends on how the data were collected.\\
   Any given restaurant probably uses salt in a similar way, so if many meals were taken from each restaurant, the restaurant would be the unit of analysis.\\
   Or perhaps restaurant \emph{chains} were used and restaurants in the same chain are likely to operate in a similar way, and the restaurant chain would be the unit of analysis.\\
   Or it may be the individual meals. \emph{We need more information.}
-\item
-  The \textbf{unit of observation} is the meal, as the salt content must be assessed from each individual meal.
 \item
   Conceptual: it defines what a word or term means.
 \end{enumerate}

@@ -304,6 +304,7 @@ mean(bf); sd(bf); median(bf); IQR(bf)
 ### Answers for Sect.\ \@ref(PercentOddsStroke) {.unlisted .unnumbered}
 
 1. Because the gender of the person is the explanatory variable.
+1. $(43+39)=\div(43+39+67+97) = 0.333$.
 1. (No answer.)
 1. $43\div (43 + 67) \times 100 = 39.1$%. 
 1. $39\div (97 + 39) \times 100 = 28.7$%.
@@ -518,7 +519,7 @@ In addition, the proportion of the population with an IQ **above** $85$ is about
    between $161.4 \pm13.4$ approximately, or from $148.0$cm to $174.8$cm.
 7. As follows:
     * $z = (171 - 161.4)/6.7 = 1.43$, so the probability is $0.9236$ or about $92$%.
-    * So the odds are $92.36/(100 - 92.36) = 12.1$.
+    * So the odds are $0.9236/(1 - 0.9236) = 92.36/(100 - 92.36) = 12.1$.
     * The answer is just $1 - 0.9236 = 0.0764$ or about $7.6$%.
     * The probability of **over 171cm** is $7.64$%.
     * So the odds are $7.64/(100 - 7.64)= 0.083$.
@@ -972,7 +973,7 @@ Total & 688 & 4840 & 5528\\
 \midrule
 Males & 0.123 & 0.1401 & 2864\\
 Females & 0.126 & 0.1443 & 2664\\
-\midrule\\
+\midrule
  & Diff: -0.003 & OR: 0.971 & \\
 \bottomrule
 \end{tabular}
@@ -1007,7 +1008,7 @@ Some answers embedded.
 \midrule
 Used art. limb & 49 & 16 & 65\\
 Did not use art. limb & 21 & 19 & 40\\
-\midrule\\
+\midrule
 Total & 70 & 35 & 105\\
 \bottomrule
 \end{tabular}
@@ -1025,7 +1026,7 @@ Total & 70 & 35 & 105\\
 \midrule
 Use artificial limb & 0.754 & 3.06 & 65\\
 Did not use artifical limb & 0.525 & 1.11 & 40\\
-\midrule\\
+\midrule
  & Diff in percentages: 22.9 & OR: 2.771 & 626\\
 \bottomrule
 \end{tabular}

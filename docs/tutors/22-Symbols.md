@@ -66,7 +66,7 @@ The following information appears in this Appendix:
 \midrule
  &  &  &  & CI: $\displaystyle \sqrt{\frac{ \hat{p} \times (1 - \hat{p})}{n}}$ & (ref:SamplingDistributionPropCI)\\
 \cmidrule{5-6}
-\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Proportion} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ & (ref:SamplingDistributionPropHT)\\
+\multirow{-2}{21mm}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Proportion} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & HT: $\displaystyle \sqrt{\frac{ p \times (1 - p)}{n}}$ & (ref:SamplingDistributionPropHT)\\
 \cmidrule{1-6}
 Mean & $\bar{x}$ & $\mu$ & \ding{52} & $\displaystyle \frac{s}{\sqrt{n}}$ & (ref:SamplingDistributionXbarCI)\\
 \cmidrule{1-6}
@@ -76,7 +76,7 @@ Difference between means & $\bar{x}_1 - \bar{x}_2$ & $\mu_1 - \mu_2$ & \ding{52}
 \cmidrule{1-6}
  &  &  &  & CI: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$ & \\
 \cmidrule{5-5}
-\multirow{-2}{21mm}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Difference between proportions} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}_1 - \hat{p}_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p_1 - p_2$} & \multirow{-2}{*}[0.5\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & \stackunder{HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$}{using \emph{common} proportion $\hat{p}$} & \multirow{-2}{*}{\raggedright\arraybackslash (ref:SamplingDistributionTwoProps)}\\
+\multirow{-2}{21mm}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash Difference between proportions} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $\hat{p}_1 - \hat{p}_2$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash $p_1 - p_2$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\centering\arraybackslash \ding{52}} & \stackunder{HT: $\displaystyle \sqrt{\text{s.e.}(\hat{p}_1)^2 + \text{s.e.}(\hat{p}_2)^2}$}{using \emph{common} proportion $\hat{p}$} & \multirow{-2}{*}[1\dimexpr\aboverulesep+\belowrulesep+\cmidrulewidth]{\raggedright\arraybackslash (ref:SamplingDistributionTwoProps)}\\
 \cmidrule{1-6}
 Odds ratio (OR) & Sample OR & Pop. OR & \ding{55} & (Not given) & (ref:SamplingDistributionORCI)\\
 \cmidrule{1-6}

@@ -194,7 +194,7 @@ Part of the data are shown entered into jamovi (Fig.\ \@ref(fig:MaturationData-j
 \midrule
 \textbf{Males} &  &  & \\
 \textbf{Females} &  &  & \\
-\midrule\\
+\midrule
 \textbf{\textbf{Total}} & \textbf{} & \textbf{} & \textbf{5528}\\
 \bottomrule
 \end{tabular}
@@ -336,7 +336,7 @@ In addition, $65$ subjects used an artificial limb, and $40$ did not.
 \textbf{Use artificial limb} &  &  & \\
 \addlinespace
 \textbf{Did not use artifical limb} &  &  & \\
-\midrule\\
+\midrule
 \addlinespace
 \textbf{} & Diff.: & Odds ratio: & \\
 \bottomrule

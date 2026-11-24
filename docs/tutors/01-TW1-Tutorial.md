@@ -62,23 +62,23 @@ Consider this RQ (based on @data:jaworowska2012:determination):
 3. Is an *intervention* present? 
    If so, what is it?
 \answerbox{2}
-4. What is the *outcome* in this RQ?
+4. What is the *response variable*?
+    a. The amount of salt in each meal.
+    b. The average amount of salt in Chinese and Indian take-away meals.
+    c. London take-away restaurants.
+    d. The average amount of salt.
+5. What is the *outcome* in this RQ?
    Explain your answer, and why the other answers are incorrect. 
     a. The amount of salt in each meal.
     b. The average amount of salt in Chinese and Indian take-away meals.
     c. London take-away restaurants.
     d. The average amount of salt.
-5. What is the *response variable*?
-    a. The amount of salt in each meal.
-    b. The average amount of salt in Chinese and Indian take-away meals.
-    c. London take-away restaurants.
-    d. The average amount of salt.
-6. What is the *unit of analysis*?
+6. What is the *unit of observation*?
    Explain. 
    a. We need more information about how the data were collected.
    b. Each meal.
    c. Each restaurant.
-7. What is the *unit of observation*?
+7. What is the *unit of analysis*?
    Explain. 
    a. We need more information about how the data were collected.
    b. Each meal.
