@@ -70,9 +70,10 @@ You will learn and practice the content associated with these chapters of the [t
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/pexels-john-finkelstein-1602905.jpg" alt="" width="30%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.3\linewidth,style="float:right; padding:10px"]{Illustrations/pexels-john-finkelstein-1602905} 
+-->
 
 
 Claire and Jake were wondering about the mean number of matches in a box.
@@ -141,6 +142,27 @@ There was $44$\ matches.
 
 
 
+Two formulas for the **standard error** are:  
+$$
+  \text{s.e.}(\hat{p}) = \sqrt{\frac{\hat{p} \times (1 - \hat{p})}{n}}
+  \qquad
+  \text{and}
+  \qquad
+  \text{s.e.}(\bar{x}) = \frac{s}{\sqrt{n}}.
+$$
+
+1. When should each formula be used?
+\answerbox{1}
+2. What does\ $\hat{p}$ represent?
+\answerbox{1}
+3. What does\ $n$ represent?
+\answerbox{1}
+4. What does\ $s$ represent?
+\answerbox{1}
+5. What does "$\text{s.e.}$" represent?
+\answerbox{1}
+
+
 
 
 <iframe src="https://usc.h5p.com/content/1291039013241820579/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
@@ -155,10 +177,14 @@ The BVM ('ball valve mask') method is also used.
 
 @data:Gausche200:Endotracheal examined the use of ETI for airway management of children in the out-of-hospital setting.
 
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/Gausche2000-PartialAbstract.png" alt="Part of the Abstract from Gausche et al. (2000)." width="70%" />
-<p class="caption">(\#fig:Gausche2000Abstract)Part of the Abstract from Gausche et al. (2000).</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ArticleImages/Gausche2000-PartialAbstract} 
+
+}
+
+\caption{Part of the Abstract from Gausche et al. (2000).}(\#fig:Gausche2000Abstract)
+\end{figure}
 
 
 1. For the **BVM sample**, $123$ out of the $404$\ patients survived.
@@ -194,9 +220,10 @@ The BVM ('ball valve mask') method is also used.
 
 <!-- Text wrap from: https://stackoverflow.com/questions/43551312/wrap-text-around-plots-in-markdown -->
 <!-- Trick from: https://blog.earo.me/2019/10/26/reduce-frictions-rmd/ -->
+<!--
 
-<img src="Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash.jpg" alt="" width="50%" style="float:right; padding:10px" />
-
+\includegraphics[width=0.5\linewidth,style="float:right; padding:10px"]{Illustrations/aurelien-lemasson-theobald-x00CzBt4Dfk-unsplash} 
+-->
 
 
 In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims) that Eagle Boys pizzas were 'Real size $12$-inch large pizzas' in an effort to out-market *Dominos Pizza*.
@@ -204,10 +231,14 @@ In 2011, *Eagle Boys Pizza* ran a campaign that claimed (among many other claims
 Eagle Boy's made the data behind the campaign publicly available [@mypapers:Dunn:PizzaSize].
 A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is shown in Fig.\ \@ref(fig:PizzaCIjamovi).
 
-<div class="figure" style="text-align: center">
-<img src="SoftwareImages/PizzaDiameters-jamovi.png" alt="Summary statistics for the diameter of Eagle Boys' large pizzas." width="42%" />
-<p class="caption">(\#fig:PizzaCIjamovi)Summary statistics for the diameter of Eagle Boys' large pizzas.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.42\linewidth]{SoftwareImages/PizzaDiameters-jamovi} 
+
+}
+
+\caption{Summary statistics for the diameter of Eagle Boys' large pizzas.}(\#fig:PizzaCIjamovi)
+\end{figure}
 
 1. What do\ $\mu$ and\ $\bar{x}$ represent in this context? \tightlist 
 \answerbox{2}
@@ -241,19 +272,23 @@ A summary of the diameters of a sample of $125$ of Eagle Boys' large pizzas is s
 
 \answerbox{2}
    
-<div class="figure" style="text-align: center">
-<img src="07-TW7-Tutorial_files/figure-html/PizzaHistoCI-1.png" alt="Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches." width="65%" />
-<p class="caption">(\#fig:PizzaHistoCI)Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.65\linewidth]{07-TW7-Tutorial_files/figure-latex/PizzaHistoCI-1} 
+
+}
+
+\caption{Histogram for the diameter of Eagle Boys' large pizzas. The cross is the claimed diameter of 12 inches.}(\#fig:PizzaHistoCI)
+\end{figure}
 
 12. Do you think that, on average, the pizzas do have a mean diameter of $12$\ inches in the population, as Eagle Boy's claim?
     Explain.
 \answerbox{2}
     
-
+<!--
 <iframe src='https://www.ferendum.com/en/embeded.php?pregunta_ID=458369&sec_digit=776424948&embeded_digit=21580733' style='width:100%; height:500px; overflow: auto; background: #B3919133' frameBorder='0'></iframe><BR>
 <A href='https://www.ferendum.com' target='_blank'>Free Online Poll Maker</A>
-
+-->
 
 
 <!-- Admin link: -->

@@ -53,10 +53,14 @@ Take careful note of which chapters are covered in this tutorial!
 @others:lunn:cida compared the dimensions of jellyfish at two sites at Hawkesbury River, NSW (Dangar Island; Salamander Bay) to determine the difference between the jellyfish at each site.
 A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \@ref(fig:JellyfishHist).
 
-<div class="figure" style="text-align: center">
-<img src="05-TW5-Tutorial_files/figure-html/JellyfishHist-1.png" alt="A histogram of the breadth of jellyfish at Dangar Island." width="50%" />
-<p class="caption">(\#fig:JellyfishHist)A histogram of the breadth of jellyfish at Dangar Island.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.5\linewidth]{05-TW5-Tutorial_files/figure-latex/JellyfishHist-1} 
+
+}
+
+\caption{A histogram of the breadth of jellyfish at Dangar Island.}(\#fig:JellyfishHist)
+\end{figure}
 
 
 1. Two students are arguing about the median breadth.
@@ -95,10 +99,14 @@ A histogram of the breadth of jellyfish at Dangar Island Bay is shown in Fig.\ \
 \answerbox{1}
 
 
-<div class="figure" style="text-align: center">
-<img src="05-TW5-Tutorial_files/figure-html/JellyfishBoxplots-1.png" alt="A boxplot of the breadth of jellyfish at two sites." width="50%" />
-<p class="caption">(\#fig:JellyfishBoxplots)A boxplot of the breadth of jellyfish at two sites.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.5\linewidth]{05-TW5-Tutorial_files/figure-latex/JellyfishBoxplots-1} 
+
+}
+
+\caption{A boxplot of the breadth of jellyfish at two sites.}(\#fig:JellyfishBoxplots)
+\end{figure}
 :::
 
 
@@ -130,10 +138,14 @@ You don't know what 'standard error' means yet, so don't worry about that column
 \answerbox{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/StudentResults1.png" alt="A numerical summary from a student Project." width="70%" />
-<p class="caption">(\#fig:StudentsNumSumA)A numerical summary from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/StudentResults1} 
+
+}
+
+\caption{A numerical summary from a student Project.}(\#fig:StudentsNumSumA)
+\end{figure}
 
 
 
@@ -143,10 +155,14 @@ You don't know what 'standard error' means yet, so don't worry about that column
 
    The RQ is '*Is there a difference between the proportions of drink orders that are for coffee (rather than non-coffee) comparing the morning and the afternoon?*'
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/NumericalSummaryChi2.png" alt="A numerical summary from a student Project." width="100%" />
-<p class="caption">(\#fig:StudentsNumSumChiA)A numerical summary from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=1\linewidth]{ProjectImages/NumericalSummaryChi2} 
+
+}
+
+\caption{A numerical summary from a student Project.}(\#fig:StudentsNumSumChiA)
+\end{figure}
 
 
 <!--
@@ -158,10 +174,14 @@ You don't know what 'standard error' means yet, so don't worry about that column
 	 
 \answerbox{4}
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/StudentResults2.png" alt="A numerical summary from a student Project." width="60%" />
-<p class="caption">(\#fig:StudentsNumSumB)A numerical summary from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.6\linewidth]{ProjectImages/StudentResults2} 
+
+}
+
+\caption{A numerical summary from a student Project.}(\#fig:StudentsNumSumB)
+\end{figure}
 -->
 
 Make some notes about important things you learnt from this activity, to remember when creating your numerical summaries for Task\ 2B.
@@ -181,10 +201,14 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \answerbox{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/BareBoxplot.png" alt="A graph from a student Project." width="70%" />
-<p class="caption">(\#fig:StudentsGraphsA)A graph from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/BareBoxplot} 
+
+}
+
+\caption{A graph from a student Project.}(\#fig:StudentsGraphsA)
+\end{figure}
 
 
 
@@ -194,10 +218,14 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \answerbox{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/DodgyBar.png" alt="A graph from a student Project." width="75%" />
-<p class="caption">(\#fig:StudentsGraphsB)A graph from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.75\linewidth]{ProjectImages/DodgyBar} 
+
+}
+
+\caption{A graph from a student Project.}(\#fig:StudentsGraphsB)
+\end{figure}
 -->
 
 
@@ -205,10 +233,14 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
 \answerbox{4}
 
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/GraphicalSummaryChi2.png" alt="A graph from a student Project." width="65%" />
-<p class="caption">(\#fig:StudentsGraphsChiB)A graph from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.65\linewidth]{ProjectImages/GraphicalSummaryChi2} 
+
+}
+
+\caption{A graph from a student Project.}(\#fig:StudentsGraphsChiB)
+\end{figure}
 
 
 
@@ -216,10 +248,14 @@ In this activity, you get to critique actual SCI110 Project submissions, so you 
    Identify ways to improve the graph.
 \answerbox{4}
 
-<div class="figure" style="text-align: center">
-<img src="ProjectImages/WrongBar.png" alt="A graph from a student Project." width="70%" />
-<p class="caption">(\#fig:StudentsGraphsC)A graph from a student Project.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.7\linewidth]{ProjectImages/WrongBar} 
+
+}
+
+\caption{A graph from a student Project.}(\#fig:StudentsGraphsC)
+\end{figure}
 
 
 Make some notes about important things you learnt from this activity, to remember when creating your graphs for Task\ 2B.
@@ -233,16 +269,16 @@ Answer the following questions, referring to Fig.\ \@ref(fig:GuessesCorr).
 The four correlation coefficients $r$ are:
 
 
-<table>
-<tbody>
-  <tr>
-   <td style="text-align:center;"> **A**: $r = -0.95$ </td>
-   <td style="text-align:center;"> **B**: $r = 0.12$ </td>
-   <td style="text-align:center;"> **C**: $r = 0.75$ </td>
-   <td style="text-align:center;"> **D**: $r = 0.94$ </td>
-  </tr>
-</tbody>
-</table>
+\begin{table}
+\centering\begingroup\fontsize{10}{12}\selectfont
+
+\begin{tabular}{cccc}
+\toprule
+\textbf{A}: $r = -0.95$\qquad\qquad & \textbf{B}: $r = 0.12$\qquad\qquad & \textbf{C}: $r = 0.75$\qquad\qquad & \textbf{D}: $r = 0.94$\\
+\bottomrule
+\end{tabular}
+\endgroup{}
+\end{table}
 
 
 1. For two plots, a correlation is not suitable.
@@ -260,10 +296,14 @@ The four correlation coefficients $r$ are:
 
 
 
-<div class="figure" style="text-align: center">
-<img src="05-TW5-Tutorial_files/figure-html/GuessesCorr-1.png" alt="Six different scatterplots." width="85%" />
-<p class="caption">(\#fig:GuessesCorr)Six different scatterplots.</p>
-</div>
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.85\linewidth]{05-TW5-Tutorial_files/figure-latex/GuessesCorr-1} 
+
+}
+
+\caption{Six different scatterplots.}(\#fig:GuessesCorr)
+\end{figure}
 
 
 ## Numerical summary for ruler-drop data {#PlanStudy4}
@@ -284,20 +324,79 @@ A study of different orthoses (orthotic devices) in children with cerebral palsy
 'Gross Motor Function Classification System', which is a five-level classification system describing the gross motor function of people with cerebral palsy, based on self-initiated movement abilities.
 (Higher classification numbers refer to less motor function.)
 
-
-
-
-<!--
-
-<div class="figure" style="text-align: center">
-<img src="ArticleImages/Swinnen-Table1-Cropped.png" alt="The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System)." width="95%" />
-<p class="caption">(\#fig:Orthoses)The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System).</p>
-</div>
--->
+The data are shown in Fig.&nbsp;\@ref(fig:Orthoses).
 
 
 
 
+\begin{figure}[hbtp]
+
+{\centering \includegraphics[width=0.95\linewidth]{ArticleImages/Swinnen-Table1-Cropped} 
+
+}
+
+\caption{The data collected from a study of orthoses (GMFCS: Gross Motor Function Classification System).}(\#fig:Orthoses)
+\end{figure}
+
+
+
+
+
+1. How many quantitative *continuous* variable(s) appear in the data set?
+   Which are they?
+\answerbox{2}
+2. How many qualitative *ordinal* variable(s) appear in the data set?
+   Which are they?
+\answerbox{2}
+3. How many qualitative *nominal* variable(s) appear in the data set?
+   Which are they?
+\answerbox{2}
+    
+\pagebreak
+
+4. What statistics could be used to *numerically* summarise the variable **Age**?
+    a. Odds.
+    b. Standard deviation.
+    c. Percentage.
+    d. Mean.
+5. What statistics could be used to *numerically* summarise the variable **Gender**?
+    a. Odds.
+    b. Standard deviation.
+    c. Percentage.
+    d. Mean.
+6. What statistics could be used to *numerically* summarise the variable **GMFCS**?
+    a. Odds.
+    b. Standard deviation.
+    c. Percentage.
+    d. Mean.
+7. What graph could be used to *graphically* summarise the variable **Age**?
+    a. Pie chart.
+    b. Stem-and-leaf plot.
+    c. Scatterplot.
+    d. Boxplot.
+    e. Bar chart.
+    f. Histogram.
+8. What graph could be used to *graphically* summarise the variable **GMFCS**?
+    a. Pie chart.
+    b. Stem-and-leaf plot.
+    c. Scatterplot.
+    d. Boxplot.
+    e. Bar chart.
+    f. Histogram.
+9. What graph could be used to *graphically* summarise the relationship between **Gender** and **Height**?
+    a. Pie chart.
+    b. Side-by-side bar chart.
+    c. Scatterplot.
+    d. Boxplot.
+    e. Bar chart.
+    f. Histogram.
+10. What graph could be used to *graphically* summarise the relationship between **Gender** and **GMFCS**?
+    a. Pie chart.
+    b. Side-by-side bar chart.
+    c. Scatterplot.
+    d. Boxplot.
+    e. Bar chart.
+    f. Histogram.
 
 
 <iframe src="https://usc.h5p.com/content/1291015706670675039/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://usc.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>

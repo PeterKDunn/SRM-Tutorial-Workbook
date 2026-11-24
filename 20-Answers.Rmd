@@ -952,7 +952,7 @@ $$
 8. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.234$ times (i.e., lower) and $1.102$ times (i.e., higher) than the odds for those sitting near a wax candle.
 9. In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $0.11$ and $0.94$ times the odds for those sitting near a wax candle (i.e., is lower).
 10.In the population, the odds of someone receiving mosquito bites when sitting near a citronella candle is between $1.28$ and $4.13$ times the odds for those sitting near a wax candle (i.e., is higher).
-11. The smallest expected count will be $42\times 44/118 = 15.7$, which comfortably exceeds five: the CIs are statistically valid.
+11. The smallest expected count will be $42\times 44/118 = 15.7$, which comfortably exceeds five: the CIs are statistically valid.aa
 
 
 <!--
